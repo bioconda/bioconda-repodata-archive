@@ -57,6 +57,11 @@ class OutputConfig:
         "platform",
         "summary",
         "type",
+        "binstar",
+        "has_prefix",
+        "machine",
+        "operatingsystem",
+        "target-triplet",
     )
 
 

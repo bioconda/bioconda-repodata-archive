@@ -1,7 +1,7 @@
 name: Fetch Repodata
 on:
   schedule:
-  - cron: '0,15,30,45 * * * *'
+  - cron: '0 * * * *'
   pull_request:
 
 jobs:
@@ -14,7 +14,7 @@ jobs:
       VERSION_MAYOR: 1
       # NOTE: Incrememt VERSION_MINOR when causing diffs due to non-channel
       #       updates, e.g., adding/changing --trim-key or --subdir.
-      VERSION_MINOR: 1
+      VERSION_MINOR: 2
       # NOTE: Incrememt VERSION_CHANNELS when changing the list of channels.
       VERSION_CHANNELS: 1
 
@@ -61,9 +61,12 @@ jobs:
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add -A ./repodata
+        git status
+        find ./repodata -name repodata.json \
+          | xargs stat --format=%s\ %n -- \
+          | sort -n
         version="${{ env.VERSION_MAYOR }}.${{ env.VERSION_MINOR }}.${{ env.VERSION_CHANNELS }}"
         time="$( head -n1 ./repodata/.time )"
-        git status
         git commit -m "repodata: ${time} version: ${version}"
         # Convert timestamp to version-like tags, e.g.,
         # VERSION_MAYOR=1 VERSION_MINOR=1 VERSION_CHANNELS=1 and time='2021-02-03T04:05:06+00:00
@@ -82,4 +85,6 @@ jobs:
 
     - if: ${{ github.ref == 'refs/heads/main' }}
       name: Push changes
-      run: git push --tags
+      run: |
+        git push
+        git push --tags
