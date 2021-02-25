@@ -1,7 +1,7 @@
 name: Fetch Repodata
 on:
   schedule:
-  - cron: '0 * * * *'
+  - cron: '0,15,30,45 * * * *'
   pull_request:
 
 jobs:
@@ -25,6 +25,7 @@ jobs:
       run: |
         pip install ntplib requests urllib3
         ./fetch-repodata.py \
+          --trim \
           --channel https://conda.anaconda.org/bioconda \
           --channel https://conda.anaconda.org/conda-forge \
           \
@@ -62,6 +63,7 @@ jobs:
         git add -A ./repodata
         version="${{ env.VERSION_MAYOR }}.${{ env.VERSION_MINOR }}.${{ env.VERSION_CHANNELS }}"
         time="$( head -n1 ./repodata/.time )"
+        git status
         git commit -m "repodata: ${time} version: ${version}"
         # Convert timestamp to version-like tags, e.g.,
         # VERSION_MAYOR=1 VERSION_MINOR=1 VERSION_CHANNELS=1 and time='2021-02-03T04:05:06+00:00
@@ -76,7 +78,6 @@ jobs:
         git tag -- "${version_date_tag}" || true
         git tag -- "${date_tag}" || true
 
-        git log -1 --patch --color=always | cat
         git tag | tail -n3
 
     - if: ${{ github.ref == 'refs/heads/main' }}
