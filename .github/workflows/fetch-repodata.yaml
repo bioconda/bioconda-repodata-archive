@@ -78,8 +78,12 @@ jobs:
         version_time_tag="${version}.$( printf %s "${time}" | sed 's/+.*// ; s/[-T:]/./g' )"
         version_date_tag="${version}.${date_tag}"
         git tag -- "${version_time_tag}"
-        git tag -- "${version_date_tag}" || true
-        git tag -- "${date_tag}" || true
+        for tag in "${version_date_tag}" "${date_tag}" ; do
+          git ls-remote --tags \
+            | grep -o '[^/]*$' \
+            | grep -qFx -- "${tag}" \
+            || git tag -- "${tag}"
+        done
 
         git tag | tail -n3
 
