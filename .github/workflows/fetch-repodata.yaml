@@ -11,7 +11,7 @@ jobs:
     env:
       # NOTE: Incrememt VERSION_MAYOR when making mayor/incompatible changes,
       #       e.g., changing directory layout etc.
-      VERSION_MAYOR: 1
+      VERSION_MAYOR: 2
       # NOTE: Incrememt VERSION_MINOR when causing diffs due to non-channel
       #       updates, e.g., adding/changing --trim-key or --subdir.
       VERSION_MINOR: 2
@@ -62,7 +62,7 @@ jobs:
         git config user.email github-actions@github.com
         git add -A ./repodata
         git status
-        find ./repodata -name repodata.json \
+        find ./repodata -name \*repodata.json \
           | xargs stat --format=%s\ %n -- \
           | sort -n
         version="${{ env.VERSION_MAYOR }}.${{ env.VERSION_MINOR }}.${{ env.VERSION_CHANNELS }}"

@@ -39,6 +39,11 @@ _DEFAULT_SUBDIRS = (
     "win-64",
 )
 
+_DEFAULT_REPODATA_FNS = (
+    "repodata.json",
+    "current_repodata.json",
+)
+
 
 @dataclass
 class OutputConfig:
@@ -119,10 +124,15 @@ def cleanup_unneeded_info(
 
 
 def fetch_repodata(
-    session: Session, timestamp: str, output_config: OutputConfig, channel: str, subdir: str
+    session: Session,
+    timestamp: str,
+    output_config: OutputConfig,
+    channel: str,
+    subdir: str,
+    repodata_fn: str,
 ) -> Tuple[str, str, bool]:
     url_prefix = f"{channel}/{subdir}"
-    url = f"{url_prefix}/repodata.json"
+    url = f"{url_prefix}/{repodata_fn}"
     logger.info(f"Fetching {url} ...")
     try:
         response = session.get(url)
@@ -130,17 +140,17 @@ def fetch_repodata(
     except HTTPError as e:
         if e.response.status_code == 404:
             logger.warning(
-                "No repodata.json found for subdir %s in channel %s .", subdir, channel
+                "No %s found for subdir %s in channel %s .", repodata_fn, subdir, channel
             )
             return channel, subdir, False
         raise
     else:
         input_repodata = json_loads(response.text)
         output_repodata = cleanup_unneeded_info(input_repodata, output_config.trim_keys)
-        output_subdir = re_sub("//", "%2F/", urllib_quote(url_prefix))
+        output_subdir = re_sub("//", "%2F/", urllib_quote(url_prefix)).replace("%", "=")
         output_dir = output_config.output_root + "/" + output_subdir
         os.makedirs(output_dir, exist_ok=True)
-        output_file_path = f"{output_dir}/repodata.json"
+        output_file_path = f"{output_dir}/{repodata_fn}"
         logger.info(f"Writing {output_file_path} ...")
         with open(output_file_path + ".time", "w") as output_timestamp_file:
             print(timestamp, file=output_timestamp_file)
@@ -156,7 +166,10 @@ def fetch_repodata(
 
 
 def fetch(
-    output_config: OutputConfig, channels: Tuple[str, ...], subdirs: Tuple[str, ...]
+    output_config: OutputConfig,
+    channels: Tuple[str, ...],
+    subdirs: Tuple[str, ...],
+    repodata_fns: Tuple[str, ...],
 ) -> None:
     with Session() as session:
         session.headers["User-Agent"] += " https://github.com/bioconda/bioconda-repodata"
@@ -172,13 +185,20 @@ def fetch(
         timestamp = get_ntp_time()
         with ProcessPoolExecutor() as executor:
             futures = []
-            for subdir in subdirs:
-                for channel in channels:
-                    futures.append(
-                        executor.submit(
-                            fetch_repodata, session, timestamp, output_config, channel, subdir
-                        ),
-                    )
+            for channel in channels:
+                for subdir in subdirs:
+                    for repodata_fn in repodata_fns:
+                        futures.append(
+                            executor.submit(
+                                fetch_repodata,
+                                session,
+                                timestamp,
+                                output_config,
+                                channel,
+                                subdir,
+                                repodata_fn,
+                            ),
+                        )
             unfetched_channels = set(channels)
             for future in as_completed(futures):
                 channel, _, success = future.result()
@@ -186,7 +206,7 @@ def fetch(
                     unfetched_channels -= {channel}
             if unfetched_channels:
                 raise FetchError(
-                    "No repodata.json found for any subdir in channels %s .",
+                    "No repodata found for any subdir in channels %s .",
                     unfetched_channels,
                 )
     with open(f"{output_config.output_root}/.time", "w") as timestamp_file:
@@ -195,11 +215,12 @@ def fetch(
 
 def parse_args(
     parser: ArgumentParser, argv: Optional[List[str]]
-) -> Tuple[str, OutputConfig, Tuple[str, ...], Tuple[str, ...]]:
+) -> Tuple[str, OutputConfig, Tuple[str, ...], Tuple[str, ...], Tuple[str, ...]]:
     args = parser.parse_args(argv)
 
     channels = tuple(map(str, args.channel))
     subdirs = tuple(map(str, args.subdirs))
+    repodata_fns = tuple(map(str, args.repodata_fns))
 
     output_config = OutputConfig(
         output_root=args.output,
@@ -210,7 +231,7 @@ def parse_args(
 
     log_level: str = args.log_level.upper()
 
-    return log_level, output_config, channels, subdirs
+    return log_level, output_config, channels, subdirs, repodata_fns
 
 
 def get_argument_parser() -> ArgumentParser:
@@ -230,6 +251,13 @@ def get_argument_parser() -> ArgumentParser:
         default=_DEFAULT_SUBDIRS,
         dest="subdirs",
         help="Subdir.",
+    )
+    parser.add_argument(
+        "--repodata_fn",
+        action=AppendDefaultAction,
+        default=_DEFAULT_REPODATA_FNS,
+        dest="repodata_fns",
+        help="Repodata file name.",
     )
     parser.add_argument(
         "--output",
@@ -252,7 +280,7 @@ def get_argument_parser() -> ArgumentParser:
         action="store_true",
         help=(
             "Remove redundant or seldomly used package metadata. "
-            "Can be used with --trim-key to shrink output repodata.json files by ~15 %%."
+            "Can be used with --trim-key to shrink output repodata JSON files by ~15 %%."
         ),
     )
     parser.add_argument(
@@ -272,12 +300,14 @@ def get_argument_parser() -> ArgumentParser:
 
 def main(argv: Optional[List[str]] = None) -> None:
     argument_parser = get_argument_parser()
-    log_level, output_config, channels, subdirs = parse_args(argument_parser, argv)
+    log_level, output_config, channels, subdirs, repodata_fns = parse_args(
+        argument_parser, argv
+    )
     log_handler = StreamHandler()
     log_handler.setLevel(log_level)
     logger.addHandler(log_handler)
     logger.setLevel(log_level)
-    fetch(output_config, channels, subdirs)
+    fetch(output_config, channels, subdirs, repodata_fns)
 
 
 if __name__ == "__main__":
