@@ -1,0 +1,1828 @@
+{
+"info":{
+"arch":"x86_64",
+"default_numpy_version":"1.7",
+"default_python_version":"2.7",
+"platform":"linux",
+"subdir":"linux-64"
+},
+"packages":{
+"arb-bio-6.0.6-hdec243e_2.tar.bz2":{
+"build":"hdec243e_2",
+"build_number":2,
+"depends":[
+"arb-bio-tools 6.0.6 2",
+"gettext >=0.19.8.1,<1.0a0",
+"libgcc-ng >=4.9",
+"libpng >=1.6.34,<1.7.0a0",
+"libstdcxx-ng >=4.9",
+"libtiff >=4.0.9,<5.0a0",
+"libxslt >=1.1.32,<2.0a0",
+"xerces-c >=3.2.0,<3.2.1.0a0"
+],
+"license":"ARB",
+"name":"arb-bio",
+"requires":[],
+"size":8249574,
+"timestamp":1536187870135,
+"version":"6.0.6"
+},
+"arb-bio-devel-6.0.6-2.tar.bz2":{
+"build":"2",
+"build_number":2,
+"depends":[
+"arb-bio 6.0.6 hdec243e_2"
+],
+"license":"ARB",
+"name":"arb-bio-devel",
+"requires":[],
+"size":2336055,
+"timestamp":1536187882875,
+"version":"6.0.6"
+},
+"arb-bio-tools-6.0.6-2.tar.bz2":{
+"build":"2",
+"build_number":2,
+"depends":[
+"libarbdb 6.0.6 2"
+],
+"license":"ARB",
+"name":"arb-bio-tools",
+"requires":[],
+"size":665346,
+"timestamp":1536187855691,
+"version":"6.0.6"
+},
+"bcftools-1.9-h4da6232_0.tar.bz2":{
+"build":"h4da6232_0",
+"build_number":0,
+"depends":[
+"bzip2 >=1.0.6,<2.0a0",
+"curl >=7.59.0,<8.0a0",
+"libdeflate",
+"libgcc-ng >=4.9",
+"xz >=5.2.3,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT",
+"name":"bcftools",
+"requires":[],
+"size":808501,
+"timestamp":1531943491609,
+"version":"1.9"
+},
+"bioconductor-biocgenerics-0.26.0-r3.4.1_0.tar.bz2":{
+"build":"r3.4.1_0",
+"build_number":0,
+"depends":[
+"r-base 3.4.1*"
+],
+"license":"Artistic-2.0",
+"name":"bioconductor-biocgenerics",
+"requires":[],
+"size":642402,
+"version":"0.26.0"
+},
+"bioconductor-deseq2-1.18.1-r3.4.1_0.tar.bz2":{
+"build":"r3.4.1_0",
+"build_number":0,
+"depends":[
+"bioconductor-biobase",
+"bioconductor-biocgenerics >=0.7.5",
+"bioconductor-biocparallel",
+"bioconductor-genefilter",
+"bioconductor-geneplotter",
+"bioconductor-genomicranges",
+"bioconductor-iranges",
+"bioconductor-s4vectors >=0.9.25",
+"bioconductor-summarizedexperiment >=1.1.6",
+"bioconductor-tximport",
+"r-base 3.4.1*",
+"r-getopt",
+"r-ggplot2",
+"r-gplots",
+"r-hmisc",
+"r-hmisc",
+"r-locfit",
+"r-rcpp >=0.11.0",
+"r-rcpparmadillo",
+"r-rjson"
+],
+"license":"LGPL (>= 3)",
+"name":"bioconductor-deseq2",
+"requires":[],
+"size":2581205,
+"version":"1.18.1"
+},
+"bioconductor-genomeinfodb-1.16.0-r3.4.1_0.tar.bz2":{
+"build":"r3.4.1_0",
+"build_number":0,
+"depends":[
+"bioconductor-biocgenerics >=0.13.8",
+"bioconductor-genomeinfodbdata",
+"bioconductor-iranges >=2.13.12",
+"bioconductor-s4vectors >=0.17.25",
+"r-base 3.4.1*",
+"r-rcurl"
+],
+"license":"Artistic-2.0",
+"name":"bioconductor-genomeinfodb",
+"requires":[],
+"size":3815350,
+"version":"1.16.0"
+},
+"bioconductor-genomeinfodbdata-0.99.1-r3.4.1_0.tar.bz2":{
+"build":"r3.4.1_0",
+"build_number":0,
+"depends":[
+"r-base 3.4.1*",
+"wget"
+],
+"license":"Artistic-2.0",
+"name":"bioconductor-genomeinfodbdata",
+"requires":[],
+"size":4479,
+"version":"0.99.1"
+},
+"bioconductor-genomicranges-1.32.3-r3.4.1_0.tar.bz2":{
+"build":"r3.4.1_0",
+"build_number":0,
+"depends":[
+"bioconductor-biocgenerics >=0.25.3",
+"bioconductor-genomeinfodb >=1.15.2",
+"bioconductor-iranges >=2.14.4",
+"bioconductor-s4vectors >=0.17.32",
+"bioconductor-xvector >=0.19.8",
+"r-base 3.4.1*"
+],
+"license":"Artistic-2.0",
+"name":"bioconductor-genomicranges",
+"requires":[],
+"size":1673863,
+"version":"1.32.3"
+},
+"bioconductor-iranges-2.14.10-r3.4.1_0.tar.bz2":{
+"build":"r3.4.1_0",
+"build_number":0,
+"depends":[
+"bioconductor-biocgenerics >=0.25.3",
+"bioconductor-s4vectors >=0.18.2",
+"r-base 3.4.1*"
+],
+"license":"Artistic-2.0",
+"name":"bioconductor-iranges",
+"requires":[],
+"size":1664430,
+"version":"2.14.10"
+},
+"bioconductor-mzr-2.12.0-r3.4.1_0.tar.bz2":{
+"build":"r3.4.1_0",
+"build_number":0,
+"depends":[
+"bioconductor-biobase",
+"bioconductor-biocgenerics >=0.13.6",
+"bioconductor-protgenerics >=1.9.1",
+"bioconductor-zlibbioc",
+"boost 1.64*",
+"r-base 3.4.1*",
+"r-ncdf4",
+"r-rcpp >=0.10.1"
+],
+"license":"Artistic-2.0",
+"name":"bioconductor-mzr",
+"requires":[],
+"size":4290069,
+"version":"2.12.0"
+},
+"bioconductor-rhdf5lib-1.4.2-r351h14c3975_0.tar.bz2":{
+"build":"r351h14c3975_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=7.3.0",
+"r-base >=3.5.1,<3.5.2.0a0"
+],
+"license":"Artistic-2.0",
+"name":"bioconductor-rhdf5lib",
+"requires":[],
+"size":3655513,
+"timestamp":1544399613427,
+"version":"1.4.2"
+},
+"bioconductor-rhdf5lib-1.4.2-r351h14c3975_1.tar.bz2":{
+"build":"r351h14c3975_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=7.3.0",
+"r-base >=3.5.1,<3.5.2.0a0"
+],
+"license":"Artistic-2.0",
+"name":"bioconductor-rhdf5lib",
+"requires":[],
+"size":3655717,
+"timestamp":1545071820073,
+"version":"1.4.2"
+},
+"bioconductor-rhdf5lib-1.4.2-r351h470a237_0.tar.bz2":{
+"build":"r351h470a237_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=4.9",
+"r-base >=3.5.1,<3.5.2.0a0"
+],
+"license":"Artistic-2.0",
+"name":"bioconductor-rhdf5lib",
+"requires":[],
+"size":3595156,
+"timestamp":1544692191045,
+"version":"1.4.2"
+},
+"bioconductor-rhdf5lib-1.4.2-r351h9c0d707_1.tar.bz2":{
+"build":"r351h9c0d707_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=4.9",
+"libgfortran >=3.0",
+"r-base >=3.5.1,<3.5.2.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Artistic-2.0",
+"name":"bioconductor-rhdf5lib",
+"requires":[],
+"size":3656788,
+"timestamp":1548348486729,
+"version":"1.4.2"
+},
+"bioconductor-s4vectors-0.18.1-r3.4.1_0.tar.bz2":{
+"build":"r3.4.1_0",
+"build_number":0,
+"depends":[
+"bioconductor-biocgenerics >=0.23.3",
+"r-base 3.4.1*"
+],
+"license":"Artistic-2.0",
+"name":"bioconductor-s4vectors",
+"requires":[],
+"size":1520818,
+"version":"0.18.1"
+},
+"bioconductor-s4vectors-0.18.2-r3.4.1_0.tar.bz2":{
+"build":"r3.4.1_0",
+"build_number":0,
+"depends":[
+"bioconductor-biocgenerics >=0.23.3",
+"r-base 3.4.1*"
+],
+"license":"Artistic-2.0",
+"name":"bioconductor-s4vectors",
+"requires":[],
+"size":1522581,
+"version":"0.18.2"
+},
+"bioconductor-xvector-0.20.0-r3.4.1_0.tar.bz2":{
+"build":"r3.4.1_0",
+"build_number":0,
+"depends":[
+"bioconductor-biocgenerics >=0.19.2",
+"bioconductor-iranges >=2.13.16",
+"bioconductor-s4vectors >=0.17.24",
+"bioconductor-zlibbioc",
+"r-base 3.4.1*"
+],
+"license":"Artistic-2.0",
+"name":"bioconductor-xvector",
+"requires":[],
+"size":455746,
+"version":"0.20.0"
+},
+"blasr-5.3.9c6f0a5-0.tar.bz2":{
+"build":"0",
+"build_number":0,
+"depends":[
+"blasr_libcpp",
+"hdf5",
+"libgcc",
+"pbbam"
+],
+"license":"BSD-3-Clause-Clear",
+"name":"blasr",
+"requires":[],
+"size":2273026,
+"version":"5.3.9c6f0a5"
+},
+"blasr-5.3.f8bfa9c-0.tar.bz2":{
+"build":"0",
+"build_number":0,
+"depends":[
+"blasr_libcpp",
+"hdf5",
+"libgcc",
+"pbbam"
+],
+"license":"BSD-3-Clause-Clear",
+"name":"blasr",
+"requires":[],
+"size":2578040,
+"version":"5.3.f8bfa9c"
+},
+"bowtie2-2.2.5-0.tar.bz2":{
+"build":"0",
+"build_number":0,
+"depends":[],
+"license":"GPLv3",
+"name":"bowtie2",
+"requires":[],
+"size":15452948,
+"version":"2.2.5"
+},
+"bracken-1.0.0-py35pl5.22.0_0.tar.bz2":{
+"build":"py35pl5.22.0_0",
+"build_number":0,
+"depends":[
+"kraken",
+"perl 5.22.0*",
+"perl-list-moreutils",
+"perl-parallel-forkmanager",
+"python 3.5*"
+],
+"license":"GPL-3.0",
+"name":"bracken",
+"requires":[],
+"size":22650,
+"version":"1.0.0"
+},
+"bracken-1.0.0-py36pl5.22.0_0.tar.bz2":{
+"build":"py36pl5.22.0_0",
+"build_number":0,
+"depends":[
+"kraken",
+"perl 5.22.0*",
+"perl-list-moreutils",
+"perl-parallel-forkmanager",
+"python 3.6*"
+],
+"license":"GPL-3.0",
+"name":"bracken",
+"requires":[],
+"size":22638,
+"version":"1.0.0"
+},
+"bracken-2.2-py35h2d50403_0.tar.bz2":{
+"build":"py35h2d50403_0",
+"build_number":0,
+"depends":[
+"kraken",
+"kraken2",
+"libstdcxx-ng >=4.9",
+"python >=3.5,<3.6.0a0"
+],
+"license":"GPL-3.0",
+"name":"bracken",
+"requires":[],
+"size":301143,
+"timestamp":1538109704630,
+"version":"2.2"
+},
+"bracken-2.2-py36h2d50403_0.tar.bz2":{
+"build":"py36h2d50403_0",
+"build_number":0,
+"depends":[
+"kraken",
+"kraken2",
+"libstdcxx-ng >=4.9",
+"python >=3.6,<3.7.0a0"
+],
+"license":"GPL-3.0",
+"name":"bracken",
+"requires":[],
+"size":301184,
+"timestamp":1538109593392,
+"version":"2.2"
+},
+"busco-3.0.2-py35_0.tar.bz2":{
+"build":"py35_0",
+"build_number":0,
+"depends":[
+"augustus",
+"blast",
+"hmmer",
+"python 3.5*",
+"r-ggplot2"
+],
+"license":"GPL",
+"name":"busco",
+"requires":[],
+"size":66184,
+"version":"3.0.2"
+},
+"busco-3.0.2-py35_1.tar.bz2":{
+"build":"py35_1",
+"build_number":1,
+"depends":[
+"augustus",
+"blast",
+"hmmer",
+"python 3.5*",
+"r-ggplot2"
+],
+"license":"GPL",
+"name":"busco",
+"requires":[],
+"size":65126,
+"version":"3.0.2"
+},
+"busco-3.0.2-py35_2.tar.bz2":{
+"build":"py35_2",
+"build_number":2,
+"depends":[
+"augustus",
+"blast",
+"hmmer",
+"python 3.5*",
+"r-ggplot2",
+"wget"
+],
+"license":"GPL",
+"name":"busco",
+"requires":[],
+"size":66148,
+"version":"3.0.2"
+},
+"busco-3.0.2-py35_3.tar.bz2":{
+"build":"py35_3",
+"build_number":3,
+"depends":[
+"augustus >=3.2.3",
+"blast",
+"hmmer",
+"python 3.5*",
+"r-ggplot2 >=2.2.1",
+"wget"
+],
+"license":"GPL",
+"name":"busco",
+"requires":[],
+"size":66397,
+"version":"3.0.2"
+},
+"busco-3.0.2-py36_0.tar.bz2":{
+"build":"py36_0",
+"build_number":0,
+"depends":[
+"augustus",
+"blast",
+"hmmer",
+"python 3.6*",
+"r-ggplot2"
+],
+"license":"GPL",
+"name":"busco",
+"requires":[],
+"size":65670,
+"version":"3.0.2"
+},
+"busco-3.0.2-py36_1.tar.bz2":{
+"build":"py36_1",
+"build_number":1,
+"depends":[
+"augustus",
+"blast",
+"hmmer",
+"python 3.6*",
+"r-ggplot2"
+],
+"license":"GPL",
+"name":"busco",
+"requires":[],
+"size":64727,
+"version":"3.0.2"
+},
+"busco-3.0.2-py36_2.tar.bz2":{
+"build":"py36_2",
+"build_number":2,
+"depends":[
+"augustus",
+"blast",
+"hmmer",
+"python 3.6*",
+"r-ggplot2",
+"wget"
+],
+"license":"GPL",
+"name":"busco",
+"requires":[],
+"size":65806,
+"version":"3.0.2"
+},
+"busco-3.0.2-py36_3.tar.bz2":{
+"build":"py36_3",
+"build_number":3,
+"depends":[
+"augustus >=3.2.3",
+"blast",
+"hmmer",
+"python 3.6*",
+"r-ggplot2 >=2.2.1",
+"wget"
+],
+"license":"GPL",
+"name":"busco",
+"requires":[],
+"size":65910,
+"version":"3.0.2"
+},
+"circos-0.69.6-3.tar.bz2":{
+"build":"3",
+"build_number":3,
+"depends":[
+"libwebp <1.0.0",
+"perl",
+"perl-clone",
+"perl-config-general",
+"perl-digest-perl-md5",
+"perl-font-ttf",
+"perl-gd",
+"perl-list-moreutils",
+"perl-math-bezier",
+"perl-math-round",
+"perl-math-vecstat",
+"perl-params-validate",
+"perl-readonly",
+"perl-regexp-common",
+"perl-set-intspan",
+"perl-statistics-basic",
+"perl-svg",
+"perl-text-format",
+"perl-time-hires"
+],
+"license":"GNU General Public License v2 (GPLv2)",
+"name":"circos",
+"requires":[],
+"size":27176095,
+"timestamp":1541124168898,
+"version":"0.69.6"
+},
+"fastaindex-0.11c-py34_0.tar.bz2":{
+"build":"py34_0",
+"build_number":0,
+"depends":[
+"python 3.4*",
+"setuptools"
+],
+"license":"GPLv3",
+"name":"fastaindex",
+"requires":[],
+"size":19140,
+"version":"0.11c"
+},
+"fastaindex-0.11c-py35_0.tar.bz2":{
+"build":"py35_0",
+"build_number":0,
+"depends":[
+"python 3.5*",
+"setuptools"
+],
+"license":"GPLv3",
+"name":"fastaindex",
+"requires":[],
+"size":19096,
+"version":"0.11c"
+},
+"fastaindex-0.11c-py36_0.tar.bz2":{
+"build":"py36_0",
+"build_number":0,
+"depends":[
+"python 3.6*",
+"setuptools"
+],
+"license":"GPLv3",
+"name":"fastaindex",
+"requires":[],
+"size":18858,
+"version":"0.11c"
+},
+"fastqc-0.11.2-0.tar.bz2":{
+"build":"0",
+"build_number":0,
+"depends":[],
+"license":"GPL",
+"name":"fastqc",
+"requires":[],
+"size":802339,
+"version":"0.11.2"
+},
+"freebayes-1.1.0-py34_1.tar.bz2":{
+"build":"py34_1",
+"build_number":1,
+"depends":[
+"libgcc",
+"python 3.4*",
+"zlib"
+],
+"license":"MIT",
+"name":"freebayes",
+"requires":[],
+"size":4259349,
+"version":"1.1.0"
+},
+"freebayes-1.1.0-py35_1.tar.bz2":{
+"build":"py35_1",
+"build_number":1,
+"depends":[
+"libgcc",
+"python 3.5*",
+"zlib"
+],
+"license":"MIT",
+"name":"freebayes",
+"requires":[],
+"size":4259391,
+"version":"1.1.0"
+},
+"freebayes-1.1.0-py36_1.tar.bz2":{
+"build":"py36_1",
+"build_number":1,
+"depends":[
+"libgcc",
+"python 3.6*",
+"zlib"
+],
+"license":"MIT",
+"name":"freebayes",
+"requires":[],
+"size":4259956,
+"version":"1.1.0"
+},
+"freebayes-1.3.3-py27hc088bd4_0.tar.bz2":{
+"build":"py27hc088bd4_0",
+"build_number":0,
+"depends":[
+"bzip2 >=1.0.8,<2.0a0",
+"htslib",
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"parallel",
+"python >=2.7,<2.8.0a0",
+"xz >=5.2.4,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT",
+"name":"freebayes",
+"requires":[],
+"size":16821231,
+"timestamp":1579718723494,
+"version":"1.3.3"
+},
+"freebayes-1.3.3-py36hc088bd4_0.tar.bz2":{
+"build":"py36hc088bd4_0",
+"build_number":0,
+"depends":[
+"bzip2 >=1.0.8,<2.0a0",
+"htslib",
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"parallel",
+"python >=3.6,<3.7.0a0",
+"xz >=5.2.4,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT",
+"name":"freebayes",
+"requires":[],
+"size":16821546,
+"timestamp":1579719744255,
+"version":"1.3.3"
+},
+"freebayes-1.3.3-py37hc088bd4_0.tar.bz2":{
+"build":"py37hc088bd4_0",
+"build_number":0,
+"depends":[
+"bzip2 >=1.0.8,<2.0a0",
+"htslib",
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"parallel",
+"python >=3.7,<3.8.0a0",
+"xz >=5.2.4,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT",
+"name":"freebayes",
+"requires":[],
+"size":16821659,
+"timestamp":1579719227415,
+"version":"1.3.3"
+},
+"gawk-4.1.0-0.tar.bz2":{
+"build":"0",
+"build_number":0,
+"depends":[],
+"license":"GPL",
+"name":"gawk",
+"requires":[],
+"size":2396615,
+"version":"4.1.0"
+},
+"gawk-4.1.3-0.tar.bz2":{
+"build":"0",
+"build_number":0,
+"depends":[],
+"license":"GPLv3",
+"name":"gawk",
+"requires":[],
+"size":2704063,
+"version":"4.1.3"
+},
+"gawk-4.1.3-1.tar.bz2":{
+"build":"1",
+"build_number":1,
+"depends":[
+"gmp",
+"mpfr",
+"readline"
+],
+"license":"GPLv3",
+"name":"gawk",
+"requires":[],
+"size":1193808,
+"version":"4.1.3"
+},
+"genomelake-0.1.5-py27h516909a_0.tar.bz2":{
+"build":"py27h516909a_0",
+"build_number":0,
+"depends":[
+"bcolz >=1.1",
+"libgcc-ng >=7.3.0",
+"numpy",
+"pybedtools",
+"pybigwig",
+"pysam",
+"python >=2.7,<2.8.0a0",
+"six >=1.9.0"
+],
+"license":"BSD License",
+"name":"genomelake",
+"requires":[],
+"size":92513,
+"timestamp":1573560976648,
+"version":"0.1.5"
+},
+"genomelake-0.1.5-py36h516909a_0.tar.bz2":{
+"build":"py36h516909a_0",
+"build_number":0,
+"depends":[
+"bcolz >=1.1",
+"libgcc-ng >=7.3.0",
+"numpy",
+"pybedtools",
+"pybigwig",
+"pysam",
+"python >=3.6,<3.7.0a0",
+"six >=1.9.0"
+],
+"license":"BSD License",
+"name":"genomelake",
+"requires":[],
+"size":94345,
+"timestamp":1573561245955,
+"version":"0.1.5"
+},
+"genomelake-0.1.5-py37h516909a_0.tar.bz2":{
+"build":"py37h516909a_0",
+"build_number":0,
+"depends":[
+"bcolz >=1.1",
+"libgcc-ng >=7.3.0",
+"numpy",
+"pybedtools",
+"pybigwig",
+"pysam",
+"python >=3.7,<3.8.0a0",
+"six >=1.9.0"
+],
+"license":"BSD License",
+"name":"genomelake",
+"requires":[],
+"size":93855,
+"timestamp":1573561109259,
+"version":"0.1.5"
+},
+"genometools-genometools-1.5.10-0.tar.bz2":{
+"build":"0",
+"build_number":0,
+"depends":[
+"cairo",
+"gettext",
+"libgcc",
+"pango",
+"xorg-libsm",
+"xorg-libxext",
+"xorg-libxrender"
+],
+"license":"BSD",
+"name":"genometools-genometools",
+"requires":[],
+"size":21741380,
+"version":"1.5.10"
+},
+"genometools-genometools-1.5.10-h2a2fab4_1.tar.bz2":{
+"build":"h2a2fab4_1",
+"build_number":1,
+"depends":[
+"cairo >=1.14.12,<1.15.0a0",
+"gettext",
+"libgcc-ng >=4.9",
+"pango >=1.40.14,<1.41.0a0",
+"xorg-libsm",
+"xorg-libxext",
+"xorg-libxrender"
+],
+"license":"BSD",
+"name":"genometools-genometools",
+"requires":[],
+"size":21742202,
+"timestamp":1530943450770,
+"version":"1.5.10"
+},
+"genometools-genometools-1.5.10-h470a237_1.tar.bz2":{
+"build":"h470a237_1",
+"build_number":1,
+"depends":[
+"gettext",
+"libgcc-ng >=4.9"
+],
+"license":"BSD",
+"name":"genometools-genometools",
+"requires":[],
+"size":21143198,
+"timestamp":1530944237604,
+"version":"1.5.10"
+},
+"genometools-genometools-1.5.10-nocairo_0.tar.bz2":{
+"build":"nocairo_0",
+"build_number":0,
+"depends":[
+"gettext",
+"libgcc"
+],
+"license":"BSD",
+"name":"genometools-genometools",
+"requires":[],
+"size":21154692,
+"version":"1.5.10"
+},
+"genometools-genometools-1.5.9-0.tar.bz2":{
+"build":"0",
+"build_number":0,
+"depends":[
+"gettext",
+"pango"
+],
+"license":"BSD",
+"name":"genometools-genometools",
+"requires":[],
+"size":21113569,
+"version":"1.5.9"
+},
+"genometools-genometools-1.5.9-1.tar.bz2":{
+"build":"1",
+"build_number":1,
+"depends":[
+"gettext",
+"libgcc",
+"pango",
+"xorg-libsm",
+"xorg-libxext",
+"xorg-libxrender"
+],
+"license":"BSD",
+"name":"genometools-genometools",
+"requires":[],
+"size":21164134,
+"version":"1.5.9"
+},
+"genomicconsensus-3.0.2-py27_0.tar.bz2":{
+"build":"py27_0",
+"build_number":0,
+"depends":[
+"h5py >=2.0.1",
+"libgcc",
+"numpy >=1.6.0",
+"pbcommand >=0.3.20",
+"pbcore >=1.2.9",
+"python 2.7*",
+"python-consensuscore >=1.0.1"
+],
+"license":"Redistribution and use in source and binary forms, with or without modification",
+"name":"genomicconsensus",
+"requires":[],
+"size":76687,
+"version":"3.0.2"
+},
+"genomicconsensus-3.0.2-py27h470a237_2.tar.bz2":{
+"build":"py27h470a237_2",
+"build_number":2,
+"depends":[
+"h5py >=2.0.1",
+"libgcc-ng >=4.9",
+"numpy >=1.6.0",
+"pbcommand >=0.3.20",
+"pbcore >=1.2.9",
+"python >=2.7,<2.8.0a0",
+"python-consensuscore >=1.0.1"
+],
+"license":"Redistribution and use in source and binary forms, with or without modification",
+"name":"genomicconsensus",
+"requires":[],
+"size":82013,
+"timestamp":1529958485090,
+"version":"3.0.2"
+},
+"gffcompare-0.10.1-0.tar.bz2":{
+"build":"0",
+"build_number":0,
+"depends":[
+"gclib",
+"libgcc"
+],
+"license":"Artistic License 2.0",
+"name":"gffcompare",
+"requires":[],
+"size":205449,
+"version":"0.10.1"
+},
+"hicexplorer-2.1.4-np113py27_1.tar.bz2":{
+"build":"np113py27_1",
+"build_number":1,
+"depends":[
+"biopython >=1.68",
+"configparser >=3.5.*",
+"cooler <=0.7.6",
+"future",
+"intervaltree",
+"jinja2",
+"matplotlib 2.1.*",
+"numpy 1.13.*",
+"pandas",
+"pybigwig",
+"pysam",
+"pytables",
+"python 2.7*",
+"scipy 1.0.*",
+"six",
+"unidecode"
+],
+"license":"GPL3",
+"name":"hicexplorer",
+"requires":[],
+"size":223857,
+"version":"2.1.4"
+},
+"htseq-0.6.1.post1-py27_0.tar.bz2":{
+"build":"py27_0",
+"build_number":0,
+"depends":[
+"matplotlib",
+"numpy",
+"python 2.7*",
+"setuptools"
+],
+"license":"GNU General Public License (GPL)",
+"name":"htseq",
+"requires":[],
+"size":819227,
+"version":"0.6.1.post1"
+},
+"htseq-0.6.1.post1-py27_1.tar.bz2":{
+"build":"py27_1",
+"build_number":1,
+"depends":[
+"matplotlib",
+"numpy",
+"pysam",
+"python 2.7*",
+"setuptools"
+],
+"license":"GNU General Public License (GPL)",
+"name":"htseq",
+"requires":[],
+"size":788986,
+"version":"0.6.1.post1"
+},
+"htseq-0.6.1.post1-py27h24bf2e0_2.tar.bz2":{
+"build":"py27h24bf2e0_2",
+"build_number":2,
+"depends":[
+"matplotlib",
+"numpy",
+"pysam",
+"python >=2.7,<2.8.0a0"
+],
+"license":"GNU General Public License (GPL)",
+"name":"htseq",
+"requires":[],
+"size":792580,
+"timestamp":1529972829889,
+"version":"0.6.1.post1"
+},
+"htseq-0.6.1.post1-py27h7eb728f_3.tar.bz2":{
+"build":"py27h7eb728f_3",
+"build_number":3,
+"depends":[
+"libgcc-ng >=4.9",
+"matplotlib",
+"numpy >=1.9.3,<2.0a0",
+"pysam",
+"python >=2.7,<2.8.0a0"
+],
+"license":"GNU General Public License (GPL)",
+"name":"htseq",
+"requires":[],
+"size":790854,
+"timestamp":1544038436921,
+"version":"0.6.1.post1"
+},
+"libarbdb-6.0.6-2.tar.bz2":{
+"build":"2",
+"build_number":2,
+"depends":[
+"gettext",
+"glib"
+],
+"license":"ARB",
+"name":"libarbdb",
+"requires":[],
+"size":332004,
+"timestamp":1536187852139,
+"version":"6.0.6"
+},
+"libmagic-5.25-0.tar.bz2":{
+"build":"0",
+"build_number":0,
+"depends":[],
+"license":"https://raw.githubusercontent.com/file/file/master/COPYING",
+"name":"libmagic",
+"requires":[],
+"size":640829,
+"version":"5.25"
+},
+"lofreq-2.1.4-py27hc3dfafe_0.tar.bz2":{
+"build":"py27hc3dfafe_0",
+"build_number":0,
+"depends":[
+"htslib >=1.9,<1.10.0a0",
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"python >=2.7,<2.8.0a0"
+],
+"license":"MIT",
+"name":"lofreq",
+"requires":[],
+"size":145853,
+"timestamp":1579107295781,
+"version":"2.1.4"
+},
+"lofreq-2.1.4-py36hc3dfafe_0.tar.bz2":{
+"build":"py36hc3dfafe_0",
+"build_number":0,
+"depends":[
+"htslib >=1.9,<1.10.0a0",
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"python >=3.6,<3.7.0a0"
+],
+"license":"MIT",
+"name":"lofreq",
+"requires":[],
+"size":145862,
+"timestamp":1579107215942,
+"version":"2.1.4"
+},
+"lofreq-2.1.4-py37hc3dfafe_0.tar.bz2":{
+"build":"py37hc3dfafe_0",
+"build_number":0,
+"depends":[
+"htslib >=1.9,<1.10.0a0",
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"python >=3.7,<3.8.0a0"
+],
+"license":"MIT",
+"name":"lofreq",
+"requires":[],
+"size":145891,
+"timestamp":1579107365536,
+"version":"2.1.4"
+},
+"logol-1.7.8-0.tar.bz2":{
+"build":"0",
+"build_number":0,
+"depends":[
+"cassiopee",
+"openjdk",
+"ruby",
+"swi-prolog"
+],
+"license":"Affero GPL 3.0",
+"name":"logol",
+"requires":[],
+"size":17383829,
+"version":"1.7.8"
+},
+"mentalist-0.2.4-h3c2d85e_0.tar.bz2":{
+"build":"h3c2d85e_0",
+"build_number":0,
+"depends":[
+"hdf5 >=1.10.3,<1.10.4.0a0",
+"julia 0.6.1.*",
+"libxml2",
+"mpfr >=4.0.1,<5.0a0",
+"unzip"
+],
+"license":"MIT",
+"name":"mentalist",
+"requires":[],
+"size":145845073,
+"timestamp":1544561383357,
+"version":"0.2.4"
+},
+"nspdk-9.2-1.tar.bz2":{
+"build":"1",
+"build_number":1,
+"depends":[
+"libgcc",
+"zlib 1.2.11*"
+],
+"license":"GNUv3",
+"name":"nspdk",
+"requires":[],
+"size":187104,
+"version":"9.2"
+},
+"peakachu-0.1.0-py35h470a237_2.tar.bz2":{
+"build":"py35h470a237_2",
+"build_number":2,
+"depends":[
+"bcbiogff >=0.6.4",
+"bioconductor-deseq2 >=1.18.1",
+"bioconductor-edger",
+"biopython >=1.69",
+"blockbuster",
+"libgcc-ng >=4.9",
+"matplotlib >=2.0.2",
+"numexpr >=2.6.2",
+"pandas >=0.20.2",
+"pysam >=0.11.2.2",
+"python >=3.5,<3.6.0a0",
+"rpy2 >=2.8.5",
+"statsmodels >=0.8.0"
+],
+"license":"ISCL",
+"name":"peakachu",
+"requires":[],
+"size":201537,
+"timestamp":1530137940908,
+"version":"0.1.0"
+},
+"peakachu-0.1.0-py36h470a237_2.tar.bz2":{
+"build":"py36h470a237_2",
+"build_number":2,
+"depends":[
+"bcbiogff >=0.6.4",
+"bioconductor-deseq2 >=1.18.1",
+"bioconductor-edger",
+"biopython >=1.69",
+"blockbuster",
+"libgcc-ng >=4.9",
+"matplotlib >=2.0.2",
+"numexpr >=2.6.2",
+"pandas >=0.20.2",
+"pysam >=0.11.2.2",
+"python >=3.6,<3.7.0a0",
+"rpy2 >=2.8.5",
+"statsmodels >=0.8.0"
+],
+"license":"ISCL",
+"name":"peakachu",
+"requires":[],
+"size":200996,
+"timestamp":1530137664918,
+"version":"0.1.0"
+},
+"perl-gd-2.56-2.tar.bz2":{
+"build":"2",
+"build_number":2,
+"depends":[
+"libgcc",
+"libgd",
+"perl-threaded >=5.22.0"
+],
+"license":"perl_5",
+"name":"perl-gd",
+"requires":[],
+"size":83730,
+"version":"2.56"
+},
+"perl-text-soundex-3.05-0.tar.bz2":{
+"build":"0",
+"build_number":0,
+"depends":[
+"perl-threaded"
+],
+"license":"perl_5",
+"name":"perl-text-soundex",
+"requires":[],
+"size":8563,
+"version":"3.05"
+},
+"pizzly-0.37.3-0.tar.bz2":{
+"build":"0",
+"build_number":0,
+"depends":[],
+"license":"BSD-2",
+"name":"pizzly",
+"requires":[],
+"size":2905834,
+"version":"0.37.3"
+},
+"pizzly-0.37.3-py27_1.tar.bz2":{
+"build":"py27_1",
+"build_number":1,
+"depends":[
+"h5py",
+"numpy",
+"python 2.7*"
+],
+"license":"BSD-2",
+"name":"pizzly",
+"requires":[],
+"size":2926179,
+"version":"0.37.3"
+},
+"pizzly-0.37.3-py35_1.tar.bz2":{
+"build":"py35_1",
+"build_number":1,
+"depends":[
+"h5py",
+"numpy",
+"python 3.5*"
+],
+"license":"BSD-2",
+"name":"pizzly",
+"requires":[],
+"size":2925780,
+"version":"0.37.3"
+},
+"pizzly-0.37.3-py36_1.tar.bz2":{
+"build":"py36_1",
+"build_number":1,
+"depends":[
+"h5py",
+"numpy",
+"python 3.6*"
+],
+"license":"BSD-2",
+"name":"pizzly",
+"requires":[],
+"size":2926671,
+"version":"0.37.3"
+},
+"poretools-0.6.1a1-py27_0.tar.bz2":{
+"build":"py27_0",
+"build_number":0,
+"depends":[
+"h5py >=2.2.0",
+"hdf5 >=1.8.7",
+"matplotlib",
+"pandas",
+"python 2.7*",
+"seaborn"
+],
+"license":"GPL",
+"name":"poretools",
+"requires":[],
+"size":35980,
+"version":"0.6.1a1"
+},
+"poretools-0.6.1a1-py27_1.tar.bz2":{
+"build":"py27_1",
+"build_number":1,
+"depends":[
+"h5py >=2.2.0",
+"hdf5 >=1.8.7",
+"matplotlib",
+"pandas",
+"python 2.7*",
+"seaborn"
+],
+"license":"MIT",
+"name":"poretools",
+"requires":[],
+"size":41808,
+"version":"0.6.1a1"
+},
+"poretools-0.6.1a1-py27_2.tar.bz2":{
+"build":"py27_2",
+"build_number":2,
+"depends":[
+"h5py >=2.2.0",
+"hdf5 >=1.8.7",
+"matplotlib",
+"pandas",
+"python 2.7*",
+"seaborn"
+],
+"license":"MIT",
+"name":"poretools",
+"requires":[],
+"size":42822,
+"version":"0.6.1a1"
+},
+"r-biclust-1.2.0-r3.4.1_0.tar.bz2":{
+"build":"r3.4.1_0",
+"build_number":0,
+"depends":[
+"r-base 3.4.1*",
+"r-colorspace",
+"r-flexclust",
+"r-lattice",
+"r-mass"
+],
+"license":"GPL-3",
+"name":"r-biclust",
+"requires":[],
+"size":1066446,
+"version":"1.2.0"
+},
+"r-fdrtool-1.2.15-r3.2.2_0.tar.bz2":{
+"build":"r3.2.2_0",
+"build_number":0,
+"depends":[
+"r 3.2.2*"
+],
+"license":"GPL (>= 3)",
+"name":"r-fdrtool",
+"requires":[],
+"size":107471,
+"version":"1.2.15"
+},
+"r-fdrtool-1.2.15-r3.3.1_0.tar.bz2":{
+"build":"r3.3.1_0",
+"build_number":0,
+"depends":[
+"r 3.3.1*"
+],
+"license":"GPL (>= 3)",
+"name":"r-fdrtool",
+"requires":[],
+"size":108203,
+"version":"1.2.15"
+},
+"r-fdrtool-1.2.15-r3.3.2_0.tar.bz2":{
+"build":"r3.3.2_0",
+"build_number":0,
+"depends":[
+"r-base 3.3.2*"
+],
+"license":"GPL (>= 3)",
+"name":"r-fdrtool",
+"requires":[],
+"size":110145,
+"version":"1.2.15"
+},
+"r-ggthemes-3.4.0-r3.3.2_0.tar.bz2":{
+"build":"r3.3.2_0",
+"build_number":0,
+"depends":[
+"r-assertthat",
+"r-base 3.3.2*",
+"r-colorspace",
+"r-ggplot2 >=2.2.0",
+"r-scales"
+],
+"license":"GPL-2",
+"name":"r-ggthemes",
+"requires":[],
+"size":937333,
+"version":"3.4.0"
+},
+"r-ggthemes-3.4.0-r3.4.1_0.tar.bz2":{
+"build":"r3.4.1_0",
+"build_number":0,
+"depends":[
+"r-assertthat",
+"r-base 3.4.1*",
+"r-colorspace",
+"r-ggplot2 >=2.2.0",
+"r-scales"
+],
+"license":"GPL-2",
+"name":"r-ggthemes",
+"requires":[],
+"size":938712,
+"version":"3.4.0"
+},
+"rmblast-2.2.28-0.tar.bz2":{
+"build":"0",
+"build_number":0,
+"depends":[
+"blast",
+"boost",
+"libgcc",
+"zlib"
+],
+"license":"OSL-2.1",
+"name":"rmblast",
+"requires":[],
+"size":6655395,
+"version":"2.2.28"
+},
+"rmblast-2.2.28-1.tar.bz2":{
+"build":"1",
+"build_number":1,
+"depends":[
+"blast",
+"boost <=1.58",
+"bzip2 1.0.6 1",
+"libgcc",
+"zlib"
+],
+"license":"OSL-2.1",
+"name":"rmblast",
+"requires":[],
+"size":6655686,
+"version":"2.2.28"
+},
+"ruamel.yaml-0.12.13-py27_0.tar.bz2":{
+"build":"py27_0",
+"build_number":0,
+"depends":[
+"python 2.7*",
+"ruamel.ordereddict",
+"typing"
+],
+"license":"MIT",
+"name":"ruamel.yaml",
+"requires":[],
+"size":549411,
+"version":"0.12.13"
+},
+"ruamel.yaml-0.12.13-py34_0.tar.bz2":{
+"build":"py34_0",
+"build_number":0,
+"depends":[
+"python 3.4*",
+"typing"
+],
+"license":"MIT",
+"name":"ruamel.yaml",
+"requires":[],
+"size":587910,
+"version":"0.12.13"
+},
+"ruamel.yaml-0.12.13-py35_0.tar.bz2":{
+"build":"py35_0",
+"build_number":0,
+"depends":[
+"python 3.5*",
+"typing"
+],
+"license":"MIT",
+"name":"ruamel.yaml",
+"requires":[],
+"size":581510,
+"version":"0.12.13"
+},
+"ruamel.yaml-0.12.13-py36_0.tar.bz2":{
+"build":"py36_0",
+"build_number":0,
+"depends":[
+"python 3.6*",
+"typing"
+],
+"license":"MIT",
+"name":"ruamel.yaml",
+"requires":[],
+"size":582165,
+"version":"0.12.13"
+},
+"sed-4.2.3.dev0-0.tar.bz2":{
+"build":"0",
+"build_number":0,
+"depends":[],
+"license":"GPL",
+"name":"sed",
+"requires":[],
+"size":297991,
+"version":"4.2.3.dev0"
+},
+"setuptools_cython-0.2.1-py27h3dcb392_3.tar.bz2":{
+"build":"py27h3dcb392_3",
+"build_number":3,
+"depends":[
+"libgcc-ng >=7.5.0",
+"python >=2.7,<2.8.0a0",
+"python_abi 2.7.* *_cp27mu",
+"setuptools"
+],
+"license":"http://www.gnu.org/licenses/gpl-2.0.html",
+"name":"setuptools_cython",
+"requires":[],
+"size":4956,
+"timestamp":1594326243777,
+"version":"0.2.1"
+},
+"setuptools_cython-0.2.1-py36h4c5857e_3.tar.bz2":{
+"build":"py36h4c5857e_3",
+"build_number":3,
+"depends":[
+"libgcc-ng >=7.5.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"setuptools"
+],
+"license":"http://www.gnu.org/licenses/gpl-2.0.html",
+"name":"setuptools_cython",
+"requires":[],
+"size":4946,
+"timestamp":1594326333480,
+"version":"0.2.1"
+},
+"setuptools_cython-0.2.1-py36h8c4c3a4_2.tar.bz2":{
+"build":"py36h8c4c3a4_2",
+"build_number":2,
+"depends":[
+"libgcc-ng >=7.3.0",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"setuptools"
+],
+"license":"http://www.gnu.org/licenses/gpl-2.0.html",
+"name":"setuptools_cython",
+"requires":[],
+"size":4926,
+"timestamp":1589017386186,
+"version":"0.2.1"
+},
+"setuptools_cython-0.2.1-py37h8f50634_2.tar.bz2":{
+"build":"py37h8f50634_2",
+"build_number":2,
+"depends":[
+"libgcc-ng >=7.3.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"setuptools"
+],
+"license":"http://www.gnu.org/licenses/gpl-2.0.html",
+"name":"setuptools_cython",
+"requires":[],
+"size":4907,
+"timestamp":1589017435688,
+"version":"0.2.1"
+},
+"setuptools_cython-0.2.1-py37hf01694f_3.tar.bz2":{
+"build":"py37hf01694f_3",
+"build_number":3,
+"depends":[
+"libgcc-ng >=7.5.0",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"setuptools"
+],
+"license":"http://www.gnu.org/licenses/gpl-2.0.html",
+"name":"setuptools_cython",
+"requires":[],
+"size":4937,
+"timestamp":1594326158264,
+"version":"0.2.1"
+},
+"snippy-3.2-pl5.22.0_0.tar.bz2":{
+"build":"pl5.22.0_0",
+"build_number":0,
+"depends":[
+"bwa >=0.7.12",
+"freebayes",
+"parallel >=20130422",
+"perl 5.22.0*",
+"perl-bioperl",
+"perl-file-slurp",
+"perl-list-moreutils",
+"perl-time-piece",
+"samtools >=1.3",
+"snpeff >=4.3",
+"vcflib",
+"vcftools"
+],
+"license":"GPL2",
+"name":"snippy",
+"requires":[],
+"size":63215759,
+"version":"3.2"
+},
+"snippy-4.0_dev-1.tar.bz2":{
+"build":"1",
+"build_number":1,
+"depends":[
+"bcftools >=1.7",
+"bwa >=0.7.12",
+"freebayes >=1.1",
+"parallel >=20130422",
+"perl",
+"perl-bioperl",
+"perl-file-slurp",
+"perl-list-moreutils",
+"perl-time-piece",
+"samclip >=0.2",
+"samtools >=1.7",
+"snpeff >=4.3",
+"vcflib >=1.0.0_rc0"
+],
+"license":"GPL2",
+"name":"snippy",
+"requires":[],
+"size":17035,
+"timestamp":1529549606912,
+"version":"4.0_dev"
+},
+"snippy-4.0_dev-pl5.22.0_0.tar.bz2":{
+"build":"pl5.22.0_0",
+"build_number":0,
+"depends":[
+"bcftools >=1.7",
+"bwa >=0.7.12",
+"freebayes >=1.1",
+"parallel >=20130422",
+"perl 5.22.0*",
+"perl-bioperl",
+"perl-file-slurp",
+"perl-list-moreutils",
+"perl-time-piece",
+"samclip >=0.2",
+"samtools >=1.7",
+"snpeff >=4.3",
+"vcflib >=1.0.0_rc0"
+],
+"license":"GPL2",
+"name":"snippy",
+"requires":[],
+"size":17051,
+"version":"4.0_dev"
+},
+"stringtie-1.3.3-0.tar.bz2":{
+"build":"0",
+"build_number":0,
+"depends":[
+"libgcc",
+"zlib"
+],
+"license":"Artistic License 2.0",
+"name":"stringtie",
+"requires":[],
+"size":1450044,
+"version":"1.3.3"
+},
+"stringtie-1.3.3-py27_1.tar.bz2":{
+"build":"py27_1",
+"build_number":1,
+"depends":[
+"libgcc",
+"python 2.7*",
+"zlib"
+],
+"license":"Artistic License 2.0",
+"name":"stringtie",
+"requires":[],
+"size":1454051,
+"version":"1.3.3"
+},
+"tabulate-0.7.5-py36_0.tar.bz2":{
+"build":"py36_0",
+"build_number":0,
+"depends":[
+"python 3.6*"
+],
+"license":"MIT",
+"name":"tabulate",
+"requires":[],
+"size":32180,
+"version":"0.7.5"
+},
+"treetime-0.1-0.tar.bz2":{
+"build":"0",
+"build_number":0,
+"depends":[
+"biopython >=1.66",
+"libgcc",
+"numpy >=1.10.4",
+"pandas >=0.17.1",
+"python <3",
+"scipy >=0.16.1"
+],
+"license":"MIT",
+"name":"treetime",
+"requires":[],
+"size":141865,
+"version":"0.1"
+},
+"trimmomatic-0.38-0.tar.bz2":{
+"build":"0",
+"build_number":0,
+"depends":[
+"openjdk"
+],
+"license":"GPLv3",
+"name":"trimmomatic",
+"requires":[],
+"size":140482,
+"timestamp":1530545918784,
+"version":"0.38"
+},
+"trinity-2.4.0-0.tar.bz2":{
+"build":"0",
+"build_number":0,
+"depends":[
+"bowtie",
+"collectl",
+"fastool",
+"jellyfish >=2.2.6",
+"libgcc",
+"openjdk",
+"parafly",
+"perl-app-cpanminus",
+"perl-file-find-rule",
+"perl-module-build",
+"samtools >=1.3",
+"slclust",
+"trimmomatic >=0.36",
+"zlib"
+],
+"license":"BSD-3-Clause",
+"name":"trinity",
+"requires":[],
+"size":35551036,
+"version":"2.4.0"
+},
+"trinity-2.4.0-1.tar.bz2":{
+"build":"1",
+"build_number":1,
+"depends":[
+"bowtie",
+"collectl",
+"fastool",
+"jellyfish >=2.2.6",
+"libgcc",
+"openjdk",
+"parafly",
+"perl-app-cpanminus",
+"perl-file-find-rule",
+"perl-module-build",
+"samtools >=1.3",
+"slclust",
+"trimmomatic >=0.36",
+"zlib"
+],
+"license":"BSD-3-Clause",
+"name":"trinity",
+"requires":[],
+"size":35690095,
+"version":"2.4.0"
+},
+"trinity-2.4.0-2.tar.bz2":{
+"build":"2",
+"build_number":2,
+"depends":[
+"bowtie",
+"collectl",
+"fastool",
+"jellyfish >=2.2.6",
+"libgcc",
+"openjdk",
+"parafly",
+"perl-app-cpanminus",
+"perl-file-find-rule",
+"perl-module-build",
+"samtools >=1.3",
+"slclust",
+"trimmomatic >=0.36",
+"zlib"
+],
+"license":"BSD-3-Clause",
+"name":"trinity",
+"requires":[],
+"size":35691287,
+"version":"2.4.0"
+},
+"trnascan-se-1.23-pl5.22.0_0.tar.bz2":{
+"build":"pl5.22.0_0",
+"build_number":0,
+"depends":[
+"libgcc",
+"perl 5.22.0*",
+"zlib"
+],
+"name":"trnascan-se",
+"requires":[],
+"size":175201,
+"version":"1.23"
+}
+}
+}
