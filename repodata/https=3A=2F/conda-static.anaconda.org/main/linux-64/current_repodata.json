@@ -34042,6 +34042,22 @@
 "timestamp":1601310892725,
 "version":"0.14.1"
 },
+"hdmedians-0.14.1-py39h6323ea4_0.tar.bz2":{
+"build":"py39h6323ea4_0",
+"build_number":0,
+"depends":[
+"cython >=0.23",
+"libgcc-ng >=7.3.0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.9,<3.10.0a0"
+],
+"license":"Apache-2.0",
+"name":"hdmedians",
+"sha256":"54d1d4cd90b65a82d0dd6f3c19a6667f8b4b200ab5a8afd40800d737a84f9c46",
+"size":148130,
+"timestamp":1614414140355,
+"version":"0.14.1"
+},
 "heapdict-1.0.0-py27_2.tar.bz2":{
 "build":"py27_2",
 "build_number":2,
@@ -46705,19 +46721,6 @@
 "timestamp":1528122068610,
 "version":"2018.0.3"
 },
-"mkl-2019.4-243.tar.bz2":{
-"build":"243",
-"build_number":243,
-"depends":[
-"intel-openmp"
-],
-"license":"proprietary - Intel",
-"name":"mkl",
-"sha256":"40397ee174f2eca6173c2a547568d4634437e1aebff2ea22d9749ebd966a59cc",
-"size":213996111,
-"timestamp":1559526865803,
-"version":"2019.4"
-},
 "mkl-2020.2-256.tar.bz2":{
 "build":"256",
 "build_number":256,
@@ -54300,60 +54303,6 @@
 "size":14822,
 "timestamp":1540558191399,
 "version":"0.3.0"
-},
-"pandas-0.22.0-py27hf484d3e_0.tar.bz2":{
-"build":"py27hf484d3e_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=7.2.0",
-"libstdcxx-ng >=7.2.0",
-"numpy >=1.13.3,<2.0a0",
-"python >=2.7,<2.8.0a0",
-"python-dateutil",
-"pytz"
-],
-"license":"BSD 3-clause",
-"name":"pandas",
-"sha256":"6a9f012cea739e66733071936c2d37a133def96612c92a1ef0811303c8414e48",
-"size":10976970,
-"timestamp":1514667573488,
-"version":"0.22.0"
-},
-"pandas-0.22.0-py35hf484d3e_0.tar.bz2":{
-"build":"py35hf484d3e_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=7.2.0",
-"libstdcxx-ng >=7.2.0",
-"numpy >=1.13.3,<2.0a0",
-"python >=3.5,<3.6.0a0",
-"python-dateutil",
-"pytz"
-],
-"license":"BSD 3-clause",
-"name":"pandas",
-"sha256":"01fbc37e35cafbd36af521a7312321ff46472219073e8ce31b0e1d05fe55dea1",
-"size":11121513,
-"timestamp":1514667587794,
-"version":"0.22.0"
-},
-"pandas-0.22.0-py36hf484d3e_0.tar.bz2":{
-"build":"py36hf484d3e_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=7.2.0",
-"libstdcxx-ng >=7.2.0",
-"numpy >=1.9.3,<2.0a0",
-"python >=3.6,<3.7.0a0",
-"python-dateutil",
-"pytz"
-],
-"license":"BSD 3-clause",
-"name":"pandas",
-"sha256":"c4374db7e3b38e9488768c18ff71bbc6c104ff9a764de08374cbf296f2272b65",
-"size":11161956,
-"timestamp":1514667404610,
-"version":"0.22.0"
 },
 "pandas-1.1.3-py36he6710b0_0.tar.bz2":{
 "build":"py36he6710b0_0",
@@ -72310,28 +72259,53 @@
 "timestamp":1574459959105,
 "version":"1.3.1"
 },
-"pytorch-1.5.0-cpu_py37hd91cbb3_0.tar.bz2":{
-"build":"cpu_py37hd91cbb3_0",
+"pytorch-1.7.1-cpu_py37h6a09485_0.tar.bz2":{
+"build":"cpu_py37h6a09485_0",
 "build_number":0,
 "depends":[
 "_pytorch_select 0.1",
 "blas 1.0 mkl",
 "cffi",
 "libgcc-ng >=7.3.0",
+"libmklml",
 "libstdcxx-ng >=7.3.0",
-"mkl 2019.*",
-"mkl >=2019.4,<2021.0a0",
-"mkl-service >=2,<3.0a0",
+"mkl 2020.*",
+"mkl >=2020.2,<2021.0a0",
 "ninja",
-"numpy >=1.11.3,<2.0a0",
-"python >=3.7,<3.8.0a0"
+"numpy >=1.16.6,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"typing-extensions"
 ],
 "license":"BSD 3-Clause",
 "name":"pytorch",
-"sha256":"da980077a07fc58f55139e40746a3af8c00f9b33cbb37ac8874186a59a64f3de",
-"size":34923400,
-"timestamp":1591292143826,
-"version":"1.5.0"
+"sha256":"6b0dc7d5f75b6ff53228db6fddbcadf655a350a0c55d1dcc5459d883c30ad6fd",
+"size":41680216,
+"timestamp":1614406266099,
+"version":"1.7.1"
+},
+"pytorch-1.7.1-cpu_py38h6a09485_0.tar.bz2":{
+"build":"cpu_py38h6a09485_0",
+"build_number":0,
+"depends":[
+"_pytorch_select 0.1",
+"blas 1.0 mkl",
+"cffi",
+"libgcc-ng >=7.3.0",
+"libmklml",
+"libstdcxx-ng >=7.3.0",
+"mkl 2020.*",
+"mkl >=2020.2,<2021.0a0",
+"ninja",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"typing-extensions"
+],
+"license":"BSD 3-Clause",
+"name":"pytorch",
+"sha256":"b0ac22d76029b8cd3face5cd5b56971eab3ddf77a9993ef5c4c7ed5d1d7477f1",
+"size":41663970,
+"timestamp":1614406246397,
+"version":"1.7.1"
 },
 "pytorch-cpu-1.3.1-0.tar.bz2":{
 "build":"0",
@@ -76417,8 +76391,8 @@
 "timestamp":1552335425295,
 "version":"1.10.0"
 },
-"scikit-bio-0.5.4-py35hdd07704_0.tar.bz2":{
-"build":"py35hdd07704_0",
+"scikit-bio-0.5.6-py36h6323ea4_0.tar.bz2":{
+"build":"py36h6323ea4_0",
 "build_number":0,
 "depends":[
 "cachecontrol >=0.11.5",
@@ -76427,47 +76401,99 @@
 "ipython >=3.2.0",
 "libgcc-ng >=7.3.0",
 "lockfile >=0.10.2",
-"matplotlib >=1.4.3",
+"matplotlib-base >=1.4.3",
 "natsort >=4.0.3",
-"nose >=1.3.7",
-"numpy >=1.11.3,<2.0a0",
-"pandas >=0.19.2,<0.23.0",
-"python >=3.5,<3.6.0a0",
-"scikit-learn >=0.19.1",
-"scipy >=0.15.1"
-],
-"license":"BSD-3-Clause",
-"name":"scikit-bio",
-"sha256":"39346c0b05d8493a9ed2b2564f2ff53d5ec0c0c0e4c8ffa24df28d6b62c9fef3",
-"size":1265304,
-"timestamp":1535811868574,
-"version":"0.5.4"
-},
-"scikit-bio-0.5.4-py36hdd07704_0.tar.bz2":{
-"build":"py36hdd07704_0",
-"build_number":0,
-"depends":[
-"cachecontrol >=0.11.5",
-"decorator >=3.4.2",
-"hdmedians >=0.13",
-"ipython >=3.2.0",
-"libgcc-ng >=7.3.0",
-"lockfile >=0.10.2",
-"matplotlib >=1.4.3",
-"natsort >=4.0.3",
-"nose >=1.3.7",
-"numpy >=1.11.3,<2.0a0",
-"pandas >=0.19.2,<0.23.0",
+"numpy >=1.16.6,<2.0a0",
+"pandas >=1.0.0",
+"pytest",
 "python >=3.6,<3.7.0a0",
 "scikit-learn >=0.19.1",
-"scipy >=0.15.1"
+"scipy >=1.3.0"
 ],
 "license":"BSD-3-Clause",
 "name":"scikit-bio",
-"sha256":"21f626ac992665844872be994253bd93caaa0e89e657fe22f3a71c078fdaa6d3",
-"size":1266534,
-"timestamp":1535812011165,
-"version":"0.5.4"
+"sha256":"9c29a53a48876041f70d000b15e6c6105a19fa4edf3d1c95bd0ac4c686a9c907",
+"size":1361971,
+"timestamp":1614415892343,
+"version":"0.5.6"
+},
+"scikit-bio-0.5.6-py37h6323ea4_0.tar.bz2":{
+"build":"py37h6323ea4_0",
+"build_number":0,
+"depends":[
+"cachecontrol >=0.11.5",
+"decorator >=3.4.2",
+"hdmedians >=0.13",
+"ipython >=3.2.0",
+"libgcc-ng >=7.3.0",
+"lockfile >=0.10.2",
+"matplotlib-base >=1.4.3",
+"natsort >=4.0.3",
+"numpy >=1.16.6,<2.0a0",
+"pandas >=1.0.0",
+"pytest",
+"python >=3.7,<3.8.0a0",
+"scikit-learn >=0.19.1",
+"scipy >=1.3.0"
+],
+"license":"BSD-3-Clause",
+"name":"scikit-bio",
+"sha256":"45c202b10d6e624484df98f87cecbf7e391615beeadbee36dd540bf3332a21cf",
+"size":1355609,
+"timestamp":1614416003478,
+"version":"0.5.6"
+},
+"scikit-bio-0.5.6-py38h6323ea4_0.tar.bz2":{
+"build":"py38h6323ea4_0",
+"build_number":0,
+"depends":[
+"cachecontrol >=0.11.5",
+"decorator >=3.4.2",
+"hdmedians >=0.13",
+"ipython >=3.2.0",
+"libgcc-ng >=7.3.0",
+"lockfile >=0.10.2",
+"matplotlib-base >=1.4.3",
+"natsort >=4.0.3",
+"numpy >=1.16.6,<2.0a0",
+"pandas >=1.0.0",
+"pytest",
+"python >=3.8,<3.9.0a0",
+"scikit-learn >=0.19.1",
+"scipy >=1.3.0"
+],
+"license":"BSD-3-Clause",
+"name":"scikit-bio",
+"sha256":"3d8afe9d32ae4e84a1cdda19212db9f7c66eb4abfb8ca2fc58d04de8ab1d0e9e",
+"size":1367212,
+"timestamp":1614414896878,
+"version":"0.5.6"
+},
+"scikit-bio-0.5.6-py39h6323ea4_0.tar.bz2":{
+"build":"py39h6323ea4_0",
+"build_number":0,
+"depends":[
+"cachecontrol >=0.11.5",
+"decorator >=3.4.2",
+"hdmedians >=0.13",
+"ipython >=3.2.0",
+"libgcc-ng >=7.3.0",
+"lockfile >=0.10.2",
+"matplotlib-base >=1.4.3",
+"natsort >=4.0.3",
+"numpy >=1.16.6,<2.0a0",
+"pandas >=1.0.0",
+"pytest",
+"python >=3.9,<3.10.0a0",
+"scikit-learn >=0.19.1",
+"scipy >=1.3.0"
+],
+"license":"BSD-3-Clause",
+"name":"scikit-bio",
+"sha256":"682f07bc5157ed7fb1c8bfcfc6a208606e5576878fb99ed1e91b828c347e0474",
+"size":1367405,
+"timestamp":1614415977956,
+"version":"0.5.6"
 },
 "scikit-build-0.11.1-py36h2531618_2.tar.bz2":{
 "build":"py36h2531618_2",
@@ -76748,6 +76774,82 @@
 "size":7317534,
 "timestamp":1607712709370,
 "version":"0.23.2"
+},
+"scikit-learn-0.24.1-py36ha9443f7_0.tar.bz2":{
+"build":"py36ha9443f7_0",
+"build_number":0,
+"depends":[
+"joblib >=0.11",
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.6,<3.7.0a0",
+"scipy",
+"threadpoolctl"
+],
+"license":"BSD-3-Clause",
+"name":"scikit-learn",
+"sha256":"a0542b227bd629e86d2e078e267c2bd8cc233ae170c9cb6647910c7542c08861",
+"size":7395381,
+"timestamp":1614447042003,
+"version":"0.24.1"
+},
+"scikit-learn-0.24.1-py37ha9443f7_0.tar.bz2":{
+"build":"py37ha9443f7_0",
+"build_number":0,
+"depends":[
+"joblib >=0.11",
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"scipy",
+"threadpoolctl"
+],
+"license":"BSD-3-Clause",
+"name":"scikit-learn",
+"sha256":"64098996858f0b2bc363d826281aeba4892bfbebb70ac89fd8f9176bb579247f",
+"size":7433853,
+"timestamp":1614445927466,
+"version":"0.24.1"
+},
+"scikit-learn-0.24.1-py38ha9443f7_0.tar.bz2":{
+"build":"py38ha9443f7_0",
+"build_number":0,
+"depends":[
+"joblib >=0.11",
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"scipy",
+"threadpoolctl"
+],
+"license":"BSD-3-Clause",
+"name":"scikit-learn",
+"sha256":"05b48efe69cff1c817bfd4531fc1577fa4d0141a6cf4e2fbd67a134f574dffa8",
+"size":7616716,
+"timestamp":1614447013267,
+"version":"0.24.1"
+},
+"scikit-learn-0.24.1-py39ha9443f7_0.tar.bz2":{
+"build":"py39ha9443f7_0",
+"build_number":0,
+"depends":[
+"joblib >=0.11",
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"scipy",
+"threadpoolctl"
+],
+"license":"BSD-3-Clause",
+"name":"scikit-learn",
+"sha256":"d053874707cfc8650586e4364f2264ef2f7dc5d921b9d3dc5aa40b6930a589a3",
+"size":7601384,
+"timestamp":1614446989989,
+"version":"0.24.1"
 },
 "scikit-rf-0.16.0-py36h06a4308_0.tar.bz2":{
 "build":"py36h06a4308_0",

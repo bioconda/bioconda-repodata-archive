@@ -36333,6 +36333,23 @@
 "timestamp":1601310892725,
 "version":"0.14.1"
 },
+"hdmedians-0.14.1-py39h6323ea4_0.conda":{
+"build":"py39h6323ea4_0",
+"build_number":0,
+"depends":[
+"cython >=0.23",
+"libgcc-ng >=7.3.0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.9,<3.10.0a0"
+],
+"legacy_bz2_md5":"98e0072fcd6e1d1923a13a198f9d9860",
+"license":"Apache-2.0",
+"name":"hdmedians",
+"sha256":"50b96c0dc3c77a1c3cfce8ef4a079b5a32601d2613291ac1bdbcc4324caf262b",
+"size":134792,
+"timestamp":1614414140355,
+"version":"0.14.1"
+},
 "heapdict-1.0.0-py27_2.conda":{
 "build":"py27_2",
 "build_number":2,
@@ -49746,20 +49763,6 @@
 "timestamp":1528122068610,
 "version":"2018.0.3"
 },
-"mkl-2019.4-243.conda":{
-"build":"243",
-"build_number":243,
-"depends":[
-"intel-openmp"
-],
-"legacy_bz2_md5":"5a4523f87c4bb00f082651a6af3a350c",
-"license":"proprietary - Intel",
-"name":"mkl",
-"sha256":"fc0e0d6fe002bc82ebde913f4a8df63574d32dbf70b1b15b03f6108445974b34",
-"size":137562990,
-"timestamp":1559526865803,
-"version":"2019.4"
-},
 "mkl-2020.2-256.conda":{
 "build":"256",
 "build_number":256,
@@ -57785,63 +57788,6 @@
 "size":14629,
 "timestamp":1540558191399,
 "version":"0.3.0"
-},
-"pandas-0.22.0-py27hf484d3e_0.conda":{
-"build":"py27hf484d3e_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=7.2.0",
-"libstdcxx-ng >=7.2.0",
-"numpy >=1.13.3,<2.0a0",
-"python >=2.7,<2.8.0a0",
-"python-dateutil",
-"pytz"
-],
-"legacy_bz2_md5":"6be7e7fd037b19c48d5a0305e6f12a25",
-"license":"BSD 3-clause",
-"name":"pandas",
-"sha256":"72cad223cfa7eae34966c556bf554a89bcd8c7d17c681d3abb513876276109d2",
-"size":8538837,
-"timestamp":1514667573488,
-"version":"0.22.0"
-},
-"pandas-0.22.0-py35hf484d3e_0.conda":{
-"build":"py35hf484d3e_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=7.2.0",
-"libstdcxx-ng >=7.2.0",
-"numpy >=1.13.3,<2.0a0",
-"python >=3.5,<3.6.0a0",
-"python-dateutil",
-"pytz"
-],
-"legacy_bz2_md5":"f361e1157ac24aa67c44944da0dcc1a9",
-"license":"BSD 3-clause",
-"name":"pandas",
-"sha256":"d5cdb710f9b1ee8f49cecf62c395ce9be48d9ea33a77c0d1842bbac7360a5f39",
-"size":8528996,
-"timestamp":1514667587794,
-"version":"0.22.0"
-},
-"pandas-0.22.0-py36hf484d3e_0.conda":{
-"build":"py36hf484d3e_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=7.2.0",
-"libstdcxx-ng >=7.2.0",
-"numpy >=1.9.3,<2.0a0",
-"python >=3.6,<3.7.0a0",
-"python-dateutil",
-"pytz"
-],
-"legacy_bz2_md5":"ef3840d0e79433294137c377dbcf0cde",
-"license":"BSD 3-clause",
-"name":"pandas",
-"sha256":"ee60a30ae7f3176dfcf05ff6d41e7218b55215ed31ae6587f41bdc4ed645c57a",
-"size":8551501,
-"timestamp":1514667404610,
-"version":"0.22.0"
 },
 "pandas-1.1.3-py36he6710b0_0.conda":{
 "build":"py36he6710b0_0",
@@ -76865,29 +76811,55 @@
 "timestamp":1574459959105,
 "version":"1.3.1"
 },
-"pytorch-1.5.0-cpu_py37hd91cbb3_0.conda":{
-"build":"cpu_py37hd91cbb3_0",
+"pytorch-1.7.1-cpu_py37h6a09485_0.conda":{
+"build":"cpu_py37h6a09485_0",
 "build_number":0,
 "depends":[
 "_pytorch_select 0.1",
 "blas 1.0 mkl",
 "cffi",
 "libgcc-ng >=7.3.0",
+"libmklml",
 "libstdcxx-ng >=7.3.0",
-"mkl 2019.*",
-"mkl >=2019.4,<2021.0a0",
-"mkl-service >=2,<3.0a0",
+"mkl 2020.*",
+"mkl >=2020.2,<2021.0a0",
 "ninja",
-"numpy >=1.11.3,<2.0a0",
-"python >=3.7,<3.8.0a0"
+"numpy >=1.16.6,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"typing-extensions"
 ],
-"legacy_bz2_md5":"72cd6e5597469c17959ec33d0e92f795",
+"legacy_bz2_md5":"c82e222a9a4097d093a9a7acc4555939",
 "license":"BSD 3-Clause",
 "name":"pytorch",
-"sha256":"c52b12e0f9987f477df56e1a95572810c43d68404caca170281f4f2de7d88f83",
-"size":27883965,
-"timestamp":1591292143826,
-"version":"1.5.0"
+"sha256":"884e61b882ed4112679346eaa5f95a36dd0058bbab59d0d6365fdf6b49806c13",
+"size":33131576,
+"timestamp":1614406266099,
+"version":"1.7.1"
+},
+"pytorch-1.7.1-cpu_py38h6a09485_0.conda":{
+"build":"cpu_py38h6a09485_0",
+"build_number":0,
+"depends":[
+"_pytorch_select 0.1",
+"blas 1.0 mkl",
+"cffi",
+"libgcc-ng >=7.3.0",
+"libmklml",
+"libstdcxx-ng >=7.3.0",
+"mkl 2020.*",
+"mkl >=2020.2,<2021.0a0",
+"ninja",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"typing-extensions"
+],
+"legacy_bz2_md5":"02f782ca9eb94d5d290c5af1dad2a19b",
+"license":"BSD 3-Clause",
+"name":"pytorch",
+"sha256":"32d8df61368afeeaf5fd4be31fe89e5fb73f49f0f65056c90c70bf9719ed34d9",
+"size":33259384,
+"timestamp":1614406246397,
+"version":"1.7.1"
 },
 "pytorch-cpu-1.3.1-0.conda":{
 "build":"0",
@@ -81223,8 +81195,8 @@
 "timestamp":1552335425295,
 "version":"1.10.0"
 },
-"scikit-bio-0.5.4-py35hdd07704_0.conda":{
-"build":"py35hdd07704_0",
+"scikit-bio-0.5.6-py36h6323ea4_0.conda":{
+"build":"py36h6323ea4_0",
 "build_number":0,
 "depends":[
 "cachecontrol >=0.11.5",
@@ -81233,49 +81205,103 @@
 "ipython >=3.2.0",
 "libgcc-ng >=7.3.0",
 "lockfile >=0.10.2",
-"matplotlib >=1.4.3",
+"matplotlib-base >=1.4.3",
 "natsort >=4.0.3",
-"nose >=1.3.7",
-"numpy >=1.11.3,<2.0a0",
-"pandas >=0.19.2,<0.23.0",
-"python >=3.5,<3.6.0a0",
-"scikit-learn >=0.19.1",
-"scipy >=0.15.1"
-],
-"legacy_bz2_md5":"68da0b6dfc1e85ebc743311d1404d67d",
-"license":"BSD-3-Clause",
-"name":"scikit-bio",
-"sha256":"01bbf11041b8058083d0be931cbadc723485527c4dc38b5be423981fd4aceb84",
-"size":1071158,
-"timestamp":1535811868574,
-"version":"0.5.4"
-},
-"scikit-bio-0.5.4-py36hdd07704_0.conda":{
-"build":"py36hdd07704_0",
-"build_number":0,
-"depends":[
-"cachecontrol >=0.11.5",
-"decorator >=3.4.2",
-"hdmedians >=0.13",
-"ipython >=3.2.0",
-"libgcc-ng >=7.3.0",
-"lockfile >=0.10.2",
-"matplotlib >=1.4.3",
-"natsort >=4.0.3",
-"nose >=1.3.7",
-"numpy >=1.11.3,<2.0a0",
-"pandas >=0.19.2,<0.23.0",
+"numpy >=1.16.6,<2.0a0",
+"pandas >=1.0.0",
+"pytest",
 "python >=3.6,<3.7.0a0",
 "scikit-learn >=0.19.1",
-"scipy >=0.15.1"
+"scipy >=1.3.0"
 ],
-"legacy_bz2_md5":"4848fe4a67662e32612272f02ff9edc2",
+"legacy_bz2_md5":"68e72bc7a8b6b3a298ff61ac9c10b759",
 "license":"BSD-3-Clause",
 "name":"scikit-bio",
-"sha256":"48e987898153a3a8fd6d84112fb6d3911b1856321735b8bc4f117de9cebb305e",
-"size":1063823,
-"timestamp":1535812011165,
-"version":"0.5.4"
+"sha256":"f3e49f55813a4ad597361967a9203d84d7a82cd487884ae9c2d4f6a257cf339f",
+"size":1107054,
+"timestamp":1614415892343,
+"version":"0.5.6"
+},
+"scikit-bio-0.5.6-py37h6323ea4_0.conda":{
+"build":"py37h6323ea4_0",
+"build_number":0,
+"depends":[
+"cachecontrol >=0.11.5",
+"decorator >=3.4.2",
+"hdmedians >=0.13",
+"ipython >=3.2.0",
+"libgcc-ng >=7.3.0",
+"lockfile >=0.10.2",
+"matplotlib-base >=1.4.3",
+"natsort >=4.0.3",
+"numpy >=1.16.6,<2.0a0",
+"pandas >=1.0.0",
+"pytest",
+"python >=3.7,<3.8.0a0",
+"scikit-learn >=0.19.1",
+"scipy >=1.3.0"
+],
+"legacy_bz2_md5":"04c3c51fbd12ee78bbb1ba7cce3976cc",
+"license":"BSD-3-Clause",
+"name":"scikit-bio",
+"sha256":"63dc040e2de0cef713e8084db0be29c437fda10896a1541f0f5cededecf1b9a2",
+"size":1104607,
+"timestamp":1614416003478,
+"version":"0.5.6"
+},
+"scikit-bio-0.5.6-py38h6323ea4_0.conda":{
+"build":"py38h6323ea4_0",
+"build_number":0,
+"depends":[
+"cachecontrol >=0.11.5",
+"decorator >=3.4.2",
+"hdmedians >=0.13",
+"ipython >=3.2.0",
+"libgcc-ng >=7.3.0",
+"lockfile >=0.10.2",
+"matplotlib-base >=1.4.3",
+"natsort >=4.0.3",
+"numpy >=1.16.6,<2.0a0",
+"pandas >=1.0.0",
+"pytest",
+"python >=3.8,<3.9.0a0",
+"scikit-learn >=0.19.1",
+"scipy >=1.3.0"
+],
+"legacy_bz2_md5":"84d9bf33653a4d7fdd186c488b924e87",
+"license":"BSD-3-Clause",
+"name":"scikit-bio",
+"sha256":"e5777a0445a214e417eec346dd43d88dfd031a331c5f0c7fc09264c4071c1158",
+"size":1114261,
+"timestamp":1614414896878,
+"version":"0.5.6"
+},
+"scikit-bio-0.5.6-py39h6323ea4_0.conda":{
+"build":"py39h6323ea4_0",
+"build_number":0,
+"depends":[
+"cachecontrol >=0.11.5",
+"decorator >=3.4.2",
+"hdmedians >=0.13",
+"ipython >=3.2.0",
+"libgcc-ng >=7.3.0",
+"lockfile >=0.10.2",
+"matplotlib-base >=1.4.3",
+"natsort >=4.0.3",
+"numpy >=1.16.6,<2.0a0",
+"pandas >=1.0.0",
+"pytest",
+"python >=3.9,<3.10.0a0",
+"scikit-learn >=0.19.1",
+"scipy >=1.3.0"
+],
+"legacy_bz2_md5":"ec5469d124b996026a07c6963bd77bb9",
+"license":"BSD-3-Clause",
+"name":"scikit-bio",
+"sha256":"70a82233c72714ac0c35481ee97d2eb9988f1915f4390f63ac269b8e8151a250",
+"size":1116841,
+"timestamp":1614415977956,
+"version":"0.5.6"
 },
 "scikit-build-0.11.1-py36h2531618_2.conda":{
 "build":"py36h2531618_2",
@@ -81568,6 +81594,86 @@
 "size":5407843,
 "timestamp":1607712709370,
 "version":"0.23.2"
+},
+"scikit-learn-0.24.1-py36ha9443f7_0.conda":{
+"build":"py36ha9443f7_0",
+"build_number":0,
+"depends":[
+"joblib >=0.11",
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.6,<3.7.0a0",
+"scipy",
+"threadpoolctl"
+],
+"legacy_bz2_md5":"69028331543e712007c236ee50264ded",
+"license":"BSD-3-Clause",
+"name":"scikit-learn",
+"sha256":"8c5904ebadbbd16c7ab2382847e17de1d3c50408b2b7c9b7dde915228db05614",
+"size":5475332,
+"timestamp":1614447042003,
+"version":"0.24.1"
+},
+"scikit-learn-0.24.1-py37ha9443f7_0.conda":{
+"build":"py37ha9443f7_0",
+"build_number":0,
+"depends":[
+"joblib >=0.11",
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"scipy",
+"threadpoolctl"
+],
+"legacy_bz2_md5":"ea17083cff14a7e5bb50f8891d24948c",
+"license":"BSD-3-Clause",
+"name":"scikit-learn",
+"sha256":"d8f5d89db1d689c056840bdee9adf5d923751f16aaf85702d1629aa8f8587b48",
+"size":5426949,
+"timestamp":1614445927466,
+"version":"0.24.1"
+},
+"scikit-learn-0.24.1-py38ha9443f7_0.conda":{
+"build":"py38ha9443f7_0",
+"build_number":0,
+"depends":[
+"joblib >=0.11",
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"scipy",
+"threadpoolctl"
+],
+"legacy_bz2_md5":"df31178e74be48d2030b1695e4ce5a38",
+"license":"BSD-3-Clause",
+"name":"scikit-learn",
+"sha256":"94595d3aa57f50b76942521c1cace27e8751662eb0583ff3da41a134736397f6",
+"size":5629977,
+"timestamp":1614447013267,
+"version":"0.24.1"
+},
+"scikit-learn-0.24.1-py39ha9443f7_0.conda":{
+"build":"py39ha9443f7_0",
+"build_number":0,
+"depends":[
+"joblib >=0.11",
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"scipy",
+"threadpoolctl"
+],
+"legacy_bz2_md5":"aaf4e855564b8934e5d1a1db50e92b74",
+"license":"BSD-3-Clause",
+"name":"scikit-learn",
+"sha256":"15e376d38ea6409ecc94ef39571e6a537101aad852a6458a2624b6c68cdbd3f7",
+"size":5629427,
+"timestamp":1614446989989,
+"version":"0.24.1"
 },
 "scikit-rf-0.16.0-py36h06a4308_0.conda":{
 "build":"py36h06a4308_0",
