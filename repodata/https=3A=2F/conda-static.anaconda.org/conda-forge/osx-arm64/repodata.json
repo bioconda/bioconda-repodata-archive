@@ -5038,6 +5038,42 @@
 "timestamp":1613506638691,
 "version":"2.5"
 },
+"astroid-2.5.1-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"lazy-object-proxy >=1.4,<2",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"setuptools",
+"six >=1.12,<2",
+"wrapt >=1.11,<2"
+],
+"license":"LGPL-2.1-only",
+"name":"astroid",
+"sha256":"e240811e4586c387aa5c60cab924a67887bd7b589c056bb9e0abcf672cb80808",
+"size":311946,
+"timestamp":1614552953085,
+"version":"2.5.1"
+},
+"astroid-2.5.1-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"lazy-object-proxy >=1.4,<2",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"setuptools",
+"six >=1.12,<2",
+"wrapt >=1.11,<2"
+],
+"license":"LGPL-2.1-only",
+"name":"astroid",
+"sha256":"890ef52d7cb8d9c6655cfd252dba4cdbc0d7226a19a1a87cd3b355c0300ba4c0",
+"size":311834,
+"timestamp":1614552918348,
+"version":"2.5.1"
+},
 "astropy-4.0.4-py38h30f7421_0.tar.bz2":{
 "build":"py38h30f7421_0",
 "build_number":0,
@@ -10313,6 +10349,17 @@
 "timestamp":1613255484987,
 "version":"11.0.1"
 },
+"clang_bootstrap_osx-64-11.0.1-ha99727f_2.tar.bz2":{
+"build":"ha99727f_2",
+"build_number":2,
+"depends":[],
+"license":"Apache-2.0",
+"name":"clang_bootstrap_osx-64",
+"sha256":"6a4dc57b90bff100ae1066df77339ab52267e2a30745b949052248fcb2e6ec43",
+"size":55816589,
+"timestamp":1614543736146,
+"version":"11.0.1"
+},
 "clang_bootstrap_osx-arm64-11.0.0-h1741c7c_10.tar.bz2":{
 "build":"h1741c7c_10",
 "build_number":10,
@@ -10449,6 +10496,17 @@
 "sha256":"10c466fe78608621661f4324010bcedd928143ebba2c8c68c56fef1f21b1fa6c",
 "size":54683543,
 "timestamp":1613255411782,
+"version":"11.0.1"
+},
+"clang_bootstrap_osx-arm64-11.0.1-h1741c7c_2.tar.bz2":{
+"build":"h1741c7c_2",
+"build_number":2,
+"depends":[],
+"license":"Apache-2.0",
+"name":"clang_bootstrap_osx-arm64",
+"sha256":"fb25e679cc9465e4303c2e66bf7b1adec59267bd093cdaeda8822fbcb27dbfbe",
+"size":54654472,
+"timestamp":1614543916319,
 "version":"11.0.1"
 },
 "clang_osx-64-11.0.0-h36f49d1_0.tar.bz2":{
@@ -10666,6 +10724,24 @@
 "timestamp":1613253847148,
 "version":"11.0.1"
 },
+"clang_osx-64-11.0.1-ha77c5c3_2.tar.bz2":{
+"build":"ha77c5c3_2",
+"build_number":2,
+"depends":[
+"cctools_osx-64",
+"clang 11.0.1.*",
+"compiler-rt 11.0.1.*",
+"ld64_osx-64",
+"ld64_osx-arm64",
+"llvm-tools 11.0.1.*"
+],
+"license":"BSD-3-Clause",
+"name":"clang_osx-64",
+"sha256":"eb04c3f5a7ed0b5e298e776e86e1a8900df01895c8b16384bd715dcd56410e8e",
+"size":16061,
+"timestamp":1614542075239,
+"version":"11.0.1"
+},
 "clang_osx-arm64-11.0.0-h54d7cd3_10.tar.bz2":{
 "build":"h54d7cd3_10",
 "build_number":10,
@@ -10868,6 +10944,23 @@
 "sha256":"5132312387345c2cc39bc365cfcc510d8e27f9982c7b933b79a023cfa1659178",
 "size":15940,
 "timestamp":1613253729534,
+"version":"11.0.1"
+},
+"clang_osx-arm64-11.0.1-h54d7cd3_2.tar.bz2":{
+"build":"h54d7cd3_2",
+"build_number":2,
+"depends":[
+"cctools_osx-arm64",
+"clang 11.0.1.*",
+"compiler-rt 11.0.1.*",
+"ld64_osx-arm64",
+"llvm-tools 11.0.1.*"
+],
+"license":"BSD-3-Clause",
+"name":"clang_osx-arm64",
+"sha256":"cb4069f56e5b78d25bde457a53b4ac2b199c00a0066cb8c7763f23eba7c1e360",
+"size":15891,
+"timestamp":1614542071184,
 "version":"11.0.1"
 },
 "clang_variant-1.0-cling_v0.7.tar.bz2":{
@@ -11356,6 +11449,22 @@
 "timestamp":1613253861517,
 "version":"11.0.1"
 },
+"clangxx_osx-64-11.0.1-h8d3ee1a_2.tar.bz2":{
+"build":"h8d3ee1a_2",
+"build_number":2,
+"depends":[
+"clang_osx-64 11.0.1 ha77c5c3_2",
+"clangxx 11.0.1.*",
+"libcxx >=11.0.1",
+"libllvm11 >=11.0.1,<11.1.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"clangxx_osx-64",
+"sha256":"1d532e16b1b548186f79ddb2f02ae9a8a4c58c39bdf2da2b354ec10ed33bb344",
+"size":15678,
+"timestamp":1614542090863,
+"version":"11.0.1"
+},
 "clangxx_osx-arm64-11.0.0-h0c2fba2_4.tar.bz2":{
 "build":"h0c2fba2_4",
 "build_number":4,
@@ -11537,6 +11646,22 @@
 "sha256":"8815057e9ddc3f3fe7e1f487ae1ba218b86b2482510b6f22adbd7ff22a70e118",
 "size":15588,
 "timestamp":1613253744940,
+"version":"11.0.1"
+},
+"clangxx_osx-arm64-11.0.1-hb84c830_2.tar.bz2":{
+"build":"hb84c830_2",
+"build_number":2,
+"depends":[
+"clang_osx-arm64 11.0.1 h54d7cd3_2",
+"clangxx 11.0.1.*",
+"libcxx >=11.0.1",
+"libllvm11 >=11.0.1,<11.1.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"clangxx_osx-arm64",
+"sha256":"7c59fe9f867a3f5937865d4e202595a1630cb045bb91317ea5bcd359b98bd51e",
+"size":15589,
+"timestamp":1614542091340,
 "version":"11.0.1"
 },
 "cli11-1.9.1-hc88da5d_2.tar.bz2":{
@@ -13431,6 +13556,34 @@
 "size":267378,
 "timestamp":1611667755967,
 "version":"5.4"
+},
+"coverage-5.5-py38h30f7421_0.tar.bz2":{
+"build":"py38h30f7421_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"coverage",
+"sha256":"6875d18ae209ae5133c29739dabbc134dd34f07ed198605410a51ac6b3462bd6",
+"size":261221,
+"timestamp":1614551615642,
+"version":"5.5"
+},
+"coverage-5.5-py39h46acfd9_0.tar.bz2":{
+"build":"py39h46acfd9_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"coverage",
+"sha256":"8f255dfafb360a747fc1f5ae462b83b0672aaffb5f7b9cc956c084bce065d1da",
+"size":271227,
+"timestamp":1614551461370,
+"version":"5.5"
 },
 "cpp-filesystem-1.3.2-hf34dca2_0.tar.bz2":{
 "build":"hf34dca2_0",
@@ -18585,6 +18738,66 @@
 "size":23660,
 "timestamp":1612279638776,
 "version":"1.1.2"
+},
+"googleapis-common-protos-1.52.0-py38h10201cd_1.tar.bz2":{
+"build":"py38h10201cd_1",
+"build_number":1,
+"depends":[
+"protobuf",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"googleapis-common-protos",
+"sha256":"b9e20dd4482467ac659bc275a97061c8fed37dfdfe825a4e175606e72a20207d",
+"size":70957,
+"timestamp":1614498248538,
+"version":"1.52.0"
+},
+"googleapis-common-protos-1.52.0-py39h2804cbe_1.tar.bz2":{
+"build":"py39h2804cbe_1",
+"build_number":1,
+"depends":[
+"protobuf",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"googleapis-common-protos",
+"sha256":"772d56e79db4d71f0076bdd0ce23d1aaee3bbc91bc01a99816133f7ed82dcb71",
+"size":71022,
+"timestamp":1614498274592,
+"version":"1.52.0"
+},
+"googleapis-common-protos-grpc-1.52.0-h150bfb4_1.tar.bz2":{
+"build":"h150bfb4_1",
+"build_number":1,
+"depends":[
+"googleapis-common-protos >=1.52,<1.53.0a0",
+"grpcio",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"googleapis-common-protos-grpc",
+"sha256":"b53f4e5199701ddddd5ce8beece917269ca79fbc90b596a15210ab969f70683f",
+"size":9695,
+"timestamp":1614498280685,
+"version":"1.52.0"
+},
+"googleapis-common-protos-grpc-1.52.0-hdf13c20_1.tar.bz2":{
+"build":"hdf13c20_1",
+"build_number":1,
+"depends":[
+"googleapis-common-protos >=1.52,<1.53.0a0",
+"grpcio",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"googleapis-common-protos-grpc",
+"sha256":"802eace482b4e71dccfe2ccc13f224c77736743cc7a4a03a47a360035e7a246f",
+"size":9703,
+"timestamp":1614498304369,
+"version":"1.52.0"
 },
 "googleapis-cpp-0.10.0-h0b51dfa_10.tar.bz2":{
 "build":"h0b51dfa_10",
@@ -28370,6 +28583,21 @@
 "size":992826,
 "timestamp":1612774677100,
 "version":"1.3.6"
+},
+"libsemigroups-1.3.7-hc91fb58_0.tar.bz2":{
+"build":"hc91fb58_0",
+"build_number":0,
+"depends":[
+"eigen >=3.3.9,<4.0a0",
+"fmt >=7.1.3,<8.0a0",
+"libcxx >=11.0.1"
+],
+"license":"GPL-3.0-or-later",
+"name":"libsemigroups",
+"sha256":"26c80f126797970bc53498f766ffe0211f0aeb38cb8bd8cbb753138fb3efaf30",
+"size":984628,
+"timestamp":1614520850783,
+"version":"1.3.7"
 },
 "libsndfile-1.0.30-h9f76cd9_1.tar.bz2":{
 "build":"h9f76cd9_1",
@@ -46437,6 +46665,42 @@
 "size":331445,
 "timestamp":1614455798084,
 "version":"9.12.2"
+},
+"rich-9.12.3-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"colorama >=0.4.0,<0.5.0",
+"commonmark >=0.9.0,<0.10.0",
+"pygments >=2.6.0,<3.0.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"typing_extensions >=3.7.4,<4.0.0"
+],
+"license":"MIT",
+"name":"rich",
+"sha256":"84e561ec63f268acb420a091eab4a07bbcee7ee4845fc8c9123fa6b9382ac002",
+"size":331810,
+"timestamp":1614514860058,
+"version":"9.12.3"
+},
+"rich-9.12.3-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"colorama >=0.4.0,<0.5.0",
+"commonmark >=0.9.0,<0.10.0",
+"pygments >=2.6.0,<3.0.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"typing_extensions >=3.7.4,<4.0.0"
+],
+"license":"MIT",
+"name":"rich",
+"sha256":"9202b8737db3ca0677e088cf7f3c250112f119c3e06f0ab950c200ce7a69e1ca",
+"size":332665,
+"timestamp":1614514874033,
+"version":"9.12.3"
 },
 "rich-9.4.0-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
