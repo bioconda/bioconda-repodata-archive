@@ -13954,6 +13954,23 @@
 "timestamp":1613884000180,
 "version":"3.9.2"
 },
+"libraw-0.20.2-h9166135_1.tar.bz2":{
+"build":"h9166135_1",
+"build_number":1,
+"depends":[
+"jpeg >=9d,<10a",
+"lcms2 >=2.12,<2.13.0a0",
+"lcms2 >=2.12,<3.0a0",
+"libcxx >=11.1.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LGPL-2.1-only",
+"name":"libraw",
+"sha256":"95a59bc72fb337d1b5c78b4f5a566d39cf5a3f90bc89ee810a5fe2e9ab3d267a",
+"size":1597158,
+"timestamp":1615749012711,
+"version":"0.20.2"
+},
 "libraw-0.20.2-he99446e_0.tar.bz2":{
 "build":"he99446e_0",
 "build_number":0,
@@ -14078,6 +14095,20 @@
 "timestamp":1611089891251,
 "version":"0.7.17"
 },
+"libsolv-0.7.17-habe5f53_1.tar.bz2":{
+"build":"habe5f53_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libsolv",
+"sha256":"23df4e58431b41e536323be9b0397eb98d32d088ceb05834fe5986306044862b",
+"size":387342,
+"timestamp":1615758327546,
+"version":"0.7.17"
+},
 "libsolv-static-0.7.17-habe5f53_0.tar.bz2":{
 "build":"habe5f53_0",
 "build_number":0,
@@ -14091,6 +14122,21 @@
 "sha256":"0b68d1ca96d9371d0cf37b24aad2e0adf3dc2763ecb446675831b9303d8f6552",
 "size":316251,
 "timestamp":1611089912946,
+"version":"0.7.17"
+},
+"libsolv-static-0.7.17-habe5f53_1.tar.bz2":{
+"build":"habe5f53_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"libsolv 0.7.17 habe5f53_1",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libsolv-static",
+"sha256":"acbc0c66d75d0f1bd952fa5bd606a1b22c52ab6f4d0e8e231376e69ebcb03783",
+"size":317291,
+"timestamp":1615758347561,
 "version":"0.7.17"
 },
 "libspatialindex-1.9.3-h9f76cd9_3.tar.bz2":{
@@ -17032,6 +17078,29 @@
 "sha256":"57f4d43d4dd59e30d30d39efdcd16e385e3682b07457927e896146adc7544ec3",
 "size":3796169,
 "timestamp":1615583657243,
+"version":"0.53.0"
+},
+"numba-0.53.0-py39ha9a9b91_0.tar.bz2":{
+"build":"py39ha9a9b91_0",
+"build_number":0,
+"constrains":[
+"cudatoolkit >=9.0",
+"scipy >=1.0"
+],
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.0.1",
+"llvmlite >=0.36.0,<0.37.0a0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"setuptools"
+],
+"license":"BSD-2-Clause",
+"name":"numba",
+"sha256":"615d8d0466919883f542392b58e19ce0a6738dc05e7a28b5e49a4bee988267f5",
+"size":3802803,
+"timestamp":1615723429778,
 "version":"0.53.0"
 },
 "numexpr-2.7.3-py38h9b9bf68_0.tar.bz2":{
@@ -21481,6 +21550,46 @@
 "timestamp":1610453298437,
 "version":"1.0"
 },
+"python-symengine-0.7.0-py38h1f508c3_0.tar.bz2":{
+"build":"py38h1f508c3_0",
+"build_number":0,
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"libcxx >=11.1.0",
+"libflint >=2.7.1,<2.8.0a0",
+"mpc >=1.1.0,<2.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"symengine >=0.7.0,<0.8.0a0"
+],
+"license":"MIT",
+"name":"python-symengine",
+"sha256":"58d59f3c1c56698b571f56be180e1bf02198bfcf774dbbc85bb6523adb1c424e",
+"size":906940,
+"timestamp":1615737612845,
+"version":"0.7.0"
+},
+"python-symengine-0.7.0-py39hfeca01d_0.tar.bz2":{
+"build":"py39hfeca01d_0",
+"build_number":0,
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"libcxx >=11.1.0",
+"libflint >=2.7.1,<2.8.0a0",
+"mpc >=1.1.0,<2.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"symengine >=0.7.0,<0.8.0a0"
+],
+"license":"MIT",
+"name":"python-symengine",
+"sha256":"53511a2db98e244ead8ae21583e19bc7f3e33f835cd52213443da40a806cf0c0",
+"size":929027,
+"timestamp":1615737539203,
+"version":"0.7.0"
+},
 "python-xxhash-2.0.0-py38h30f7421_1.tar.bz2":{
 "build":"py38h30f7421_1",
 "build_number":1,
@@ -22436,7 +22545,7 @@
 "timestamp":1610699981249,
 "version":"1.5.3"
 },
-"r-survival-3.2_7-r40h4d528fc_0.tar.bz2":{
+"r-survival-3.2_9-r40h4d528fc_0.tar.bz2":{
 "build":"r40h4d528fc_0",
 "build_number":0,
 "depends":[
@@ -22445,10 +22554,10 @@
 ],
 "license":"LGPL-2.0-or-later",
 "name":"r-survival",
-"sha256":"33b245d41f39acb38a12a00a8ecd800ac66d9d7807d09ed321a695972d5696e5",
-"size":7898635,
-"timestamp":1612352682599,
-"version":"3.2_7"
+"sha256":"443aef92fb9b76202feee84ad936c002bfdb9ee5ec72b599be4761a2ef2538f7",
+"size":6693159,
+"timestamp":1615738295208,
+"version":"3.2_9"
 },
 "r-yaml-2.2.1-r40h4d528fc_1.tar.bz2":{
 "build":"r40h4d528fc_1",
