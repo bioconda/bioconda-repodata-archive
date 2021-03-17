@@ -1467,11 +1467,11 @@
 "timestamp":1612211427652,
 "version":"3.3.0"
 },
-"boto3-1.17.23-pyhd3eb1b0_0.tar.bz2":{
+"boto3-1.17.27-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"botocore >=1.20.23,<1.21.0",
+"botocore >=1.20.27,<1.21.0",
 "jmespath >=0.7.1,<1.0.0",
 "python",
 "s3transfer >=0.3.0,<0.4.0"
@@ -1479,10 +1479,10 @@
 "license":"Apache-2.0",
 "name":"boto3",
 "noarch":"python",
-"sha256":"ab52a85ac713f3cd95dbed79ae86e7f39a4ae72d4d2ffa4f08756022e2e6377c",
-"size":72104,
-"timestamp":1615410194856,
-"version":"1.17.23"
+"sha256":"dd5866a0d2f0ea52dcd6be35dd9fff21ff1a34209fe640342ee39d1332e5ce2d",
+"size":72139,
+"timestamp":1615909676651,
+"version":"1.17.27"
 },
 "botocore-1.20.27-pyhd3eb1b0_1.tar.bz2":{
 "build":"pyhd3eb1b0_1",
@@ -2190,7 +2190,7 @@
 "timestamp":1601913182933,
 "version":"20.10.2"
 },
-"clickhouse-sqlalchemy-0.1.5-pyhd3eb1b0_0.tar.bz2":{
+"clickhouse-sqlalchemy-0.1.6-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -2203,10 +2203,10 @@
 "license":"MIT",
 "name":"clickhouse-sqlalchemy",
 "noarch":"python",
-"sha256":"c2fcad6571416d2bf770f0c09ecd76a8ee540a599d0179fbd1e778de240e456d",
-"size":31835,
-"timestamp":1608055580495,
-"version":"0.1.5"
+"sha256":"fcdb92964cd488793d764cbe572c8ee83b535326a9074b4a9633528b4dd4f91d",
+"size":32615,
+"timestamp":1615834437454,
+"version":"0.1.6"
 },
 "clikit-0.4.3-py_0.tar.bz2":{
 "build":"py_0",
@@ -3918,8 +3918,8 @@
 "timestamp":1610993982592,
 "version":"3.0.12"
 },
-"flake8-3.8.4-py_0.tar.bz2":{
-"build":"py_0",
+"flake8-3.9.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "importlib-metadata",
@@ -3932,10 +3932,10 @@
 "license":"MIT",
 "name":"flake8",
 "noarch":"python",
-"sha256":"5c7b56e9ce064ff7349ac3c1fc383ad8fd6e6b08008bb9a8746d6451ba57d7f1",
-"size":91670,
-"timestamp":1601911462369,
-"version":"3.8.4"
+"sha256":"e802b1bea9fb53b85ee9dd9697c27eb934bae717bd88eddf98b9a18bcae51110",
+"size":91913,
+"timestamp":1615834882660,
+"version":"3.9.0"
 },
 "flake8-polyfill-1.0.2-pyhd3eb1b0_1.tar.bz2":{
 "build":"pyhd3eb1b0_1",
@@ -4981,6 +4981,32 @@
 "timestamp":1592339557927,
 "version":"1.8.1"
 },
+"geoviews-1.8.1-pyhd3eb1b0_1.tar.bz2":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"bokeh >=2.0.0",
+"cartopy >=0.17.0",
+"datashader",
+"geopandas",
+"geoviews-core >=1.8.1,<1.8.2.0a0",
+"holoviews >=1.13.0",
+"netcdf4",
+"numpy >=1.0",
+"pandas",
+"param >=1.9.3,<2.0",
+"pyct",
+"python >=3.6",
+"xarray"
+],
+"license":"BSD-3-Clause",
+"name":"geoviews",
+"noarch":"python",
+"sha256":"e836d51d8214f5f799577c4dcca3407070bc126b3f95fae81b6896b619379c62",
+"size":10183,
+"timestamp":1615915777137,
+"version":"1.8.1"
+},
 "geoviews-core-1.8.1-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -5001,6 +5027,28 @@
 "sha256":"8670add6b13fc60a51903370aa58017eefbe7abbb8700b1a6226fbe373d798b3",
 "size":426496,
 "timestamp":1592339483299,
+"version":"1.8.1"
+},
+"geoviews-core-1.8.1-pyh06a4308_1.tar.bz2":{
+"build":"pyh06a4308_1",
+"build_number":1,
+"constrains":[
+"geoviews 1.8.1"
+],
+"depends":[
+"bokeh >=2.0.0",
+"cartopy >=0.17.0",
+"holoviews >=1.13.0",
+"numpy >=1.0",
+"param >=1.9.3",
+"python >=3.6"
+],
+"license":"BSD-3-Clause",
+"name":"geoviews-core",
+"noarch":"python",
+"sha256":"036c6122754be6b1882df174509083e0c38a7abedff832001362be3e942a542a",
+"size":423253,
+"timestamp":1615915685353,
 "version":"1.8.1"
 },
 "gettext-common-devel-cos7-ppc64le-0.19.8.1-0.tar.bz2":{
@@ -5965,8 +6013,8 @@
 "timestamp":1609958293717,
 "version":"1.0.5"
 },
-"httpx-0.16.1-py_0.tar.bz2":{
-"build":"py_0",
+"httpx-0.17.1-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "certifi",
@@ -5979,10 +6027,10 @@
 "license":"BSD-3-Clause",
 "name":"httpx",
 "noarch":"python",
-"sha256":"e6c34f18eedabf61cc9e1436c91ed780a556cec4b50a3f47e738488f9fb01922",
-"size":55589,
-"timestamp":1602258284604,
-"version":"0.16.1"
+"sha256":"f4586db8097a83318eed98b4384b7e53821dc8056b414add1a79a78ffa6b08e8",
+"size":57672,
+"timestamp":1615909359072,
+"version":"0.17.1"
 },
 "humanize-3.2.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -6235,19 +6283,19 @@
 "timestamp":1602276875618,
 "version":"2.0.0"
 },
-"importlib_metadata-2.0.0-1.tar.bz2":{
-"build":"1",
+"importlib_metadata-3.7.3-hd3eb1b0_1.tar.bz2":{
+"build":"hd3eb1b0_1",
 "build_number":1,
 "depends":[
-"importlib-metadata >=2.0.0,<2.0.1.0a0"
+"importlib-metadata >=3.7.3,<3.7.4.0a0"
 ],
 "license":"Apache-2.0",
 "name":"importlib_metadata",
 "noarch":"generic",
-"sha256":"039803b830ef2726f2773f29da9cedc5f49f61d6579c915490f8de023819ddd3",
-"size":10902,
-"timestamp":1602276876865,
-"version":"2.0.0"
+"sha256":"2b6bdfa135aa4fe7f618caebe7187c8e857eaaef51810b84044aaa719b0407d0",
+"size":11169,
+"timestamp":1615900752787,
+"version":"3.7.3"
 },
 "inequality-1.0.0-py_0.tar.bz2":{
 "build":"py_0",
@@ -6610,8 +6658,8 @@
 "timestamp":1613934332848,
 "version":"3.2.1"
 },
-"jaraco.itertools-5.0.0-py_0.tar.bz2":{
-"build":"py_0",
+"jaraco.itertools-6.0.1-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "inflect",
@@ -6621,10 +6669,10 @@
 "license":"MIT",
 "name":"jaraco.itertools",
 "noarch":"python",
-"sha256":"e4f6b7dd6c7eb4ba02b33bda65e07348b3a6837aa5e31fa3209230b13e1758c0",
-"size":15139,
-"timestamp":1580836942988,
-"version":"5.0.0"
+"sha256":"a6d366424e6f76ae644ee482a74b9af6ebf7acfcef21e9a5f0ba90d4410856e4",
+"size":14693,
+"timestamp":1615835395336,
+"version":"6.0.1"
 },
 "java-1.7.0-openjdk-cos6-i686-1.7.0.131-h3a8c334_0.tar.bz2":{
 "build":"h3a8c334_0",
@@ -7224,6 +7272,24 @@
 "sha256":"b7f479610e36da6464c8f048682b1d81f2fa09d4471dbafbee6539d95a9cd167",
 "size":6164246,
 "timestamp":1598376289158,
+"version":"2.2.6"
+},
+"jupyterlab-2.2.6-pyhd3eb1b0_1.tar.bz2":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"jinja2 >=2.10",
+"jupyterlab_server >=1.1.0,<2.0.0",
+"notebook >=4.3.1",
+"python >=3.5",
+"tornado !=6.0.0,!=6.0.1,!=6.0.2"
+],
+"license":"BSD-3-Clause",
+"name":"jupyterlab",
+"noarch":"python",
+"sha256":"58949244a03d6fc47848a380e5bd7df2fd6af2fdffea8d3e363fd5995be8303f",
+"size":6125181,
+"timestamp":1615894836100,
 "version":"2.2.6"
 },
 "jupyterlab_launcher-0.13.1-py_2.tar.bz2":{
@@ -11971,6 +12037,27 @@
 "sha256":"06afb7e1d28368fc39681c8f0d1091c9e4ca8e3124ea37a291f9e1118333a825",
 "size":6316847,
 "timestamp":1610997820068,
+"version":"0.10.3"
+},
+"panel-0.10.3-pyhd3eb1b0_1.tar.bz2":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"bokeh >=2.2",
+"markdown",
+"param >=1.10.0",
+"pyct >=0.4.4",
+"python >=3",
+"pyviz_comms >=0.7.4",
+"requests",
+"tqdm"
+],
+"license":"BSD-3-Clause",
+"name":"panel",
+"noarch":"python",
+"sha256":"2c976538e61c81bb5e354d6226ece68e54835508c9d2059dfce92c90eacd884a",
+"size":6334537,
+"timestamp":1615894266891,
 "version":"0.10.3"
 },
 "pango-cos6-i686-1.28.1-h4031259_0.tar.bz2":{
@@ -17131,6 +17218,20 @@
 "timestamp":1615811566511,
 "version":"4.59.0"
 },
+"tqdm-4.59.0-pyhd3eb1b0_1.tar.bz2":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"python >=2.7"
+],
+"license":"MPL-2.0 or MIT",
+"name":"tqdm",
+"noarch":"python",
+"sha256":"c1f1955047505dd6093c363cef7e7f282fff3dee3654e427eba651ba88254e13",
+"size":91789,
+"timestamp":1615925111542,
+"version":"4.59.0"
+},
 "traceback2-1.4.0-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -17414,7 +17515,7 @@
 "timestamp":1607703916969,
 "version":"1.1.0"
 },
-"urllib3-1.26.3-pyhd3eb1b0_0.tar.bz2":{
+"urllib3-1.26.4-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -17429,10 +17530,10 @@
 "license":"MIT",
 "name":"urllib3",
 "noarch":"python",
-"sha256":"94895751a028fea999f5d92cd3ef592be9857f3e218bafb54842b6c0c900b7b1",
-"size":101485,
-"timestamp":1611694810251,
-"version":"1.26.3"
+"sha256":"7f98ec9e0359b4afbfcae7774cc20fdd9d6f7557fea9e9defd63b2c67245cebe",
+"size":101298,
+"timestamp":1615837198167,
+"version":"1.26.4"
 },
 "validators-0.18.2-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -18132,6 +18233,20 @@
 "timestamp":1597785548273,
 "version":"0.25.2"
 },
+"yarn-0.25.2-hd3eb1b0_1.tar.bz2":{
+"build":"hd3eb1b0_1",
+"build_number":1,
+"depends":[
+"nodejs"
+],
+"license":"BSD-2-Clause",
+"name":"yarn",
+"noarch":true,
+"sha256":"e6d76f365bf5da1cd4e58afc30a8b2e93adfc736f7ec2c4e75cc02e8db86a651",
+"size":684620,
+"timestamp":1615894139484,
+"version":"0.25.2"
+},
 "yq-2.12.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -18239,7 +18354,7 @@
 "timestamp":1611935386136,
 "version":"3.0"
 },
-"zipp-3.4.0-pyhd3eb1b0_0.tar.bz2":{
+"zipp-3.4.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -18248,10 +18363,10 @@
 "license":"MIT",
 "name":"zipp",
 "noarch":"python",
-"sha256":"4b0fce4d4ad63fe7f1a3f5fe162f2b730e48fa108e27be6ce30f3af408ba6114",
-"size":15242,
-"timestamp":1604001129600,
-"version":"3.4.0"
+"sha256":"57f43f0fd891638e798a091912f3830abaa94d2ce71cfc527ae08d9652b1cb56",
+"size":15229,
+"timestamp":1615904216969,
+"version":"3.4.1"
 }
 },
 "packages.conda":{},
