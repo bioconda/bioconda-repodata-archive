@@ -3963,6 +3963,86 @@
 "timestamp":1518290849714,
 "version":"1.9.9"
 },
+"anyio-2.0.2-py36hecd8cb5_2.tar.bz2":{
+"build":"py36hecd8cb5_2",
+"build_number":2,
+"constrains":[
+"curio >=1.4",
+"trio >=0.16"
+],
+"depends":[
+"async_generator",
+"dataclasses",
+"idna >=2.8",
+"python >=3.6,<3.7.0a0",
+"sniffio >=1.1",
+"typing_extensions"
+],
+"license":"MIT",
+"name":"anyio",
+"sha256":"cea71a436167f964cc9230b296853b8e80d6019e3ea1752c64f9e9aad5f59066",
+"size":115745,
+"timestamp":1616017019555,
+"version":"2.0.2"
+},
+"anyio-2.0.2-py37hecd8cb5_2.tar.bz2":{
+"build":"py37hecd8cb5_2",
+"build_number":2,
+"constrains":[
+"trio >=0.16",
+"curio >=1.4"
+],
+"depends":[
+"idna >=2.8",
+"python >=3.7,<3.8.0a0",
+"sniffio >=1.1",
+"typing_extensions"
+],
+"license":"MIT",
+"name":"anyio",
+"sha256":"9c689ffe7665fc67bc0fe775d4f6bb5a5d889ebeb28a774e2a7a07424ad2fe6b",
+"size":115822,
+"timestamp":1616017022249,
+"version":"2.0.2"
+},
+"anyio-2.0.2-py38hecd8cb5_2.tar.bz2":{
+"build":"py38hecd8cb5_2",
+"build_number":2,
+"constrains":[
+"curio >=1.4",
+"trio >=0.16"
+],
+"depends":[
+"idna >=2.8",
+"python >=3.8,<3.9.0a0",
+"sniffio >=1.1"
+],
+"license":"MIT",
+"name":"anyio",
+"sha256":"5cd938d8c1be1b9210630920016f75b115cb8308ad6eddcd1ccdab28290f93d2",
+"size":116491,
+"timestamp":1616017017626,
+"version":"2.0.2"
+},
+"anyio-2.0.2-py39hecd8cb5_2.tar.bz2":{
+"build":"py39hecd8cb5_2",
+"build_number":2,
+"constrains":[
+"curio >=1.4",
+"trio >=0.16"
+],
+"depends":[
+"idna >=2.8",
+"python >=3.9,<3.10.0a0",
+"sniffio >=1.1"
+],
+"license":"MIT",
+"name":"anyio",
+"sha256":"838df96403fe7f74165b66d5cf38334b4bc8b288e6a0db7bbe01e839c0723130",
+"size":117070,
+"timestamp":1616017018448,
+"version":"2.0.2"
+},
 "anyjson-0.3.3-py27_1.tar.bz2":{
 "build":"py27_1",
 "build_number":1,
@@ -7156,7 +7236,7 @@
 "timestamp":1615054905613,
 "version":"1.8.156"
 },
-"aws-sdk-cpp-1.8.162-he271ece_0.tar.bz2":{
+"aws-sdk-cpp-1.8.163-he271ece_0.tar.bz2":{
 "build":"he271ece_0",
 "build_number":0,
 "depends":[
@@ -7168,10 +7248,10 @@
 ],
 "license":"Apache-2.0",
 "name":"aws-sdk-cpp",
-"sha256":"102e9271709fa0b8da7a6496f533ad1b5b32ecc062ecac9fb7993d81ef3d0d3a",
-"size":2129982,
-"timestamp":1615920968020,
-"version":"1.8.162"
+"sha256":"823481c2f58e82fa5d1b480f0886a50bdcfa1cc7307d0d24b421a10aeff26f19",
+"size":2130587,
+"timestamp":1616007385370,
+"version":"1.8.163"
 },
 "aws-xray-sdk-2.6.0-py36_0.tar.bz2":{
 "build":"py36_0",
@@ -34029,6 +34109,111 @@
 "timestamp":1536855170742,
 "version":"2.1.0"
 },
+"jupyter_server-1.4.1-py36hecd8cb5_0.tar.bz2":{
+"build":"py36hecd8cb5_0",
+"build_number":0,
+"depends":[
+"anyio >=2.0.2",
+"dataclasses",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.4.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.6,<3.7.0a0",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1"
+],
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"c91bc42e08ad73a65f2e78efe4a42587826fd928e178e3d565d02714584ac6ab",
+"size":336631,
+"timestamp":1616084091665,
+"version":"1.4.1"
+},
+"jupyter_server-1.4.1-py37hecd8cb5_0.tar.bz2":{
+"build":"py37hecd8cb5_0",
+"build_number":0,
+"depends":[
+"anyio >=2.0.2",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.4.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.7,<3.8.0a0",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1"
+],
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"46fecf8bffc5c4ede8f30b92b9c571a89a2d88eff13c29f1a908160705b741ce",
+"size":332768,
+"timestamp":1616084083294,
+"version":"1.4.1"
+},
+"jupyter_server-1.4.1-py38hecd8cb5_0.tar.bz2":{
+"build":"py38hecd8cb5_0",
+"build_number":0,
+"depends":[
+"anyio >=2.0.2",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.4.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.8,<3.9.0a0",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1"
+],
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"45a7f05b93e32391b3051a2394a116410f711c61605ea745a0f59af7246004db",
+"size":336499,
+"timestamp":1616084082135,
+"version":"1.4.1"
+},
+"jupyter_server-1.4.1-py39hecd8cb5_0.tar.bz2":{
+"build":"py39hecd8cb5_0",
+"build_number":0,
+"depends":[
+"anyio >=2.0.2",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.4.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.9,<3.10.0a0",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1"
+],
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"0d065f7f37b1430efe71cf2e6ca73ef0e578d59d83d189cdbfd916618290165d",
+"size":337435,
+"timestamp":1616084079807,
+"version":"1.4.1"
+},
 "jupyterhub-1.3.0-py36hecd8cb5_1.tar.bz2":{
 "build":"py36hecd8cb5_1",
 "build_number":1,
@@ -37638,6 +37823,19 @@
 "sha256":"930e63b12eeac00560ecdce756070a1502093832349464c699cbc630c10a5567",
 "size":431254,
 "timestamp":1573155370709,
+"version":"1.9.3"
+},
+"libspatialindex-1.9.3-h23ab428_0.tar.bz2":{
+"build":"h23ab428_0",
+"build_number":0,
+"depends":[
+"libcxx >=10.0.0"
+],
+"license":"MIT",
+"name":"libspatialindex",
+"sha256":"aa1bca7ee910973ee9bb5b20d0f8c441aebf409983118a12e835edb65297ead5",
+"size":415040,
+"timestamp":1616086763917,
 "version":"1.9.3"
 },
 "libspatialite-4.3.0a-h0a2fa02_18.tar.bz2":{
@@ -68286,6 +68484,62 @@
 "timestamp":1601999117881,
 "version":"0.2.2"
 },
+"ruamel_yaml-0.15.100-py36h9ed2024_0.tar.bz2":{
+"build":"py36h9ed2024_0",
+"build_number":0,
+"depends":[
+"python >=3.6,<3.7.0a0",
+"yaml >=0.2.5,<0.3.0a0"
+],
+"license":"MIT",
+"name":"ruamel_yaml",
+"sha256":"4b19a8b511943bb75c9d2a7ca5409467869be98877a4bb6971da68af2b46b87e",
+"size":264661,
+"timestamp":1616016759372,
+"version":"0.15.100"
+},
+"ruamel_yaml-0.15.100-py37h9ed2024_0.tar.bz2":{
+"build":"py37h9ed2024_0",
+"build_number":0,
+"depends":[
+"python >=3.7,<3.8.0a0",
+"yaml >=0.2.5,<0.3.0a0"
+],
+"license":"MIT",
+"name":"ruamel_yaml",
+"sha256":"0e310b5df2a2674e5557bcb02ff590452cad05152a794aec38405da7695d9733",
+"size":257870,
+"timestamp":1616016753678,
+"version":"0.15.100"
+},
+"ruamel_yaml-0.15.100-py38h9ed2024_0.tar.bz2":{
+"build":"py38h9ed2024_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"yaml >=0.2.5,<0.3.0a0"
+],
+"license":"MIT",
+"name":"ruamel_yaml",
+"sha256":"adadded1a1bd8cfc54ed22da326d277e581cf5c6f3737c916c20b14df298b0a2",
+"size":266603,
+"timestamp":1616016755592,
+"version":"0.15.100"
+},
+"ruamel_yaml-0.15.100-py39h9ed2024_0.tar.bz2":{
+"build":"py39h9ed2024_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"yaml >=0.2.5,<0.3.0a0"
+],
+"license":"MIT",
+"name":"ruamel_yaml",
+"sha256":"b5382000eca9f8b531738a1da4b61ddb1aeef2449f5b43ab8c95875fb0e92b7f",
+"size":272114,
+"timestamp":1616016756621,
+"version":"0.15.100"
+},
 "ruamel_yaml-0.15.87-py27h1de35cc_0.tar.bz2":{
 "build":"py27h1de35cc_0",
 "build_number":0,
@@ -84115,6 +84369,35 @@
 "size":593806,
 "timestamp":1602701516590,
 "version":"4.3.3"
+},
+"zeromq-4.3.4-h23ab428_0.tar.bz2":{
+"build":"h23ab428_0",
+"build_number":0,
+"depends":[
+"libcxx >=10.0.0",
+"libsodium >=1.0.18,<1.0.19.0a0"
+],
+"license":"LGPL-3.0-or-later",
+"name":"zeromq",
+"sha256":"dcc28f346501e3d6bbeee265a3160b4dff4e0f37ed9fa5a743e30e91fa51c854",
+"size":321797,
+"timestamp":1616055526986,
+"version":"4.3.4"
+},
+"zeromq-static-4.3.4-h23ab428_0.tar.bz2":{
+"build":"h23ab428_0",
+"build_number":0,
+"depends":[
+"libcxx >=10.0.0",
+"libsodium >=1.0.18,<1.0.19.0a0",
+"zeromq 4.3.4 h23ab428_0"
+],
+"license":"LGPL-3.0-or-later",
+"name":"zeromq-static",
+"sha256":"5914c462d5c315e0695bc91c4ef3eecd84345b05738099571f08f437694f5c52",
+"size":356484,
+"timestamp":1616055537005,
+"version":"4.3.4"
 },
 "zfp-0.5.5-h23ab428_4.tar.bz2":{
 "build":"h23ab428_4",
