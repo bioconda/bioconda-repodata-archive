@@ -18683,6 +18683,34 @@
 "timestamp":1612403236506,
 "version":"2.2.1"
 },
+"eups-2.2.2-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"GPL-2.0-or-later",
+"name":"eups",
+"sha256":"ab96cdc41d59f6b63a18d21a649040518820dd553a8c2c601ff7b014e3331659",
+"size":443013,
+"timestamp":1616625459305,
+"version":"2.2.2"
+},
+"eups-2.2.2-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"GPL-2.0-or-later",
+"name":"eups",
+"sha256":"aeae7d1681aaa94db3579a47160cac2a92f298312d105f81b69eca9a41b057dc",
+"size":447222,
+"timestamp":1616625467059,
+"version":"2.2.2"
+},
 "exa-0.9.0-h1efec70_2.tar.bz2":{
 "build":"h1efec70_2",
 "build_number":2,
@@ -21274,6 +21302,23 @@
 "timestamp":1616104861078,
 "version":"2.68.0"
 },
+"glib-2.68.0-h9f76cd9_2.tar.bz2":{
+"build":"h9f76cd9_2",
+"build_number":2,
+"depends":[
+"gettext >=0.19.8.1,<1.0a0",
+"glib-tools 2.68.0 h9f76cd9_2",
+"libcxx >=11.1.0",
+"libglib 2.68.0 haaa185a_2",
+"python *"
+],
+"license":"LGPL-2.1-or-later",
+"name":"glib",
+"sha256":"3dcbeee01d07fc049a452c95849ea60f425fcfc3f71c4aff6a8df9d826018051",
+"size":445537,
+"timestamp":1616573367047,
+"version":"2.68.0"
+},
 "glib-tools-2.66.4-h25b6261_2.tar.bz2":{
 "build":"h25b6261_2",
 "build_number":2,
@@ -21370,6 +21415,20 @@
 "sha256":"a69f0b43d22a469553708c1b6917126e9e2b0c221d92a536769df133819c8813",
 "size":83964,
 "timestamp":1616104820170,
+"version":"2.68.0"
+},
+"glib-tools-2.68.0-h9f76cd9_2.tar.bz2":{
+"build":"h9f76cd9_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.1.0",
+"libglib 2.68.0 haaa185a_2"
+],
+"license":"LGPL-2.1-or-later",
+"name":"glib-tools",
+"sha256":"2d70dfab75f58a59edf5b66a359e8bc851f96aa22b7b6c0b70195253044cceca",
+"size":84070,
+"timestamp":1616573310531,
 "version":"2.68.0"
 },
 "glog-0.4.0-h6361243_3.tar.bz2":{
@@ -22182,7 +22241,7 @@
 "build":"py38h10201cd_0",
 "build_number":0,
 "constrains":[
-"sqlalchemy >=1.2",
+"sqlalchemy >=1.2,<1.4",
 "pyspark >=2.3.2"
 ],
 "depends":[
@@ -22220,7 +22279,7 @@
 "build_number":0,
 "constrains":[
 "pyspark >=2.3.2",
-"sqlalchemy >=1.2"
+"sqlalchemy >=1.2,<1.4"
 ],
 "depends":[
 "altair >=4,<5",
@@ -22257,7 +22316,7 @@
 "build_number":0,
 "constrains":[
 "pyspark >=2.3.2",
-"sqlalchemy >=1.2"
+"sqlalchemy >=1.2,<1.4"
 ],
 "depends":[
 "altair >=4,<5",
@@ -22294,7 +22353,7 @@
 "build_number":0,
 "constrains":[
 "pyspark >=2.3.2",
-"sqlalchemy >=1.2"
+"sqlalchemy >=1.2,<1.4"
 ],
 "depends":[
 "altair >=4,<5",
@@ -22331,7 +22390,7 @@
 "build_number":0,
 "constrains":[
 "pyspark >=2.3.2",
-"sqlalchemy >=1.2"
+"sqlalchemy >=1.2,<1.4"
 ],
 "depends":[
 "altair >=4,<5",
@@ -22367,7 +22426,7 @@
 "build":"py39h2804cbe_0",
 "build_number":0,
 "constrains":[
-"sqlalchemy >=1.2",
+"sqlalchemy >=1.2,<1.4",
 "pyspark >=2.3.2"
 ],
 "depends":[
@@ -22794,6 +22853,20 @@
 "size":51687,
 "timestamp":1616405015282,
 "version":"1.36.0"
+},
+"grpc_java_plugin-1.36.1-h2f72c8c_0.tar.bz2":{
+"build":"h2f72c8c_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libprotobuf >=3.15.6,<3.16.0a0"
+],
+"license":"Apache-2.0",
+"name":"grpc_java_plugin",
+"sha256":"d1d12838a05aa40ec734a93cc563c9b58c4c8a00f9044248cfc847aaf8a37b8d",
+"size":51736,
+"timestamp":1616621722667,
+"version":"1.36.1"
 },
 "grpcio-1.33.2-py38h446835f_2.tar.bz2":{
 "build":"py38h446835f_2",
@@ -23373,6 +23446,24 @@
 "timestamp":1610711014050,
 "version":"2.24.33"
 },
+"gtk2-2.24.33-hedeb848_1.tar.bz2":{
+"build":"hedeb848_1",
+"build_number":1,
+"depends":[
+"atk-1.0 >=2.36.0",
+"cairo >=1.16.0,<1.17.0a0",
+"gdk-pixbuf >=2.42.4,<3.0a0",
+"gettext >=0.19.8.1,<1.0a0",
+"libglib >=2.68.0,<3.0a0",
+"pango >=1.48.3,<1.49.0a0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"gtk2",
+"sha256":"bca676cc97b08afa034492d5d7759bac3619b9df86c11371b7ceb838a05bc927",
+"size":7395714,
+"timestamp":1616618017607,
+"version":"2.24.33"
+},
 "gtk3-3.24.24-hcfe5989_2.tar.bz2":{
 "build":"hcfe5989_2",
 "build_number":2,
@@ -23444,6 +23535,30 @@
 "size":9555239,
 "timestamp":1614181456613,
 "version":"3.24.26"
+},
+"gtk3-3.24.27-hadf9342_1.tar.bz2":{
+"build":"hadf9342_1",
+"build_number":1,
+"depends":[
+"atk-1.0 >=2.36.0",
+"cairo >=1.16.0,<1.17.0a0",
+"epoxy >=1.5.5,<1.6.0a0",
+"freetype >=2.10.4,<3.0a0",
+"fribidi >=1.0.10,<2.0a0",
+"gdk-pixbuf >=2.42.4,<3.0a0",
+"gettext >=0.19.8.1,<1.0a0",
+"glib-tools",
+"harfbuzz >=2.8.0,<3.0a0",
+"hicolor-icon-theme",
+"libglib >=2.68.0,<3.0a0",
+"pango >=1.48.3,<1.49.0a0"
+],
+"license":"LGPL-2.0-or-later",
+"name":"gtk3",
+"sha256":"113585c89f6bb62f63826de4f7f6677fc8900caddeda8a242073f235eb3bb3ee",
+"size":9552439,
+"timestamp":1616605946230,
+"version":"3.24.27"
 },
 "gtk3-3.24.27-hcfe5989_0.tar.bz2":{
 "build":"hcfe5989_0",
@@ -27451,6 +27566,118 @@
 "timestamp":1614029154588,
 "version":"1.4.1"
 },
+"jupyter_server-1.5.0-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"anyio >=2.0.2",
+"argon2-cffi",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.4.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1"
+],
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"09b04c4a5cbe50fc523d5543565523a52480f3fd2f0e9091c3ca99c7c045a119",
+"size":428065,
+"timestamp":1616543871910,
+"version":"1.5.0"
+},
+"jupyter_server-1.5.0-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"anyio >=2.0.2",
+"argon2-cffi",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.4.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1"
+],
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"417d063832f00496e15e25b2f72286fbe39b7a28da474aa75c6ce48d197d1f91",
+"size":428194,
+"timestamp":1616543861261,
+"version":"1.5.0"
+},
+"jupyter_server-1.5.1-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"anyio >=2.0.2",
+"argon2-cffi",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.4.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1"
+],
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"7bdebce0ef9867b9bbbc577bc63850efaff2ed8ed30cdba11ab94a85ded95ee8",
+"size":426249,
+"timestamp":1616624500557,
+"version":"1.5.1"
+},
+"jupyter_server-1.5.1-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"anyio >=2.0.2",
+"argon2-cffi",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.4.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1"
+],
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"4398ae64061150335eef62967b3fac52a09593d70f3a87267d91199c6cb59fda",
+"size":422485,
+"timestamp":1616624532896,
+"version":"1.5.1"
+},
 "jxrlib-1.1-h27ca646_2.tar.bz2":{
 "build":"h27ca646_2",
 "build_number":2,
@@ -31066,6 +31293,28 @@
 "sha256":"a1398d2cf23d01313183b0c38f283ca77028a22fb6125ca9045dd52332e652c1",
 "size":2936023,
 "timestamp":1616104778861,
+"version":"2.68.0"
+},
+"libglib-2.68.0-haaa185a_2.tar.bz2":{
+"build":"haaa185a_2",
+"build_number":2,
+"constrains":[
+"glib 2.68.0 *_2",
+"__osx >=11.0"
+],
+"depends":[
+"gettext >=0.19.8.1,<1.0a0",
+"libcxx >=11.1.0",
+"libffi >=3.3,<3.4.0a0",
+"libiconv >=1.16,<1.17.0a0",
+"pcre >=8.44,<9.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"libglib",
+"sha256":"9582d7209832ea0381cd488c2108e278a8c13d4051b1368a63f3d066618305ce",
+"size":2952884,
+"timestamp":1616573254824,
 "version":"2.68.0"
 },
 "libgpuarray-0.7.6-h27ca646_1003.tar.bz2":{
@@ -42098,6 +42347,25 @@
 "size":543328,
 "timestamp":1605719977315,
 "version":"1.42.4"
+},
+"pango-1.48.3-h1fe82c0_0.tar.bz2":{
+"build":"h1fe82c0_0",
+"build_number":0,
+"depends":[
+"cairo >=1.16.0,<1.17.0a0",
+"fontconfig >=2.13.1,<3.0a0",
+"freetype >=2.10.4,<3.0a0",
+"fribidi >=1.0.10,<2.0a0",
+"harfbuzz >=2.8.0,<3.0a0",
+"libglib >=2.68.0,<3.0a0",
+"libpng >=1.6.37,<1.7.0a0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"pango",
+"sha256":"b9f3f38ece1a0007b8fb5e51779d3ffc5861b99048e4d94e7d797151f90c8692",
+"size":396789,
+"timestamp":1616555857059,
+"version":"1.48.3"
 },
 "patch-2.7.6-h1f0153e_1001.tar.bz2":{
 "build":"h1f0153e_1001",
@@ -59455,6 +59723,21 @@
 "timestamp":1614369212635,
 "version":"5.7.2"
 },
+"sundials-5.7.0-hb5e7973_0.tar.bz2":{
+"build":"hb5e7973_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"suitesparse >=5.7.2,<6.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"sundials",
+"sha256":"93d32c3d95636adf16bf1a5395106e371314e171c22197289e70f83dd03c7f2c",
+"size":726734,
+"timestamp":1616589244620,
+"version":"5.7.0"
+},
 "supervisor-4.2.1-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
@@ -62794,6 +63077,36 @@
 "timestamp":1614969654817,
 "version":"4.1.1"
 },
+"wxpython-4.1.1-py39h28cb02c_1.tar.bz2":{
+"build":"py39h28cb02c_1",
+"build_number":1,
+"depends":[
+"backports.lzma",
+"expat >=2.2.10,<2.3.0a0",
+"gettext >=0.19.8.1,<1.0a0",
+"jpeg >=9d,<10a",
+"libcxx >=11.1.0",
+"libiconv >=1.16,<1.17.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"pathlib2",
+"pthread-stubs",
+"pypubsub",
+"python >=3.9,<3.10.0a0",
+"python.app",
+"python_abi 3.9.* *_cp39",
+"requests",
+"setuptools",
+"six",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LGPL-2.0-or-later WITH WxWindows-exception-3.1",
+"name":"wxpython",
+"sha256":"fa30a2a2b8135193a2e453f6203113bc3b19dd42255c14f0264946de1fa4dff7",
+"size":29258133,
+"timestamp":1616632426617,
+"version":"4.1.1"
+},
 "x264-1!161.3030-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
 "build_number":0,
@@ -64736,6 +65049,20 @@
 "size":183804,
 "timestamp":1616516310608,
 "version":"0.23.3"
+},
+"xtensor-0.23.4-h260d524_0.tar.bz2":{
+"build":"h260d524_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"xtl >=0.7,<0.8"
+],
+"license":"BSD-3-Clause",
+"name":"xtensor",
+"sha256":"c0b7341a9f251b3b1847deb52dcc65743c7fdd4622dfa13d93dcf3d69a35470b",
+"size":183455,
+"timestamp":1616604522851,
+"version":"0.23.4"
 },
 "xtensor-python-0.24.1-py38h3578e97_3.tar.bz2":{
 "build":"py38h3578e97_3",
