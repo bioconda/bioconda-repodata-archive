@@ -45437,36 +45437,39 @@
 "timestamp":1600210399286,
 "version":"0.51.2"
 },
-"numba-0.53.0-py36hf11a4ad_0.conda":{
+"numba-0.53.1-py36hf11a4ad_0.conda":{
 "build":"py36hf11a4ad_0",
 "build_number":0,
 "constrains":[
+"tbb  >=2019.5,<=2020.3",
+"cudatoolkit >=9.0",
 "libopenblas !=0.3.6",
-"scipy >=1.0",
-"cudatoolkit >=9.0"
+"scipy >=1.0"
 ],
 "depends":[
 "llvmlite >=0.36.0,<0.37.0a0",
 "numpy >=1.16.6,<2.0a0",
 "python >=3.6,<3.7.0a0",
 "setuptools",
+"tbb >=2020.3",
 "vc >=14.1,<15.0a0",
 "vs2015_runtime >=14.16.27012,<15.0a0"
 ],
-"legacy_bz2_md5":"63d33b4aaf075e9bd7de6949f2ead8c7",
+"legacy_bz2_md5":"1dc77105e76283a7a552624a872c3a7e",
 "license":"BSD-2-Clause",
 "name":"numba",
-"sha256":"fdb3f3d72a3ca2b0c9158e4d8f546f36d5d18e9e2ece60ef80ce43bc13a62a44",
-"size":3422926,
-"timestamp":1615889604404,
-"version":"0.53.0"
+"sha256":"a78a0634629181d66c656bb4e4bbcb50b69e7294e07aaf98dfb90ce7c75992d7",
+"size":3470557,
+"timestamp":1616774488704,
+"version":"0.53.1"
 },
-"numba-0.53.0-py37hf11a4ad_0.conda":{
+"numba-0.53.1-py37hf11a4ad_0.conda":{
 "build":"py37hf11a4ad_0",
 "build_number":0,
 "constrains":[
-"scipy >=1.0",
 "libopenblas !=0.3.6",
+"tbb  >=2019.5,<=2020.3",
+"scipy >=1.0",
 "cudatoolkit >=9.0"
 ],
 "depends":[
@@ -45474,64 +45477,69 @@
 "numpy >=1.16.6,<2.0a0",
 "python >=3.7,<3.8.0a0",
 "setuptools",
+"tbb >=2020.3",
 "vc >=14.1,<15.0a0",
 "vs2015_runtime >=14.16.27012,<15.0a0"
 ],
-"legacy_bz2_md5":"62c0cd158fc8bc2373afd3578dbeee8c",
+"legacy_bz2_md5":"76340fa70ee7acc6183908587e18abfd",
 "license":"BSD-2-Clause",
 "name":"numba",
-"sha256":"7794d68d2a3329d0f7c2651f381a603235529f70ccc6f4096995074793580fb3",
-"size":3395185,
-"timestamp":1615889458086,
-"version":"0.53.0"
+"sha256":"25feb60f91949030537b958bcc66a503ae5720504373cb2051e4f6b5adbccbf1",
+"size":3464441,
+"timestamp":1616774488290,
+"version":"0.53.1"
 },
-"numba-0.53.0-py38hf11a4ad_0.conda":{
+"numba-0.53.1-py38hf11a4ad_0.conda":{
 "build":"py38hf11a4ad_0",
 "build_number":0,
 "constrains":[
+"cudatoolkit >=9.0",
 "libopenblas !=0.3.6",
-"scipy >=1.0",
-"cudatoolkit >=9.0"
+"tbb  >=2019.5,<=2020.3",
+"scipy >=1.0"
 ],
 "depends":[
 "llvmlite >=0.36.0,<0.37.0a0",
 "numpy >=1.16.6,<2.0a0",
 "python >=3.8,<3.9.0a0",
 "setuptools",
+"tbb >=2020.3",
 "vc >=14.1,<15.0a0",
 "vs2015_runtime >=14.16.27012,<15.0a0"
 ],
-"legacy_bz2_md5":"4d2a2645639fb7347f82277baffbbc7c",
+"legacy_bz2_md5":"d296980315340a1fcd4f29f996f1b940",
 "license":"BSD-2-Clause",
 "name":"numba",
-"sha256":"e9a8aca3d19ee350adc38af1ca24fbfe246c002af533b2cbaaa5da8e9ef8949a",
-"size":3420836,
-"timestamp":1615889483965,
-"version":"0.53.0"
+"sha256":"e5b47337b963cc29d99d6706a9cc132fa6d5fc25e383b2c978316beffba6f2ce",
+"size":3468095,
+"timestamp":1616774628464,
+"version":"0.53.1"
 },
-"numba-0.53.0-py39hf11a4ad_0.conda":{
+"numba-0.53.1-py39hf11a4ad_0.conda":{
 "build":"py39hf11a4ad_0",
 "build_number":0,
 "constrains":[
-"libopenblas !=0.3.6",
 "scipy >=1.0",
-"cudatoolkit >=9.0"
+"cudatoolkit >=9.0",
+"libopenblas !=0.3.6",
+"tbb  >=2019.5,<=2020.3"
 ],
 "depends":[
 "llvmlite >=0.36.0,<0.37.0a0",
 "numpy >=1.16.6,<2.0a0",
 "python >=3.9,<3.10.0a0",
 "setuptools",
+"tbb >=2020.3",
 "vc >=14.1,<15.0a0",
 "vs2015_runtime >=14.16.27012,<15.0a0"
 ],
-"legacy_bz2_md5":"25e53de47e0497c8a18fe5ebad8fc484",
+"legacy_bz2_md5":"7a486b86af7249642c7478ec1b9ccb39",
 "license":"BSD-2-Clause",
 "name":"numba",
-"sha256":"1979e779e3f3ecec5302a95004b528382ce6c00fdb91d431dc1a5730f41e19bb",
-"size":3444074,
-"timestamp":1615889484870,
-"version":"0.53.0"
+"sha256":"3ee69b8e95aebceb8f8eaaac90a49200fcaa4e5695300fabfd1561dc2d8ba149",
+"size":3466182,
+"timestamp":1616774620953,
+"version":"0.53.1"
 },
 "numcodecs-0.7.3-py36hd77b12b_0.conda":{
 "build":"py36hd77b12b_0",
