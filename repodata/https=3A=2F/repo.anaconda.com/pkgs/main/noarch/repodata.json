@@ -12494,6 +12494,33 @@
 "timestamp":1615337568051,
 "version":"2021.3.0"
 },
+"dask-2021.3.1-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"constrains":[
+"openssl !=1.1.1e"
+],
+"depends":[
+"bokeh >=1.0.0,!=2.0.0",
+"cloudpickle >=0.2.2",
+"cytoolz >=0.8.2",
+"dask-core 2021.3.1.*",
+"distributed >=2021.3.1",
+"fsspec >=0.6.0",
+"numpy >=1.15.1",
+"pandas >=0.25.0",
+"partd >=0.3.10",
+"python >=3.6",
+"toolz >=0.8.2"
+],
+"license":"BSD-3-Clause",
+"name":"dask",
+"noarch":"python",
+"sha256":"ef9d6a6764302644d0f64067d4c2c074e0bb08f372bc1fcd88414bb412c3c5d9",
+"size":4738,
+"timestamp":1617226500898,
+"version":"2021.3.1"
+},
 "dask-core-1.1.1-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -13212,6 +13239,25 @@
 "size":729308,
 "timestamp":1617117402827,
 "version":"2021.3.1"
+},
+"dask-glm-0.2.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"dask",
+"multipledispatch >=0.4.9",
+"python >=3",
+"scikit-learn >=0.18",
+"scipy >=0.18.1",
+"setuptools"
+],
+"license":"BSD-3-Clause",
+"name":"dask-glm",
+"noarch":"python",
+"sha256":"1c3e5bdf9c5f83c18af1cd18454b2364c6c72d6dbfecd2163d4eec6982fa971d",
+"size":16500,
+"timestamp":1617267676065,
+"version":"0.2.0"
 },
 "dask-image-0.2.0-py_0.tar.bz2":{
 "build":"py_0",
@@ -26723,6 +26769,29 @@
 "timestamp":1616167862215,
 "version":"3.0.11"
 },
+"jupyterlab-3.0.11-pyhd3eb1b0_1.tar.bz2":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"ipython",
+"jinja2 >=2.10",
+"jupyter-packaging >=0.7.3,<0.8.0",
+"jupyter_core",
+"jupyter_server >=1.4,<2",
+"jupyterlab_server >=2.3,<3",
+"nbclassic >=0.2,<1",
+"packaging",
+"python >=3.6",
+"tornado >=6.1"
+],
+"license":"BSD-3-Clause",
+"name":"jupyterlab",
+"noarch":"python",
+"sha256":"4bbc6f777e634f52f40cb350605b517d272a0af2a634093a7e89dc60e11a335b",
+"size":5857722,
+"timestamp":1617303108816,
+"version":"3.0.11"
+},
 "jupyterlab_launcher-0.13.1-py_2.tar.bz2":{
 "build":"py_2",
 "build_number":2,
@@ -32022,6 +32091,46 @@
 "size":1286914,
 "timestamp":1614879060147,
 "version":"2.0.1"
+},
+"moto-2.0.4-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"aws-xray-sdk !=0.96,>=0.93",
+"beautifulsoup4",
+"boto3 >=1.9.201",
+"botocore >=1.12.201",
+"cfn-lint >=0.4.0",
+"click",
+"cryptography >=2.3.0",
+"docker-py >=2.5.1",
+"flask",
+"flask_cors",
+"inflection",
+"jinja2 >=2.10.1",
+"jsondiff 1.1.2.*",
+"lxml",
+"mock",
+"prompt_toolkit",
+"python >=3.3",
+"python-dateutil >=2.1,<3.0.0",
+"python-jose <4.0.0",
+"pytz",
+"pyyaml >=5.1",
+"requests >=2.5",
+"responses >=0.9.0",
+"six >1.9",
+"sshpubkeys >=3.1.0,<4.0",
+"werkzeug",
+"xmltodict"
+],
+"license":"Apache-2.0",
+"name":"moto",
+"noarch":"python",
+"sha256":"54ab0e624b9d3da892c8cddcc5b41b1dc7db09318bd789af67f200a2198e2c1f",
+"size":1299264,
+"timestamp":1617302984755,
+"version":"2.0.4"
 },
 "mpl-scatter-density-0.5-py_0.tar.bz2":{
 "build":"py_0",
@@ -45348,6 +45457,27 @@
 "timestamp":1565461864294,
 "version":"2.4.3"
 },
+"scikit-rf-0.17.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"future",
+"matplotlib",
+"networkx",
+"numpy",
+"pandas",
+"python",
+"scipy",
+"six"
+],
+"license":"BSD 3-Clause",
+"name":"scikit-rf",
+"noarch":"python",
+"sha256":"8e697f470197bf31bc31d3228c41c38427a0cd59c77689be96f68572e0622ba9",
+"size":1758996,
+"timestamp":1617302114722,
+"version":"0.17.0"
+},
 "scp-0.13.2-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -46692,6 +46822,23 @@
 "size":81079,
 "timestamp":1614023189100,
 "version":"4.2.0"
+},
+"smart_open-5.0.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"boto3",
+"google-cloud-storage",
+"python >=3.6",
+"requests"
+],
+"license":"MIT",
+"name":"smart_open",
+"noarch":"python",
+"sha256":"dd3c8ed1201f833c1a94a961d1cdb94d7c2941f39adb411157884d67863075a6",
+"size":43092,
+"timestamp":1617288439446,
+"version":"5.0.0"
 },
 "smmap-3.0.1-py_0.tar.bz2":{
 "build":"py_0",
@@ -65780,6 +65927,33 @@
 "timestamp":1615337568051,
 "version":"2021.3.0"
 },
+"dask-2021.3.1-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"constrains":[
+"openssl !=1.1.1e"
+],
+"depends":[
+"bokeh >=1.0.0,!=2.0.0",
+"cloudpickle >=0.2.2",
+"cytoolz >=0.8.2",
+"dask-core 2021.3.1.*",
+"distributed >=2021.3.1",
+"fsspec >=0.6.0",
+"numpy >=1.15.1",
+"pandas >=0.25.0",
+"partd >=0.3.10",
+"python >=3.6",
+"toolz >=0.8.2"
+],
+"license":"BSD-3-Clause",
+"name":"dask",
+"noarch":"python",
+"sha256":"06faa7ca39d16b53c4e7b0bd8c3e2d2372edc6d3c220e80b8a6600fa4ce628c4",
+"size":5083,
+"timestamp":1617226500898,
+"version":"2021.3.1"
+},
 "dask-core-1.1.1-py_0.conda":{
 "build":"py_0",
 "build_number":0,
@@ -66498,6 +66672,25 @@
 "size":682920,
 "timestamp":1617117402827,
 "version":"2021.3.1"
+},
+"dask-glm-0.2.0-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"dask",
+"multipledispatch >=0.4.9",
+"python >=3",
+"scikit-learn >=0.18",
+"scipy >=0.18.1",
+"setuptools"
+],
+"license":"BSD-3-Clause",
+"name":"dask-glm",
+"noarch":"python",
+"sha256":"b77da7973bfe3cb718fadd02d8e6a961234cf2770b153c85ed4d819ebb3b045a",
+"size":16116,
+"timestamp":1617267676065,
+"version":"0.2.0"
 },
 "dask-image-0.2.0-py_0.conda":{
 "build":"py_0",
@@ -79177,6 +79370,29 @@
 "timestamp":1616167862215,
 "version":"3.0.11"
 },
+"jupyterlab-3.0.11-pyhd3eb1b0_1.conda":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"ipython",
+"jinja2 >=2.10",
+"jupyter-packaging >=0.7.3,<0.8.0",
+"jupyter_core",
+"jupyter_server >=1.4,<2",
+"jupyterlab_server >=2.3,<3",
+"nbclassic >=0.2,<1",
+"packaging",
+"python >=3.6",
+"tornado >=6.1"
+],
+"license":"BSD-3-Clause",
+"name":"jupyterlab",
+"noarch":"python",
+"sha256":"f1b9a65de7072377198abb7718f97b82c7e2d9e471e1a6e7be9cd6b54c99ad4c",
+"size":3675481,
+"timestamp":1617303108816,
+"version":"3.0.11"
+},
 "jupyterlab_launcher-0.13.1-py_2.conda":{
 "build":"py_2",
 "build_number":2,
@@ -82825,6 +83041,46 @@
 "size":1188329,
 "timestamp":1614879060147,
 "version":"2.0.1"
+},
+"moto-2.0.4-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"aws-xray-sdk !=0.96,>=0.93",
+"beautifulsoup4",
+"boto3 >=1.9.201",
+"botocore >=1.12.201",
+"cfn-lint >=0.4.0",
+"click",
+"cryptography >=2.3.0",
+"docker-py >=2.5.1",
+"flask",
+"flask_cors",
+"inflection",
+"jinja2 >=2.10.1",
+"jsondiff 1.1.2.*",
+"lxml",
+"mock",
+"prompt_toolkit",
+"python >=3.3",
+"python-dateutil >=2.1,<3.0.0",
+"python-jose <4.0.0",
+"pytz",
+"pyyaml >=5.1",
+"requests >=2.5",
+"responses >=0.9.0",
+"six >1.9",
+"sshpubkeys >=3.1.0,<4.0",
+"werkzeug",
+"xmltodict"
+],
+"license":"Apache-2.0",
+"name":"moto",
+"noarch":"python",
+"sha256":"21ff289fa692255a88ba8dd1a4e7763b5c084e1f125bd1c412fb8e9d08da16a2",
+"size":1197057,
+"timestamp":1617302984755,
+"version":"2.0.4"
 },
 "mpl-scatter-density-0.5-py_0.conda":{
 "build":"py_0",
@@ -95440,6 +95696,27 @@
 "timestamp":1565461864294,
 "version":"2.4.3"
 },
+"scikit-rf-0.17.0-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"future",
+"matplotlib",
+"networkx",
+"numpy",
+"pandas",
+"python",
+"scipy",
+"six"
+],
+"license":"BSD 3-Clause",
+"name":"scikit-rf",
+"noarch":"python",
+"sha256":"d0e935dbb61e6e8975d5f1ba0eb20620df57e5ca44dd02febfd667a3d187bd67",
+"size":1416892,
+"timestamp":1617302114722,
+"version":"0.17.0"
+},
 "scp-0.13.2-py_0.conda":{
 "build":"py_0",
 "build_number":0,
@@ -96770,6 +97047,23 @@
 "size":80596,
 "timestamp":1614023189100,
 "version":"4.2.0"
+},
+"smart_open-5.0.0-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"boto3",
+"google-cloud-storage",
+"python >=3.6",
+"requests"
+],
+"license":"MIT",
+"name":"smart_open",
+"noarch":"python",
+"sha256":"5d778b65ee5b7c398d1b8c744aae4fe968270b86c75c7147024c81d12b6d3540",
+"size":44007,
+"timestamp":1617288439446,
+"version":"5.0.0"
 },
 "smmap-3.0.1-py_0.conda":{
 "build":"py_0",

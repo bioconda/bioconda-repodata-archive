@@ -3085,7 +3085,7 @@
 "timestamp":1576596077057,
 "version":"4.4.1"
 },
-"dask-2021.3.0-pyhd3eb1b0_0.tar.bz2":{
+"dask-2021.3.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "constrains":[
@@ -3095,8 +3095,8 @@
 "bokeh >=1.0.0,!=2.0.0",
 "cloudpickle >=0.2.2",
 "cytoolz >=0.8.2",
-"dask-core 2021.3.0.*",
-"distributed >=2021.3.0",
+"dask-core 2021.3.1.*",
+"distributed >=2021.3.1",
 "fsspec >=0.6.0",
 "numpy >=1.15.1",
 "pandas >=0.25.0",
@@ -3107,25 +3107,10 @@
 "license":"BSD-3-Clause",
 "name":"dask",
 "noarch":"python",
-"sha256":"ed26308a8570a8bc265283ef117593349ae8cb3435746742fece4f2f82f4fd52",
-"size":4714,
-"timestamp":1615337568051,
-"version":"2021.3.0"
-},
-"dask-core-2021.3.0-pyhd3eb1b0_0.tar.bz2":{
-"build":"pyhd3eb1b0_0",
-"build_number":0,
-"depends":[
-"python >=3.6",
-"pyyaml"
-],
-"license":"BSD-3-Clause",
-"name":"dask-core",
-"noarch":"python",
-"sha256":"20e4b3e7c4949f9dba794244f42fdb53e112ca5d87ca912b79ffdb424e7a35c3",
-"size":718133,
-"timestamp":1615055157183,
-"version":"2021.3.0"
+"sha256":"ef9d6a6764302644d0f64067d4c2c074e0bb08f372bc1fcd88414bb412c3c5d9",
+"size":4738,
+"timestamp":1617226500898,
+"version":"2021.3.1"
 },
 "dask-core-2021.3.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -3141,6 +3126,25 @@
 "size":729308,
 "timestamp":1617117402827,
 "version":"2021.3.1"
+},
+"dask-glm-0.2.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"dask",
+"multipledispatch >=0.4.9",
+"python >=3",
+"scikit-learn >=0.18",
+"scipy >=0.18.1",
+"setuptools"
+],
+"license":"BSD-3-Clause",
+"name":"dask-glm",
+"noarch":"python",
+"sha256":"1c3e5bdf9c5f83c18af1cd18454b2364c6c72d6dbfecd2163d4eec6982fa971d",
+"size":16500,
+"timestamp":1617267676065,
+"version":"0.2.0"
 },
 "dask-image-0.4.0-py_0.tar.bz2":{
 "build":"py_0",
@@ -7261,6 +7265,29 @@
 "timestamp":1616167862215,
 "version":"3.0.11"
 },
+"jupyterlab-3.0.11-pyhd3eb1b0_1.tar.bz2":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"ipython",
+"jinja2 >=2.10",
+"jupyter-packaging >=0.7.3,<0.8.0",
+"jupyter_core",
+"jupyter_server >=1.4,<2",
+"jupyterlab_server >=2.3,<3",
+"nbclassic >=0.2,<1",
+"packaging",
+"python >=3.6",
+"tornado >=6.1"
+],
+"license":"BSD-3-Clause",
+"name":"jupyterlab",
+"noarch":"python",
+"sha256":"4bbc6f777e634f52f40cb350605b517d272a0af2a634093a7e89dc60e11a335b",
+"size":5857722,
+"timestamp":1617303108816,
+"version":"3.0.11"
+},
 "jupyterlab_launcher-0.13.1-py_2.tar.bz2":{
 "build":"py_2",
 "build_number":2,
@@ -10929,7 +10956,7 @@
 "timestamp":1569368756343,
 "version":"2.0.6"
 },
-"moto-2.0.1-pyhd3eb1b0_0.tar.bz2":{
+"moto-2.0.4-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -10964,10 +10991,10 @@
 "license":"Apache-2.0",
 "name":"moto",
 "noarch":"python",
-"sha256":"8d46aa49c75694dba02a2ad6c42c6fddf8c495f4985749897ddebd30af239948",
-"size":1286914,
-"timestamp":1614879060147,
-"version":"2.0.1"
+"sha256":"54ab0e624b9d3da892c8cddcc5b41b1dc7db09318bd789af67f200a2198e2c1f",
+"size":1299264,
+"timestamp":1617302984755,
+"version":"2.0.4"
 },
 "mpl-scatter-density-0.7-py_0.tar.bz2":{
 "build":"py_0",
@@ -15536,6 +15563,27 @@
 "timestamp":1565461864294,
 "version":"2.4.3"
 },
+"scikit-rf-0.17.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"future",
+"matplotlib",
+"networkx",
+"numpy",
+"pandas",
+"python",
+"scipy",
+"six"
+],
+"license":"BSD 3-Clause",
+"name":"scikit-rf",
+"noarch":"python",
+"sha256":"8e697f470197bf31bc31d3228c41c38427a0cd59c77689be96f68572e0622ba9",
+"size":1758996,
+"timestamp":1617302114722,
+"version":"0.17.0"
+},
 "scp-0.13.3-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -15979,23 +16027,22 @@
 "timestamp":1587397464560,
 "version":"1.0.0"
 },
-"smart_open-4.2.0-pyhd3eb1b0_0.tar.bz2":{
+"smart_open-5.0.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"boto >=2.32",
 "boto3",
 "google-cloud-storage",
-"python >=3.5",
+"python >=3.6",
 "requests"
 ],
 "license":"MIT",
 "name":"smart_open",
 "noarch":"python",
-"sha256":"b62706caf7e1fec67c61b3047a323a505bcfe995f9c54d2ee50eff7ca1223369",
-"size":81079,
-"timestamp":1614023189100,
-"version":"4.2.0"
+"sha256":"dd3c8ed1201f833c1a94a961d1cdb94d7c2941f39adb411157884d67863075a6",
+"size":43092,
+"timestamp":1617288439446,
+"version":"5.0.0"
 },
 "smmap-3.0.5-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
