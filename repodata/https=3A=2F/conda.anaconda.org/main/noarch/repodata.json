@@ -1260,6 +1260,23 @@
 "timestamp":1611863241521,
 "version":"5.0.5"
 },
+"amqp-5.0.6-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python",
+"vine >=1.1.3"
+],
+"license":"BSD 3-clause",
+"name":"amqp",
+"noarch":"python",
+"requires":[],
+"sha256":"029c35c6ee4ee0d7acfe43a6b9877361a7bff588e634a4e7b9a6ebf53c6917e6",
+"size":44778,
+"source_url":"http://repo.continuum.io/pkgs/main/noarch/amqp-5.0.6-pyhd3eb1b0_0.tar.bz2",
+"timestamp":1617383376121,
+"version":"5.0.6"
+},
 "anaconda-doc-2020.11-0.tar.bz2":{
 "build":"0",
 "build_number":0,
@@ -2037,6 +2054,23 @@
 "source_url":"http://repo.continuum.io/pkgs/main/noarch/apispec-4.3.0-pyhd3eb1b0_0.tar.bz2",
 "timestamp":1613245655928,
 "version":"4.3.0"
+},
+"apispec-4.4.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python >=3",
+"pyyaml >=3.10"
+],
+"license":"MIT",
+"name":"apispec",
+"noarch":"python",
+"requires":[],
+"sha256":"bd8d722595857ec9a12b4cef8cea9895fd89a6b64222cc309e7c26fb97abbeb5",
+"size":25103,
+"source_url":"http://repo.continuum.io/pkgs/main/noarch/apispec-4.4.0-pyhd3eb1b0_0.tar.bz2",
+"timestamp":1617383418011,
+"version":"4.4.0"
 },
 "appdirs-1.4.3-py_0.tar.bz2":{
 "build":"py_0",
@@ -8667,6 +8701,25 @@
 "timestamp":1617133462409,
 "version":"1.20.41"
 },
+"botocore-1.20.43-pyhd3eb1b0_1.tar.bz2":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"jmespath >=0.7.1,<1.0.0",
+"python",
+"python-dateutil >=2.1,<3.0.0",
+"urllib3 >=1.25.4,<1.27"
+],
+"license":"Apache-2.0",
+"name":"botocore",
+"noarch":"python",
+"requires":[],
+"sha256":"01d68d36055f1af9b032034a032ed5aef65b81b956bfe2d2e3e9873b64d852af",
+"size":4767652,
+"source_url":"http://repo.continuum.io/pkgs/main/noarch/botocore-1.20.43-pyhd3eb1b0_1.tar.bz2",
+"timestamp":1617383433562,
+"version":"1.20.43"
+},
 "botocore-1.20.7-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -14000,16 +14053,12 @@
 ],
 "depends":[
 "bokeh >=1.0.0,!=2.0.0",
-"cloudpickle >=0.2.2",
 "cytoolz >=0.8.2",
 "dask-core 2021.3.1.*",
 "distributed >=2021.3.1",
-"fsspec >=0.6.0",
 "numpy >=1.15.1",
 "pandas >=0.25.0",
-"partd >=0.3.10",
-"python >=3.6",
-"toolz >=0.8.2"
+"python >=3.7"
 ],
 "license":"BSD-3-Clause",
 "name":"dask",
@@ -14827,8 +14876,12 @@
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"python >=3.6",
-"pyyaml"
+"python >=3.7",
+"cloudpickle >=1.1.1",
+"fsspec >=0.6.0",
+"partd >= 0.3.10",
+"pyyaml",
+"toolz >=0.8.2"
 ],
 "license":"BSD-3-Clause",
 "name":"dask-core",
@@ -14839,6 +14892,27 @@
 "source_url":"http://repo.continuum.io/pkgs/main/noarch/dask-core-2021.3.1-pyhd3eb1b0_0.tar.bz2",
 "timestamp":1617117402827,
 "version":"2021.3.1"
+},
+"dask-core-2021.4.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"cloudpickle >=1.1.1",
+"fsspec >=0.6.0",
+"partd >=0.3.10",
+"python >=3.7",
+"pyyaml",
+"toolz >=0.8.2"
+],
+"license":"BSD-3-Clause",
+"name":"dask-core",
+"noarch":"python",
+"requires":[],
+"sha256":"b9ed36f00c13fb5a8e1b034996f3e37fb974ebaeab329e195dc4819a70225810",
+"size":734073,
+"source_url":"http://repo.continuum.io/pkgs/main/noarch/dask-core-2021.4.0-pyhd3eb1b0_0.tar.bz2",
+"timestamp":1617390529729,
+"version":"2021.4.0"
 },
 "dask-glm-0.2.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -16021,6 +16095,22 @@
 "source_url":"http://repo.continuum.io/pkgs/main/noarch/decorator-4.4.2-pyhd3eb1b0_0.tar.bz2",
 "timestamp":1611930062539,
 "version":"4.4.2"
+},
+"decorator-5.0.3-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python >=3.5"
+],
+"license":"BSD-3-Clause",
+"name":"decorator",
+"noarch":"python",
+"requires":[],
+"sha256":"5c4ac8c2231fae8dc1628b008a8c46d53822d1a70d13b3115b84eedf7be236b4",
+"size":11755,
+"source_url":"http://repo.continuum.io/pkgs/main/noarch/decorator-5.0.3-pyhd3eb1b0_0.tar.bz2",
+"timestamp":1617390020622,
+"version":"5.0.3"
 },
 "defusedxml-0.6.0-py_0.tar.bz2":{
 "build":"py_0",
@@ -19369,6 +19459,28 @@
 "timestamp":1597772046812,
 "version":"0.2.0"
 },
+"flask-restx-0.3.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"aniso8601 >=0.82",
+"flask >=0.8",
+"jsonschema",
+"python",
+"pytz",
+"six >=1.3.0",
+"werkzeug"
+],
+"license":"BSD-3-Clause",
+"name":"flask-restx",
+"noarch":"python",
+"requires":[],
+"sha256":"418b0caa1f3f282b7458093d3498b682e9bf2e5a2b398b69d24a9473b6571d5f",
+"size":4528961,
+"source_url":"http://repo.continuum.io/pkgs/main/noarch/flask-restx-0.3.0-pyhd3eb1b0_0.tar.bz2",
+"timestamp":1617383934994,
+"version":"0.3.0"
+},
 "flask-socketio-3.3.2-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -20354,6 +20466,25 @@
 "source_url":"http://repo.continuum.io/pkgs/main/noarch/fonttools-4.21.1-pyhd3eb1b0_0.tar.bz2",
 "timestamp":1614615429006,
 "version":"4.21.1"
+},
+"fonttools-4.22.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"brotli",
+"munkres",
+"python",
+"unicodedata2"
+],
+"license":"MIT",
+"name":"fonttools",
+"noarch":"python",
+"requires":[],
+"sha256":"33344f3ad26c031408ac1362f24418e8e99c64a99921e6a9f845598ba3a1a97f",
+"size":677442,
+"source_url":"http://repo.continuum.io/pkgs/main/noarch/fonttools-4.22.0-pyhd3eb1b0_0.tar.bz2",
+"timestamp":1617384385256,
+"version":"4.22.0"
 },
 "freetype-cos6-i686-2.3.11-h85374aa_0.tar.bz2":{
 "build":"h85374aa_0",
@@ -26041,6 +26172,24 @@
 "timestamp":1617120773574,
 "version":"6.8.3"
 },
+"hypothesis-6.8.4-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"attrs >=19.2.0",
+"python >=3.5",
+"sortedcontainers >=2.1.0,<3.0.0"
+],
+"license":"MPL 2.0",
+"name":"hypothesis",
+"noarch":"python",
+"requires":[],
+"sha256":"80207a55a55617595ea2c237dcacd7b25580361ee5115d81ff0f7a1ae34df574",
+"size":242883,
+"source_url":"http://repo.continuum.io/pkgs/main/noarch/hypothesis-6.8.4-pyhd3eb1b0_0.tar.bz2",
+"timestamp":1617382140077,
+"version":"6.8.4"
+},
 "icalendar-4.0.3-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -29947,6 +30096,31 @@
 "size":5924315,
 "source_url":"http://repo.continuum.io/pkgs/main/noarch/jupyterlab-3.0.11-pyhd3eb1b0_0.tar.bz2",
 "timestamp":1616167862215,
+"version":"3.0.11"
+},
+"jupyterlab-3.0.11-pyhd3eb1b0_1.tar.bz2":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"ipython",
+"jinja2 >=2.10",
+"jupyter-packaging >=0.7.3,<0.8.0",
+"jupyter_core",
+"jupyter_server >=1.4,<2",
+"jupyterlab_server >=2.3,<3",
+"nbclassic >=0.2,<1",
+"packaging",
+"python >=3.6",
+"tornado >=6.1"
+],
+"license":"BSD-3-Clause",
+"name":"jupyterlab",
+"noarch":"python",
+"requires":[],
+"sha256":"4bbc6f777e634f52f40cb350605b517d272a0af2a634093a7e89dc60e11a335b",
+"size":5857722,
+"source_url":"http://repo.continuum.io/pkgs/main/noarch/jupyterlab-3.0.11-pyhd3eb1b0_1.tar.bz2",
+"timestamp":1617303108816,
 "version":"3.0.11"
 },
 "jupyterlab_launcher-0.13.1-py_2.tar.bz2":{
@@ -35979,6 +36153,48 @@
 "timestamp":1614879060147,
 "version":"2.0.1"
 },
+"moto-2.0.4-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"aws-xray-sdk !=0.96,>=0.93",
+"beautifulsoup4",
+"boto3 >=1.9.201",
+"botocore >=1.12.201",
+"cfn-lint >=0.4.0",
+"click",
+"cryptography >=2.3.0",
+"docker-py >=2.5.1",
+"flask",
+"flask_cors",
+"inflection",
+"jinja2 >=2.10.1",
+"jsondiff 1.1.2.*",
+"lxml",
+"mock",
+"prompt_toolkit",
+"python >=3.3",
+"python-dateutil >=2.1,<3.0.0",
+"python-jose <4.0.0",
+"pytz",
+"pyyaml >=5.1",
+"requests >=2.5",
+"responses >=0.9.0",
+"six >1.9",
+"sshpubkeys >=3.1.0,<4.0",
+"werkzeug",
+"xmltodict"
+],
+"license":"Apache-2.0",
+"name":"moto",
+"noarch":"python",
+"requires":[],
+"sha256":"54ab0e624b9d3da892c8cddcc5b41b1dc7db09318bd789af67f200a2198e2c1f",
+"size":1299264,
+"source_url":"http://repo.continuum.io/pkgs/main/noarch/moto-2.0.4-pyhd3eb1b0_0.tar.bz2",
+"timestamp":1617302984755,
+"version":"2.0.4"
+},
 "mpl-scatter-density-0.5-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -36967,6 +37183,26 @@
 "source_url":"http://repo.continuum.io/pkgs/main/noarch/nbformat-5.1.2-pyhd3eb1b0_1.tar.bz2",
 "timestamp":1610738142887,
 "version":"5.1.2"
+},
+"nbformat-5.1.3-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"ipython_genutils",
+"jsonschema >=2.4,!=2.5.0",
+"jupyter_core",
+"python >=3.5",
+"traitlets >=4.1"
+],
+"license":"BSD-3-Clause",
+"name":"nbformat",
+"noarch":"python",
+"requires":[],
+"sha256":"d7cfa93f55a8cbb26b095f7b25e8a30038540ee56c19ba337690bf583e02931b",
+"size":47684,
+"source_url":"http://repo.continuum.io/pkgs/main/noarch/nbformat-5.1.3-pyhd3eb1b0_0.tar.bz2",
+"timestamp":1617383410488,
+"version":"5.1.3"
 },
 "nbsmoke-0.3.0-py_0.tar.bz2":{
 "build":"py_0",
@@ -42300,6 +42536,22 @@
 "source_url":"http://repo.continuum.io/pkgs/main/noarch/prison-0.1.3-pyhd3eb1b0_0.tar.bz2",
 "timestamp":1604347162817,
 "version":"0.1.3"
+},
+"prometheus_client-0.10.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python"
+],
+"license":"Apache-2.0",
+"name":"prometheus_client",
+"noarch":"python",
+"requires":[],
+"sha256":"f5ec1eab833136ade713242cad1d8e6c216e4dbb165758d342bd57e936e09df3",
+"size":47306,
+"source_url":"http://repo.continuum.io/pkgs/main/noarch/prometheus_client-0.10.0-pyhd3eb1b0_0.tar.bz2",
+"timestamp":1617383721044,
+"version":"0.10.0"
 },
 "prometheus_client-0.7.1-py_0.tar.bz2":{
 "build":"py_0",
@@ -48940,6 +49192,22 @@
 "timestamp":1587400228507,
 "version":"2.8.1"
 },
+"qdarkstyle-3.0.2-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python"
+],
+"license":"MIT",
+"name":"qdarkstyle",
+"noarch":"python",
+"requires":[],
+"sha256":"d7efec788f953b42b38052344e6291f3e95a1b5ab670563fe914e243cdf2d0db",
+"size":320534,
+"source_url":"http://repo.continuum.io/pkgs/main/noarch/qdarkstyle-3.0.2-pyhd3eb1b0_0.tar.bz2",
+"timestamp":1617386752562,
+"version":"3.0.2"
+},
 "qds-sdk-1.13.1-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -50963,6 +51231,29 @@
 "source_url":"http://repo.continuum.io/pkgs/main/noarch/scapy-2.4.3-py_0.tar.bz2",
 "timestamp":1565461864294,
 "version":"2.4.3"
+},
+"scikit-rf-0.17.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"future",
+"matplotlib",
+"networkx",
+"numpy",
+"pandas",
+"python",
+"scipy",
+"six"
+],
+"license":"BSD 3-Clause",
+"name":"scikit-rf",
+"noarch":"python",
+"requires":[],
+"sha256":"8e697f470197bf31bc31d3228c41c38427a0cd59c77689be96f68572e0622ba9",
+"size":1758996,
+"source_url":"http://repo.continuum.io/pkgs/main/noarch/scikit-rf-0.17.0-pyhd3eb1b0_0.tar.bz2",
+"timestamp":1617302114722,
+"version":"0.17.0"
 },
 "scp-0.13.2-py_0.tar.bz2":{
 "build":"py_0",

@@ -6242,6 +6242,21 @@
 "timestamp":1611685592680,
 "version":"3.0.0"
 },
+"assimp-5.0.1-h0f81e16_5.tar.bz2":{
+"build":"h0f81e16_5",
+"build_number":5,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"libcxx >=11.1.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Modified BSD",
+"name":"assimp",
+"requires":[],
+"size":3696980,
+"timestamp":1617460821767,
+"version":"5.0.1"
+},
 "astroid-2.5-py38h10201cd_1.tar.bz2":{
 "build":"py38h10201cd_1",
 "build_number":1,
@@ -16148,6 +16163,60 @@
 "timestamp":1617220851770,
 "version":"3.9.1"
 },
+"conda-forge-ci-setup-3.9.2-py38h970ee7d_0.tar.bz2":{
+"build":"py38h970ee7d_0",
+"build_number":0,
+"depends":[
+"anaconda-client",
+"click",
+"conda >=4.3",
+"conda-build 3.*",
+"conda-env",
+"git",
+"jinja2",
+"jq",
+"pip",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml",
+"requests",
+"ruamel_yaml",
+"shyaml"
+],
+"license":"BSD-3-Clause",
+"name":"conda-forge-ci-setup",
+"requires":[],
+"size":36925,
+"timestamp":1617426849782,
+"version":"3.9.2"
+},
+"conda-forge-ci-setup-3.9.2-py39h6861412_0.tar.bz2":{
+"build":"py39h6861412_0",
+"build_number":0,
+"depends":[
+"anaconda-client",
+"click",
+"conda >=4.3",
+"conda-build 3.*",
+"conda-env",
+"git",
+"jinja2",
+"jq",
+"pip",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml",
+"requests",
+"ruamel_yaml",
+"shyaml"
+],
+"license":"BSD-3-Clause",
+"name":"conda-forge-ci-setup",
+"requires":[],
+"size":37028,
+"timestamp":1617426857363,
+"version":"3.9.2"
+},
 "conda-package-handling-1.7.0-py38h51573d8_6.tar.bz2":{
 "build":"py38h51573d8_6",
 "build_number":6,
@@ -19890,6 +19959,17 @@
 "size":447222,
 "timestamp":1616625467059,
 "version":"2.2.2"
+},
+"exa-0.10.0-h822aac1_0.tar.bz2":{
+"build":"h822aac1_0",
+"build_number":0,
+"depends":[],
+"license":"MIT",
+"name":"exa",
+"requires":[],
+"size":577237,
+"timestamp":1617490995918,
+"version":"0.10.0"
 },
 "exa-0.9.0-h1efec70_2.tar.bz2":{
 "build":"h1efec70_2",
@@ -31816,6 +31896,19 @@
 "timestamp":1612393907703,
 "version":"3.9.0"
 },
+"libccd-2.1-hbdafb3b_1.tar.bz2":{
+"build":"hbdafb3b_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"BSD-3-Clause",
+"name":"libccd",
+"requires":[],
+"size":28957,
+"timestamp":1617432076147,
+"version":"2.1"
+},
 "libclang-11.0.0-default_h8065f19_0.tar.bz2":{
 "build":"default_h8065f19_0",
 "build_number":0,
@@ -33721,6 +33814,20 @@
 "timestamp":1616573254824,
 "version":"2.68.0"
 },
+"libgpg-error-1.42-hbdafb3b_0.tar.bz2":{
+"build":"hbdafb3b_0",
+"build_number":0,
+"depends":[
+"gettext >=0.19.8.1,<1.0a0",
+"libcxx >=11.1.0"
+],
+"license":"GPL-2.0-only",
+"name":"libgpg-error",
+"requires":[],
+"size":271220,
+"timestamp":1617476809765,
+"version":"1.42"
+},
 "libgpuarray-0.7.6-h27ca646_1003.tar.bz2":{
 "build":"h27ca646_1003",
 "build_number":1003,
@@ -33797,6 +33904,63 @@
 "size":1376715,
 "timestamp":1597561173087,
 "version":"1.16"
+},
+"libignition-cmake2-2.7.0-hbdafb3b_1.tar.bz2":{
+"build":"hbdafb3b_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"libignition-cmake2",
+"requires":[],
+"size":236082,
+"timestamp":1617447991580,
+"version":"2.7.0"
+},
+"libignition-math6-6.8.0-hbdafb3b_0.tar.bz2":{
+"build":"hbdafb3b_0",
+"build_number":0,
+"depends":[
+"eigen",
+"libcxx >=11.1.0",
+"libignition-cmake2 >=2.7.0,<3.0a0"
+],
+"license":"Apache-2.0",
+"name":"libignition-math6",
+"requires":[],
+"size":199063,
+"timestamp":1617459142373,
+"version":"6.8.0"
+},
+"libignition-plugin1-1.2.0-hbdafb3b_0.tar.bz2":{
+"build":"hbdafb3b_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libignition-cmake2 >=2.7.0,<3.0a0"
+],
+"license":"Apache-2.0",
+"name":"libignition-plugin1",
+"requires":[],
+"size":79530,
+"timestamp":1617458623374,
+"version":"1.2.0"
+},
+"libignition-utils1-1.0.0-hbdafb3b_1.tar.bz2":{
+"build":"hbdafb3b_1",
+"build_number":1,
+"depends":[
+"cli11",
+"libcxx >=11.1.0",
+"libignition-cmake2 >=2.7.0,<3.0a0"
+],
+"license":"Apache-2.0",
+"name":"libignition-utils1",
+"requires":[],
+"size":22558,
+"timestamp":1617458574586,
+"version":"1.0.0"
 },
 "libjpeg-turbo-2.0.5-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
@@ -35181,6 +35345,20 @@
 "timestamp":1615505282398,
 "version":"3.15.6"
 },
+"libprotobuf-3.15.7-hccf11d3_0.tar.bz2":{
+"build":"hccf11d3_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libprotobuf",
+"requires":[],
+"size":2208126,
+"timestamp":1617426361427,
+"version":"3.15.7"
+},
 "libprotobuf-static-3.13.0-0.tar.bz2":{
 "build":"0",
 "build_number":0,
@@ -35290,6 +35468,17 @@
 "size":2555360,
 "timestamp":1615505289544,
 "version":"3.15.6"
+},
+"libprotobuf-static-3.15.7-hce30654_0.tar.bz2":{
+"build":"hce30654_0",
+"build_number":0,
+"depends":[],
+"license":"BSD-3-Clause",
+"name":"libprotobuf-static",
+"requires":[],
+"size":2556299,
+"timestamp":1617426368044,
+"version":"3.15.7"
 },
 "libpython-static-3.8.5-hc88da5d_4_cpython.tar.bz2":{
 "build":"hc88da5d_4_cpython",
@@ -38006,6 +38195,28 @@
 "size":14121,
 "timestamp":1609475897019,
 "version":"0.13"
+},
+"macports-legacy-support-0.14-h3422bc3_0.tar.bz2":{
+"build":"h3422bc3_0",
+"build_number":0,
+"depends":[],
+"license":"MIT",
+"name":"macports-legacy-support",
+"requires":[],
+"size":18588,
+"timestamp":1617456447186,
+"version":"0.14"
+},
+"macports-legacy-support-0.14.1-h3422bc3_0.tar.bz2":{
+"build":"h3422bc3_0",
+"build_number":0,
+"depends":[],
+"license":"MIT",
+"name":"macports-legacy-support",
+"requires":[],
+"size":18596,
+"timestamp":1617491645013,
+"version":"0.14.1"
 },
 "make-4.3-he57ea6c_1.tar.bz2":{
 "build":"he57ea6c_1",
@@ -43257,6 +43468,32 @@
 "timestamp":1605242282408,
 "version":"1.0.0"
 },
+"octomap-1.9.5-hc021e02_1.tar.bz2":{
+"build":"hc021e02_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"BSD-3-Clause",
+"name":"octomap",
+"requires":[],
+"size":328804,
+"timestamp":1617432189139,
+"version":"1.9.5"
+},
+"octomap-1.9.6-hc021e02_0.tar.bz2":{
+"build":"hc021e02_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"BSD-3-Clause",
+"name":"octomap",
+"requires":[],
+"size":327756,
+"timestamp":1617439342099,
+"version":"1.9.6"
+},
 "omegaconf-2.0.6-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
@@ -48346,6 +48583,19 @@
 "size":5696,
 "timestamp":1606147608402,
 "version":"0.4"
+},
+"pugixml-1.11.4-hbdafb3b_0.tar.bz2":{
+"build":"hbdafb3b_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"MIT",
+"name":"pugixml",
+"requires":[],
+"size":106424,
+"timestamp":1617473845195,
+"version":"1.11.4"
 },
 "py-lief-0.10.1-py38h339a965_2.tar.bz2":{
 "build":"py38h339a965_2",
@@ -55151,6 +55401,50 @@
 "timestamp":1617376236540,
 "version":"2021.1.4"
 },
+"pyopencl-2021.1.5-py38h1e2c3d9_0.tar.bz2":{
+"build":"py38h1e2c3d9_0",
+"build_number":0,
+"depends":[
+"appdirs",
+"khronos-opencl-icd-loader >=2020.12.18",
+"libcxx >=11.1.0",
+"mako",
+"numpy >=1.19.5,<2.0a0",
+"ocl_icd_wrapper_apple",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pytools",
+"setuptools"
+],
+"license":"MIT",
+"name":"pyopencl",
+"requires":[],
+"size":759231,
+"timestamp":1617427605989,
+"version":"2021.1.5"
+},
+"pyopencl-2021.1.5-py39h776e71f_0.tar.bz2":{
+"build":"py39h776e71f_0",
+"build_number":0,
+"depends":[
+"appdirs",
+"khronos-opencl-icd-loader >=2020.12.18",
+"libcxx >=11.1.0",
+"mako",
+"numpy >=1.19.5,<2.0a0",
+"ocl_icd_wrapper_apple",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pytools",
+"setuptools"
+],
+"license":"MIT",
+"name":"pyopencl",
+"requires":[],
+"size":748555,
+"timestamp":1617427281857,
+"version":"2021.1.5"
+},
 "pyproj-3.0.1-py38h743e829_1.tar.bz2":{
 "build":"py38h743e829_1",
 "build_number":1,
@@ -59656,6 +59950,42 @@
 "size":340245,
 "timestamp":1617142858802,
 "version":"10.0.1"
+},
+"rich-10.1.0-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"colorama >=0.4.0,<0.5.0",
+"commonmark >=0.9.0,<0.10.0",
+"pygments >=2.6.0,<3.0.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"typing_extensions >=3.7.4,<4.0.0"
+],
+"license":"MIT",
+"name":"rich",
+"requires":[],
+"size":337590,
+"timestamp":1617453094904,
+"version":"10.1.0"
+},
+"rich-10.1.0-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"colorama >=0.4.0,<0.5.0",
+"commonmark >=0.9.0,<0.10.0",
+"pygments >=2.6.0,<3.0.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"typing_extensions >=3.7.4,<4.0.0"
+],
+"license":"MIT",
+"name":"rich",
+"requires":[],
+"size":340659,
+"timestamp":1617453104314,
+"version":"10.1.0"
 },
 "rich-9.10.0-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
@@ -66655,6 +66985,19 @@
 "timestamp":1611830208962,
 "version":"6.0"
 },
+"urdfdom_headers-1.0.5-hc021e02_2.tar.bz2":{
+"build":"hc021e02_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"BSD-3-Clause",
+"name":"urdfdom_headers",
+"requires":[],
+"size":17151,
+"timestamp":1617430830538,
+"version":"1.0.5"
+},
 "urlquote-1.1.4-py38hb93bcd1_3.tar.bz2":{
 "build":"py38hb93bcd1_3",
 "build_number":3,
@@ -69363,6 +69706,19 @@
 "timestamp":1614802962667,
 "version":"0.9.27"
 },
+"xorg-fixesproto-5.0-h3422bc3_1002.tar.bz2":{
+"build":"h3422bc3_1002",
+"build_number":1002,
+"depends":[
+"xorg-xextproto"
+],
+"license":"MIT",
+"name":"xorg-fixesproto",
+"requires":[],
+"size":9181,
+"timestamp":1617479713756,
+"version":"5.0"
+},
 "xorg-inputproto-2.3.2-h27ca646_1002.tar.bz2":{
 "build":"h27ca646_1002",
 "build_number":1002,
@@ -69459,6 +69815,39 @@
 "size":43484,
 "timestamp":1615301947574,
 "version":"1.3.4"
+},
+"xorg-libxmu-1.1.3-h3422bc3_0.tar.bz2":{
+"build":"h3422bc3_0",
+"build_number":0,
+"depends":[
+"xorg-libx11 >=1.7.0,<2.0a0",
+"xorg-libxext 1.3.*",
+"xorg-libxt >=1.2.1,<2.0a0"
+],
+"license":"MIT",
+"name":"xorg-libxmu",
+"requires":[],
+"size":69225,
+"timestamp":1617482262288,
+"version":"1.1.3"
+},
+"xorg-libxpm-3.5.13-h3422bc3_0.tar.bz2":{
+"build":"h3422bc3_0",
+"build_number":0,
+"depends":[
+"gettext >=0.19.8.1,<1.0a0",
+"xorg-libx11 >=1.7.0,<2.0a0",
+"xorg-libxext 1.3.*",
+"xorg-libxt >=1.2.1,<2.0a0",
+"xorg-xextproto",
+"xorg-xproto"
+],
+"license":"MIT",
+"name":"xorg-libxpm",
+"requires":[],
+"size":58036,
+"timestamp":1617486489141,
+"version":"3.5.13"
 },
 "xorg-libxrender-0.9.10-h27ca646_1003.tar.bz2":{
 "build":"h27ca646_1003",
@@ -70836,6 +71225,19 @@
 "size":325442,
 "timestamp":1614857055957,
 "version":"1.4.9"
+},
+"zziplib-0.13.69-he1e0b03_1.tar.bz2":{
+"build":"he1e0b03_1",
+"build_number":1,
+"depends":[
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-2.0",
+"name":"zziplib",
+"requires":[],
+"size":95357,
+"timestamp":1617437173697,
+"version":"0.13.69"
 }
 }
 }
