@@ -11352,6 +11352,20 @@
 "timestamp":1614955850778,
 "version":"949.0.1"
 },
+"cctools-949.0.1-ha9384d2_21.tar.bz2":{
+"build":"ha9384d2_21",
+"build_number":21,
+"depends":[
+"cctools_osx-arm64 949.0.1 h92b3a8a_21",
+"ld64 530 h08716b2_21"
+],
+"license":"APSL-2.0",
+"name":"cctools",
+"requires":[],
+"size":16524,
+"timestamp":1617641771934,
+"version":"949.0.1"
+},
 "cctools-949.0.1-hb5b78df_15.tar.bz2":{
 "build":"hb5b78df_15",
 "build_number":15,
@@ -11480,6 +11494,26 @@
 "timestamp":1614956003345,
 "version":"949.0.1"
 },
+"cctools_osx-64-949.0.1-hed2cfe4_21.tar.bz2":{
+"build":"hed2cfe4_21",
+"build_number":21,
+"constrains":[
+"cctools 949.0.1.*",
+"ld64 530.*"
+],
+"depends":[
+"ld64_osx-64 >=530,<531.0a0",
+"ldid",
+"libcxx",
+"libllvm11 >=11.1.0,<11.2.0a0"
+],
+"license":"APSL-2.0",
+"name":"cctools_osx-64",
+"requires":[],
+"size":1933639,
+"timestamp":1617641598507,
+"version":"949.0.1"
+},
 "cctools_osx-arm64-949.0.1-h1c8944f_18.tar.bz2":{
 "build":"h1c8944f_18",
 "build_number":18,
@@ -11578,6 +11612,26 @@
 "requires":[],
 "size":1901284,
 "timestamp":1602960467122,
+"version":"949.0.1"
+},
+"cctools_osx-arm64-949.0.1-h92b3a8a_21.tar.bz2":{
+"build":"h92b3a8a_21",
+"build_number":21,
+"constrains":[
+"ld64 530.*",
+"cctools 949.0.1.*"
+],
+"depends":[
+"ld64_osx-arm64 >=530,<531.0a0",
+"ldid",
+"libcxx",
+"libllvm11 >=11.1.0,<11.2.0a0"
+],
+"license":"APSL-2.0",
+"name":"cctools_osx-arm64",
+"requires":[],
+"size":1859156,
+"timestamp":1617641752425,
 "version":"949.0.1"
 },
 "cddlib-1!0.94j-h47c7c1a_1001.tar.bz2":{
@@ -16572,6 +16626,19 @@
 "size":2005149,
 "timestamp":1617552728019,
 "version":"2.4.1"
+},
+"cppunit-1.15.1-hbdafb3b_0.tar.bz2":{
+"build":"hbdafb3b_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"cppunit",
+"requires":[],
+"size":231939,
+"timestamp":1617663224273,
+"version":"1.15.1"
 },
 "cppzmq-4.7.1-h04c0076_0.tar.bz2":{
 "build":"h04c0076_0",
@@ -25802,6 +25869,44 @@
 "timestamp":1610137590103,
 "version":"1.12.0"
 },
+"hdf5-1.12.0-mpi_mpich_hfc22502_7.tar.bz2":{
+"build":"mpi_mpich_hfc22502_7",
+"build_number":7,
+"depends":[
+"libcurl >=7.76.0,<8.0a0",
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"mpich >=3.4,<3.5.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-HDF5",
+"name":"hdf5",
+"requires":[],
+"size":3513468,
+"timestamp":1617653101525,
+"version":"1.12.0"
+},
+"hdf5-1.12.0-mpi_openmpi_h0e1e6cd_7.tar.bz2":{
+"build":"mpi_openmpi_h0e1e6cd_7",
+"build_number":7,
+"depends":[
+"libcurl >=7.76.0,<8.0a0",
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"openmpi >=4.1,<4.2.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-HDF5",
+"name":"hdf5",
+"requires":[],
+"size":3381135,
+"timestamp":1617652779323,
+"version":"1.12.0"
+},
 "hdf5-1.12.0-mpi_openmpi_hfa5ed71_5.tar.bz2":{
 "build":"mpi_openmpi_hfa5ed71_5",
 "build_number":5,
@@ -25838,6 +25943,24 @@
 "requires":[],
 "size":3186873,
 "timestamp":1610137285453,
+"version":"1.12.0"
+},
+"hdf5-1.12.0-nompi_had0e5e0_107.tar.bz2":{
+"build":"nompi_had0e5e0_107",
+"build_number":107,
+"depends":[
+"libcurl >=7.76.0,<8.0a0",
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LicenseRef-HDF5",
+"name":"hdf5",
+"requires":[],
+"size":3200246,
+"timestamp":1617652701171,
 "version":"1.12.0"
 },
 "hdf5-1.12.0-nompi_hbd21d90_105.tar.bz2":{
@@ -26032,6 +26155,22 @@
 "timestamp":1610146747993,
 "version":"1.10.6"
 },
+"hdf5-static-1.12.0-mpi_mpich_h05f8310_7.tar.bz2":{
+"build":"mpi_mpich_h05f8310_7",
+"build_number":7,
+"depends":[
+"hdf5 1.12.0 mpi_mpich_hfc22502_7",
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0"
+],
+"license":"LicenseRef-HDF5",
+"name":"hdf5-static",
+"requires":[],
+"size":2996735,
+"timestamp":1617653135101,
+"version":"1.12.0"
+},
 "hdf5-static-1.12.0-mpi_mpich_hd6c3165_5.tar.bz2":{
 "build":"mpi_mpich_hd6c3165_5",
 "build_number":5,
@@ -26064,6 +26203,22 @@
 "timestamp":1610137627967,
 "version":"1.12.0"
 },
+"hdf5-static-1.12.0-mpi_openmpi_h6e848c2_7.tar.bz2":{
+"build":"mpi_openmpi_h6e848c2_7",
+"build_number":7,
+"depends":[
+"hdf5 1.12.0 mpi_openmpi_h0e1e6cd_7",
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0"
+],
+"license":"LicenseRef-HDF5",
+"name":"hdf5-static",
+"requires":[],
+"size":3000404,
+"timestamp":1617652812310,
+"version":"1.12.0"
+},
 "hdf5-static-1.12.0-mpi_openmpi_h9d90dea_5.tar.bz2":{
 "build":"mpi_openmpi_h9d90dea_5",
 "build_number":5,
@@ -26094,6 +26249,22 @@
 "requires":[],
 "size":3000591,
 "timestamp":1610137316594,
+"version":"1.12.0"
+},
+"hdf5-static-1.12.0-nompi_h18eddcc_107.tar.bz2":{
+"build":"nompi_h18eddcc_107",
+"build_number":107,
+"depends":[
+"hdf5 1.12.0 nompi_had0e5e0_107",
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0"
+],
+"license":"LicenseRef-HDF5",
+"name":"hdf5-static",
+"requires":[],
+"size":2879646,
+"timestamp":1617652734519,
 "version":"1.12.0"
 },
 "hdf5-static-1.12.0-nompi_h3ecb07b_105.tar.bz2":{
@@ -30887,6 +31058,23 @@
 "timestamp":1614955841155,
 "version":"530"
 },
+"ld64-530-h08716b2_21.tar.bz2":{
+"build":"h08716b2_21",
+"build_number":21,
+"constrains":[
+"cctools_osx-arm64 949.0.1.*",
+"cctools 949.0.1.*"
+],
+"depends":[
+"ld64_osx-arm64 530 ha291f0b_21"
+],
+"license":"APSL-2.0",
+"name":"ld64",
+"requires":[],
+"size":14197,
+"timestamp":1617641763077,
+"version":"530"
+},
 "ld64-530-h50e419e_15.tar.bz2":{
 "build":"h50e419e_15",
 "build_number":15,
@@ -31031,6 +31219,28 @@
 "timestamp":1614955859528,
 "version":"530"
 },
+"ld64_osx-64-530-hbeead03_21.tar.bz2":{
+"build":"hbeead03_21",
+"build_number":21,
+"constrains":[
+"cctools 949.0.1.*",
+"cctools_osx-64 949.0.1.*",
+"ld 530.*",
+"clang >=11.1.0,<12.0a0"
+],
+"depends":[
+"ldid",
+"libcxx",
+"libllvm11 >=11.1.0,<11.2.0a0",
+"tapi >=1100.0.11,<1101.0a0"
+],
+"license":"APSL-2.0",
+"name":"ld64_osx-64",
+"requires":[],
+"size":1282723,
+"timestamp":1617641455360,
+"version":"530"
+},
 "ld64_osx-arm64-530-h42e8ac5_15.tar.bz2":{
 "build":"h42e8ac5_15",
 "build_number":15,
@@ -31139,6 +31349,28 @@
 "requires":[],
 "size":1154092,
 "timestamp":1614955691221,
+"version":"530"
+},
+"ld64_osx-arm64-530-ha291f0b_21.tar.bz2":{
+"build":"ha291f0b_21",
+"build_number":21,
+"constrains":[
+"cctools_osx-arm64 949.0.1.*",
+"ld 530.*",
+"clang >=11.1.0,<12.0a0",
+"cctools 949.0.1.*"
+],
+"depends":[
+"ldid",
+"libcxx",
+"libllvm11 >=11.1.0,<11.2.0a0",
+"tapi >=1100.0.11,<1101.0a0"
+],
+"license":"APSL-2.0",
+"name":"ld64_osx-arm64",
+"requires":[],
+"size":1265191,
+"timestamp":1617641617404,
 "version":"530"
 },
 "ld_impl_linux-64-2.35.1-hdd3f809_1.tar.bz2":{
@@ -34631,6 +34863,20 @@
 "timestamp":1617306085781,
 "version":"11.1.0"
 },
+"libllvm11-11.1.0-h93073aa_2.tar.bz2":{
+"build":"h93073aa_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libllvm11",
+"requires":[],
+"size":21891251,
+"timestamp":1617662621716,
+"version":"11.1.0"
+},
 "libllvm9-9.0.1-h0238b49_2.tar.bz2":{
 "build":"h0238b49_2",
 "build_number":2,
@@ -37341,6 +37587,23 @@
 "timestamp":1617306106710,
 "version":"11.1.0"
 },
+"llvm-11.1.0-h95d0606_2.tar.bz2":{
+"build":"h95d0606_2",
+"build_number":2,
+"constrains":[
+"llvmdev   11.1.0"
+],
+"depends":[
+"libllvm11 11.1.0 h93073aa_2",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"llvm",
+"requires":[],
+"size":51238,
+"timestamp":1617662646261,
+"version":"11.1.0"
+},
 "llvm-9.0.1-h95d0606_2.tar.bz2":{
 "build":"h95d0606_2",
 "build_number":2,
@@ -37524,6 +37787,23 @@
 "timestamp":1617306182816,
 "version":"11.1.0"
 },
+"llvm-tools-11.1.0-h93073aa_2.tar.bz2":{
+"build":"h93073aa_2",
+"build_number":2,
+"constrains":[
+"llvmdev   11.1.0"
+],
+"depends":[
+"libllvm11 11.1.0 h93073aa_2",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"llvm-tools",
+"requires":[],
+"size":10707223,
+"timestamp":1617662734162,
+"version":"11.1.0"
+},
 "llvm-tools-9.0.1-h4468dd5_3.tar.bz2":{
 "build":"h4468dd5_3",
 "build_number":3,
@@ -37652,6 +37932,22 @@
 "requires":[],
 "size":35215689,
 "timestamp":1617306587381,
+"version":"11.1.0"
+},
+"llvmdev-11.1.0-h93073aa_2.tar.bz2":{
+"build":"h93073aa_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.a0",
+"libllvm11 11.1.0 h93073aa_2",
+"llvm-tools 11.1.0 h93073aa_2",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"llvmdev",
+"requires":[],
+"size":35315862,
+"timestamp":1617662914043,
 "version":"11.1.0"
 },
 "llvmdev-5.0.0-h260d524_1005.tar.bz2":{
@@ -47076,6 +47372,26 @@
 "timestamp":1616972444219,
 "version":"1.6"
 },
+"pocl-1.6-hfe9d002_4.tar.bz2":{
+"build":"hfe9d002_4",
+"build_number":4,
+"depends":[
+"khronos-opencl-icd-loader >=2020.12.18",
+"ld64 >=530",
+"libclang-cpp11.1 >=11.1.0,<11.2.0a0",
+"libcxx >=11.1.0",
+"libhwloc >=2.4.1,<2.4.2.0a0",
+"libhwloc >=2.4.1,<3.0a0",
+"libllvm11 >=11.1.0,<11.2.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT",
+"name":"pocl",
+"requires":[],
+"size":2415205,
+"timestamp":1617635302913,
+"version":"1.6"
+},
 "poco-1.10.1-h87438be_1.tar.bz2":{
 "build":"h87438be_1",
 "build_number":1,
@@ -55027,6 +55343,36 @@
 "timestamp":1615334055939,
 "version":"2020.1"
 },
+"pymongo-3.11.0-py38h6f2b01f_4.tar.bz2":{
+"build":"py38h6f2b01f_4",
+"build_number":4,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"pymongo",
+"requires":[],
+"size":1171782,
+"timestamp":1617619392843,
+"version":"3.11.0"
+},
+"pymongo-3.11.0-py39hfb83b0d_4.tar.bz2":{
+"build":"py39hfb83b0d_4",
+"build_number":4,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"pymongo",
+"requires":[],
+"size":1173131,
+"timestamp":1617619423612,
+"version":"3.11.0"
+},
 "pynacl-1.4.0-py38h30f7421_2.tar.bz2":{
 "build":"py38h30f7421_2",
 "build_number":2,
@@ -55601,6 +55947,50 @@
 "size":748555,
 "timestamp":1617427281857,
 "version":"2021.1.5"
+},
+"pyopencl-2021.1.6-py38h1e2c3d9_0.tar.bz2":{
+"build":"py38h1e2c3d9_0",
+"build_number":0,
+"depends":[
+"appdirs",
+"khronos-opencl-icd-loader >=2020.12.18",
+"libcxx >=11.1.0",
+"mako",
+"numpy >=1.19.5,<2.0a0",
+"ocl_icd_wrapper_apple",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pytools",
+"setuptools"
+],
+"license":"MIT",
+"name":"pyopencl",
+"requires":[],
+"size":752717,
+"timestamp":1617656163535,
+"version":"2021.1.6"
+},
+"pyopencl-2021.1.6-py39h776e71f_0.tar.bz2":{
+"build":"py39h776e71f_0",
+"build_number":0,
+"depends":[
+"appdirs",
+"khronos-opencl-icd-loader >=2020.12.18",
+"libcxx >=11.1.0",
+"mako",
+"numpy >=1.19.5,<2.0a0",
+"ocl_icd_wrapper_apple",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pytools",
+"setuptools"
+],
+"license":"MIT",
+"name":"pyopencl",
+"requires":[],
+"size":760955,
+"timestamp":1617656044250,
+"version":"2021.1.6"
 },
 "pyproj-3.0.1-py38h743e829_1.tar.bz2":{
 "build":"py38h743e829_1",
@@ -56217,6 +56607,54 @@
 "size":442665,
 "timestamp":1611752232363,
 "version":"6.2.2"
+},
+"pytest-6.2.3-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"constrains":[
+"pytest-faulthandler >=2"
+],
+"depends":[
+"attrs >=19.2.0",
+"iniconfig",
+"more-itertools >=4.0.0",
+"packaging",
+"pluggy >=0.12,<1.0.0a1",
+"py >=1.8.2",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"toml"
+],
+"license":"MIT",
+"name":"pytest",
+"requires":[],
+"size":443824,
+"timestamp":1617645691422,
+"version":"6.2.3"
+},
+"pytest-6.2.3-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"constrains":[
+"pytest-faulthandler >=2"
+],
+"depends":[
+"attrs >=19.2.0",
+"iniconfig",
+"more-itertools >=4.0.0",
+"packaging",
+"pluggy >=0.12,<1.0.0a1",
+"py >=1.8.2",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"toml"
+],
+"license":"MIT",
+"name":"pytest",
+"requires":[],
+"size":444434,
+"timestamp":1617645868896,
+"version":"6.2.3"
 },
 "pythia8-8.244-py38h3f7e68f_2.tar.bz2":{
 "build":"py38h3f7e68f_2",
@@ -59542,6 +59980,34 @@
 "size":353821,
 "timestamp":1616104785103,
 "version":"2021.3.17"
+},
+"regex-2021.4.4-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Python-2.0",
+"name":"regex",
+"requires":[],
+"size":352525,
+"timestamp":1617644838387,
+"version":"2021.4.4"
+},
+"regex-2021.4.4-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Python-2.0",
+"name":"regex",
+"requires":[],
+"size":366443,
+"timestamp":1617644676516,
+"version":"2021.4.4"
 },
 "rejected-3.19.15-py38h10201cd_1001.tar.bz2":{
 "build":"py38h10201cd_1001",
@@ -64584,6 +65050,21 @@
 "timestamp":1616799843935,
 "version":"3.35.3"
 },
+"sqlite-3.35.4-hc49ca36_0.tar.bz2":{
+"build":"hc49ca36_0",
+"build_number":0,
+"depends":[
+"ncurses >=6.2,<6.3.0a0",
+"readline >=8.0,<9.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Unlicense",
+"name":"sqlite",
+"requires":[],
+"size":1681296,
+"timestamp":1617644964273,
+"version":"3.35.4"
+},
 "squashfs-tools-4.4-h3d4c77b_1.tar.bz2":{
 "build":"h3d4c77b_1",
 "build_number":1,
@@ -67116,6 +67597,19 @@
 "timestamp":1614871722873,
 "version":"4.0.2"
 },
+"uncrustify-0.72.0-hbdafb3b_0.tar.bz2":{
+"build":"hbdafb3b_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"GPL-2.0",
+"name":"uncrustify",
+"requires":[],
+"size":517942,
+"timestamp":1617622026454,
+"version":"0.72.0"
+},
 "unixodbc-2.3.9-h1474e2a_0.tar.bz2":{
 "build":"h1474e2a_0",
 "build_number":0,
@@ -67908,6 +68402,38 @@
 "size":691754,
 "timestamp":1615078518352,
 "version":"0.12.2"
+},
+"viztracer-0.12.3-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"orjson",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"rich"
+],
+"license":"Apache-2.0",
+"name":"viztracer",
+"requires":[],
+"size":695421,
+"timestamp":1617642733668,
+"version":"0.12.3"
+},
+"viztracer-0.12.3-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"orjson",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"rich"
+],
+"license":"Apache-2.0",
+"name":"viztracer",
+"requires":[],
+"size":689312,
+"timestamp":1617642768999,
+"version":"0.12.3"
 },
 "waf-2.0.8-py38h30f7421_1005.tar.bz2":{
 "build":"py38h30f7421_1005",
