@@ -1588,6 +1588,19 @@
 "timestamp":1611685592680,
 "version":"3.0.0"
 },
+"asio-1.14.1-hbdafb3b_1.tar.bz2":{
+"build":"hbdafb3b_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"BSL-1.0",
+"name":"asio",
+"sha256":"c06d0d7a560e005e59700513f716214550f0c0ea94d3eb01ec59895914e20e51",
+"size":334217,
+"timestamp":1617691777432,
+"version":"1.14.1"
+},
 "assimp-5.0.1-h0f81e16_5.tar.bz2":{
 "build":"h0f81e16_5",
 "build_number":5,
@@ -9579,7 +9592,7 @@
 "libcxx >=11.1.0",
 "libgfortran 5.*",
 "libgfortran5 >=11.0.1.dev0",
-"mpich >=3.4,<3.5.0a0",
+"mpich >=3.4,<4.0.0a0",
 "openssl >=1.1.1k,<1.1.2a",
 "zlib >=1.2.11,<1.3.0a0"
 ],
@@ -15639,7 +15652,11 @@
 "build":"h95d0606_2",
 "build_number":2,
 "constrains":[
-"llvmdev   11.1.0"
+"llvmdev   11.1.0",
+"libclang 11.1.0.*",
+"clang 11.1.0.*",
+"clang-tools 11.1.0.*",
+"llvm-tools 11.1.0.*"
 ],
 "depends":[
 "libllvm11 11.1.0 h93073aa_2",
@@ -15666,6 +15683,22 @@
 "sha256":"7bed30ebab90ad70a6c13e4189ca3c18574d3669f93c16abb58d786cd9067b47",
 "size":253538,
 "timestamp":1616005610998,
+"version":"11.1.0"
+},
+"llvm-openmp-11.1.0-hf3c4609_1.tar.bz2":{
+"build":"hf3c4609_1",
+"build_number":1,
+"constrains":[
+"clangdev 11.1.0|11.1.0.*",
+"openmp 11.1.0|11.1.0.*",
+"llvmdev 11.1.0|11.1.0.*"
+],
+"depends":[],
+"license":"NCSA",
+"name":"llvm-openmp",
+"sha256":"29763e493e46801c416f2e75f20e9183719bde3b727d8983b1917a480b4076fe",
+"size":253616,
+"timestamp":1617683012503,
 "version":"11.1.0"
 },
 "llvm-tools-11.1.0-h4468dd5_0.tar.bz2":{
@@ -15714,7 +15747,11 @@
 "build":"h93073aa_2",
 "build_number":2,
 "constrains":[
-"llvmdev   11.1.0"
+"llvmdev   11.1.0",
+"libclang 11.1.0.*",
+"clang 11.1.0.*",
+"clang-tools 11.1.0.*",
+"llvm 11.1.0.*"
 ],
 "depends":[
 "libllvm11 11.1.0 h93073aa_2",
@@ -15776,6 +15813,13 @@
 "llvmdev-11.1.0-h93073aa_2.tar.bz2":{
 "build":"h93073aa_2",
 "build_number":2,
+"constrains":[
+"libclang 11.1.0.*",
+"clang 11.1.0.*",
+"clang-tools 11.1.0.*",
+"llvm 11.1.0.*",
+"llvm-tools 11.1.0.*"
+],
 "depends":[
 "libcxx >=11.a0",
 "libllvm11 11.1.0 h93073aa_2",
@@ -23532,6 +23576,38 @@
 "timestamp":1610453298437,
 "version":"1.0"
 },
+"python-snappy-0.6.0-py38hc881c85_0.tar.bz2":{
+"build":"py38hc881c85_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"snappy >=1.1.8,<2.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"python-snappy",
+"sha256":"2873dfcf94dcc0e271933b718315369414cf78139f03a63741ae62a071f93930",
+"size":31045,
+"timestamp":1617722550493,
+"version":"0.6.0"
+},
+"python-snappy-0.6.0-py39ha9f3c6b_0.tar.bz2":{
+"build":"py39ha9f3c6b_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"snappy >=1.1.8,<2.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"python-snappy",
+"sha256":"8e0a6cdf129a287d168a84613200abc5e947fabafd0b95c18f2160638c51c137",
+"size":31057,
+"timestamp":1617722451183,
+"version":"0.6.0"
+},
 "python-symengine-0.7.2-py38h1f508c3_0.tar.bz2":{
 "build":"py38h1f508c3_0",
 "build_number":0,
@@ -26801,6 +26877,21 @@
 "timestamp":1617392367238,
 "version":"1.4.5"
 },
+"sqlalchemy-1.4.5-py38hea4295b_1.tar.bz2":{
+"build":"py38hea4295b_1",
+"build_number":1,
+"depends":[
+"greenlet !=0.4.17",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"sqlalchemy",
+"sha256":"19c574d9700f41e7f4d81fba43e26d736b85797754c56bb48c41e31d420c7d96",
+"size":2332998,
+"timestamp":1617707694475,
+"version":"1.4.5"
+},
 "sqlalchemy-1.4.5-py39h5161555_0.tar.bz2":{
 "build":"py39h5161555_0",
 "build_number":0,
@@ -26814,6 +26905,21 @@
 "sha256":"0730f4712039a058c8d62541a442d3c2d455f35fbc56518ba0b80f57e8881748",
 "size":2335212,
 "timestamp":1617392389654,
+"version":"1.4.5"
+},
+"sqlalchemy-1.4.5-py39h5161555_1.tar.bz2":{
+"build":"py39h5161555_1",
+"build_number":1,
+"depends":[
+"greenlet !=0.4.17",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"sqlalchemy",
+"sha256":"55e1007b7b2ee65a7b97b13d2b2e91f491858a2d574a67c10a8e55677c22c7d2",
+"size":2331390,
+"timestamp":1617707674369,
 "version":"1.4.5"
 },
 "sqlite-3.35.4-hc49ca36_0.tar.bz2":{
@@ -29398,6 +29504,23 @@
 "timestamp":1610080336484,
 "version":"1.0.9"
 },
+"xorg-libxaw-1.0.14-h3422bc3_0.tar.bz2":{
+"build":"h3422bc3_0",
+"build_number":0,
+"depends":[
+"xorg-libx11 >=1.7.0,<2.0a0",
+"xorg-libxext 1.3.*",
+"xorg-libxmu 1.1.*",
+"xorg-libxpm >=3.5.13,<4.0a0",
+"xorg-libxt >=1.2.1,<2.0a0"
+],
+"license":"MIT",
+"name":"xorg-libxaw",
+"sha256":"fb90168b4870b6a2fdec9b173077abaab95ae4738fa028563da6147cc6fc475c",
+"size":302832,
+"timestamp":1617732683180,
+"version":"1.0.14"
+},
 "xorg-libxdmcp-1.1.3-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
 "build_number":0,
@@ -29422,6 +29545,20 @@
 "size":43484,
 "timestamp":1615301947574,
 "version":"1.3.4"
+},
+"xorg-libxfixes-5.0.3-h3422bc3_1004.tar.bz2":{
+"build":"h3422bc3_1004",
+"build_number":1004,
+"depends":[
+"xorg-fixesproto",
+"xorg-libx11 >=1.7.0,<2.0a0"
+],
+"license":"MIT",
+"name":"xorg-libxfixes",
+"sha256":"4c13df94eda1ac8c975d92d35d0808e81c3cdab10f22eb45cb2281f327bc02bb",
+"size":16173,
+"timestamp":1617718021813,
+"version":"5.0.3"
 },
 "xorg-libxmu-1.1.3-h3422bc3_0.tar.bz2":{
 "build":"h3422bc3_0",

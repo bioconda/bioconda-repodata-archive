@@ -6242,6 +6242,19 @@
 "timestamp":1611685592680,
 "version":"3.0.0"
 },
+"asio-1.14.1-hbdafb3b_1.tar.bz2":{
+"build":"hbdafb3b_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"BSL-1.0",
+"name":"asio",
+"requires":[],
+"size":334217,
+"timestamp":1617691777432,
+"version":"1.14.1"
+},
 "assimp-5.0.1-h0f81e16_5.tar.bz2":{
 "build":"h0f81e16_5",
 "build_number":5,
@@ -11136,6 +11149,24 @@
 "timestamp":1614886719068,
 "version":"2021.2"
 },
+"cctbx-2021.3-hce30654_0.tar.bz2":{
+"build":"hce30654_0",
+"build_number":0,
+"depends":[
+"cctbx-base >=2021.3,<2021.4.0a0",
+"ipython",
+"pyside2",
+"pyzmq",
+"websockets",
+"wxpython"
+],
+"license":"BSD-3-Clause-LBNL AND BSD-3-Clause AND BSL-1.0 AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MIT AND LGPL-2.0-or-later WITH WxWindows-exception-3.1",
+"name":"cctbx",
+"requires":[],
+"size":38334,
+"timestamp":1617755763786,
+"version":"2021.3"
+},
 "cctbx-base-2020.12-py38h40068c3_0.tar.bz2":{
 "build":"py38h40068c3_0",
 "build_number":0,
@@ -11309,6 +11340,64 @@
 "size":61596293,
 "timestamp":1614886943101,
 "version":"2021.2"
+},
+"cctbx-base-2021.3-py38h0a8e328_0.tar.bz2":{
+"build":"py38h0a8e328_0",
+"build_number":0,
+"depends":[
+"biopython",
+"boost >=1.74.0,<1.74.1.0a0",
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"future",
+"libcxx >=11.1.0",
+"libsvm",
+"matplotlib-base",
+"mrcfile",
+"numpy >=1.19.5,<2.0a0",
+"pillow",
+"psutil",
+"python >=3.8,<3.9.0a0",
+"python.app",
+"python_abi 3.8.* *_cp38",
+"reportlab",
+"requests",
+"six"
+],
+"license":"BSD-3-Clause-LBNL AND BSD-3-Clause AND BSL-1.0 AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MIT AND LGPL-2.0-or-later WITH WxWindows-exception-3.1",
+"name":"cctbx-base",
+"requires":[],
+"size":79048692,
+"timestamp":1617755627031,
+"version":"2021.3"
+},
+"cctbx-base-2021.3-py39h4fa2601_0.tar.bz2":{
+"build":"py39h4fa2601_0",
+"build_number":0,
+"depends":[
+"biopython",
+"boost >=1.74.0,<1.74.1.0a0",
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"future",
+"libcxx >=11.1.0",
+"libsvm",
+"matplotlib-base",
+"mrcfile",
+"numpy >=1.19.5,<2.0a0",
+"pillow",
+"psutil",
+"python >=3.9,<3.10.0a0",
+"python.app",
+"python_abi 3.9.* *_cp39",
+"reportlab",
+"requests",
+"six"
+],
+"license":"BSD-3-Clause-LBNL AND BSD-3-Clause AND BSL-1.0 AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MIT AND LGPL-2.0-or-later WITH WxWindows-exception-3.1",
+"name":"cctbx-base",
+"requires":[],
+"size":78843504,
+"timestamp":1617755697332,
+"version":"2021.3"
 },
 "cctools-949.0.1-ha9384d2_18.tar.bz2":{
 "build":"ha9384d2_18",
@@ -25465,6 +25554,116 @@
 "timestamp":1617043188733,
 "version":"20.1.0"
 },
+"h5py-2.10.0-mpi_mpich_py38he3801fb_6.tar.bz2":{
+"build":"mpi_mpich_py38he3801fb_6",
+"build_number":6,
+"depends":[
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
+"mpi4py",
+"mpich >=3.4.1,<4.0a0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"six"
+],
+"license":"BSD-3-Clause",
+"name":"h5py",
+"requires":[],
+"size":986931,
+"timestamp":1617739849963,
+"version":"2.10.0"
+},
+"h5py-2.10.0-mpi_mpich_py39h0539f0b_6.tar.bz2":{
+"build":"mpi_mpich_py39h0539f0b_6",
+"build_number":6,
+"depends":[
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
+"mpi4py",
+"mpich >=3.4.1,<4.0a0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"six"
+],
+"license":"BSD-3-Clause",
+"name":"h5py",
+"requires":[],
+"size":1009263,
+"timestamp":1617739915317,
+"version":"2.10.0"
+},
+"h5py-2.10.0-mpi_openmpi_py38he519abc_6.tar.bz2":{
+"build":"mpi_openmpi_py38he519abc_6",
+"build_number":6,
+"depends":[
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
+"mpi4py",
+"numpy >=1.19.5,<2.0a0",
+"openmpi >=4.1.0,<5.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"six"
+],
+"license":"BSD-3-Clause",
+"name":"h5py",
+"requires":[],
+"size":1004687,
+"timestamp":1617739857186,
+"version":"2.10.0"
+},
+"h5py-2.10.0-mpi_openmpi_py39h69e1067_6.tar.bz2":{
+"build":"mpi_openmpi_py39h69e1067_6",
+"build_number":6,
+"depends":[
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
+"mpi4py",
+"numpy >=1.19.5,<2.0a0",
+"openmpi >=4.1.0,<5.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"six"
+],
+"license":"BSD-3-Clause",
+"name":"h5py",
+"requires":[],
+"size":993594,
+"timestamp":1617739832935,
+"version":"2.10.0"
+},
+"h5py-2.10.0-nompi_py38hb525b2d_106.tar.bz2":{
+"build":"nompi_py38hb525b2d_106",
+"build_number":106,
+"depends":[
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"six"
+],
+"license":"BSD-3-Clause",
+"name":"h5py",
+"requires":[],
+"size":987970,
+"timestamp":1617740027482,
+"version":"2.10.0"
+},
+"h5py-2.10.0-nompi_py39h0a83918_106.tar.bz2":{
+"build":"nompi_py39h0a83918_106",
+"build_number":106,
+"depends":[
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"six"
+],
+"license":"BSD-3-Clause",
+"name":"h5py",
+"requires":[],
+"size":993892,
+"timestamp":1617739820216,
+"version":"2.10.0"
+},
 "h5py-3.1.0-mpi_mpich_py38h0de49b2_0.tar.bz2":{
 "build":"mpi_mpich_py38h0de49b2_0",
 "build_number":0,
@@ -37700,6 +37899,22 @@
 "requires":[],
 "size":253538,
 "timestamp":1616005610998,
+"version":"11.1.0"
+},
+"llvm-openmp-11.1.0-hf3c4609_1.tar.bz2":{
+"build":"hf3c4609_1",
+"build_number":1,
+"constrains":[
+"clangdev 11.1.0|11.1.0.*",
+"openmp 11.1.0|11.1.0.*",
+"llvmdev 11.1.0|11.1.0.*"
+],
+"depends":[],
+"license":"NCSA",
+"name":"llvm-openmp",
+"requires":[],
+"size":253616,
+"timestamp":1617683012503,
 "version":"11.1.0"
 },
 "llvm-tools-10.0.1-h4468dd5_2.tar.bz2":{
@@ -57488,6 +57703,38 @@
 "timestamp":1610453298437,
 "version":"1.0"
 },
+"python-snappy-0.6.0-py38hc881c85_0.tar.bz2":{
+"build":"py38hc881c85_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"snappy >=1.1.8,<2.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"python-snappy",
+"requires":[],
+"size":31045,
+"timestamp":1617722550493,
+"version":"0.6.0"
+},
+"python-snappy-0.6.0-py39ha9f3c6b_0.tar.bz2":{
+"build":"py39ha9f3c6b_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"snappy >=1.1.8,<2.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"python-snappy",
+"requires":[],
+"size":31057,
+"timestamp":1617722451183,
+"version":"0.6.0"
+},
 "python-symengine-0.7.0-py38h1f508c3_0.tar.bz2":{
 "build":"py38h1f508c3_0",
 "build_number":0,
@@ -64945,6 +65192,21 @@
 "timestamp":1617392367238,
 "version":"1.4.5"
 },
+"sqlalchemy-1.4.5-py38hea4295b_1.tar.bz2":{
+"build":"py38hea4295b_1",
+"build_number":1,
+"depends":[
+"greenlet !=0.4.17",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"sqlalchemy",
+"requires":[],
+"size":2332998,
+"timestamp":1617707694475,
+"version":"1.4.5"
+},
 "sqlalchemy-1.4.5-py39h5161555_0.tar.bz2":{
 "build":"py39h5161555_0",
 "build_number":0,
@@ -64958,6 +65220,21 @@
 "requires":[],
 "size":2335212,
 "timestamp":1617392389654,
+"version":"1.4.5"
+},
+"sqlalchemy-1.4.5-py39h5161555_1.tar.bz2":{
+"build":"py39h5161555_1",
+"build_number":1,
+"depends":[
+"greenlet !=0.4.17",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"sqlalchemy",
+"requires":[],
+"size":2331390,
+"timestamp":1617707674369,
 "version":"1.4.5"
 },
 "sqlite-3.32.3-h75b4277_1.tar.bz2":{
@@ -70474,6 +70751,23 @@
 "timestamp":1610080336484,
 "version":"1.0.9"
 },
+"xorg-libxaw-1.0.14-h3422bc3_0.tar.bz2":{
+"build":"h3422bc3_0",
+"build_number":0,
+"depends":[
+"xorg-libx11 >=1.7.0,<2.0a0",
+"xorg-libxext 1.3.*",
+"xorg-libxmu 1.1.*",
+"xorg-libxpm >=3.5.13,<4.0a0",
+"xorg-libxt >=1.2.1,<2.0a0"
+],
+"license":"MIT",
+"name":"xorg-libxaw",
+"requires":[],
+"size":302832,
+"timestamp":1617732683180,
+"version":"1.0.14"
+},
 "xorg-libxdmcp-1.1.3-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
 "build_number":0,
@@ -70498,6 +70792,20 @@
 "size":43484,
 "timestamp":1615301947574,
 "version":"1.3.4"
+},
+"xorg-libxfixes-5.0.3-h3422bc3_1004.tar.bz2":{
+"build":"h3422bc3_1004",
+"build_number":1004,
+"depends":[
+"xorg-fixesproto",
+"xorg-libx11 >=1.7.0,<2.0a0"
+],
+"license":"MIT",
+"name":"xorg-libxfixes",
+"requires":[],
+"size":16173,
+"timestamp":1617718021813,
+"version":"5.0.3"
 },
 "xorg-libxmu-1.1.3-h3422bc3_0.tar.bz2":{
 "build":"h3422bc3_0",
