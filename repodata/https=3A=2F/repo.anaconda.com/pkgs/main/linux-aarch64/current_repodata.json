@@ -184,6 +184,66 @@
 "timestamp":1520632294339,
 "version":"1.0.2"
 },
+"anyio-2.2.0-py37hd43f75c_1.tar.bz2":{
+"build":"py37hd43f75c_1",
+"build_number":1,
+"constrains":[
+"trio >=0.16",
+"curio >=1.4"
+],
+"depends":[
+"idna >=2.8",
+"python >=3.7,<3.8.0a0",
+"sniffio >=1.1",
+"typing_extensions"
+],
+"license":"MIT",
+"name":"anyio",
+"sha256":"8b24e9b25bdb918cd77e9b59b11e94624b8753ed0126785fca8c99281623256b",
+"size":118693,
+"timestamp":1617833339621,
+"version":"2.2.0"
+},
+"anyio-2.2.0-py38hd43f75c_1.tar.bz2":{
+"build":"py38hd43f75c_1",
+"build_number":1,
+"constrains":[
+"trio >=0.16",
+"curio >=1.4"
+],
+"depends":[
+"idna >=2.8",
+"python >=3.8,<3.9.0a0",
+"sniffio >=1.1",
+"typing_extensions"
+],
+"license":"MIT",
+"name":"anyio",
+"sha256":"44538be5c18090be128dcab81102bf0f9463bdb3ce2a75e1d30bc5a7256fd8f7",
+"size":119316,
+"timestamp":1617833690272,
+"version":"2.2.0"
+},
+"anyio-2.2.0-py39hd43f75c_1.tar.bz2":{
+"build":"py39hd43f75c_1",
+"build_number":1,
+"constrains":[
+"curio >=1.4",
+"trio >=0.16"
+],
+"depends":[
+"idna >=2.8",
+"python >=3.9,<3.10.0a0",
+"sniffio >=1.1",
+"typing_extensions"
+],
+"license":"MIT",
+"name":"anyio",
+"sha256":"1724660e8e25854bac489a9f64b681215a2390ccd491086749104ca0e67dd744",
+"size":119912,
+"timestamp":1617833778145,
+"version":"2.2.0"
+},
 "apipkg-1.5-py37hd43f75c_0.tar.bz2":{
 "build":"py37hd43f75c_0",
 "build_number":0,
@@ -3486,6 +3546,84 @@
 "timestamp":1614809154263,
 "version":"4.7.1"
 },
+"jupyter_server-1.4.1-py37hd43f75c_0.tar.bz2":{
+"build":"py37hd43f75c_0",
+"build_number":0,
+"depends":[
+"anyio >=2.0.2",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.4.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.7,<3.8.0a0",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1"
+],
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"a43dcbf30ec046fe74f6aaa5dc04a8bd51bec7b0887a3596bdbe8a6e2b3e3ba4",
+"size":327172,
+"timestamp":1617833937730,
+"version":"1.4.1"
+},
+"jupyter_server-1.4.1-py38hd43f75c_0.tar.bz2":{
+"build":"py38hd43f75c_0",
+"build_number":0,
+"depends":[
+"anyio >=2.0.2",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.4.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.8,<3.9.0a0",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1"
+],
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"c6a95d7f3c7146409af5f2512d70b28202457cbeaab09dd4d7789a2f85017981",
+"size":333611,
+"timestamp":1617834178475,
+"version":"1.4.1"
+},
+"jupyter_server-1.4.1-py39hd43f75c_0.tar.bz2":{
+"build":"py39hd43f75c_0",
+"build_number":0,
+"depends":[
+"anyio >=2.0.2",
+"ipython_genutils",
+"jinja2",
+"jupyter_client >=6.1.1",
+"jupyter_core >=4.4.0",
+"nbconvert",
+"nbformat",
+"prometheus_client",
+"python >=3.9,<3.10.0a0",
+"pyzmq >=17",
+"send2trash",
+"terminado >=0.8.3",
+"tornado >=6.1",
+"traitlets >=4.2.1"
+],
+"license":"BSD-3-Clause",
+"name":"jupyter_server",
+"sha256":"061a2f87b36239791438f734bc442866a6a362423494dcb5bfcb8e42c165f8d1",
+"size":330891,
+"timestamp":1617834227742,
+"version":"1.4.1"
+},
 "jxrlib-1.1-hfd63f10_2.tar.bz2":{
 "build":"hfd63f10_2",
 "build_number":2,
@@ -4282,7 +4420,7 @@
 "timestamp":1614885510099,
 "version":"1.0.3"
 },
-"libuv-1.39.0-hfd63f10_0.tar.bz2":{
+"libuv-1.40.0-hfd63f10_0.tar.bz2":{
 "build":"hfd63f10_0",
 "build_number":0,
 "depends":[
@@ -4290,10 +4428,10 @@
 ],
 "license":"MIT",
 "name":"libuv",
-"sha256":"ea9a803c7f3a959c07844a38fae7a0b0ac67c192f8b35a898828c53bfd60d2f4",
-"size":884578,
-"timestamp":1614972233860,
-"version":"1.39.0"
+"sha256":"f1309f2341528c4283c9be553001595a676317ac9ccae6d4fb5d4a5581a6df33",
+"size":889224,
+"timestamp":1617841806728,
+"version":"1.40.0"
 },
 "libwebp-1.2.0-hf19930f_0.tar.bz2":{
 "build":"hf19930f_0",
@@ -5390,6 +5528,24 @@
 "size":2573849,
 "timestamp":1615241180799,
 "version":"1.10.2"
+},
+"nodejs-14.8.0-he377137_0.tar.bz2":{
+"build":"he377137_0",
+"build_number":0,
+"depends":[
+"icu >=68.1,<69.0a0",
+"libgcc-ng >=10.2.0",
+"libstdcxx-ng >=10.2.0",
+"libuv >=1.40.0,<1.41.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT",
+"name":"nodejs",
+"sha256":"32d848c5c7f100aedfb6df49c4a26743533c27aad1a161d68ea6153d6799ddcf",
+"size":16883879,
+"timestamp":1617825400084,
+"version":"14.8.0"
 },
 "nomkl-3.0-hd43f75c_0.tar.bz2":{
 "build":"hd43f75c_0",
@@ -8748,6 +8904,45 @@
 "timestamp":1615351944063,
 "version":"1.1.8"
 },
+"sniffio-1.2.0-py37hd43f75c_1.tar.bz2":{
+"build":"py37hd43f75c_1",
+"build_number":1,
+"depends":[
+"python >=3.7,<3.8.0a0"
+],
+"license":"Apache-2.0",
+"name":"sniffio",
+"sha256":"15d47d22a036089c5ddaeec03639f98a39df7cd1507faecd8e74ae9895c1f4db",
+"size":15586,
+"timestamp":1617831757345,
+"version":"1.2.0"
+},
+"sniffio-1.2.0-py38hd43f75c_1.tar.bz2":{
+"build":"py38hd43f75c_1",
+"build_number":1,
+"depends":[
+"python >=3.8,<3.9.0a0"
+],
+"license":"Apache-2.0",
+"name":"sniffio",
+"sha256":"17f6ca874008c7475530dcb3101257c4fdbf0df9c0c96751bada908f5f476a03",
+"size":16086,
+"timestamp":1617831812286,
+"version":"1.2.0"
+},
+"sniffio-1.2.0-py39hd43f75c_1.tar.bz2":{
+"build":"py39hd43f75c_1",
+"build_number":1,
+"depends":[
+"python >=3.9,<3.10.0a0"
+],
+"license":"Apache-2.0",
+"name":"sniffio",
+"sha256":"209b69f9e6c3094bdf2d0d19b5049b340b596f620dd4b72154386fdf51ca098d",
+"size":16163,
+"timestamp":1617831859170,
+"version":"1.2.0"
+},
 "sphinxcontrib-1.0-py37hd43f75c_1.tar.bz2":{
 "build":"py37hd43f75c_1",
 "build_number":1,
@@ -9305,6 +9500,63 @@
 "timestamp":1614807848932,
 "version":"4.3.3"
 },
+"trio-0.18.0-py37hd43f75c_0.tar.bz2":{
+"build":"py37hd43f75c_0",
+"build_number":0,
+"depends":[
+"async_generator >=1.9",
+"attrs >=19.2.0",
+"idna",
+"outcome",
+"python >=3.7,<3.8.0a0",
+"sniffio",
+"sortedcontainers"
+],
+"license":"MIT",
+"name":"trio",
+"sha256":"9d07df312f356b72286465784cb8a68a7845fb196714ceb70bb6ecfc6ec398d9",
+"size":492536,
+"timestamp":1617832007648,
+"version":"0.18.0"
+},
+"trio-0.18.0-py38hd43f75c_0.tar.bz2":{
+"build":"py38hd43f75c_0",
+"build_number":0,
+"depends":[
+"async_generator >=1.9",
+"attrs >=19.2.0",
+"idna",
+"outcome",
+"python >=3.8,<3.9.0a0",
+"sniffio",
+"sortedcontainers"
+],
+"license":"MIT",
+"name":"trio",
+"sha256":"5e52aa53766f117af58b8640e1e31dac82be9440333e9f0826b9f6855fa05e48",
+"size":488830,
+"timestamp":1617832083791,
+"version":"0.18.0"
+},
+"trio-0.18.0-py39hd43f75c_0.tar.bz2":{
+"build":"py39hd43f75c_0",
+"build_number":0,
+"depends":[
+"async_generator >=1.9",
+"attrs >=19.2.0",
+"idna",
+"outcome",
+"python >=3.9,<3.10.0a0",
+"sniffio",
+"sortedcontainers"
+],
+"license":"MIT",
+"name":"trio",
+"sha256":"9d85098fa6f5d6f19a42242075fa6ce4b1c43d4464391de7a418bb54251d8e16",
+"size":498679,
+"timestamp":1617832129069,
+"version":"0.18.0"
+},
 "typed-ast-1.4.2-py37hfd63f10_1.tar.bz2":{
 "build":"py37hfd63f10_1",
 "build_number":1,
@@ -9457,6 +9709,48 @@
 "size":85889,
 "timestamp":1615050674982,
 "version":"6.0"
+},
+"uvloop-0.14.0-py37hfd63f10_1.tar.bz2":{
+"build":"py37hfd63f10_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=10.2.0",
+"python >=3.7,<3.8.0a0"
+],
+"license":"MIT",
+"name":"uvloop",
+"sha256":"cd1136d3a8f494f1b8ad201a4318b18c20462af98fd8a116245f5766b893d252",
+"size":1370132,
+"timestamp":1617832314915,
+"version":"0.14.0"
+},
+"uvloop-0.14.0-py38hfd63f10_1.tar.bz2":{
+"build":"py38hfd63f10_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=10.2.0",
+"python >=3.8,<3.9.0a0"
+],
+"license":"MIT",
+"name":"uvloop",
+"sha256":"8e7c5db4ac25b91e22306b1205f27556e1e1bf4caa895c6502b8c0093d6e4311",
+"size":1379982,
+"timestamp":1617832421259,
+"version":"0.14.0"
+},
+"uvloop-0.14.0-py39hfd63f10_1.tar.bz2":{
+"build":"py39hfd63f10_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=10.2.0",
+"python >=3.9,<3.10.0a0"
+],
+"license":"MIT",
+"name":"uvloop",
+"sha256":"ece021e028129b56f4fc4a6c16caa3b1466318c302f06a7dab8f038051c01a00",
+"size":1365544,
+"timestamp":1617832999332,
+"version":"0.14.0"
 },
 "virtualenv-20.4.2-py37hd43f75c_1.tar.bz2":{
 "build":"py37hd43f75c_1",
