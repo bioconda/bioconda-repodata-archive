@@ -8924,6 +8924,23 @@
 "timestamp":1609872739783,
 "version":"2.103"
 },
+"blas-2.104-netlib.tar.bz2":{
+"build":"netlib",
+"build_number":4,
+"depends":[
+"libblas 3.9.0 4_h880f123_netlib",
+"libcblas 3.9.0 4_h880f123_netlib",
+"liblapack 3.9.0 4_h880f123_netlib",
+"liblapacke 3.9.0 4_h880f123_netlib",
+"libtmglib 3.9.0 4_h880f123_netlib"
+],
+"license":"BSD-3-Clause",
+"name":"blas",
+"sha256":"973fba1e6a5150b48b441b1c2b9009cdce1a06c41baed21ff9192b3ecb68cd10",
+"size":13836,
+"timestamp":1617995237457,
+"version":"2.104"
+},
 "blas-2.105-openblas.tar.bz2":{
 "build":"openblas",
 "build_number":5,
@@ -11107,6 +11124,56 @@
 "size":1404035,
 "timestamp":1616505038494,
 "version":"1.16.0"
+},
+"cantera-2.5.1-py38h89f3662_1.tar.bz2":{
+"build":"py38h89f3662_1",
+"build_number":1,
+"depends":[
+"fmt >=7.1.3,<8.0a0",
+"h5py",
+"libblas >=3.9.0,<4.0a0",
+"libcantera 2.5.1.*",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"ruamel_yaml",
+"setuptools",
+"sundials >=5.7.0,<5.8.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"cantera",
+"sha256":"56ea129c939861c74abd58c5248dfe66c1a1aeb9954cc3ce9a69f9f3de018a7c",
+"size":1843607,
+"timestamp":1617976462568,
+"version":"2.5.1"
+},
+"cantera-2.5.1-py39h1639826_1.tar.bz2":{
+"build":"py39h1639826_1",
+"build_number":1,
+"depends":[
+"fmt >=7.1.3,<8.0a0",
+"h5py",
+"libblas >=3.9.0,<4.0a0",
+"libcantera 2.5.1.*",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"ruamel_yaml",
+"setuptools",
+"sundials >=5.7.0,<5.8.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"cantera",
+"sha256":"3e3d7fd838b4268070d1b37d65a7738093de6dee2e3a9269c0cff9ecd4d3bceb",
+"size":1826045,
+"timestamp":1617976219216,
+"version":"2.5.1"
 },
 "catalogue-1.0.0-py38h10201cd_3.tar.bz2":{
 "build":"py38h10201cd_3",
@@ -19530,6 +19597,20 @@
 "timestamp":1611766968330,
 "version":"1.9.1"
 },
+"doxygen-1.9.1-hfa77419_1.tar.bz2":{
+"build":"hfa77419_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"libiconv >=1.16,<1.17.0a0"
+],
+"license":"GPL2",
+"name":"doxygen",
+"sha256":"ad3993554027445547662258a1867bdd21f523656f92d87e9924392610383307",
+"size":5177434,
+"timestamp":1617976135368,
+"version":"1.9.1"
+},
 "dsdp-5.8-h9397a75_1203.tar.bz2":{
 "build":"h9397a75_1203",
 "build_number":1203,
@@ -21578,6 +21659,23 @@
 "timestamp":1616428221874,
 "version":"2.42.4"
 },
+"gdk-pixbuf-2.42.6-hff60771_0.tar.bz2":{
+"build":"hff60771_0",
+"build_number":0,
+"depends":[
+"jpeg >=9d,<10a",
+"libglib >=2.68.0,<3.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libtiff >=4.2.0,<5.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"gdk-pixbuf",
+"sha256":"a226772a5560e443f81cbcf93810a92bec735e611a7193de85acb92b53e7514c",
+"size":594792,
+"timestamp":1617998300855,
+"version":"2.42.6"
+},
 "genesis2-2.6-mpi_mpich_h66472c3_1.tar.bz2":{
 "build":"mpi_mpich_h66472c3_1",
 "build_number":1,
@@ -21925,6 +22023,27 @@
 "timestamp":1616968026863,
 "version":"10.2.1"
 },
+"gfortran_impl_osx-arm64-10.2.1-hbb873e0_22.tar.bz2":{
+"build":"hbb873e0_22",
+"build_number":22,
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"isl >=0.22.1,<0.23.0a0",
+"libcxx >=11.1.0",
+"libgfortran-devel_osx-arm64 10.2.1.*",
+"libgfortran5 >=10.2.1",
+"libiconv >=1.16,<1.17.0a0",
+"mpc >=1.1.0,<2.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-3.0-only WITH GCC-exception-3.1",
+"name":"gfortran_impl_osx-arm64",
+"sha256":"0a760928b654bbc758e0fdf5ba292a405cf003d07f0caca30468281f05487d7a",
+"size":10456641,
+"timestamp":1617979154694,
+"version":"10.2.1"
+},
 "gfortran_impl_osx-arm64-11.0.0.dev0-h2cdbfd1_12.tar.bz2":{
 "build":"h2cdbfd1_12",
 "build_number":12,
@@ -22213,6 +22332,27 @@
 "sha256":"6b43185c2d68906a4f7c0c4c7dd035de581b49d18e26eb64f981b0633cbd4c42",
 "size":11302005,
 "timestamp":1616968354794,
+"version":"11.0.1.dev0"
+},
+"gfortran_impl_osx-arm64-11.0.1.dev0-hbce66ab_22.tar.bz2":{
+"build":"hbce66ab_22",
+"build_number":22,
+"depends":[
+"gmp >=6.2.1,<7.0a0",
+"isl >=0.22.1,<0.23.0a0",
+"libcxx >=11.1.0",
+"libgfortran-devel_osx-arm64 11.0.1.dev0.*",
+"libgfortran5 >=11.0.1.dev0",
+"libiconv >=1.16,<1.17.0a0",
+"mpc >=1.1.0,<2.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-3.0-only WITH GCC-exception-3.1",
+"name":"gfortran_impl_osx-arm64",
+"sha256":"bfa06306c08976aa8d3a9dda9a70f498b0540fff89347671f3b86bea93e5e7bd",
+"size":11318027,
+"timestamp":1617978854670,
 "version":"11.0.1.dev0"
 },
 "gfortran_osx-arm64-10.2.1-h57527a5_13.tar.bz2":{
@@ -22859,6 +22999,23 @@
 "timestamp":1616573367047,
 "version":"2.68.0"
 },
+"glib-2.68.1-hbdafb3b_0.tar.bz2":{
+"build":"hbdafb3b_0",
+"build_number":0,
+"depends":[
+"gettext >=0.19.8.1,<1.0a0",
+"glib-tools 2.68.1 hbdafb3b_0",
+"libcxx >=11.1.0",
+"libglib 2.68.1 h6c200e4_0",
+"python *"
+],
+"license":"LGPL-2.1-or-later",
+"name":"glib",
+"sha256":"d5dc25a911da141fad70267dc432730038b1926bd32eb8ff9759bb10d74ef48f",
+"size":446569,
+"timestamp":1617996128274,
+"version":"2.68.1"
+},
 "glib-tools-2.66.4-h25b6261_2.tar.bz2":{
 "build":"h25b6261_2",
 "build_number":2,
@@ -22970,6 +23127,20 @@
 "size":84070,
 "timestamp":1616573310531,
 "version":"2.68.0"
+},
+"glib-tools-2.68.1-hbdafb3b_0.tar.bz2":{
+"build":"hbdafb3b_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libglib 2.68.1 h6c200e4_0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"glib-tools",
+"sha256":"b8a2e4d1e5d729b0a5d744d41d32c5038fd0a65d565ad7f8cc38596c837f9ee6",
+"size":83986,
+"timestamp":1617996086679,
+"version":"2.68.1"
 },
 "glog-0.4.0-h6361243_3.tar.bz2":{
 "build":"h6361243_3",
@@ -31562,6 +31733,27 @@
 "timestamp":1602885549241,
 "version":"2.1.2"
 },
+"leptonica-1.78.0-h5f305e3_4.tar.bz2":{
+"build":"h5f305e3_4",
+"build_number":4,
+"depends":[
+"giflib >=5.2.1,<5.3.0a0",
+"jpeg >=9d,<10a",
+"libpng >=1.6.37,<1.7.0a0",
+"libtiff >=4.2.0,<5.0a0",
+"libwebp",
+"libwebp-base >=1.1.0,<2.0a0",
+"openjpeg >=2.4.0,<2.5.0a0",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-2-Clause",
+"name":"leptonica",
+"sha256":"966510a6e891a1d3cd75240b6b2d0328a5d5ad676f383fa6a9085df62f311041",
+"size":2524502,
+"timestamp":1617958454597,
+"version":"1.78.0"
+},
 "lerc-2.2-h9f76cd9_0.tar.bz2":{
 "build":"h9f76cd9_0",
 "build_number":0,
@@ -31991,6 +32183,24 @@
 "timestamp":1605743494348,
 "version":"3.9.0"
 },
+"libblas-3.9.0-4_h880f123_netlib.tar.bz2":{
+"build":"4_h880f123_netlib",
+"build_number":4,
+"constrains":[
+"blas * netlib"
+],
+"depends":[
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0"
+],
+"license":"BSD-3-Clause",
+"name":"libblas",
+"sha256":"29d5351bac0fae1ed62a7a5a4e0a2ffed21bbf1413c8e398ec184d82abfed462",
+"size":171968,
+"timestamp":1617995174742,
+"track_features":"blas_netlib",
+"version":"3.9.0"
+},
 "libblas-3.9.0-4_openblas.tar.bz2":{
 "build":"4_openblas",
 "build_number":4,
@@ -32120,6 +32330,80 @@
 "timestamp":1605467364510,
 "version":"1.2.7"
 },
+"libcantera-2.5.1-py38h89f3662_1.tar.bz2":{
+"build":"py38h89f3662_1",
+"build_number":1,
+"depends":[
+"libblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"python >=3.8,<3.9.0a0",
+"sundials >=5.7.0,<5.8.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libcantera",
+"sha256":"fdfd7ae1a4ddb8b46593611a231be4e3188265f2f822ba42fa7c2ddf2a32472f",
+"size":1330220,
+"timestamp":1617976120759,
+"version":"2.5.1"
+},
+"libcantera-2.5.1-py39h1639826_1.tar.bz2":{
+"build":"py39h1639826_1",
+"build_number":1,
+"depends":[
+"libblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"python >=3.9,<3.10.0a0",
+"sundials >=5.7.0,<5.8.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libcantera",
+"sha256":"57b605ee47466362ae8e4bee357ac5c28f5eead06c402732279fa0206c0ab9b1",
+"size":1330489,
+"timestamp":1617975872206,
+"version":"2.5.1"
+},
+"libcantera-devel-2.5.1-py38h89f3662_1.tar.bz2":{
+"build":"py38h89f3662_1",
+"build_number":1,
+"depends":[
+"libblas >=3.9.0,<4.0a0",
+"libcantera 2.5.1.*",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"python >=3.8,<3.9.0a0",
+"sundials >=5.7.0,<5.8.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libcantera-devel",
+"sha256":"d1732d0fe47ec6a4bc8a72c524d51d9f165a8f37158927b0cab4aecce84b63f3",
+"size":6838337,
+"timestamp":1617976204490,
+"version":"2.5.1"
+},
+"libcantera-devel-2.5.1-py39h1639826_1.tar.bz2":{
+"build":"py39h1639826_1",
+"build_number":1,
+"depends":[
+"libblas >=3.9.0,<4.0a0",
+"libcantera 2.5.1.*",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"python >=3.9,<3.10.0a0",
+"sundials >=5.7.0,<5.8.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libcantera-devel",
+"sha256":"f1fd18e5dfb0fac750fceb0e83297d49e1ac734ca8d3ad3d6ea97473621774db",
+"size":6829990,
+"timestamp":1617975955793,
+"version":"2.5.1"
+},
 "libcblas-3.9.0-0_h2ec9a88_netlib.tar.bz2":{
 "build":"0_h2ec9a88_netlib",
 "build_number":0,
@@ -32236,6 +32520,22 @@
 "sha256":"9d7ec1c6778d34354673801d414d258782aed9883462120fab3b688ddc843f99",
 "size":11315,
 "timestamp":1605743508334,
+"version":"3.9.0"
+},
+"libcblas-3.9.0-4_h880f123_netlib.tar.bz2":{
+"build":"4_h880f123_netlib",
+"build_number":4,
+"depends":[
+"libblas 3.9.0.*",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0"
+],
+"license":"BSD-3-Clause",
+"name":"libcblas",
+"sha256":"a6e4f5e293292b3606b403c8a0700a56c2a03336c523e162304722a1fbf1c902",
+"size":49815,
+"timestamp":1617995199201,
+"track_features":"blas_netlib",
 "version":"3.9.0"
 },
 "libcblas-3.9.0-4_openblas.tar.bz2":{
@@ -33380,6 +33680,19 @@
 "timestamp":1616968035609,
 "version":"5.0.0"
 },
+"libgfortran-5.0.0-10_2_1_h5d56895_22.tar.bz2":{
+"build":"10_2_1_h5d56895_22",
+"build_number":22,
+"depends":[
+"libgfortran5"
+],
+"license":"GPL-3.0-only WITH GCC-exception-3.1",
+"name":"libgfortran",
+"sha256":"464895542bf32392462b9ab2c7652502c084832fcc34c371d33d0db48c2e947a",
+"size":19300,
+"timestamp":1617979164723,
+"version":"5.0.0"
+},
 "libgfortran-5.0.0.dev0-11_0_0_hdc626ea_16.tar.bz2":{
 "build":"11_0_0_hdc626ea_16",
 "build_number":16,
@@ -33456,6 +33769,19 @@
 "sha256":"7617902d8b3a5901ec121da5e981557b7cc4d41c590ed9230dc9c49bf4c4c1f5",
 "size":19274,
 "timestamp":1616968364354,
+"version":"5.0.0.dev0"
+},
+"libgfortran-5.0.0.dev0-11_0_1_hf114ba7_22.tar.bz2":{
+"build":"11_0_1_hf114ba7_22",
+"build_number":22,
+"depends":[
+"libgfortran5"
+],
+"license":"GPL-3.0-only WITH GCC-exception-3.1",
+"name":"libgfortran",
+"sha256":"bb12d5c296a10f76fa449a7d2ee9b7111068369f380e64103c0d04d8dbf0796b",
+"size":19305,
+"timestamp":1617978864596,
 "version":"5.0.0.dev0"
 },
 "libgfortran-5.0.0.dev0-h181927c_12.tar.bz2":{
@@ -33708,6 +34034,22 @@
 "sha256":"0099fe7ba65e095ee260e90146f93082b5e27a06cd9310b584ae7457b2bb5d82",
 "size":906305,
 "timestamp":1616968002691,
+"version":"10.2.1"
+},
+"libgfortran5-10.2.1-h5d56895_22.tar.bz2":{
+"build":"h5d56895_22",
+"build_number":22,
+"constrains":[
+"libgfortran 5.0.0 *_22"
+],
+"depends":[
+"llvm-openmp >=8.0.0"
+],
+"license":"GPL-3.0-only WITH GCC-exception-3.1",
+"name":"libgfortran5",
+"sha256":"ccffc8dc68cdec3c24c04df90eeac7406f2757609a1441404e45c02bfad6dbd4",
+"size":910103,
+"timestamp":1617979130797,
 "version":"10.2.1"
 },
 "libgfortran5-11.0.0.dev0-h181927c_12.tar.bz2":{
@@ -34002,6 +34344,22 @@
 "timestamp":1616968324339,
 "version":"11.0.1.dev0"
 },
+"libgfortran5-11.0.1.dev0-hf114ba7_22.tar.bz2":{
+"build":"hf114ba7_22",
+"build_number":22,
+"constrains":[
+"libgfortran 5.0.0.dev0 *_22"
+],
+"depends":[
+"llvm-openmp >=8.0.0"
+],
+"license":"GPL-3.0-only WITH GCC-exception-3.1",
+"name":"libgfortran5",
+"sha256":"cf91269e122f2b09cd1e6ea604937a5365251cd36170cee62219770c090b18da",
+"size":921554,
+"timestamp":1617978819420,
+"version":"11.0.1.dev0"
+},
 "libglib-2.66.2-hb9f672c_0.tar.bz2":{
 "build":"hb9f672c_0",
 "build_number":0,
@@ -34287,6 +34645,28 @@
 "size":2952884,
 "timestamp":1616573254824,
 "version":"2.68.0"
+},
+"libglib-2.68.1-h6c200e4_0.tar.bz2":{
+"build":"h6c200e4_0",
+"build_number":0,
+"constrains":[
+"__osx >=11.0",
+"glib 2.68.1 *_0"
+],
+"depends":[
+"gettext >=0.19.8.1,<1.0a0",
+"libcxx >=11.1.0",
+"libffi >=3.3,<3.4.0a0",
+"libiconv >=1.16,<1.17.0a0",
+"pcre >=8.44,<9.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"libglib",
+"sha256":"8aa2ff35bcbb740475e6a02fba8fc461106c734dfc376c85a09fcf3855721ed4",
+"size":2951781,
+"timestamp":1617996040572,
+"version":"2.68.1"
 },
 "libgpg-error-1.42-hbdafb3b_0.tar.bz2":{
 "build":"hbdafb3b_0",
@@ -34597,6 +34977,22 @@
 "timestamp":1605743521024,
 "version":"3.9.0"
 },
+"liblapack-3.9.0-4_h880f123_netlib.tar.bz2":{
+"build":"4_h880f123_netlib",
+"build_number":4,
+"depends":[
+"libblas 3.9.0.*",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0"
+],
+"license":"BSD-3-Clause",
+"name":"liblapack",
+"sha256":"2239d6b67b595e873bdaabcb01cc39b3d6201ff6e185ad7e97fb5b529025bfaa",
+"size":2933957,
+"timestamp":1617995211753,
+"track_features":"blas_netlib",
+"version":"3.9.0"
+},
 "liblapack-3.9.0-4_openblas.tar.bz2":{
 "build":"4_openblas",
 "build_number":4,
@@ -34811,6 +35207,24 @@
 "sha256":"e57365aa2f9f57916d0e7c49c0a15aef5e7526f609fe3947488b72f922865a32",
 "size":11313,
 "timestamp":1605743534153,
+"version":"3.9.0"
+},
+"liblapacke-3.9.0-4_h880f123_netlib.tar.bz2":{
+"build":"4_h880f123_netlib",
+"build_number":4,
+"depends":[
+"libblas 3.9.0.*",
+"libcblas 3.9.0.*",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"liblapack 3.9.0.*"
+],
+"license":"BSD-3-Clause",
+"name":"liblapacke",
+"sha256":"cdf9761c89c03ef8ba8b142927874716983e053c91fcd1771bd59e76074459a8",
+"size":496383,
+"timestamp":1617995228709,
+"track_features":"blas_netlib",
 "version":"3.9.0"
 },
 "liblapacke-3.9.0-4_openblas.tar.bz2":{
@@ -35209,6 +35623,22 @@
 "size":32466,
 "timestamp":1609782099374,
 "version":"1.4"
+},
+"libode-0.16.2-py38hc470f4d_5.tar.bz2":{
+"build":"py38hc470f4d_5",
+"build_number":5,
+"depends":[
+"libcxx >=11.1.0",
+"pthread-stubs",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-2.1-or-later OR BSD-4-Clause",
+"name":"libode",
+"sha256":"27f56e419a2bc5a60bfd1fe3541e0eda6238d0e729201bedddc62e634760c57f",
+"size":436627,
+"timestamp":1617968027944,
+"version":"0.16.2"
 },
 "libogg-1.3.4-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
@@ -37068,6 +37498,24 @@
 "size":607727,
 "timestamp":1608420568561,
 "version":"4.2.0"
+},
+"libtmglib-3.9.0-4_h880f123_netlib.tar.bz2":{
+"build":"4_h880f123_netlib",
+"build_number":4,
+"constrains":[
+"blas * netlib"
+],
+"depends":[
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0"
+],
+"license":"BSD-3-Clause",
+"name":"libtmglib",
+"sha256":"7de29d90a3f606c8167ee5d7b5a876c1d8009ab3ce2ff178c474df48292dd4ea",
+"size":146540,
+"timestamp":1617995186553,
+"track_features":"blas_netlib",
+"version":"3.9.0"
 },
 "libtool-2.4.6-h19f5b89_1006.tar.bz2":{
 "build":"h19f5b89_1006",
@@ -45704,6 +46152,152 @@
 "size":1472778,
 "timestamp":1616392512424,
 "version":"0.13.2"
+},
+"openpmd-api-0.13.3-mpi_mpich_py38h00ff84a_0.tar.bz2":{
+"build":"mpi_mpich_py38h00ff84a_0",
+"build_number":0,
+"depends":[
+"adios * mpi_mpich_*",
+"adios2 * mpi_mpich_*",
+"adios2 >=2.7.0,<2.7.1.0a0",
+"blosc",
+"bzip2",
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
+"libcxx >=11.1.0",
+"mpi4py",
+"mpich >=3.4,<3.5.0a0",
+"numpy >=1.15.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"zlib"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openpmd-api",
+"sha256":"95af688046e35efbe67e25d18bdc1011998f2dcde1dbe915657bb898bd2baff9",
+"size":1143550,
+"timestamp":1617999924924,
+"version":"0.13.3"
+},
+"openpmd-api-0.13.3-mpi_mpich_py39hc5352e2_0.tar.bz2":{
+"build":"mpi_mpich_py39hc5352e2_0",
+"build_number":0,
+"depends":[
+"adios * mpi_mpich_*",
+"adios2 * mpi_mpich_*",
+"adios2 >=2.7.0,<2.7.1.0a0",
+"blosc",
+"bzip2",
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_mpich_*",
+"libcxx >=11.1.0",
+"mpi4py",
+"mpich >=3.4,<3.5.0a0",
+"numpy >=1.15.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"zlib"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openpmd-api",
+"sha256":"bf4f05da3769c4a35580e10ec3be2ca273c6486e97ea1296e657cd6615b0cc99",
+"size":1145222,
+"timestamp":1618002149611,
+"version":"0.13.3"
+},
+"openpmd-api-0.13.3-mpi_openmpi_py38hf815d7b_0.tar.bz2":{
+"build":"mpi_openmpi_py38hf815d7b_0",
+"build_number":0,
+"depends":[
+"adios * mpi_openmpi_*",
+"adios2 * mpi_openmpi_*",
+"adios2 >=2.7.0,<2.7.1.0a0",
+"blosc",
+"bzip2",
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
+"libcxx >=11.1.0",
+"mpi4py",
+"numpy >=1.15.0",
+"openmpi >=4.1,<4.2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"zlib"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openpmd-api",
+"sha256":"52b8536924e1ecec3c4eea0529ef0bd07eb3f8f757fa0fa4fc24b0f0e7187b51",
+"size":1870505,
+"timestamp":1617999607437,
+"version":"0.13.3"
+},
+"openpmd-api-0.13.3-mpi_openmpi_py39h46a2803_0.tar.bz2":{
+"build":"mpi_openmpi_py39h46a2803_0",
+"build_number":0,
+"depends":[
+"adios * mpi_openmpi_*",
+"adios2 * mpi_openmpi_*",
+"adios2 >=2.7.0,<2.7.1.0a0",
+"blosc",
+"bzip2",
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
+"libcxx >=11.1.0",
+"mpi4py",
+"numpy >=1.15.0",
+"openmpi >=4.1,<4.2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"zlib"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openpmd-api",
+"sha256":"521f40474f2e8933ec84b86ebd89b3e2b0956b64b49cf06f9e7cc0d8585e80bd",
+"size":1870608,
+"timestamp":1617999632336,
+"version":"0.13.3"
+},
+"openpmd-api-0.13.3-nompi_py38hba0218b_100.tar.bz2":{
+"build":"nompi_py38hba0218b_100",
+"build_number":100,
+"depends":[
+"adios * nompi_*",
+"adios2 * nompi_*",
+"adios2 >=2.7.0,<2.7.1.0a0",
+"blosc",
+"bzip2",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"libcxx >=11.1.0",
+"numpy >=1.15.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"zlib"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openpmd-api",
+"sha256":"c1396db73ef6b7f704f2133a67050d18db9c6f0364aa71de083b5b3b2412a3ba",
+"size":1479566,
+"timestamp":1617999931323,
+"version":"0.13.3"
+},
+"openpmd-api-0.13.3-nompi_py39hdc4371b_100.tar.bz2":{
+"build":"nompi_py39hdc4371b_100",
+"build_number":100,
+"depends":[
+"adios * nompi_*",
+"adios2 * nompi_*",
+"adios2 >=2.7.0,<2.7.1.0a0",
+"blosc",
+"bzip2",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"libcxx >=11.1.0",
+"numpy >=1.15.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"zlib"
+],
+"license":"LGPL-3.0-or-later",
+"name":"openpmd-api",
+"sha256":"352c7d03fafc88e85e7bd715a73aa9f140c7017e15655a83531a7b4779294010",
+"size":1478626,
+"timestamp":1618001724736,
+"version":"0.13.3"
 },
 "openssh-8.4p1-hff6e12b_0.tar.bz2":{
 "build":"hff6e12b_0",
@@ -55810,6 +56404,22 @@
 "timestamp":1610633710870,
 "version":"4.0.30"
 },
+"pyode-0.16.2-hce30654_5.tar.bz2":{
+"build":"hce30654_5",
+"build_number":5,
+"depends":[
+"libcxx",
+"libode",
+"pthread-stubs",
+"python 3.8.*"
+],
+"license":"LGPL-2.1-or-later OR BSD-4-Clause",
+"name":"pyode",
+"sha256":"867e8a5150aa7427ea0c4ff95dbdb9ee891d7daef555c954deefbfc81014ffec",
+"size":172392,
+"timestamp":1617968039921,
+"version":"0.16.2"
+},
 "pyopencl-2020.2.2-py38h3578e97_1.tar.bz2":{
 "build":"py38h3578e97_1",
 "build_number":1,
@@ -65407,6 +66017,36 @@
 "size":2340780,
 "timestamp":1617782044318,
 "version":"1.4.6"
+},
+"sqlalchemy-1.4.7-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"greenlet !=0.4.17",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"sqlalchemy",
+"sha256":"c133909ed688d9a55e03aded36b65eccdc80907ecef4e8b4f8266b2db82bf1c5",
+"size":2344061,
+"timestamp":1617995201064,
+"version":"1.4.7"
+},
+"sqlalchemy-1.4.7-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"greenlet !=0.4.17",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"sqlalchemy",
+"sha256":"148e7f5a6e24dac971fe4801766cf676f5c9e682e65820f8f50abb8c976cfb0e",
+"size":2342347,
+"timestamp":1617995211373,
+"version":"1.4.7"
 },
 "sqlite-3.32.3-h75b4277_1.tar.bz2":{
 "build":"h75b4277_1",
