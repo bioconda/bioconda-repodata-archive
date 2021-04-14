@@ -7920,6 +7920,23 @@
 "timestamp":1617824666341,
 "version":"1.20.46"
 },
+"botocore-1.20.50-pyhd3eb1b0_1.tar.bz2":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"jmespath >=0.7.1,<1.0.0",
+"python",
+"python-dateutil >=2.1,<3.0.0",
+"urllib3 >=1.25.4,<1.27"
+],
+"license":"Apache-2.0",
+"name":"botocore",
+"noarch":"python",
+"sha256":"89e7214d4cc5b67b18c1ccbadfacf998bb3289827bb504b9dd467542cb9e3744",
+"size":4785229,
+"timestamp":1618262073183,
+"version":"1.20.50"
+},
 "botocore-1.20.7-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -13529,7 +13546,7 @@
 "python >=3.7",
 "cloudpickle >=1.1.1",
 "fsspec >=0.6.0",
-"partd >= 0.3.10",
+"partd >=0.3.10",
 "pyyaml",
 "toolz >=0.8.2"
 ],
@@ -14238,6 +14255,33 @@
 "size":14672258,
 "timestamp":1597685588885,
 "version":"0.11.1"
+},
+"datashader-0.12.1-pyhd3eb1b0_1.tar.bz2":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"bokeh",
+"colorcet >=0.9.0",
+"dask >=0.18.0",
+"datashape >=0.5.1",
+"numba >=0.37.0,!=0.49.*,!=0.50.*",
+"numpy >=1.7",
+"pandas >=0.24.1",
+"param >=1.6.1",
+"pillow >=3.1.1",
+"pyct >=0.4.5",
+"python >=2.7",
+"scipy",
+"toolz >=0.7.4",
+"xarray >=0.9.6"
+],
+"license":"BSD-3-Clause",
+"name":"datashader",
+"noarch":"python",
+"sha256":"564b1859891d10639b54a5385ded6e7ee1e031c27b917dcfbb7074b27a10d820",
+"size":14934318,
+"timestamp":1618337130107,
+"version":"0.12.1"
 },
 "datashader-0.6.8-py_0.tar.bz2":{
 "build":"py_0",
@@ -19520,6 +19564,32 @@
 "timestamp":1615915777137,
 "version":"1.8.1"
 },
+"geoviews-1.9.1-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"bokeh >=2.3.0,<2.4.0",
+"cartopy >=0.18.0",
+"datashader",
+"geopandas",
+"geoviews-core >=1.9.1,<1.9.2.0a0",
+"holoviews >=1.14.2",
+"netcdf4",
+"numpy >=1.0",
+"pandas",
+"param >=1.9.3,<2.0",
+"pyct",
+"python >=3.6",
+"xarray"
+],
+"license":"BSD-3-Clause",
+"name":"geoviews",
+"noarch":"python",
+"sha256":"27eb00a0e6be1b8f23516e69822f43319fcda65d887cb27736aacebfa2dc9e54",
+"size":10159,
+"timestamp":1617997243067,
+"version":"1.9.1"
+},
 "geoviews-core-1.6.2-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -19629,6 +19699,28 @@
 "size":423253,
 "timestamp":1615915685353,
 "version":"1.8.1"
+},
+"geoviews-core-1.9.1-pyh06a4308_0.tar.bz2":{
+"build":"pyh06a4308_0",
+"build_number":0,
+"constrains":[
+"geoviews 1.9.1"
+],
+"depends":[
+"bokeh >=2.3.0,<2.4.0",
+"cartopy >=0.18.0",
+"holoviews >=1.14.2",
+"numpy >=1.0",
+"param >=1.9.3",
+"python >=3.6"
+],
+"license":"BSD-3-Clause",
+"name":"geoviews-core",
+"noarch":"python",
+"sha256":"52f1723f8fe3cd7708354a2b7259c6c517774c160ef607e3a914d5e55ec1d9ab",
+"size":417321,
+"timestamp":1617997156535,
+"version":"1.9.1"
 },
 "gettext-common-devel-cos7-ppc64le-0.19.8.1-0.tar.bz2":{
 "build":"0",
@@ -22154,6 +22246,30 @@
 "timestamp":1617917283703,
 "version":"1.14.3"
 },
+"holoviews-1.14.3-pyhd3eb1b0_1.tar.bz2":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"bokeh >=1.1.0",
+"colorcet",
+"ipython >=5.4.0",
+"matplotlib-base >=2.2",
+"notebook",
+"numpy >=1.0",
+"pandas >=0.20.0",
+"panel >=0.8.0",
+"param >=1.9.3,<2.0",
+"python >=2.7",
+"pyviz_comms >=0.7.4"
+],
+"license":"BSD-3-Clause",
+"name":"holoviews",
+"noarch":"python",
+"sha256":"05073889dcb743bc6ac6c79a7e0ba5cacb2085ee99a88cf969524c0fc306601d",
+"size":3626337,
+"timestamp":1617994442958,
+"version":"1.14.3"
+},
 "hpack-3.0.0-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -22825,6 +22941,20 @@
 "size":40820,
 "timestamp":1618173788645,
 "version":"3.4.0"
+},
+"humanize-3.4.1-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python >=3.6"
+],
+"license":"MIT",
+"name":"humanize",
+"noarch":"python",
+"sha256":"02800b39f72688c1fa4720025415d5c15b15378830c9b399d6af4c1defc0ba83",
+"size":41275,
+"timestamp":1618263119794,
+"version":"3.4.1"
 },
 "hvplot-0.4.0-py_0.tar.bz2":{
 "build":"py_0",
@@ -23907,6 +24037,24 @@
 "size":242238,
 "timestamp":1618173657631,
 "version":"6.9.0"
+},
+"hypothesis-6.9.1-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"attrs >=19.2.0",
+"black >=19.10b0",
+"click >=7.0",
+"python >=3.6",
+"sortedcontainers >=2.1.0,<3.0.0"
+],
+"license":"MPL 2.0",
+"name":"hypothesis",
+"noarch":"python",
+"sha256":"a1f608d96e52b958f6dd4a743ee1cb8a7c985d10bef3ea3c64cc0c6b078145cb",
+"size":240090,
+"timestamp":1618263160104,
+"version":"6.9.1"
 },
 "icalendar-4.0.3-py_0.tar.bz2":{
 "build":"py_0",
@@ -32319,6 +32467,22 @@
 "timestamp":1613848600563,
 "version":"0.57.1"
 },
+"meson-0.57.2-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"ninja >=1.8.2",
+"python >=3.6",
+"setuptools"
+],
+"license":"Apache-2.0",
+"name":"meson",
+"noarch":"python",
+"sha256":"8029093837589aa3651a967d13c81ab86a2424a17c758b195a7621bfc2685960",
+"size":488386,
+"timestamp":1618262287332,
+"version":"0.57.2"
+},
 "metakernel-0.24.3-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -33955,6 +34119,24 @@
 "size":1104327,
 "timestamp":1592496121693,
 "version":"3.5"
+},
+"nltk-3.6.1-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"click",
+"joblib",
+"python >=3.5",
+"regex",
+"tqdm"
+],
+"license":"Apache 2.0",
+"name":"nltk",
+"noarch":"python",
+"sha256":"c0ad953eb1259cf720e53afe0978beda98da320e76ece6f175b13606ca18d112",
+"size":1121957,
+"timestamp":1618327124816,
+"version":"3.6.1"
 },
 "nose-1.3.7-pyhd3eb1b0_1006.tar.bz2":{
 "build":"pyhd3eb1b0_1006",
@@ -36489,6 +36671,22 @@
 "size":20606,
 "timestamp":1574700037855,
 "version":"1.1.0"
+},
+"partd-1.2.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"locket",
+"python >=3.5",
+"toolz"
+],
+"license":"BSD 3-Clause",
+"name":"partd",
+"noarch":"python",
+"sha256":"1d9dcc687a268b9931bb92176fde26f0cad4331f33e52c4da0c2d48d23da3d3d",
+"size":18848,
+"timestamp":1618000128123,
+"version":"1.2.0"
 },
 "passlib-1.7.1-pyh91ea838_0.tar.bz2":{
 "build":"pyh91ea838_0",
@@ -62551,6 +62749,23 @@
 "timestamp":1617824666341,
 "version":"1.20.46"
 },
+"botocore-1.20.50-pyhd3eb1b0_1.conda":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"jmespath >=0.7.1,<1.0.0",
+"python",
+"python-dateutil >=2.1,<3.0.0",
+"urllib3 >=1.25.4,<1.27"
+],
+"license":"Apache-2.0",
+"name":"botocore",
+"noarch":"python",
+"sha256":"f13aac88b53e3b6d00ee844f8a0d7b28952c6ad5cf4ef82c9f26286187e6ae15",
+"size":3798946,
+"timestamp":1618262073183,
+"version":"1.20.50"
+},
 "botocore-1.20.7-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -67920,7 +68135,7 @@
 "python >=3.7",
 "cloudpickle >=1.1.1",
 "fsspec >=0.6.0",
-"partd >= 0.3.10",
+"partd >=0.3.10",
 "pyyaml",
 "toolz >=0.8.2"
 ],
@@ -68629,6 +68844,33 @@
 "size":14421965,
 "timestamp":1597685588885,
 "version":"0.11.1"
+},
+"datashader-0.12.1-pyhd3eb1b0_1.conda":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"bokeh",
+"colorcet >=0.9.0",
+"dask >=0.18.0",
+"datashape >=0.5.1",
+"numba >=0.37.0,!=0.49.*,!=0.50.*",
+"numpy >=1.7",
+"pandas >=0.24.1",
+"param >=1.6.1",
+"pillow >=3.1.1",
+"pyct >=0.4.5",
+"python >=2.7",
+"scipy",
+"toolz >=0.7.4",
+"xarray >=0.9.6"
+],
+"license":"BSD-3-Clause",
+"name":"datashader",
+"noarch":"python",
+"sha256":"110ae203714d8f349534982f0345ae0fef0f970102cbb02cd28c0fec47327f08",
+"size":14706772,
+"timestamp":1618337130107,
+"version":"0.12.1"
 },
 "datashader-0.6.8-py_0.conda":{
 "build":"py_0",
@@ -73615,6 +73857,32 @@
 "timestamp":1615915777137,
 "version":"1.8.1"
 },
+"geoviews-1.9.1-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"bokeh >=2.3.0,<2.4.0",
+"cartopy >=0.18.0",
+"datashader",
+"geopandas",
+"geoviews-core >=1.9.1,<1.9.2.0a0",
+"holoviews >=1.14.2",
+"netcdf4",
+"numpy >=1.0",
+"pandas",
+"param >=1.9.3,<2.0",
+"pyct",
+"python >=3.6",
+"xarray"
+],
+"license":"BSD-3-Clause",
+"name":"geoviews",
+"noarch":"python",
+"sha256":"d10f3e4a75091a6170d1114da6f2e8b4cb91893dddfb0afebd27af2b9aee3f5c",
+"size":10595,
+"timestamp":1617997243067,
+"version":"1.9.1"
+},
 "geoviews-core-1.6.2-py_0.conda":{
 "build":"py_0",
 "build_number":0,
@@ -73724,6 +73992,28 @@
 "size":364916,
 "timestamp":1615915685353,
 "version":"1.8.1"
+},
+"geoviews-core-1.9.1-pyh06a4308_0.conda":{
+"build":"pyh06a4308_0",
+"build_number":0,
+"constrains":[
+"geoviews 1.9.1"
+],
+"depends":[
+"bokeh >=2.3.0,<2.4.0",
+"cartopy >=0.18.0",
+"holoviews >=1.14.2",
+"numpy >=1.0",
+"param >=1.9.3",
+"python >=3.6"
+],
+"license":"BSD-3-Clause",
+"name":"geoviews-core",
+"noarch":"python",
+"sha256":"62c1a756105d0afe7a4c45742bd4a844c44a97b4a647bb9079b52ad897197c0a",
+"size":367472,
+"timestamp":1617997156535,
+"version":"1.9.1"
 },
 "gettext-common-devel-cos7-ppc64le-0.19.8.1-0.conda":{
 "build":"0",
@@ -75975,6 +76265,30 @@
 "timestamp":1617917283703,
 "version":"1.14.3"
 },
+"holoviews-1.14.3-pyhd3eb1b0_1.conda":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"bokeh >=1.1.0",
+"colorcet",
+"ipython >=5.4.0",
+"matplotlib-base >=2.2",
+"notebook",
+"numpy >=1.0",
+"pandas >=0.20.0",
+"panel >=0.8.0",
+"param >=1.9.3,<2.0",
+"python >=2.7",
+"pyviz_comms >=0.7.4"
+],
+"license":"BSD-3-Clause",
+"name":"holoviews",
+"noarch":"python",
+"sha256":"53554d2d1195850eed4648b8ce3b5e0ddbfa5761722fe5b6f802529db884f12a",
+"size":3405269,
+"timestamp":1617994442958,
+"version":"1.14.3"
+},
 "hpack-3.0.0-py_0.conda":{
 "build":"py_0",
 "build_number":0,
@@ -76646,6 +76960,20 @@
 "size":40533,
 "timestamp":1618173788645,
 "version":"3.4.0"
+},
+"humanize-3.4.1-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python >=3.6"
+],
+"license":"MIT",
+"name":"humanize",
+"noarch":"python",
+"sha256":"ad9728ea665fbd19685949b42f08c1774b656aadb7d327c7d6ef3d0cb63817c3",
+"size":40877,
+"timestamp":1618263119794,
+"version":"3.4.1"
 },
 "hvplot-0.4.0-py_0.conda":{
 "build":"py_0",
@@ -77728,6 +78056,24 @@
 "size":248883,
 "timestamp":1618173657631,
 "version":"6.9.0"
+},
+"hypothesis-6.9.1-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"attrs >=19.2.0",
+"black >=19.10b0",
+"click >=7.0",
+"python >=3.6",
+"sortedcontainers >=2.1.0,<3.0.0"
+],
+"license":"MPL 2.0",
+"name":"hypothesis",
+"noarch":"python",
+"sha256":"92081d3afab5ee6a1df685b336c6108d9ce972af291000dda34267fa722c769a",
+"size":248899,
+"timestamp":1618263160104,
+"version":"6.9.1"
 },
 "icalendar-4.0.3-py_0.conda":{
 "build":"py_0",
@@ -84227,6 +84573,22 @@
 "timestamp":1613848600563,
 "version":"0.57.1"
 },
+"meson-0.57.2-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"ninja >=1.8.2",
+"python >=3.6",
+"setuptools"
+],
+"license":"Apache-2.0",
+"name":"meson",
+"noarch":"python",
+"sha256":"a8b02d144f68ea0bb726e0a3b5566fde2fe8661db4df320ea89d98757f5b4ed5",
+"size":480380,
+"timestamp":1618262287332,
+"version":"0.57.2"
+},
 "metakernel-0.24.3-py_0.conda":{
 "build":"py_0",
 "build_number":0,
@@ -85829,6 +86191,24 @@
 "size":999322,
 "timestamp":1592496121693,
 "version":"3.5"
+},
+"nltk-3.6.1-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"click",
+"joblib",
+"python >=3.5",
+"regex",
+"tqdm"
+],
+"license":"Apache 2.0",
+"name":"nltk",
+"noarch":"python",
+"sha256":"e06b9088826fe4c8b441d479440afb08c3e7b34a046ff79620ac6f2120562d01",
+"size":1011231,
+"timestamp":1618327124816,
+"version":"3.6.1"
 },
 "nose-1.3.7-pyhd3eb1b0_1006.conda":{
 "build":"pyhd3eb1b0_1006",
@@ -88165,6 +88545,22 @@
 "size":20530,
 "timestamp":1574700037855,
 "version":"1.1.0"
+},
+"partd-1.2.0-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"locket",
+"python >=3.5",
+"toolz"
+],
+"license":"BSD 3-Clause",
+"name":"partd",
+"noarch":"python",
+"sha256":"609d0260f1fecf33edd3200b28c732efaef0f26ec303c02489309ce5da0ae2f7",
+"size":18987,
+"timestamp":1618000128123,
+"version":"1.2.0"
 },
 "passlib-1.7.1-pyh91ea838_0.conda":{
 "build":"pyh91ea838_0",
