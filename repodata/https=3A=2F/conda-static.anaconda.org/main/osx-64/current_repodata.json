@@ -12218,7 +12218,7 @@
 "timestamp":1590154582883,
 "version":"1.0.0"
 },
-"catalogue-2.0.1-py36hecd8cb5_0.tar.bz2":{
+"catalogue-2.0.2-py36hecd8cb5_0.tar.bz2":{
 "build":"py36hecd8cb5_0",
 "build_number":0,
 "depends":[
@@ -12227,12 +12227,12 @@
 ],
 "license":"MIT",
 "name":"catalogue",
-"sha256":"3c969ae0fa6587cb8425639143af6b1299df1425f05c56aac58463114d6e3e82",
-"size":20184,
-"timestamp":1608234384932,
-"version":"2.0.1"
+"sha256":"6be9337f64388afa1497bbc3112d83b813f1b459d1b924622092ec7bf3433e16",
+"size":17564,
+"timestamp":1618348471250,
+"version":"2.0.2"
 },
-"catalogue-2.0.1-py37hecd8cb5_0.tar.bz2":{
+"catalogue-2.0.2-py37hecd8cb5_0.tar.bz2":{
 "build":"py37hecd8cb5_0",
 "build_number":0,
 "depends":[
@@ -12241,12 +12241,12 @@
 ],
 "license":"MIT",
 "name":"catalogue",
-"sha256":"c7d251535ed4f62dcf50a3ce3d2de6da973aca3d58ae346b8673d5e718e48546",
-"size":20140,
-"timestamp":1608234372060,
-"version":"2.0.1"
+"sha256":"74e8a7693d3a8a72c087c2649f8d00a7430ecd0207abef20777029457d7f5e27",
+"size":17547,
+"timestamp":1618348520535,
+"version":"2.0.2"
 },
-"catalogue-2.0.1-py38hecd8cb5_0.tar.bz2":{
+"catalogue-2.0.2-py38hecd8cb5_0.tar.bz2":{
 "build":"py38hecd8cb5_0",
 "build_number":0,
 "depends":[
@@ -12254,23 +12254,24 @@
 ],
 "license":"MIT",
 "name":"catalogue",
-"sha256":"501afa8c2c6338da4ee35edd5fa450829f571bf189b5c25034a063984f14d262",
-"size":20188,
-"timestamp":1608234344780,
-"version":"2.0.1"
+"sha256":"df3a8e76dfc4d63c4d37580d7d0167c69c4f91ca1de768cb4d3ff4a74041a434",
+"size":17573,
+"timestamp":1618348477697,
+"version":"2.0.2"
 },
-"catalogue-2.0.1-py39hecd8cb5_0.tar.bz2":{
+"catalogue-2.0.2-py39hecd8cb5_0.tar.bz2":{
 "build":"py39hecd8cb5_0",
 "build_number":0,
 "depends":[
+"importlib_metadata >=0.20,<3.3.0",
 "python >=3.9,<3.10.0a0"
 ],
 "license":"MIT",
 "name":"catalogue",
-"sha256":"122f58a8720854b66f3b73aafdb7d5083e5135a25188bf79a3b8d1d2722753b7",
-"size":20243,
-"timestamp":1608234362803,
-"version":"2.0.1"
+"sha256":"3dbf3c5a562d81a8fc336eb54002041f451888892662b0bee9defcb8329d363c",
+"size":17588,
+"timestamp":1618390969082,
+"version":"2.0.2"
 },
 "ccache-3.7.9-hf120daa_0.tar.bz2":{
 "build":"hf120daa_0",
@@ -20916,69 +20917,21 @@
 "timestamp":1611677576928,
 "version":"0.7.9"
 },
-"dropbox-10.10.0-py36hecd8cb5_0.tar.bz2":{
-"build":"py36hecd8cb5_0",
-"build_number":0,
-"depends":[
-"python >=3.6,<3.7.0a0",
-"requests >=2.16.2",
-"setuptools",
-"six >=1.3.0"
-],
-"license":"MIT",
-"name":"dropbox",
-"sha256":"02ab652663c70d7c9d629ea432d1c17f845984e0d58fd654e67896730b9f0da9",
-"size":1082798,
-"timestamp":1606082728326,
-"version":"10.10.0"
-},
-"dropbox-10.10.0-py37hecd8cb5_0.tar.bz2":{
-"build":"py37hecd8cb5_0",
-"build_number":0,
-"depends":[
-"python >=3.7,<3.8.0a0",
-"requests >=2.16.2",
-"setuptools",
-"six >=1.3.0"
-],
-"license":"MIT",
-"name":"dropbox",
-"sha256":"02e0517fa04ea8541d7d24a908bf50253ac9255f9b3477f9e7faf20e85b88ba7",
-"size":1084629,
-"timestamp":1606082712693,
-"version":"10.10.0"
-},
-"dropbox-10.10.0-py38hecd8cb5_0.tar.bz2":{
-"build":"py38hecd8cb5_0",
-"build_number":0,
-"depends":[
-"python >=3.8,<3.9.0a0",
-"requests >=2.16.2",
-"setuptools",
-"six >=1.3.0"
-],
-"license":"MIT",
-"name":"dropbox",
-"sha256":"8d9cc1f3bd63e2d13d1295538f2542ed2c0e2b4f3a96d23e751ea7d12e40671c",
-"size":1084323,
-"timestamp":1606082716673,
-"version":"10.10.0"
-},
-"dropbox-10.10.0-py39hecd8cb5_0.tar.bz2":{
+"dropbox-11.7.0-py39hecd8cb5_0.tar.bz2":{
 "build":"py39hecd8cb5_0",
 "build_number":0,
 "depends":[
 "python >=3.9,<3.10.0a0",
 "requests >=2.16.2",
-"setuptools",
-"six >=1.3.0"
+"six >=1.12.0",
+"stone >=2.*"
 ],
 "license":"MIT",
 "name":"dropbox",
-"sha256":"312eb52ef1cb2de007b782b01be9a65c4680e4c3a1deb642f1186731a3b61d5b",
-"size":1072597,
-"timestamp":1606082737148,
-"version":"10.10.0"
+"sha256":"5390e7e2e3f162e46dcb7604a142537579935fe440396cdde6110e98b1a1d38e",
+"size":1455788,
+"timestamp":1618568288578,
+"version":"11.7.0"
 },
 "dsdp-5.8-ha78f441_0.tar.bz2":{
 "build":"ha78f441_0",
@@ -39948,49 +39901,51 @@
 "timestamp":1605136455574,
 "version":"3.3.1"
 },
-"luigi-3.0.2-py36hecd8cb5_0.tar.bz2":{
+"luigi-3.0.3-py36hecd8cb5_0.tar.bz2":{
 "build":"py36hecd8cb5_0",
-"build_number":0,
-"constrains":[
-"toml <2.0.0",
-"prometheus_client ==0.5.0"
-],
-"depends":[
-"python >=3.6,<3.7.0a0",
-"python-daemon",
-"python-dateutil >=2.7.5,<3",
-"setuptools",
-"tornado >=4.0,<6"
-],
-"license":"Apache-2.0",
-"name":"luigi",
-"sha256":"63d97b4f8bec8ba0ce34ba485d8734456498e424f616577cea7ce11795d3ad24",
-"size":1221173,
-"timestamp":1613676254624,
-"version":"3.0.2"
-},
-"luigi-3.0.2-py37hecd8cb5_0.tar.bz2":{
-"build":"py37hecd8cb5_0",
 "build_number":0,
 "constrains":[
 "prometheus_client ==0.5.0",
 "toml <2.0.0"
 ],
 "depends":[
+"python >=3.6,<3.7.0a0",
+"python-daemon",
+"python-dateutil >=2.7.5,<3",
+"setuptools",
+"tenacity >=6.3.0,<7",
+"tornado >=5.0,<7"
+],
+"license":"Apache-2.0",
+"name":"luigi",
+"sha256":"0faf01dac7b76a780e128ae0cec2fc195b44c85372acb61ea86a6395566129b9",
+"size":1231873,
+"timestamp":1618564366815,
+"version":"3.0.3"
+},
+"luigi-3.0.3-py37hecd8cb5_0.tar.bz2":{
+"build":"py37hecd8cb5_0",
+"build_number":0,
+"constrains":[
+"toml <2.0.0",
+"prometheus_client ==0.5.0"
+],
+"depends":[
 "python >=3.7,<3.8.0a0",
 "python-daemon",
 "python-dateutil >=2.7.5,<3",
 "setuptools",
-"tornado >=4.0,<6"
+"tenacity >=6.3.0,<7",
+"tornado >=5.0,<7"
 ],
 "license":"Apache-2.0",
 "name":"luigi",
-"sha256":"e61bd33b7cefbc5c3bd4fb1f2730296e2d5230c627e9ebfafb98286d0f5ecf3e",
-"size":1227172,
-"timestamp":1613676302734,
-"version":"3.0.2"
+"sha256":"bcfa9e3e1e3a485e94c6933ecda77553c5c26691badc214f0f9d3a0adcd1261c",
+"size":1225113,
+"timestamp":1618564368605,
+"version":"3.0.3"
 },
-"luigi-3.0.2-py38hecd8cb5_0.tar.bz2":{
+"luigi-3.0.3-py38hecd8cb5_0.tar.bz2":{
 "build":"py38hecd8cb5_0",
 "build_number":0,
 "constrains":[
@@ -40002,35 +39957,37 @@
 "python-daemon",
 "python-dateutil >=2.7.5,<3",
 "setuptools",
-"tornado >=4.0,<6"
+"tenacity >=6.3.0,<7",
+"tornado >=5.0,<7"
 ],
 "license":"Apache-2.0",
 "name":"luigi",
-"sha256":"da9646ea27c1be0a20e03d95824d2b5a753261a7f8c3aa64195a5ecd5660062c",
-"size":1218117,
-"timestamp":1613676257765,
-"version":"3.0.2"
+"sha256":"e6f5084424f15214eb5dc99b69e8cb31a6b1c15fbae688b1bf72047d5795ced8",
+"size":1236374,
+"timestamp":1618564370334,
+"version":"3.0.3"
 },
-"luigi-3.0.2-py39hecd8cb5_0.tar.bz2":{
+"luigi-3.0.3-py39hecd8cb5_0.tar.bz2":{
 "build":"py39hecd8cb5_0",
 "build_number":0,
 "constrains":[
-"prometheus_client ==0.5.0",
-"toml <2.0.0"
+"toml <2.0.0",
+"prometheus_client ==0.5.0"
 ],
 "depends":[
 "python >=3.9,<3.10.0a0",
 "python-daemon",
 "python-dateutil >=2.7.5,<3",
 "setuptools",
-"tornado >=4.0,<6"
+"tenacity >=6.3.0,<7",
+"tornado >=5.0,<7"
 ],
 "license":"Apache-2.0",
 "name":"luigi",
-"sha256":"4098076cb3d737ee3e3438e9849dcd1495f9eaa9c5f0c630a35bd21bc3d32aa5",
-"size":1217846,
-"timestamp":1613676253746,
-"version":"3.0.2"
+"sha256":"f1d6aa286d4b0216785c9d172f1e2a14b34974caefee7ab8fc6fd43ec2321c82",
+"size":1221865,
+"timestamp":1618564373881,
+"version":"3.0.3"
 },
 "lxml-4.6.1-py36h63b7cb6_0.tar.bz2":{
 "build":"py36h63b7cb6_0",
@@ -76732,6 +76689,62 @@
 "size":25322,
 "timestamp":1545232087739,
 "version":"1.14"
+},
+"tenacity-6.3.1-py36hecd8cb5_0.tar.bz2":{
+"build":"py36hecd8cb5_0",
+"build_number":0,
+"depends":[
+"python >=3.6,<3.7.0a0",
+"six >=1.9.0"
+],
+"license":"Apache 2.0",
+"name":"tenacity",
+"sha256":"056061c1de96af487313e677e9552665aee2563a750522fbc1386390b7bf676b",
+"size":37488,
+"timestamp":1608241917404,
+"version":"6.3.1"
+},
+"tenacity-6.3.1-py37hecd8cb5_0.tar.bz2":{
+"build":"py37hecd8cb5_0",
+"build_number":0,
+"depends":[
+"python >=3.7,<3.8.0a0",
+"six >=1.9.0"
+],
+"license":"Apache 2.0",
+"name":"tenacity",
+"sha256":"c4f4c1c9884ee9a7ab5c43d0280f8d9f0d80bfacdd19b26b06806a452f38217c",
+"size":37544,
+"timestamp":1608241925956,
+"version":"6.3.1"
+},
+"tenacity-6.3.1-py38hecd8cb5_0.tar.bz2":{
+"build":"py38hecd8cb5_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"six >=1.9.0"
+],
+"license":"Apache 2.0",
+"name":"tenacity",
+"sha256":"bff9bfbb76f5f8f1b6c401a9e90554168d90950a3c89ac13c6d128b232247b61",
+"size":37668,
+"timestamp":1608241928214,
+"version":"6.3.1"
+},
+"tenacity-6.3.1-py39hecd8cb5_0.tar.bz2":{
+"build":"py39hecd8cb5_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"six >=1.9.0"
+],
+"license":"Apache 2.0",
+"name":"tenacity",
+"sha256":"ecd4a1a35da575bb18db3a0c5134b07db3ea7c7ea2bc18d9524c98fed45dcf0c",
+"size":37721,
+"timestamp":1608241937176,
+"version":"6.3.1"
 },
 "tenacity-7.0.0-py36hecd8cb5_0.tar.bz2":{
 "build":"py36hecd8cb5_0",
