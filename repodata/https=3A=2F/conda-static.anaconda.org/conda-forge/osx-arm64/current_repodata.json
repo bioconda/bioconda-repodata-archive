@@ -4259,16 +4259,16 @@
 "timestamp":1618489054241,
 "version":"2.0.3"
 },
-"catch2-2.13.5-hc021e02_0.tar.bz2":{
+"catch2-2.13.6-hc021e02_0.tar.bz2":{
 "build":"hc021e02_0",
 "build_number":0,
 "depends":[],
 "license":"BSL-1.0",
 "name":"catch2",
-"sha256":"971ca427aeb373d87b585380d6222f910b55382f55428d0b92d21b2c191d62c9",
-"size":184060,
-"timestamp":1618148446547,
-"version":"2.13.5"
+"sha256":"db5af160ad6d9922e0bf81f9b0685b1d2941dad35a2ec0229437341bef5456b7",
+"size":184176,
+"timestamp":1618738857670,
+"version":"2.13.6"
 },
 "ccache-4.1-h1b88d99_0.tar.bz2":{
 "build":"h1b88d99_0",
@@ -6185,6 +6185,22 @@
 "sha256":"9a49c352769983db38720141df3ad6dc70942e4739daa8b4786426f42c411434",
 "size":140287,
 "timestamp":1618448721860,
+"version":"7.76.1"
+},
+"curl-7.76.1-h9d22e36_1.tar.bz2":{
+"build":"h9d22e36_1",
+"build_number":1,
+"depends":[
+"krb5 >=1.17.1,<1.18.0a0",
+"libcurl 7.76.1 h0ebd9f5_1",
+"libssh2 >=1.9.0,<2.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"curl",
+"name":"curl",
+"sha256":"110dfa3ed066e56e40c93db395a25e98ab21f4b75b668b0797acd6561237a2ce",
+"size":140253,
+"timestamp":1618747778269,
 "version":"7.76.1"
 },
 "cvxopt-1.2.6-py38hdf93f0b_0.tar.bz2":{
@@ -9141,21 +9157,21 @@
 "timestamp":1604365687923,
 "version":"1.3.13"
 },
-"graphviz-2.47.0-h69d5567_0.tar.bz2":{
-"build":"h69d5567_0",
+"graphviz-2.47.1-h23b5437_0.tar.bz2":{
+"build":"h23b5437_0",
 "build_number":0,
 "depends":[
 "cairo >=1.16.0,<1.17.0a0",
-"expat >=2.2.10,<3.0.0a0",
+"expat >=2.3.0,<3.0a0",
 "fontconfig >=2.13.1,<3.0a0",
 "fonts-conda-ecosystem",
 "freetype >=2.10.4,<3.0a0",
-"gdk-pixbuf >=2.42.2,<3.0a0",
+"gdk-pixbuf >=2.42.6,<3.0a0",
 "gtk2",
 "gts >=0.7.6,<0.8.0a0",
 "libcxx >=11.1.0",
-"libgd >=2.3.0,<2.4.0a0",
-"libglib >=2.66.7,<3.0a0",
+"libgd >=2.3.2,<2.4.0a0",
+"libglib >=2.68.1,<3.0a0",
 "librsvg >=2.50.3,<3.0a0",
 "libtool",
 "libwebp-base",
@@ -9164,38 +9180,10 @@
 ],
 "license":"EPL-1.0",
 "name":"graphviz",
-"sha256":"f1a1afcd1c442bc33ec91b3e4f188f8c60d63bc31b4dd6f8e471461fd834aecc",
-"size":5426676,
-"timestamp":1615904882315,
-"version":"2.47.0"
-},
-"graphviz-2.47.0-he859870_1.tar.bz2":{
-"build":"he859870_1",
-"build_number":1,
-"depends":[
-"cairo >=1.16.0,<1.17.0a0",
-"expat >=2.3.0,<3.0.0a0",
-"fontconfig >=2.13.1,<3.0a0",
-"fonts-conda-ecosystem",
-"freetype >=2.10.4,<3.0a0",
-"gdk-pixbuf >=2.42.4,<3.0a0",
-"gtk2",
-"gts >=0.7.6,<0.8.0a0",
-"libcxx >=11.1.0",
-"libgd >=2.3.0,<2.4.0a0",
-"libglib >=2.68.0,<3.0a0",
-"librsvg >=2.50.3,<3.0a0",
-"libtool",
-"libwebp-base",
-"pango >=1.42.4,<1.43.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"EPL-1.0",
-"name":"graphviz",
-"sha256":"4322ea3c0803bcd9376aaf4e7107c7ca9241ad90066123d901f78c3b71d75bbb",
-"size":5415673,
-"timestamp":1616809510108,
-"version":"2.47.0"
+"sha256":"d43c735649797f2c35f82fef9b120db2b7b725f7547e452daa621849aef7a6dc",
+"size":4028508,
+"timestamp":1618716354198,
+"version":"2.47.1"
 },
 "great-expectations-0.13.6-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
@@ -13796,6 +13784,23 @@
 "timestamp":1618448701291,
 "version":"7.76.1"
 },
+"libcurl-7.76.1-h0ebd9f5_1.tar.bz2":{
+"build":"h0ebd9f5_1",
+"build_number":1,
+"depends":[
+"krb5 >=1.17.1,<1.18.0a0",
+"libnghttp2 >=1.43.0,<2.0a0",
+"libssh2 >=1.9.0,<2.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"curl",
+"name":"libcurl",
+"sha256":"32932bfcf0ae193c3b8be0f3d1a3656f4bb95fc793903f0049d8436d86ebabfc",
+"size":303305,
+"timestamp":1618747758121,
+"version":"7.76.1"
+},
 "libcurl-static-7.76.1-h0ebd9f5_0.tar.bz2":{
 "build":"h0ebd9f5_0",
 "build_number":0,
@@ -13811,6 +13816,23 @@
 "sha256":"fdc54744e1c7673ec933f40e649c03ef2594164d1245a3c2d4c931e104d6cb25",
 "size":348854,
 "timestamp":1618448739684,
+"version":"7.76.1"
+},
+"libcurl-static-7.76.1-h0ebd9f5_1.tar.bz2":{
+"build":"h0ebd9f5_1",
+"build_number":1,
+"depends":[
+"krb5 >=1.17.1,<1.18.0a0",
+"libcurl 7.76.1 h0ebd9f5_1",
+"libssh2 >=1.9.0,<2.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"curl",
+"name":"libcurl-static",
+"sha256":"ce946b083e6da9a910b719646ff997578b2e18b9b02223fdb0d99924aabe6102",
+"size":319734,
+"timestamp":1618747797920,
 "version":"7.76.1"
 },
 "libcxx-11.1.0-h168391b_0.tar.bz2":{
@@ -19566,6 +19588,32 @@
 "size":327756,
 "timestamp":1617439342099,
 "version":"1.9.6"
+},
+"ogre-1.12.11-h0aef09b_0.tar.bz2":{
+"build":"h0aef09b_0",
+"build_number":0,
+"depends":[
+"freeimage >=3.18.0,<3.19.0a0",
+"freetype >=2.10.4,<3.0a0",
+"libcxx >=11.1.0",
+"lxml",
+"numpy >=1.19.5,<2.0a0",
+"openexr >=2.5.5,<2.6.0a0",
+"pugixml >=1.11.4,<1.12.0a0",
+"sdl2",
+"swig",
+"xorg-libx11",
+"xorg-libxaw",
+"xorg-libxt",
+"zlib >=1.2.11,<1.3.0a0",
+"zziplib >=0.13.69,<0.14.0a0"
+],
+"license":"MIT",
+"name":"ogre",
+"sha256":"f615b566dbaf897288e4b951a0d3e3789154c122f8c0de9733a355bf651f4fab",
+"size":4625450,
+"timestamp":1618753000258,
+"version":"1.12.11"
 },
 "omegaconf-2.0.6-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",

@@ -15441,7 +15441,7 @@
 "timestamp":1618489034033,
 "version":"2.0.3"
 },
-"catch2-2.13.4-h2acdbc0_0.tar.bz2":{
+"catch2-2.13.6-h2acdbc0_0.tar.bz2":{
 "build":"h2acdbc0_0",
 "build_number":0,
 "depends":[
@@ -15449,10 +15449,10 @@
 ],
 "license":"BSL-1.0",
 "name":"catch2",
-"sha256":"6d5134fd9c1d71803d4182c9e8c105332253d5864efd5708be86fe216f92a248",
-"size":647934,
-"timestamp":1611323606270,
-"version":"2.13.4"
+"sha256":"cfa29f801aef3e1d4708f92a68f618bc8a49c77336912a0dfe6f7b3d386b168a",
+"size":186182,
+"timestamp":1618738746808,
+"version":"2.13.6"
 },
 "ccache-4.1-h55faf8c_0.tar.bz2":{
 "build":"h55faf8c_0",
@@ -19515,6 +19515,23 @@
 "sha256":"b34df43b32d494b9dc4fc8ca800e991d874b0100589136b3138912a371ea6287",
 "size":95498,
 "timestamp":1618448759675,
+"version":"7.76.1"
+},
+"curl-7.76.1-h86bdb50_1.tar.bz2":{
+"build":"h86bdb50_1",
+"build_number":1,
+"depends":[
+"krb5 >=1.17.1,<1.18.0a0",
+"libcurl 7.76.1 hf726fd8_1",
+"libgcc-ng >=9.3.0",
+"libssh2 >=1.9.0,<2.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"curl",
+"name":"curl",
+"sha256":"033a4f7e03eb680cef7a5550accedc932b4c562c37399f8025fbdf153867ee9c",
+"size":95378,
+"timestamp":1618747729287,
 "version":"7.76.1"
 },
 "cvxopt-1.2.6-py36h3571a5e_0.tar.bz2":{
@@ -31827,21 +31844,21 @@
 "timestamp":1552825750706,
 "version":"1.3.13"
 },
-"graphviz-2.47.0-h7c42ba0_0.tar.bz2":{
-"build":"h7c42ba0_0",
+"graphviz-2.47.1-h471b324_0.tar.bz2":{
+"build":"h471b324_0",
 "build_number":0,
 "depends":[
 "cairo >=1.16.0,<1.17.0a0",
-"expat >=2.2.10,<3.0.0a0",
+"expat >=2.3.0,<3.0a0",
 "fontconfig >=2.13.1,<3.0a0",
 "fonts-conda-ecosystem",
 "freetype >=2.10.4,<3.0a0",
-"gdk-pixbuf >=2.42.2,<3.0a0",
+"gdk-pixbuf >=2.42.6,<3.0a0",
 "gtk2",
 "gts >=0.7.6,<0.8.0a0",
 "libgcc-ng >=9.3.0",
 "libgd >=2.3.0,<2.4.0a0",
-"libglib >=2.66.7,<3.0a0",
+"libglib >=2.68.1,<3.0a0",
 "librsvg >=2.50.3,<3.0a0",
 "libstdcxx-ng >=9.3.0",
 "libtool",
@@ -31851,39 +31868,10 @@
 ],
 "license":"EPL-1.0",
 "name":"graphviz",
-"sha256":"5ba8ed4530f3569638f7223a7d68406c6e451af7a2bfeac78d3d3d8ea672f5ec",
-"size":6097577,
-"timestamp":1615904627211,
-"version":"2.47.0"
-},
-"graphviz-2.47.0-hf7f67f0_1.tar.bz2":{
-"build":"hf7f67f0_1",
-"build_number":1,
-"depends":[
-"cairo >=1.16.0,<1.17.0a0",
-"expat >=2.3.0,<3.0.0a0",
-"fontconfig >=2.13.1,<3.0a0",
-"fonts-conda-ecosystem",
-"freetype >=2.10.4,<3.0a0",
-"gdk-pixbuf >=2.42.4,<3.0a0",
-"gtk2",
-"gts >=0.7.6,<0.8.0a0",
-"libgcc-ng >=9.3.0",
-"libgd >=2.3.0,<2.4.0a0",
-"libglib >=2.68.0,<3.0a0",
-"librsvg >=2.50.3,<3.0a0",
-"libstdcxx-ng >=9.3.0",
-"libtool",
-"libwebp-base",
-"pango >=1.42.4,<1.43.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"EPL-1.0",
-"name":"graphviz",
-"sha256":"733cc99ba92919183f6d89f8e92318de8fc2e85b7005edd151bc99ed00026e3e",
-"size":6064011,
-"timestamp":1616849643643,
-"version":"2.47.0"
+"sha256":"821b6256a188b3b66c75f5ea54125058f07c2acfc9268943cf45471e0baf2f9f",
+"size":4759994,
+"timestamp":1618716229066,
+"version":"2.47.1"
 },
 "greenlet-1.0.0-py36h08d3667_0.tar.bz2":{
 "build":"py36h08d3667_0",
@@ -45784,6 +45772,24 @@
 "timestamp":1618448729743,
 "version":"7.76.1"
 },
+"libcurl-7.76.1-hf726fd8_1.tar.bz2":{
+"build":"hf726fd8_1",
+"build_number":1,
+"depends":[
+"krb5 >=1.17.1,<1.18.0a0",
+"libgcc-ng >=9.3.0",
+"libnghttp2 >=1.43.0,<2.0a0",
+"libssh2 >=1.9.0,<2.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"curl",
+"name":"libcurl",
+"sha256":"711d4457a744ea03ea5a57c49da6c18547d25bfe27ec268a767833474a907269",
+"size":368120,
+"timestamp":1618747699656,
+"version":"7.76.1"
+},
 "libcurl-static-7.76.1-hf726fd8_0.tar.bz2":{
 "build":"hf726fd8_0",
 "build_number":0,
@@ -45800,6 +45806,24 @@
 "sha256":"833b6aeefe746727048bc865767ff14b00da152b6e3396561fa436129999f64d",
 "size":425780,
 "timestamp":1618448793064,
+"version":"7.76.1"
+},
+"libcurl-static-7.76.1-hf726fd8_1.tar.bz2":{
+"build":"hf726fd8_1",
+"build_number":1,
+"depends":[
+"krb5 >=1.17.1,<1.18.0a0",
+"libcurl 7.76.1 hf726fd8_1",
+"libgcc-ng >=9.3.0",
+"libssh2 >=1.9.0,<2.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"curl",
+"name":"libcurl-static",
+"sha256":"5266b086c59263bb9996c8d7a697a35866273e2e87eeda0172b0b4f5e80b175f",
+"size":426408,
+"timestamp":1618747758071,
 "version":"7.76.1"
 },
 "libcxx-8.0.0-3.tar.bz2":{
@@ -49912,6 +49936,51 @@
 "size":1632018,
 "timestamp":1603310553967,
 "version":"4.7.4"
+},
+"libnetcdf-4.8.0-mpi_openmpi_h760ef44_1.tar.bz2":{
+"build":"mpi_openmpi_h760ef44_1",
+"build_number":1,
+"depends":[
+"bzip2 >=1.0.8,<2.0a0",
+"curl >=7.76.1,<8.0a0",
+"hdf4 >=4.2.13,<4.3.0a0",
+"hdf5 * mpi_openmpi_*",
+"hdf5 >=1.10.6,<1.10.7.0a0 mpi_openmpi_*",
+"jpeg >=9d,<10a",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libzip >=1.7.3,<2.0a0",
+"openmpi >=4.1.0,<5.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT",
+"name":"libnetcdf",
+"sha256":"aedb63b7266b27f9019812dbfd127d86c16a8fbd149e1b0169c8bdf79eafee50",
+"size":1579136,
+"timestamp":1618747817121,
+"version":"4.8.0"
+},
+"libnetcdf-4.8.0-nompi_h95a5f92_101.tar.bz2":{
+"build":"nompi_h95a5f92_101",
+"build_number":101,
+"depends":[
+"bzip2 >=1.0.8,<2.0a0",
+"curl >=7.76.1,<8.0a0",
+"hdf4 >=4.2.13,<4.3.0a0",
+"hdf5 * nompi_*",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"jpeg >=9d,<10a",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libzip >=1.7.3,<2.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT",
+"name":"libnetcdf",
+"sha256":"93b1605f3e5d6db7f1f3eed63a7b359e1b22cad910c2afe1ba227d4e762e7999",
+"size":1575579,
+"timestamp":1618747702928,
+"version":"4.8.0"
 },
 "libnghttp2-1.43.0-h42039ad_0.tar.bz2":{
 "build":"h42039ad_0",
@@ -63346,6 +63415,32 @@
 "sha256":"e4b801c968140580b8a95bc5aa929405670a0ef878d64ba96769303c3d6c575d",
 "size":5986087,
 "timestamp":1613267355551,
+"version":"1.12.11"
+},
+"ogre-1.12.11-h4329760_0.tar.bz2":{
+"build":"h4329760_0",
+"build_number":0,
+"depends":[
+"freeimage >=3.18.0,<3.19.0a0",
+"freetype >=2.10.4,<3.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"lxml",
+"numpy >=1.17.5,<2.0a0",
+"openexr >=2.5.5,<2.6.0a0",
+"pugixml >=1.11.4,<1.12.0a0",
+"sdl2",
+"xorg-libx11",
+"xorg-libxaw",
+"xorg-libxt",
+"zlib >=1.2.11,<1.3.0a0",
+"zziplib >=0.13.69,<0.14.0a0"
+],
+"license":"MIT",
+"name":"ogre",
+"sha256":"a37f6d691b01e86fdb75f324375bebc3b8a9e279962bf5fc7679eb8923e8d3a1",
+"size":5962475,
+"timestamp":1618752804758,
 "version":"1.12.11"
 },
 "omniorb-4.2.4-py36h90eae84_3.tar.bz2":{
@@ -94745,9 +94840,9 @@
 "timestamp":1613328963325,
 "version":"3.0.2"
 },
-"r-tibble-3.1.0-r36h2be38b1_1.tar.bz2":{
-"build":"r36h2be38b1_1",
-"build_number":1,
+"r-tibble-3.1.1-r36h2be38b1_0.tar.bz2":{
+"build":"r36h2be38b1_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "r-base >=3.6,<3.7.0a0",
@@ -94762,14 +94857,14 @@
 ],
 "license":"MIT",
 "name":"r-tibble",
-"sha256":"f5f87c3a40bd6e5fe7dd1a6fef7b6dceb53c7b61a3775abf9a7711c4688606a9",
-"size":758013,
-"timestamp":1614507561919,
-"version":"3.1.0"
+"sha256":"a80650e8af406c107792e91c7c7a5ab434206fa852a9704d3bb46c95e02452b5",
+"size":752479,
+"timestamp":1618739440759,
+"version":"3.1.1"
 },
-"r-tibble-3.1.0-r40h2be38b1_1.tar.bz2":{
-"build":"r40h2be38b1_1",
-"build_number":1,
+"r-tibble-3.1.1-r40h2be38b1_0.tar.bz2":{
+"build":"r40h2be38b1_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "r-base >=4.0,<4.1.0a0",
@@ -94784,10 +94879,10 @@
 ],
 "license":"MIT",
 "name":"r-tibble",
-"sha256":"464fea846227ea878992c25b456dd3bf71fc96764fb5a0beaeede5dbe5db0a5b",
-"size":757862,
-"timestamp":1614507529450,
-"version":"3.1.0"
+"sha256":"95b1a335a52d8d94d1717c5bc8e8e46db4d2462b42c1f30765b775f0b00db016",
+"size":756272,
+"timestamp":1618739064404,
+"version":"3.1.1"
 },
 "r-tidyr-1.1.3-r36h6203a36_0.tar.bz2":{
 "build":"r36h6203a36_0",
