@@ -20848,6 +20848,66 @@
 "timestamp":1617397748002,
 "version":"2021.4.0"
 },
+"distributed-2021.4.1-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"constrains":[
+"openssl !=1.1.1e"
+],
+"depends":[
+"click >=6.6",
+"cloudpickle >=1.5.0",
+"cytoolz >=0.8.2",
+"dask-core >=2021.03.0",
+"msgpack-python >=0.6.0",
+"psutil >=5.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml",
+"setuptools",
+"sortedcontainers !=2.0.0,!=2.0.1",
+"tblib >=1.6.0",
+"toolz >=0.8.2",
+"tornado >=6.0.3",
+"zict >=0.1.3"
+],
+"license":"BSD-3-Clause",
+"name":"distributed",
+"requires":[],
+"size":1171775,
+"timestamp":1619218961468,
+"version":"2021.4.1"
+},
+"distributed-2021.4.1-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"constrains":[
+"openssl !=1.1.1e"
+],
+"depends":[
+"click >=6.6",
+"cloudpickle >=1.5.0",
+"cytoolz >=0.8.2",
+"dask-core >=2021.03.0",
+"msgpack-python >=0.6.0",
+"psutil >=5.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml",
+"setuptools",
+"sortedcontainers !=2.0.0,!=2.0.1",
+"tblib >=1.6.0",
+"toolz >=0.8.2",
+"tornado >=6.0.3",
+"zict >=0.1.3"
+],
+"license":"BSD-3-Clause",
+"name":"distributed",
+"requires":[],
+"size":1174229,
+"timestamp":1619218946542,
+"version":"2021.4.1"
+},
 "docker-py-4.4.0-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
@@ -38771,6 +38831,25 @@
 "timestamp":1608058446728,
 "version":"5.39"
 },
+"libmamba-0.11.3-h238089d_0.tar.bz2":{
+"build":"h238089d_0",
+"build_number":0,
+"depends":[
+"libarchive >=3.5.1,<3.6.0a0",
+"libcurl >=7.76.1,<8.0a0",
+"libcxx >=11.1.0",
+"libsolv >=0.7.18,<0.8.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"reproc-cpp >=14.2,<15.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libmamba",
+"requires":[],
+"size":655094,
+"timestamp":1619188441644,
+"version":"0.11.3"
+},
 "libmlir-11.1.0-h666519e_0.tar.bz2":{
 "build":"h666519e_0",
 "build_number":0,
@@ -49794,6 +49873,23 @@
 "timestamp":1616534031168,
 "version":"4.1.0"
 },
+"openmpi-4.1.0-h3abb732_5.tar.bz2":{
+"build":"h3abb732_5",
+"build_number":5,
+"depends":[
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"mpi 1.0 openmpi",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"openmpi",
+"requires":[],
+"size":3252116,
+"timestamp":1619158643961,
+"version":"4.1.0"
+},
 "openmpi-mpicc-4.0.5-h27ca646_3.tar.bz2":{
 "build":"h27ca646_3",
 "build_number":3,
@@ -49890,6 +49986,20 @@
 "requires":[],
 "size":18016,
 "timestamp":1616534040970,
+"version":"4.1.0"
+},
+"openmpi-mpicc-4.1.0-h3422bc3_5.tar.bz2":{
+"build":"h3422bc3_5",
+"build_number":5,
+"depends":[
+"clang_osx-arm64 11.*",
+"openmpi 4.1.0 h3abb732_5"
+],
+"license":"BSD-3-Clause",
+"name":"openmpi-mpicc",
+"requires":[],
+"size":18306,
+"timestamp":1619158653417,
 "version":"4.1.0"
 },
 "openmpi-mpicxx-4.0.5-h260d524_3.tar.bz2":{
@@ -49990,6 +50100,20 @@
 "timestamp":1616534046122,
 "version":"4.1.0"
 },
+"openmpi-mpicxx-4.1.0-hc021e02_5.tar.bz2":{
+"build":"hc021e02_5",
+"build_number":5,
+"depends":[
+"clangxx_osx-arm64 11.*",
+"openmpi 4.1.0 h3abb732_5"
+],
+"license":"BSD-3-Clause",
+"name":"openmpi-mpicxx",
+"requires":[],
+"size":18323,
+"timestamp":1619158658228,
+"version":"4.1.0"
+},
 "openmpi-mpifort-4.0.5-hd73cc70_3.tar.bz2":{
 "build":"hd73cc70_3",
 "build_number":3,
@@ -50017,6 +50141,20 @@
 "size":8830,
 "timestamp":1606319836585,
 "version":"4.0.5"
+},
+"openmpi-mpifort-4.1.0-h069cf10_5.tar.bz2":{
+"build":"h069cf10_5",
+"build_number":5,
+"depends":[
+"gfortran_osx-arm64 11.*",
+"openmpi 4.1.0 h3abb732_5"
+],
+"license":"BSD-3-Clause",
+"name":"openmpi-mpifort",
+"requires":[],
+"size":18382,
+"timestamp":1619158663002,
+"version":"4.1.0"
 },
 "openmpi-mpifort-4.1.0-hd73cc70_0.tar.bz2":{
 "build":"hd73cc70_0",
@@ -69662,6 +69800,19 @@
 "timestamp":1617799524068,
 "version":"1.0.4"
 },
+"s2n-1.0.5-hbae9a57_0.tar.bz2":{
+"build":"hbae9a57_0",
+"build_number":0,
+"depends":[
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"s2n",
+"requires":[],
+"size":310876,
+"timestamp":1619169643989,
+"version":"1.0.5"
+},
 "s2n-static-0.10.0-hf5adfa1_1.tar.bz2":{
 "build":"hf5adfa1_1",
 "build_number":1,
@@ -69782,6 +69933,17 @@
 "size":409936,
 "timestamp":1617799579798,
 "version":"1.0.4"
+},
+"s2n-static-1.0.5-h3422bc3_0.tar.bz2":{
+"build":"h3422bc3_0",
+"build_number":0,
+"depends":[],
+"license":"Apache-2.0",
+"name":"s2n-static",
+"requires":[],
+"size":423444,
+"timestamp":1619169690557,
+"version":"1.0.5"
 },
 "sagemath-db-conway-polynomials-0.5.0-h4653dfc_1.tar.bz2":{
 "build":"h4653dfc_1",
@@ -74060,6 +74222,30 @@
 "timestamp":1618901305866,
 "version":"8.0.3"
 },
+"thinc-8.0.3-py38h1e2c3d9_1.tar.bz2":{
+"build":"py38h1e2c3d9_1",
+"build_number":1,
+"depends":[
+"catalogue >=2.0.3,<3.0.0",
+"cymem >=2.0.2,<2.1.0",
+"cython-blis >=0.4.0,<0.8.0",
+"libcxx >=11.1.0",
+"murmurhash >=0.28.0,<1.1.0",
+"numpy >=1.19.5,<2.0a0",
+"preshed >=3.0.2,<3.1.0",
+"pydantic >=1.7.1,<1.8.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"srsly >=2.0.0,<3.0.0",
+"wasabi >=0.4.0,<1.1.0"
+],
+"license":"MIT",
+"name":"thinc",
+"requires":[],
+"size":988683,
+"timestamp":1619212325389,
+"version":"8.0.3"
+},
 "thinc-8.0.3-py39h776e71f_0.tar.bz2":{
 "build":"py39h776e71f_0",
 "build_number":0,
@@ -74082,6 +74268,30 @@
 "requires":[],
 "size":942013,
 "timestamp":1618901279993,
+"version":"8.0.3"
+},
+"thinc-8.0.3-py39h776e71f_1.tar.bz2":{
+"build":"py39h776e71f_1",
+"build_number":1,
+"depends":[
+"catalogue >=2.0.3,<3.0.0",
+"cymem >=2.0.2,<2.1.0",
+"cython-blis >=0.4.0,<0.8.0",
+"libcxx >=11.1.0",
+"murmurhash >=0.28.0,<1.1.0",
+"numpy >=1.19.5,<2.0a0",
+"preshed >=3.0.2,<3.1.0",
+"pydantic >=1.7.1,<1.8.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"srsly >=2.0.0,<3.0.0",
+"wasabi >=0.4.0,<1.1.0"
+],
+"license":"MIT",
+"name":"thinc",
+"requires":[],
+"size":971345,
+"timestamp":1619212284713,
 "version":"8.0.3"
 },
 "thrift-0.13.0-py38h3f7e68f_2.tar.bz2":{
