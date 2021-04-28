@@ -3,6 +3,23 @@
 "subdir":"win-64"
 },
 "packages":{
+"7zip-19.00-h59b6b97_2.tar.bz2":{
+"build":"h59b6b97_2",
+"build_number":2,
+"constrains":[
+"7za <0.0.0a"
+],
+"depends":[
+"vc >=14.1,<15.0a0",
+"vs2015_runtime >=14.16.27012,<15.0a0"
+],
+"license":"LGPL-2.1-or-later AND LGPL-2.1-or-later WITH unRAR-restriction",
+"name":"7zip",
+"sha256":"d1ca92980d884c059f905430546ea82d280cda704703bba38a2c08575be468f9",
+"size":1822081,
+"timestamp":1619516322562,
+"version":"19.00"
+},
 "_anaconda_depends-2020.07-py36_0.tar.bz2":{
 "build":"py36_0",
 "build_number":0,
@@ -2922,12 +2939,14 @@
 "timestamp":1520636361902,
 "version":"2.0.23"
 },
-"anaconda-navigator-1.10.0-py36_0.tar.bz2":{
+"anaconda-navigator-2.0.1-py36_0.tar.bz2":{
 "build":"py36_0",
 "build_number":0,
 "depends":[
 "anaconda-client >=1.6.14",
 "chardet",
+"conda-repo-cli",
+"conda-token",
 "navigator-updater",
 "pillow",
 "psutil",
@@ -2941,17 +2960,19 @@
 ],
 "license":"proprietary - Continuum Analytics, Inc.",
 "name":"anaconda-navigator",
-"sha256":"848bd294a6690ffcb51f5483588008e3f8c3c4b6ba92ba31e5b2de23f4d3e5ab",
-"size":5657418,
-"timestamp":1603202798052,
-"version":"1.10.0"
+"sha256":"0ee175fc4ae7febc41348f977a1084575803c925c475dff35d2f77c04a546ecc",
+"size":6022817,
+"timestamp":1619554934545,
+"version":"2.0.1"
 },
-"anaconda-navigator-1.10.0-py37_0.tar.bz2":{
+"anaconda-navigator-2.0.1-py37_0.tar.bz2":{
 "build":"py37_0",
 "build_number":0,
 "depends":[
 "anaconda-client >=1.6.14",
 "chardet",
+"conda-repo-cli",
+"conda-token",
 "navigator-updater",
 "pillow",
 "psutil",
@@ -2965,17 +2986,19 @@
 ],
 "license":"proprietary - Continuum Analytics, Inc.",
 "name":"anaconda-navigator",
-"sha256":"a84dd6336fcfcab99a068b68f9056e24a6ccbafb904efb687c628f57ed97ea48",
-"size":5699673,
-"timestamp":1603184751546,
-"version":"1.10.0"
+"sha256":"956efa3408a7d8724c4ade2bc49b935e6cb68c04119951886b653f9e3927b236",
+"size":5981844,
+"timestamp":1619554895372,
+"version":"2.0.1"
 },
-"anaconda-navigator-1.10.0-py38_0.tar.bz2":{
+"anaconda-navigator-2.0.1-py38_0.tar.bz2":{
 "build":"py38_0",
 "build_number":0,
 "depends":[
 "anaconda-client >=1.6.14",
 "chardet",
+"conda-repo-cli",
+"conda-token",
 "navigator-updater",
 "pillow",
 "psutil",
@@ -2989,17 +3012,19 @@
 ],
 "license":"proprietary - Continuum Analytics, Inc.",
 "name":"anaconda-navigator",
-"sha256":"63f6a784db01333858061f245bc4677e4ddd4fcf51e0341285e0efef5c21520d",
-"size":5712004,
-"timestamp":1603203142617,
-"version":"1.10.0"
+"sha256":"76eab243b4b2b9e82ca010a76e7cf8be9ea9f789d762314c533ab13b54188d4c",
+"size":5982592,
+"timestamp":1619554907125,
+"version":"2.0.1"
 },
-"anaconda-navigator-1.10.0-py39haa95532_0.tar.bz2":{
-"build":"py39haa95532_0",
+"anaconda-navigator-2.0.1-py39_0.tar.bz2":{
+"build":"py39_0",
 "build_number":0,
 "depends":[
 "anaconda-client >=1.6.14",
 "chardet",
+"conda-repo-cli",
+"conda-token",
 "navigator-updater",
 "pillow",
 "psutil",
@@ -3013,10 +3038,10 @@
 ],
 "license":"proprietary - Continuum Analytics, Inc.",
 "name":"anaconda-navigator",
-"sha256":"571dba014208d7e12be04c78c80461d8bcdee0c03da2ae3a62f2237d3115b3c6",
-"size":5725618,
-"timestamp":1608037391567,
-"version":"1.10.0"
+"sha256":"c366be53f1341eeb4a1da5f1ab777780fd644103a09891dbb7b60466d5ca08b3",
+"size":6018458,
+"timestamp":1619555037253,
+"version":"2.0.1"
 },
 "anaconda-oss-docs-1.0.2-0.tar.bz2":{
 "build":"0",
@@ -22970,7 +22995,7 @@
 "timestamp":1520768253927,
 "version":"3.0.0"
 },
-"freetds-1.2.20-hcd4344a_0.tar.bz2":{
+"freetds-1.2.21-hcd4344a_0.tar.bz2":{
 "build":"hcd4344a_0",
 "build_number":0,
 "depends":[
@@ -22980,10 +23005,10 @@
 ],
 "license":"LGPL",
 "name":"freetds",
-"sha256":"dc111c4d68c5575327ee8f676652d5ca3ac8cbc0a5174d8067358fcdb50cae96",
-"size":1240685,
-"timestamp":1618385286303,
-"version":"1.2.20"
+"sha256":"1b0ca4e7b53541e99c56fc834ff19450bcd0d62cfc02b85d95fe848a69e29d12",
+"size":1236086,
+"timestamp":1619477135853,
+"version":"1.2.21"
 },
 "freetype-2.10.4-hd328e21_0.tar.bz2":{
 "build":"hd328e21_0",
@@ -54205,7 +54230,7 @@
 "timestamp":1545125493734,
 "version":"0.4.0"
 },
-"pyerfa-1.7.2-py36h2bbff1b_0.tar.bz2":{
+"pyerfa-1.7.3-py36h2bbff1b_0.tar.bz2":{
 "build":"py36h2bbff1b_0",
 "build_number":0,
 "depends":[
@@ -54216,12 +54241,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"pyerfa",
-"sha256":"336f0b833e9c0b5739d4c85f88dc389879b95e89883ae66d8a9b3836b0490d7d",
-"size":410631,
-"timestamp":1613849876400,
-"version":"1.7.2"
+"sha256":"d112352442e5d8aaf366936cfd1ad7fd31cd2766a9789ac2d3d18260a854e40e",
+"size":402625,
+"timestamp":1619391212741,
+"version":"1.7.3"
 },
-"pyerfa-1.7.2-py37h2bbff1b_0.tar.bz2":{
+"pyerfa-1.7.3-py37h2bbff1b_0.tar.bz2":{
 "build":"py37h2bbff1b_0",
 "build_number":0,
 "depends":[
@@ -54232,42 +54257,42 @@
 ],
 "license":"BSD-3-Clause",
 "name":"pyerfa",
-"sha256":"f5a4198942992687577e3d335390e190a8269ad41d1fd9ceed64a856f64dff32",
-"size":400695,
-"timestamp":1613849879294,
-"version":"1.7.2"
+"sha256":"81975dcf845fec85f5db694f06bccd6f04b4d2b57d53be29e30e19f5c1e3803e",
+"size":396108,
+"timestamp":1619391179049,
+"version":"1.7.3"
 },
-"pyerfa-1.7.2-py38h2bbff1b_0.tar.bz2":{
+"pyerfa-1.7.3-py38h2bbff1b_0.tar.bz2":{
 "build":"py38h2bbff1b_0",
 "build_number":0,
 "depends":[
-"numpy >=1.19.2,<2.0a0",
+"numpy >=1.20.1,<2.0a0",
 "python >=3.8,<3.9.0a0",
 "vc >=14.1,<15.0a0",
 "vs2015_runtime >=14.16.27012,<15.0a0"
 ],
 "license":"BSD-3-Clause",
 "name":"pyerfa",
-"sha256":"7305cc8b2dd1ac06f561991450bc22be7920b591bc33562a45cff942dc9bba2e",
-"size":411619,
-"timestamp":1613849681829,
-"version":"1.7.2"
+"sha256":"da7cb7a3fad1fbf94edf20858486eea013db3f09d198761944579fbb7b95043d",
+"size":412368,
+"timestamp":1619391187878,
+"version":"1.7.3"
 },
-"pyerfa-1.7.2-py39h2bbff1b_0.tar.bz2":{
+"pyerfa-1.7.3-py39h2bbff1b_0.tar.bz2":{
 "build":"py39h2bbff1b_0",
 "build_number":0,
 "depends":[
-"numpy >=1.19.2,<2.0a0",
+"numpy >=1.20.1,<2.0a0",
 "python >=3.9,<3.10.0a0",
 "vc >=14.1,<15.0a0",
 "vs2015_runtime >=14.16.27012,<15.0a0"
 ],
 "license":"BSD-3-Clause",
 "name":"pyerfa",
-"sha256":"50fb3a7ef0c323ad5d6d85e0c262c60bf942bbf7deb8d5d907568ab72d501f7b",
-"size":401571,
-"timestamp":1613849878773,
-"version":"1.7.2"
+"sha256":"5a78378d9119220723ec70dd1cc689db2c61cce5b55e1e2dfac80c9cc1ea417a",
+"size":412269,
+"timestamp":1619391213072,
+"version":"1.7.3"
 },
 "pyface-7.3.0-py36haa95532_1.tar.bz2":{
 "build":"py36haa95532_1",
@@ -62888,71 +62913,93 @@
 "timestamp":1614799305457,
 "version":"3.6.1"
 },
-"quantecon-0.4.8-py36_0.tar.bz2":{
-"build":"py36_0",
+"quantecon-0.5.0-py36haa95532_0.tar.bz2":{
+"build":"py36haa95532_0",
 "build_number":0,
 "depends":[
 "matplotlib-base",
 "nose",
-"numba",
+"numba >=0.38",
 "numpy",
 "pandas",
 "pytables",
 "python >=3.6,<3.7.0a0",
 "requests",
-"scipy",
+"scipy >=1.0.0",
 "sympy"
 ],
 "license":"BSD-3-Clause",
 "name":"quantecon",
-"sha256":"2a7691d0e84d5bfb1ad9a3c4731e76d42dbcb658b8cc49d4974cdb409749d53a",
-"size":339290,
-"timestamp":1602255787642,
-"version":"0.4.8"
+"sha256":"9db40276a210011b11de3e56d5dbfc9851d488c75eef1fd1790241cf93b0df2b",
+"size":331496,
+"timestamp":1619455743111,
+"version":"0.5.0"
 },
-"quantecon-0.4.8-py37_0.tar.bz2":{
-"build":"py37_0",
+"quantecon-0.5.0-py37haa95532_0.tar.bz2":{
+"build":"py37haa95532_0",
 "build_number":0,
 "depends":[
 "matplotlib-base",
 "nose",
-"numba",
+"numba >=0.38",
 "numpy",
 "pandas",
 "pytables",
 "python >=3.7,<3.8.0a0",
 "requests",
-"scipy",
+"scipy >=1.0.0",
 "sympy"
 ],
 "license":"BSD-3-Clause",
 "name":"quantecon",
-"sha256":"cd025e5d0e036d24294de5edb63e309c8d54865cb40cd056fb6c51b9142d6295",
-"size":332577,
-"timestamp":1594400260756,
-"version":"0.4.8"
+"sha256":"2d65fabe0dcb8456e96b913ba0ceaf552c2e18dc1f0dcc864bf0199250e298a4",
+"size":336384,
+"timestamp":1619455784601,
+"version":"0.5.0"
 },
-"quantecon-0.4.8-py38_0.tar.bz2":{
-"build":"py38_0",
+"quantecon-0.5.0-py38haa95532_0.tar.bz2":{
+"build":"py38haa95532_0",
 "build_number":0,
 "depends":[
 "matplotlib-base",
 "nose",
-"numba",
+"numba >=0.38",
 "numpy",
 "pandas",
 "pytables",
 "python >=3.8,<3.9.0a0",
 "requests",
-"scipy",
+"scipy >=1.0.0",
 "sympy"
 ],
 "license":"BSD-3-Clause",
 "name":"quantecon",
-"sha256":"14ce89e5e59ad368415f6ca195a43c42be6154233cdc1dfffa85735eed30d217",
-"size":332966,
-"timestamp":1602255945277,
-"version":"0.4.8"
+"sha256":"d1d26560ade2940e5064ec8a70daae35ff8c5b064cd0783b5f8c210fc00088d8",
+"size":336819,
+"timestamp":1619455781165,
+"version":"0.5.0"
+},
+"quantecon-0.5.0-py39haa95532_0.tar.bz2":{
+"build":"py39haa95532_0",
+"build_number":0,
+"depends":[
+"matplotlib-base",
+"nose",
+"numba >=0.38",
+"numpy",
+"pandas",
+"pytables",
+"python >=3.9,<3.10.0a0",
+"requests",
+"scipy >=1.0.0",
+"sympy"
+],
+"license":"BSD-3-Clause",
+"name":"quantecon",
+"sha256":"ccc80d0697c02d3bfcaf7639cb0d9b23ddf12248e51175e49f7a83cec5f806d2",
+"size":336936,
+"timestamp":1619455782901,
+"version":"0.5.0"
 },
 "queuelib-1.5.0-py27_0.tar.bz2":{
 "build":"py27_0",

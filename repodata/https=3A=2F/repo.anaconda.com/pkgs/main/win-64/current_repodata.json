@@ -38,6 +38,24 @@
 }
 },
 "packages.conda":{
+"7zip-19.00-h59b6b97_2.conda":{
+"build":"h59b6b97_2",
+"build_number":2,
+"constrains":[
+"7za <0.0.0a"
+],
+"depends":[
+"vc >=14.1,<15.0a0",
+"vs2015_runtime >=14.16.27012,<15.0a0"
+],
+"legacy_bz2_md5":"90c4b4f04b341559ea40018888ba2bae",
+"license":"LGPL-2.1-or-later AND LGPL-2.1-or-later WITH unRAR-restriction",
+"name":"7zip",
+"sha256":"c42631a38255a13181787c3475b27933fe71609a94346bab67e7138d4aae8f0b",
+"size":1038932,
+"timestamp":1619516322562,
+"version":"19.00"
+},
 "_anaconda_depends-2020.07-py36_0.conda":{
 "build":"py36_0",
 "build_number":0,
@@ -3214,12 +3232,14 @@
 "timestamp":1520636361902,
 "version":"2.0.23"
 },
-"anaconda-navigator-1.10.0-py36_0.conda":{
+"anaconda-navigator-2.0.1-py36_0.conda":{
 "build":"py36_0",
 "build_number":0,
 "depends":[
 "anaconda-client >=1.6.14",
 "chardet",
+"conda-repo-cli",
+"conda-token",
 "navigator-updater",
 "pillow",
 "psutil",
@@ -3231,20 +3251,22 @@
 "setuptools",
 "xmltodict"
 ],
-"legacy_bz2_md5":"0e500226bf8c012cea4a0356de39c8b5",
+"legacy_bz2_md5":"b8a1df6f3ce2db362b34940ead35f62d",
 "license":"proprietary - Continuum Analytics, Inc.",
 "name":"anaconda-navigator",
-"sha256":"442ee12fe5a44ea7ac202b7d9e80f52975f4cbdd475229a5c8b329f4aae8fbff",
-"size":5173873,
-"timestamp":1603202798052,
-"version":"1.10.0"
+"sha256":"51f084029d7d22dc4f028eab6388ce3c231c541a6e3bf8f4e230b2980e3cac06",
+"size":5486818,
+"timestamp":1619554934545,
+"version":"2.0.1"
 },
-"anaconda-navigator-1.10.0-py37_0.conda":{
+"anaconda-navigator-2.0.1-py37_0.conda":{
 "build":"py37_0",
 "build_number":0,
 "depends":[
 "anaconda-client >=1.6.14",
 "chardet",
+"conda-repo-cli",
+"conda-token",
 "navigator-updater",
 "pillow",
 "psutil",
@@ -3256,20 +3278,22 @@
 "setuptools",
 "xmltodict"
 ],
-"legacy_bz2_md5":"81b7abcebd2d3e8ade4256210f829408",
+"legacy_bz2_md5":"4d9250f11009d338ff3bec18c0ea20d0",
 "license":"proprietary - Continuum Analytics, Inc.",
 "name":"anaconda-navigator",
-"sha256":"dfdfb4e1a0a68ae5dda71c15f1569da28130ed55ddfeeaec24930cb426328f50",
-"size":5170271,
-"timestamp":1603184751546,
-"version":"1.10.0"
+"sha256":"31fdf379fbc64641810cf78bddd76b48a5c6f59f72979d22aeef040b0bb8762e",
+"size":5492281,
+"timestamp":1619554895372,
+"version":"2.0.1"
 },
-"anaconda-navigator-1.10.0-py38_0.conda":{
+"anaconda-navigator-2.0.1-py38_0.conda":{
 "build":"py38_0",
 "build_number":0,
 "depends":[
 "anaconda-client >=1.6.14",
 "chardet",
+"conda-repo-cli",
+"conda-token",
 "navigator-updater",
 "pillow",
 "psutil",
@@ -3281,20 +3305,22 @@
 "setuptools",
 "xmltodict"
 ],
-"legacy_bz2_md5":"a30ae8a72428f7530e6a9f4d9c60b572",
+"legacy_bz2_md5":"d941a0179c69893d50bf1a7c03a49df7",
 "license":"proprietary - Continuum Analytics, Inc.",
 "name":"anaconda-navigator",
-"sha256":"cd728290f9d968e53bc1a4587e20464754a6a913f2b7cc96d262f223974a1f1c",
-"size":5169092,
-"timestamp":1603203142617,
-"version":"1.10.0"
+"sha256":"44faa2688cbac36443ec61081c252e19231d37013e80ab905ccbb6e8b2bf9832",
+"size":5479755,
+"timestamp":1619554907125,
+"version":"2.0.1"
 },
-"anaconda-navigator-1.10.0-py39haa95532_0.conda":{
-"build":"py39haa95532_0",
+"anaconda-navigator-2.0.1-py39_0.conda":{
+"build":"py39_0",
 "build_number":0,
 "depends":[
 "anaconda-client >=1.6.14",
 "chardet",
+"conda-repo-cli",
+"conda-token",
 "navigator-updater",
 "pillow",
 "psutil",
@@ -3306,13 +3332,13 @@
 "setuptools",
 "xmltodict"
 ],
-"legacy_bz2_md5":"e81f194c473db0d5fee011b43cfb9c89",
+"legacy_bz2_md5":"e43c965ce1206ce99a7d29aa0f6336f0",
 "license":"proprietary - Continuum Analytics, Inc.",
 "name":"anaconda-navigator",
-"sha256":"1d90580756d95c3fbac64c71348780a39d99be997a034cc35259ec125fa98889",
-"size":5172253,
-"timestamp":1608037391567,
-"version":"1.10.0"
+"sha256":"9315eb30f726f1e0e3698433c81060f7e5b8958b1d3c8fba24cb46b8671778c5",
+"size":5482885,
+"timestamp":1619555037253,
+"version":"2.0.1"
 },
 "anaconda-oss-docs-1.0.2-0.conda":{
 "build":"0",
@@ -24507,7 +24533,7 @@
 "timestamp":1520768253927,
 "version":"3.0.0"
 },
-"freetds-1.2.20-hcd4344a_0.conda":{
+"freetds-1.2.21-hcd4344a_0.conda":{
 "build":"hcd4344a_0",
 "build_number":0,
 "depends":[
@@ -24515,13 +24541,13 @@
 "vc >=14.1,<15.0a0",
 "vs2015_runtime >=14.16.27012,<15.0a0"
 ],
-"legacy_bz2_md5":"8aef31f54cc12d9dadee6e709fed076b",
+"legacy_bz2_md5":"ad445fcebbfa7221f349ad61fe986f0c",
 "license":"LGPL",
 "name":"freetds",
-"sha256":"9e050019ca9f42221c3e14ed7a451b958bdeb6abf5bc31ae19b2de504d81e5a4",
-"size":835949,
-"timestamp":1618385286303,
-"version":"1.2.20"
+"sha256":"34118098edc727a14e8c94da6b268cc4acb003c21b71c4ebde3cd56add84fb89",
+"size":835947,
+"timestamp":1619477135853,
+"version":"1.2.21"
 },
 "freetype-2.10.4-hd328e21_0.conda":{
 "build":"hd328e21_0",
@@ -57723,7 +57749,7 @@
 "timestamp":1545125493734,
 "version":"0.4.0"
 },
-"pyerfa-1.7.2-py36h2bbff1b_0.conda":{
+"pyerfa-1.7.3-py36h2bbff1b_0.conda":{
 "build":"py36h2bbff1b_0",
 "build_number":0,
 "depends":[
@@ -57732,15 +57758,15 @@
 "vc >=14.1,<15.0a0",
 "vs2015_runtime >=14.16.27012,<15.0a0"
 ],
-"legacy_bz2_md5":"27abe119217457211f3a2a99a2fb34e8",
+"legacy_bz2_md5":"dc43bd12d5b19800d7eb2778c1cb502b",
 "license":"BSD-3-Clause",
 "name":"pyerfa",
-"sha256":"6da1bfbb24d421077f9768ecc38c3e9f734859cd9696e75a3ca4debfd1d54fa1",
-"size":306220,
-"timestamp":1613849876400,
-"version":"1.7.2"
+"sha256":"8d1922a60700560432eb7b9f47fa3acd99c82dabb423fad3900c6fb085ce8a10",
+"size":308224,
+"timestamp":1619391212741,
+"version":"1.7.3"
 },
-"pyerfa-1.7.2-py37h2bbff1b_0.conda":{
+"pyerfa-1.7.3-py37h2bbff1b_0.conda":{
 "build":"py37h2bbff1b_0",
 "build_number":0,
 "depends":[
@@ -57749,47 +57775,47 @@
 "vc >=14.1,<15.0a0",
 "vs2015_runtime >=14.16.27012,<15.0a0"
 ],
-"legacy_bz2_md5":"975765dcd7b66169ab7ccf8a3e4e4261",
+"legacy_bz2_md5":"a584b04660f1d97f9b00e44a5345c4d0",
 "license":"BSD-3-Clause",
 "name":"pyerfa",
-"sha256":"db031ef68fcd98c5dcf765d939921afe1500368668a3a0dd39483335b7e14610",
-"size":304703,
-"timestamp":1613849879294,
-"version":"1.7.2"
+"sha256":"caa9ccebcdae9fe49456be97b5f068af15b320059a57a9d589d5819b95ca683d",
+"size":306380,
+"timestamp":1619391179049,
+"version":"1.7.3"
 },
-"pyerfa-1.7.2-py38h2bbff1b_0.conda":{
+"pyerfa-1.7.3-py38h2bbff1b_0.conda":{
 "build":"py38h2bbff1b_0",
 "build_number":0,
 "depends":[
-"numpy >=1.19.2,<2.0a0",
+"numpy >=1.20.1,<2.0a0",
 "python >=3.8,<3.9.0a0",
 "vc >=14.1,<15.0a0",
 "vs2015_runtime >=14.16.27012,<15.0a0"
 ],
-"legacy_bz2_md5":"3ef894d0d0206def62b2e8816414a010",
+"legacy_bz2_md5":"5bcc60a468f6d2bd3e7115b705cb9123",
 "license":"BSD-3-Clause",
 "name":"pyerfa",
-"sha256":"c02561d6f49916e2987e8b2890ef25c885111f5b116962b38b056a7ca5f9493f",
-"size":307820,
-"timestamp":1613849681829,
-"version":"1.7.2"
+"sha256":"47a33cdc9995351ef814c55ac62bc6ef3876172d0966ee7bb2e793dd369bc968",
+"size":308653,
+"timestamp":1619391187878,
+"version":"1.7.3"
 },
-"pyerfa-1.7.2-py39h2bbff1b_0.conda":{
+"pyerfa-1.7.3-py39h2bbff1b_0.conda":{
 "build":"py39h2bbff1b_0",
 "build_number":0,
 "depends":[
-"numpy >=1.19.2,<2.0a0",
+"numpy >=1.20.1,<2.0a0",
 "python >=3.9,<3.10.0a0",
 "vc >=14.1,<15.0a0",
 "vs2015_runtime >=14.16.27012,<15.0a0"
 ],
-"legacy_bz2_md5":"f95fcbdf069374d835ec9bb1a2979835",
+"legacy_bz2_md5":"053fcdb67cdf5ace630a2589d2cf1fc5",
 "license":"BSD-3-Clause",
 "name":"pyerfa",
-"sha256":"f6188b4e9104c0f72b07b7ca0e588a9c8f1def6f402b442cea784676691b60e5",
-"size":308423,
-"timestamp":1613849878773,
-"version":"1.7.2"
+"sha256":"c07fd6d57d233dbcdf75486cbba3107cf186d599eef1f3d3235694cc60ae25cb",
+"size":308146,
+"timestamp":1619391213072,
+"version":"1.7.3"
 },
 "pyface-7.3.0-py36haa95532_1.conda":{
 "build":"py36haa95532_1",
@@ -66951,74 +66977,97 @@
 "timestamp":1614799305457,
 "version":"3.6.1"
 },
-"quantecon-0.4.8-py36_0.conda":{
-"build":"py36_0",
+"quantecon-0.5.0-py36haa95532_0.conda":{
+"build":"py36haa95532_0",
 "build_number":0,
 "depends":[
 "matplotlib-base",
 "nose",
-"numba",
+"numba >=0.38",
 "numpy",
 "pandas",
 "pytables",
 "python >=3.6,<3.7.0a0",
 "requests",
-"scipy",
+"scipy >=1.0.0",
 "sympy"
 ],
-"legacy_bz2_md5":"0f4d345bc8181e9fcb2be781f780c0a4",
+"legacy_bz2_md5":"c530710f3043ce3f0d83474cc69eb3a9",
 "license":"BSD-3-Clause",
 "name":"quantecon",
-"sha256":"64519ba127b0893121091716e85996973608edf6b1021d89b59316d6c7c58a9b",
-"size":290324,
-"timestamp":1602255787642,
-"version":"0.4.8"
+"sha256":"876c94654edcd8036c39b19739b3570201c456e8b202780470607d1767a93a47",
+"size":295483,
+"timestamp":1619455743111,
+"version":"0.5.0"
 },
-"quantecon-0.4.8-py37_0.conda":{
-"build":"py37_0",
+"quantecon-0.5.0-py37haa95532_0.conda":{
+"build":"py37haa95532_0",
 "build_number":0,
 "depends":[
 "matplotlib-base",
 "nose",
-"numba",
+"numba >=0.38",
 "numpy",
 "pandas",
 "pytables",
 "python >=3.7,<3.8.0a0",
 "requests",
-"scipy",
+"scipy >=1.0.0",
 "sympy"
 ],
-"legacy_bz2_md5":"4242d2e5d011090a889c0be6cd4047f6",
+"legacy_bz2_md5":"11dfeb800c29f2a43f04d82ba3571533",
 "license":"BSD-3-Clause",
 "name":"quantecon",
-"sha256":"b817d50a473c27d4fe2a2233ec9508f906e62828618c43990749600bd86275de",
-"size":291853,
-"timestamp":1594400260756,
-"version":"0.4.8"
+"sha256":"92bd8eced93ef13d3fb570f113699cce207ee559cfaf160d0d9b38261cf391d2",
+"size":291090,
+"timestamp":1619455784601,
+"version":"0.5.0"
 },
-"quantecon-0.4.8-py38_0.conda":{
-"build":"py38_0",
+"quantecon-0.5.0-py38haa95532_0.conda":{
+"build":"py38haa95532_0",
 "build_number":0,
 "depends":[
 "matplotlib-base",
 "nose",
-"numba",
+"numba >=0.38",
 "numpy",
 "pandas",
 "pytables",
 "python >=3.8,<3.9.0a0",
 "requests",
-"scipy",
+"scipy >=1.0.0",
 "sympy"
 ],
-"legacy_bz2_md5":"d32289d2ebd520fab2fd9686d1fd48ca",
+"legacy_bz2_md5":"beb2282bbadc6b8112fbcfde960fbb96",
 "license":"BSD-3-Clause",
 "name":"quantecon",
-"sha256":"4a763cb8bed515565e041eb2a0ad64878e1b10bda1350abbf61d2910b570ba7e",
-"size":296228,
-"timestamp":1602255945277,
-"version":"0.4.8"
+"sha256":"788ccd8ef6dee34135d39b6c7f8dc944c8576567aa0af4ad09346dd6f9862b44",
+"size":292337,
+"timestamp":1619455781165,
+"version":"0.5.0"
+},
+"quantecon-0.5.0-py39haa95532_0.conda":{
+"build":"py39haa95532_0",
+"build_number":0,
+"depends":[
+"matplotlib-base",
+"nose",
+"numba >=0.38",
+"numpy",
+"pandas",
+"pytables",
+"python >=3.9,<3.10.0a0",
+"requests",
+"scipy >=1.0.0",
+"sympy"
+],
+"legacy_bz2_md5":"e29a6761be24bbddd93fc49d7d5742df",
+"license":"BSD-3-Clause",
+"name":"quantecon",
+"sha256":"66222d203c928a21a8cd392be62f8f35432619ce437589b4ff10466e4a0c9718",
+"size":295318,
+"timestamp":1619455782901,
+"version":"0.5.0"
 },
 "queuelib-1.5.0-py27_0.conda":{
 "build":"py27_0",
