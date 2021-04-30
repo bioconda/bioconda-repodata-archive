@@ -11133,6 +11133,22 @@
 "timestamp":1616022166504,
 "version":"1.0.1"
 },
+"boost_mp11-1.76.0-hbdafb3b_0.tar.bz2":{
+"build":"hbdafb3b_0",
+"build_number":0,
+"constrains":[
+"boost-cpp <0a0"
+],
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"BSL-1.0",
+"name":"boost_mp11",
+"sha256":"3407e7498eb380a6b2732a70dd1a0ec7d125f52523a23463587212963dbc55f5",
+"size":23351,
+"timestamp":1619705257271,
+"version":"1.76.0"
+},
 "bottleneck-1.3.2-py38h8369297_3.tar.bz2":{
 "build":"py38h8369297_3",
 "build_number":3,
@@ -16048,6 +16064,28 @@
 "timestamp":1617910750407,
 "version":"3.20.1"
 },
+"cmake-3.20.2-h748e51f_0.tar.bz2":{
+"build":"h748e51f_0",
+"build_number":0,
+"depends":[
+"bzip2 >=1.0.8,<2.0a0",
+"expat >=2.3.0,<3.0a0",
+"libcurl >=7.76.1,<8.0a0",
+"libcxx >=11.1.0",
+"libuv",
+"ncurses >=6.2,<6.3.0a0",
+"rhash",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"cmake",
+"sha256":"ce910954e5f6ec2c4781c69df9f6a1e622f60c6f9e92ce4453acfeb06c542490",
+"size":13300324,
+"timestamp":1619720952352,
+"version":"3.20.2"
+},
 "cmake-no-system-3.16.4-h9f76cd9_1.tar.bz2":{
 "build":"h9f76cd9_1",
 "build_number":1,
@@ -16133,6 +16171,105 @@
 "size":122322,
 "timestamp":1615573264824,
 "version":"0.5.3"
+},
+"coin-or-cgl-0.60.3-h950afdd_0.tar.bz2":{
+"build":"h950afdd_0",
+"build_number":0,
+"constrains":[
+"coincbc * *_metapackage"
+],
+"depends":[
+"bzip2 >=1.0.8,<2.0a0",
+"coin-or-clp >=1.17.6,<1.18.0a0",
+"coin-or-osi >=0.108.6,<0.109.0a0",
+"coin-or-utils >=2.11.4,<2.12.0a0",
+"libblas >=3.9.0,<4.0a0",
+"libcblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"ncurses >=6.2,<6.3.0a0",
+"readline >=8.1,<9.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"EPL-2.0",
+"name":"coin-or-cgl",
+"sha256":"7f3d4571b63d3f30983dd48689f605015e37959970fec902dc91636e3b522abd",
+"size":505098,
+"timestamp":1619724731597,
+"version":"0.60.3"
+},
+"coin-or-clp-1.17.6-h97646b0_1.tar.bz2":{
+"build":"h97646b0_1",
+"build_number":1,
+"constrains":[
+"coincbc * *_metapackage"
+],
+"depends":[
+"bzip2 >=1.0.8,<2.0a0",
+"coin-or-osi >=0.108.6,<0.109.0a0",
+"coin-or-utils >=2.11.4,<2.12.0a0",
+"libblas >=3.9.0,<4.0a0",
+"libcblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"liblapack >=3.9.0,<4.0a0",
+"ncurses >=6.2,<6.3.0a0",
+"readline >=8.1,<9.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"EPL-2.0",
+"name":"coin-or-clp",
+"sha256":"0b7c73b5ac7e09b528d68da4286530400c1c23c9109e0b66cc5dc40ac4409caf",
+"size":1093138,
+"timestamp":1619713463971,
+"version":"1.17.6"
+},
+"coin-or-osi-0.108.6-h3089036_0.tar.bz2":{
+"build":"h3089036_0",
+"build_number":0,
+"constrains":[
+"coincbc * *_metapackage"
+],
+"depends":[
+"bzip2 >=1.0.8,<2.0a0",
+"coin-or-utils >=2.11.4,<2.12.0a0",
+"libblas >=3.9.0,<4.0a0",
+"libcblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"liblapack >=3.9.0,<4.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"EPL-2.0",
+"name":"coin-or-osi",
+"sha256":"8da8662aa40e387211e87401994a469d9205edfdd9ef7d5bd27ea3c31da25532",
+"size":410263,
+"timestamp":1619705127238,
+"version":"0.108.6"
+},
+"coin-or-utils-2.11.4-h8c5c8f5_1.tar.bz2":{
+"build":"h8c5c8f5_1",
+"build_number":1,
+"constrains":[
+"coincbc * *_metapackage"
+],
+"depends":[
+"bzip2 >=1.0.8,<2.0a0",
+"libblas >=3.9.0,<4.0a0",
+"libcblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"liblapack >=3.9.0,<4.0a0",
+"liblapacke >=3.9.0,<4.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"EPL-2.0",
+"name":"coin-or-utils",
+"sha256":"fa894dffc55f7a5bb4167ecd023a8b88e20fdb92f6482b18dd4868110c103b31",
+"size":632981,
+"timestamp":1619694948514,
+"version":"2.11.4"
 },
 "colorlog-4.7.2-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
@@ -21729,6 +21866,162 @@
 "size":691859,
 "timestamp":1605238316947,
 "version":"7.0.4"
+},
+"econml-0.9.0-py38h3777fb4_0.tar.bz2":{
+"build":"py38h3777fb4_0",
+"build_number":0,
+"depends":[
+"dowhy",
+"joblib >=0.13.0",
+"libcxx >=11.1.0",
+"numba !=0.42.1",
+"numpy",
+"pandas",
+"python >=3.8,<3.9.0a0",
+"python-graphviz",
+"python_abi 3.8.* *_cp38",
+"scikit-learn >=0.24",
+"scipy >1.4.0",
+"shap ~=0.38.1",
+"sparse",
+"statsmodels >=0.9"
+],
+"license":"Apache-2.0",
+"name":"econml",
+"sha256":"481c248bd5ec9ff6a6feac3e35f3b43d17cb481aa6065056b87cc2a2385a4580",
+"size":751565,
+"timestamp":1619707368789,
+"version":"0.9.0"
+},
+"econml-0.9.1-py38h3777fb4_0.tar.bz2":{
+"build":"py38h3777fb4_0",
+"build_number":0,
+"depends":[
+"dowhy",
+"joblib >=0.13.0",
+"libcxx >=11.1.0",
+"numba !=0.42.1",
+"numpy",
+"pandas",
+"python >=3.8,<3.9.0a0",
+"python-graphviz",
+"python_abi 3.8.* *_cp38",
+"scikit-learn >=0.24",
+"scipy >1.4.0",
+"shap 0.38.1.*",
+"sparse",
+"statsmodels >=0.9"
+],
+"license":"BSD-3-Clause",
+"name":"econml",
+"sha256":"3f090214a32f9c1e2df7a10f078d24cc7c62442a9be5e8291d8fe63d2260b766",
+"size":723884,
+"timestamp":1619713706283,
+"version":"0.9.1"
+},
+"econml-0.9.1-py38h3777fb4_1.tar.bz2":{
+"build":"py38h3777fb4_1",
+"build_number":1,
+"depends":[
+"dowhy",
+"joblib >=0.13.0",
+"libcxx >=11.1.0",
+"numba !=0.42.1",
+"numpy",
+"pandas",
+"python >=3.8,<3.9.0a0",
+"python-graphviz",
+"python_abi 3.8.* *_cp38",
+"scikit-learn >=0.24",
+"scipy >1.4.0",
+"shap 0.38.1.*",
+"sparse",
+"statsmodels >=0.9"
+],
+"license":"BSD-3-Clause",
+"name":"econml",
+"sha256":"e48fdf1a711a7ea50f118444c83e7b0bd51ee9fef650012af4dfa0afe2f6649a",
+"size":724070,
+"timestamp":1619721497869,
+"version":"0.9.1"
+},
+"econml-0.9.1-py39h7f752ed_1.tar.bz2":{
+"build":"py39h7f752ed_1",
+"build_number":1,
+"depends":[
+"dowhy",
+"joblib >=0.13.0",
+"libcxx >=11.1.0",
+"numba !=0.42.1",
+"numpy",
+"pandas",
+"python >=3.9,<3.10.0a0",
+"python-graphviz",
+"python_abi 3.9.* *_cp39",
+"scikit-learn >=0.24",
+"scipy >1.4.0",
+"shap 0.38.1.*",
+"sparse",
+"statsmodels >=0.9"
+],
+"license":"BSD-3-Clause",
+"name":"econml",
+"sha256":"5b85b9fbbde829cb18c95ca591bd6cb2204cfda76f06837905dfa3a5bbac7a5d",
+"size":763781,
+"timestamp":1619721504554,
+"version":"0.9.1"
+},
+"econml-0.9.2-py38h3777fb4_0.tar.bz2":{
+"build":"py38h3777fb4_0",
+"build_number":0,
+"depends":[
+"dowhy",
+"joblib >=0.13.0",
+"libcxx >=11.1.0",
+"numba !=0.42.1",
+"numpy",
+"pandas",
+"python >=3.8,<3.9.0a0",
+"python-graphviz",
+"python_abi 3.8.* *_cp38",
+"scikit-learn >=0.24",
+"scipy >1.4.0",
+"shap 0.38.1.*",
+"sparse",
+"statsmodels >=0.9"
+],
+"license":"BSD-3-Clause",
+"name":"econml",
+"sha256":"0af9dff0d362a06f2039bf72652cabd2420dc45927ca0761e7028654dc46510b",
+"size":744898,
+"timestamp":1619723436421,
+"version":"0.9.2"
+},
+"econml-0.9.2-py39h7f752ed_0.tar.bz2":{
+"build":"py39h7f752ed_0",
+"build_number":0,
+"depends":[
+"dowhy",
+"joblib >=0.13.0",
+"libcxx >=11.1.0",
+"numba !=0.42.1",
+"numpy",
+"pandas",
+"python >=3.9,<3.10.0a0",
+"python-graphviz",
+"python_abi 3.9.* *_cp39",
+"scikit-learn >=0.24",
+"scipy >1.4.0",
+"shap 0.38.1.*",
+"sparse",
+"statsmodels >=0.9"
+],
+"license":"BSD-3-Clause",
+"name":"econml",
+"sha256":"623f98b252190afe76eb6cae8d2f4f1df5c21629b88a6047a905970dba23721e",
+"size":750848,
+"timestamp":1619723598751,
+"version":"0.9.2"
 },
 "ecos-2.0.7.post1-py38h8369297_3.tar.bz2":{
 "build":"py38h8369297_3",
@@ -36469,6 +36762,19 @@
 "timestamp":1616781538186,
 "version":"3.20.6"
 },
+"libdate-3.0.0-hbdafb3b_0.tar.bz2":{
+"build":"hbdafb3b_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"MIT",
+"name":"libdate",
+"sha256":"327013d9f901c4212b8186972b620fc4cb9af4c16498cf9f3f873da333b0cf74",
+"size":30661,
+"timestamp":1619705258711,
+"version":"3.0.0"
+},
 "libdb-6.2.32-h9f76cd9_0.tar.bz2":{
 "build":"h9f76cd9_0",
 "build_number":0,
@@ -46385,6 +46691,21 @@
 "timestamp":1619540414711,
 "version":"3.0.3"
 },
+"mpi4py-3.0.3-py38hbcaf744_7.tar.bz2":{
+"build":"py38hbcaf744_7",
+"build_number":7,
+"depends":[
+"openmpi >=4.1,<4.2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-2-Clause",
+"name":"mpi4py",
+"sha256":"4d27f2ed9fd719a3b54ed14158240136e1fb49551ade2d0d18e4537fe78e5a5c",
+"size":556467,
+"timestamp":1619699579263,
+"version":"3.0.3"
+},
 "mpi4py-3.0.3-py38he13af2c_2.tar.bz2":{
 "build":"py38he13af2c_2",
 "build_number":2,
@@ -46458,6 +46779,21 @@
 "sha256":"99471f2d8df2f1ea745fafad20ce94344fb7b17d21fe24217573315d39840d65",
 "size":555097,
 "timestamp":1619540240671,
+"version":"3.0.3"
+},
+"mpi4py-3.0.3-py38hf5adb80_7.tar.bz2":{
+"build":"py38hf5adb80_7",
+"build_number":7,
+"depends":[
+"mpich >=3.4,<3.5.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-2-Clause",
+"name":"mpi4py",
+"sha256":"8b2a37aa1cc6d366657cb479343d11a25621de567ba1e8eb262d1bc9a276387c",
+"size":553717,
+"timestamp":1619699612131,
 "version":"3.0.3"
 },
 "mpi4py-3.0.3-py39h5261f31_2.tar.bz2":{
@@ -46535,6 +46871,21 @@
 "timestamp":1619540201477,
 "version":"3.0.3"
 },
+"mpi4py-3.0.3-py39h5eed30b_7.tar.bz2":{
+"build":"py39h5eed30b_7",
+"build_number":7,
+"depends":[
+"openmpi >=4.1,<4.2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-2-Clause",
+"name":"mpi4py",
+"sha256":"b8c47148e29a711f0ffb72b145476f30e565eeb02ba652315742aeedd905878f",
+"size":547362,
+"timestamp":1619699600716,
+"version":"3.0.3"
+},
 "mpi4py-3.0.3-py39hcca3467_2.tar.bz2":{
 "build":"py39hcca3467_2",
 "build_number":2,
@@ -46608,6 +46959,21 @@
 "sha256":"47c4af73803f24183ce60430589f3fbd8398ad55e90eb261e3153725cfd0e2a1",
 "size":551810,
 "timestamp":1619540226291,
+"version":"3.0.3"
+},
+"mpi4py-3.0.3-py39hee4813e_7.tar.bz2":{
+"build":"py39hee4813e_7",
+"build_number":7,
+"depends":[
+"mpich >=3.4,<3.5.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-2-Clause",
+"name":"mpi4py",
+"sha256":"9774bb815dbf31e9f2d2fc438e3fe396943027af56228dd03a525178a522d65e",
+"size":548314,
+"timestamp":1619699670333,
 "version":"3.0.3"
 },
 "mpich-3.3.2-external_5.tar.bz2":{
@@ -49282,6 +49648,21 @@
 "timestamp":1618059000145,
 "version":"2.2.1"
 },
+"onednn-2.2.2-tbb_hb6067a2_0.tar.bz2":{
+"build":"tbb_hb6067a2_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0",
+"tbb >=2020.2,<2021.0.0a0"
+],
+"license":"Apache-2.0",
+"name":"onednn",
+"sha256":"be9ea6f028e40cf7ca3c186112a66e3f6fec09ba47601568e2677c1026326a26",
+"size":3529165,
+"timestamp":1619681038728,
+"version":"2.2.2"
+},
 "onednn-cpu-tbb-2.2-tbb_hce30654_0.tar.bz2":{
 "build":"tbb_hce30654_0",
 "build_number":0,
@@ -49307,6 +49688,19 @@
 "size":8222,
 "timestamp":1618059012936,
 "version":"2.2.1"
+},
+"onednn-cpu-tbb-2.2.2-tbb_hce30654_0.tar.bz2":{
+"build":"tbb_hce30654_0",
+"build_number":0,
+"depends":[
+"onednn 2.2.2 tbb_hb6067a2_0"
+],
+"license":"Apache-2.0",
+"name":"onednn-cpu-tbb",
+"sha256":"9dd8dc257d6b102ab9496204c9f4c8e9a2d933f2f4c4e85eee6aede53179ced5",
+"size":8253,
+"timestamp":1619681053408,
+"version":"2.2.2"
 },
 "oniguruma-6.9.3-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
@@ -71971,6 +72365,127 @@
 "timestamp":1610083966882,
 "version":"49.6.0"
 },
+"shap-0.38.0-py38h3777fb4_0.tar.bz2":{
+"build":"py38h3777fb4_0",
+"build_number":0,
+"depends":[
+"ipython",
+"libcxx >=11.1.0",
+"matplotlib-base",
+"numba",
+"numpy",
+"pandas",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"scikit-image",
+"scikit-learn",
+"scipy",
+"slicer 0.0.7.*",
+"tqdm >4.25.0"
+],
+"license":"MIT",
+"name":"shap",
+"sha256":"9fc872fc58076557209fa1607bdfa03585e1f27987eceecdf2e55c0c52ef9b61",
+"size":563534,
+"timestamp":1619691706200,
+"version":"0.38.0"
+},
+"shap-0.38.1-py38h3777fb4_0.tar.bz2":{
+"build":"py38h3777fb4_0",
+"build_number":0,
+"depends":[
+"ipython",
+"libcxx >=11.1.0",
+"matplotlib-base",
+"numba",
+"numpy",
+"pandas",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"scikit-image",
+"scikit-learn",
+"scipy",
+"slicer 0.0.7.*",
+"tqdm >4.25.0"
+],
+"license":"MIT",
+"name":"shap",
+"sha256":"56f87e17d3b1e27c83d4e2caf963a31fc541969f7930648c9a1a3fca261b7826",
+"size":547168,
+"timestamp":1619695189419,
+"version":"0.38.1"
+},
+"shap-0.38.1-py39h7f752ed_0.tar.bz2":{
+"build":"py39h7f752ed_0",
+"build_number":0,
+"depends":[
+"ipython",
+"libcxx >=11.1.0",
+"matplotlib-base",
+"numba",
+"numpy",
+"pandas",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"scikit-image",
+"scikit-learn",
+"scipy",
+"slicer 0.0.7.*",
+"tqdm >4.25.0"
+],
+"license":"MIT",
+"name":"shap",
+"sha256":"0412692443ede7f85a50fe9629e24ee026b57262355237ba38a03a0d95db82f0",
+"size":541183,
+"timestamp":1619695186356,
+"version":"0.38.1"
+},
+"shap-0.39.0-py38h3777fb4_0.tar.bz2":{
+"build":"py38h3777fb4_0",
+"build_number":0,
+"depends":[
+"cloudpickle",
+"libcxx >=11.1.0",
+"numba",
+"numpy",
+"pandas",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"scikit-learn",
+"scipy",
+"slicer 0.0.7.*",
+"tqdm >4.25.0"
+],
+"license":"MIT",
+"name":"shap",
+"sha256":"ffaaedbb0ac94622f1601a933deb9cd3eeda3e8609768e7f7ce5e166f27b7b6a",
+"size":550082,
+"timestamp":1619697263558,
+"version":"0.39.0"
+},
+"shap-0.39.0-py39h7f752ed_0.tar.bz2":{
+"build":"py39h7f752ed_0",
+"build_number":0,
+"depends":[
+"cloudpickle",
+"libcxx >=11.1.0",
+"numba",
+"numpy",
+"pandas",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"scikit-learn",
+"scipy",
+"slicer 0.0.7.*",
+"tqdm >4.25.0"
+],
+"license":"MIT",
+"name":"shap",
+"sha256":"63bdeb8297a4b9920d49ac8e2f55696c868cdc374dbc91215f966df173177c2d",
+"size":573055,
+"timestamp":1619697134743,
+"version":"0.39.0"
+},
 "simplejson-3.17.2-py38h30f7421_1.tar.bz2":{
 "build":"py38h30f7421_1",
 "build_number":1,
@@ -77832,6 +78347,50 @@
 "timestamp":1618983153183,
 "version":"9.0.1"
 },
+"vtk-9.0.1-no_osmesa_py38h19cc9ed_108.tar.bz2":{
+"build":"no_osmesa_py38h19cc9ed_108",
+"build_number":108,
+"constrains":[
+"paraview ==9999999999"
+],
+"depends":[
+"double-conversion >=3.1.5,<3.2.0a0",
+"eigen",
+"expat >=2.3.0,<3.0a0",
+"ffmpeg >=4.3.1,<5.0a0",
+"freetype >=2.10.4,<3.0a0",
+"gl2ps >=1.4.2,<1.4.3.0a0",
+"glew >=2.1.0,<2.2.0a0",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"jpeg >=9d,<10a",
+"jsoncpp >=1.9.4,<1.9.5.0a0",
+"libcxx >=11.1.0",
+"libnetcdf >=4.8.0,<4.8.1.0a0",
+"libogg >=1.3.4,<1.4.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libtheora >=1.1.1,<1.2.0a0",
+"libtiff >=4.2.0,<5.0a0",
+"libxml2 >=2.9.10,<2.10.0a0",
+"loguru",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"proj >=7.2.0,<7.2.1.0a0",
+"pugixml >=1.11.4,<1.12.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"sqlite >=3.35.5,<4.0a0",
+"tbb >=2020.2,<2021.0.0a0",
+"tbb-devel",
+"tk >=8.6.10,<8.7.0a0",
+"utfcpp",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"vtk",
+"sha256":"349ef8660cbfca340f9f9a96c2c1a0cd1224ef0a1fed5c82ab040e04a54e1382",
+"size":29243312,
+"timestamp":1619686646276,
+"version":"9.0.1"
+},
 "vtk-9.0.1-no_osmesa_py39he8260c6_107.tar.bz2":{
 "build":"no_osmesa_py39he8260c6_107",
 "build_number":107,
@@ -77874,6 +78433,50 @@
 "sha256":"6d44a591e81b6f264fbe81c6f310df0f056d09da1bca46910eb7cc9014c63946",
 "size":29311443,
 "timestamp":1618983354616,
+"version":"9.0.1"
+},
+"vtk-9.0.1-no_osmesa_py39he8260c6_108.tar.bz2":{
+"build":"no_osmesa_py39he8260c6_108",
+"build_number":108,
+"constrains":[
+"paraview ==9999999999"
+],
+"depends":[
+"double-conversion >=3.1.5,<3.2.0a0",
+"eigen",
+"expat >=2.3.0,<3.0a0",
+"ffmpeg >=4.3.1,<5.0a0",
+"freetype >=2.10.4,<3.0a0",
+"gl2ps >=1.4.2,<1.4.3.0a0",
+"glew >=2.1.0,<2.2.0a0",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"jpeg >=9d,<10a",
+"jsoncpp >=1.9.4,<1.9.5.0a0",
+"libcxx >=11.1.0",
+"libnetcdf >=4.8.0,<4.8.1.0a0",
+"libogg >=1.3.4,<1.4.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libtheora >=1.1.1,<1.2.0a0",
+"libtiff >=4.2.0,<5.0a0",
+"libxml2 >=2.9.10,<2.10.0a0",
+"loguru",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"proj >=7.2.0,<7.2.1.0a0",
+"pugixml >=1.11.4,<1.12.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"sqlite >=3.35.5,<4.0a0",
+"tbb >=2020.2,<2021.0.0a0",
+"tbb-devel",
+"tk >=8.6.10,<8.7.0a0",
+"utfcpp",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"vtk",
+"sha256":"22265eaeb9a79f4e515a73cb59199404143722e5cf5b192422dad4f9504f94b8",
+"size":29315480,
+"timestamp":1619686398947,
 "version":"9.0.1"
 },
 "waf-2.0.8-py38h30f7421_1005.tar.bz2":{
@@ -80650,6 +81253,20 @@
 "size":184972,
 "timestamp":1618939325436,
 "version":"0.23.7"
+},
+"xtensor-0.23.8-hc021e02_0.tar.bz2":{
+"build":"hc021e02_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"xtl >=0.7,<0.8"
+],
+"license":"BSD-3-Clause",
+"name":"xtensor",
+"sha256":"a7a9dd0af31d037a702ce938654534115ff7f8661e995c297145da3ff7f309e1",
+"size":185929,
+"timestamp":1619687997180,
+"version":"0.23.8"
 },
 "xtensor-python-0.24.1-py38h3578e97_3.tar.bz2":{
 "build":"py38h3578e97_3",
