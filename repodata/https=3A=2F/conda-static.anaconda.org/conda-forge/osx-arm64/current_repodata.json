@@ -2197,64 +2197,33 @@
 "timestamp":1606222236770,
 "version":"0.4.5"
 },
-"aws-c-common-0.4.59-h27ca646_1.tar.bz2":{
-"build":"h27ca646_1",
-"build_number":1,
-"depends":[],
-"license":"Apache-2.0",
-"name":"aws-c-common",
-"sha256":"8321436145cc3f6c0969dbcac9a22766f053d3031d8e52642244c5b706dc2217",
-"size":143300,
-"timestamp":1605533428871,
-"version":"0.4.59"
-},
-"aws-c-common-0.4.59-h940e421_0.tar.bz2":{
-"build":"h940e421_0",
-"build_number":0,
+"aws-c-cal-0.4.5-he5a0616_9.tar.bz2":{
+"build":"he5a0616_9",
+"build_number":9,
 "depends":[
-"libcxx >=11.0.0"
+"aws-c-common >=0.5.8,<0.5.9.0a0",
+"openssl >=1.1.1k,<1.1.2a"
 ],
 "license":"Apache-2.0",
-"name":"aws-c-common",
-"sha256":"455ac58a447ee56befe976d9f9c484c414f912cfaa6409f227634b72756a6510",
-"size":143110,
-"timestamp":1605526978941,
-"version":"0.4.59"
+"name":"aws-c-cal",
+"sha256":"2a30dbf27b6c5788152e77edaf61dad3f874593b62f095160fbc452a7dc1812d",
+"size":28466,
+"timestamp":1619855883904,
+"version":"0.4.5"
 },
-"aws-c-common-0.4.59-hb904e53_0.tar.bz2":{
-"build":"hb904e53_0",
+"aws-c-cal-0.5.5-he5a0616_0.tar.bz2":{
+"build":"he5a0616_0",
 "build_number":0,
 "depends":[
-"libcxx >=11.0.0.rc1"
+"aws-c-common >=0.5.8,<0.5.9.0a0",
+"openssl >=1.1.1k,<1.1.2a"
 ],
 "license":"Apache-2.0",
-"name":"aws-c-common",
-"sha256":"5749edcd806c02355d76e23b2cc62191eb849365381bc8a75161450edabf6aa5",
-"size":143207,
-"timestamp":1601551172426,
-"version":"0.4.59"
-},
-"aws-c-common-0.4.63-h27ca646_0.tar.bz2":{
-"build":"h27ca646_0",
-"build_number":0,
-"depends":[],
-"license":"Apache-2.0",
-"name":"aws-c-common",
-"sha256":"0688886c1b8bd7afe8449121d7c0f5afda0c188d979d5631fbeade79c8b415be",
-"size":144169,
-"timestamp":1607511094365,
-"version":"0.4.63"
-},
-"aws-c-common-0.4.65-h27ca646_0.tar.bz2":{
-"build":"h27ca646_0",
-"build_number":0,
-"depends":[],
-"license":"Apache-2.0",
-"name":"aws-c-common",
-"sha256":"4438a762561ee76742718d74693eee6b60b84fd44370e45a1a8b6e834297e996",
-"size":147135,
-"timestamp":1610315641464,
-"version":"0.4.65"
+"name":"aws-c-cal",
+"sha256":"42a290778566044f06e1814d15eb14976ef34a83e945d24192c865b6177e7953",
+"size":28306,
+"timestamp":1619897685532,
+"version":"0.5.5"
 },
 "aws-c-common-0.4.66-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
@@ -2300,16 +2269,16 @@
 "timestamp":1614898468981,
 "version":"0.5.2"
 },
-"aws-c-common-0.5.6-h3422bc3_0.tar.bz2":{
+"aws-c-common-0.5.8-h3422bc3_0.tar.bz2":{
 "build":"h3422bc3_0",
 "build_number":0,
 "depends":[],
 "license":"Apache-2.0",
 "name":"aws-c-common",
-"sha256":"ff7b64dcbf720e3fb67cfe11384fa97522cea2e8fcacdde02c2310557b3b98b1",
-"size":148205,
-"timestamp":1619818561922,
-"version":"0.5.6"
+"sha256":"979edafcecbc2a27f8f3b2e49d128512615ec883462e73653ff9dbb2b2c9f052",
+"size":149322,
+"timestamp":1619825902881,
+"version":"0.5.8"
 },
 "aws-c-event-stream-0.2.7-h33d6dd2_1.tar.bz2":{
 "build":"h33d6dd2_1",
@@ -2325,6 +2294,22 @@
 "sha256":"825a1c61084d8d8d69ec7c3f26c90f212ba34769799f02ca2b38338bc8adbf2e",
 "size":42411,
 "timestamp":1614958867856,
+"version":"0.2.7"
+},
+"aws-c-event-stream-0.2.7-h95f6e17_2.tar.bz2":{
+"build":"h95f6e17_2",
+"build_number":2,
+"depends":[
+"aws-c-common >=0.5.8,<0.5.9.0a0",
+"aws-c-io >=0.9.4,<0.9.5.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-event-stream",
+"sha256":"f32537da6f0dde4fd55310254b09b92e42c7adbda5dd8b99e33ab2b6f85ebb40",
+"size":42402,
+"timestamp":1619896365692,
 "version":"0.2.7"
 },
 "aws-c-event-stream-0.2.7-hcdd0404_0.tar.bz2":{
@@ -2399,6 +2384,20 @@
 "timestamp":1614946027642,
 "version":"0.9.1"
 },
+"aws-c-io-0.9.10-hb8ac97c_0.tar.bz2":{
+"build":"hb8ac97c_0",
+"build_number":0,
+"depends":[
+"aws-c-cal >=0.4.5,<0.4.6.0a0",
+"aws-c-common >=0.5.8,<0.5.9.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"sha256":"13af7e97c9ff8c77f21ac917693c89dacdff50fddbc4c02078f4d6447ba16316",
+"size":112419,
+"timestamp":1619897580549,
+"version":"0.9.10"
+},
 "aws-c-io-0.9.4-h816e6ec_1.tar.bz2":{
 "build":"h816e6ec_1",
 "build_number":1,
@@ -2441,6 +2440,20 @@
 "timestamp":1617870565784,
 "version":"0.9.4"
 },
+"aws-c-io-0.9.4-h816e6ec_4.tar.bz2":{
+"build":"h816e6ec_4",
+"build_number":4,
+"depends":[
+"aws-c-cal >=0.4.5,<0.4.6.0a0",
+"aws-c-common >=0.5.2,<0.5.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"sha256":"ea007ef2ab12ef96a9e74c67388626eabb59f22ee5ecb6b1069eb3f5ecac9486",
+"size":110894,
+"timestamp":1619844737783,
+"version":"0.9.4"
+},
 "aws-c-io-0.9.4-hb1046ea_0.tar.bz2":{
 "build":"hb1046ea_0",
 "build_number":0,
@@ -2453,6 +2466,20 @@
 "sha256":"54ccea7887d91aaef5dfb8470bf34f0e1a1255a7a9e57a71c6bb63dfcec1e461",
 "size":110742,
 "timestamp":1616441714904,
+"version":"0.9.4"
+},
+"aws-c-io-0.9.4-hb8ac97c_5.tar.bz2":{
+"build":"hb8ac97c_5",
+"build_number":5,
+"depends":[
+"aws-c-cal >=0.4.5,<0.4.6.0a0",
+"aws-c-common >=0.5.8,<0.5.9.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"sha256":"25eb06a4301734b19b82176fa1d22f953ad9489d691d6b2768c0af5e82bccc4f",
+"size":111501,
+"timestamp":1619882318903,
 "version":"0.9.4"
 },
 "aws-checksums-0.1.11-h2524b98_2.tar.bz2":{
@@ -2492,6 +2519,19 @@
 "sha256":"a3f2fb3af285482694507ea14fc2a37b7244f147445ac0cc8bed02762390d623",
 "size":49645,
 "timestamp":1614936507057,
+"version":"0.1.11"
+},
+"aws-checksums-0.1.11-hb8ac97c_4.tar.bz2":{
+"build":"hb8ac97c_4",
+"build_number":4,
+"depends":[
+"aws-c-common >=0.5.8,<0.5.9.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-checksums",
+"sha256":"8bde3f989d382755ec793634a140321c5dfde02fa5d166e3cb0c7bacc3ec8277",
+"size":49718,
+"timestamp":1619855878214,
 "version":"0.1.11"
 },
 "aws-checksums-0.1.11-hff6c12a_1.tar.bz2":{
@@ -7701,16 +7741,16 @@
 "timestamp":1608766475988,
 "version":"27.1"
 },
-"epoxy-1.5.6-h3422bc3_0.tar.bz2":{
+"epoxy-1.5.7-h3422bc3_0.tar.bz2":{
 "build":"h3422bc3_0",
 "build_number":0,
 "depends":[],
 "license":"MIT",
 "name":"epoxy",
-"sha256":"465bd17591d527cf4e5d5b843665097b0d0c7fb9f055d9976217ffcb41e5f25e",
-"size":360946,
-"timestamp":1619783389871,
-"version":"1.5.6"
+"sha256":"e1aeaf18a02f6486c75e415e1a52e8f999188842f6b47bdcd63d3137ea068fb9",
+"size":354191,
+"timestamp":1619896927076,
+"version":"1.5.7"
 },
 "esutil-0.6.5-py38h9b9bf68_1.tar.bz2":{
 "build":"py38h9b9bf68_1",
@@ -12063,7 +12103,7 @@
 "timestamp":1607987049087,
 "version":"6.3.0"
 },
-"ipython-7.22.0-py38h2cb4d76_0.tar.bz2":{
+"ipython-7.23.0-py38h2cb4d76_0.tar.bz2":{
 "build":"py38h2cb4d76_0",
 "build_number":0,
 "depends":[
@@ -12071,6 +12111,7 @@
 "backcall",
 "decorator",
 "jedi >=0.16,<1.0",
+"matplotlib-inline",
 "pexpect >4.3",
 "pickleshare",
 "prompt-toolkit >=2.0.0,!=3.0.0,!=3.0.1,<3.1.0",
@@ -12082,12 +12123,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"ipython",
-"sha256":"601357e4f2d858147aff76198c790db044327d1b623ef45f192f43535301773d",
-"size":1169922,
-"timestamp":1616837036454,
-"version":"7.22.0"
+"sha256":"649e32fe1e372f0307502bf6bce6ca9367ea2c74646c7edf769435647f0cf77c",
+"size":1175770,
+"timestamp":1619827392778,
+"version":"7.23.0"
 },
-"ipython-7.22.0-py39h32adebf_0.tar.bz2":{
+"ipython-7.23.0-py39h32adebf_0.tar.bz2":{
 "build":"py39h32adebf_0",
 "build_number":0,
 "depends":[
@@ -12095,6 +12136,7 @@
 "backcall",
 "decorator",
 "jedi >=0.16,<1.0",
+"matplotlib-inline",
 "pexpect >4.3",
 "pickleshare",
 "prompt-toolkit >=2.0.0,!=3.0.0,!=3.0.1,<3.1.0",
@@ -12106,10 +12148,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"ipython",
-"sha256":"85ea97d472b9db0ed02e1fbd776f612c47b427fd3c6901d549f6adb6ec5285a8",
-"size":1173184,
-"timestamp":1616837123376,
-"version":"7.22.0"
+"sha256":"2650bf4161f0fbe35be7778a8d2ed2de46c41f13ea27e23a3c3a6ff30982551d",
+"size":1174193,
+"timestamp":1619827370887,
+"version":"7.23.0"
 },
 "isl-0.22.1-hb904e53_2.tar.bz2":{
 "build":"hb904e53_2",
@@ -17497,37 +17539,37 @@
 "timestamp":1614944727425,
 "version":"1.3.0"
 },
-"line_profiler-3.1.0-py38h12a6f45_1.tar.bz2":{
-"build":"py38h12a6f45_1",
-"build_number":1,
+"line_profiler-3.2.6-py38h1670459_0.tar.bz2":{
+"build":"py38h1670459_0",
+"build_number":0,
 "depends":[
 "ipython >=0.13",
-"libcxx >=11.0.0",
+"libcxx >=11.1.0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38"
 ],
 "license":"BSD-3-Clause",
 "name":"line_profiler",
-"sha256":"b5b1580ad22b9d4ee9935168fe6727466e6e2ff79d4248e39c3de77063205a8b",
-"size":62387,
-"timestamp":1610625394386,
-"version":"3.1.0"
+"sha256":"5d4410acb31f7df56e1bb454bb60468f80b41577c88d951d1fd9e2bf90170c12",
+"size":63212,
+"timestamp":1619835072350,
+"version":"3.2.6"
 },
-"line_profiler-3.1.0-py39h5a63225_1.tar.bz2":{
-"build":"py39h5a63225_1",
-"build_number":1,
+"line_profiler-3.2.6-py39h4d2d688_0.tar.bz2":{
+"build":"py39h4d2d688_0",
+"build_number":0,
 "depends":[
 "ipython >=0.13",
-"libcxx >=11.0.0",
+"libcxx >=11.1.0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39"
 ],
 "license":"BSD-3-Clause",
 "name":"line_profiler",
-"sha256":"4c575932b3a5b78121cbef9fd8d58d0b06ee0b748067df4ccb7888d164ecd82d",
-"size":62284,
-"timestamp":1610625417451,
-"version":"3.1.0"
+"sha256":"a0d4918d370c416e25df5fd93e9172aba3c6a51f21fdb0964056030193a6f267",
+"size":63123,
+"timestamp":1619835086640,
+"version":"3.2.6"
 },
 "lld-11.1.0-hd91e211_0.tar.bz2":{
 "build":"hd91e211_0",
