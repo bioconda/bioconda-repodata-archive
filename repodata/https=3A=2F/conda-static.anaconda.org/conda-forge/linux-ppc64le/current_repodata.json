@@ -10109,6 +10109,24 @@
 "timestamp":1615051252728,
 "version":"1.8.151"
 },
+"aws-sdk-cpp-1.8.151-h4a7cfcb_2.tar.bz2":{
+"build":"h4a7cfcb_2",
+"build_number":2,
+"depends":[
+"aws-c-common >=0.5.8,<0.5.9.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"libcurl >=7.76.1,<8.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-sdk-cpp",
+"sha256":"410de397f60daf42504a27ff8a99dd6d99f63e7e165855b1a82c6e572cf9a496",
+"size":4471507,
+"timestamp":1619961118846,
+"version":"1.8.151"
+},
 "awscli-1.19.62-py36h270354c_0.tar.bz2":{
 "build":"py36h270354c_0",
 "build_number":0,
@@ -18470,7 +18488,7 @@
 "timestamp":1610716392703,
 "version":"3.21.4"
 },
-"conda-forge-ci-setup-3.9.3-py36h39e6b5e_0.tar.bz2":{
+"conda-forge-ci-setup-3.9.4-py36h39e6b5e_0.tar.bz2":{
 "build":"py36h39e6b5e_0",
 "build_number":0,
 "depends":[
@@ -18492,12 +18510,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda-forge-ci-setup",
-"sha256":"df514e69d4899c4082ba3e630989c56ff6b0add0c6f6a18e5f5eb20a6f0d2987",
-"size":36676,
-"timestamp":1618171123550,
-"version":"3.9.3"
+"sha256":"10f179593b8af96e38d1959f43bdab3000df405767f50e3e3d17b043335c852b",
+"size":36752,
+"timestamp":1619922686171,
+"version":"3.9.4"
 },
-"conda-forge-ci-setup-3.9.3-py37hc0e485a_0.tar.bz2":{
+"conda-forge-ci-setup-3.9.4-py37hc0e485a_0.tar.bz2":{
 "build":"py37hc0e485a_0",
 "build_number":0,
 "depends":[
@@ -18519,12 +18537,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda-forge-ci-setup",
-"sha256":"ccf0c3c60709ac883b649aacb0ac41ba3b173bfbeb9215dc630bbe94e41f10ed",
-"size":36725,
-"timestamp":1618171138427,
-"version":"3.9.3"
+"sha256":"cc88aefd1b353e63fe232c52b0666b10f720dab8c4170120d96fa02713699b4b",
+"size":36755,
+"timestamp":1619922712973,
+"version":"3.9.4"
 },
-"conda-forge-ci-setup-3.9.3-py38h6345821_0.tar.bz2":{
+"conda-forge-ci-setup-3.9.4-py38h6345821_0.tar.bz2":{
 "build":"py38h6345821_0",
 "build_number":0,
 "depends":[
@@ -18546,10 +18564,37 @@
 ],
 "license":"BSD-3-Clause",
 "name":"conda-forge-ci-setup",
-"sha256":"1e59dfa425d362e748cd2d96448c27dac449c7e0051c68e2d89b73276f49cfbd",
-"size":36833,
-"timestamp":1618171140362,
-"version":"3.9.3"
+"sha256":"88b910d2448c8232b9641d36415a168eed4fae335aa1742926f494c889d1ec84",
+"size":36882,
+"timestamp":1619923245627,
+"version":"3.9.4"
+},
+"conda-forge-ci-setup-3.9.4-py39hf727b71_0.tar.bz2":{
+"build":"py39hf727b71_0",
+"build_number":0,
+"depends":[
+"anaconda-client",
+"click",
+"conda >=4.3",
+"conda-build 3.*",
+"conda-env",
+"git",
+"jinja2",
+"jq",
+"pip",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml",
+"requests",
+"ruamel_yaml",
+"shyaml"
+],
+"license":"BSD-3-Clause",
+"name":"conda-forge-ci-setup",
+"sha256":"e50f61b91baaf757b073ecba76e1482f278186014e507594fa652ee23d8cf036",
+"size":36946,
+"timestamp":1619922709076,
+"version":"3.9.4"
 },
 "conda-package-handling-1.7.3-py36hc33305d_0.tar.bz2":{
 "build":"py36hc33305d_0",
@@ -88609,75 +88654,33 @@
 "timestamp":1608742834270,
 "version":"1.0.2"
 },
-"r-curl-4.3-r36h2be38b1_1.tar.bz2":{
-"build":"r36h2be38b1_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=9.3.0",
-"r-base >=3.6,<3.7.0a0"
-],
-"license":"MIT",
-"name":"r-curl",
-"sha256":"c3528d9b1cbc6a7ca0fbb845045869fddc6938fa5239ed1512a00e85924bec60",
-"size":723323,
-"timestamp":1616934810758,
-"version":"4.3"
-},
-"r-curl-4.3-r36hd2b4baa_0.tar.bz2":{
-"build":"r36hd2b4baa_0",
+"r-curl-4.3.1-r36h2be38b1_0.tar.bz2":{
+"build":"r36h2be38b1_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=8.2.0",
+"libgcc-ng >=9.3.0",
 "r-base >=3.6,<3.7.0a0"
 ],
 "license":"MIT",
 "name":"r-curl",
-"sha256":"d8a6f450880673dc357a98d562bbe9750b4096a8c47b7088d97cb06b2182f22d",
-"size":732993,
-"timestamp":1587031047392,
-"version":"4.3"
+"sha256":"4bf993ebbf819f67031396c36a69c31615e15e6c6be90f55c8f65b3628a982c3",
+"size":802449,
+"timestamp":1619937454752,
+"version":"4.3.1"
 },
-"r-curl-4.3-r36hd2b4baa_1.tar.bz2":{
-"build":"r36hd2b4baa_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=8.2.0",
-"r-base >=3.6,<3.7.0a0"
-],
-"license":"MIT",
-"name":"r-curl",
-"sha256":"282242a01779bf0ce79461a831c72cd88af8d7c36a8b1d50d7620611be78dce6",
-"size":713805,
-"timestamp":1588305814800,
-"version":"4.3"
-},
-"r-curl-4.3-r40h2be38b1_1.tar.bz2":{
-"build":"r40h2be38b1_1",
-"build_number":1,
+"r-curl-4.3.1-r40h2be38b1_0.tar.bz2":{
+"build":"r40h2be38b1_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "r-base >=4.0,<4.1.0a0"
 ],
 "license":"MIT",
 "name":"r-curl",
-"sha256":"e0329891728d30cf510f697f287e5d833da190c4387a9996790984aee0723917",
-"size":726188,
-"timestamp":1616934857267,
-"version":"4.3"
-},
-"r-curl-4.3-r40hd2b4baa_1.tar.bz2":{
-"build":"r40hd2b4baa_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=8.2.0",
-"r-base >=4.0,<4.1.0a0"
-],
-"license":"MIT",
-"name":"r-curl",
-"sha256":"3b0d0473a89d83aa32a66145505850f44d86b49dc0584957a4605ea75366b3be",
-"size":726635,
-"timestamp":1588305930896,
-"version":"4.3"
+"sha256":"fbaa271b45e6a4a89df490aa3074a55fb720ccc4fb74e44ceb546d6f3a2966e5",
+"size":799621,
+"timestamp":1619937535361,
+"version":"4.3.1"
 },
 "r-data.table-1.14.0-r36h2be38b1_0.tar.bz2":{
 "build":"r36h2be38b1_0",
@@ -90451,117 +90454,33 @@
 "timestamp":1619200943173,
 "version":"1.2.0"
 },
-"r-lattice-0.20_41-r36h2be38b1_2.tar.bz2":{
-"build":"r36h2be38b1_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=9.3.0",
-"r-base >=3.6,<3.7.0a0"
-],
-"license":"GPL-2.0-or-later",
-"name":"r-lattice",
-"sha256":"e7503fe237ad4b04689877f0b9d37f592467edce11c9f52cea4fec847ddb8520",
-"size":1188643,
-"timestamp":1610408345184,
-"version":"0.20_41"
-},
-"r-lattice-0.20_41-r36h2be38b1_3.tar.bz2":{
-"build":"r36h2be38b1_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=9.3.0",
-"r-base >=3.6,<3.7.0a0"
-],
-"license":"GPL-2.0-or-later",
-"name":"r-lattice",
-"sha256":"f77405ebb5abe165c1c0feb6b78cbed05672cf0ba48d6bde342169c2117f0dbc",
-"size":1184630,
-"timestamp":1610723628022,
-"version":"0.20_41"
-},
-"r-lattice-0.20_41-r36hd2b4baa_0.tar.bz2":{
-"build":"r36hd2b4baa_0",
+"r-lattice-0.20_44-r36h2be38b1_0.tar.bz2":{
+"build":"r36h2be38b1_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=8.2.0",
-"r-base >=3.6,<3.7.0a0"
-],
-"license":"GPL (>= 2)",
-"name":"r-lattice",
-"sha256":"1872a9cef8fe22bcbdcea4a5295df2a6f81938e911cb9c48ff3140e60e28fd58",
-"size":1186956,
-"timestamp":1586410814188,
-"version":"0.20_41"
-},
-"r-lattice-0.20_41-r36hd2b4baa_1.tar.bz2":{
-"build":"r36hd2b4baa_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=8.2.0",
+"libgcc-ng >=9.3.0",
 "r-base >=3.6,<3.7.0a0"
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-lattice",
-"sha256":"e7c814f2d84ef88daed66aed5f3baeef4e0efe87f86aed9c5248bff0718e0539",
-"size":1181547,
-"timestamp":1588285418521,
-"version":"0.20_41"
+"sha256":"33626d8f956ab09d3d5f8c88c52ea31519e960a91b653aab599666eda22d0316",
+"size":1192330,
+"timestamp":1619968682130,
+"version":"0.20_44"
 },
-"r-lattice-0.20_41-r36hd2b4baa_2.tar.bz2":{
-"build":"r36hd2b4baa_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=8.2.0",
-"r-base >=3.6,<3.7.0a0"
-],
-"license":"GPL-2.0-or-later",
-"name":"r-lattice",
-"sha256":"6c28d5045b72ed51dcbcc6c4094f10d5950b5401c94a75f37714b43630947cb2",
-"size":1183417,
-"timestamp":1588292619401,
-"version":"0.20_41"
-},
-"r-lattice-0.20_41-r40h2be38b1_2.tar.bz2":{
-"build":"r40h2be38b1_2",
-"build_number":2,
+"r-lattice-0.20_44-r40h2be38b1_0.tar.bz2":{
+"build":"r40h2be38b1_0",
+"build_number":0,
 "depends":[
 "libgcc-ng >=9.3.0",
 "r-base >=4.0,<4.1.0a0"
 ],
 "license":"GPL-2.0-or-later",
 "name":"r-lattice",
-"sha256":"3355b6f4ea9cf0ac3f4777e36a205f0000c9494c61fc921289730d81b81143a7",
-"size":1183739,
-"timestamp":1610408060444,
-"version":"0.20_41"
-},
-"r-lattice-0.20_41-r40h2be38b1_3.tar.bz2":{
-"build":"r40h2be38b1_3",
-"build_number":3,
-"depends":[
-"libgcc-ng >=9.3.0",
-"r-base >=4.0,<4.1.0a0"
-],
-"license":"GPL-2.0-or-later",
-"name":"r-lattice",
-"sha256":"3f2f1f7c99ca5b51921b34b1ecf1f20d41ef111e0f358468fe093e5e758bd01c",
-"size":1178991,
-"timestamp":1610723337952,
-"version":"0.20_41"
-},
-"r-lattice-0.20_41-r40hd2b4baa_2.tar.bz2":{
-"build":"r40hd2b4baa_2",
-"build_number":2,
-"depends":[
-"libgcc-ng >=8.2.0",
-"r-base >=4.0,<4.1.0a0"
-],
-"license":"GPL-2.0-or-later",
-"name":"r-lattice",
-"sha256":"bacbe781619f63bc924d0c8efc6bf9af174cd2703c921d2480c21c123d888b3e",
-"size":1182527,
-"timestamp":1588292656070,
-"version":"0.20_41"
+"sha256":"086312a1a4323f7921433e5dc5bf3624a0bd6ce2679b383f92818df9564c831f",
+"size":1185717,
+"timestamp":1619969175854,
+"version":"0.20_44"
 },
 "r-lazyeval-0.2.2-r36hd2b4baa_1.tar.bz2":{
 "build":"r36hd2b4baa_1",
@@ -103735,7 +103654,27 @@
 "timestamp":1616676906739,
 "version":"1.8.3"
 },
-"spyder-kernels-2.0.1-py37h35e4cab_0.tar.bz2":{
+"spyder-kernels-2.0.2-py36h270354c_0.tar.bz2":{
+"build":"py36h270354c_0",
+"build_number":0,
+"depends":[
+"cloudpickle",
+"ipykernel >=5.3.0",
+"ipython >=7.6.0",
+"jupyter_client >=5.3.4",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"pyzmq >=17",
+"wurlitzer >=1.0.3"
+],
+"license":"MIT",
+"name":"spyder-kernels",
+"sha256":"4364422feca7d019f7cbc5f0647993aa7a62f36189b0f4fdded8bf0b55d2c6d5",
+"size":100390,
+"timestamp":1619986197566,
+"version":"2.0.2"
+},
+"spyder-kernels-2.0.2-py37h35e4cab_0.tar.bz2":{
 "build":"py37h35e4cab_0",
 "build_number":0,
 "depends":[
@@ -103750,10 +103689,71 @@
 ],
 "license":"MIT",
 "name":"spyder-kernels",
-"sha256":"9f176ca14c6a2e35da1db62f0e125ada0847f0b1bca566cbd0ab122d5c1326d7",
-"size":100086,
-"timestamp":1617408268639,
-"version":"2.0.1"
+"sha256":"9c48c3a747db348e9a8b584cf3101b007ab6553f210887f4b71869bcacf91564",
+"size":100410,
+"timestamp":1619986195162,
+"version":"2.0.2"
+},
+"spyder-kernels-2.0.2-py37hadc05a3_0.tar.bz2":{
+"build":"py37hadc05a3_0",
+"build_number":0,
+"depends":[
+"cloudpickle",
+"ipykernel >=5.3.0",
+"ipython >=7.6.0",
+"jupyter_client >=5.3.4",
+"pypy3.7 >=7.3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"pyzmq >=17",
+"wurlitzer >=1.0.3"
+],
+"license":"MIT",
+"name":"spyder-kernels",
+"sha256":"a2eb8cea4b8867799791e2f786b02ec92ac5ed7ebb8a3a720b271c709f8208ad",
+"size":100700,
+"timestamp":1619986141499,
+"version":"2.0.2"
+},
+"spyder-kernels-2.0.2-py38hf8b3453_0.tar.bz2":{
+"build":"py38hf8b3453_0",
+"build_number":0,
+"depends":[
+"cloudpickle",
+"ipykernel >=5.3.0",
+"ipython >=7.6.0",
+"jupyter_client >=5.3.4",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyzmq >=17",
+"wurlitzer >=1.0.3"
+],
+"license":"MIT",
+"name":"spyder-kernels",
+"sha256":"d51ab3afbddb6bf06d9313a88f862eabc091a8374aa37b291c449e52e4600166",
+"size":100755,
+"timestamp":1619986141047,
+"version":"2.0.2"
+},
+"spyder-kernels-2.0.2-py39hc1b9086_0.tar.bz2":{
+"build":"py39hc1b9086_0",
+"build_number":0,
+"depends":[
+"cloudpickle",
+"ipykernel >=5.3.0",
+"ipython >=7.6.0",
+"jupyter_client >=5.3.4",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyzmq >=17",
+"wurlitzer >=1.0.3"
+],
+"license":"MIT",
+"name":"spyder-kernels",
+"sha256":"17595177b11f537eb56131866080ea8e20ad038abec993dbba637e77c1ce7154",
+"size":100947,
+"timestamp":1619986124461,
+"version":"2.0.2"
 },
 "sqlalchemy-1.4.12-py36hc33305d_0.tar.bz2":{
 "build":"py36hc33305d_0",
@@ -109982,27 +109982,16 @@
 "timestamp":1610127990778,
 "version":"2.1.2"
 },
-"utfcpp-3.1.2-0.tar.bz2":{
-"build":"0",
+"utfcpp-3.2-ha3edaa6_0.tar.bz2":{
+"build":"ha3edaa6_0",
 "build_number":0,
 "depends":[],
 "license":"BSL-1.0",
 "name":"utfcpp",
-"sha256":"a251b204b784820e9bbc242ad8022099adb585b8e7d05923a20dcc019f5a0d9b",
-"size":10307,
-"timestamp":1601278466197,
-"version":"3.1.2"
-},
-"utfcpp-3.1.2-ha3edaa6_1.tar.bz2":{
-"build":"ha3edaa6_1",
-"build_number":1,
-"depends":[],
-"license":"BSL-1.0",
-"name":"utfcpp",
-"sha256":"2e139d6db3fa935d22559383ccb58dfa385ca98f27dfe434153593adce9431d3",
-"size":10409,
-"timestamp":1618394217018,
-"version":"3.1.2"
+"sha256":"8063adf06cd9f76e365b33d61cfb1616ea18e64809d31a887d57a6c46494875d",
+"size":10650,
+"timestamp":1619960204583,
+"version":"3.2"
 },
 "util-linux-2.36-py36h213c9bb_0.tar.bz2":{
 "build":"py36h213c9bb_0",
