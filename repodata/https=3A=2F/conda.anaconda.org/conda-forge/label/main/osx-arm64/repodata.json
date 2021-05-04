@@ -7812,6 +7812,20 @@
 "timestamp":1619897685532,
 "version":"0.5.5"
 },
+"aws-c-cal-0.5.6-he5a0616_0.tar.bz2":{
+"build":"he5a0616_0",
+"build_number":0,
+"depends":[
+"aws-c-common >=0.5.8,<0.5.9.0a0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-c-cal",
+"requires":[],
+"size":28295,
+"timestamp":1620083647999,
+"version":"0.5.6"
+},
 "aws-c-common-0.4.56-hc88da5d_0.tar.bz2":{
 "build":"hc88da5d_0",
 "build_number":0,
@@ -8501,6 +8515,20 @@
 "timestamp":1619897580549,
 "version":"0.9.10"
 },
+"aws-c-io-0.9.11-hb8ac97c_0.tar.bz2":{
+"build":"hb8ac97c_0",
+"build_number":0,
+"depends":[
+"aws-c-cal >=0.5.5,<0.5.6.0a0",
+"aws-c-common >=0.5.8,<0.5.9.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"requires":[],
+"size":112399,
+"timestamp":1620071379253,
+"version":"0.9.11"
+},
 "aws-c-io-0.9.2-hb1046ea_0.tar.bz2":{
 "build":"hb1046ea_0",
 "build_number":0,
@@ -9081,6 +9109,23 @@
 "size":3876317,
 "timestamp":1619961192011,
 "version":"1.8.151"
+},
+"aws-sdk-cpp-1.8.186-hccc41dc_0.tar.bz2":{
+"build":"hccc41dc_0",
+"build_number":0,
+"depends":[
+"aws-c-common >=0.5.8,<0.5.9.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"libcurl >=7.76.1,<8.0a0",
+"libcxx >=11.1.0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-sdk-cpp",
+"requires":[],
+"size":3945558,
+"timestamp":1620073214142,
+"version":"1.8.186"
 },
 "aws-sdk-cpp-1.8.52-h0158dae_0.tar.bz2":{
 "build":"h0158dae_0",
@@ -9825,6 +9870,25 @@
 "timestamp":1612393972707,
 "version":"2.108"
 },
+"blas-2.109-openblas.tar.bz2":{
+"build":"openblas",
+"build_number":9,
+"depends":[
+"blas-devel 3.9.0 9_openblas",
+"libblas 3.9.0 9_openblas",
+"libcblas 3.9.0 9_openblas",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"liblapack 3.9.0 9_openblas",
+"liblapacke 3.9.0 9_openblas"
+],
+"license":"BSD-3-Clause",
+"name":"blas",
+"requires":[],
+"size":12261,
+"timestamp":1620063101895,
+"version":"2.109"
+},
 "blas-2.2-netlib.tar.bz2":{
 "build":"netlib",
 "build_number":2,
@@ -10062,6 +10126,23 @@
 "requires":[],
 "size":11611,
 "timestamp":1612393934236,
+"version":"3.9.0"
+},
+"blas-devel-3.9.0-9_openblas.tar.bz2":{
+"build":"9_openblas",
+"build_number":9,
+"depends":[
+"libblas 3.9.0 9_openblas",
+"libcblas 3.9.0 9_openblas",
+"liblapack 3.9.0 9_openblas",
+"liblapacke 3.9.0 9_openblas",
+"openblas"
+],
+"license":"BSD-3-Clause",
+"name":"blas-devel",
+"requires":[],
+"size":11666,
+"timestamp":1620063055586,
 "version":"3.9.0"
 },
 "blas-devel-3.9.0-netlib.tar.bz2":{
@@ -10987,6 +11068,40 @@
 "size":322491,
 "timestamp":1618867211553,
 "version":"1.75.0"
+},
+"boost-1.76.0-py38h1e2c3d9_0.tar.bz2":{
+"build":"py38h1e2c3d9_0",
+"build_number":0,
+"depends":[
+"boost-cpp 1.76.0.*",
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSL-1.0",
+"name":"boost",
+"requires":[],
+"size":324818,
+"timestamp":1620073708074,
+"version":"1.76.0"
+},
+"boost-1.76.0-py39h776e71f_0.tar.bz2":{
+"build":"py39h776e71f_0",
+"build_number":0,
+"depends":[
+"boost-cpp 1.76.0.*",
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSL-1.0",
+"name":"boost",
+"requires":[],
+"size":322900,
+"timestamp":1620073713826,
+"version":"1.76.0"
 },
 "boost-cpp-1.72.0-h38d3314_3.tar.bz2":{
 "build":"h38d3314_3",
@@ -36720,6 +36835,26 @@
 "timestamp":1612393898570,
 "version":"3.9.0"
 },
+"libblas-3.9.0-9_openblas.tar.bz2":{
+"build":"9_openblas",
+"build_number":9,
+"constrains":[
+"liblapacke 3.9.0 9_openblas",
+"blas * openblas",
+"liblapack 3.9.0 9_openblas",
+"libcblas 3.9.0 9_openblas"
+],
+"depends":[
+"libopenblas >=0.3.15,<0.3.16.0a0",
+"libopenblas >=0.3.15,<1.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libblas",
+"requires":[],
+"size":11792,
+"timestamp":1620063016499,
+"version":"3.9.0"
+},
 "libbraiding-1.1-h9f76cd9_0.tar.bz2":{
 "build":"h9f76cd9_0",
 "build_number":0,
@@ -37061,6 +37196,24 @@
 "requires":[],
 "size":11633,
 "timestamp":1612393907703,
+"version":"3.9.0"
+},
+"libcblas-3.9.0-9_openblas.tar.bz2":{
+"build":"9_openblas",
+"build_number":9,
+"constrains":[
+"blas * openblas",
+"liblapack 3.9.0 9_openblas",
+"liblapacke 3.9.0 9_openblas"
+],
+"depends":[
+"libblas 3.9.0 9_openblas"
+],
+"license":"BSD-3-Clause",
+"name":"libcblas",
+"requires":[],
+"size":11681,
+"timestamp":1620063026445,
 "version":"3.9.0"
 },
 "libccd-2.1-hbdafb3b_1.tar.bz2":{
@@ -39781,6 +39934,24 @@
 "timestamp":1612393916291,
 "version":"3.9.0"
 },
+"liblapack-3.9.0-9_openblas.tar.bz2":{
+"build":"9_openblas",
+"build_number":9,
+"constrains":[
+"liblapacke 3.9.0 9_openblas",
+"blas * openblas",
+"libcblas 3.9.0 9_openblas"
+],
+"depends":[
+"libblas 3.9.0 9_openblas"
+],
+"license":"BSD-3-Clause",
+"name":"liblapack",
+"requires":[],
+"size":11673,
+"timestamp":1620063035885,
+"version":"3.9.0"
+},
 "liblapacke-3.9.0-0_h2ec9a88_netlib.tar.bz2":{
 "build":"0_h2ec9a88_netlib",
 "build_number":0,
@@ -40033,6 +40204,24 @@
 "timestamp":1612393925197,
 "version":"3.9.0"
 },
+"liblapacke-3.9.0-9_openblas.tar.bz2":{
+"build":"9_openblas",
+"build_number":9,
+"constrains":[
+"blas * openblas"
+],
+"depends":[
+"libblas 3.9.0 9_openblas",
+"libcblas 3.9.0 9_openblas",
+"liblapack 3.9.0 9_openblas"
+],
+"license":"BSD-3-Clause",
+"name":"liblapacke",
+"requires":[],
+"size":11690,
+"timestamp":1620063045610,
+"version":"3.9.0"
+},
 "liblief-0.10.1-hb904e53_2.tar.bz2":{
 "build":"hb904e53_2",
 "build_number":2,
@@ -40239,6 +40428,25 @@
 "size":670715,
 "timestamp":1619773424364,
 "version":"0.12.1"
+},
+"libmamba-0.12.2-h238089d_0.tar.bz2":{
+"build":"h238089d_0",
+"build_number":0,
+"depends":[
+"libarchive >=3.5.1,<3.6.0a0",
+"libcurl >=7.76.1,<8.0a0",
+"libcxx >=11.1.0",
+"libsolv >=0.7.18,<0.8.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"reproc-cpp >=14.2,<15.0a0",
+"yaml-cpp >=0.6.3,<0.7.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libmamba",
+"requires":[],
+"size":671903,
+"timestamp":1620045210882,
+"version":"0.12.2"
 },
 "libmlir-11.1.0-h666519e_0.tar.bz2":{
 "build":"h666519e_0",
@@ -40571,6 +40779,24 @@
 "size":6166499,
 "timestamp":1607802897200,
 "version":"0.3.13"
+},
+"libopenblas-0.3.15-openmp_hf330de4_0.tar.bz2":{
+"build":"openmp_hf330de4_0",
+"build_number":0,
+"constrains":[
+"openblas >=0.3.15,<0.3.16.0a0"
+],
+"depends":[
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"llvm-openmp >=11.1.0"
+],
+"license":"BSD-3-Clause",
+"name":"libopenblas",
+"requires":[],
+"size":6126500,
+"timestamp":1620005287606,
+"version":"0.3.15"
 },
 "libopencv-4.5.0-py38_5.tar.bz2":{
 "build":"py38_5",
@@ -41856,6 +42082,24 @@
 "size":4985218,
 "timestamp":1618322437276,
 "version":"2.50.4"
+},
+"librsvg-2.50.5-h957afdb_0.tar.bz2":{
+"build":"h957afdb_0",
+"build_number":0,
+"depends":[
+"cairo >=1.16.0,<1.17.0a0",
+"gdk-pixbuf >=2.42.6,<3.0a0",
+"gettext >=0.19.8.1,<1.0a0",
+"libglib >=2.68.1,<3.0a0",
+"libxml2 >=2.9.10,<2.10.0a0",
+"pango >=1.48.4,<1.49.0a0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"librsvg",
+"requires":[],
+"size":4995998,
+"timestamp":1620068641547,
+"version":"2.50.5"
 },
 "librttopo-1.1.0-hf7bfa32_6.tar.bz2":{
 "build":"hf7bfa32_6",
@@ -44460,6 +44704,17 @@
 "timestamp":1618552672850,
 "version":"0.14.2"
 },
+"macports-legacy-support-1.0.0-h3422bc3_0.tar.bz2":{
+"build":"h3422bc3_0",
+"build_number":0,
+"depends":[],
+"license":"MIT",
+"name":"macports-legacy-support",
+"requires":[],
+"size":17017,
+"timestamp":1620041906078,
+"version":"1.0.0"
+},
 "make-4.3-he57ea6c_1.tar.bz2":{
 "build":"he57ea6c_1",
 "build_number":1,
@@ -44690,6 +44945,50 @@
 "size":593531,
 "timestamp":1619773271929,
 "version":"0.12.1"
+},
+"mamba-0.12.2-py38h932ed75_0.tar.bz2":{
+"build":"py38h932ed75_0",
+"build_number":0,
+"depends":[
+"conda >=4.8",
+"libarchive >=3.5.1,<3.6.0a0",
+"libcurl >=7.76.1,<8.0a0",
+"libcxx >=11.1.0",
+"libiconv >=1.16,<1.17.0a0",
+"libsolv >=0.7.18,<0.8.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"reproc-cpp >=14.2,<15.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"mamba",
+"requires":[],
+"size":490610,
+"timestamp":1620044962031,
+"version":"0.12.2"
+},
+"mamba-0.12.2-py39he886a54_0.tar.bz2":{
+"build":"py39he886a54_0",
+"build_number":0,
+"depends":[
+"conda >=4.8",
+"libarchive >=3.5.1,<3.6.0a0",
+"libcurl >=7.76.1,<8.0a0",
+"libcxx >=11.1.0",
+"libiconv >=1.16,<1.17.0a0",
+"libsolv >=0.7.18,<0.8.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"reproc-cpp >=14.2,<15.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"mamba",
+"requires":[],
+"size":597805,
+"timestamp":1620044913823,
+"version":"0.12.2"
 },
 "mamba-0.7.10-py38h13f8620_0.tar.bz2":{
 "build":"py38h13f8620_0",
@@ -46070,6 +46369,19 @@
 "size":4213462,
 "timestamp":1619776579228,
 "version":"0.12.1"
+},
+"micromamba-0.12.2-0.tar.bz2":{
+"build":"0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"BSD-3-Clause AND MIT AND OpenSSL",
+"name":"micromamba",
+"requires":[],
+"size":4235474,
+"timestamp":1620032929752,
+"version":"0.12.2"
 },
 "micromamba-0.5.1-h04a7b5b_0.tar.bz2":{
 "build":"h04a7b5b_0",
@@ -51257,6 +51569,22 @@
 "timestamp":1607802901771,
 "version":"0.3.13"
 },
+"openblas-0.3.15-openmp_hdb1f584_0.tar.bz2":{
+"build":"openmp_hdb1f584_0",
+"build_number":0,
+"depends":[
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"libopenblas 0.3.15 openmp_hf330de4_0",
+"llvm-openmp >=11.1.0"
+],
+"license":"BSD-3-Clause",
+"name":"openblas",
+"requires":[],
+"size":6876886,
+"timestamp":1620005292510,
+"version":"0.3.15"
+},
 "opencv-4.5.0-py38_5.tar.bz2":{
 "build":"py38_5",
 "build_number":5,
@@ -53868,6 +54196,26 @@
 "size":396789,
 "timestamp":1616555857059,
 "version":"1.48.3"
+},
+"pango-1.48.4-h10c22ef_1.tar.bz2":{
+"build":"h10c22ef_1",
+"build_number":1,
+"depends":[
+"cairo >=1.16.0,<1.17.0a0",
+"fontconfig >=2.13.1,<3.0a0",
+"fonts-conda-ecosystem",
+"freetype >=2.10.4,<3.0a0",
+"fribidi >=1.0.10,<2.0a0",
+"harfbuzz >=2.8.0,<3.0a0",
+"libglib >=2.68.1,<3.0a0",
+"libpng >=1.6.37,<1.7.0a0"
+],
+"license":"LGPL-2.1-or-later",
+"name":"pango",
+"requires":[],
+"size":396299,
+"timestamp":1620067487367,
+"version":"1.48.4"
 },
 "pango-1.48.4-h1fe82c0_0.tar.bz2":{
 "build":"h1fe82c0_0",
@@ -65309,6 +65657,36 @@
 "timestamp":1618061478909,
 "version":"8.304"
 },
+"pythia8-8.305-py38h6f2b01f_0.tar.bz2":{
+"build":"py38h6f2b01f_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"GPL-2.0-only",
+"name":"pythia8",
+"requires":[],
+"size":28598951,
+"timestamp":1620072814732,
+"version":"8.305"
+},
+"pythia8-8.305-py39hfb83b0d_0.tar.bz2":{
+"build":"py39hfb83b0d_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"GPL-2.0-only",
+"name":"pythia8",
+"requires":[],
+"size":28663539,
+"timestamp":1620072816963,
+"version":"8.305"
+},
 "python-3.8.5-h05baefb_8_cpython.tar.bz2":{
 "build":"h05baefb_8_cpython",
 "build_number":8,
@@ -67518,6 +67896,20 @@
 "timestamp":1611488958791,
 "version":"7.3_18"
 },
+"r-class-7.3_19-r40h6f62c66_0.tar.bz2":{
+"build":"r40h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.0,<4.1.0a0",
+"r-mass"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-class",
+"requires":[],
+"size":108329,
+"timestamp":1620044654556,
+"version":"7.3_19"
+},
 "r-cluster-2.1.0-r40h09a9d6b_4.tar.bz2":{
 "build":"r40h09a9d6b_4",
 "build_number":4,
@@ -67786,6 +68178,19 @@
 "timestamp":1613284260862,
 "version":"7.3_53.1"
 },
+"r-mass-7.3_54-r40h6f62c66_0.tar.bz2":{
+"build":"r40h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.0,<4.1.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-mass",
+"requires":[],
+"size":1177160,
+"timestamp":1620045305663,
+"version":"7.3_54"
+},
 "r-matrix-1.3_2-r40hdd02fd4_0.tar.bz2":{
 "build":"r40hdd02fd4_0",
 "build_number":0,
@@ -67924,6 +68329,20 @@
 "timestamp":1611488892028,
 "version":"7.3_15"
 },
+"r-nnet-7.3_16-r40h6f62c66_0.tar.bz2":{
+"build":"r40h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.0,<4.1.0a0",
+"r-mass"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-nnet",
+"requires":[],
+"size":134141,
+"timestamp":1620044619749,
+"version":"7.3_16"
+},
 "r-rappdirs-0.3.1-r40h4d528fc_1004.tar.bz2":{
 "build":"r40h4d528fc_1004",
 "build_number":1004,
@@ -68033,6 +68452,19 @@
 "size":156262,
 "timestamp":1611488974053,
 "version":"7.3_13"
+},
+"r-spatial-7.3_14-r40h6f62c66_0.tar.bz2":{
+"build":"r40h6f62c66_0",
+"build_number":0,
+"depends":[
+"r-base >=4.0,<4.1.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"r-spatial",
+"requires":[],
+"size":156884,
+"timestamp":1620045136522,
+"version":"7.3_14"
 },
 "r-stringi-1.5.3-r40h95b1f10_1.tar.bz2":{
 "build":"r40h95b1f10_1",
@@ -74386,6 +74818,43 @@
 "timestamp":1619539689857,
 "version":"2.4.2"
 },
+"snowflake-connector-python-2.4.3-py38h0148f03_1.tar.bz2":{
+"build":"py38h0148f03_1",
+"build_number":1,
+"constrains":[
+"pandas >1,<1.3"
+],
+"depends":[
+"arrow-cpp >=4.0.0,<4.0.1.0a0",
+"asn1crypto >0.24.0,<2.0.0",
+"azure-common <2",
+"azure-storage-blob >=12.0.0,<13.0.0",
+"boto3 >=1.4.4,<2.0.0",
+"certifi <2021.0.0",
+"certifi >=2017.4.17",
+"cffi >=1.9,<2.0.0",
+"chardet >=3.0.2,<4",
+"cryptography >=2.5.0,<4.0.0",
+"idna >=2.5,<3",
+"libcxx >=11.1.0",
+"oscrypto <2.0.0",
+"pyarrow >=4.0.0,<5.0a0",
+"pycryptodomex >=3.2,!=3.5.0,<4.0.0",
+"pyjwt <3.0.0",
+"pyopenssl >=16.2.0,<21.0.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pytz <2021.0",
+"requests <3.0.0",
+"setuptools >34.0.0"
+],
+"license":"Apache-2.0",
+"name":"snowflake-connector-python",
+"requires":[],
+"size":524371,
+"timestamp":1620025009833,
+"version":"2.4.3"
+},
 "snowflake-connector-python-2.4.3-py38h3777fb4_0.tar.bz2":{
 "build":"py38h3777fb4_0",
 "build_number":0,
@@ -74423,6 +74892,43 @@
 "timestamp":1619548738034,
 "version":"2.4.3"
 },
+"snowflake-connector-python-2.4.3-py38h5df148e_1.tar.bz2":{
+"build":"py38h5df148e_1",
+"build_number":1,
+"constrains":[
+"pandas >1,<1.3"
+],
+"depends":[
+"arrow-cpp >=3.0.0,<3.0.1.0a0",
+"asn1crypto >0.24.0,<2.0.0",
+"azure-common <2",
+"azure-storage-blob >=12.0.0,<13.0.0",
+"boto3 >=1.4.4,<2.0.0",
+"certifi <2021.0.0",
+"certifi >=2017.4.17",
+"cffi >=1.9,<2.0.0",
+"chardet >=3.0.2,<4",
+"cryptography >=2.5.0,<4.0.0",
+"idna >=2.5,<3",
+"libcxx >=11.1.0",
+"oscrypto <2.0.0",
+"pyarrow >=3.0.0,<4.0a0",
+"pycryptodomex >=3.2,!=3.5.0,<4.0.0",
+"pyjwt <3.0.0",
+"pyopenssl >=16.2.0,<21.0.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pytz <2021.0",
+"requests <3.0.0",
+"setuptools >34.0.0"
+],
+"license":"Apache-2.0",
+"name":"snowflake-connector-python",
+"requires":[],
+"size":527718,
+"timestamp":1620025056141,
+"version":"2.4.3"
+},
 "snowflake-connector-python-2.4.3-py39h7f752ed_0.tar.bz2":{
 "build":"py39h7f752ed_0",
 "build_number":0,
@@ -74458,6 +74964,80 @@
 "requires":[],
 "size":522287,
 "timestamp":1619548757627,
+"version":"2.4.3"
+},
+"snowflake-connector-python-2.4.3-py39hcf8a1fb_1.tar.bz2":{
+"build":"py39hcf8a1fb_1",
+"build_number":1,
+"constrains":[
+"pandas >1,<1.3"
+],
+"depends":[
+"arrow-cpp >=3.0.0,<3.0.1.0a0",
+"asn1crypto >0.24.0,<2.0.0",
+"azure-common <2",
+"azure-storage-blob >=12.0.0,<13.0.0",
+"boto3 >=1.4.4,<2.0.0",
+"certifi <2021.0.0",
+"certifi >=2017.4.17",
+"cffi >=1.9,<2.0.0",
+"chardet >=3.0.2,<4",
+"cryptography >=2.5.0,<4.0.0",
+"idna >=2.5,<3",
+"libcxx >=11.1.0",
+"oscrypto <2.0.0",
+"pyarrow >=3.0.0,<4.0a0",
+"pycryptodomex >=3.2,!=3.5.0,<4.0.0",
+"pyjwt <3.0.0",
+"pyopenssl >=16.2.0,<21.0.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pytz <2021.0",
+"requests <3.0.0",
+"setuptools >34.0.0"
+],
+"license":"Apache-2.0",
+"name":"snowflake-connector-python",
+"requires":[],
+"size":527241,
+"timestamp":1620025008200,
+"version":"2.4.3"
+},
+"snowflake-connector-python-2.4.3-py39hfe514d2_1.tar.bz2":{
+"build":"py39hfe514d2_1",
+"build_number":1,
+"constrains":[
+"pandas >1,<1.3"
+],
+"depends":[
+"arrow-cpp >=4.0.0,<4.0.1.0a0",
+"asn1crypto >0.24.0,<2.0.0",
+"azure-common <2",
+"azure-storage-blob >=12.0.0,<13.0.0",
+"boto3 >=1.4.4,<2.0.0",
+"certifi <2021.0.0",
+"certifi >=2017.4.17",
+"cffi >=1.9,<2.0.0",
+"chardet >=3.0.2,<4",
+"cryptography >=2.5.0,<4.0.0",
+"idna >=2.5,<3",
+"libcxx >=11.1.0",
+"oscrypto <2.0.0",
+"pyarrow >=4.0.0,<5.0a0",
+"pycryptodomex >=3.2,!=3.5.0,<4.0.0",
+"pyjwt <3.0.0",
+"pyopenssl >=16.2.0,<21.0.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pytz <2021.0",
+"requests <3.0.0",
+"setuptools >34.0.0"
+],
+"license":"Apache-2.0",
+"name":"snowflake-connector-python",
+"requires":[],
+"size":526525,
+"timestamp":1620025004399,
 "version":"2.4.3"
 },
 "spacy-2.3.5-py38h3578e97_1.tar.bz2":{
@@ -75431,6 +76011,36 @@
 "size":2356490,
 "timestamp":1619746286194,
 "version":"1.4.12"
+},
+"sqlalchemy-1.4.13-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"greenlet !=0.4.17",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"sqlalchemy",
+"requires":[],
+"size":2359545,
+"timestamp":1620078295725,
+"version":"1.4.13"
+},
+"sqlalchemy-1.4.13-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"greenlet !=0.4.17",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"sqlalchemy",
+"requires":[],
+"size":2356538,
+"timestamp":1620078188191,
+"version":"1.4.13"
 },
 "sqlalchemy-1.4.2-py38h30f7421_0.tar.bz2":{
 "build":"py38h30f7421_0",
@@ -77210,6 +77820,69 @@
 "size":324107906,
 "timestamp":1618234710693,
 "version":"4.1.1"
+},
+"tf2onnx-1.8.2-py38h3777fb4_0.tar.bz2":{
+"build":"py38h3777fb4_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"onnx >=1.4.1",
+"python >=3.8,<3.9.0a0",
+"python-flatbuffers",
+"python_abi 3.8.* *_cp38",
+"requests",
+"six",
+"tensorflow >=1.5"
+],
+"license":"MIT",
+"name":"tf2onnx",
+"requires":[],
+"size":423199,
+"timestamp":1620046380364,
+"version":"1.8.2"
+},
+"tf2onnx-1.8.4-py38h3777fb4_0.tar.bz2":{
+"build":"py38h3777fb4_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"onnx >=1.4.1",
+"python >=3.8,<3.9.0a0",
+"python-flatbuffers",
+"python_abi 3.8.* *_cp38",
+"requests",
+"six",
+"tensorflow >=1.5"
+],
+"license":"MIT",
+"name":"tf2onnx",
+"requires":[],
+"size":458491,
+"timestamp":1620055853699,
+"version":"1.8.4"
+},
+"tf2onnx-1.8.4-py39h7f752ed_0.tar.bz2":{
+"build":"py39h7f752ed_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"onnx >=1.4.1",
+"python >=3.9,<3.10.0a0",
+"python-flatbuffers",
+"python_abi 3.9.* *_cp39",
+"requests",
+"six",
+"tensorflow >=1.5"
+],
+"license":"MIT",
+"name":"tf2onnx",
+"requires":[],
+"size":456082,
+"timestamp":1620055801682,
+"version":"1.8.4"
 },
 "thinc-7.4.5-py38h3578e97_2.tar.bz2":{
 "build":"py38h3578e97_2",
@@ -82256,6 +82929,17 @@
 "timestamp":1618399010760,
 "version":"0.4.2"
 },
+"xorg-damageproto-1.2.1-h3422bc3_1002.tar.bz2":{
+"build":"h3422bc3_1002",
+"build_number":1002,
+"depends":[],
+"license":"MIT",
+"name":"xorg-damageproto",
+"requires":[],
+"size":25500,
+"timestamp":1620067875716,
+"version":"1.2.1"
+},
 "xorg-fixesproto-5.0-h3422bc3_1002.tar.bz2":{
 "build":"h3422bc3_1002",
 "build_number":1002,
@@ -82413,6 +83097,22 @@
 "timestamp":1617718021813,
 "version":"5.0.3"
 },
+"xorg-libxi-1.7.10-h3422bc3_0.tar.bz2":{
+"build":"h3422bc3_0",
+"build_number":0,
+"depends":[
+"xorg-inputproto",
+"xorg-libx11 >=1.7.0,<2.0a0",
+"xorg-libxext 1.3.*",
+"xorg-libxfixes 5.0.*"
+],
+"license":"MIT",
+"name":"xorg-libxi",
+"requires":[],
+"size":40455,
+"timestamp":1620070989844,
+"version":"1.7.10"
+},
 "xorg-libxmu-1.1.3-h3422bc3_0.tar.bz2":{
 "build":"h3422bc3_0",
 "build_number":0,
@@ -82520,6 +83220,17 @@
 "size":28278,
 "timestamp":1610027728249,
 "version":"7.3.0"
+},
+"xorg-xf86vidmodeproto-2.3.1-h3422bc3_1002.tar.bz2":{
+"build":"h3422bc3_1002",
+"build_number":1002,
+"depends":[],
+"license":"MIT",
+"name":"xorg-xf86vidmodeproto",
+"requires":[],
+"size":23970,
+"timestamp":1620067340753,
+"version":"2.3.1"
 },
 "xorg-xproto-7.0.31-h27ca646_1007.tar.bz2":{
 "build":"h27ca646_1007",
@@ -82951,6 +83662,20 @@
 "size":185929,
 "timestamp":1619687997180,
 "version":"0.23.8"
+},
+"xtensor-0.23.9-hc021e02_0.tar.bz2":{
+"build":"hc021e02_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"xtl >=0.7,<0.8"
+],
+"license":"BSD-3-Clause",
+"name":"xtensor",
+"requires":[],
+"size":185282,
+"timestamp":1620080254535,
+"version":"0.23.9"
 },
 "xtensor-python-0.24.1-py38h3578e97_3.tar.bz2":{
 "build":"py38h3578e97_3",
