@@ -63,43 +63,44 @@
 "timestamp":1614725704572,
 "version":"3.4.3"
 },
-"_libgcc_mutex-0.1-anaconda_defaults.tar.bz2":{
-"build":"anaconda_defaults",
-"build_number":0,
-"depends":[],
-"license":"None",
-"name":"_libgcc_mutex",
-"sha256":"d2a70f277a4acf5cca7c0fcae4ff7823eae061c4f55f3d36a87cd934019830f6",
-"size":2961,
-"timestamp":1615227980826,
-"version":"0.1"
-},
-"_libgcc_mutex-0.1-main.tar.bz2":{
-"build":"main",
-"build_number":0,
-"depends":[],
-"license":"None",
-"name":"_libgcc_mutex",
-"sha256":"737e7b3948f457f84b34818955f368890ffbd74c0ae5fcb14a3f288f44fef2a7",
-"size":2966,
-"timestamp":1615227983732,
-"version":"0.1"
-},
-"_openmp_mutex-5.1-1_gnu.tar.bz2":{
-"build":"1_gnu",
-"build_number":0,
-"constrains":[
-"openmp_impl 9999"
-],
+"anaconda-clean-1.1.0-py37hd43f75c_1.tar.bz2":{
+"build":"py37hd43f75c_1",
+"build_number":1,
 "depends":[
-"libgomp >=7.5.0"
+"python >=3.7,<3.8.0a0"
 ],
-"license":"BSD-3-Clause",
-"name":"_openmp_mutex",
-"sha256":"8a530d6687efef7936c950a9125f7b280f387a8c0d36bb9b24efce0eb27065a8",
-"size":1575893,
-"timestamp":1612838690014,
-"version":"5.1"
+"license":"BSD",
+"name":"anaconda-clean",
+"sha256":"f23d1a5574e01abbe38251f52360f10fe499ed893ef7c74d7fe29e65c99ebf7b",
+"size":7589,
+"timestamp":1620143083012,
+"version":"1.1.0"
+},
+"anaconda-clean-1.1.0-py38hd43f75c_1.tar.bz2":{
+"build":"py38hd43f75c_1",
+"build_number":1,
+"depends":[
+"python >=3.8,<3.9.0a0"
+],
+"license":"BSD",
+"name":"anaconda-clean",
+"sha256":"298b8c8a59ffd32ed43348ef5b7cbefbf69f9eb274213c03b12729a169ac72b4",
+"size":7604,
+"timestamp":1620143094792,
+"version":"1.1.0"
+},
+"anaconda-clean-1.1.0-py39hd43f75c_1.tar.bz2":{
+"build":"py39hd43f75c_1",
+"build_number":1,
+"depends":[
+"python >=3.9,<3.10.0a0"
+],
+"license":"BSD",
+"name":"anaconda-clean",
+"sha256":"5d5061adc0e450368c7cb55d8e9434914a86398c2bf46d8328ff4d5e72fce3eb",
+"size":7580,
+"timestamp":1620143106860,
+"version":"1.1.0"
 },
 "anaconda-client-1.7.2-py37hd43f75c_0.tar.bz2":{
 "build":"py37hd43f75c_0",
@@ -719,61 +720,6 @@
 "size":167601,
 "timestamp":1614703510922,
 "version":"4.9.1"
-},
-"binutils-2.36.1-h64c2a2e_2.tar.bz2":{
-"build":"h64c2a2e_2",
-"build_number":2,
-"depends":[
-"binutils_impl_linux-aarch64 >=2.36.1,<2.36.2.0a0"
-],
-"license":"GPL-3.0-only",
-"name":"binutils",
-"sha256":"5fba8b131caaf3c1625d415fafb9b4365f8d127519f732bd16928b1689003e63",
-"size":34041,
-"timestamp":1613662815068,
-"version":"2.36.1"
-},
-"binutils_impl_linux-aarch64-2.36.1-h21f23c2_2.tar.bz2":{
-"build":"h21f23c2_2",
-"build_number":2,
-"depends":[
-"ld_impl_linux-aarch64 2.36.1 hfa81395_2",
-"sysroot_linux-aarch64"
-],
-"license":"GPL-3.0-only",
-"name":"binutils_impl_linux-aarch64",
-"sha256":"5ac85926a7d5a43b9aa804e6b4d0af3962cfe9fba32fb0586b489b8eadbad35d",
-"size":10554963,
-"timestamp":1613662793323,
-"version":"2.36.1"
-},
-"binutils_linux-aarch64-2.36-h1234567_29_bootstrapping.tar.bz2":{
-"build":"h1234567_29_bootstrapping",
-"build_number":29,
-"depends":[
-"binutils_impl_linux-aarch64 2.36.*",
-"sysroot_linux-aarch64"
-],
-"license":"BSD-3-Clause",
-"name":"binutils_linux-aarch64",
-"sha256":"9135c35b501e857f87099ee5c1174de7d88839dd83a4ea41a250690d74cdd3b4",
-"size":21632,
-"timestamp":1612448321799,
-"version":"2.36"
-},
-"binutils_linux-aarch64-2.36-h1234567_30_bootstrapping.tar.bz2":{
-"build":"h1234567_30_bootstrapping",
-"build_number":30,
-"depends":[
-"binutils_impl_linux-aarch64 2.36.*",
-"sysroot_linux-aarch64"
-],
-"license":"BSD-3-Clause",
-"name":"binutils_linux-aarch64",
-"sha256":"710ea330b3560f8d6b501406bf0b1e2b5a0f3fe1a71c7967edce02863d71bac5",
-"size":21641,
-"timestamp":1612839414271,
-"version":"2.36"
 },
 "bison-3.7.4-h7c1a80f_1.tar.bz2":{
 "build":"h7c1a80f_1",
@@ -2365,28 +2311,6 @@
 "timestamp":1614705932097,
 "version":"5.5"
 },
-"crosstool-ng-1.24.0_280-h10724fe_3_bootstrapping.tar.bz2":{
-"build":"h10724fe_3_bootstrapping",
-"build_number":3,
-"depends":[],
-"license":"GPL-2.0-or-later",
-"name":"crosstool-ng",
-"sha256":"65e61d87df47e8862b07e6bb15eef8fc290df5b73a63091c737de5f66345375f",
-"size":4289059,
-"timestamp":1612470357186,
-"version":"1.24.0_280"
-},
-"crosstool-ng-1.24.0_286-h4b7b5cf_3_bootstrapping_10_2.tar.bz2":{
-"build":"h4b7b5cf_3_bootstrapping_10_2",
-"build_number":3,
-"depends":[],
-"license":"GPL-2.0-or-later",
-"name":"crosstool-ng",
-"sha256":"dbf63faf9ca3fd94cfc442277d14b97bae1d752872bcbc542fd3b4683ec566ad",
-"size":4369646,
-"timestamp":1612837185002,
-"version":"1.24.0_286"
-},
 "cryptography-3.3.1-py37hcd09bdd_0.tar.bz2":{
 "build":"py37hcd09bdd_0",
 "build_number":0,
@@ -3304,98 +3228,6 @@
 "timestamp":1615047745350,
 "version":"5.1.0"
 },
-"gcc_bootstrap_linux-aarch64-10.2.0-hbcd1dce_30.tar.bz2":{
-"build":"hbcd1dce_30",
-"build_number":30,
-"depends":[],
-"license":"GPL",
-"name":"gcc_bootstrap_linux-aarch64",
-"sha256":"13e3fa274288b4662a6963c2160ccb260cf4ca1f441f0b7a7014356ce1910965",
-"size":115928446,
-"timestamp":1612839502077,
-"version":"10.2.0"
-},
-"gcc_bootstrap_linux-aarch64-8.4.0-h2d24788_30.tar.bz2":{
-"build":"h2d24788_30",
-"build_number":30,
-"depends":[],
-"license":"GPL",
-"name":"gcc_bootstrap_linux-aarch64",
-"sha256":"7bc23073f36156ffb28070916cd6d16de3eb5940f79d17f369ebe87a34104ff6",
-"size":101702854,
-"timestamp":1612472515914,
-"version":"8.4.0"
-},
-"gcc_impl_linux-aarch64-10.2.0-h1234567_0_bootstrapping.tar.bz2":{
-"build":"h1234567_0_bootstrapping",
-"build_number":0,
-"depends":[
-"binutils_impl_linux-aarch64 >=2.36.1",
-"libgcc-devel_linux-aarch64 10.2.0 h1234567_0_bootstrapping",
-"libgcc-ng >=10.2.0",
-"libgcc-ng >=4.9",
-"libgomp >=10.2.0",
-"libstdcxx-ng >=10.2.0",
-"libstdcxx-ng >=4.9",
-"sysroot_linux-aarch64"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"gcc_impl_linux-aarch64",
-"sha256":"67ad164a8ca54d45fbe3c07e59ebbc22598d522f3b97e916ca3624184f2f0055",
-"size":48466333,
-"timestamp":1612838894531,
-"version":"10.2.0"
-},
-"gcc_impl_linux-aarch64-8.4.0-h1234567_0_bootstrapping.tar.bz2":{
-"build":"h1234567_0_bootstrapping",
-"build_number":0,
-"depends":[
-"binutils_impl_linux-aarch64 >=2.36",
-"libgcc-devel_linux-aarch64 8.4.0 h1234567_0_bootstrapping",
-"libgcc-ng >=4.9",
-"libgcc-ng >=8.4.0",
-"libgomp >=8.4.0",
-"libstdcxx-ng >=4.9",
-"libstdcxx-ng >=8.4.0",
-"sysroot_linux-aarch64"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"gcc_impl_linux-aarch64",
-"sha256":"fe966445d73f735600faca8c89905ca3b36996cdca72303ddf3ab007da564969",
-"size":40181052,
-"timestamp":1612471953674,
-"version":"8.4.0"
-},
-"gcc_linux-aarch64-10.2.0-h1234567_30_bootstrapping.tar.bz2":{
-"build":"h1234567_30_bootstrapping",
-"build_number":30,
-"depends":[
-"binutils_linux-aarch64 2.36 h1234567_30_bootstrapping",
-"gcc_impl_linux-aarch64 10.2.0.*",
-"sysroot_linux-aarch64"
-],
-"license":"BSD-3-Clause",
-"name":"gcc_linux-aarch64",
-"sha256":"4888e14d93a6105faa5ce43153b7c94edb2c79832a327cf944726bfd4ae65667",
-"size":22159,
-"timestamp":1612839416818,
-"version":"10.2.0"
-},
-"gcc_linux-aarch64-8.4.0-h1234567_30_bootstrapping.tar.bz2":{
-"build":"h1234567_30_bootstrapping",
-"build_number":30,
-"depends":[
-"binutils_linux-aarch64 2.36 h1234567_30_bootstrapping",
-"gcc_impl_linux-aarch64 8.4.0.*",
-"sysroot_linux-aarch64"
-],
-"license":"BSD-3-Clause",
-"name":"gcc_linux-aarch64",
-"sha256":"b7a4e5330c02116a5c80f167af877bca5f2cf3e2212ddd6c4f0697205063c971",
-"size":22118,
-"timestamp":1612472433296,
-"version":"8.4.0"
-},
 "get_terminal_size-1.0.0-hd43f75c_0.tar.bz2":{
 "build":"hd43f75c_0",
 "build_number":0,
@@ -3578,74 +3410,6 @@
 "size":1730665,
 "timestamp":1619012927701,
 "version":"21.1.2"
-},
-"gfortran_impl_linux-aarch64-10.2.0-h1234567_0_bootstrapping.tar.bz2":{
-"build":"h1234567_0_bootstrapping",
-"build_number":0,
-"depends":[
-"gcc_impl_linux-aarch64 >=10.2.0",
-"libgcc-ng >=10.2.0",
-"libgcc-ng >=4.9",
-"libgfortran5 >=10.2.0,<11.0a0",
-"libstdcxx-ng >=4.9",
-"sysroot_linux-aarch64"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"gfortran_impl_linux-aarch64",
-"sha256":"8a262db54a98a8dd329cd76fe13f3bd98ae70833bb0be9ec24ee436ff652c7b0",
-"size":12150933,
-"timestamp":1612839047953,
-"version":"10.2.0"
-},
-"gfortran_impl_linux-aarch64-8.4.0-h1234567_0_bootstrapping.tar.bz2":{
-"build":"h1234567_0_bootstrapping",
-"build_number":0,
-"depends":[
-"gcc_impl_linux-aarch64 >=8.4.0",
-"libgcc-ng >=4.9",
-"libgcc-ng >=8.4.0",
-"libgfortran5 >=8.4.0,<9.0a0",
-"libstdcxx-ng >=4.9",
-"sysroot_linux-aarch64"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"gfortran_impl_linux-aarch64",
-"sha256":"c40375a61d714eba1aa1f4ed23b0d3a189616cf3ad7adfa0a27e220b60cf1ba9",
-"size":10106875,
-"timestamp":1612472092619,
-"version":"8.4.0"
-},
-"gfortran_linux-aarch64-10.2.0-h1234567_30_bootstrapping.tar.bz2":{
-"build":"h1234567_30_bootstrapping",
-"build_number":30,
-"depends":[
-"binutils_linux-aarch64 2.36 h1234567_30_bootstrapping",
-"gcc_linux-aarch64 10.2.0 h1234567_30_bootstrapping",
-"gfortran_impl_linux-aarch64 10.2.0.*",
-"sysroot_linux-aarch64"
-],
-"license":"BSD-3-Clause",
-"name":"gfortran_linux-aarch64",
-"sha256":"05eef6296d889961464ffccb0ed9cdeae4f6df386e7a94387ec5075022f658a5",
-"size":21696,
-"timestamp":1612839419708,
-"version":"10.2.0"
-},
-"gfortran_linux-aarch64-8.4.0-h1234567_30_bootstrapping.tar.bz2":{
-"build":"h1234567_30_bootstrapping",
-"build_number":30,
-"depends":[
-"binutils_linux-aarch64 2.36 h1234567_30_bootstrapping",
-"gcc_linux-aarch64 8.4.0 h1234567_30_bootstrapping",
-"gfortran_impl_linux-aarch64 8.4.0.*",
-"sysroot_linux-aarch64"
-],
-"license":"BSD-3-Clause",
-"name":"gfortran_linux-aarch64",
-"sha256":"d3d656720a5aff6ff1b39db07d1c8f920296261768a8b12bf0a9524b7295a45d",
-"size":21693,
-"timestamp":1612472436195,
-"version":"8.4.0"
 },
 "giflib-5.2.1-hfd63f10_0.tar.bz2":{
 "build":"hfd63f10_0",
@@ -3977,68 +3741,6 @@
 "size":4409427,
 "timestamp":1616091553028,
 "version":"1.14.1"
-},
-"gxx_impl_linux-aarch64-10.2.0-h1234567_0_bootstrapping.tar.bz2":{
-"build":"h1234567_0_bootstrapping",
-"build_number":0,
-"depends":[
-"gcc_impl_linux-aarch64 10.2.0 h1234567_0_bootstrapping",
-"libstdcxx-devel_linux-aarch64 10.2.0 h1234567_0_bootstrapping",
-"sysroot_linux-aarch64"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"gxx_impl_linux-aarch64",
-"sha256":"372a110389ac3742937129d688cdff6f6eaf6fd6bbd87f2789550b2d33340486",
-"size":12778024,
-"timestamp":1612839131738,
-"version":"10.2.0"
-},
-"gxx_impl_linux-aarch64-8.4.0-h1234567_0_bootstrapping.tar.bz2":{
-"build":"h1234567_0_bootstrapping",
-"build_number":0,
-"depends":[
-"gcc_impl_linux-aarch64 8.4.0 h1234567_0_bootstrapping",
-"libstdcxx-devel_linux-aarch64 8.4.0 h1234567_0_bootstrapping",
-"sysroot_linux-aarch64"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"gxx_impl_linux-aarch64",
-"sha256":"c9423769997e9621d469a341ef4c88b029d0957565aa9a4721006de194b78941",
-"size":10583264,
-"timestamp":1612472173515,
-"version":"8.4.0"
-},
-"gxx_linux-aarch64-10.2.0-h1234567_30_bootstrapping.tar.bz2":{
-"build":"h1234567_30_bootstrapping",
-"build_number":30,
-"depends":[
-"binutils_linux-aarch64 2.36 h1234567_30_bootstrapping",
-"gcc_linux-aarch64 10.2.0 h1234567_30_bootstrapping",
-"gxx_impl_linux-aarch64 10.2.0.*",
-"sysroot_linux-aarch64"
-],
-"license":"BSD-3-Clause",
-"name":"gxx_linux-aarch64",
-"sha256":"0c274197c0e13fc53bc9b12e7a01ab7ebe5e39f53c916ae6d5c3dc774811c506",
-"size":21914,
-"timestamp":1612839422339,
-"version":"10.2.0"
-},
-"gxx_linux-aarch64-8.4.0-h1234567_30_bootstrapping.tar.bz2":{
-"build":"h1234567_30_bootstrapping",
-"build_number":30,
-"depends":[
-"binutils_linux-aarch64 2.36 h1234567_30_bootstrapping",
-"gcc_linux-aarch64 8.4.0 h1234567_30_bootstrapping",
-"gxx_impl_linux-aarch64 8.4.0.*",
-"sysroot_linux-aarch64"
-],
-"license":"BSD-3-Clause",
-"name":"gxx_linux-aarch64",
-"sha256":"8562ae3d2935cb14fd99947294ede5f0300bd8f9ef499c927c81d607cf2e340a",
-"size":21864,
-"timestamp":1612472438827,
-"version":"8.4.0"
 },
 "h5py-3.1.0-py37ha894db9_0.tar.bz2":{
 "build":"py37ha894db9_0",
@@ -5186,20 +4888,6 @@
 "timestamp":1613884609122,
 "version":"2.12"
 },
-"ld_impl_linux-aarch64-2.36.1-hfa81395_2.tar.bz2":{
-"build":"hfa81395_2",
-"build_number":2,
-"constrains":[
-"binutils_impl_linux-aarch64 2.36.1"
-],
-"depends":[],
-"license":"GPL-3.0-only",
-"name":"ld_impl_linux-aarch64",
-"sha256":"cb9ee54f8cb8158cc5f6b95c4bf64a5cf53b41defff3902ba2b0cb132c56fdea",
-"size":734575,
-"timestamp":1613662785361,
-"version":"2.36.1"
-},
 "lerc-2.2.1-h7c1a80f_0.tar.bz2":{
 "build":"h7c1a80f_0",
 "build_number":0,
@@ -5472,138 +5160,6 @@
 "timestamp":1615050398913,
 "version":"3.3"
 },
-"libgcc-devel_linux-aarch64-10.2.0-h1234567_0_bootstrapping.tar.bz2":{
-"build":"h1234567_0_bootstrapping",
-"build_number":0,
-"depends":[],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"libgcc-devel_linux-aarch64",
-"sha256":"9638ff22d64c3aaebc68678746481c271a84d075a3363e77451b92f787003ab3",
-"size":1818306,
-"timestamp":1612838377607,
-"version":"10.2.0"
-},
-"libgcc-devel_linux-aarch64-8.4.0-h1234567_0_bootstrapping.tar.bz2":{
-"build":"h1234567_0_bootstrapping",
-"build_number":0,
-"depends":[],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"libgcc-devel_linux-aarch64",
-"sha256":"c2fbdc28dbc8e9a29323744de59743192b81a7a8b81729dc6c186e61c0d98405",
-"size":1803871,
-"timestamp":1612471447834,
-"version":"8.4.0"
-},
-"libgcc-ng-10.2.0-h1234567_0_bootstrapping.tar.bz2":{
-"build":"h1234567_0_bootstrapping",
-"build_number":0,
-"constrains":[
-"libgomp 10.2.0 h1234567_0_bootstrapping"
-],
-"depends":[
-"_openmp_mutex >=5.1",
-"_libgcc_mutex * main"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"libgcc-ng",
-"sha256":"4708b8e0c93a8bc47f05cadad5477339c11c87f70b551adf71a43b4610b88ed9",
-"size":8221997,
-"timestamp":1612838799863,
-"version":"10.2.0"
-},
-"libgcc-ng-8.4.0-h1234567_0_bootstrapping.tar.bz2":{
-"build":"h1234567_0_bootstrapping",
-"build_number":0,
-"constrains":[
-"libgomp 8.4.0 h1234567_0_bootstrapping"
-],
-"depends":[
-"_openmp_mutex >=5.1",
-"_libgcc_mutex * main"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"libgcc-ng",
-"sha256":"a1831e58b0c7efd982d944902a34e95f69a82b98996ab329ac88aa6de66c2c01",
-"size":8822434,
-"timestamp":1612471860812,
-"version":"8.4.0"
-},
-"libgfortran-ng-10.2.0-h9534d94_0.tar.bz2":{
-"build":"h9534d94_0",
-"build_number":0,
-"depends":[
-"libgfortran5 10.2.0.*"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"libgfortran-ng",
-"sha256":"686cd0dbcecd2036a3a11844932f6e0cd76de37ee4322b2a433e43a035600ca0",
-"size":1575600,
-"timestamp":1612838741867,
-"version":"10.2.0"
-},
-"libgfortran-ng-8.4.0-h8b5a7d5_0.tar.bz2":{
-"build":"h8b5a7d5_0",
-"build_number":0,
-"depends":[
-"libgfortran5 8.4.0.*"
-],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"libgfortran-ng",
-"sha256":"095cba2583539b4cfdf5acde945654c3bd58136518b365bacf1d75ba5742c743",
-"size":1504077,
-"timestamp":1612471802081,
-"version":"8.4.0"
-},
-"libgfortran5-10.2.0-h1234567_0_bootstrapping.tar.bz2":{
-"build":"h1234567_0_bootstrapping",
-"build_number":0,
-"constrains":[
-"libgfortran-ng 10.2.0 *_0"
-],
-"depends":[],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"libgfortran5",
-"sha256":"d7c02f3020c8bcdbb7f0cd2dfc27a7c618f1e0318e7bd82a5ab02945a0d9e55e",
-"size":3160677,
-"timestamp":1612838433040,
-"version":"10.2.0"
-},
-"libgfortran5-8.4.0-h1234567_0_bootstrapping.tar.bz2":{
-"build":"h1234567_0_bootstrapping",
-"build_number":0,
-"constrains":[
-"libgfortran-ng 8.4.0 *_0"
-],
-"depends":[],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"libgfortran5",
-"sha256":"c64be21a4f2af8664771da28d85ebe3870c250cf2fe750a4075a69223fa2a5c2",
-"size":2921523,
-"timestamp":1612471502836,
-"version":"8.4.0"
-},
-"libgomp-10.2.0-h1234567_0_bootstrapping.tar.bz2":{
-"build":"h1234567_0_bootstrapping",
-"build_number":0,
-"depends":[],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"libgomp",
-"sha256":"3e478eb251ba260fb1e54128a1cd7a598fa3636392ca6b0c451c7f37246d6ce1",
-"size":1969066,
-"timestamp":1612838494374,
-"version":"10.2.0"
-},
-"libgomp-8.4.0-h1234567_0_bootstrapping.tar.bz2":{
-"build":"h1234567_0_bootstrapping",
-"build_number":0,
-"depends":[],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"libgomp",
-"sha256":"b66d89108123133cc045e2a67d3fc38ff9804e12923511061adcabc0e9d47c56",
-"size":1818484,
-"timestamp":1612471562476,
-"version":"8.4.0"
-},
 "libiconv-1.16-h9cdd2b7_0.tar.bz2":{
 "build":"h9cdd2b7_0",
 "build_number":0,
@@ -5864,50 +5420,6 @@
 "size":111909,
 "timestamp":1613408803441,
 "version":"1.9.0"
-},
-"libstdcxx-devel_linux-aarch64-10.2.0-h1234567_0_bootstrapping.tar.bz2":{
-"build":"h1234567_0_bootstrapping",
-"build_number":0,
-"depends":[],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"libstdcxx-devel_linux-aarch64",
-"sha256":"fe7122cd7ee5d27eb08574ce9434293e961224b0e0453bb57668d1b4183f0783",
-"size":14911223,
-"timestamp":1612838550276,
-"version":"10.2.0"
-},
-"libstdcxx-devel_linux-aarch64-8.4.0-h1234567_0_bootstrapping.tar.bz2":{
-"build":"h1234567_0_bootstrapping",
-"build_number":0,
-"depends":[],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"libstdcxx-devel_linux-aarch64",
-"sha256":"de3d787a7f1b2baa8308b33e294b5f3e2634806e6edcb505526982ebbcd34675",
-"size":13709060,
-"timestamp":1612471616299,
-"version":"8.4.0"
-},
-"libstdcxx-ng-10.2.0-h1234567_0_bootstrapping.tar.bz2":{
-"build":"h1234567_0_bootstrapping",
-"build_number":0,
-"depends":[],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"libstdcxx-ng",
-"sha256":"8506f52fe31c29d1a6c332528d2c9271e13413f6bcc9318a1ec30c062a9348ae",
-"size":5678275,
-"timestamp":1612838628394,
-"version":"10.2.0"
-},
-"libstdcxx-ng-8.4.0-h1234567_0_bootstrapping.tar.bz2":{
-"build":"h1234567_0_bootstrapping",
-"build_number":0,
-"depends":[],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"libstdcxx-ng",
-"sha256":"3c1faa81f9a47b078ca389acc0d6d15c3add2492d5887ea50e0cde4dba4466c8",
-"size":4518014,
-"timestamp":1612471692184,
-"version":"8.4.0"
 },
 "libtiff-4.1.0-h59767ab_0.tar.bz2":{
 "build":"h59767ab_0",

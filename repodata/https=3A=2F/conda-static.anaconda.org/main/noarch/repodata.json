@@ -815,6 +815,24 @@
 "timestamp":1616527823569,
 "version":"1.5.8"
 },
+"alembic-1.6.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"mako",
+"python >=3.6",
+"python-dateutil",
+"python-editor >=0.3",
+"sqlalchemy >=1.3.0"
+],
+"license":"MIT",
+"name":"alembic",
+"noarch":"python",
+"sha256":"d0f7125e104fc26cd4ed487227b426a12de7984da667f6ff8b84e1242e6285aa",
+"size":116513,
+"timestamp":1620083040305,
+"version":"1.6.0"
+},
 "alsa-lib-cos6-i686-1.1.0-hc30c76e_0.tar.bz2":{
 "build":"hc30c76e_0",
 "build_number":0,
@@ -10123,6 +10141,29 @@
 "size":254192,
 "timestamp":1611347598829,
 "version":"1.0.3"
+},
+"conda-repo-cli-1.0.4-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"anaconda-client >=1.7.2",
+"clyent >=1.2.0",
+"nbformat >=4.4.0",
+"python",
+"python-dateutil >=2.6.1",
+"pytz",
+"pyyaml >=3.12",
+"requests >=2.9.1",
+"setuptools",
+"six"
+],
+"license":"BSD-3-Clause",
+"name":"conda-repo-cli",
+"noarch":"python",
+"sha256":"38ecb9687351ed3b8857344e7a3b62209ce3a6ccfb24570a3616078be2446b3a",
+"size":47469,
+"timestamp":1620168474545,
+"version":"1.0.4"
 },
 "conda-token-0.1.2-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -28709,36 +28750,6 @@
 "timestamp":1611125303516,
 "version":"3.10.0"
 },
-"kernel-headers_linux-aarch64-4.18.0-h2ca1c70_10.tar.bz2":{
-"build":"h2ca1c70_10",
-"build_number":10,
-"constrains":[
-"sysroot_linux-aarch64 ==2.17"
-],
-"depends":[],
-"license":"LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later AND MPL-2.0",
-"name":"kernel-headers_linux-aarch64",
-"noarch":"generic",
-"sha256":"d0fe19778e2f5f96985b24fa3bd092115288affd957b8accc0559cff8eda457a",
-"size":1135550,
-"timestamp":1610539679292,
-"version":"4.18.0"
-},
-"kernel-headers_linux-aarch64-4.18.0-hcebdbab_10.tar.bz2":{
-"build":"hcebdbab_10",
-"build_number":10,
-"constrains":[
-"sysroot_linux-aarch64 ==2.17"
-],
-"depends":[],
-"license":"LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later AND MPL-2.0",
-"name":"kernel-headers_linux-aarch64",
-"noarch":"generic",
-"sha256":"c7767b03d30472fe159b4b7897be1ed15dd0e9dbb93a92e8997cb7af78f811ab",
-"size":1136920,
-"timestamp":1611125151527,
-"version":"4.18.0"
-},
 "kernel-headers_linux-ppc64le-3.10.0-h1da2f99_10.tar.bz2":{
 "build":"h1da2f99_10",
 "build_number":10,
@@ -38258,6 +38269,21 @@
 "size":27745,
 "timestamp":1619305175508,
 "version":"1.19.3"
+},
+"pg8000-1.19.4-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python >=3.6",
+"scramp 1.4.0"
+],
+"license":"BSD 3-clause",
+"name":"pg8000",
+"noarch":"python",
+"sha256":"2524c8ab39b7038559bf624df003ecc50d44a2d90539ae277dc20ae251d14aeb",
+"size":27684,
+"timestamp":1620084774323,
+"version":"1.19.4"
 },
 "phik-0.10.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -50970,6 +50996,33 @@
 "timestamp":1618823243418,
 "version":"0.37.0"
 },
+"sqlalchemy-utils-0.37.1-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"anyjson >=0.3.3",
+"arrow >=0.3.4",
+"babel >=1.3",
+"colour >=0.0.4",
+"cryptography >=0.6",
+"furl >=0.4.1",
+"intervals >=0.7.1",
+"passlib >=1.6,<2.0",
+"pendulum >=2.0.5",
+"phonenumbers >=5.9.2",
+"python",
+"python-dateutil",
+"six",
+"sqlalchemy >=1.0"
+],
+"license":"BSD-3-Clause",
+"name":"sqlalchemy-utils",
+"noarch":"python",
+"sha256":"c8b11ccb2a055e3fa9a281aad8ec135afbca8844ebf993ec83708454099ebb0b",
+"size":64174,
+"timestamp":1620085483949,
+"version":"0.37.1"
+},
 "sqlparse-0.3.0-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -51451,20 +51504,6 @@
 "size":34168696,
 "timestamp":1611125308904,
 "track_features":"sysroot_linux-64_2.17",
-"version":"2.17"
-},
-"sysroot_linux-aarch64-2.17-he88851e_10.tar.bz2":{
-"build":"he88851e_10",
-"build_number":10,
-"depends":[
-"kernel-headers_linux-aarch64 4.18.0 hcebdbab_10"
-],
-"license":"LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later AND MPL-2.0",
-"name":"sysroot_linux-aarch64",
-"noarch":"generic",
-"sha256":"c46dbf92c55f3dba4fa503f494ae611bd241cf5d12479cca2bb3f925cbc133ed",
-"size":33832484,
-"timestamp":1611125157388,
 "version":"2.17"
 },
 "sysroot_linux-ppc64le-2.17-h302c3fa_10.tar.bz2":{

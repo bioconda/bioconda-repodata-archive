@@ -1240,36 +1240,6 @@
 "timestamp":1611125303516,
 "version":"3.10.0"
 },
-"kernel-headers_linux-aarch64-4.18.0-h2ca1c70_10.tar.bz2":{
-"build":"h2ca1c70_10",
-"build_number":10,
-"constrains":[
-"sysroot_linux-aarch64 ==2.17"
-],
-"depends":[],
-"license":"LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later AND MPL-2.0",
-"name":"kernel-headers_linux-aarch64",
-"noarch":"generic",
-"sha256":"d0fe19778e2f5f96985b24fa3bd092115288affd957b8accc0559cff8eda457a",
-"size":1135550,
-"timestamp":1610539679292,
-"version":"4.18.0"
-},
-"kernel-headers_linux-aarch64-4.18.0-hcebdbab_10.tar.bz2":{
-"build":"hcebdbab_10",
-"build_number":10,
-"constrains":[
-"sysroot_linux-aarch64 ==2.17"
-],
-"depends":[],
-"license":"LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later AND MPL-2.0",
-"name":"kernel-headers_linux-aarch64",
-"noarch":"generic",
-"sha256":"c7767b03d30472fe159b4b7897be1ed15dd0e9dbb93a92e8997cb7af78f811ab",
-"size":1136920,
-"timestamp":1611125151527,
-"version":"4.18.0"
-},
 "kernel-headers_linux-ppc64le-3.10.0-h1da2f99_10.tar.bz2":{
 "build":"h1da2f99_10",
 "build_number":10,
@@ -3611,20 +3581,6 @@
 "track_features":"sysroot_linux-64_2.17",
 "version":"2.17"
 },
-"sysroot_linux-aarch64-2.17-he88851e_10.tar.bz2":{
-"build":"he88851e_10",
-"build_number":10,
-"depends":[
-"kernel-headers_linux-aarch64 4.18.0 hcebdbab_10"
-],
-"license":"LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later AND MPL-2.0",
-"name":"sysroot_linux-aarch64",
-"noarch":"generic",
-"sha256":"c46dbf92c55f3dba4fa503f494ae611bd241cf5d12479cca2bb3f925cbc133ed",
-"size":33832484,
-"timestamp":1611125157388,
-"version":"2.17"
-},
 "sysroot_linux-ppc64le-2.17-h302c3fa_10.tar.bz2":{
 "build":"h302c3fa_10",
 "build_number":10,
@@ -4129,7 +4085,7 @@
 "timestamp":1572437519123,
 "version":"0.7.12"
 },
-"alembic-1.5.8-pyhd3eb1b0_0.conda":{
+"alembic-1.6.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -4139,14 +4095,14 @@
 "python-editor >=0.3",
 "sqlalchemy >=1.3.0"
 ],
-"legacy_bz2_md5":"6f031633fc0bb40b67b7876d70e87a12",
+"legacy_bz2_md5":"ec9befb507f55a13a09ab61ad7e4eb3a",
 "license":"MIT",
 "name":"alembic",
 "noarch":"python",
-"sha256":"b64e91734e294f616059b168522e71b23d8f164b780309ef3786ebb4aac2ea61",
-"size":118755,
-"timestamp":1616527823569,
-"version":"1.5.8"
+"sha256":"064140a03c9506300ab713e5afe653ea13565c09941c7fd15ea9d654b49afca1",
+"size":122232,
+"timestamp":1620083040305,
+"version":"1.6.0"
 },
 "alsa-lib-cos6-i686-1.1.0-hc30c76e_0.conda":{
 "build":"hc30c76e_0",
@@ -6150,7 +6106,7 @@
 "timestamp":1570675852204,
 "version":"0.1.1"
 },
-"conda-repo-cli-1.0.3-pyhd3eb1b0_0.conda":{
+"conda-repo-cli-1.0.4-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -6165,14 +6121,14 @@
 "setuptools",
 "six"
 ],
-"legacy_bz2_md5":"a9f8c9252602e4788deef4b2e76f6336",
+"legacy_bz2_md5":"11c04f458d8ce7b3a5a99d142a08aeac",
 "license":"BSD-3-Clause",
 "name":"conda-repo-cli",
 "noarch":"python",
-"sha256":"40ad0c037b4448b921665106b529e71fd074074e9bdba49eb437f1e120f97b29",
-"size":273651,
-"timestamp":1611347598829,
-"version":"1.0.3"
+"sha256":"fcc97e969fc7fc76bd943fa3515672e0c7dcf815c2a5dfe8bb96677b85ca370c",
+"size":47910,
+"timestamp":1620168474545,
+"version":"1.0.4"
 },
 "conda-token-0.3.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -14134,21 +14090,21 @@
 "timestamp":1605563236879,
 "version":"4.8.0"
 },
-"pg8000-1.19.3-pyhd3eb1b0_0.conda":{
+"pg8000-1.19.4-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "python >=3.6",
 "scramp 1.4.0"
 ],
-"legacy_bz2_md5":"755b8127e77dd79acc93964dee8198da",
+"legacy_bz2_md5":"c09a2f5b02f624e6ba1a07d6b819fa75",
 "license":"BSD 3-clause",
 "name":"pg8000",
 "noarch":"python",
-"sha256":"f14c77ec15669bd88caa744bdb9f8cf56b5a537e2cfee4738f67bd6418ca94b4",
-"size":26670,
-"timestamp":1619305175508,
-"version":"1.19.3"
+"sha256":"65f19f06732bb94ac94654c05270c64235e8f2a145da73a0f4fbe494380c8359",
+"size":26637,
+"timestamp":1620084774323,
+"version":"1.19.4"
 },
 "phik-0.11.2-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -17975,7 +17931,7 @@
 "timestamp":1607710005372,
 "version":"1.0.0"
 },
-"sqlalchemy-utils-0.37.0-pyhd3eb1b0_0.conda":{
+"sqlalchemy-utils-0.37.1-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -17994,14 +17950,14 @@
 "six",
 "sqlalchemy >=1.0"
 ],
-"legacy_bz2_md5":"d6087b6db90bcdd30565ec5b1059ba77",
+"legacy_bz2_md5":"e7c381637b9da3ac1ad78e81fd0650f4",
 "license":"BSD-3-Clause",
 "name":"sqlalchemy-utils",
 "noarch":"python",
-"sha256":"2088ee5f3e41380c5f197b625b991a4f045a17664bc6c01b857d9f7363039715",
-"size":65651,
-"timestamp":1618823243418,
-"version":"0.37.0"
+"sha256":"65180be227756f27aa55dbd3d0621f2dd4736327fb880d1704ac44ecacdc2253",
+"size":65716,
+"timestamp":1620085483949,
+"version":"0.37.1"
 },
 "sqlparse-0.4.1-py_0.conda":{
 "build":"py_0",
