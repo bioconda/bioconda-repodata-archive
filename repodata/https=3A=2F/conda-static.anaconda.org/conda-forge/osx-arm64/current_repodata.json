@@ -2184,6 +2184,20 @@
 "timestamp":1620083647999,
 "version":"0.5.6"
 },
+"aws-c-cal-0.5.7-ha4d83bd_0.tar.bz2":{
+"build":"ha4d83bd_0",
+"build_number":0,
+"depends":[
+"aws-c-common >=0.5.10,<0.5.11.0a0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-c-cal",
+"sha256":"d926af7fd0ee8271638ca4ddd12d2f84419d6d08f17ce092e8e6bf2b1b29eee3",
+"size":28304,
+"timestamp":1620185870742,
+"version":"0.5.7"
+},
 "aws-c-common-0.4.66-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
 "build_number":0,
@@ -2227,6 +2241,17 @@
 "size":149219,
 "timestamp":1620090657265,
 "version":"0.5.10"
+},
+"aws-c-common-0.5.11-h3422bc3_0.tar.bz2":{
+"build":"h3422bc3_0",
+"build_number":0,
+"depends":[],
+"license":"Apache-2.0",
+"name":"aws-c-common",
+"sha256":"bce320b2437e012186636fd55ea4cfa152f5cde030547259e2a5d197d4ddd551",
+"size":149151,
+"timestamp":1620255642112,
+"version":"0.5.11"
 },
 "aws-c-common-0.5.2-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
@@ -7012,65 +7037,35 @@
 "timestamp":1619119601207,
 "version":"1.1.4"
 },
-"debugpy-1.2.1-py38h3f7e68f_0.tar.bz2":{
-"build":"py38h3f7e68f_0",
+"debugpy-1.3.0-py38h6f2b01f_0.tar.bz2":{
+"build":"py38h6f2b01f_0",
 "build_number":0,
 "depends":[
-"libcxx >=11.0.0",
+"libcxx >=11.1.0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38"
 ],
 "license":"MIT",
 "name":"debugpy",
-"sha256":"ebec9586575986b1392c96dc2e8a1cf7468570910222c85f27792297604a98ac",
-"size":1975162,
-"timestamp":1609148622716,
-"version":"1.2.1"
+"sha256":"68dc0fd2c44f276703ec01353734e4546223a5d4506f12cfbe2a061849bef6ba",
+"size":2018256,
+"timestamp":1620178817113,
+"version":"1.3.0"
 },
-"debugpy-1.2.1-py38h3f7e68f_1.tar.bz2":{
-"build":"py38h3f7e68f_1",
-"build_number":1,
-"depends":[
-"libcxx >=11.0.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38"
-],
-"license":"MIT",
-"name":"debugpy",
-"sha256":"b8c03deebb095e91a71515064e3b015a3d06415eecd6d1126e419fd0d33e9c3f",
-"size":1993312,
-"timestamp":1610140472990,
-"version":"1.2.1"
-},
-"debugpy-1.2.1-py39h93dc1e2_0.tar.bz2":{
-"build":"py39h93dc1e2_0",
+"debugpy-1.3.0-py39hfb83b0d_0.tar.bz2":{
+"build":"py39hfb83b0d_0",
 "build_number":0,
 "depends":[
-"libcxx >=11.0.0",
+"libcxx >=11.1.0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39"
 ],
 "license":"MIT",
 "name":"debugpy",
-"sha256":"c3a0a1d9096df909de0032485989584a23ccb49de951855d2af9c8dcbe68ac33",
-"size":1980673,
-"timestamp":1609148681974,
-"version":"1.2.1"
-},
-"debugpy-1.2.1-py39h93dc1e2_1.tar.bz2":{
-"build":"py39h93dc1e2_1",
-"build_number":1,
-"depends":[
-"libcxx >=11.0.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39"
-],
-"license":"MIT",
-"name":"debugpy",
-"sha256":"b970218afe152d882124e947ef04fa84320807e44ae9a6b43954364d16c1ee5d",
-"size":1988851,
-"timestamp":1610140498585,
-"version":"1.2.1"
+"sha256":"2922099010ef4613530c8f04003e473fa882aed56a8fbe5b34cae51800eb832e",
+"size":2048191,
+"timestamp":1620178866296,
+"version":"1.3.0"
 },
 "desktop-app-0.2.8-py38h3f7e68f_1.tar.bz2":{
 "build":"py38h3f7e68f_1",
@@ -7693,9 +7688,9 @@
 "timestamp":1607551205109,
 "version":"3.3.9"
 },
-"emacs-27.1-h1d6f1cd_4.tar.bz2":{
-"build":"h1d6f1cd_4",
-"build_number":4,
+"emacs-27.2-h31d83c2_0.tar.bz2":{
+"build":"h31d83c2_0",
+"build_number":0,
 "depends":[
 "dbus >=1.13.6,<2.0a0",
 "giflib >=5.2.1,<5.3.0a0",
@@ -7703,9 +7698,9 @@
 "gmp >=6.2.1,<7.0a0",
 "gnutls >=3.6.13,<3.7.0a0",
 "jpeg >=9d,<10a",
-"libglib >=2.66.4,<3.0a0",
+"libglib >=2.68.1,<3.0a0",
 "libpng >=1.6.37,<1.7.0a0",
-"librsvg >=2.50.2,<3.0a0",
+"librsvg >=2.50.5,<3.0a0",
 "libtiff >=4.2.0,<5.0a0",
 "libxml2 >=2.9.10,<2.10.0a0",
 "ncurses >=6.2,<6.3.0a0",
@@ -7713,60 +7708,10 @@
 ],
 "license":"GPL-3.0-only",
 "name":"emacs",
-"sha256":"55702e47fdb45694cc2b3f965db23530702664b3c43e27bea72f50bc6f2725fc",
-"size":40280249,
-"timestamp":1611620274280,
-"version":"27.1"
-},
-"emacs-27.1-h9ae4781_2.tar.bz2":{
-"build":"h9ae4781_2",
-"build_number":2,
-"depends":[
-"dbus >=1.13.6,<2.0a0",
-"giflib >=5.2.1,<5.3.0a0",
-"glib",
-"gmp >=6.2.1,<7.0a0",
-"gnutls >=3.6.13,<3.7.0a0",
-"jpeg >=9d,<10a",
-"libglib >=2.66.3,<3.0a0",
-"libpng >=1.6.37,<1.7.0a0",
-"librsvg >=2.50.2,<3.0a0",
-"libtiff >=4.1.0,<5.0a0",
-"libxml2 >=2.9.10,<2.10.0a0",
-"ncurses >=6.2,<6.3.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPL-3.0-only",
-"name":"emacs",
-"sha256":"3e79aa9ea00597dc89b8fc15850361695aa376721eb216cb24a4e039ab5f5792",
-"size":40234096,
-"timestamp":1607549319726,
-"version":"27.1"
-},
-"emacs-27.1-h9ae4781_3.tar.bz2":{
-"build":"h9ae4781_3",
-"build_number":3,
-"depends":[
-"dbus >=1.13.6,<2.0a0",
-"giflib >=5.2.1,<5.3.0a0",
-"glib",
-"gmp >=6.2.1,<7.0a0",
-"gnutls >=3.6.13,<3.7.0a0",
-"jpeg >=9d,<10a",
-"libglib >=2.66.4,<3.0a0",
-"libpng >=1.6.37,<1.7.0a0",
-"librsvg >=2.50.2,<3.0a0",
-"libtiff >=4.1.0,<5.0a0",
-"libxml2 >=2.9.10,<2.10.0a0",
-"ncurses >=6.2,<6.3.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"GPL-3.0-only",
-"name":"emacs",
-"sha256":"253eaef29d7ad017d15f6a5eb3a4c9d886105230def6f12c0a6dbe7f472777ee",
-"size":40285271,
-"timestamp":1608766475988,
-"version":"27.1"
+"sha256":"c14dbcfd5aa9f9c13216efe906ff90bde8fff0e6609d23fb2b2e4818d8e8a651",
+"size":40224144,
+"timestamp":1620255492519,
+"version":"27.2"
 },
 "epoxy-1.5.7-h3422bc3_0.tar.bz2":{
 "build":"h3422bc3_0",
@@ -11984,7 +11929,7 @@
 "timestamp":1607937510739,
 "version":"1.3.5"
 },
-"ipykernel-5.5.3-py38h2cb4d76_0.tar.bz2":{
+"ipykernel-5.5.4-py38h2cb4d76_0.tar.bz2":{
 "build":"py38h2cb4d76_0",
 "build_number":0,
 "depends":[
@@ -11998,12 +11943,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"ipykernel",
-"sha256":"3f20a9497b2ac52015328ac7f6d1458495f5728ea7a1219b3b75765e05ec9fa8",
-"size":171363,
-"timestamp":1617137318482,
-"version":"5.5.3"
+"sha256":"eb24a32ea15115ec3cbd0f2b5d16f33fa5a0fb5dc86347f1c003515645489c8e",
+"size":171494,
+"timestamp":1620254776725,
+"version":"5.5.4"
 },
-"ipykernel-5.5.3-py39h32adebf_0.tar.bz2":{
+"ipykernel-5.5.4-py39h32adebf_0.tar.bz2":{
 "build":"py39h32adebf_0",
 "build_number":0,
 "depends":[
@@ -12017,10 +11962,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"ipykernel",
-"sha256":"3425a5c68e6956b39bb2939f9b969c5183e19adb16bc2610352d898313841e49",
-"size":171639,
-"timestamp":1617137356830,
-"version":"5.5.3"
+"sha256":"9e8eaa3f4b425e6ac11632297510b18d8f57397aaef3444c76a7da61d7c7809f",
+"size":171638,
+"timestamp":1620254788313,
+"version":"5.5.4"
 },
 "ipyparallel-6.3.0-py38h10201cd_1.tar.bz2":{
 "build":"py38h10201cd_1",
@@ -12110,7 +12055,7 @@
 "timestamp":1607987049087,
 "version":"6.3.0"
 },
-"ipython-7.23.0-py38h2cb4d76_0.tar.bz2":{
+"ipython-7.23.1-py38h2cb4d76_0.tar.bz2":{
 "build":"py38h2cb4d76_0",
 "build_number":0,
 "depends":[
@@ -12130,12 +12075,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"ipython",
-"sha256":"649e32fe1e372f0307502bf6bce6ca9367ea2c74646c7edf769435647f0cf77c",
-"size":1175770,
-"timestamp":1619827392778,
-"version":"7.23.0"
+"sha256":"165d8428a55c8b46baa6dac5fc0c729a5eefa757b864c725febe79122c25efbf",
+"size":1171555,
+"timestamp":1620254703421,
+"version":"7.23.1"
 },
-"ipython-7.23.0-py39h32adebf_0.tar.bz2":{
+"ipython-7.23.1-py39h32adebf_0.tar.bz2":{
 "build":"py39h32adebf_0",
 "build_number":0,
 "depends":[
@@ -12155,10 +12100,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"ipython",
-"sha256":"2650bf4161f0fbe35be7778a8d2ed2de46c41f13ea27e23a3c3a6ff30982551d",
-"size":1174193,
-"timestamp":1619827370887,
-"version":"7.23.0"
+"sha256":"ddc8749d13d01cd2940bc19df577a4117e17699d1e6cab1bd3b6043a48e205b4",
+"size":1172665,
+"timestamp":1620254657260,
+"version":"7.23.1"
 },
 "isl-0.22.1-hb904e53_2.tar.bz2":{
 "build":"hb904e53_2",
@@ -21034,6 +20979,20 @@
 "timestamp":1615498608769,
 "version":"2.0.6"
 },
+"onednn-2.2.2-omp_h64143aa_1.tar.bz2":{
+"build":"omp_h64143aa_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"onednn",
+"sha256":"96df70f621bcd12f39c4bdce6e12aed8e2521dc6aeca0d1e38a91939375ba437",
+"size":2903679,
+"timestamp":1620247739352,
+"version":"2.2.2"
+},
 "onednn-2.2.2-tbb_hb6067a2_0.tar.bz2":{
 "build":"tbb_hb6067a2_0",
 "build_number":0,
@@ -21047,6 +21006,48 @@
 "sha256":"be9ea6f028e40cf7ca3c186112a66e3f6fec09ba47601568e2677c1026326a26",
 "size":3529165,
 "timestamp":1619681038728,
+"version":"2.2.2"
+},
+"onednn-2.2.2-tbb_hfa56021_1.tar.bz2":{
+"build":"tbb_hfa56021_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0",
+"tbb >=2020.2,<2021.0.0a0"
+],
+"license":"Apache-2.0",
+"name":"onednn",
+"sha256":"4f282aeacd5fe2c339f899e0d2b7e84c716381a1b08bae2c32a6a7562d7b8cca",
+"size":3516637,
+"timestamp":1620247697258,
+"track_features":"onednn-tbb",
+"version":"2.2.2"
+},
+"onednn-cpu-omp-2.2.2-omp_hf6a6809_1.tar.bz2":{
+"build":"omp_hf6a6809_1",
+"build_number":1,
+"depends":[
+"onednn 2.2.2 omp_h64143aa_1"
+],
+"license":"Apache-2.0",
+"name":"onednn-cpu-omp",
+"sha256":"fcea3616b55dd9c14f5cef37735b8920d01a06ac382a20776417b690a50a1b05",
+"size":8290,
+"timestamp":1620247752055,
+"version":"2.2.2"
+},
+"onednn-cpu-tbb-2.2.2-tbb_h20de0cc_1.tar.bz2":{
+"build":"tbb_h20de0cc_1",
+"build_number":1,
+"depends":[
+"onednn 2.2.2 tbb_hfa56021_1"
+],
+"license":"Apache-2.0",
+"name":"onednn-cpu-tbb",
+"sha256":"be333cf03c500df75577a2e4bd3f8c4d10f53de82f8a504a8b4a1fec4ce8b9be",
+"size":8296,
+"timestamp":1620247711542,
 "version":"2.2.2"
 },
 "onednn-cpu-tbb-2.2.2-tbb_hce30654_0.tar.bz2":{
@@ -21112,6 +21113,44 @@
 "size":8771925,
 "timestamp":1618845475075,
 "version":"1.9.0"
+},
+"onnxruntime-1.7.2-py38h22edef7_0.tar.bz2":{
+"build":"py38h22edef7_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libprotobuf >=3.15.8,<3.16.0a0",
+"numpy >=1.19.5,<2.0a0",
+"protobuf",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"re2 >=2021.4.1,<2021.4.2.0a0"
+],
+"license":"MIT",
+"name":"onnxruntime",
+"sha256":"ae7f7e6c984257e3f0b7b2f5186b31221f4b589ada34537c4818184940dcbadc",
+"size":3647529,
+"timestamp":1620224478332,
+"version":"1.7.2"
+},
+"onnxruntime-1.7.2-py39hd7d7ac9_0.tar.bz2":{
+"build":"py39hd7d7ac9_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libprotobuf >=3.15.8,<3.16.0a0",
+"numpy >=1.19.5,<2.0a0",
+"protobuf",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"re2 >=2021.4.1,<2021.4.2.0a0"
+],
+"license":"MIT",
+"name":"onnxruntime",
+"sha256":"683468708b787498e47f256e3181da7f11521e34dec240b671928b7bef38e8d5",
+"size":3629897,
+"timestamp":1620224716683,
+"version":"1.7.2"
 },
 "open62541-1.2.1-h4ceb6a2_0.tar.bz2":{
 "build":"h4ceb6a2_0",
@@ -22897,6 +22936,25 @@
 "size":2958158,
 "timestamp":1614612448283,
 "version":"8.0.0"
+},
+"proj-8.0.1-h2d984c1_0.tar.bz2":{
+"build":"h2d984c1_0",
+"build_number":0,
+"constrains":[
+"proj4 ==999999999999"
+],
+"depends":[
+"libcurl >=7.76.1,<8.0a0",
+"libcxx >=11.1.0",
+"libtiff >=4.2.0,<5.0a0",
+"sqlite >=3.35.5,<4.0a0"
+],
+"license":"MIT",
+"name":"proj",
+"sha256":"6c6c1b2d16aedab1ef7df7c84510348ffb49362c155e0c2ca53d00903e38fc16",
+"size":2967782,
+"timestamp":1620213575183,
+"version":"8.0.1"
 },
 "protobuf-3.15.8-py38h6f2b01f_0.tar.bz2":{
 "build":"py38h6f2b01f_0",
@@ -30129,7 +30187,7 @@
 "timestamp":1605371407165,
 "version":"0.8"
 },
-"s2n-1.0.5-hbae9a57_0.tar.bz2":{
+"s2n-1.0.6-hbae9a57_0.tar.bz2":{
 "build":"hbae9a57_0",
 "build_number":0,
 "depends":[
@@ -30137,21 +30195,21 @@
 ],
 "license":"Apache-2.0",
 "name":"s2n",
-"sha256":"71d608adf2d48f8edbf3963a6704b15833b9c301e1a323946df56ebeae43e586",
-"size":310876,
-"timestamp":1619169643989,
-"version":"1.0.5"
+"sha256":"5e5cae64f2133c3e17cd124a4ebedc59d6a37080b4e99b93e1dd9bd94773ec94",
+"size":319117,
+"timestamp":1620249599356,
+"version":"1.0.6"
 },
-"s2n-static-1.0.5-h3422bc3_0.tar.bz2":{
+"s2n-static-1.0.6-h3422bc3_0.tar.bz2":{
 "build":"h3422bc3_0",
 "build_number":0,
 "depends":[],
 "license":"Apache-2.0",
 "name":"s2n-static",
-"sha256":"984a33ff02cca37c95a795fe57190b568354cf0bf12e5704e48267ee01193210",
-"size":423444,
-"timestamp":1619169690557,
-"version":"1.0.5"
+"sha256":"8232c17b5083fe7f7d75e133fa7aa6b8d390eaf5f1bccefa6a6db171f79d7a0f",
+"size":434796,
+"timestamp":1620249659165,
+"version":"1.0.6"
 },
 "safeint-3.0.26-hbdafb3b_0.tar.bz2":{
 "build":"hbdafb3b_0",
@@ -33361,7 +33419,7 @@
 "timestamp":1618691099346,
 "version":"1.4.1"
 },
-"virtualenv-20.4.4-py38h10201cd_0.tar.bz2":{
+"virtualenv-20.4.6-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
 "depends":[
@@ -33374,12 +33432,12 @@
 ],
 "license":"MIT",
 "name":"virtualenv",
-"sha256":"9fc4236c271c63ab308955fa6ae1bf04a1265bfd842aa70011f5a28d72446794",
-"size":6830177,
-"timestamp":1618918089558,
-"version":"20.4.4"
+"sha256":"e5dc25c9c70095a01f4d438503396d29f2e90951d3c58a145ee57d6cf12fc7fa",
+"size":6708950,
+"timestamp":1620250064942,
+"version":"20.4.6"
 },
-"virtualenv-20.4.4-py39h2804cbe_0.tar.bz2":{
+"virtualenv-20.4.6-py39h2804cbe_0.tar.bz2":{
 "build":"py39h2804cbe_0",
 "build_number":0,
 "depends":[
@@ -33392,10 +33450,10 @@
 ],
 "license":"MIT",
 "name":"virtualenv",
-"sha256":"25103d6911d1306b3824fc91f3d0a1c33e2aee48edde544469f267db554154ac",
-"size":6699248,
-"timestamp":1618917879546,
-"version":"20.4.4"
+"sha256":"9b98db4f21d772c72ae41bb3c1166ba80ea1c82250080058c69227c99f222147",
+"size":6787522,
+"timestamp":1620249934334,
+"version":"20.4.6"
 },
 "vispy-0.6.6-py38h6a333d3_0.tar.bz2":{
 "build":"py38h6a333d3_0",
@@ -33814,6 +33872,34 @@
 "size":92716,
 "timestamp":1610749798005,
 "version":"8.1"
+},
+"websockets-9.0.1-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"websockets",
+"sha256":"3691658cf12ea66c9c949c06827167dcc22a821372aa88e42f3d376a2da8b55b",
+"size":114000,
+"timestamp":1620247329314,
+"version":"9.0.1"
+},
+"websockets-9.0.1-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"websockets",
+"sha256":"afd6b6e9d3ec3ffeab9e95f09ef86efdb83edca3ddc769aa6ee0586f738f295d",
+"size":114151,
+"timestamp":1620247304341,
+"version":"9.0.1"
 },
 "widgetsnbextension-3.5.1-py38h10201cd_4.tar.bz2":{
 "build":"py38h10201cd_4",

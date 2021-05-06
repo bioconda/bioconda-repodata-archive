@@ -6689,7 +6689,7 @@
 "timestamp":1612239661641,
 "version":"0.4.65"
 },
-"aws-c-common-0.5.8-h2bbff1b_0.tar.bz2":{
+"aws-c-common-0.5.10-h2bbff1b_0.tar.bz2":{
 "build":"h2bbff1b_0",
 "build_number":0,
 "depends":[
@@ -6698,10 +6698,10 @@
 ],
 "license":"Apache-2.0",
 "name":"aws-c-common",
-"sha256":"2876e5166cc60c65fdfdfa02e6ce1529ba0faff64e519c29cb6cdd6c204c6b9e",
-"size":161179,
-"timestamp":1619476186718,
-"version":"0.5.8"
+"sha256":"b3db54085920f7c601990a7a22667004d4ab5fc0c2d0e382cffeff557e57ba42",
+"size":161169,
+"timestamp":1620169736718,
+"version":"0.5.10"
 },
 "aws-c-event-stream-0.1.6-ha925a31_3.tar.bz2":{
 "build":"ha925a31_3",
@@ -17165,57 +17165,181 @@
 "timestamp":1533164082278,
 "version":"0.2.12.post1"
 },
-"daal-2020.2-256.tar.bz2":{
-"build":"256",
-"build_number":256,
+"daal-2021.2.2-haa95532_389.tar.bz2":{
+"build":"haa95532_389",
+"build_number":389,
 "depends":[
-"tbb 2020.*"
+"dal >=2021.2.2,<2022.0a0"
 ],
 "license":"LicenseRef-ProprietaryIntel",
 "name":"daal",
-"sha256":"b2aa5b8e3d3251a2f53fd80cc4fe5e2775a740115a9bd9f59836a06797106ff9",
-"size":48479959,
-"timestamp":1598362100274,
-"version":"2020.2"
+"sha256":"fb0a4d958f8ce87140f6125028fc8d6d7af576944b10b1efec777b6dd04aa51d",
+"size":16003,
+"timestamp":1619454425161,
+"version":"2021.2.2"
 },
-"daal-devel-2020.2-256.tar.bz2":{
-"build":"256",
-"build_number":256,
+"daal-devel-2021.2.2-haa95532_389.tar.bz2":{
+"build":"haa95532_389",
+"build_number":389,
 "depends":[
-"daal 2020.2 256",
-"daal-include 2020.2 256"
+"dal-devel >=2021.2.2,<2022.0a0"
 ],
 "license":"LicenseRef-ProprietaryIntel",
 "name":"daal-devel",
-"sha256":"008fcb36dcea0b9cbbda148bca9b6b3f5c2bca4a3fc39db4aed219f4a3366d02",
-"size":13986986,
-"timestamp":1598362215447,
-"version":"2020.2"
+"sha256":"deeb69f8750237156fc7b979210ca40af1baa0a0b87faea0a3cd80f0ef4a659f",
+"size":15998,
+"timestamp":1619455032140,
+"version":"2021.2.2"
 },
-"daal-include-2020.2-256.tar.bz2":{
-"build":"256",
-"build_number":256,
-"depends":[],
+"daal-include-2021.2.2-haa95532_389.tar.bz2":{
+"build":"haa95532_389",
+"build_number":389,
+"depends":[
+"dal-include >=2021.2.2,<2022.0a0"
+],
 "license":"LicenseRef-ProprietaryIntel",
 "name":"daal-include",
-"sha256":"23888fb0c3c9e7b8e6fcf0b43bb833b74db9b478f360d424f626f13fd6e8a444",
-"size":377067,
-"timestamp":1598362187622,
-"version":"2020.2"
+"sha256":"5dd25a4bd989195a0ca217a408e4e8717b03b5c30d200b29e01903bfae4afb13",
+"size":15998,
+"timestamp":1619454426706,
+"version":"2021.2.2"
 },
-"daal-static-2020.2-256.tar.bz2":{
-"build":"256",
-"build_number":256,
+"daal-static-2021.2.2-haa95532_389.tar.bz2":{
+"build":"haa95532_389",
+"build_number":389,
 "depends":[
-"daal-include 2020.2 256",
-"tbb 2020.*"
+"dal-static >=2021.2.2,<2022.0a0"
 ],
 "license":"LicenseRef-ProprietaryIntel",
 "name":"daal-static",
-"sha256":"0d53df6fb7e31023fc5f3c05ae93c925a9ee39907543df7d8cd848887a6a6ddc",
-"size":126943514,
-"timestamp":1598362328984,
-"version":"2020.2"
+"sha256":"7c2f4d65620fcdbd9842553a780d7070aa9f9964e9ba51b74708e86467f5c83b",
+"size":15995,
+"timestamp":1619455033739,
+"version":"2021.2.2"
+},
+"daal4py-2021.2.2-py36hf11a4ad_0.tar.bz2":{
+"build":"py36hf11a4ad_0",
+"build_number":0,
+"depends":[
+"dal >=2021.2.2,<2021.2.3.0a0",
+"dal >=2021.2.2,<2022.0a0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.6,<3.7.0a0",
+"vc >=14.1,<15.0a0",
+"vs2015_runtime >=14.16.27012,<15.0a0"
+],
+"license":"Apache-2.0",
+"name":"daal4py",
+"sha256":"2a38c4ae80a954a695c45f793aabd86d1c8c41e851be4f48c935e027353f766e",
+"size":11975550,
+"timestamp":1619795013751,
+"version":"2021.2.2"
+},
+"daal4py-2021.2.2-py37hf11a4ad_0.tar.bz2":{
+"build":"py37hf11a4ad_0",
+"build_number":0,
+"depends":[
+"dal >=2021.2.2,<2021.2.3.0a0",
+"dal >=2021.2.2,<2022.0a0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"vc >=14.1,<15.0a0",
+"vs2015_runtime >=14.16.27012,<15.0a0"
+],
+"license":"Apache-2.0",
+"name":"daal4py",
+"sha256":"22f58b799050dfc2ba335adf50aa8c8e04f250db1c3dacbb283100fdb428016d",
+"size":11904658,
+"timestamp":1619795078060,
+"version":"2021.2.2"
+},
+"daal4py-2021.2.2-py38hf11a4ad_0.tar.bz2":{
+"build":"py38hf11a4ad_0",
+"build_number":0,
+"depends":[
+"dal >=2021.2.2,<2021.2.3.0a0",
+"dal >=2021.2.2,<2022.0a0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"vc >=14.1,<15.0a0",
+"vs2015_runtime >=14.16.27012,<15.0a0"
+],
+"license":"Apache-2.0",
+"name":"daal4py",
+"sha256":"a4702b02c2f953199bfd94df13efae48064d4e342061fe57580f646c82e22bac",
+"size":11953113,
+"timestamp":1619795150678,
+"version":"2021.2.2"
+},
+"daal4py-2021.2.2-py39hf11a4ad_0.tar.bz2":{
+"build":"py39hf11a4ad_0",
+"build_number":0,
+"depends":[
+"dal >=2021.2.2,<2021.2.3.0a0",
+"dal >=2021.2.2,<2022.0a0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"vc >=14.1,<15.0a0",
+"vs2015_runtime >=14.16.27012,<15.0a0"
+],
+"license":"Apache-2.0",
+"name":"daal4py",
+"sha256":"af56a2c99b5e7ba31964370b65ace2eb1fd6f2c6aecea157cf43e5731c494cd0",
+"size":11849297,
+"timestamp":1619795095274,
+"version":"2021.2.2"
+},
+"dal-2021.2.2-haa95532_389.tar.bz2":{
+"build":"haa95532_389",
+"build_number":389,
+"depends":[
+"tbb 2021.*"
+],
+"license":"Intel Simplified Software License",
+"name":"dal",
+"sha256":"208329f0e3c0f706a62e9554073a5996f1a5d273b5f0d6166b38d690a4a3a2d3",
+"size":49040828,
+"timestamp":1619454324771,
+"version":"2021.2.2"
+},
+"dal-devel-2021.2.2-haa95532_389.tar.bz2":{
+"build":"haa95532_389",
+"build_number":389,
+"depends":[
+"dal 2021.2.2 haa95532_389",
+"dal-include 2021.2.2 haa95532_389"
+],
+"license":"Intel Simplified Software License",
+"name":"dal-devel",
+"sha256":"492623dd2cf5ef9569889b451f7d3d0cbdd98c0d99bb127c8029a6ec091a23e6",
+"size":7938817,
+"timestamp":1619454430567,
+"version":"2021.2.2"
+},
+"dal-include-2021.2.2-haa95532_389.tar.bz2":{
+"build":"haa95532_389",
+"build_number":389,
+"depends":[],
+"license":"Intel Simplified Software License",
+"name":"dal-include",
+"sha256":"5b3a3b9b5ccbbd82e1ce4edaf583e6944af36bff37e76020f039b4adec56fb61",
+"size":405494,
+"timestamp":1619454386013,
+"version":"2021.2.2"
+},
+"dal-static-2021.2.2-haa95532_389.tar.bz2":{
+"build":"haa95532_389",
+"build_number":389,
+"depends":[
+"dal-include 2021.2.2 haa95532_389",
+"tbb 2021.*"
+],
+"license":"Intel Simplified Software License",
+"name":"dal-static",
+"sha256":"3ec1a27c3068a35dc3078f92112c67924622c52cb6853fa48be390c3ac3d8bab",
+"size":195797077,
+"timestamp":1619454459743,
+"version":"2021.2.2"
 },
 "dask-1.1.4-py27_1.tar.bz2":{
 "build":"py27_1",
@@ -55419,7 +55543,7 @@
 "timestamp":1546017049000,
 "version":"3.6"
 },
-"pymongo-3.11.3-py36hd77b12b_0.tar.bz2":{
+"pymongo-3.11.4-py36hd77b12b_0.tar.bz2":{
 "build":"py36hd77b12b_0",
 "build_number":0,
 "depends":[
@@ -55429,12 +55553,12 @@
 ],
 "license":"Apache 2.0",
 "name":"pymongo",
-"sha256":"7a0e23b9b8541e73a26d059bcc77bd2e10832be339ea34b529890952386f7c62",
-"size":1378902,
-"timestamp":1613850076700,
-"version":"3.11.3"
+"sha256":"0075dbb8743ebc998e8035785e9e6369b3e6cf39dd93106f3c4c1d6c778604ab",
+"size":1403559,
+"timestamp":1620214381406,
+"version":"3.11.4"
 },
-"pymongo-3.11.3-py37hd77b12b_0.tar.bz2":{
+"pymongo-3.11.4-py37hd77b12b_0.tar.bz2":{
 "build":"py37hd77b12b_0",
 "build_number":0,
 "depends":[
@@ -55444,12 +55568,12 @@
 ],
 "license":"Apache 2.0",
 "name":"pymongo",
-"sha256":"f6bb765e12b9ce4132af7c403995d7fd855195da51d639196094282b1e775140",
-"size":1409850,
-"timestamp":1613850208027,
-"version":"3.11.3"
+"sha256":"85fc6a92da538d646965d6692589d382ec716d78d51747dd5f8eb0a5cd8c21c4",
+"size":1395178,
+"timestamp":1620214379479,
+"version":"3.11.4"
 },
-"pymongo-3.11.3-py38hd77b12b_0.tar.bz2":{
+"pymongo-3.11.4-py38hd77b12b_0.tar.bz2":{
 "build":"py38hd77b12b_0",
 "build_number":0,
 "depends":[
@@ -55459,12 +55583,12 @@
 ],
 "license":"Apache 2.0",
 "name":"pymongo",
-"sha256":"02d5ad8b0991aa8f078e9eb316cd91803f563049a603aa4a78a3f2dd21e7655e",
-"size":1413883,
-"timestamp":1613850082200,
-"version":"3.11.3"
+"sha256":"067c06d0f787e3fc224e419a432cad44dccdd5f4d06462bea9d4e58c8bed411d",
+"size":1430116,
+"timestamp":1620214420973,
+"version":"3.11.4"
 },
-"pymongo-3.11.3-py39hd77b12b_0.tar.bz2":{
+"pymongo-3.11.4-py39hd77b12b_0.tar.bz2":{
 "build":"py39hd77b12b_0",
 "build_number":0,
 "depends":[
@@ -55474,10 +55598,10 @@
 ],
 "license":"Apache 2.0",
 "name":"pymongo",
-"sha256":"3d68ea06e4e357084d9c1f9917106a95bfe28d8c1f6c26b61114b144d24b9d70",
-"size":1411835,
-"timestamp":1613850185605,
-"version":"3.11.3"
+"sha256":"30869ac33eb9b325410307918c13f346996cef158b6be11ff9e407c1c5202ea3",
+"size":1405321,
+"timestamp":1620214403786,
+"version":"3.11.4"
 },
 "pympler-0.5-py27_0.tar.bz2":{
 "build":"py27_0",
@@ -66142,6 +66266,66 @@
 "timestamp":1614446986406,
 "version":"0.24.1"
 },
+"scikit-learn-intelex-2021.2.2-py36haa95532_0.tar.bz2":{
+"build":"py36haa95532_0",
+"build_number":0,
+"depends":[
+"daal4py 2021.2.2.*",
+"python >=3.6,<3.7.0a0",
+"scikit-learn >=0.21"
+],
+"license":"Apache-2.0",
+"name":"scikit-learn-intelex",
+"sha256":"3fe6f3e5635614989e4d9a6d9353929e6be36792c39ad845809e0ec2c75997ec",
+"size":22918,
+"timestamp":1620151920224,
+"version":"2021.2.2"
+},
+"scikit-learn-intelex-2021.2.2-py37haa95532_0.tar.bz2":{
+"build":"py37haa95532_0",
+"build_number":0,
+"depends":[
+"daal4py 2021.2.2.*",
+"python >=3.7,<3.8.0a0",
+"scikit-learn >=0.21"
+],
+"license":"Apache-2.0",
+"name":"scikit-learn-intelex",
+"sha256":"1931b43f73b3811d7d83e6fa29f48cdf840f37e0b04d286a9930bd86ebe710fe",
+"size":22915,
+"timestamp":1620151917800,
+"version":"2021.2.2"
+},
+"scikit-learn-intelex-2021.2.2-py38haa95532_0.tar.bz2":{
+"build":"py38haa95532_0",
+"build_number":0,
+"depends":[
+"daal4py 2021.2.2.*",
+"python >=3.8,<3.9.0a0",
+"scikit-learn >=0.21"
+],
+"license":"Apache-2.0",
+"name":"scikit-learn-intelex",
+"sha256":"53b86c9585f2c93c4f9130dfcad32b11af293209da2e52da7928eebde9b95a4e",
+"size":22980,
+"timestamp":1620151920458,
+"version":"2021.2.2"
+},
+"scikit-learn-intelex-2021.2.2-py39haa95532_0.tar.bz2":{
+"build":"py39haa95532_0",
+"build_number":0,
+"depends":[
+"daal4py 2021.2.2.*",
+"python >=3.9,<3.10.0a0",
+"scikit-learn >=0.21"
+],
+"license":"Apache-2.0",
+"name":"scikit-learn-intelex",
+"sha256":"884fda3c1f3f4e7e7f653a9e61f63b9b1709c16a46693757f9b1f56a8b366234",
+"size":22966,
+"timestamp":1620151951791,
+"version":"2021.2.2"
+},
 "scikit-rf-0.16.0-py36haa95532_0.tar.bz2":{
 "build":"py36haa95532_0",
 "build_number":0,
@@ -71537,20 +71721,6 @@
 "timestamp":1535204171711,
 "version":"2018.0.5"
 },
-"tbb-2020.3-h74a9793_0.tar.bz2":{
-"build":"h74a9793_0",
-"build_number":0,
-"depends":[
-"vc >=14.1,<15.0a0",
-"vs2015_runtime >=14.16.27012,<15.0a0"
-],
-"license":"Apache-2.0",
-"name":"tbb",
-"sha256":"4c57eb1ce8df8c7518537fd8dd8c0dd5b17ba7186f9736bc48b10a3cd41bcc8b",
-"size":179354,
-"timestamp":1600548031952,
-"version":"2020.3"
-},
 "tbb-2021.2.0-h59b6b97_0.tar.bz2":{
 "build":"h59b6b97_0",
 "build_number":0,
@@ -76423,20 +76593,7 @@
 "timestamp":1610466535817,
 "version":"1.4.2"
 },
-"typing-3.7.4.3-py36_0.tar.bz2":{
-"build":"py36_0",
-"build_number":0,
-"depends":[
-"python >=3.6,<3.7.0a0"
-],
-"license":"PSF",
-"name":"typing",
-"sha256":"62ea7ec7c984f640812ee85cc44eb51b2cace8d5e3fefb8f09648faab9c4ba96",
-"size":12376,
-"timestamp":1594738794707,
-"version":"3.7.4.3"
-},
-"typing-3.7.4.3-py36haa95532_0.tar.bz2":{
+"typing-3.10.0.0-py36haa95532_0.tar.bz2":{
 "build":"py36haa95532_0",
 "build_number":0,
 "depends":[
@@ -76444,25 +76601,12 @@
 ],
 "license":"PSF",
 "name":"typing",
-"sha256":"d9950eaaa088a784c05717bd53ba93a00709451f210d345e848c1fbad0d5d39b",
-"size":12396,
-"timestamp":1611751244722,
-"version":"3.7.4.3"
+"sha256":"cb44ba5ed4e9f3fd81059f72faf9ec4bb3fb5c1ab9a420711ea898c8da333524",
+"size":8227,
+"timestamp":1620172277596,
+"version":"3.10.0.0"
 },
-"typing-3.7.4.3-py37_0.tar.bz2":{
-"build":"py37_0",
-"build_number":0,
-"depends":[
-"python >=3.7,<3.8.0a0"
-],
-"license":"PSF",
-"name":"typing",
-"sha256":"1b1a51092ca7eb7e31bce561496967e28743a86e9aa202c89ac6e9166524f987",
-"size":12386,
-"timestamp":1594745802890,
-"version":"3.7.4.3"
-},
-"typing-3.7.4.3-py37haa95532_0.tar.bz2":{
+"typing-3.10.0.0-py37haa95532_0.tar.bz2":{
 "build":"py37haa95532_0",
 "build_number":0,
 "depends":[
@@ -76470,25 +76614,12 @@
 ],
 "license":"PSF",
 "name":"typing",
-"sha256":"85bf350a2f3780c5c1f934eb77a1b7c84287cc82ebaf37b0bba47c8171494d68",
-"size":12388,
-"timestamp":1611751336828,
-"version":"3.7.4.3"
+"sha256":"152ad625a0c1ec471eacde6bc4512df1efd46f03ccb572524c9f15678ec22239",
+"size":8248,
+"timestamp":1620172282319,
+"version":"3.10.0.0"
 },
-"typing-3.7.4.3-py38_0.tar.bz2":{
-"build":"py38_0",
-"build_number":0,
-"depends":[
-"python >=3.8,<3.9.0a0"
-],
-"license":"PSF",
-"name":"typing",
-"sha256":"636954f992656156c6aa02ab7a9a830f39ed9107985395d71a0362c3fef0c18e",
-"size":12367,
-"timestamp":1594745805458,
-"version":"3.7.4.3"
-},
-"typing-3.7.4.3-py38haa95532_0.tar.bz2":{
+"typing-3.10.0.0-py38haa95532_0.tar.bz2":{
 "build":"py38haa95532_0",
 "build_number":0,
 "depends":[
@@ -76496,12 +76627,12 @@
 ],
 "license":"PSF",
 "name":"typing",
-"sha256":"a5a9df391c967651381c79c99316e1a0c7afa52f34f4d85656946b49db0a441c",
-"size":12386,
-"timestamp":1611751301577,
-"version":"3.7.4.3"
+"sha256":"4474dd788bb52621d04f42ade1f00a8551f3ef7ef31606ec8d4be413cb4df5f1",
+"size":8236,
+"timestamp":1620172284305,
+"version":"3.10.0.0"
 },
-"typing-3.7.4.3-py39haa95532_0.tar.bz2":{
+"typing-3.10.0.0-py39haa95532_0.tar.bz2":{
 "build":"py39haa95532_0",
 "build_number":0,
 "depends":[
@@ -76509,10 +76640,10 @@
 ],
 "license":"PSF",
 "name":"typing",
-"sha256":"2f134d9fe8263b1c2a3c8fa0e2e04a45364bc4408ce75d2d4d032c1c0798f708",
-"size":12374,
-"timestamp":1611751175714,
-"version":"3.7.4.3"
+"sha256":"2af7735b2a467922eda00658d54151be7c2978c06052c75b15e1f55319c63287",
+"size":8267,
+"timestamp":1620172263299,
+"version":"3.10.0.0"
 },
 "typing-extensions-3.7.4.1-0.tar.bz2":{
 "build":"0",

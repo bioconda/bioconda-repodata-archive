@@ -1240,6 +1240,21 @@
 "timestamp":1611125303516,
 "version":"3.10.0"
 },
+"kernel-headers_linux-aarch64-4.14.214-h1cb168f_13.tar.bz2":{
+"build":"h1cb168f_13",
+"build_number":13,
+"constrains":[
+"sysroot_linux-aarch64 ==2.26"
+],
+"depends":[],
+"license":"LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later AND MPL-2.0",
+"name":"kernel-headers_linux-aarch64",
+"noarch":"generic",
+"sha256":"4dcef56ec47d461e30e8b96f266abb9b027166ef3ddcc026dc11f0455a68a66b",
+"size":1039484,
+"timestamp":1617217518141,
+"version":"4.14.214"
+},
 "kernel-headers_linux-ppc64le-3.10.0-h1da2f99_10.tar.bz2":{
 "build":"h1da2f99_10",
 "build_number":10,
@@ -3580,6 +3595,20 @@
 "timestamp":1611125308904,
 "track_features":"sysroot_linux-64_2.17",
 "version":"2.17"
+},
+"sysroot_linux-aarch64-2.26-h4744778_13.tar.bz2":{
+"build":"h4744778_13",
+"build_number":13,
+"depends":[
+"kernel-headers_linux-aarch64 4.14.214 h1cb168f_13"
+],
+"license":"LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later AND MPL-2.0",
+"name":"sysroot_linux-aarch64",
+"noarch":"generic",
+"sha256":"4cf9b604fe3b0e9b16cca2a1e34f745c154b0ed9397a66e7bfa5c5cce576682a",
+"size":8031403,
+"timestamp":1617217526439,
+"version":"2.26"
 },
 "sysroot_linux-ppc64le-2.17-h302c3fa_10.tar.bz2":{
 "build":"h302c3fa_10",
@@ -12625,7 +12654,7 @@
 "timestamp":1569368756343,
 "version":"2.0.6"
 },
-"moto-2.0.5-pyhd3eb1b0_0.conda":{
+"moto-2.0.6-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -12635,36 +12664,41 @@
 "botocore >=1.12.201",
 "cfn-lint >=0.4.0",
 "click",
-"cryptography >=2.3.0",
+"cryptography >=3.3.1",
 "docker-py >=2.5.1",
+"ecdsa <0.15",
 "flask",
 "flask_cors",
+"idna <3,>=2.5",
 "inflection",
 "jinja2 >=2.10.1",
 "jsondiff 1.1.2.*",
 "lxml",
 "mock",
+"more-itertools",
 "prompt_toolkit",
-"python >=3.3",
+"python >=3.5",
 "python-dateutil >=2.1,<3.0.0",
-"python-jose <4.0.0",
+"python-jose >=3.1.0,<4.0.0",
 "pytz",
 "pyyaml >=5.1",
 "requests >=2.5",
 "responses >=0.9.0",
+"setuptools",
 "six >1.9",
 "sshpubkeys >=3.1.0,<4.0",
 "werkzeug",
-"xmltodict"
+"xmltodict",
+"zipp"
 ],
-"legacy_bz2_md5":"7d9ea1be59a9d65419087ba48a520989",
+"legacy_bz2_md5":"939e7dbd6dec383a1a881a81a5a1e9b6",
 "license":"Apache-2.0",
 "name":"moto",
 "noarch":"python",
-"sha256":"0240895d8d46d835ce7b6aa604c5094e23be711a44440ba18077b0019bd8f750",
-"size":1202825,
-"timestamp":1618221216882,
-"version":"2.0.5"
+"sha256":"c9cf1450a739beff9a2aeffd72815b0cb00bcda7c5836d2224d524b5fc935936",
+"size":1208372,
+"timestamp":1620166449634,
+"version":"2.0.6"
 },
 "mpl-scatter-density-0.7-py_0.conda":{
 "build":"py_0",
@@ -13124,20 +13158,20 @@
 "timestamp":1530612255754,
 "version":"3.34.0"
 },
-"nuitka-0.6.14.4-pyhd3eb1b0_1.conda":{
+"nuitka-0.6.14.6-pyhd3eb1b0_1.conda":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
 "python"
 ],
-"legacy_bz2_md5":"7554d9fcc88a0aa58f4195bbadaee8ed",
+"legacy_bz2_md5":"6ee7997494b1a57c0ece80cffff0f3f7",
 "license":"Apache 2.0",
 "name":"nuitka",
 "noarch":"python",
-"sha256":"bac3362ef2e0fc3bbc76a4b5d47c212ce3392e8e9b7a20602ba4379dffdd3f20",
-"size":1059327,
-"timestamp":1618778109049,
-"version":"0.6.14.4"
+"sha256":"4f29c0f592ff9e09e7d0fd50e3dc00c51fa66651ca8c1dca0f4fffea6949e6a2",
+"size":1060606,
+"timestamp":1620170612264,
+"version":"0.6.14.6"
 },
 "numpydoc-1.1.0-py_0.conda":{
 "build":"py_0",

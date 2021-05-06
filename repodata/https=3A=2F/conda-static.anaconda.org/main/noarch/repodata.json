@@ -28750,6 +28750,21 @@
 "timestamp":1611125303516,
 "version":"3.10.0"
 },
+"kernel-headers_linux-aarch64-4.14.214-h1cb168f_13.tar.bz2":{
+"build":"h1cb168f_13",
+"build_number":13,
+"constrains":[
+"sysroot_linux-aarch64 ==2.26"
+],
+"depends":[],
+"license":"LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later AND MPL-2.0",
+"name":"kernel-headers_linux-aarch64",
+"noarch":"generic",
+"sha256":"4dcef56ec47d461e30e8b96f266abb9b027166ef3ddcc026dc11f0455a68a66b",
+"size":1039484,
+"timestamp":1617217518141,
+"version":"4.14.214"
+},
 "kernel-headers_linux-ppc64le-3.10.0-h1da2f99_10.tar.bz2":{
 "build":"h1da2f99_10",
 "build_number":10,
@@ -33610,6 +33625,51 @@
 "timestamp":1618221216882,
 "version":"2.0.5"
 },
+"moto-2.0.6-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"aws-xray-sdk !=0.96,>=0.93",
+"beautifulsoup4",
+"boto3 >=1.9.201",
+"botocore >=1.12.201",
+"cfn-lint >=0.4.0",
+"click",
+"cryptography >=3.3.1",
+"docker-py >=2.5.1",
+"ecdsa <0.15",
+"flask",
+"flask_cors",
+"idna <3,>=2.5",
+"inflection",
+"jinja2 >=2.10.1",
+"jsondiff 1.1.2.*",
+"lxml",
+"mock",
+"more-itertools",
+"prompt_toolkit",
+"python >=3.5",
+"python-dateutil >=2.1,<3.0.0",
+"python-jose >=3.1.0,<4.0.0",
+"pytz",
+"pyyaml >=5.1",
+"requests >=2.5",
+"responses >=0.9.0",
+"setuptools",
+"six >1.9",
+"sshpubkeys >=3.1.0,<4.0",
+"werkzeug",
+"xmltodict",
+"zipp"
+],
+"license":"Apache-2.0",
+"name":"moto",
+"noarch":"python",
+"sha256":"0357001aefd4932847279c7095032f937d342360ae72f25ee710de728c66df2b",
+"size":1305071,
+"timestamp":1620166449634,
+"version":"2.0.6"
+},
 "mpl-scatter-density-0.5-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -35233,6 +35293,20 @@
 "size":1277091,
 "timestamp":1618778109049,
 "version":"0.6.14.4"
+},
+"nuitka-0.6.14.6-pyhd3eb1b0_1.tar.bz2":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"python"
+],
+"license":"Apache 2.0",
+"name":"nuitka",
+"noarch":"python",
+"sha256":"a0ccd2bab7aeba0891b6a1282117b02a85189755b5772a0e3e16e76ed86a9543",
+"size":1277246,
+"timestamp":1620170612264,
+"version":"0.6.14.6"
 },
 "nuitka-0.6.9.1-py_0.tar.bz2":{
 "build":"py_0",
@@ -51505,6 +51579,20 @@
 "timestamp":1611125308904,
 "track_features":"sysroot_linux-64_2.17",
 "version":"2.17"
+},
+"sysroot_linux-aarch64-2.26-h4744778_13.tar.bz2":{
+"build":"h4744778_13",
+"build_number":13,
+"depends":[
+"kernel-headers_linux-aarch64 4.14.214 h1cb168f_13"
+],
+"license":"LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later AND MPL-2.0",
+"name":"sysroot_linux-aarch64",
+"noarch":"generic",
+"sha256":"4cf9b604fe3b0e9b16cca2a1e34f745c154b0ed9397a66e7bfa5c5cce576682a",
+"size":8031403,
+"timestamp":1617217526439,
+"version":"2.26"
 },
 "sysroot_linux-ppc64le-2.17-h302c3fa_10.tar.bz2":{
 "build":"h302c3fa_10",
