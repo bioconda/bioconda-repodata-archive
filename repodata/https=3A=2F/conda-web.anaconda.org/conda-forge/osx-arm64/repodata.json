@@ -8959,6 +8959,20 @@
 "timestamp":1620332375000,
 "version":"0.9.12"
 },
+"aws-c-io-0.9.12-h3b87e79_1.tar.bz2":{
+"build":"h3b87e79_1",
+"build_number":1,
+"depends":[
+"aws-c-cal >=0.5.7,<0.5.8.0a0",
+"aws-c-common >=0.5.11,<0.5.12.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-io",
+"requires":[],
+"size":112327,
+"timestamp":1620388288132,
+"version":"0.9.12"
+},
 "aws-c-io-0.9.2-hb1046ea_0.tar.bz2":{
 "build":"hb1046ea_0",
 "build_number":0,
@@ -24374,6 +24388,46 @@
 "timestamp":1619039571570,
 "version":"0.5.0"
 },
+"fastparquet-0.6.0-py38h691f20f_0.tar.bz2":{
+"build":"py38h691f20f_0",
+"build_number":0,
+"depends":[
+"cramjam >=2.3.0",
+"numba >=0.28",
+"numpy",
+"packaging",
+"pandas >=0.19",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"thrift >=0.11"
+],
+"license":"BSD-3-Clause",
+"name":"fastparquet",
+"requires":[],
+"size":265183,
+"timestamp":1620351162023,
+"version":"0.6.0"
+},
+"fastparquet-0.6.0-py39h20ef057_0.tar.bz2":{
+"build":"py39h20ef057_0",
+"build_number":0,
+"depends":[
+"cramjam >=2.3.0",
+"numba >=0.28",
+"numpy",
+"packaging",
+"pandas >=0.19",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"thrift >=0.11"
+],
+"license":"BSD-3-Clause",
+"name":"fastparquet",
+"requires":[],
+"size":266878,
+"timestamp":1620351213331,
+"version":"0.6.0"
+},
 "fcl-0.6.1-hda9dc21_3.tar.bz2":{
 "build":"hda9dc21_3",
 "build_number":3,
@@ -29614,6 +29668,17 @@
 "size":10928,
 "timestamp":1610915045297,
 "version":"2.8.110"
+},
+"gstreamer-orc-0.4.32-h3422bc3_1.tar.bz2":{
+"build":"h3422bc3_1",
+"build_number":1,
+"depends":[],
+"license":"BSD-2-Clause AND BSD-3-Clause",
+"name":"gstreamer-orc",
+"requires":[],
+"size":254945,
+"timestamp":1620371107455,
+"version":"0.4.32"
 },
 "gsw-3.4.0-py38h8369297_1.tar.bz2":{
 "build":"py38h8369297_1",
@@ -40649,6 +40714,17 @@
 "timestamp":1615488761458,
 "version":"2.0.5"
 },
+"libjpeg-turbo-2.1.0-h3422bc3_0.tar.bz2":{
+"build":"h3422bc3_0",
+"build_number":0,
+"depends":[],
+"license":"IJG, modified 3-clause BSD and zlib",
+"name":"libjpeg-turbo",
+"requires":[],
+"size":849514,
+"timestamp":1620410389508,
+"version":"2.1.0"
+},
 "libkml-1.3.0-h0e10842_1013.tar.bz2":{
 "build":"h0e10842_1013",
 "build_number":1013,
@@ -42386,6 +42462,20 @@
 "timestamp":1618058931411,
 "version":"3.15.8"
 },
+"libprotobuf-3.16.0-hccf11d3_0.tar.bz2":{
+"build":"hccf11d3_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libprotobuf",
+"requires":[],
+"size":2170324,
+"timestamp":1620374276977,
+"version":"3.16.0"
+},
 "libprotobuf-static-3.13.0-0.tar.bz2":{
 "build":"0",
 "build_number":0,
@@ -42517,6 +42607,17 @@
 "size":2556183,
 "timestamp":1618058938170,
 "version":"3.15.8"
+},
+"libprotobuf-static-3.16.0-hce30654_0.tar.bz2":{
+"build":"hce30654_0",
+"build_number":0,
+"depends":[],
+"license":"BSD-3-Clause",
+"name":"libprotobuf-static",
+"requires":[],
+"size":2527470,
+"timestamp":1620374283993,
+"version":"3.16.0"
 },
 "libpython-static-3.8.5-hc88da5d_4_cpython.tar.bz2":{
 "build":"hc88da5d_4_cpython",
@@ -50199,6 +50300,22 @@
 "timestamp":1613918611011,
 "version":"8.0.23"
 },
+"mysql-8.0.23-hce30654_2.tar.bz2":{
+"build":"hce30654_2",
+"build_number":2,
+"depends":[
+"mysql-client 8.0.23 h4845073_2",
+"mysql-common 8.0.23 hce30654_2",
+"mysql-devel 8.0.23 hce30654_2",
+"mysql-libs 8.0.23 h53f7ac3_2",
+"mysql-server 8.0.23 hf2833a7_2"
+],
+"name":"mysql",
+"requires":[],
+"size":186326,
+"timestamp":1620420117445,
+"version":"8.0.23"
+},
 "mysql-client-8.0.23-h2d65e16_0.tar.bz2":{
 "build":"h2d65e16_0",
 "build_number":0,
@@ -50235,6 +50352,24 @@
 "timestamp":1613917973559,
 "version":"8.0.23"
 },
+"mysql-client-8.0.23-h4845073_2.tar.bz2":{
+"build":"h4845073_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.1.0",
+"libedit >=3.1.20191231,<3.2.0a0",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"mysql-common 8.0.23 hce30654_2",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"name":"mysql-client",
+"requires":[],
+"size":33439761,
+"timestamp":1620419489227,
+"version":"8.0.23"
+},
 "mysql-common-8.0.23-hce30654_0.tar.bz2":{
 "build":"hce30654_0",
 "build_number":0,
@@ -50253,6 +50388,16 @@
 "requires":[],
 "size":1613971,
 "timestamp":1613917892478,
+"version":"8.0.23"
+},
+"mysql-common-8.0.23-hce30654_2.tar.bz2":{
+"build":"hce30654_2",
+"build_number":2,
+"depends":[],
+"name":"mysql-common",
+"requires":[],
+"size":1621396,
+"timestamp":1620419411788,
 "version":"8.0.23"
 },
 "mysql-devel-8.0.23-hce30654_0.tar.bz2":{
@@ -50277,6 +50422,18 @@
 "requires":[],
 "size":2114963,
 "timestamp":1613918589623,
+"version":"8.0.23"
+},
+"mysql-devel-8.0.23-hce30654_2.tar.bz2":{
+"build":"hce30654_2",
+"build_number":2,
+"depends":[
+"mysql-libs 8.0.23 h53f7ac3_2"
+],
+"name":"mysql-devel",
+"requires":[],
+"size":2120741,
+"timestamp":1620420102623,
 "version":"8.0.23"
 },
 "mysql-libs-8.0.23-h4ccdf2d_0.tar.bz2":{
@@ -50309,6 +50466,22 @@
 "requires":[],
 "size":1911119,
 "timestamp":1613918018567,
+"version":"8.0.23"
+},
+"mysql-libs-8.0.23-h53f7ac3_2.tar.bz2":{
+"build":"h53f7ac3_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.1.0",
+"mysql-common 8.0.23 hce30654_2",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"name":"mysql-libs",
+"requires":[],
+"size":1908972,
+"timestamp":1620419535320,
 "version":"8.0.23"
 },
 "mysql-server-8.0.23-h168b65e_1.tar.bz2":{
@@ -50353,6 +50526,28 @@
 "requires":[],
 "size":23757078,
 "timestamp":1612068610700,
+"version":"8.0.23"
+},
+"mysql-server-8.0.23-hf2833a7_2.tar.bz2":{
+"build":"hf2833a7_2",
+"build_number":2,
+"depends":[
+"cyrus-sasl >=2.1.27,<3.0a0",
+"icu >=68.1,<69.0a0",
+"libcxx >=11.1.0",
+"libevent >=2.1.10,<2.1.11.0a0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"macports-legacy-support >=1.0.1,<2.0a0",
+"mysql-common 8.0.23 hce30654_2",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"name":"mysql-server",
+"requires":[],
+"size":23747832,
+"timestamp":1620420052020,
 "version":"8.0.23"
 },
 "nasm-2.14.02-h27ca646_0.tar.bz2":{
@@ -54746,6 +54941,24 @@
 "timestamp":1611404433147,
 "version":"1.6.7"
 },
+"orc-1.6.7-hfc432d8_2.tar.bz2":{
+"build":"hfc432d8_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.1.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"snappy >=1.1.8,<2.0a0",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"license":"Apache-2.0",
+"name":"orc",
+"requires":[],
+"size":393070,
+"timestamp":1620420722117,
+"version":"1.6.7"
+},
 "orjson-3.4.7-py38h30f7421_0.tar.bz2":{
 "build":"py38h30f7421_0",
 "build_number":0,
@@ -57060,6 +57273,19 @@
 "timestamp":1616699431284,
 "version":"19.6.0"
 },
+"portaudio-19.6.0-hbdafb3b_4.tar.bz2":{
+"build":"hbdafb3b_4",
+"build_number":4,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"MIT",
+"name":"portaudio",
+"requires":[],
+"size":87493,
+"timestamp":1620429241424,
+"version":"19.6.0"
+},
 "postgresql-12.3-h3cf2113_3.tar.bz2":{
 "build":"h3cf2113_3",
 "build_number":3,
@@ -58222,6 +58448,44 @@
 "size":336713,
 "timestamp":1618231750881,
 "version":"3.15.8"
+},
+"protobuf-3.16.0-py38h6f2b01f_0.tar.bz2":{
+"build":"py38h6f2b01f_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libprotobuf 3.16.0.*",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"setuptools",
+"six"
+],
+"license":"BSD-3-Clause",
+"name":"protobuf",
+"requires":[],
+"size":342084,
+"timestamp":1620388354252,
+"version":"3.16.0"
+},
+"protobuf-3.16.0-py39hfb83b0d_0.tar.bz2":{
+"build":"py39hfb83b0d_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libprotobuf 3.16.0.*",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"setuptools",
+"six"
+],
+"license":"BSD-3-Clause",
+"name":"protobuf",
+"requires":[],
+"size":337352,
+"timestamp":1620388349698,
+"version":"3.16.0"
 },
 "psutil-5.7.2-py38h51573d8_1.tar.bz2":{
 "build":"py38h51573d8_1",
@@ -64413,6 +64677,36 @@
 "size":181473,
 "timestamp":1611726869414,
 "version":"2.6.2"
+},
+"pybind11_json-0.2.10-py38h1670459_0.tar.bz2":{
+"build":"py38h1670459_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"pybind11_json",
+"requires":[],
+"size":9510,
+"timestamp":1620375052002,
+"version":"0.2.10"
+},
+"pybind11_json-0.2.10-py39h4d2d688_0.tar.bz2":{
+"build":"py39h4d2d688_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"pybind11_json",
+"requires":[],
+"size":9513,
+"timestamp":1620375042092,
+"version":"0.2.10"
 },
 "pybind11_json-0.2.7-py38h12a6f45_0.tar.bz2":{
 "build":"py38h12a6f45_0",
@@ -74203,6 +74497,19 @@
 "timestamp":1616774866277,
 "version":"1.51.0"
 },
+"rust-1.52.0-h4ff7c5d_0.tar.bz2":{
+"build":"h4ff7c5d_0",
+"build_number":0,
+"depends":[
+"rust-std-aarch64-apple-darwin 1.52.0 hf1a8007_0"
+],
+"license":"MIT",
+"name":"rust",
+"requires":[],
+"size":198889183,
+"timestamp":1620395861446,
+"version":"1.52.0"
+},
 "rust_osx-arm64-1.49.0-hdf7d419_0.tar.bz2":{
 "build":"hdf7d419_0",
 "build_number":0,
@@ -82390,6 +82697,34 @@
 "size":689312,
 "timestamp":1617642768999,
 "version":"0.12.3"
+},
+"volk-2.4.1-hbdafb3b_3.tar.bz2":{
+"build":"hbdafb3b_3",
+"build_number":3,
+"depends":[
+"gstreamer-orc >=0.4.32,<0.5.0a0",
+"libcxx >=11.1.0"
+],
+"license":"GPL-3.0-or-later AND Apache-2.0",
+"name":"volk",
+"requires":[],
+"size":456932,
+"timestamp":1620422277959,
+"version":"2.4.1"
+},
+"volk-dev-2.4.1-hce30654_3.tar.bz2":{
+"build":"hce30654_3",
+"build_number":3,
+"depends":[
+"volk 2.4.1 hbdafb3b_3",
+"volk-modtool 2.4.1 py_3"
+],
+"license":"GPL-3.0-or-later AND Apache-2.0",
+"name":"volk-dev",
+"requires":[],
+"size":21852,
+"timestamp":1620422322419,
+"version":"2.4.1"
 },
 "vtk-9.0.1-no_osmesa_py38h19cc9ed_107.tar.bz2":{
 "build":"no_osmesa_py38h19cc9ed_107",
