@@ -24444,6 +24444,28 @@
 "timestamp":1603228278156,
 "version":"7.3.0"
 },
+"elfutils-0.183-h9a036ef_1.tar.bz2":{
+"build":"h9a036ef_1",
+"build_number":1,
+"depends":[
+"bzip2 >=1.0.8,<2.0a0",
+"libarchive >=3.5.1,<3.6.0a0",
+"libcurl >=7.76.1,<8.0a0",
+"libgcc-ng >=9.3.0",
+"libmicrohttpd >=0.9.73,<0.10.0a0",
+"libstdcxx-ng >=9.3.0",
+"sqlite >=3.35.5,<4.0a0",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.4.9,<1.5.0a0"
+],
+"license":"LGPL-3.0-only",
+"name":"elfutils",
+"sha256":"7ac651c4abb2e6ed78388599ab57860c90aa4db5af4749cb7a5faad410fab128",
+"size":1957424,
+"timestamp":1620563388044,
+"version":"0.183"
+},
 "entrypoints-0.3-py27_1000.tar.bz2":{
 "build":"py27_1000",
 "build_number":1000,
@@ -47145,7 +47167,7 @@
 "timestamp":1610719023978,
 "version":"1.7"
 },
-"libdrm-2.4.104-h4e0d66e_0.tar.bz2":{
+"libdrm-2.4.105-h4e0d66e_0.tar.bz2":{
 "build":"h4e0d66e_0",
 "build_number":0,
 "depends":[
@@ -47154,10 +47176,10 @@
 ],
 "license":"MIT",
 "name":"libdrm",
-"sha256":"10a697f6f17e3a629a3834c0e80b68133dc92ccefb2db0cece35b0b294b9a362",
-"size":222700,
-"timestamp":1610403475259,
-"version":"2.4.104"
+"sha256":"c81cb2bb10ac7b41a7ca90361fc41eaaf4cbeb766f79f2a904e8c262f317eb07",
+"size":223598,
+"timestamp":1620598975382,
+"version":"2.4.105"
 },
 "libedit-3.1.20191231-h01e2fff_0.tar.bz2":{
 "build":"h01e2fff_0",
@@ -50572,6 +50594,43 @@
 "size":737251,
 "timestamp":1606400266121,
 "version":"1.0.1"
+},
+"libnegf-1.0.2-mpi_openmpi_h11bec1d_0.tar.bz2":{
+"build":"mpi_openmpi_h11bec1d_0",
+"build_number":0,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"liblapack >=3.8.0,<4.0a0",
+"mpifx * mpi_openmpi_*",
+"mpifx >=1.1,<2.0a0 mpi_openmpi_*",
+"openmpi >=4.1,<4.2.0a0"
+],
+"license":"LGPL-3.0-or-later",
+"name":"libnegf",
+"sha256":"5ed737058b1c9ea8c416e424fc4ec7280b53051810be92a2df232945c099b3aa",
+"size":834534,
+"timestamp":1620595389615,
+"version":"1.0.2"
+},
+"libnegf-1.0.2-nompi_hd6921e4_100.tar.bz2":{
+"build":"nompi_hd6921e4_100",
+"build_number":100,
+"depends":[
+"libblas >=3.8.0,<4.0a0",
+"libgcc-ng >=9.3.0",
+"libgfortran-ng",
+"libgfortran5 >=9.3.0",
+"liblapack >=3.8.0,<4.0a0"
+],
+"license":"LGPL-3.0-or-later",
+"name":"libnegf",
+"sha256":"ebd549a3d9a6595b000ce3ddb7728619408471c777e53a6b69512659967ba584",
+"size":723487,
+"timestamp":1620595117648,
+"version":"1.0.2"
 },
 "libnetcdf-4.7.4-mpi_mpich_h33cd782_7.tar.bz2":{
 "build":"mpi_mpich_h33cd782_7",
@@ -65411,6 +65470,26 @@
 "timestamp":1618845867703,
 "version":"1.9.0"
 },
+"onnxruntime-1.7.2-py36h29dbd7f_2.tar.bz2":{
+"build":"py36h29dbd7f_2",
+"build_number":2,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"protobuf",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"re2 >=2021.4.1,<2021.4.2.0a0"
+],
+"license":"MIT",
+"name":"onnxruntime",
+"sha256":"418ff32042ac3fdb7317f037dd4280be587af94c134f9144454f3c4138b1142c",
+"size":4063844,
+"timestamp":1620564143877,
+"version":"1.7.2"
+},
 "onnxruntime-1.7.2-py36hc544671_0.tar.bz2":{
 "build":"py36hc544671_0",
 "build_number":0,
@@ -65449,6 +65528,26 @@
 "sha256":"09608dced0b0f154a2018a27cc88bc0c83960c1e7bbe47e25fd995f7bf7ae7a5",
 "size":4068068,
 "timestamp":1620293767221,
+"version":"1.7.2"
+},
+"onnxruntime-1.7.2-py37h00a3472_2.tar.bz2":{
+"build":"py37h00a3472_2",
+"build_number":2,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"protobuf",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"re2 >=2021.4.1,<2021.4.2.0a0"
+],
+"license":"MIT",
+"name":"onnxruntime",
+"sha256":"5663940f76c1e40c9ef04363615214e98550abee0bf4133617b9bc7e721ec2a7",
+"size":4054669,
+"timestamp":1620563924062,
 "version":"1.7.2"
 },
 "onnxruntime-1.7.2-py37h0c402db_0.tar.bz2":{
@@ -65531,6 +65630,26 @@
 "timestamp":1620294177318,
 "version":"1.7.2"
 },
+"onnxruntime-1.7.2-py38he35473e_2.tar.bz2":{
+"build":"py38he35473e_2",
+"build_number":2,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.17.5,<2.0a0",
+"protobuf",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"re2 >=2021.4.1,<2021.4.2.0a0"
+],
+"license":"MIT",
+"name":"onnxruntime",
+"sha256":"d4ec7c222dc257a9df0049b506746e0aebfff4562180c2da0e6eb3e155d5f4da",
+"size":4064657,
+"timestamp":1620564218028,
+"version":"1.7.2"
+},
 "onnxruntime-1.7.2-py39h1ae9a52_0.tar.bz2":{
 "build":"py39h1ae9a52_0",
 "build_number":0,
@@ -65569,6 +65688,26 @@
 "sha256":"7b4c5b89ec56c1816a7fb2f9439f6d5cd4bb1dcbdbc7aecdc1898537cb3ceec9",
 "size":4043395,
 "timestamp":1620293946954,
+"version":"1.7.2"
+},
+"onnxruntime-1.7.2-py39hf977884_2.tar.bz2":{
+"build":"py39hf977884_2",
+"build_number":2,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"numpy >=1.19.5,<2.0a0",
+"protobuf",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"re2 >=2021.4.1,<2021.4.2.0a0"
+],
+"license":"MIT",
+"name":"onnxruntime",
+"sha256":"626e63d297a5a425d3886bfa06102e927fd9b13402c8aafa8df0650afd3af378",
+"size":4041317,
+"timestamp":1620563890771,
 "version":"1.7.2"
 },
 "opcua-0.98.13-py37hadc05a3_0.tar.bz2":{
@@ -118421,6 +118560,45 @@
 "timestamp":1615438949893,
 "version":"2.2.0"
 },
+"zaber-motion-2.2.0-py36h1d856fe_1.tar.bz2":{
+"build":"py36h1d856fe_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=8.4.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=8.4.0",
+"protobuf",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6.* *_cp36m",
+"rx"
+],
+"license":"MIT",
+"name":"zaber-motion",
+"sha256":"bb7f9010d29422747b40034abdd26d5154f48342472ced9338db88c264c91fb5",
+"size":7065165,
+"timestamp":1620524507501,
+"version":"2.2.0"
+},
+"zaber-motion-2.2.0-py36hc3981cd_1.tar.bz2":{
+"build":"py36hc3981cd_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=8.4.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=8.4.0",
+"protobuf",
+"pypy3.6 >=7.3.3",
+"python >=3.6,<3.7.0a0",
+"python_abi 3.6 *_pypy36_pp73",
+"rx"
+],
+"license":"MIT",
+"name":"zaber-motion",
+"sha256":"ca0119a2b04ca46c20e8fd5127dbc4c033c07e70f62d7b233d3f8518a3492187",
+"size":7041102,
+"timestamp":1620524305499,
+"version":"2.2.0"
+},
 "zaber-motion-2.2.0-py36he9f3e4e_0.tar.bz2":{
 "build":"py36he9f3e4e_0",
 "build_number":0,
@@ -118459,6 +118637,25 @@
 "timestamp":1615438810677,
 "version":"2.2.0"
 },
+"zaber-motion-2.2.0-py37h7e80d6b_1.tar.bz2":{
+"build":"py37h7e80d6b_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=8.4.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=8.4.0",
+"protobuf",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7.* *_cp37m",
+"rx"
+],
+"license":"MIT",
+"name":"zaber-motion",
+"sha256":"dfd7feec76161aa6c44a483ed43474ecb198967eff4170c4d63bf340147630bd",
+"size":7056323,
+"timestamp":1620524271263,
+"version":"2.2.0"
+},
 "zaber-motion-2.2.0-py37hbf90e40_0.tar.bz2":{
 "build":"py37hbf90e40_0",
 "build_number":0,
@@ -118479,6 +118676,26 @@
 "timestamp":1615438952714,
 "version":"2.2.0"
 },
+"zaber-motion-2.2.0-py37hc61badf_1.tar.bz2":{
+"build":"py37hc61badf_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=8.4.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=8.4.0",
+"protobuf",
+"pypy3.7 >=7.3.4",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73",
+"rx"
+],
+"license":"MIT",
+"name":"zaber-motion",
+"sha256":"26f75ed86ecf47e0d47baeb679457d54ce482ead56ae226111c8a0dee6f343bc",
+"size":7063837,
+"timestamp":1620524419905,
+"version":"2.2.0"
+},
 "zaber-motion-2.2.0-py38h3ea6e4f_0.tar.bz2":{
 "build":"py38h3ea6e4f_0",
 "build_number":0,
@@ -118496,6 +118713,44 @@
 "sha256":"94a206df9b3c97fe172980e21b07fad681490065cdaf8c8d4b1325056169a5c1",
 "size":7065651,
 "timestamp":1615438933937,
+"version":"2.2.0"
+},
+"zaber-motion-2.2.0-py38hcb0f5b1_1.tar.bz2":{
+"build":"py38hcb0f5b1_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=8.4.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=8.4.0",
+"protobuf",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"rx"
+],
+"license":"MIT",
+"name":"zaber-motion",
+"sha256":"0b6cd70e2eeeeb5f3ba0ab54d7a69b299e761a4149cff0df515feb2913768350",
+"size":7044308,
+"timestamp":1620524324106,
+"version":"2.2.0"
+},
+"zaber-motion-2.2.0-py39h2c488cb_1.tar.bz2":{
+"build":"py39h2c488cb_1",
+"build_number":1,
+"depends":[
+"libgcc-ng >=8.4.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=8.4.0",
+"protobuf",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"rx"
+],
+"license":"MIT",
+"name":"zaber-motion",
+"sha256":"960620b31857b51921726866a1b1f503204c65c7bc71f2ad79cb46ba453d547c",
+"size":7065093,
+"timestamp":1620524343505,
 "version":"2.2.0"
 },
 "zaber-motion-2.2.0-py39h7a1de0c_0.tar.bz2":{
