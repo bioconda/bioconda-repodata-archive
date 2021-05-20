@@ -1359,6 +1359,21 @@
 "timestamp":1569447382510,
 "version":"3.6.0"
 },
+"basesystem-amzn2-aarch64-10.0-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"filesystem-amzn2-aarch64 3.2",
+"setup-amzn2-aarch64 2.8.71"
+],
+"license":"Public-Domain",
+"name":"basesystem-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"e77c92ee4b55f592b7f3810d37bf9dac393dec21dd4a9bb575f78917771a315a",
+"size":2170,
+"timestamp":1620060502593,
+"version":"10.0"
+},
 "baycomp-1.0.2-py_1.tar.bz2":{
 "build":"py_1",
 "build_number":1,
@@ -4036,6 +4051,20 @@
 "timestamp":1610993982592,
 "version":"3.0.12"
 },
+"filesystem-amzn2-aarch64-3.2-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"setup-amzn2-aarch64 2.8.71"
+],
+"license":"Public-Domain",
+"name":"filesystem-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"a3730edd2311b292574bf975a2a7424ed85d32ac4e39affb23bf05ecbd82f0a7",
+"size":2123,
+"timestamp":1620060499880,
+"version":"3.2"
+},
 "flake8-3.9.2-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -5395,6 +5424,48 @@
 "timestamp":1610795780851,
 "version":"2.56.1"
 },
+"glibc-amzn2-aarch64-2.26-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"basesystem-amzn2-aarch64 10.0",
+"glibc-common-amzn2-aarch64 2.26",
+"glibc-minimal-langpack-amzn2-aarch64 2.26"
+],
+"license":"LGPLv2+ and LGPLv2+ with exceptions and GPLv2+",
+"name":"glibc-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"b446688bd63d4b65408db357e2b0f7b969d77dbbafcf53962aaab8a95e0b4f04",
+"size":4786298,
+"timestamp":1620060514887,
+"version":"2.26"
+},
+"glibc-common-amzn2-aarch64-2.26-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"tzdata-amzn2-aarch64 >=2003a"
+],
+"license":"LGPLv2+ and LGPLv2+ with exceptions and GPLv2+",
+"name":"glibc-common-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"eb9b49c5f2f6b896e91d99ae65ec9c4ce97f21171184d937a6790aaa0c5bbf82",
+"size":1009134,
+"timestamp":1620060485106,
+"version":"2.26"
+},
+"glibc-minimal-langpack-amzn2-aarch64-2.26-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[],
+"license":"LGPLv2+ and LGPLv2+ with exceptions and GPLv2+",
+"name":"glibc-minimal-langpack-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"0f9887989fade575bd0e9e9420857b5b7a462575171185073f2fa56525b66ca7",
+"size":2146,
+"timestamp":1620060490543,
+"version":"2.26"
+},
 "glob2-0.7-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -6154,7 +6225,7 @@
 "timestamp":1610130777135,
 "version":"21.0.0"
 },
-"hypothesis-6.12.1-pyhd3eb1b0_0.tar.bz2":{
+"hypothesis-6.13.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -6167,10 +6238,10 @@
 "license":"MPL 2.0",
 "name":"hypothesis",
 "noarch":"python",
-"sha256":"5a4f25528f95c35c81ed93f4342f7b3956797496f82d6eebd62e8d228440bfb2",
-"size":246591,
-"timestamp":1621259744952,
-"version":"6.12.1"
+"sha256":"471193f4a040c7608927015a592fffd4248503549815a59464986ae7f7a98852",
+"size":245739,
+"timestamp":1621346135430,
+"version":"6.13.0"
 },
 "icalendar-4.0.7-py_0.tar.bz2":{
 "build":"py_0",
@@ -8777,6 +8848,34 @@
 "timestamp":1610796740670,
 "version":"2.23.2"
 },
+"libx11-amzn2-aarch64-1.6.7-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libx11-common-amzn2-aarch64 >=1.6.7",
+"libxcb-amzn2-aarch64 1.12"
+],
+"license":"MIT",
+"name":"libx11-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"5f4b2d78b220a6c184abb6570fc7997a3884c5a618095804287779736312beb5",
+"size":785067,
+"timestamp":1620061182856,
+"version":"1.6.7"
+},
+"libx11-common-amzn2-aarch64-1.6.7-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[],
+"license":"MIT",
+"name":"libx11-common-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"b3c7bb63e4de9dced2133c1d39db85e5631cd7de1ce37ebf66235ce1744b127c",
+"size":134211,
+"timestamp":1620061164560,
+"version":"1.6.7"
+},
 "libx11-common-cos6-i686-1.6.4-h4fe2c13_0.tar.bz2":{
 "build":"h4fe2c13_0",
 "build_number":0,
@@ -8881,6 +8980,20 @@
 "timestamp":1610796012186,
 "version":"1.6.7"
 },
+"libx11-devel-amzn2-aarch64-1.6.7-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"libx11-amzn2-aarch64 1.6.7"
+],
+"license":"MIT",
+"name":"libx11-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"1ba483a4f78787acde31958caef4ce28974b29ba86f022c2138ac1beb757eded",
+"size":928084,
+"timestamp":1620062089798,
+"version":"1.6.7"
+},
 "libx11-devel-cos6-i686-1.6.4-hfa5a665_0.tar.bz2":{
 "build":"hfa5a665_0",
 "build_number":0,
@@ -8936,6 +9049,20 @@
 "size":929349,
 "timestamp":1610796769883,
 "version":"1.6.7"
+},
+"libxau-amzn2-aarch64-1.0.8-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"MIT",
+"name":"libxau-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"f92f2ece4b408e47917c1c5a49b730ad5fb5efc9751df2be16b65ab57a738219",
+"size":23337,
+"timestamp":1620061169760,
+"version":"1.0.8"
 },
 "libxau-cos6-i686-1.0.6-hc38bd3c_0.tar.bz2":{
 "build":"hc38bd3c_0",
@@ -9040,6 +9167,21 @@
 "size":8201,
 "timestamp":1611935270509,
 "version":"1.0.8"
+},
+"libxcb-amzn2-aarch64-1.12-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libxau-amzn2-aarch64 1.0.8"
+],
+"license":"MIT",
+"name":"libxcb-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"772fa3817aecae42e13e3bdcd8ee931e7139c28acbc8dfefaed37792ec833c15",
+"size":245857,
+"timestamp":1620061175458,
+"version":"1.12"
 },
 "libxcb-cos6-i686-1.12-he0412ea_0.tar.bz2":{
 "build":"he0412ea_0",
@@ -11076,7 +11218,7 @@
 "timestamp":1569368756343,
 "version":"2.0.6"
 },
-"moto-2.0.6-pyhd3eb1b0_0.tar.bz2":{
+"moto-2.0.7-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -11094,8 +11236,9 @@
 "idna <3,>=2.5",
 "inflection",
 "jinja2 >=2.10.1",
-"jsondiff 1.1.2.*",
+"jsondiff >=1.1.2",
 "lxml",
+"markupsafe !=2.0.0a1",
 "mock",
 "more-itertools",
 "prompt_toolkit",
@@ -11116,10 +11259,10 @@
 "license":"Apache-2.0",
 "name":"moto",
 "noarch":"python",
-"sha256":"0357001aefd4932847279c7095032f937d342360ae72f25ee710de728c66df2b",
-"size":1305071,
-"timestamp":1620166449634,
-"version":"2.0.6"
+"sha256":"44a0947be948aa4cb2397aa2edd4d5cfb1d19566bcf3e562cb0766541eebad6e",
+"size":1314580,
+"timestamp":1621422942001,
+"version":"2.0.7"
 },
 "mpl-scatter-density-0.7-py_0.tar.bz2":{
 "build":"py_0",
@@ -11406,7 +11549,7 @@
 "timestamp":1617653342475,
 "version":"2.5.1"
 },
-"nltk-3.6.1-pyhd3eb1b0_0.tar.bz2":{
+"nltk-3.6.2-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -11419,10 +11562,10 @@
 "license":"Apache 2.0",
 "name":"nltk",
 "noarch":"python",
-"sha256":"c0ad953eb1259cf720e53afe0978beda98da320e76ece6f175b13606ca18d112",
-"size":1121957,
-"timestamp":1618327124816,
-"version":"3.6.1"
+"sha256":"0d6dc57a8d22d74517ff24999c553621c40fe3cbe8e509b323d4ba7544c265ac",
+"size":1118869,
+"timestamp":1621347480299,
+"version":"3.6.2"
 },
 "nose-1.3.7-pyhd3eb1b0_1006.tar.bz2":{
 "build":"pyhd3eb1b0_1006",
@@ -15976,6 +16119,20 @@
 "timestamp":1574087221742,
 "version":"18.1.0"
 },
+"setup-amzn2-aarch64-2.8.71-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"system-release-amzn2-aarch64 2"
+],
+"license":"Public-Domain",
+"name":"setup-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"5b26106960104b6d1c0a6bb714018636ae61d805104a1d4549e39c09385a1b61",
+"size":140446,
+"timestamp":1620060496458,
+"version":"2.8.71"
+},
 "setuptools-git-1.2-py_1.tar.bz2":{
 "build":"py_1",
 "build_number":1,
@@ -17064,6 +17221,18 @@
 "timestamp":1611125383743,
 "version":"2.17"
 },
+"system-release-amzn2-aarch64-2-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[],
+"license":"GPLv2",
+"name":"system-release-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"1cc0be7b8773c609ca2a16d3c34da69400913164ffd712440a33862c13f190c8",
+"size":15070,
+"timestamp":1620060493415,
+"version":"2"
+},
 "systemd-cos7-ppc64le-219-0.tar.bz2":{
 "build":"0",
 "build_number":0,
@@ -17780,6 +17949,18 @@
 "timestamp":1611086516621,
 "version":"2020f"
 },
+"tzdata-amzn2-aarch64-2020d-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[],
+"license":"Public-Domain",
+"name":"tzdata-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"9776f9a884af404acb208f302a382df790bdc4b5e010ef1b3e44dc7399405493",
+"size":508125,
+"timestamp":1620060475136,
+"version":"2020d"
+},
 "tzdata-java-cos7-s390x-2019c-2.tar.bz2":{
 "build":"2",
 "build_number":2,
@@ -18330,6 +18511,18 @@
 "size":14137,
 "timestamp":1552405140675,
 "version":"0.12.0"
+},
+"xorg-x11-proto-devel-amzn2-aarch64-2018.4-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[],
+"license":"MIT",
+"name":"xorg-x11-proto-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"5ea1fbfd385bd4236556a31a7449803df381ba51caacd2b60658d309b9e20635",
+"size":291154,
+"timestamp":1620061960997,
+"version":"2018.4"
 },
 "xorg-x11-proto-devel-cos6-i686-7.7-h22e4318_0.tar.bz2":{
 "build":"h22e4318_0",
