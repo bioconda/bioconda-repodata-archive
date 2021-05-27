@@ -4321,7 +4321,7 @@
 "timestamp":1572437519123,
 "version":"0.7.12"
 },
-"alembic-1.6.3-pyhd3eb1b0_0.conda":{
+"alembic-1.6.4-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -4331,14 +4331,14 @@
 "python-editor >=0.3",
 "sqlalchemy >=1.3.0"
 ],
-"legacy_bz2_md5":"51d5315fa44f3815877991793ab4ed4e",
+"legacy_bz2_md5":"3ed8e59856d17618f2a04e18e379777c",
 "license":"MIT",
 "name":"alembic",
 "noarch":"python",
-"sha256":"f17c196ddfb876b8c0996743604501aeb6d55a4867cc965c0fc378fc0c8c28db",
-"size":122589,
-"timestamp":1621822890595,
-"version":"1.6.3"
+"sha256":"fc56b03fe26a704e220ce5a9429a039c8182ea2e25b1f657a61d3cc5fc65b532",
+"size":122748,
+"timestamp":1621971373048,
+"version":"1.6.4"
 },
 "alsa-lib-cos6-i686-1.1.0-hc30c76e_0.conda":{
 "build":"hc30c76e_0",
@@ -5964,7 +5964,7 @@
 "build":"py_0",
 "build_number":0,
 "depends":[
-"click",
+"click <8.0",
 "prompt_toolkit",
 "python",
 "six"
@@ -7512,7 +7512,7 @@
 "timestamp":1614170744319,
 "version":"0.5"
 },
-"elasticsearch-7.12.1-pyhd3eb1b0_0.conda":{
+"elasticsearch-7.13.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -7522,14 +7522,14 @@
 "requests >=2.4.0,<3.0.0",
 "urllib3 >=1.21.1,<2"
 ],
-"legacy_bz2_md5":"223d41e2a45e6257c37d688593bd2813",
+"legacy_bz2_md5":"a5821d774c2a79e2a96048e6ef8f4a3a",
 "license":"Apache-2.0",
 "name":"elasticsearch",
 "noarch":"python",
-"sha256":"955db95e3a68ae316bc6ca7b2409d434ad3604daee226c11f76c60441c2c6441",
-"size":112535,
-"timestamp":1619599251887,
-"version":"7.12.1"
+"sha256":"05e71b05c3e0a42a86ba8839bc057b48cd34188d5adfd234559eff782fc8b936",
+"size":115693,
+"timestamp":1622024650781,
+"version":"7.13.0"
 },
 "email-validator-1.1.2-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -8159,6 +8159,26 @@
 "timestamp":1589073777498,
 "version":"0.14.3"
 },
+"flask-wtf-0.15.1-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"email-validator",
+"flask",
+"itsdangerous",
+"python >=3.6",
+"werkzeug",
+"wtforms"
+],
+"legacy_bz2_md5":"2c65f03f4b7e4bf4d8a42b52f8f19037",
+"license":"BSD 3-Clause",
+"name":"flask-wtf",
+"noarch":"python",
+"sha256":"42bbe314e817f8d09e3ad5660cb37a9018f17b4cd60a759114cb2f26aef3a98b",
+"size":15634,
+"timestamp":1622018708557,
+"version":"0.15.1"
+},
 "flask_cors-3.0.10-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -8347,7 +8367,7 @@
 "timestamp":1507939991846,
 "version":"1"
 },
-"fonttools-4.24.3-pyhd3eb1b0_0.conda":{
+"fonttools-4.24.4-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -8356,14 +8376,14 @@
 "python >=3.6",
 "unicodedata2 >=13.0.0"
 ],
-"legacy_bz2_md5":"f4a4f89eb14a0eb976d598234b8daecf",
+"legacy_bz2_md5":"233c000a13854151f362d2e9a7bec098",
 "license":"MIT",
 "name":"fonttools",
 "noarch":"python",
-"sha256":"4967d89560223c156e97b3ab677a05d4b7eeedc634f3d6d7e62d23a98b6ebde0",
-"size":636907,
-"timestamp":1621538653560,
-"version":"4.24.3"
+"sha256":"2123875df546c99ec01b37008735374e3d28e8943b760552c3f5ab8c5a887097",
+"size":637033,
+"timestamp":1622017227028,
+"version":"4.24.4"
 },
 "freetype-cos6-i686-2.3.11-h85374aa_0.conda":{
 "build":"h85374aa_0",
@@ -9042,7 +9062,7 @@
 "timestamp":1613980405889,
 "version":"1.25.1"
 },
-"google-auth-1.30.0-pyhd3eb1b0_0.conda":{
+"google-auth-1.30.1-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -9051,18 +9071,19 @@
 "pyasn1-modules >=0.2.1",
 "pyopenssl >=20.0.0",
 "python >=3.6",
+"requests >=2.20.0,<3.0.0dev",
 "rsa >=3.1.4,<5",
 "setuptools >=40.3.0",
 "six >=1.9.0"
 ],
-"legacy_bz2_md5":"652effcffbd184985b98ed01ef34f425",
+"legacy_bz2_md5":"4a96d1797947ff421d94f5b79bf34e7a",
 "license":"Apache-2.0",
 "name":"google-auth",
 "noarch":"python",
-"sha256":"0fd5164feaa4aabb0350c245fcce886831360333c5a8aac698df47bd59f09ee8",
-"size":78261,
-"timestamp":1619477163948,
-"version":"1.30.0"
+"sha256":"7fd1058eee6798d256355db876d9f6cb0aa4f1211a1d055e463ccc4b8725fcd0",
+"size":78316,
+"timestamp":1622043006661,
+"version":"1.30.1"
 },
 "google-auth-oauthlib-0.4.4-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -9343,55 +9364,30 @@
 "timestamp":1569462768431,
 "version":"1.0.1"
 },
-"holoviews-1.14.3-pyhd3eb1b0_0.conda":{
-"build":"pyhd3eb1b0_0",
-"build_number":0,
-"depends":[
-"bokeh >=1.1.0",
-"colorcet",
-"ipython >=5.4.0",
-"matplotlib-base >=2.2",
-"notebook",
-"numpy >=1.0",
-"pandas >=0.20.0",
-"panel >=0.8.0",
-"param >=1.9.3,<2.0",
-"python",
-"pyviz_comms >=0.7.4"
-],
-"legacy_bz2_md5":"b5d93a9b8b914a2073e237e321b111be",
-"license":"BSD-3-Clause",
-"name":"holoviews",
-"noarch":"python",
-"sha256":"1a371aeccb63670642f805eb066403f29073ca924c8cca26e2096710704b31a6",
-"size":3399106,
-"timestamp":1617917283703,
-"version":"1.14.3"
-},
-"holoviews-1.14.3-pyhd3eb1b0_1.conda":{
+"holoviews-1.14.4-pyhd3eb1b0_1.conda":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
 "bokeh >=1.1.0",
 "colorcet",
 "ipython >=5.4.0",
-"matplotlib-base >=2.2",
+"matplotlib-base >=3",
 "notebook",
 "numpy >=1.0",
 "pandas >=0.20.0",
-"panel >=0.8.0",
+"panel >=0.9.5",
 "param >=1.9.3,<2.0",
 "python >=2.7",
 "pyviz_comms >=0.7.4"
 ],
-"legacy_bz2_md5":"23a9e2e05ee6d0743638ca6f382b2460",
+"legacy_bz2_md5":"e8122d4029fb39d08a1e43456877613d",
 "license":"BSD-3-Clause",
 "name":"holoviews",
 "noarch":"python",
-"sha256":"53554d2d1195850eed4648b8ce3b5e0ddbfa5761722fe5b6f802529db884f12a",
-"size":3405269,
-"timestamp":1617994442958,
-"version":"1.14.3"
+"sha256":"cd159d1ad86fb8a62be85c8083037e921d46d97931e12b56bcf5812f60114f68",
+"size":3400783,
+"timestamp":1622036797906,
+"version":"1.14.4"
 },
 "hpack-4.0.0-py_0.conda":{
 "build":"py_0",
@@ -15929,6 +15925,22 @@
 "size":21804,
 "timestamp":1620401466318,
 "version":"3.6.1"
+},
+"pytest-mpi-0.5-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"pytest",
+"python >=3.6"
+],
+"legacy_bz2_md5":"149d4808ea521c0aafdb708efb69ebe7",
+"license":"BSD-3-Clause",
+"name":"pytest-mpi",
+"noarch":"python",
+"sha256":"5af3e71a9f25db13305226a74aeb7504fc84b5df9fac1cfad79f84302034bd58",
+"size":11611,
+"timestamp":1622013039464,
+"version":"0.5"
 },
 "pytest-openfiles-0.5.0-py_0.conda":{
 "build":"py_0",
