@@ -3433,6 +3433,23 @@
 "timestamp":1615660149002,
 "version":"1.35.0"
 },
+"aws-sam-translator-1.36.0-pyhd3eb1b0_1.tar.bz2":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"boto3 >=1.5,<2.0a0",
+"jsonschema >=3.2,<4.0a0",
+"python >=3.6",
+"six >=1.15,<2.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-sam-translator",
+"noarch":"python",
+"sha256":"56441bab26a22681c1366dfa2880c46ee95ec02b67b447a3c9fa361adc29e931",
+"size":143266,
+"timestamp":1622644648674,
+"version":"1.36.0"
+},
 "aws-xray-sdk-0.95-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -8311,6 +8328,23 @@
 "size":4714660,
 "timestamp":1613501168986,
 "version":"1.20.8"
+},
+"botocore-1.20.84-pyhd3eb1b0_1.tar.bz2":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"jmespath >=0.7.1,<1.0.0",
+"python",
+"python-dateutil >=2.1,<3.0.0",
+"urllib3 >=1.25.4,<1.27"
+],
+"license":"Apache-2.0",
+"name":"botocore",
+"noarch":"python",
+"sha256":"c997bf927f67a6a3886d4ab0b6d0c427344ecfaa212f202635b1d98a38716e8c",
+"size":4854501,
+"timestamp":1622485606215,
+"version":"1.20.84"
 },
 "botocore-1.20.9-pyhd3eb1b0_1.tar.bz2":{
 "build":"pyhd3eb1b0_1",
@@ -13384,6 +13418,29 @@
 "size":4654,
 "timestamp":1617652309890,
 "version":"2021.4.0"
+},
+"dask-2021.5.1-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"constrains":[
+"openssl !=1.1.1e"
+],
+"depends":[
+"bokeh >=1.0.0,!=2.0.0",
+"cytoolz >=0.8.2",
+"dask-core 2021.5.1.*",
+"distributed 2021.5.1.*",
+"numpy >=1.16",
+"pandas >=0.25.0",
+"python >=3.7"
+],
+"license":"BSD-3-Clause",
+"name":"dask",
+"noarch":"python",
+"sha256":"9e6e0b74896fcfe247da62b676133190621dd127b0ef458abbc1c9ac8746d305",
+"size":4685,
+"timestamp":1622647246248,
+"version":"2021.5.1"
 },
 "dask-core-1.1.1-py_0.tar.bz2":{
 "build":"py_0",
@@ -38173,7 +38230,7 @@
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"bokeh >=2.2",
+"bokeh >=2.2,<2.3",
 "markdown",
 "param >=1.10.0",
 "pyct >=0.4.4",
@@ -38194,7 +38251,7 @@
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"bokeh >=2.2",
+"bokeh >=2.2,<2.3",
 "markdown",
 "param >=1.10.0",
 "pyct >=0.4.4",
@@ -38215,7 +38272,7 @@
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
-"bokeh >=2.2",
+"bokeh >=2.2,<2.3",
 "markdown",
 "param >=1.10.0",
 "pyct >=0.4.4",
@@ -38278,7 +38335,7 @@
 "build":"0",
 "build_number":0,
 "depends":[
-"bokeh >=1.0.0",
+"bokeh >=1.0.0,<2.0.0a0",
 "markdown",
 "param >=1.8.2",
 "pyviz_comms >=0.7.0",
@@ -38296,7 +38353,7 @@
 "build":"0",
 "build_number":0,
 "depends":[
-"bokeh >=1.1.0",
+"bokeh >=1.1.0,<2.0.0a0",
 "markdown",
 "param >=1.9.0",
 "pyviz_comms >=0.7.2",
@@ -38314,7 +38371,7 @@
 "build":"h39e3cac_0",
 "build_number":0,
 "depends":[
-"bokeh >=1.1.0",
+"bokeh >=1.1.0,<2.0.0a0",
 "markdown",
 "param >=1.9.1",
 "pyct >=0.4.4",
@@ -38333,7 +38390,7 @@
 "build":"h39e3cac_0",
 "build_number":0,
 "depends":[
-"bokeh >=1.3.0",
+"bokeh >=1.3.0,<2.0.0a0",
 "markdown",
 "param >=1.9.0",
 "pyct >=0.4.4",
@@ -38351,7 +38408,7 @@
 "build":"0",
 "build_number":0,
 "depends":[
-"bokeh >=1.3.0",
+"bokeh >=1.3.0,<2.0.0a0",
 "markdown",
 "param >=1.9.1",
 "pyct >=0.4.4",
@@ -38369,7 +38426,7 @@
 "build":"0",
 "build_number":0,
 "depends":[
-"bokeh >=1.3.0",
+"bokeh >=1.3.0,<2.0.0a0",
 "markdown",
 "param >=1.9.1",
 "pyct >=0.4.4",
@@ -38387,7 +38444,7 @@
 "build":"0",
 "build_number":0,
 "depends":[
-"bokeh >=1.4.0",
+"bokeh >=1.4.0,<2.0.0a0",
 "markdown",
 "param >=1.9.2",
 "pyct >=0.4.4",
@@ -38405,7 +38462,7 @@
 "build":"0",
 "build_number":0,
 "depends":[
-"bokeh >=1.4.0,<2.0",
+"bokeh >=1.4.0,<2.0.0a0",
 "markdown",
 "param >=1.9.2",
 "pyct >=0.4.4",
@@ -38424,7 +38481,7 @@
 "build":"py_0",
 "build_number":0,
 "depends":[
-"bokeh >=2.0",
+"bokeh >=2.0,<2.3",
 "markdown",
 "param >=1.9.2",
 "pyct >=0.4.4",
@@ -38444,7 +38501,7 @@
 "build":"py_1",
 "build_number":1,
 "depends":[
-"bokeh >=2.0",
+"bokeh >=2.0,<2.3",
 "markdown",
 "param >=1.9.3",
 "pyct >=0.4.4",
@@ -38464,7 +38521,7 @@
 "build":"py_0",
 "build_number":0,
 "depends":[
-"bokeh >=2.1",
+"bokeh >=2.1,<2.3",
 "markdown",
 "param >=1.9.3",
 "pyct >=0.4.4",
@@ -38484,7 +38541,7 @@
 "build":"py_0",
 "build_number":0,
 "depends":[
-"bokeh >=2.1",
+"bokeh >=2.1,<2.3",
 "markdown",
 "param >=1.9.3",
 "pyct >=0.4.4",
@@ -61465,6 +61522,23 @@
 "timestamp":1615660149002,
 "version":"1.35.0"
 },
+"aws-sam-translator-1.36.0-pyhd3eb1b0_1.conda":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"boto3 >=1.5,<2.0a0",
+"jsonschema >=3.2,<4.0a0",
+"python >=3.6",
+"six >=1.15,<2.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-sam-translator",
+"noarch":"python",
+"sha256":"556ef648af9700bb0e43a5aae98c3ca32090d47e30778fe9ddcb9b781a4846b8",
+"size":147087,
+"timestamp":1622644648674,
+"version":"1.36.0"
+},
 "aws-xray-sdk-0.95-py_0.conda":{
 "build":"py_0",
 "build_number":0,
@@ -66283,6 +66357,23 @@
 "size":3697441,
 "timestamp":1613501168986,
 "version":"1.20.8"
+},
+"botocore-1.20.84-pyhd3eb1b0_1.conda":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"jmespath >=0.7.1,<1.0.0",
+"python",
+"python-dateutil >=2.1,<3.0.0",
+"urllib3 >=1.25.4,<1.27"
+],
+"license":"Apache-2.0",
+"name":"botocore",
+"noarch":"python",
+"sha256":"349d1da89ad24b87b28a478cf3749a4258318e8710422104b4860de77ec5dc62",
+"size":3895538,
+"timestamp":1622485606215,
+"version":"1.20.84"
 },
 "botocore-1.20.9-pyhd3eb1b0_1.conda":{
 "build":"pyhd3eb1b0_1",
@@ -71116,6 +71207,29 @@
 "size":5043,
 "timestamp":1617652309890,
 "version":"2021.4.0"
+},
+"dask-2021.5.1-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"constrains":[
+"openssl !=1.1.1e"
+],
+"depends":[
+"bokeh >=1.0.0,!=2.0.0",
+"cytoolz >=0.8.2",
+"dask-core 2021.5.1.*",
+"distributed 2021.5.1.*",
+"numpy >=1.16",
+"pandas >=0.25.0",
+"python >=3.7"
+],
+"license":"BSD-3-Clause",
+"name":"dask",
+"noarch":"python",
+"sha256":"d408a240a39a1615de389dab7e929713c2b93a6c0ec15599a7296a8e18013e61",
+"size":5047,
+"timestamp":1622647246248,
+"version":"2021.5.1"
 },
 "dask-core-1.1.1-py_0.conda":{
 "build":"py_0",
@@ -93141,7 +93255,7 @@
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"bokeh >=2.2",
+"bokeh >=2.2,<2.3",
 "markdown",
 "param >=1.10.0",
 "pyct >=0.4.4",
@@ -93162,7 +93276,7 @@
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"bokeh >=2.2",
+"bokeh >=2.2,<2.3",
 "markdown",
 "param >=1.10.0",
 "pyct >=0.4.4",
@@ -93183,7 +93297,7 @@
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
-"bokeh >=2.2",
+"bokeh >=2.2,<2.3",
 "markdown",
 "param >=1.10.0",
 "pyct >=0.4.4",
@@ -93246,7 +93360,7 @@
 "build":"0",
 "build_number":0,
 "depends":[
-"bokeh >=1.0.0",
+"bokeh >=1.0.0,<2.0.0a0",
 "markdown",
 "param >=1.8.2",
 "pyviz_comms >=0.7.0",
@@ -93264,7 +93378,7 @@
 "build":"0",
 "build_number":0,
 "depends":[
-"bokeh >=1.1.0",
+"bokeh >=1.1.0,<2.0.0a0",
 "markdown",
 "param >=1.9.0",
 "pyviz_comms >=0.7.2",
@@ -93282,7 +93396,7 @@
 "build":"h39e3cac_0",
 "build_number":0,
 "depends":[
-"bokeh >=1.1.0",
+"bokeh >=1.1.0,<2.0.0a0",
 "markdown",
 "param >=1.9.1",
 "pyct >=0.4.4",
@@ -93301,7 +93415,7 @@
 "build":"h39e3cac_0",
 "build_number":0,
 "depends":[
-"bokeh >=1.3.0",
+"bokeh >=1.3.0,<2.0.0a0",
 "markdown",
 "param >=1.9.0",
 "pyct >=0.4.4",
@@ -93319,7 +93433,7 @@
 "build":"0",
 "build_number":0,
 "depends":[
-"bokeh >=1.3.0",
+"bokeh >=1.3.0,<2.0.0a0",
 "markdown",
 "param >=1.9.1",
 "pyct >=0.4.4",
@@ -93337,7 +93451,7 @@
 "build":"0",
 "build_number":0,
 "depends":[
-"bokeh >=1.3.0",
+"bokeh >=1.3.0,<2.0.0a0",
 "markdown",
 "param >=1.9.1",
 "pyct >=0.4.4",
@@ -93355,7 +93469,7 @@
 "build":"0",
 "build_number":0,
 "depends":[
-"bokeh >=1.4.0",
+"bokeh >=1.4.0,<2.0.0a0",
 "markdown",
 "param >=1.9.2",
 "pyct >=0.4.4",
@@ -93373,7 +93487,7 @@
 "build":"0",
 "build_number":0,
 "depends":[
-"bokeh >=1.4.0,<2.0",
+"bokeh >=1.4.0,<2.0.0a0",
 "markdown",
 "param >=1.9.2",
 "pyct >=0.4.4",
@@ -93392,7 +93506,7 @@
 "build":"py_0",
 "build_number":0,
 "depends":[
-"bokeh >=2.0",
+"bokeh >=2.0,<2.3",
 "markdown",
 "param >=1.9.2",
 "pyct >=0.4.4",
@@ -93412,7 +93526,7 @@
 "build":"py_1",
 "build_number":1,
 "depends":[
-"bokeh >=2.0",
+"bokeh >=2.0,<2.3",
 "markdown",
 "param >=1.9.3",
 "pyct >=0.4.4",
@@ -93432,7 +93546,7 @@
 "build":"py_0",
 "build_number":0,
 "depends":[
-"bokeh >=2.1",
+"bokeh >=2.1,<2.3",
 "markdown",
 "param >=1.9.3",
 "pyct >=0.4.4",
@@ -93452,7 +93566,7 @@
 "build":"py_0",
 "build_number":0,
 "depends":[
-"bokeh >=2.1",
+"bokeh >=2.1,<2.3",
 "markdown",
 "param >=1.9.3",
 "pyct >=0.4.4",
