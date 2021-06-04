@@ -12557,6 +12557,36 @@
 "timestamp":1614602127550,
 "version":"1.78"
 },
+"biopython-1.79-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"numpy",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LicenseRef-Biopython",
+"name":"biopython",
+"sha256":"5f3656f433d556fe8a859a41a8b3fbbf512d00a8d8a3c848a16fd1724bcd561a",
+"size":2723003,
+"timestamp":1622747580842,
+"version":"1.79"
+},
+"biopython-1.79-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"numpy",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"LicenseRef-Biopython",
+"name":"biopython",
+"sha256":"ae03293201b0398df476e5bff5b802412357b6c3edef20c72ddcbd9eafe97047",
+"size":2733699,
+"timestamp":1622747512896,
+"version":"1.79"
+},
 "bison-3.4-h9aa5885_1.tar.bz2":{
 "build":"h9aa5885_1",
 "build_number":1,
@@ -15752,6 +15782,24 @@
 "timestamp":1620951230069,
 "version":"2021.4"
 },
+"cctbx-2021.5-hce30654_0.tar.bz2":{
+"build":"hce30654_0",
+"build_number":0,
+"depends":[
+"cctbx-base >=2021.5,<2021.6.0a0",
+"ipython",
+"pyside2",
+"pyzmq",
+"websockets",
+"wxpython"
+],
+"license":"BSD-3-Clause-LBNL AND BSD-3-Clause AND BSL-1.0 AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MIT AND LGPL-2.0-or-later WITH WxWindows-exception-3.1",
+"name":"cctbx",
+"sha256":"6454e777b8860024f44259b8f69288e7d083523a75e113291cbff228111e509b",
+"size":38641,
+"timestamp":1622684678298,
+"version":"2021.5"
+},
 "cctbx-base-2020.12-py38h40068c3_0.tar.bz2":{
 "build":"py38h40068c3_0",
 "build_number":0,
@@ -16099,6 +16147,64 @@
 "size":62307530,
 "timestamp":1620951162307,
 "version":"2021.4"
+},
+"cctbx-base-2021.5-py38h0a8e328_0.tar.bz2":{
+"build":"py38h0a8e328_0",
+"build_number":0,
+"depends":[
+"biopython",
+"boost >=1.74.0,<1.74.1.0a0",
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"future",
+"libcxx >=11.1.0",
+"libsvm",
+"matplotlib-base",
+"mrcfile",
+"numpy >=1.19.5,<2.0a0",
+"pillow",
+"psutil",
+"python >=3.8,<3.9.0a0",
+"python.app",
+"python_abi 3.8.* *_cp38",
+"reportlab",
+"requests",
+"six"
+],
+"license":"BSD-3-Clause-LBNL AND BSD-3-Clause AND BSL-1.0 AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MIT AND LGPL-2.0-or-later WITH WxWindows-exception-3.1",
+"name":"cctbx-base",
+"sha256":"815792ea2e963a7ba5581810e2b195ec0637b244ec92a7e2316d843beb40c906",
+"size":62780300,
+"timestamp":1622684612754,
+"version":"2021.5"
+},
+"cctbx-base-2021.5-py39h4fa2601_0.tar.bz2":{
+"build":"py39h4fa2601_0",
+"build_number":0,
+"depends":[
+"biopython",
+"boost >=1.74.0,<1.74.1.0a0",
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"future",
+"libcxx >=11.1.0",
+"libsvm",
+"matplotlib-base",
+"mrcfile",
+"numpy >=1.19.5,<2.0a0",
+"pillow",
+"psutil",
+"python >=3.9,<3.10.0a0",
+"python.app",
+"python_abi 3.9.* *_cp39",
+"reportlab",
+"requests",
+"six"
+],
+"license":"BSD-3-Clause-LBNL AND BSD-3-Clause AND BSL-1.0 AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MIT AND LGPL-2.0-or-later WITH WxWindows-exception-3.1",
+"name":"cctbx-base",
+"sha256":"d57b1ef5bf9f53205878faef04349824bc5f44c19fcb5cc9145b2658715bddbd",
+"size":62157023,
+"timestamp":1622685072558,
+"version":"2021.5"
 },
 "cctools-949.0.1-ha9384d2_18.tar.bz2":{
 "build":"ha9384d2_18",
@@ -28170,6 +28276,38 @@
 "size":447222,
 "timestamp":1616625467059,
 "version":"2.2.2"
+},
+"eventio-1.5.1.post1-py38h691f20f_1.tar.bz2":{
+"build":"py38h691f20f_1",
+"build_number":1,
+"depends":[
+"corsikaio 0.2.*",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"eventio",
+"sha256":"bfd65eaf14a27c3b18a8525dc4497121b6f371c62245da4b78e933b1945f61c7",
+"size":216795,
+"timestamp":1622759012064,
+"version":"1.5.1.post1"
+},
+"eventio-1.5.1.post1-py39h20ef057_1.tar.bz2":{
+"build":"py39h20ef057_1",
+"build_number":1,
+"depends":[
+"corsikaio 0.2.*",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"eventio",
+"sha256":"b25030e0dc87002ba10c731824693583e1a3b04f2b077e2c93c134722f9f03ee",
+"size":219494,
+"timestamp":1622758999038,
+"version":"1.5.1.post1"
 },
 "exa-0.10.0-h822aac1_0.tar.bz2":{
 "build":"h822aac1_0",
@@ -66456,6 +66594,33 @@
 "timestamp":1622543554445,
 "version":"3.4.1"
 },
+"openslide-3.4.1-h71f3ad9_4.tar.bz2":{
+"build":"h71f3ad9_4",
+"build_number":4,
+"depends":[
+"cairo >=1.16.0,<2.0a0",
+"cairo >=1.2",
+"gdk-pixbuf >=2.42.6,<3.0a0",
+"glib >=2.48.0",
+"jpeg >=9d,<10a",
+"libglib >=2.68.2,<3.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libtiff >=4",
+"libtiff >=4.3.0,<5.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
+"openjpeg >=2.1",
+"openjpeg >=2.4.0,<3.0a0",
+"sqlite >=3.35.5,<4.0a0",
+"sqlite >=3.6.2",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"LGPL 2.1",
+"name":"openslide",
+"sha256":"8d958a7c08efab47808f5daaeea2a78b365fa9814199076ee83c1084d86f2a4e",
+"size":104043,
+"timestamp":1622685094721,
+"version":"3.4.1"
+},
 "openssh-8.4p1-hff6e12b_0.tar.bz2":{
 "build":"hff6e12b_0",
 "build_number":0,
@@ -68810,6 +68975,36 @@
 "timestamp":1614710749367,
 "version":"1.5.2"
 },
+"pkgconfig-1.5.4-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"pkg-config",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"pkgconfig",
+"sha256":"85dc2da265f1cc46c5a55504f53dd5922f09f2186da2349cfd30cc6d4a783367",
+"size":13636,
+"timestamp":1622751778200,
+"version":"1.5.4"
+},
+"pkgconfig-1.5.4-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"pkg-config",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"pkgconfig",
+"sha256":"bd92a0b88271a08b4f92d7f99828123ddc008f3f5fadc9ab5ac61b326aefe6fc",
+"size":13621,
+"timestamp":1622751801649,
+"version":"1.5.4"
+},
 "planarity-3.0.0.5-h27ca646_1002.tar.bz2":{
 "build":"h27ca646_1002",
 "build_number":1002,
@@ -71034,6 +71229,44 @@
 "size":334250,
 "timestamp":1621905801765,
 "version":"3.17.1"
+},
+"protobuf-3.17.2-py38h6f2b01f_0.tar.bz2":{
+"build":"py38h6f2b01f_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libprotobuf 3.17.2.*",
+"libprotobuf >=3.17.2,<3.18.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"setuptools",
+"six"
+],
+"license":"BSD-3-Clause",
+"name":"protobuf",
+"sha256":"2df87e57c37e1cee4a9a64393caff2791f3328a5625504423c35473590275a20",
+"size":331258,
+"timestamp":1622691236267,
+"version":"3.17.2"
+},
+"protobuf-3.17.2-py39hfb83b0d_0.tar.bz2":{
+"build":"py39hfb83b0d_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libprotobuf 3.17.2.*",
+"libprotobuf >=3.17.2,<3.18.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"setuptools",
+"six"
+],
+"license":"BSD-3-Clause",
+"name":"protobuf",
+"sha256":"700b5d590bccf2ef437bfa9d366d589625c8b0a2294495efa7bd6a39b231f6fe",
+"size":334283,
+"timestamp":1622691338226,
+"version":"3.17.2"
 },
 "psutil-5.7.2-py38h51573d8_1.tar.bz2":{
 "build":"py38h51573d8_1",
@@ -81498,6 +81731,22 @@
 "timestamp":1622164846839,
 "version":"3.1.0"
 },
+"pyproj-3.1.0-py38h54d821c_2.tar.bz2":{
+"build":"py38h54d821c_2",
+"build_number":2,
+"depends":[
+"certifi",
+"proj >=8.0.1,<8.0.2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"pyproj",
+"sha256":"fd4ce75a7ac950e12d4400ae12280b94b8c286494c072456f9634c0488f044e3",
+"size":453692,
+"timestamp":1622714115705,
+"version":"3.1.0"
+},
 "pyproj-3.1.0-py38h8d06fb5_0.tar.bz2":{
 "build":"py38h8d06fb5_0",
 "build_number":0,
@@ -81528,6 +81777,22 @@
 "sha256":"d9b853109259fb25327d676b6c1d0f6a55884218449f23f1d42259f4a6641cff",
 "size":475284,
 "timestamp":1622164824643,
+"version":"3.1.0"
+},
+"pyproj-3.1.0-py39hb3bc55d_2.tar.bz2":{
+"build":"py39hb3bc55d_2",
+"build_number":2,
+"depends":[
+"certifi",
+"proj >=8.0.1,<8.0.2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"pyproj",
+"sha256":"e6affe17f5ed894d3a3f6fed18bfc88d7bcaaaf8d9b8ced81d8c09f83f3a1d89",
+"size":476536,
+"timestamp":1622714082698,
 "version":"3.1.0"
 },
 "pyproj-3.1.0-py39heb2b06c_0.tar.bz2":{
@@ -93857,6 +94122,77 @@
 "timestamp":1622590740060,
 "version":"9.3"
 },
+"sagelib-9.3-py38h6e57fc7_2.tar.bz2":{
+"build":"py38h6e57fc7_2",
+"build_number":2,
+"depends":[
+"arb >=2.19.0,<2.20.0a0",
+"cliquer >=1.22,<1.23.0a0",
+"cypari2 >=2.1.2,<3.0a0",
+"cysignals >=1.10.3,<2.0a0",
+"cython >=0.29.23,<1.0a0",
+"ecl >=21.2.1,<21.3.0a0",
+"eclib >=20210503,<20210504.0a0",
+"ecm >=7.0.4,<8.0a0",
+"fflas-ffpack >=2.4.3,<3.0a0",
+"future",
+"gap-core >=4.11.0,<4.12.0a0",
+"giac >=1.6.0.47,<1.7.0a0",
+"givaro >=4.1.1,<4.1.2.0a0",
+"glpk >=4.65,<4.66.0a0",
+"gmp >=6.2.1,<7.0a0",
+"gmpy2 >=2.1.0b.1,<2.2.0a0",
+"gsl >=2.6,<2.7.0a0",
+"iml >=1.0.5,<1.1.0a0",
+"ipython >=7.16,<8",
+"jinja2 >=2.11.3,<2.12.0a0",
+"jupyter_core >=4.7.1,<5.0a0",
+"lcalc >=1.23,<1.24.0a0",
+"libblas >=3.9.0,<4.0a0",
+"libbraiding >=1.1,<1.2.0a0",
+"libbrial >=1.2.10,<1.3.0a0",
+"libcblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"libflint >=2.7.1,<2.8.0a0",
+"libgd >=2.3.2,<2.4.0a0",
+"libhomfly >=1.2r.6,<1.3a",
+"liblapack >=3.9.0,<4.0a0",
+"liblapacke >=3.9.0,<4.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"linbox >=1.6.3,<1.7.0a0",
+"lrcalc >=1.2,<1.3.0a0",
+"m4ri >=20140914,<20140915.0a0",
+"m4rie >=20150908,<20150909.0a0",
+"mpc >=1.1.0,<2.0a0",
+"mpfi >=1.5.4,<1.6.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"ntl 11.4.3.*",
+"numpy >=1.19.5,<2.0a0",
+"pari >=2.11.4,<2.12.0a0",
+"pexpect >=4.8.0,<5",
+"planarity >=3.0.0.5,<4.0a0",
+"ppl >=1.2,<1.3.0a0",
+"pplpy >=0.8.6,<0.9.0a0",
+"psutil >=5.2",
+"pynac >=0.7.27,<0.7.28.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"ratpoints >=2.1.3,<2.2.0a0",
+"readline >=8.1,<9.0a0",
+"rw >=0.9,<0.10.0a0",
+"singular >=4.2.0.0p.3,<4.2.0.1a",
+"six",
+"symmetrica >=2.0,<2.1.0a0",
+"zlib >=1.2.11,<1.3.0a0",
+"zn_poly >=0.9.2,<0.10.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"sagelib",
+"sha256":"e75114c7ea042a06c61713d7e8708c4634e8b48f863bb7766d0f8555596f7cc0",
+"size":77258473,
+"timestamp":1622686087144,
+"version":"9.3"
+},
 "sagelib-9.3-py39hc026e0e_1.tar.bz2":{
 "build":"py39hc026e0e_1",
 "build_number":1,
@@ -93926,6 +94262,77 @@
 "sha256":"080a31a9d53681356b2a3679e88c7c618443d16ef5c4a0b16504b95b65e527de",
 "size":77166577,
 "timestamp":1622596220138,
+"version":"9.3"
+},
+"sagelib-9.3-py39hc026e0e_2.tar.bz2":{
+"build":"py39hc026e0e_2",
+"build_number":2,
+"depends":[
+"arb >=2.19.0,<2.20.0a0",
+"cliquer >=1.22,<1.23.0a0",
+"cypari2 >=2.1.2,<3.0a0",
+"cysignals >=1.10.3,<2.0a0",
+"cython >=0.29.23,<1.0a0",
+"ecl >=21.2.1,<21.3.0a0",
+"eclib >=20210503,<20210504.0a0",
+"ecm >=7.0.4,<8.0a0",
+"fflas-ffpack >=2.4.3,<3.0a0",
+"future",
+"gap-core >=4.11.0,<4.12.0a0",
+"giac >=1.6.0.47,<1.7.0a0",
+"givaro >=4.1.1,<4.1.2.0a0",
+"glpk >=4.65,<4.66.0a0",
+"gmp >=6.2.1,<7.0a0",
+"gmpy2 >=2.1.0b.1,<2.2.0a0",
+"gsl >=2.6,<2.7.0a0",
+"iml >=1.0.5,<1.1.0a0",
+"ipython >=7.16,<8",
+"jinja2 >=2.11.3,<2.12.0a0",
+"jupyter_core >=4.7.1,<5.0a0",
+"lcalc >=1.23,<1.24.0a0",
+"libblas >=3.9.0,<4.0a0",
+"libbraiding >=1.1,<1.2.0a0",
+"libbrial >=1.2.10,<1.3.0a0",
+"libcblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"libflint >=2.7.1,<2.8.0a0",
+"libgd >=2.3.2,<2.4.0a0",
+"libhomfly >=1.2r.6,<1.3a",
+"liblapack >=3.9.0,<4.0a0",
+"liblapacke >=3.9.0,<4.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"linbox >=1.6.3,<1.7.0a0",
+"lrcalc >=1.2,<1.3.0a0",
+"m4ri >=20140914,<20140915.0a0",
+"m4rie >=20150908,<20150909.0a0",
+"mpc >=1.1.0,<2.0a0",
+"mpfi >=1.5.4,<1.6.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"ntl 11.4.3.*",
+"numpy >=1.19.5,<2.0a0",
+"pari >=2.11.4,<2.12.0a0",
+"pexpect >=4.8.0,<5",
+"planarity >=3.0.0.5,<4.0a0",
+"ppl >=1.2,<1.3.0a0",
+"pplpy >=0.8.6,<0.9.0a0",
+"psutil >=5.2",
+"pynac >=0.7.27,<0.7.28.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"ratpoints >=2.1.3,<2.2.0a0",
+"readline >=8.1,<9.0a0",
+"rw >=0.9,<0.10.0a0",
+"singular >=4.2.0.0p.3,<4.2.0.1a",
+"six",
+"symmetrica >=2.0,<2.1.0a0",
+"zlib >=1.2.11,<1.3.0a0",
+"zn_poly >=0.9.2,<0.10.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"sagelib",
+"sha256":"e385e3cc534dec7f1b739ec91ea7599ceaedb9aa0c0c707349f552e2145676e6",
+"size":77214598,
+"timestamp":1622685780450,
 "version":"9.3"
 },
 "sagemath-db-conway-polynomials-0.5.0-h4653dfc_1.tar.bz2":{
