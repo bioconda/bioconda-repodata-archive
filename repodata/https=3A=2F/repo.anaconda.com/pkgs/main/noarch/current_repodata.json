@@ -1312,6 +1312,21 @@
 "timestamp":1617217518141,
 "version":"4.14.214"
 },
+"kernel-headers_linux-aarch64-4.14.214-h1cb168f_14.tar.bz2":{
+"build":"h1cb168f_14",
+"build_number":14,
+"constrains":[
+"sysroot_linux-aarch64 ==2.26"
+],
+"depends":[],
+"license":"LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later AND MPL-2.0",
+"name":"kernel-headers_linux-aarch64",
+"noarch":"generic",
+"sha256":"d07c494337ff77ca782d2e502c4b4afc1a4928da8f4196d0d54376e300b9bc09",
+"size":1042813,
+"timestamp":1622844495365,
+"version":"4.14.214"
+},
 "kernel-headers_linux-ppc64le-3.10.0-h1da2f99_10.tar.bz2":{
 "build":"h1da2f99_10",
 "build_number":10,
@@ -3764,6 +3779,20 @@
 "sha256":"4cf9b604fe3b0e9b16cca2a1e34f745c154b0ed9397a66e7bfa5c5cce576682a",
 "size":8031403,
 "timestamp":1617217526439,
+"version":"2.26"
+},
+"sysroot_linux-aarch64-2.26-h4744778_14.tar.bz2":{
+"build":"h4744778_14",
+"build_number":14,
+"depends":[
+"kernel-headers_linux-aarch64 4.14.214 h1cb168f_14"
+],
+"license":"LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later AND MPL-2.0",
+"name":"sysroot_linux-aarch64",
+"noarch":"generic",
+"sha256":"54bf9c5417dd122bda252de1bc5624a33d97d2dff63f27e1c090a3a51c75c7b6",
+"size":11807545,
+"timestamp":1622844504957,
 "version":"2.26"
 },
 "sysroot_linux-ppc64le-2.17-h302c3fa_10.tar.bz2":{
@@ -7508,7 +7537,7 @@
 "timestamp":1614170744319,
 "version":"0.5"
 },
-"elasticsearch-7.13.0-pyhd3eb1b0_0.conda":{
+"elasticsearch-7.13.1-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -7518,14 +7547,14 @@
 "requests >=2.4.0,<3.0.0",
 "urllib3 >=1.21.1,<2"
 ],
-"legacy_bz2_md5":"a5821d774c2a79e2a96048e6ef8f4a3a",
+"legacy_bz2_md5":"0681e30f647558849ad2cd9b83445e9e",
 "license":"Apache-2.0",
 "name":"elasticsearch",
 "noarch":"python",
-"sha256":"05e71b05c3e0a42a86ba8839bc057b48cd34188d5adfd234559eff782fc8b936",
-"size":115693,
-"timestamp":1622024650781,
-"version":"7.13.0"
+"sha256":"cf125ea9acb7b3960b52e76ffcef5aae8dfe89bdfd701e72c2cd41f102e7f91b",
+"size":115700,
+"timestamp":1622822189056,
+"version":"7.13.1"
 },
 "email-validator-1.1.2-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -12520,7 +12549,7 @@
 "timestamp":1599272413012,
 "version":"0.23.1"
 },
-"marshmallow-sqlalchemy-0.25.0-pyhd3eb1b0_0.conda":{
+"marshmallow-sqlalchemy-0.26.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -12528,14 +12557,14 @@
 "python >=3.6",
 "sqlalchemy >=1.2.0"
 ],
-"legacy_bz2_md5":"b57721b5f9891560aedc65f16f7f7883",
+"legacy_bz2_md5":"d2c4e460400f8b3f99bd8986d2ea652c",
 "license":"MIT",
 "name":"marshmallow-sqlalchemy",
 "noarch":"python",
-"sha256":"08229f0b8c8a08cce393e66033b25bab784ca10b4ea9d6b25348d5d3909adb4e",
-"size":18680,
-"timestamp":1619998279149,
-"version":"0.25.0"
+"sha256":"a1dbaa5a82514087e60e7be69009e74fbbddc99ffff1dff999244519ba8c7bb8",
+"size":17615,
+"timestamp":1622803956311,
+"version":"0.26.0"
 },
 "meld3-2.0.0-py_0.conda":{
 "build":"py_0",
@@ -12895,20 +12924,20 @@
 "timestamp":1548800885393,
 "version":"1.5"
 },
-"more-itertools-8.7.0-pyhd3eb1b0_0.conda":{
+"more-itertools-8.8.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"python >=3.4"
+"python >=3.5"
 ],
-"legacy_bz2_md5":"ba880eab3e7ca1a7fd32095308a64139",
+"legacy_bz2_md5":"a05bd776004ac629e7766950af543909",
 "license":"MIT",
 "name":"more-itertools",
 "noarch":"python",
-"sha256":"26a0a933af9b0f1ad2c8c1e8484bf150112623e1ab3db59e3d8fd1ef94aeecbe",
-"size":42681,
-"timestamp":1613676736955,
-"version":"8.7.0"
+"sha256":"6095e135652f95fcb38df01f026f46829f53063fb58cba82d0ef5e5342c20e88",
+"size":42887,
+"timestamp":1622818422029,
+"version":"8.8.0"
 },
 "morfessor-2.0.6-py_1.conda":{
 "build":"py_1",
@@ -12925,7 +12954,7 @@
 "timestamp":1569368756343,
 "version":"2.0.6"
 },
-"moto-2.0.7-pyhd3eb1b0_0.conda":{
+"moto-2.0.8-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -12960,17 +12989,16 @@
 "six >1.9",
 "sshpubkeys >=3.1.0,<4.0",
 "werkzeug",
-"xmltodict",
-"zipp"
+"xmltodict"
 ],
-"legacy_bz2_md5":"3c020e83c5b6f22abc9814bda5a96131",
+"legacy_bz2_md5":"abefe1404bb71e1347f8872006850bd3",
 "license":"Apache-2.0",
 "name":"moto",
 "noarch":"python",
-"sha256":"f557c1e5d1f493013762758bc2efa32c90bb4c6b18f38779c475aebc1ac929ab",
-"size":1214980,
-"timestamp":1621422942001,
-"version":"2.0.7"
+"sha256":"989d35f496e05232f52c3f2a7ac0086205568222e1e52c657cc5476bbce18f41",
+"size":1218170,
+"timestamp":1622824528274,
+"version":"2.0.8"
 },
 "mpl-scatter-density-0.7-py_0.conda":{
 "build":"py_0",
