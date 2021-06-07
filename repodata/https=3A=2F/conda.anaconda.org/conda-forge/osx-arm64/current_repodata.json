@@ -7468,6 +7468,40 @@
 "timestamp":1619018493290,
 "version":"5.5.0"
 },
+"clingo-dl-1.2.0-py38h6f2b01f_0.tar.bz2":{
+"build":"py38h6f2b01f_0",
+"build_number":0,
+"depends":[
+"cffi",
+"clingo >=5.5",
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"clingo-dl",
+"sha256":"c02c9d65fecc41ce5353eef2e431d7e56c8f5157104d81b1dce10961ec2fef26",
+"size":123282,
+"timestamp":1623016948874,
+"version":"1.2.0"
+},
+"clingo-dl-1.2.0-py39hfb83b0d_0.tar.bz2":{
+"build":"py39hfb83b0d_0",
+"build_number":0,
+"depends":[
+"cffi",
+"clingo >=5.5",
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"clingo-dl",
+"sha256":"bd8e8a0ab2b6d5e0e9696d935464cdf71f5a1b3014b02c9f887c7ffc1d0b7842",
+"size":123290,
+"timestamp":1623016941912,
+"version":"1.2.0"
+},
 "cliquer-1.22-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
 "build_number":0,
@@ -22747,23 +22781,23 @@
 "timestamp":1609160063705,
 "version":"0.20.2"
 },
-"librsvg-2.50.5-h957afdb_0.tar.bz2":{
+"librsvg-2.50.7-h957afdb_0.tar.bz2":{
 "build":"h957afdb_0",
 "build_number":0,
 "depends":[
 "cairo >=1.16.0,<1.17.0a0",
 "gdk-pixbuf >=2.42.6,<3.0a0",
 "gettext >=0.19.8.1,<1.0a0",
-"libglib >=2.68.1,<3.0a0",
-"libxml2 >=2.9.10,<2.10.0a0",
-"pango >=1.48.4,<1.49.0a0"
+"libglib >=2.68.2,<3.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
+"pango >=1.48.5,<1.49.0a0"
 ],
 "license":"LGPL-2.1-or-later",
 "name":"librsvg",
-"sha256":"a728e4aa94d98804c124fc99cf529b620ea7f5b7f4507ee156ff94da14934c2c",
-"size":4995998,
-"timestamp":1620068641547,
-"version":"2.50.5"
+"sha256":"4f81cd2f4e424a049a1bfb24b5c2afdb8c09387f56c71f9ffc6c8a3556f94a41",
+"size":5048312,
+"timestamp":1623020268684,
+"version":"2.50.7"
 },
 "librttopo-1.1.0-hf7bfa32_6.tar.bz2":{
 "build":"hf7bfa32_6",
@@ -30368,6 +30402,27 @@
 "timestamp":1621843136880,
 "version":"2.0.0"
 },
+"pyarrow-2.0.0-py38h5211c98_39_cpu.tar.bz2":{
+"build":"py38h5211c98_39_cpu",
+"build_number":39,
+"constrains":[
+"arrow-cpp-proc * cpu"
+],
+"depends":[
+"arrow-cpp 2.0.0 py38he69dc33_39_cpu",
+"libcxx >=11.1.0",
+"numpy >=1.16,<2.0a0",
+"parquet-cpp 1.5.1.*",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"pyarrow",
+"sha256":"672e7502dacfb1c1c2ec9884c2c2bb96a60f1d47cb6660a293e041075799230b",
+"size":2101416,
+"timestamp":1622992308802,
+"version":"2.0.0"
+},
 "pyarrow-2.0.0-py38h88a775f_10_cpu.tar.bz2":{
 "build":"py38h88a775f_10_cpu",
 "build_number":10,
@@ -31353,6 +31408,27 @@
 "sha256":"813681e41b259c91c592326c375278bd723327f8dcb76b95e67c9094a8526122",
 "size":2150435,
 "timestamp":1621843136462,
+"version":"2.0.0"
+},
+"pyarrow-2.0.0-py39h6134bab_39_cpu.tar.bz2":{
+"build":"py39h6134bab_39_cpu",
+"build_number":39,
+"constrains":[
+"arrow-cpp-proc * cpu"
+],
+"depends":[
+"arrow-cpp 2.0.0 py39ha9c71de_39_cpu",
+"libcxx >=11.1.0",
+"numpy >=1.16,<2.0a0",
+"parquet-cpp 1.5.1.*",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"pyarrow",
+"sha256":"f538661561f43cee6f364534b0b2f796a314536c5db7359b3f7f9752004f14e1",
+"size":2133736,
+"timestamp":1622992289662,
 "version":"2.0.0"
 },
 "pyarrow-3.0.0-py38h4908e6c_0_cpu.tar.bz2":{
@@ -32519,9 +32595,9 @@
 "timestamp":1613255756104,
 "version":"1.0.0"
 },
-"pycairo-1.20.0-py38h13f96a6_1.tar.bz2":{
-"build":"py38h13f96a6_1",
-"build_number":1,
+"pycairo-1.20.1-py38h13f96a6_0.tar.bz2":{
+"build":"py38h13f96a6_0",
+"build_number":0,
 "depends":[
 "cairo >=1.16.0,<1.17.0a0",
 "python >=3.8,<3.9.0a0",
@@ -32529,14 +32605,14 @@
 ],
 "license":"LGPL-2.1-only OR MPL-1.1",
 "name":"pycairo",
-"sha256":"2779ffcdfabae93f06d457d9399c1bb8ddcef12ddf0653342974687309aacc06",
-"size":73078,
-"timestamp":1618503038783,
-"version":"1.20.0"
+"sha256":"78123e0aa3ecbbb939145b35bf92295776d4cbf13d1aee1b2a147926fdb7fa73",
+"size":73434,
+"timestamp":1623018710298,
+"version":"1.20.1"
 },
-"pycairo-1.20.0-py39h551958b_1.tar.bz2":{
-"build":"py39h551958b_1",
-"build_number":1,
+"pycairo-1.20.1-py39h551958b_0.tar.bz2":{
+"build":"py39h551958b_0",
+"build_number":0,
 "depends":[
 "cairo >=1.16.0,<1.17.0a0",
 "python >=3.9,<3.10.0a0",
@@ -32544,10 +32620,10 @@
 ],
 "license":"LGPL-2.1-only OR MPL-1.1",
 "name":"pycairo",
-"sha256":"aef3f37c40563cad1e39ddc85f64bdf0200229e1ce497717e96bd91719292b46",
-"size":73417,
-"timestamp":1618503472714,
-"version":"1.20.0"
+"sha256":"f4960a873692dab2683276d5b6208d2ad6584b676088c6f4ddb4ffc1e0a0500b",
+"size":73620,
+"timestamp":1623018701318,
+"version":"1.20.1"
 },
 "pycbf-0.9.6.3-py38hea4295b_0.tar.bz2":{
 "build":"py38hea4295b_0",
@@ -40566,7 +40642,7 @@
 "timestamp":1618564732199,
 "version":"0.8.18"
 },
-"scs-2.1.3-py38h15f2a14_0.tar.bz2":{
+"scs-2.1.4-py38h15f2a14_0.tar.bz2":{
 "build":"py38h15f2a14_0",
 "build_number":0,
 "depends":[
@@ -40579,12 +40655,12 @@
 ],
 "license":"MIT",
 "name":"scs",
-"sha256":"c0db318e54f862774829e4c439f69ac46504cd6b36aa2c8885513b27b1c12e57",
-"size":104133,
-"timestamp":1618227611733,
-"version":"2.1.3"
+"sha256":"3d9009294b4408341ce0b5ab0d2cc8a220c5bca592a77dc0ab5ab8fb6e8ade05",
+"size":168245,
+"timestamp":1623004138737,
+"version":"2.1.4"
 },
-"scs-2.1.3-py39h56a55e8_0.tar.bz2":{
+"scs-2.1.4-py39h56a55e8_0.tar.bz2":{
 "build":"py39h56a55e8_0",
 "build_number":0,
 "depends":[
@@ -40597,10 +40673,10 @@
 ],
 "license":"MIT",
 "name":"scs",
-"sha256":"c3a49eceb9386de0944d1d238aee53592f07bc29cfdda2509fc752adfac451d7",
-"size":99257,
-"timestamp":1618227828486,
-"version":"2.1.3"
+"sha256":"e6bc5577a5972d1355ff4ceceac680a7c3215548b32a7a98174e86746bb97b24",
+"size":163255,
+"timestamp":1623004122406,
+"version":"2.1.4"
 },
 "sdl-1.2.15-hbdafb3b_1.tar.bz2":{
 "build":"hbdafb3b_1",
@@ -45302,7 +45378,7 @@
 "timestamp":1614875290960,
 "version":"1.2.3"
 },
-"xorg-libx11-1.7.1-h3422bc3_0.tar.bz2":{
+"xorg-libx11-1.7.2-h3422bc3_0.tar.bz2":{
 "build":"h3422bc3_0",
 "build_number":0,
 "depends":[
@@ -45312,10 +45388,10 @@
 ],
 "license":"MIT",
 "name":"xorg-libx11",
-"sha256":"c338ac7e3d34edb006577f91084e898f1c31e4e5efdf6c91182d7573fc81dad1",
-"size":900265,
-"timestamp":1621432506312,
-"version":"1.7.1"
+"sha256":"0e238cc4e90461bc5b7987460b03873c7f2c3a7bcd8d55d6d14fc42bad421b2d",
+"size":871882,
+"timestamp":1623020888547,
+"version":"1.7.2"
 },
 "xorg-libxau-1.0.9-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
