@@ -37844,6 +37844,35 @@
 "timestamp":1582569410683,
 "version":"3.11.4"
 },
+"libsolv-0.7.19-hcf210ce_1.tar.bz2":{
+"build":"hcf210ce_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libsolv",
+"requires":[],
+"size":408781,
+"timestamp":1622808316517,
+"version":"0.7.19"
+},
+"libsolv-static-0.7.19-hcf210ce_1.tar.bz2":{
+"build":"hcf210ce_1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0",
+"libsolv 0.7.19 hcf210ce_1",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libsolv-static",
+"requires":[],
+"size":326448,
+"timestamp":1622808348864,
+"version":"0.7.19"
+},
 "libspatialindex-1.8.5-0.tar.bz2":{
 "build":"0",
 "build_number":0,
@@ -48450,6 +48479,29 @@
 "size":23726591,
 "timestamp":1577246589728,
 "version":"3.7.6"
+},
+"python-3.8.10-h3a889e0_1_cpython.tar.bz2":{
+"build":"h3a889e0_1_cpython",
+"build_number":1,
+"constrains":[
+"python_abi 3.8.* *_cp38"
+],
+"depends":[
+"libcxx >=11.1.0",
+"libffi >=3.3,<3.4.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"readline >=8.1,<9.0a0",
+"sqlite >=3.35.5,<4.0a0",
+"tk >=8.6.10,<8.7.0a0",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Python-2.0",
+"name":"python",
+"requires":[],
+"size":12858865,
+"timestamp":1620715731568,
+"version":"3.8.10"
 },
 "python-3.8.2-hbb7e721_6_cpython.tar.bz2":{
 "build":"hbb7e721_6_cpython",
