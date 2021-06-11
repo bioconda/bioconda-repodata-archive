@@ -1026,21 +1026,21 @@
 "timestamp":1622812205084,
 "version":"2.4.5"
 },
-"authlib-0.15.3-pyhd3eb1b0_0.tar.bz2":{
+"authlib-0.15.4-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"cryptography",
-"python",
+"cryptography >=3.2,<4",
+"python >=2.7",
 "requests"
 ],
 "license":"BSD-3-Clause",
 "name":"authlib",
 "noarch":"python",
-"sha256":"e346e029cc231b6edc49b85e808ddb3b67863c1996db562f35ac8ddb6d9370b4",
-"size":112559,
-"timestamp":1610722946423,
-"version":"0.15.3"
+"sha256":"f992570d796876b6067456b2ba0984fa48c4011de219911cddb60c6e28ba0758",
+"size":112833,
+"timestamp":1623136310070,
+"version":"0.15.4"
 },
 "autoconf-archive-2018.03.13-1.tar.bz2":{
 "build":"1",
@@ -17259,7 +17259,7 @@
 "timestamp":1615991660966,
 "version":"1.0.2"
 },
-"qtconsole-5.0.3-pyhd3eb1b0_0.tar.bz2":{
+"qtconsole-5.1.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -17270,16 +17270,17 @@
 "pygments",
 "pyqt",
 "python >=3.6",
+"pyzmq >=17.1",
 "qtpy",
 "traitlets"
 ],
 "license":"BSD-3-Clause",
 "name":"qtconsole",
 "noarch":"python",
-"sha256":"5e51c76325362c078feac8700e252843875111173857c9276a965866cdcbd21a",
-"size":97616,
-"timestamp":1616775140052,
-"version":"5.0.3"
+"sha256":"d06cf021b2c4d328a9aca45a9e4376f88258479eb745955e1c8fdd6e7eb1af3c",
+"size":98061,
+"timestamp":1623278375524,
+"version":"5.1.0"
 },
 "qtpy-1.9.0-py_0.tar.bz2":{
 "build":"py_0",
@@ -17703,6 +17704,21 @@
 "size":52695,
 "timestamp":1616183192533,
 "version":"0.3.6"
+},
+"s3transfer-0.4.2-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"botocore >=1.12.36,<2.0a.0",
+"python >=3"
+],
+"license":"Apache-2.0",
+"name":"s3transfer",
+"noarch":"python",
+"sha256":"f28ce35ae3f103b0f6baccfc2b3b714f8fe91097f1bea68b9e5856c04b4e98d4",
+"size":62243,
+"timestamp":1623278162387,
+"version":"0.4.2"
 },
 "sas7bdat-2.2.3-py_0.tar.bz2":{
 "build":"py_0",
