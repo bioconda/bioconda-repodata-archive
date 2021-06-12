@@ -6513,25 +6513,28 @@
 "timestamp":1530612469805,
 "version":"1.3.2"
 },
-"hdijupyterutils-0.18.0-pyhd3eb1b0_0.tar.bz2":{
+"hdijupyterutils-0.19.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "ipykernel >=4.2.2",
-"ipython",
-"ipywidgets >=5.0.0",
+"ipython >=4.0.2",
+"ipywidgets >5.0.0",
+"jupyter >=1",
+"mock",
+"nose",
 "notebook >=4.2",
 "numpy",
-"pandas",
-"python"
+"pandas >=0.17.1",
+"python >=3.6"
 ],
-"license":"BSD 3-clause",
+"license":"BSD-3-clause",
 "name":"hdijupyterutils",
 "noarch":"python",
-"sha256":"17e8e53645a0c685c34601de2838ebca1ca752f2a9c6e30ea93247fbe53abdfe",
-"size":9658,
-"timestamp":1613415823726,
-"version":"0.18.0"
+"sha256":"e86349b1109272ec70c89a19b7b13dcb77c1ca69f7a1a3e75e863ba782872a12",
+"size":9639,
+"timestamp":1623321387542,
+"version":"0.19.0"
 },
 "heapdict-1.0.1-py_0.tar.bz2":{
 "build":"py_0",
@@ -12928,23 +12931,24 @@
 "timestamp":1600445183315,
 "version":"1.1.4"
 },
-"mypy-0.812-pyhd3eb1b0_0.tar.bz2":{
+"mypy-0.901-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "mypy_extensions >=0.4.3,<0.5.0",
 "psutil >=4.0",
 "python >=3.5",
+"toml",
 "typed-ast >=1.4.0,<1.5.0",
 "typing_extensions >=3.7.4"
 ],
 "license":"MIT",
 "name":"mypy",
 "noarch":"python",
-"sha256":"39498212b02ab1ea64ab73d0231815ec7b7e615319dabec96812f4391b0e2b31",
-"size":1616842,
-"timestamp":1613763674160,
-"version":"0.812"
+"sha256":"34e6a3b00ebcbfcfcb27eca30cc6d93badd863a311217728d52a7521a2d9e772",
+"size":1431002,
+"timestamp":1623324119850,
+"version":"0.901"
 },
 "natsort-7.1.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -14898,7 +14902,7 @@
 "timestamp":1596911348913,
 "version":"2.2.0"
 },
-"pooch-1.3.0-pyhd3eb1b0_0.tar.bz2":{
+"pooch-1.4.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -14910,10 +14914,10 @@
 "license":"BSD-3-Clause",
 "name":"pooch",
 "noarch":"python",
-"sha256":"256968b66aac9d62f21af8e3ba2fbf5f0989f6edf9fcb0f9d0413173fa7e3246",
-"size":273702,
-"timestamp":1616506830497,
-"version":"1.3.0"
+"sha256":"4fb886668d2b14fd482bee23355e26f25ba63fdcdae07e586bf37778a8b4a886",
+"size":42038,
+"timestamp":1623324813461,
+"version":"1.4.0"
 },
 "portend-2.7.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -15522,22 +15526,23 @@
 "timestamp":1617201015336,
 "version":"2.3.1"
 },
-"pygithub-1.54.1-pyhd3eb1b0_1.tar.bz2":{
+"pygithub-1.55-pyhd3eb1b0_1.tar.bz2":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
 "deprecated",
-"pyjwt <2.0",
-"python >=3",
-"requests >=2.14.0,<2.25"
+"pyjwt >=2.0",
+"pynacl >=1.4.0",
+"python >=3.6",
+"requests >=2.14.0"
 ],
 "license":"LGPL-3.0-only",
 "name":"pygithub",
 "noarch":"python",
-"sha256":"6189a8a06a290568c70a38fd5c89ae09a6ad98981f85d63944639e54320cae6c",
-"size":118086,
-"timestamp":1612299327246,
-"version":"1.54.1"
+"sha256":"fb726dd4b0b15a16d9864eb60c0ae1377548e2271e656f670f6f012323445c23",
+"size":118602,
+"timestamp":1623329144364,
+"version":"1.55"
 },
 "pygments-2.9.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -17364,24 +17369,6 @@
 "size":66810,
 "timestamp":1593435624772,
 "version":"3.5.3"
-},
-"requests-2.24.0-py_0.tar.bz2":{
-"build":"py_0",
-"build_number":0,
-"depends":[
-"certifi >=2017.4.17",
-"chardet >=3.0.2,<4",
-"idna >=2.5,<3",
-"python",
-"urllib3 >=1.21.1,<1.26,!=1.25.0,!=1.25.1"
-],
-"license":"Apache-2.0",
-"name":"requests",
-"noarch":"python",
-"sha256":"776f5941392f88d2022cc6ebbc3f7fd6bedfa575a1c79b8c660b6bfe8c531f0b",
-"size":55315,
-"timestamp":1592841859054,
-"version":"2.24.0"
 },
 "requests-2.25.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",

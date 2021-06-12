@@ -11271,26 +11271,29 @@
 "timestamp":1530612469805,
 "version":"1.3.2"
 },
-"hdijupyterutils-0.18.0-pyhd3eb1b0_0.conda":{
+"hdijupyterutils-0.19.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "ipykernel >=4.2.2",
-"ipython",
-"ipywidgets >=5.0.0",
+"ipython >=4.0.2",
+"ipywidgets >5.0.0",
+"jupyter >=1",
+"mock",
+"nose",
 "notebook >=4.2",
 "numpy",
-"pandas",
-"python"
+"pandas >=0.17.1",
+"python >=3.6"
 ],
-"legacy_bz2_md5":"f21ddac349d09a5bc6b5bb32408ea6cc",
-"license":"BSD 3-clause",
+"legacy_bz2_md5":"9aceffca81e7ac408c95c227e34731bd",
+"license":"BSD-3-clause",
 "name":"hdijupyterutils",
 "noarch":"python",
-"sha256":"022edfa2f628b008d9a644a1257231acaa4b981a6375cc05c65d38d3fe192477",
-"size":10075,
-"timestamp":1613415823726,
-"version":"0.18.0"
+"sha256":"ed8949a847d71a1bf4772d5f34ac22ddd10f790a9e63c931bb36626bd27bd964",
+"size":10046,
+"timestamp":1623321387542,
+"version":"0.19.0"
 },
 "heapdict-1.0.1-py_0.conda":{
 "build":"py_0",
@@ -15013,24 +15016,25 @@
 "timestamp":1600445183315,
 "version":"1.1.4"
 },
-"mypy-0.812-pyhd3eb1b0_0.conda":{
+"mypy-0.901-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "mypy_extensions >=0.4.3,<0.5.0",
 "psutil >=4.0",
 "python >=3.5",
+"toml",
 "typed-ast >=1.4.0,<1.5.0",
 "typing_extensions >=3.7.4"
 ],
-"legacy_bz2_md5":"aa8592dad5306cc0d5a9b65b94e94004",
+"legacy_bz2_md5":"78e8bf60efd580a772831d6a71ad1946",
 "license":"MIT",
 "name":"mypy",
 "noarch":"python",
-"sha256":"4e3842d3a72e62310e65e63c760ebfd1aaae37866fed294cda6b075b1cd3aaf4",
-"size":1531784,
-"timestamp":1613763674160,
-"version":"0.812"
+"sha256":"7f4d965d37156f2144b35fe31bdfba39786b27f7191311223c15557d8291df97",
+"size":1364488,
+"timestamp":1623324119850,
+"version":"0.901"
 },
 "natsort-7.1.1-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -16604,7 +16608,7 @@
 "timestamp":1596911348913,
 "version":"2.2.0"
 },
-"pooch-1.3.0-pyhd3eb1b0_0.conda":{
+"pooch-1.4.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -16613,14 +16617,14 @@
 "python >=3.6",
 "requests"
 ],
-"legacy_bz2_md5":"c28fae46288bcb15f94a29a0220571e3",
+"legacy_bz2_md5":"1514deb536673e9dba49776b39b61d2f",
 "license":"BSD-3-Clause",
 "name":"pooch",
 "noarch":"python",
-"sha256":"287eb757f94fa84aac346a74f1102dbeeac1e05d11701d21d0e0dd4c7f35e963",
-"size":292484,
-"timestamp":1616506830497,
-"version":"1.3.0"
+"sha256":"fa5f82193f7523f5a4aff8b662e2602fdb3771182c8a3850b7cbcc90efaa4f45",
+"size":42054,
+"timestamp":1623324813461,
+"version":"1.4.0"
 },
 "portend-2.7.1-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -17149,23 +17153,24 @@
 "timestamp":1617201015336,
 "version":"2.3.1"
 },
-"pygithub-1.54.1-pyhd3eb1b0_1.conda":{
+"pygithub-1.55-pyhd3eb1b0_1.conda":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
 "deprecated",
-"pyjwt <2.0",
-"python >=3",
-"requests >=2.14.0,<2.25"
+"pyjwt >=2.0",
+"pynacl >=1.4.0",
+"python >=3.6",
+"requests >=2.14.0"
 ],
-"legacy_bz2_md5":"d2a671fbc999b2d533bd5b1fa8bc12db",
+"legacy_bz2_md5":"e7943a3e41ccba3d2fca8b04e54703fe",
 "license":"LGPL-3.0-only",
 "name":"pygithub",
 "noarch":"python",
-"sha256":"0b64cdd3284a8708fe0e49d3199d88d511f3a34cf07f8a0b5140f9841bd1c5f1",
-"size":122391,
-"timestamp":1612299327246,
-"version":"1.54.1"
+"sha256":"d24151189d72034af466c0612be4d7f463851d176cd3fbf7514222c8df688777",
+"size":122090,
+"timestamp":1623329144364,
+"version":"1.55"
 },
 "pygments-2.9.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -18856,25 +18861,6 @@
 "size":69054,
 "timestamp":1593435624772,
 "version":"3.5.3"
-},
-"requests-2.24.0-py_0.conda":{
-"build":"py_0",
-"build_number":0,
-"depends":[
-"certifi >=2017.4.17",
-"chardet >=3.0.2,<4",
-"idna >=2.5,<3",
-"python",
-"urllib3 >=1.21.1,<1.26,!=1.25.0,!=1.25.1"
-],
-"legacy_bz2_md5":"0da8872d36b3ef33859654b6d0fea148",
-"license":"Apache-2.0",
-"name":"requests",
-"noarch":"python",
-"sha256":"dfd7e588782b40be48cf766a26a62cf675cd7a72048e25fcc65a2a119c00402c",
-"size":56983,
-"timestamp":1592841859054,
-"version":"2.24.0"
 },
 "requests-2.25.1-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
