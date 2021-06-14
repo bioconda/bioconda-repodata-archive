@@ -43584,6 +43584,48 @@
 "timestamp":1622494782121,
 "version":"7.0.11_14"
 },
+"imagemagick-7.1.0_0-pl5321hc21dce0_0.tar.bz2":{
+"build":"pl5321hc21dce0_0",
+"build_number":0,
+"depends":[
+"bzip2 >=1.0.8,<2.0a0",
+"fftw >=3.3.9,<4.0a0",
+"fontconfig >=2.13.1,<3.0a0",
+"fonts-conda-ecosystem",
+"fonts-conda-forge",
+"freetype >=2.10.4,<3.0a0",
+"ghostscript",
+"giflib >=5.2.1,<5.3.0a0",
+"graphviz >=2.47.2,<3.0a0",
+"jbig",
+"jpeg >=9d,<10a",
+"libcxx >=11.1.0",
+"libglib >=2.68.3,<3.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"librsvg >=2.50.7,<3.0a0",
+"libtiff >=4.3.0,<5.0a0",
+"libwebp",
+"libwebp-base >=1.2.0,<2.0a0",
+"libxml2 >=2.9.12,<2.10.0a0",
+"openjpeg >=2.4.0,<2.5.0a0",
+"pango >=1.48.5,<1.49.0a0",
+"perl *",
+"perl >=5.32.1,<5.33.0a0 *_perl5",
+"pkg-config",
+"xorg-libx11",
+"xorg-libxext",
+"xorg-libxrender",
+"xorg-libxt",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"ImageMagick",
+"name":"imagemagick",
+"requires":[],
+"size":1978429,
+"timestamp":1623595908622,
+"version":"7.1.0_0"
+},
 "iminuit-2.0.0-py38h3f7e68f_0.tar.bz2":{
 "build":"py38h3f7e68f_0",
 "build_number":0,
@@ -48862,6 +48904,27 @@
 "size":2590054,
 "timestamp":1621578527389,
 "version":"1.80.0"
+},
+"leptonica-1.81.0-h27f1f06_0.tar.bz2":{
+"build":"h27f1f06_0",
+"build_number":0,
+"depends":[
+"giflib >=5.2.1,<5.3.0a0",
+"jpeg >=9d,<10a",
+"libpng >=1.6.37,<1.7.0a0",
+"libtiff >=4.3.0,<5.0a0",
+"libwebp",
+"libwebp-base >=1.2.0,<2.0a0",
+"openjpeg >=2.4.0,<2.5.0a0",
+"xz >=5.2.5,<5.3.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-2-Clause",
+"name":"leptonica",
+"requires":[],
+"size":2597821,
+"timestamp":1623593902324,
+"version":"1.81.0"
 },
 "lerc-2.2-h9f76cd9_0.tar.bz2":{
 "build":"h9f76cd9_0",
@@ -66626,6 +66689,30 @@
 "timestamp":1616028846021,
 "version":"0.53.0"
 },
+"numba-0.53.1-py38h5eaf91a_1.tar.bz2":{
+"build":"py38h5eaf91a_1",
+"build_number":1,
+"constrains":[
+"tbb  >=2019.5,<=2020.3",
+"cudatoolkit >=9.0",
+"scipy >=1.0"
+],
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0",
+"llvmlite >=0.36.0,<0.37.0a0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"setuptools"
+],
+"license":"BSD-2-Clause",
+"name":"numba",
+"requires":[],
+"size":3825986,
+"timestamp":1623568873488,
+"version":"0.53.1"
+},
 "numba-0.53.1-py38ha636945_0.tar.bz2":{
 "build":"py38ha636945_0",
 "build_number":0,
@@ -66672,6 +66759,30 @@
 "requires":[],
 "size":3814132,
 "timestamp":1616708180472,
+"version":"0.53.1"
+},
+"numba-0.53.1-py39hbdc0675_1.tar.bz2":{
+"build":"py39hbdc0675_1",
+"build_number":1,
+"constrains":[
+"tbb  >=2019.5,<=2020.3",
+"cudatoolkit >=9.0",
+"scipy >=1.0"
+],
+"depends":[
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0",
+"llvmlite >=0.36.0,<0.37.0a0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"setuptools"
+],
+"license":"BSD-2-Clause",
+"name":"numba",
+"requires":[],
+"size":3821415,
+"timestamp":1623568856122,
 "version":"0.53.1"
 },
 "numcodecs-0.7.3-py38h6f2b01f_0.tar.bz2":{
@@ -71915,6 +72026,34 @@
 "size":38995,
 "timestamp":1613949822201,
 "version":"15.1.2"
+},
+"path-16.0.0-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"path",
+"requires":[],
+"size":38997,
+"timestamp":1623597926235,
+"version":"16.0.0"
+},
+"path-16.0.0-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"path",
+"requires":[],
+"size":39082,
+"timestamp":1623597764335,
+"version":"16.0.0"
 },
 "pathlib2-2.3.5-py38h10201cd_2.tar.bz2":{
 "build":"py38h10201cd_2",
@@ -95648,6 +95787,17 @@
 "size":1670255,
 "timestamp":1602819791670,
 "version":"12.1.1"
+},
+"ripgrep-13.0.0-h822aac1_0.tar.bz2":{
+"build":"h822aac1_0",
+"build_number":0,
+"depends":[],
+"license":"MIT",
+"name":"ripgrep",
+"requires":[],
+"size":1536051,
+"timestamp":1623572637633,
+"version":"13.0.0"
 },
 "rise-5.7.1-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
