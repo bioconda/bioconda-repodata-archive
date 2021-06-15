@@ -637,8 +637,8 @@
 "timestamp":1614670104123,
 "version":"2.4.0"
 },
-"aiohttp-3.7.4-py38h30f7421_0.tar.bz2":{
-"build":"py38h30f7421_0",
+"aiohttp-3.7.4.post0-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
 "build_number":0,
 "depends":[
 "async-timeout >=3.0,<4.0",
@@ -652,13 +652,13 @@
 ],
 "license":"Apache-2.0",
 "name":"aiohttp",
-"sha256":"ddaf7495d5c5bbff2bcdcb7b0241c5db5f5f30d2dc245b3952feca102254faa8",
-"size":622075,
-"timestamp":1614281178060,
-"version":"3.7.4"
+"sha256":"88ed14e2aa0e4aa41a791e36fe7eeaa02b993dcf9daa0e5a3c9bf827ac2a16bc",
+"size":619994,
+"timestamp":1623682519740,
+"version":"3.7.4.post0"
 },
-"aiohttp-3.7.4-py39h46acfd9_0.tar.bz2":{
-"build":"py39h46acfd9_0",
+"aiohttp-3.7.4.post0-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
 "build_number":0,
 "depends":[
 "async-timeout >=3.0,<4.0",
@@ -672,10 +672,10 @@
 ],
 "license":"Apache-2.0",
 "name":"aiohttp",
-"sha256":"b1ad52c62e32d7ddf9ea9b280c2fc861670eac5aea8182b98a7bc9ccfb64b1d9",
-"size":617705,
-"timestamp":1614281145198,
-"version":"3.7.4"
+"sha256":"8026e988f3f4d433d6540f1b73ac7e43bf665fed2969d84aa2482e04391fc7aa",
+"size":626371,
+"timestamp":1623682512984,
+"version":"3.7.4.post0"
 },
 "ansible-4.1.0-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
@@ -4187,6 +4187,21 @@
 "sha256":"01c7be0e2ab2a12483c2e4e0c2c1e45b2bdc8fa54fa474fd7899e9abe31dd5df",
 "size":50651,
 "timestamp":1623372186277,
+"version":"0.7.6"
+},
+"aws-c-mqtt-0.7.6-hbcbe536_7.tar.bz2":{
+"build":"hbcbe536_7",
+"build_number":7,
+"depends":[
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.2,<0.10.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-mqtt",
+"sha256":"3adeca6dc205f4b2592101af7169ce7621846b6e4e78bea6302418c983bb9396",
+"size":51119,
+"timestamp":1623681355630,
 "version":"0.7.6"
 },
 "aws-c-mqtt-0.7.6-hd3b1c10_2.tar.bz2":{
@@ -20698,6 +20713,20 @@
 "size":2857786,
 "timestamp":1614018460918,
 "version":"2.4.1"
+},
+"libhwloc-2.5.0-hfa74512_0.tar.bz2":{
+"build":"hfa74512_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libxml2 >=2.9.12,<2.10.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libhwloc",
+"sha256":"96326ff4918f471eea37beed9b040d50511e54ab7ffa4d6841692930874a01a1",
+"size":2948637,
+"timestamp":1623695273994,
+"version":"2.5.0"
 },
 "libiconv-1.16-h642e427_0.tar.bz2":{
 "build":"h642e427_0",
@@ -41999,18 +42028,18 @@
 "timestamp":1622902652930,
 "version":"1.0.5"
 },
-"thinc-8.0.3-py38h1e2c3d9_0.tar.bz2":{
+"thinc-8.0.4-py38h1e2c3d9_0.tar.bz2":{
 "build":"py38h1e2c3d9_0",
 "build_number":0,
 "depends":[
-"catalogue >=2.0.3,<3.0.0",
+"catalogue >=2.0.4,<3.0.0",
 "cymem >=2.0.2,<2.1.0",
 "cython-blis >=0.4.0,<0.8.0",
 "libcxx >=11.1.0",
 "murmurhash >=0.28.0,<1.1.0",
 "numpy >=1.19.5,<2.0a0",
 "preshed >=3.0.2,<3.1.0",
-"pydantic >=1.7.1,<1.8.0",
+"pydantic >=1.7.4,!=1.8,!=1.8.1,<1.9.0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
 "srsly >=2.0.0,<3.0.0",
@@ -42018,47 +42047,23 @@
 ],
 "license":"MIT",
 "name":"thinc",
-"sha256":"c3258f4e2ffede09c90c7021437a8fca0382ab9cf3df39be3ddf222add7fa7b6",
-"size":954904,
-"timestamp":1618901305866,
-"version":"8.0.3"
+"sha256":"c0b6321b0bd7e5947bdd9590e1102f125a7e62a4922e5117747dc5450c876d4b",
+"size":650506,
+"timestamp":1623651777921,
+"version":"8.0.4"
 },
-"thinc-8.0.3-py38h1e2c3d9_1.tar.bz2":{
-"build":"py38h1e2c3d9_1",
-"build_number":1,
-"depends":[
-"catalogue >=2.0.3,<3.0.0",
-"cymem >=2.0.2,<2.1.0",
-"cython-blis >=0.4.0,<0.8.0",
-"libcxx >=11.1.0",
-"murmurhash >=0.28.0,<1.1.0",
-"numpy >=1.19.5,<2.0a0",
-"preshed >=3.0.2,<3.1.0",
-"pydantic >=1.7.1,<1.8.0",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"srsly >=2.0.0,<3.0.0",
-"wasabi >=0.4.0,<1.1.0"
-],
-"license":"MIT",
-"name":"thinc",
-"sha256":"83151240e548a943c7c0f563305291e05c1d21f65dc17dcdb4d9d1fddd264459",
-"size":988683,
-"timestamp":1619212325389,
-"version":"8.0.3"
-},
-"thinc-8.0.3-py39h776e71f_0.tar.bz2":{
+"thinc-8.0.4-py39h776e71f_0.tar.bz2":{
 "build":"py39h776e71f_0",
 "build_number":0,
 "depends":[
-"catalogue >=2.0.3,<3.0.0",
+"catalogue >=2.0.4,<3.0.0",
 "cymem >=2.0.2,<2.1.0",
 "cython-blis >=0.4.0,<0.8.0",
 "libcxx >=11.1.0",
 "murmurhash >=0.28.0,<1.1.0",
 "numpy >=1.19.5,<2.0a0",
 "preshed >=3.0.2,<3.1.0",
-"pydantic >=1.7.1,<1.8.0",
+"pydantic >=1.7.4,!=1.8,!=1.8.1,<1.9.0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
 "srsly >=2.0.0,<3.0.0",
@@ -42066,34 +42071,10 @@
 ],
 "license":"MIT",
 "name":"thinc",
-"sha256":"7041cb861022f80a670001044cca7baf08482871ce6a860b13007f684c8737cc",
-"size":942013,
-"timestamp":1618901279993,
-"version":"8.0.3"
-},
-"thinc-8.0.3-py39h776e71f_1.tar.bz2":{
-"build":"py39h776e71f_1",
-"build_number":1,
-"depends":[
-"catalogue >=2.0.3,<3.0.0",
-"cymem >=2.0.2,<2.1.0",
-"cython-blis >=0.4.0,<0.8.0",
-"libcxx >=11.1.0",
-"murmurhash >=0.28.0,<1.1.0",
-"numpy >=1.19.5,<2.0a0",
-"preshed >=3.0.2,<3.1.0",
-"pydantic >=1.7.1,<1.8.0",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"srsly >=2.0.0,<3.0.0",
-"wasabi >=0.4.0,<1.1.0"
-],
-"license":"MIT",
-"name":"thinc",
-"sha256":"4e126d881b3d0a10394125a2207aff9c178fbdc0a45fd3240aaa70cd3c138f4b",
-"size":971345,
-"timestamp":1619212284713,
-"version":"8.0.3"
+"sha256":"a15b7078fc463175c47191e0a262fe9e1545257429e4230cbd1002a5381e3cab",
+"size":616742,
+"timestamp":1623651735022,
+"version":"8.0.4"
 },
 "thrift-0.13.0-py38h3f7e68f_2.tar.bz2":{
 "build":"py38h3f7e68f_2",
@@ -44406,13 +44387,13 @@
 "timestamp":1617015207677,
 "version":"3.2.3"
 },
-"xeus-1.0.3-h3212551_0.tar.bz2":{
-"build":"h3212551_0",
-"build_number":0,
+"xeus-1.0.3-h3212551_1.tar.bz2":{
+"build":"h3212551_1",
+"build_number":1,
 "constrains":[
 "nlohmann_json >=3.9.1,<3.10.0a0",
-"xtl >=0.7.2,<0.8.0a0",
-"cppzmq >=4.7.1,<4.8.0a0"
+"cppzmq >=4.7.1,<4.8.0a0",
+"xtl >=0.7.2,<0.8.0a0"
 ],
 "depends":[
 "libcxx >=11.1.0",
@@ -44421,9 +44402,9 @@
 ],
 "license":"BSD-3-Clause",
 "name":"xeus",
-"sha256":"fdf6b03d41961ebd9b0ef1a52153e38014b625c805baf3e4014ed3e839a86fbf",
-"size":695632,
-"timestamp":1622817724231,
+"sha256":"67f87158cb7a5361a8a7cd8a54f96797d7a92edf633b9bcb4125b7673db82ad2",
+"size":693322,
+"timestamp":1623668515388,
 "version":"1.0.3"
 },
 "xeus-python-0.12.5-py38h46a91d0_1.tar.bz2":{
@@ -45731,6 +45712,8 @@
 "python-3.8.5-h05baefb_9_cpython.tar.bz2",
 "r-lattice-0.20_41-r40h5d35f5b_2.tar.bz2",
 "xeus-1.0.2-h3212551_0.tar.bz2",
+"xeus-1.0.2-h3212551_1.tar.bz2",
+"xeus-1.0.3-h3212551_0.tar.bz2",
 "xsimd-7.5.1-hc021e02_0.tar.bz2",
 "xtl-0.6.24-h260d524_0.tar.bz2"
 ],
