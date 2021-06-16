@@ -135,7 +135,7 @@
 "depends":[
 "aiohttp >=3.3.1",
 "aioitertools >=0.5.1",
-"botocore",
+"botocore >=1.19.52,<1.19.53",
 "python >=3.6",
 "wrapt >=1.10.10"
 ],
@@ -1581,24 +1581,42 @@
 "timestamp":1612211427652,
 "version":"3.3.0"
 },
-"boto3-1.17.46-pyhd3eb1b0_0.tar.bz2":{
+"boto3-1.17.88-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"botocore >=1.20.46,<1.21.0",
+"botocore >=1.20.88,<1.21.0",
 "jmespath >=0.7.1,<1.0.0",
 "python",
-"s3transfer >=0.3.0,<0.4.0"
+"s3transfer >=0.4.0,<0.5.0"
 ],
 "license":"Apache-2.0",
 "name":"boto3",
 "noarch":"python",
-"sha256":"6f3d905f54c55e9c1dfd6fcc58df1b3786e655a2eac9e034925bc7d09e9e5bc6",
-"size":72192,
-"timestamp":1617902913611,
-"version":"1.17.46"
+"sha256":"4d18ffdf2e96ff24a816c4dfced052444917eecf21c916bf233008aadc89ebf7",
+"size":72068,
+"timestamp":1623679046467,
+"version":"1.17.88"
 },
-"botocore-1.20.88-pyhd3eb1b0_1.tar.bz2":{
+"botocore-1.19.52-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"docutils >=0.10,<0.16",
+"jmespath >=0.7.1,<1.0.0",
+"python",
+"python-dateutil >=2.1,<3.0.0",
+"urllib3 >=1.20,<1.26"
+],
+"license":"Apache-2.0",
+"name":"botocore",
+"noarch":"python",
+"sha256":"f0a35e2b80be7a07027b6ea84531c6ebc67e3e6f0333f62669598bf211288d36",
+"size":4649112,
+"timestamp":1610401338093,
+"version":"1.19.52"
+},
+"botocore-1.20.94-pyhd3eb1b0_1.tar.bz2":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
@@ -1610,10 +1628,10 @@
 "license":"Apache-2.0",
 "name":"botocore",
 "noarch":"python",
-"sha256":"e9693a48162ad9ccaa072591a69dccb635e623438e9fa448d4019c9cdd445e4b",
-"size":4902574,
-"timestamp":1623076187528,
-"version":"1.20.88"
+"sha256":"eb97099d8456222f00e876671f0034be10c4e1f308b4b40cdb3eafd088cd34fb",
+"size":4899191,
+"timestamp":1623784239666,
+"version":"1.20.94"
 },
 "bs4-4.9.3-0.tar.bz2":{
 "build":"0",
@@ -3545,7 +3563,7 @@
 "timestamp":1618952090164,
 "version":"0.41.0"
 },
-"datashader-0.12.1-pyhd3eb1b0_1.tar.bz2":{
+"datashader-0.13.0-pyhd3eb1b0_1.tar.bz2":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
@@ -3553,7 +3571,7 @@
 "colorcet >=0.9.0",
 "dask >=0.18.0",
 "datashape >=0.5.1",
-"numba >=0.37.0,!=0.49.*,!=0.50.*",
+"numba >=0.51",
 "numpy >=1.7",
 "pandas >=0.24.1",
 "param >=1.6.1",
@@ -3567,10 +3585,10 @@
 "license":"BSD-3-Clause",
 "name":"datashader",
 "noarch":"python",
-"sha256":"564b1859891d10639b54a5385ded6e7ee1e031c27b917dcfbb7074b27a10d820",
-"size":14934318,
-"timestamp":1618337130107,
-"version":"0.12.1"
+"sha256":"2de2d79a0e9784a1bf55cdb83c035072da1879753d109c0a36bbd5a357385c37",
+"size":14964307,
+"timestamp":1623782401693,
+"version":"0.13.0"
 },
 "dateparser-1.0.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -5114,7 +5132,7 @@
 "timestamp":1611169443130,
 "version":"1.1.0"
 },
-"fsspec-0.9.0-pyhd3eb1b0_0.tar.bz2":{
+"fsspec-2021.6.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -5123,10 +5141,10 @@
 "license":"BSD-3-Clause",
 "name":"fsspec",
 "noarch":"python",
-"sha256":"fbf5bee6511b20b6ed53e614c0a06aa062021456f0fd58150ea0cc17102c7c49",
-"size":80488,
-"timestamp":1617959929050,
-"version":"0.9.0"
+"sha256":"b1c29bc2de0df6da07ba2f36b6475d2436af1649a0b30d33d09065002787c0b3",
+"size":85963,
+"timestamp":1623705589800,
+"version":"2021.6.0"
 },
 "ftfy-5.8-py_0.tar.bz2":{
 "build":"py_0",
@@ -17499,19 +17517,19 @@
 "timestamp":1594059003198,
 "version":"1.4.0"
 },
-"rope-0.18.0-py_0.tar.bz2":{
-"build":"py_0",
+"rope-0.19.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "python"
 ],
-"license":"GPL 2.0",
+"license":"LGPL 3.0",
 "name":"rope",
 "noarch":"python",
-"sha256":"19636dc6e28949809cd56e3de51f994ea333abee6e4709f1a5e5db01235da53c",
-"size":121629,
-"timestamp":1602264139465,
-"version":"0.18.0"
+"sha256":"b556074117a41bb3d624e4c299919f774c2f568b6e4699590f98a0d300f8b367",
+"size":122151,
+"timestamp":1623703047286,
+"version":"0.19.0"
 },
 "routes-2.4.1-py_1.tar.bz2":{
 "build":"py_1",
@@ -17633,37 +17651,21 @@
 "timestamp":1530612668102,
 "version":"1.7.7"
 },
-"s3fs-0.6.0-pyhd3eb1b0_0.tar.bz2":{
+"s3fs-2021.6.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"aiobotocore",
-"botocore",
-"fsspec >=0.8.0",
+"aiobotocore >=1.0.1",
+"fsspec 2021.6.0.*",
 "python >=3.6"
 ],
-"license":"BSD 3-Clause",
+"license":"BSD-3-Clause",
 "name":"s3fs",
 "noarch":"python",
-"sha256":"ce059c0dd99cd48a944327171e2649cad61f35693debc89c1eb510e05444e394",
-"size":24484,
-"timestamp":1618089005650,
-"version":"0.6.0"
-},
-"s3transfer-0.3.6-pyhd3eb1b0_0.tar.bz2":{
-"build":"pyhd3eb1b0_0",
-"build_number":0,
-"depends":[
-"botocore >=1.12.36,<2.0a.0",
-"python >=3"
-],
-"license":"Apache-2.0",
-"name":"s3transfer",
-"noarch":"python",
-"sha256":"11e8750b95b3df23625134e0326eda2bbfc192798f4e9a033ba746231a1798d9",
-"size":52695,
-"timestamp":1616183192533,
-"version":"0.3.6"
+"sha256":"d870f08c301cb8aec734e4ff2e04d5eda2b1a3409cd6d00476106ce6474a6bb6",
+"size":25286,
+"timestamp":1623782433375,
+"version":"2021.6.0"
 },
 "s3transfer-0.4.2-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -18150,21 +18152,7 @@
 "timestamp":1614366041890,
 "version":"3.6.1"
 },
-"six-1.15.0-py_0.tar.bz2":{
-"build":"py_0",
-"build_number":0,
-"depends":[
-"python"
-],
-"license":"MIT",
-"name":"six",
-"noarch":"python",
-"sha256":"ab62c7102963a05ed77314a82ec6b10f7866df2e1c69204246bf8ab6d2753a23",
-"size":13402,
-"timestamp":1591384766747,
-"version":"1.15.0"
-},
-"six-1.15.0-pyhd3eb1b0_0.tar.bz2":{
+"six-1.16.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -18173,10 +18161,10 @@
 "license":"MIT",
 "name":"six",
 "noarch":"python",
-"sha256":"d4ce222226d53e8c4d04e99cea804465a0c1b2650d1a40e828e9ee43add0b1bc",
-"size":13611,
-"timestamp":1610970799007,
-"version":"1.15.0"
+"sha256":"142b5c736cfec8981e631d63f2b0860ce31775cf24d1b5b504dbafbec6561c88",
+"size":18781,
+"timestamp":1623709705233,
+"version":"1.16.0"
 },
 "slicerator-1.0.0-py_0.tar.bz2":{
 "build":"py_0",
