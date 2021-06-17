@@ -9462,7 +9462,7 @@
 "timestamp":1622822189056,
 "version":"7.13.1"
 },
-"email-validator-1.1.2-pyhd3eb1b0_0.conda":{
+"email-validator-1.1.3-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -9470,14 +9470,14 @@
 "idna >=2.0.0",
 "python"
 ],
-"legacy_bz2_md5":"7bd29e33a71ca4b6b06a3eb006d0ea76",
+"legacy_bz2_md5":"8b36a691cf2332346a3e3a0f157c1e22",
 "license":"CC0-1.0",
 "name":"email-validator",
 "noarch":"python",
-"sha256":"4eade14165b0e99e71e32f9d809a362826382a10d9462cddd44fe4c1a57f452f",
-"size":23484,
-"timestamp":1605066697359,
-"version":"1.1.2"
+"sha256":"f1435567defe8fab1f5c14d4ae0535473fca9a6ce4f55c4c29c2ad6af930af74",
+"size":23693,
+"timestamp":1623674841298,
+"version":"1.1.3"
 },
 "envisage-6.0.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -10992,7 +10992,7 @@
 "timestamp":1613980405889,
 "version":"1.25.1"
 },
-"google-auth-1.30.1-pyhd3eb1b0_0.conda":{
+"google-auth-1.31.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -11006,14 +11006,14 @@
 "setuptools >=40.3.0",
 "six >=1.9.0"
 ],
-"legacy_bz2_md5":"4a96d1797947ff421d94f5b79bf34e7a",
+"legacy_bz2_md5":"20c768583f274a0298208e78c74bd450",
 "license":"Apache-2.0",
 "name":"google-auth",
 "noarch":"python",
-"sha256":"7fd1058eee6798d256355db876d9f6cb0aa4f1211a1d055e463ccc4b8725fcd0",
-"size":78316,
-"timestamp":1622043006661,
-"version":"1.30.1"
+"sha256":"35da06cda798b1f65e3cd9a33d1ea5ba62d98334e89cd308b420c0b3d475a4ad",
+"size":78645,
+"timestamp":1623354796708,
+"version":"1.31.0"
 },
 "google-auth-oauthlib-0.4.1-py_2.conda":{
 "build":"py_2",
@@ -18275,24 +18275,27 @@
 "timestamp":1530612283136,
 "version":"3.4.1"
 },
-"python-jose-3.2.0-py_0.conda":{
-"build":"py_0",
+"python-jose-3.3.0-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
+"ecdsa !=0.15",
 "ecdsa <1.0",
 "future <1.0",
+"pyasn1",
 "pycryptodome >=3.3.1,<4.0.0",
-"python",
+"python >=3.6",
+"rsa",
 "six <2.0"
 ],
-"legacy_bz2_md5":"b85bb38a6866d9eb22f7063a0ff213f3",
+"legacy_bz2_md5":"5b398221f8760fded048a6d631ea43fb",
 "license":"MIT",
 "name":"python-jose",
 "noarch":"python",
-"sha256":"94f8d5f23c403737de775a5d8aea28faefb5c3b57699902ab10e0b4a80e8052a",
-"size":23613,
-"timestamp":1600459816741,
-"version":"3.2.0"
+"sha256":"bd21f0f24df39350fa3a8e76b730b1090a566d93a69036f4a45bfe3ae09c219a",
+"size":103107,
+"timestamp":1623673066125,
+"version":"3.3.0"
 },
 "python-json-logger-2.0.1-py_0.conda":{
 "build":"py_0",
@@ -18627,21 +18630,21 @@
 "timestamp":1600460719937,
 "version":"6.0.0"
 },
-"pyviz_comms-2.0.1-pyhd3eb1b0_0.conda":{
+"pyviz_comms-2.0.2-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "param",
-"python"
+"python >=2.7"
 ],
-"legacy_bz2_md5":"382debdd5bb2cc1f701a409d719fb635",
-"license":"BSD 3-Clause",
+"legacy_bz2_md5":"165985560b29068d8b832838e0a0c143",
+"license":"BSD-3-Clause",
 "name":"pyviz_comms",
 "noarch":"python",
-"sha256":"4cc8cf58306e9cdcb5aeea79b79fc37e236aa7016f24550ca85a33108f222162",
-"size":115004,
-"timestamp":1610136542363,
-"version":"2.0.1"
+"sha256":"3e61b30692ab5d101459c660cf1dd3afa6507eb5888df6c7291eb944d5f870cc",
+"size":23365,
+"timestamp":1623747251779,
+"version":"2.0.2"
 },
 "pyxdg-0.27-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -19211,37 +19214,21 @@
 "timestamp":1617302114722,
 "version":"0.17.0"
 },
-"scp-0.13.3-pyhd3eb1b0_0.conda":{
+"scp-0.13.4-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "paramiko",
 "python"
 ],
-"legacy_bz2_md5":"0ed1ab8953fa8ac4ed99afdb963327c6",
+"legacy_bz2_md5":"3698f25d6ae461e5aa1279ccc0a9629c",
 "license":"LGPL-2.1-or-later",
 "name":"scp",
 "noarch":"python",
-"sha256":"fa3e30bbf2718e2ffbfad08b2c9c3a80a732cc6f01b6f2f106e8b4843faf33c7",
-"size":11793,
-"timestamp":1606923183928,
-"version":"0.13.3"
-},
-"scp-0.13.3-pyhd3eb1b0_1.conda":{
-"build":"pyhd3eb1b0_1",
-"build_number":1,
-"depends":[
-"paramiko",
-"python"
-],
-"legacy_bz2_md5":"b1bc5107789f6ec227a76855af3fb12b",
-"license":"LGPL-2.1-or-later",
-"name":"scp",
-"noarch":"python",
-"sha256":"f457452d30e74154ef251bb4d3734fbb5e61a781a58dbc6759857a3d4eb2b3c4",
-"size":11787,
-"timestamp":1606864626020,
-"version":"0.13.3"
+"sha256":"36aa1ddd3f9988c9bd9abb3b6d22959e18f8dd6ab554843ddcbb99a4acae7eff",
+"size":11681,
+"timestamp":1623837363993,
+"version":"0.13.4"
 },
 "scramp-1.4.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -19585,25 +19572,22 @@
 "timestamp":1579614604787,
 "version":"1.3.1"
 },
-"simple-salesforce-1.11.1-pyhd3eb1b0_1.conda":{
+"simple-salesforce-1.11.2-pyhd3eb1b0_1.conda":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
 "authlib",
-"cryptography >=1.3.4",
-"idna >=2.0.0",
-"pyopenssl >=0.14",
-"python",
-"requests"
+"python >=3.5",
+"requests >=2.22.0"
 ],
-"legacy_bz2_md5":"543a10ac18c018e04fdee8c164e5d5fc",
+"legacy_bz2_md5":"752bee98dde3d8fa0b37b28d02c76c3f",
 "license":"Apache-2.0",
 "name":"simple-salesforce",
 "noarch":"python",
-"sha256":"dd2c74f357c54e076f12fa6e62a02300522d5a25079594baba66a093eab8430f",
-"size":29879,
-"timestamp":1617224380279,
-"version":"1.11.1"
+"sha256":"c5bc811837b9880d57afbce43a375ae93cf3b2c6ebcd57c08cf2dbfbd367b3d6",
+"size":29728,
+"timestamp":1623836392455,
+"version":"1.11.2"
 },
 "singledispatch-3.6.1-pyhd3eb1b0_1001.conda":{
 "build":"pyhd3eb1b0_1001",

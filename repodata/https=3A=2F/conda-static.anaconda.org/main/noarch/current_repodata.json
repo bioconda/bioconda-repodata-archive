@@ -4027,7 +4027,7 @@
 "timestamp":1622822189056,
 "version":"7.13.1"
 },
-"email-validator-1.1.2-pyhd3eb1b0_0.tar.bz2":{
+"email-validator-1.1.3-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -4038,10 +4038,10 @@
 "license":"CC0-1.0",
 "name":"email-validator",
 "noarch":"python",
-"sha256":"aed603ccd7ec1d7d82181425f4cb0676accd1afee51cd862c344f404fda54631",
-"size":23404,
-"timestamp":1605066697359,
-"version":"1.1.2"
+"sha256":"c91278cf58f30b6573a8c60391afd65e568b03bdef6184f96ed218a111112123",
+"size":23604,
+"timestamp":1623674841298,
+"version":"1.1.3"
 },
 "envisage-6.0.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -6058,7 +6058,7 @@
 "timestamp":1613980405889,
 "version":"1.25.1"
 },
-"google-auth-1.30.1-pyhd3eb1b0_0.tar.bz2":{
+"google-auth-1.31.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -6075,10 +6075,10 @@
 "license":"Apache-2.0",
 "name":"google-auth",
 "noarch":"python",
-"sha256":"590d595882f6d4f8f9ad84ba9d40d9923173a3d53d46b568805baf314707f177",
-"size":79293,
-"timestamp":1622043006661,
-"version":"1.30.1"
+"sha256":"f6bf21643ebc9112411c49e629268054b3e32610f5935a0fc92136f130da34d5",
+"size":79457,
+"timestamp":1623354796708,
+"version":"1.31.0"
 },
 "google-auth-oauthlib-0.4.1-py_2.tar.bz2":{
 "build":"py_2",
@@ -16801,23 +16801,26 @@
 "timestamp":1611934897033,
 "version":"3.4.1"
 },
-"python-jose-3.2.0-py_0.tar.bz2":{
-"build":"py_0",
+"python-jose-3.3.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
+"ecdsa !=0.15",
 "ecdsa <1.0",
 "future <1.0",
+"pyasn1",
 "pycryptodome >=3.3.1,<4.0.0",
-"python",
+"python >=3.6",
+"rsa",
 "six <2.0"
 ],
 "license":"MIT",
 "name":"python-jose",
 "noarch":"python",
-"sha256":"9aded5640f64af25efd4cabff9741533e215d383b12b60b3ff29ded48e4ad9a4",
-"size":23802,
-"timestamp":1600459816741,
-"version":"3.2.0"
+"sha256":"2a67244f1c1b4563f633fc96141fbc2ec3a4cce647358b2f71fdefc6a31062a3",
+"size":115889,
+"timestamp":1623673066125,
+"version":"3.3.0"
 },
 "python-json-logger-2.0.1-py_0.tar.bz2":{
 "build":"py_0",
@@ -17162,20 +17165,20 @@
 "timestamp":1600460719937,
 "version":"6.0.0"
 },
-"pyviz_comms-2.0.1-pyhd3eb1b0_0.tar.bz2":{
+"pyviz_comms-2.0.2-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "param",
-"python"
+"python >=2.7"
 ],
-"license":"BSD 3-Clause",
+"license":"BSD-3-Clause",
 "name":"pyviz_comms",
 "noarch":"python",
-"sha256":"d60fe5f1f7ba6204fb6088db79b4f2265d6383d93ab9470715f9ebc652958857",
-"size":137427,
-"timestamp":1610136542363,
-"version":"2.0.1"
+"sha256":"5004d4651d4a544b06cc3bb5dfffd65db84a31491e292e8509e6748af7fd2fca",
+"size":25511,
+"timestamp":1623747251779,
+"version":"2.0.2"
 },
 "pyxdg-0.27-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -17752,7 +17755,7 @@
 "timestamp":1617302114722,
 "version":"0.17.0"
 },
-"scp-0.13.3-pyhd3eb1b0_0.tar.bz2":{
+"scp-0.13.4-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -17762,25 +17765,10 @@
 "license":"LGPL-2.1-or-later",
 "name":"scp",
 "noarch":"python",
-"sha256":"614ce514ffb047b519b24d0aff9044c47772cffd8e2b8ebd11887bab02fb6499",
-"size":11580,
-"timestamp":1606923183928,
-"version":"0.13.3"
-},
-"scp-0.13.3-pyhd3eb1b0_1.tar.bz2":{
-"build":"pyhd3eb1b0_1",
-"build_number":1,
-"depends":[
-"paramiko",
-"python"
-],
-"license":"LGPL-2.1-or-later",
-"name":"scp",
-"noarch":"python",
-"sha256":"510c0ce354eeb4a8f0a5a53b9a64385767a98460c1cae16cf232f7c65d257b8f",
-"size":11578,
-"timestamp":1606864626020,
-"version":"0.13.3"
+"sha256":"bdef41f5d7daf479dafa7256dae0e712bf94b549d2e1fa475884ff98792cb9bd",
+"size":11496,
+"timestamp":1623837363993,
+"version":"0.13.4"
 },
 "scramp-1.4.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -18118,24 +18106,21 @@
 "timestamp":1579614604787,
 "version":"1.3.1"
 },
-"simple-salesforce-1.11.1-pyhd3eb1b0_1.tar.bz2":{
+"simple-salesforce-1.11.2-pyhd3eb1b0_1.tar.bz2":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
 "authlib",
-"cryptography >=1.3.4",
-"idna >=2.0.0",
-"pyopenssl >=0.14",
-"python",
-"requests"
+"python >=3.5",
+"requests >=2.22.0"
 ],
 "license":"Apache-2.0",
 "name":"simple-salesforce",
 "noarch":"python",
-"sha256":"7dfd99265064e6cba430e026bcc27b9e4ef7f7f2d4d04ee1a1706ac74007d510",
-"size":29337,
-"timestamp":1617224380279,
-"version":"1.11.1"
+"sha256":"8af6916c8293f62dc9951f7d5f3e6f7dc523c8a3ca93fbcb261506af79859685",
+"size":29166,
+"timestamp":1623836392455,
+"version":"1.11.2"
 },
 "singledispatch-3.6.1-pyhd3eb1b0_1001.tar.bz2":{
 "build":"pyhd3eb1b0_1001",
