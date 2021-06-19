@@ -2480,6 +2480,44 @@
 "timestamp":1621480663400,
 "version":"3.1.0"
 },
+"anyio-3.2.0-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"constrains":[
+"trio >=0.16"
+],
+"depends":[
+"idna >=2.8",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"sniffio >=1.1"
+],
+"license":"MIT",
+"name":"anyio",
+"sha256":"46f675addd78e89d990572a219c4d5361f768526050bd83654961235ef88fc44",
+"size":142863,
+"timestamp":1624038071249,
+"version":"3.2.0"
+},
+"anyio-3.2.0-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"constrains":[
+"trio >=0.16"
+],
+"depends":[
+"idna >=2.8",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"sniffio >=1.1"
+],
+"license":"MIT",
+"name":"anyio",
+"sha256":"efc3eafb9fc732d2888470706b4cad195eb31ceae39a418666c66372e67b3c1f",
+"size":143505,
+"timestamp":1624038273319,
+"version":"3.2.0"
+},
 "apache-beam-2.29.0-py38hea4295b_0.tar.bz2":{
 "build":"py38hea4295b_0",
 "build_number":0,
@@ -11216,6 +11254,19 @@
 "size":16841,
 "timestamp":1623341686899,
 "version":"0.2.12"
+},
+"aws-c-compression-0.2.13-h487e1a8_0.tar.bz2":{
+"build":"h487e1a8_0",
+"build_number":0,
+"depends":[
+"aws-c-common >=0.6.2,<0.6.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-compression",
+"sha256":"6900042f2d53d65a51e3cb9197fca849ca9e57ff71d36e0d38b04bd63df5b497",
+"size":16801,
+"timestamp":1623989177924,
+"version":"0.2.13"
 },
 "aws-c-event-stream-0.1.6-h0d44b10_6.tar.bz2":{
 "build":"h0d44b10_6",
@@ -28048,6 +28099,66 @@
 "timestamp":1622867746015,
 "version":"2021.6.0"
 },
+"distributed-2021.6.1-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"constrains":[
+"openssl !=1.1.1e"
+],
+"depends":[
+"click >=6.6",
+"cloudpickle >=1.5.0",
+"cytoolz >=0.8.2",
+"dask-core 2021.6.1.*",
+"msgpack-python >=0.6.0",
+"psutil >=5.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml",
+"setuptools",
+"sortedcontainers !=2.0.0,!=2.0.1",
+"tblib >=1.6.0",
+"toolz >=0.8.2",
+"tornado >=6.0.3",
+"zict >=0.1.3"
+],
+"license":"BSD-3-Clause",
+"name":"distributed",
+"sha256":"3d2413e2593e58dc4d79ba70f9fbccec762db99760d403747f6f9eb020edfa58",
+"size":1211119,
+"timestamp":1624044900200,
+"version":"2021.6.1"
+},
+"distributed-2021.6.1-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"constrains":[
+"openssl !=1.1.1e"
+],
+"depends":[
+"click >=6.6",
+"cloudpickle >=1.5.0",
+"cytoolz >=0.8.2",
+"dask-core 2021.6.1.*",
+"msgpack-python >=0.6.0",
+"psutil >=5.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml",
+"setuptools",
+"sortedcontainers !=2.0.0,!=2.0.1",
+"tblib >=1.6.0",
+"toolz >=0.8.2",
+"tornado >=6.0.3",
+"zict >=0.1.3"
+],
+"license":"BSD-3-Clause",
+"name":"distributed",
+"sha256":"2b1c77e71d815ee734479c11e27518dc3c5eb07a762b650c410248b0c07dc5b3",
+"size":1217958,
+"timestamp":1624044963366,
+"version":"2021.6.1"
+},
 "docker-py-4.4.0-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
@@ -36841,6 +36952,29 @@
 "timestamp":1623420013775,
 "version":"3.9.2.0"
 },
+"gnuradio-osmosdr-0.2.3-py38hc597ddd_8.tar.bz2":{
+"build":"py38hc597ddd_8",
+"build_number":8,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core >=3.9.2.0,<3.9.3.0a0",
+"gnuradio-uhd >=3.9.2.0,<3.9.3.0a0",
+"libcxx >=11.1.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"rtl-sdr >=0.6.0,<1.0a0",
+"soapysdr >=0.8.0,<0.9.0a0",
+"uhd >=4.0.0,<4.0.1.0a0",
+"volk >=2.4.1,<2.5.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-osmosdr",
+"sha256":"485152bc86444e2c03b4b78edc959bf5d32ac1452fee80bf9e324e39cf30e947",
+"size":323274,
+"timestamp":1623974218297,
+"version":"0.2.3"
+},
 "gnuradio-osmosdr-0.2.3-py38hfa03176_6.tar.bz2":{
 "build":"py38hfa03176_6",
 "build_number":6,
@@ -36885,6 +37019,29 @@
 "sha256":"0236b5397ea18899cf434c7f0dd55a74916d9bc012381de6691bd8ca5286314b",
 "size":318152,
 "timestamp":1623966254265,
+"version":"0.2.3"
+},
+"gnuradio-osmosdr-0.2.3-py39h5ec670c_8.tar.bz2":{
+"build":"py39h5ec670c_8",
+"build_number":8,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core >=3.9.2.0,<3.9.3.0a0",
+"gnuradio-uhd >=3.9.2.0,<3.9.3.0a0",
+"libcxx >=11.1.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"rtl-sdr >=0.6.0,<1.0a0",
+"soapysdr >=0.8.0,<0.9.0a0",
+"uhd >=4.0.0,<4.0.1.0a0",
+"volk >=2.4.1,<2.5.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-osmosdr",
+"sha256":"1a20d1d02e5ad772a26528cdd958e944fdeb18435b1b20be08255b0565d3362c",
+"size":324506,
+"timestamp":1623973998699,
 "version":"0.2.3"
 },
 "gnuradio-osmosdr-0.2.3-py39h61db5fd_6.tar.bz2":{
@@ -37029,6 +37186,54 @@
 "timestamp":1621531137602,
 "version":"4.1.0"
 },
+"gnuradio-satellites-4.2.0-py38h939e8c2_0.tar.bz2":{
+"build":"py38h939e8c2_0",
+"build_number":0,
+"depends":[
+"construct >=2.9",
+"gnuradio-core >=3.9.2.0,<3.9.3.0a0",
+"gnuradio-zeromq",
+"libcxx >=11.1.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"matplotlib-base",
+"numpy",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pyyaml",
+"requests",
+"volk >=2.4.1,<2.5.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-satellites",
+"sha256":"b4b50500b810001f0f34b9d0914c44ac9c39879c96117edf09d7acbdeaf9e83e",
+"size":478729,
+"timestamp":1624033857833,
+"version":"4.2.0"
+},
+"gnuradio-satellites-4.2.0-py39h1cd40cf_0.tar.bz2":{
+"build":"py39h1cd40cf_0",
+"build_number":0,
+"depends":[
+"construct >=2.9",
+"gnuradio-core >=3.9.2.0,<3.9.3.0a0",
+"gnuradio-zeromq",
+"libcxx >=11.1.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"matplotlib-base",
+"numpy",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pyyaml",
+"requests",
+"volk >=2.4.1,<2.5.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-satellites",
+"sha256":"93a9db2eb4549278140125c540dcf2396d2a8f1fd9f20cfe4db62b539d186532",
+"size":462819,
+"timestamp":1624033641402,
+"version":"4.2.0"
+},
 "gnuradio-soapy-2.1.3.1-py38h64adcb3_3.tar.bz2":{
 "build":"py38h64adcb3_3",
 "build_number":3,
@@ -37048,6 +37253,25 @@
 "timestamp":1621014092091,
 "version":"2.1.3.1"
 },
+"gnuradio-soapy-2.1.3.1-py38h64adcb3_4.tar.bz2":{
+"build":"py38h64adcb3_4",
+"build_number":4,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core >=3.9.1.0,<3.9.2.0a0",
+"libcxx >=11.1.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"soapysdr >=0.8.0,<0.9.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-soapy",
+"sha256":"511b2272ce1dc9cd91e9d36712f388bb4cca663ed9aa98e3fcce56afcfe2eeee",
+"size":202377,
+"timestamp":1623999515755,
+"version":"2.1.3.1"
+},
 "gnuradio-soapy-2.1.3.1-py39h0fef4b3_3.tar.bz2":{
 "build":"py39h0fef4b3_3",
 "build_number":3,
@@ -37065,6 +37289,25 @@
 "sha256":"3049b1cd08b6fc3fba73b792bba64b7277378f6c288757a5d1a10e1540e528d2",
 "size":201665,
 "timestamp":1621014028682,
+"version":"2.1.3.1"
+},
+"gnuradio-soapy-2.1.3.1-py39h0fef4b3_4.tar.bz2":{
+"build":"py39h0fef4b3_4",
+"build_number":4,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"gnuradio-core >=3.9.1.0,<3.9.2.0a0",
+"libcxx >=11.1.0",
+"log4cpp >=1.1.3,<1.2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"soapysdr >=0.8.0,<0.9.0a0"
+],
+"license":"GPL-3.0-or-later",
+"name":"gnuradio-soapy",
+"sha256":"ca790590a3cd078cd7538db507acd80343ef2deaa419d467ff1cb16c824fa92a",
+"size":201932,
+"timestamp":1623999708317,
 "version":"2.1.3.1"
 },
 "gnuradio-soapy-intree-3.9.2.0-py38ha77fb86_0.tar.bz2":{
@@ -39938,6 +40181,20 @@
 "size":51751,
 "timestamp":1621383453093,
 "version":"1.38.0"
+},
+"grpc_java_plugin-1.38.1-h699e8e8_0.tar.bz2":{
+"build":"h699e8e8_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libprotobuf >=3.16.0,<3.17.0a0"
+],
+"license":"Apache-2.0",
+"name":"grpc_java_plugin",
+"sha256":"4e77ffbc7ce27cd6dff05aee68f816f09868fa291f67db73e372f3ece790e316",
+"size":51801,
+"timestamp":1623973448455,
+"version":"1.38.1"
 },
 "grpcio-1.33.2-py38h446835f_2.tar.bz2":{
 "build":"py38h446835f_2",
@@ -44143,6 +44400,86 @@
 "size":6743910,
 "timestamp":1623931255702,
 "version":"2021.4.28"
+},
+"imagecodecs-2021.6.8-py38h93c653a_0.tar.bz2":{
+"build":"py38h93c653a_0",
+"build_number":0,
+"depends":[
+"blosc >=1.21.0,<2.0a0",
+"brotli >=1.0.9,<2.0a0",
+"brunsli >=0.1,<1.0a0",
+"bzip2 >=1.0.8,<2.0a0",
+"cfitsio >=3.470,<3.471.0a0",
+"charls >=2.2.0,<2.3.0a0",
+"giflib >=5.2.1,<5.3.0a0",
+"jpeg >=9d,<10a",
+"jxrlib >=1.1,<1.2.0a0",
+"lcms2 >=2.12,<3.0a0",
+"lerc >=2.2.1,<3.0a0",
+"libaec >=1.0.5,<2.0a0",
+"libcxx >=11.1.0",
+"libdeflate >=1.7,<1.8.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libtiff >=4.3.0,<5.0a0",
+"libwebp-base >=1.2.0,<2.0a0",
+"libzopfli >=1.0.3,<1.1.0a0",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"numpy >=1.19.5,<2.0a0",
+"openjpeg >=2.4.0,<2.5.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"snappy >=1.1.8,<2.0a0",
+"xz >=5.2.5,<5.3.0a0",
+"zfp >=0.5.5,<1.0a0",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.5.0,<1.6.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"imagecodecs",
+"sha256":"4b8f8e0d5e313395ab2f4bc76e512325d2c590da3e4ffaa836dd91c2607f9940",
+"size":6720158,
+"timestamp":1623997450854,
+"version":"2021.6.8"
+},
+"imagecodecs-2021.6.8-py39ha35f355_0.tar.bz2":{
+"build":"py39ha35f355_0",
+"build_number":0,
+"depends":[
+"blosc >=1.21.0,<2.0a0",
+"brotli >=1.0.9,<2.0a0",
+"brunsli >=0.1,<1.0a0",
+"bzip2 >=1.0.8,<2.0a0",
+"cfitsio >=3.470,<3.471.0a0",
+"charls >=2.2.0,<2.3.0a0",
+"giflib >=5.2.1,<5.3.0a0",
+"jpeg >=9d,<10a",
+"jxrlib >=1.1,<1.2.0a0",
+"lcms2 >=2.12,<3.0a0",
+"lerc >=2.2.1,<3.0a0",
+"libaec >=1.0.5,<2.0a0",
+"libcxx >=11.1.0",
+"libdeflate >=1.7,<1.8.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libtiff >=4.3.0,<5.0a0",
+"libwebp-base >=1.2.0,<2.0a0",
+"libzopfli >=1.0.3,<1.1.0a0",
+"lz4-c >=1.9.3,<1.9.4.0a0",
+"numpy >=1.19.5,<2.0a0",
+"openjpeg >=2.4.0,<2.5.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"snappy >=1.1.8,<2.0a0",
+"xz >=5.2.5,<5.3.0a0",
+"zfp >=0.5.5,<1.0a0",
+"zlib >=1.2.11,<1.3.0a0",
+"zstd >=1.5.0,<1.6.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"imagecodecs",
+"sha256":"095be394e3d2c902de41a7ff6e9cc12bc877f454e17e374ffc59e0caf09170a4",
+"size":6775517,
+"timestamp":1623997385823,
+"version":"2021.6.8"
 },
 "imagemagick-7.0.11_13-pl5320hc21dce0_1.tar.bz2":{
 "build":"pl5320hc21dce0_1",
@@ -58580,6 +58917,21 @@
 "timestamp":1612799506964,
 "version":"1.7.3"
 },
+"libzip-1.8.0-h3887732_0.tar.bz2":{
+"build":"h3887732_0",
+"build_number":0,
+"depends":[
+"bzip2 >=1.0.8,<2.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"libzip",
+"sha256":"254e46b21eba6e8586e5ded44b315c5e9a15898b57d716dac6fbd95a8dc50e0c",
+"size":117844,
+"timestamp":1624050923822,
+"version":"1.8.0"
+},
 "libzopfli-1.0.3-h9f76cd9_0.tar.bz2":{
 "build":"h9f76cd9_0",
 "build_number":0,
@@ -63771,6 +64123,80 @@
 "timestamp":1621272368481,
 "version":"1.17.0"
 },
+"mlflow-1.18.0-py38h64755cf_0.tar.bz2":{
+"build":"py38h64755cf_0",
+"build_number":0,
+"constrains":[
+"mlflow-skinny <0a0"
+],
+"depends":[
+"alembic <=1.4.1",
+"click >=7.0",
+"cloudpickle",
+"databricks-cli >=0.8.7",
+"docker-py >=4.0.0",
+"entrypoints",
+"flask",
+"gitpython >=2.1.0",
+"gunicorn",
+"numpy",
+"packaging",
+"pandas",
+"prometheus_flask_exporter",
+"protobuf >=3.7.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pytz",
+"pyyaml >=5.1",
+"querystring_parser",
+"requests >=2.17.3",
+"sqlalchemy",
+"sqlparse >=0.3.1"
+],
+"license":"Apache-2.0",
+"name":"mlflow",
+"sha256":"72099915c72e1c7482c586aa340d25e80a9c9f2d0ae7cb8e4421c515f74dd759",
+"size":4481760,
+"timestamp":1624029781173,
+"version":"1.18.0"
+},
+"mlflow-1.18.0-py39h3c3ad29_0.tar.bz2":{
+"build":"py39h3c3ad29_0",
+"build_number":0,
+"constrains":[
+"mlflow-skinny <0a0"
+],
+"depends":[
+"alembic <=1.4.1",
+"click >=7.0",
+"cloudpickle",
+"databricks-cli >=0.8.7",
+"docker-py >=4.0.0",
+"entrypoints",
+"flask",
+"gitpython >=2.1.0",
+"gunicorn",
+"numpy",
+"packaging",
+"pandas",
+"prometheus_flask_exporter",
+"protobuf >=3.7.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pytz",
+"pyyaml >=5.1",
+"querystring_parser",
+"requests >=2.17.3",
+"sqlalchemy",
+"sqlparse >=0.3.1"
+],
+"license":"Apache-2.0",
+"name":"mlflow",
+"sha256":"b9823b4c301131d3b232b8f4f7fde31d7adafd735af0e294b6a498780a233d02",
+"size":4598078,
+"timestamp":1624029619377,
+"version":"1.18.0"
+},
 "mlflow-skinny-1.14.0-py38hd971646_1.tar.bz2":{
 "build":"py38hd971646_1",
 "build_number":1,
@@ -64083,6 +64509,60 @@
 "timestamp":1621272369437,
 "version":"1.17.0"
 },
+"mlflow-skinny-1.18.0-py38hd971646_0.tar.bz2":{
+"build":"py38hd971646_0",
+"build_number":0,
+"constrains":[
+"mlflow <0a0"
+],
+"depends":[
+"click >=7.0",
+"cloudpickle",
+"databricks-cli >=0.8.7",
+"entrypoints",
+"gitpython >=2.1.0",
+"packaging",
+"protobuf >=3.7.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pytz",
+"pyyaml >=5.1",
+"requests >=2.17.3"
+],
+"license":"Apache-2.0",
+"name":"mlflow-skinny",
+"sha256":"3778017550d3596ca837d481038927783ee8c58262c612c53262c9e89c657955",
+"size":791892,
+"timestamp":1624029705320,
+"version":"1.18.0"
+},
+"mlflow-skinny-1.18.0-py39h99f160e_0.tar.bz2":{
+"build":"py39h99f160e_0",
+"build_number":0,
+"constrains":[
+"mlflow <0a0"
+],
+"depends":[
+"click >=7.0",
+"cloudpickle",
+"databricks-cli >=0.8.7",
+"entrypoints",
+"gitpython >=2.1.0",
+"packaging",
+"protobuf >=3.7.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pytz",
+"pyyaml >=5.1",
+"requests >=2.17.3"
+],
+"license":"Apache-2.0",
+"name":"mlflow-skinny",
+"sha256":"548d9f01b7e5aa404b248d28b96579ff9db0d1719a7ec5ab1d1271cce93f3227",
+"size":788521,
+"timestamp":1624029702188,
+"version":"1.18.0"
+},
 "mlflow-ui-dbg-1.12.1-py38h150bfb4_0.tar.bz2":{
 "build":"py38h150bfb4_0",
 "build_number":0,
@@ -64382,6 +64862,36 @@
 "size":7647963,
 "timestamp":1620636677814,
 "version":"1.17.0"
+},
+"mlflow-ui-dbg-1.18.0-py38h64755cf_0.tar.bz2":{
+"build":"py38h64755cf_0",
+"build_number":0,
+"depends":[
+"mlflow 1.18.0 py38h64755cf_0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"Apache-2.0",
+"name":"mlflow-ui-dbg",
+"sha256":"2fb81739287d7fb0c71ce3b5315ba20f3682a9431acbfbf783eb6fc5cc615745",
+"size":7646549,
+"timestamp":1624029859188,
+"version":"1.18.0"
+},
+"mlflow-ui-dbg-1.18.0-py39h3c3ad29_0.tar.bz2":{
+"build":"py39h3c3ad29_0",
+"build_number":0,
+"depends":[
+"mlflow 1.18.0 py39h3c3ad29_0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"Apache-2.0",
+"name":"mlflow-ui-dbg",
+"sha256":"f8fa63a1a681ed890d92a784ee4a4e529f06a5ea95028149c7212b0d953cea50",
+"size":7658103,
+"timestamp":1624029708173,
+"version":"1.18.0"
 },
 "mlir-11.1.0-h666519e_0.tar.bz2":{
 "build":"h666519e_0",
@@ -68431,6 +68941,32 @@
 "size":4625450,
 "timestamp":1618753000258,
 "version":"1.12.11"
+},
+"ogre-1.12.12-h0aef09b_0.tar.bz2":{
+"build":"h0aef09b_0",
+"build_number":0,
+"depends":[
+"freeimage >=3.18.0,<3.19.0a0",
+"freetype >=2.10.4,<3.0a0",
+"libcxx >=11.1.0",
+"lxml",
+"numpy >=1.19.5,<2.0a0",
+"openexr >=2.5.5,<2.6.0a0",
+"pugixml >=1.11.4,<1.12.0a0",
+"sdl2",
+"swig",
+"xorg-libx11",
+"xorg-libxaw",
+"xorg-libxt",
+"zlib >=1.2.11,<1.3.0a0",
+"zziplib >=0.13.69,<0.14.0a0"
+],
+"license":"MIT",
+"name":"ogre",
+"sha256":"18564154c7e6a0b117657665cfd9205d2c810147bb9eb0122f200c6106cb7e73",
+"size":4605670,
+"timestamp":1624013502048,
+"version":"1.12.12"
 },
 "omegaconf-2.0.6-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
@@ -96412,6 +96948,42 @@
 "size":347264,
 "timestamp":1623268635777,
 "version":"10.3.0"
+},
+"rich-10.4.0-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"colorama >=0.4.0,<0.5.0",
+"commonmark >=0.9.0,<0.10.0",
+"pygments >=2.6.0,<3.0.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"typing_extensions >=3.7.4,<4.0.0"
+],
+"license":"MIT",
+"name":"rich",
+"sha256":"bfb06856a2fca62c3024f539dde0de4a26eb3d6128f0e55d1df73c6adb7a4e83",
+"size":346546,
+"timestamp":1624056008900,
+"version":"10.4.0"
+},
+"rich-10.4.0-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"colorama >=0.4.0,<0.5.0",
+"commonmark >=0.9.0,<0.10.0",
+"pygments >=2.6.0,<3.0.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"typing_extensions >=3.7.4,<4.0.0"
+],
+"license":"MIT",
+"name":"rich",
+"sha256":"35e1e1cce8fb57fd260d1d10190f7896fce6f826ea76df05a827fcfc3e238267",
+"size":349782,
+"timestamp":1624055980713,
+"version":"10.4.0"
 },
 "rich-9.10.0-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
