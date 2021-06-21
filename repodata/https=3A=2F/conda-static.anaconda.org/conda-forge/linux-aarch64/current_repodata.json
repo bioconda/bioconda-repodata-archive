@@ -9109,6 +9109,22 @@
 "timestamp":1620721027358,
 "version":"0.6.4"
 },
+"aws-c-http-0.6.4-h2efadaf_9.tar.bz2":{
+"build":"h2efadaf_9",
+"build_number":9,
+"depends":[
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-compression >=0.2.13,<0.2.14.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-http",
+"sha256":"07ba94e28b94ec9d6c282188abcd3dbc287c3173a5a7c97e92253dd00792ca01",
+"size":158940,
+"timestamp":1624226850233,
+"version":"0.6.4"
+},
 "aws-c-http-0.6.4-h4705453_7.tar.bz2":{
 "build":"h4705453_7",
 "build_number":7,
@@ -10235,6 +10251,25 @@
 "size":4652014,
 "timestamp":1620322604875,
 "version":"1.8.186"
+},
+"aws-sdk-cpp-1.9.39-h3fd84e4_0.tar.bz2":{
+"build":"h3fd84e4_0",
+"build_number":0,
+"depends":[
+"aws-c-common >=0.6.2,<0.6.3.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-crt-cpp >=0.14.0,<0.14.1.0a0",
+"libcurl >=7.77.0,<8.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-sdk-cpp",
+"sha256":"086264e32340370543146b43e2ad012502916a5e8403386bd5b2dcf1ebba4f45",
+"size":4622453,
+"timestamp":1624217678269,
+"version":"1.9.39"
 },
 "awscli-1.19.97-py36h704843e_0.tar.bz2":{
 "build":"py36h704843e_0",
@@ -15270,7 +15305,7 @@
 "timestamp":1614945806338,
 "version":"1.17.1"
 },
-"c-compiler-1.1.3-h3557bc0_0.tar.bz2":{
+"c-compiler-1.2.0-h3557bc0_0.tar.bz2":{
 "build":"h3557bc0_0",
 "build_number":0,
 "depends":[
@@ -15280,10 +15315,10 @@
 ],
 "license":"BSD",
 "name":"c-compiler",
-"sha256":"328811b6e7cf2923e7aecb955f998b301feb7ea924e1aa2c8bf08a4e51eb05bc",
-"size":6509,
-"timestamp":1607108665558,
-"version":"1.1.3"
+"sha256":"3800d2e3f0f2afe6cc036cd0b5efa194a0c9a83f87a1b2f0de3450caa834f8d5",
+"size":6494,
+"timestamp":1624197976366,
+"version":"1.2.0"
 },
 "ca-certificates-2021.5.30-h4fd8a4c_0.tar.bz2":{
 "build":"h4fd8a4c_0",
@@ -19008,20 +19043,20 @@
 "timestamp":1621449249061,
 "version":"12.0.0"
 },
-"compilers-1.1.3-h8af1aa0_0.tar.bz2":{
+"compilers-1.2.0-h8af1aa0_0.tar.bz2":{
 "build":"h8af1aa0_0",
 "build_number":0,
 "depends":[
-"c-compiler 1.1.3 h3557bc0_0",
-"cxx-compiler 1.1.3 hf40a397_0",
-"fortran-compiler 1.1.3 h074f5a3_0"
+"c-compiler 1.2.0 h3557bc0_0",
+"cxx-compiler 1.2.0 hf40a397_0",
+"fortran-compiler 1.2.0 h074f5a3_0"
 ],
 "license":"BSD-3-Clause",
 "name":"compilers",
-"sha256":"70f3a76b6058cfa0b06a85c685e1dca234ecf10ec663a7456c2a3243c6c84ad9",
-"size":5417,
-"timestamp":1607108819810,
-"version":"1.1.3"
+"sha256":"2ccde4fb0b530d5b8b24eb09e1faeed12f0bd9b029c796c10673bd971775ac6d",
+"size":5440,
+"timestamp":1624198149935,
+"version":"1.2.0"
 },
 "conda-4.10.1-py36h2e20a7f_0.tar.bz2":{
 "build":"py36h2e20a7f_0",
@@ -21606,21 +21641,21 @@
 "timestamp":1621963609762,
 "version":"1.1.13"
 },
-"cxx-compiler-1.1.3-hf40a397_0.tar.bz2":{
+"cxx-compiler-1.2.0-hf40a397_0.tar.bz2":{
 "build":"hf40a397_0",
 "build_number":0,
 "depends":[
-"c-compiler 1.1.3 h3557bc0_0",
+"c-compiler 1.2.0 h3557bc0_0",
 "gxx_linux-aarch64 9.*",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0"
 ],
 "license":"BSD",
 "name":"cxx-compiler",
-"sha256":"15645389407156dc4c3471f4079458185297330096c593ff47e005c18722bcd0",
-"size":5673,
-"timestamp":1607108810494,
-"version":"1.1.3"
+"sha256":"69e78030239f238010468c083b873ced173c542db5cea9e51c2105d70ef67f98",
+"size":5684,
+"timestamp":1624198057604,
+"version":"1.2.0"
 },
 "cxxopts-2.2.1-hd62202e_0.tar.bz2":{
 "build":"hd62202e_0",
@@ -27830,11 +27865,12 @@
 "timestamp":1552705085996,
 "version":"2.13.1"
 },
-"fortran-compiler-1.1.3-h074f5a3_0.tar.bz2":{
+"fortran-compiler-1.2.0-h074f5a3_0.tar.bz2":{
 "build":"h074f5a3_0",
 "build_number":0,
 "depends":[
 "binutils",
+"c-compiler 1.2.0 h3557bc0_0",
 "gfortran_linux-aarch64 9.*",
 "libgcc-ng >=9.3.0",
 "libgfortran-ng",
@@ -27842,10 +27878,10 @@
 ],
 "license":"BSD",
 "name":"fortran-compiler",
-"sha256":"893b0476b4989c2ff66c7b3d1ecbb05a03186b4f0fc44ba429fcdab4dff0020b",
-"size":6593,
-"timestamp":1607108741244,
-"version":"1.1.3"
+"sha256":"cee43bdcb35a5ea9aa41b98fc3d2e8d05bb79125d58ae6dc9ee2f5fb36f5ee5e",
+"size":5791,
+"timestamp":1624198138637,
+"version":"1.2.0"
 },
 "fplll-5.4.1-hb5d123f_0.tar.bz2":{
 "build":"hb5d123f_0",
@@ -57494,39 +57530,22 @@
 "timestamp":1618478763083,
 "version":"1.1.1"
 },
-"libthrift-0.14.1-hb5cdc64_0.tar.bz2":{
+"libthrift-0.14.2-hb5cdc64_0.tar.bz2":{
 "build":"hb5cdc64_0",
 "build_number":0,
 "depends":[
 "libevent >=2.1.10,<2.1.11.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"openssl >=1.1.1j,<1.1.2a",
+"openssl >=1.1.1k,<1.1.2a",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"Apache-2.0",
 "name":"libthrift",
-"sha256":"f659c54aca5ef9f8ba5b9c996c628d510f0410cabed1f6efac513478fae4859e",
-"size":3845840,
-"timestamp":1615287329394,
-"version":"0.14.1"
-},
-"libthrift-0.14.1-hb5cdc64_1.tar.bz2":{
-"build":"hb5cdc64_1",
-"build_number":1,
-"depends":[
-"libevent >=2.1.10,<2.1.11.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"openssl >=1.1.1j,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0",
-"name":"libthrift",
-"sha256":"5ef8b205f2d4e725cb2985bb9ea7fb93b18204eb02f8f7fab98fe6b643ae3116",
-"size":3854646,
-"timestamp":1615296129278,
-"version":"0.14.1"
+"sha256":"78fa7ad557f1649fdb11c34b32399a73b158611cf2d2d8bb583edbac74023cc5",
+"size":3842908,
+"timestamp":1624222888134,
+"version":"0.14.2"
 },
 "libtiff-4.3.0-h1ff68f6_0.tar.bz2":{
 "build":"h1ff68f6_0",
@@ -120592,69 +120611,37 @@
 "timestamp":1614851482709,
 "version":"0.13.0"
 },
-"thrift-compiler-0.14.1-hb5cdc64_0.tar.bz2":{
+"thrift-compiler-0.14.2-hb5cdc64_0.tar.bz2":{
 "build":"hb5cdc64_0",
 "build_number":0,
 "depends":[
 "libevent >=2.1.10,<2.1.11.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
-"libthrift 0.14.1 hb5cdc64_0",
-"openssl >=1.1.1j,<1.1.2a",
+"libthrift 0.14.2 hb5cdc64_0",
+"openssl >=1.1.1k,<1.1.2a",
 "zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"Apache-2.0",
 "name":"thrift-compiler",
-"sha256":"91500611f4d0b5fbb94cbbc2011d737db345cf4d83dd23006a6f91c7fac3949c",
-"size":18338296,
-"timestamp":1615287385552,
-"version":"0.14.1"
+"sha256":"313aa2d4ea7352c29d4649a201c3eb5bde62af213d6fc8b43dac8cd0825e3421",
+"size":18338053,
+"timestamp":1624223069240,
+"version":"0.14.2"
 },
-"thrift-compiler-0.14.1-hb5cdc64_1.tar.bz2":{
-"build":"hb5cdc64_1",
-"build_number":1,
-"depends":[
-"libevent >=2.1.10,<2.1.11.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"libthrift 0.14.1 hb5cdc64_1",
-"openssl >=1.1.1j,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0",
-"name":"thrift-compiler",
-"sha256":"2b1bd9de509b6281026192d7708d40808d09bf0398b140e51249859755c5b9eb",
-"size":18339816,
-"timestamp":1615296288873,
-"version":"0.14.1"
-},
-"thrift-cpp-0.14.1-h8af1aa0_0.tar.bz2":{
+"thrift-cpp-0.14.2-h8af1aa0_0.tar.bz2":{
 "build":"h8af1aa0_0",
 "build_number":0,
 "depends":[
-"libthrift 0.14.1 hb5cdc64_0",
-"thrift-compiler 0.14.1 hb5cdc64_0"
+"libthrift 0.14.2 hb5cdc64_0",
+"thrift-compiler 0.14.2 hb5cdc64_0"
 ],
 "license":"Apache-2.0",
 "name":"thrift-cpp",
-"sha256":"dfd670d73dbf46e2945ef2706c1602ce524166195e529e52410f9bf525c366ae",
-"size":11013,
-"timestamp":1615287417097,
-"version":"0.14.1"
-},
-"thrift-cpp-0.14.1-h8af1aa0_1.tar.bz2":{
-"build":"h8af1aa0_1",
-"build_number":1,
-"depends":[
-"libthrift 0.14.1 hb5cdc64_1",
-"thrift-compiler 0.14.1 hb5cdc64_1"
-],
-"license":"Apache-2.0",
-"name":"thrift-cpp",
-"sha256":"230490d27141eba5f7ddfd66c55e1671994461b837daab0ac94d16a5bf09004a",
-"size":11002,
-"timestamp":1615296375336,
-"version":"0.14.1"
+"sha256":"a90fd4aadafb3db1cf44734534f992e30070cf730e95a9794dbc49a0956c4eba",
+"size":11016,
+"timestamp":1624223176041,
+"version":"0.14.2"
 },
 "tidy-html5-5.7.28-he1b5a44_1.tar.bz2":{
 "build":"he1b5a44_1",
