@@ -45182,6 +45182,23 @@
 "timestamp":1591298146493,
 "version":"7.5.0"
 },
+"libthrift-0.14.2-he6d91bd_0.tar.bz2":{
+"build":"he6d91bd_0",
+"build_number":0,
+"depends":[
+"libevent >=2.1.10,<2.1.11.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"libthrift",
+"requires":[],
+"size":4744028,
+"timestamp":1624214789898,
+"version":"0.14.2"
+},
 "libtiff-4.0.9-0.tar.bz2":{
 "build":"0",
 "build_number":0,
@@ -70468,6 +70485,38 @@
 "requires":[],
 "size":3846640,
 "version":"1.0.1"
+},
+"thrift-compiler-0.14.2-he6d91bd_0.tar.bz2":{
+"build":"he6d91bd_0",
+"build_number":0,
+"depends":[
+"libevent >=2.1.10,<2.1.11.0a0",
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"libthrift 0.14.2 he6d91bd_0",
+"openssl >=1.1.1k,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"thrift-compiler",
+"requires":[],
+"size":34052127,
+"timestamp":1624214836731,
+"version":"0.14.2"
+},
+"thrift-cpp-0.14.2-ha770c72_0.tar.bz2":{
+"build":"ha770c72_0",
+"build_number":0,
+"depends":[
+"libthrift 0.14.2 he6d91bd_0",
+"thrift-compiler 0.14.2 he6d91bd_0"
+],
+"license":"Apache-2.0",
+"name":"thrift-cpp",
+"requires":[],
+"size":10989,
+"timestamp":1624214886952,
+"version":"0.14.2"
 },
 "tiledb-1.6.1-h69c774e_0.tar.bz2":{
 "build":"h69c774e_0",
