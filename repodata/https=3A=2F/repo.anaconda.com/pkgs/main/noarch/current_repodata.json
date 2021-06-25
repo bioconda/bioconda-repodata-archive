@@ -15,6 +15,22 @@
 "timestamp":1611125301182,
 "version":"3"
 },
+"acl-amzn2-aarch64-2.2.51-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libacl-amzn2-aarch64 2.2.51",
+"libattr-amzn2-aarch64 2.4.46"
+],
+"license":"GPL (>= 2)",
+"name":"acl-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"08848645f159058695d8977331f19caa97f9226e73ceb8ba582fdbd8eb6707c2",
+"size":82577,
+"timestamp":1620060559435,
+"version":"2.2.51"
+},
 "alabaster-0.7.12-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -28,6 +44,21 @@
 "size":15931,
 "timestamp":1611921551341,
 "version":"0.7.12"
+},
+"alsa-lib-amzn2-aarch64-1.1.4.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"coreutils-amzn2-aarch64 8.22",
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"LGPL (>= 2)",
+"name":"alsa-lib-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"098b116cc53f016ce2f46b67d1d209751c594dcbc02528ce91c41fdef4902c39",
+"size":475719,
+"timestamp":1620060660995,
+"version":"1.1.4.1"
 },
 "alsa-lib-cos6-x86_64-1.1.0-4.tar.bz2":{
 "build":"4",
@@ -52,6 +83,21 @@
 "size":475382,
 "timestamp":1610795525998,
 "version":"1.1.8"
+},
+"alsa-lib-devel-amzn2-aarch64-1.1.4.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"alsa-lib-amzn2-aarch64 1.1.4.1",
+"pkgconfig-amzn2-aarch64 0.27.1"
+],
+"license":"LGPL (>= 2)",
+"name":"alsa-lib-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"0dcfc7419e2d48688769c7fcab66cacdf87f07704d00d2db629c8058b9d741f6",
+"size":1268928,
+"timestamp":1620060742399,
+"version":"1.1.4.1"
 },
 "alsa-lib-devel-cos6-i686-1.1.0-h5d9a986_0.tar.bz2":{
 "build":"h5d9a986_0",
@@ -184,6 +230,21 @@
 "timestamp":1611928005518,
 "version":"1.10"
 },
+"atk-amzn2-aarch64-2.22.0-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glib2-amzn2-aarch64 2.56.1",
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"LGPL (>= 2)",
+"name":"atk-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"2eb94de4970fa573520320f06e5a3da455ed52798f4268dc1685e8dcfacd4186",
+"size":273459,
+"timestamp":1620061455105,
+"version":"2.22.0"
+},
 "atk-cos6-x86_64-1.30.0-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -207,6 +268,20 @@
 "size":273801,
 "timestamp":1610795603643,
 "version":"2.28.1"
+},
+"atk-devel-amzn2-aarch64-2.22.0-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"atk-amzn2-aarch64 2.22.0"
+],
+"license":"LGPL (>= 2)",
+"name":"atk-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"8c495b5071947ea5e23c93cc0920c30c2d02c7ee2f1746f5e5b94edeb860d8e4",
+"size":162529,
+"timestamp":1620061634923,
+"version":"2.22.0"
 },
 "atk-devel-cos6-i686-1.30.0-h38aa4f1_0.tar.bz2":{
 "build":"h38aa4f1_0",
@@ -278,6 +353,56 @@
 "timestamp":1610795625461,
 "version":"2.28.1"
 },
+"atkmm-amzn2-aarch64-2.24.2-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"atk-amzn2-aarch64 2.22.0",
+"glib2-amzn2-aarch64 2.56.1",
+"glibc-amzn2-aarch64 2.26",
+"glibmm24-amzn2-aarch64 2.56.0",
+"glibmm24-amzn2-aarch64 >=2.56.0",
+"libgcc-amzn2-aarch64 7.3.1",
+"libsigcxx20-amzn2-aarch64 2.10.0",
+"libstdcxx-amzn2-aarch64 7.3.1"
+],
+"license":"LGPL (>= 2)",
+"name":"atkmm-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"5998f7fde3fcc49513eafaf3dc47fdfd0f7ee4e1497d13113e6c0d056de99820",
+"size":94724,
+"timestamp":1620062222906,
+"version":"2.24.2"
+},
+"atkmm-devel-amzn2-aarch64-2.24.2-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"atkmm-amzn2-aarch64 2.24.2"
+],
+"license":"LGPL (>= 2)",
+"name":"atkmm-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"ffa57f2e35d754b2a7d39c177ba884b7e547b12e2d7dfda2f4c5cd932e6e5db7",
+"size":34256,
+"timestamp":1620062230105,
+"version":"2.24.2"
+},
+"audit-libs-amzn2-aarch64-2.8.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libcap-ng-amzn2-aarch64 0.7.5"
+],
+"license":"LGPL (>= 2)",
+"name":"audit-libs-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"a00657897d6802aece9d7a0078302a8196a92d8e9f14fe9748e96541ecb66f86",
+"size":106627,
+"timestamp":1620060861728,
+"version":"2.8.1"
+},
 "audit-libs-cos6-x86_64-2.4.5-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -303,6 +428,21 @@
 "size":506949,
 "timestamp":1611155763635,
 "version":"2018.03.13"
+},
+"avahi-libs-amzn2-aarch64-0.6.31-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"dbus-libs-amzn2-aarch64 1.10.24",
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"LGPL (>= 2)",
+"name":"avahi-libs-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"e22b500ddd0cb78bb244535e1311bb0b8140009d09e46693f1fc605e234a1a58",
+"size":50959,
+"timestamp":1620061436223,
+"version":"0.6.31"
 },
 "avahi-libs-cos6-x86_64-0.6.25-4.tar.bz2":{
 "build":"4",
@@ -402,6 +542,35 @@
 "timestamp":1610988776613,
 "version":"4.9.3"
 },
+"bzip2-libs-amzn2-aarch64-1.0.6-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"BSD",
+"name":"bzip2-libs-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"6acc9e7d7b1a739c6a2ee595560f2d6835d41fa1e8713ca742dad30a31b83bb4",
+"size":38634,
+"timestamp":1620060819066,
+"version":"1.0.6"
+},
+"ca-certificates-amzn2-aarch64-2019.2.32-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"p11-kit-amzn2-aarch64 >=0.23.5",
+"p11-kit-trust-amzn2-aarch64 >=0.23.5"
+],
+"license":"Public-Domain",
+"name":"ca-certificates-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"8ce95dcf520fd773d489a34b333f6307874a1dd56fd0baed66ec9387bd11cbea",
+"size":337979,
+"timestamp":1620061416899,
+"version":"2019.2.32"
+},
 "ca-certificates-cos6-x86_64-2018.2.22-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -446,6 +615,32 @@
 "timestamp":1610725975772,
 "version":"2019.2.32"
 },
+"cairo-amzn2-aarch64-1.15.12-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"fontconfig-amzn2-aarch64 2.13.0",
+"freetype-amzn2-aarch64 2.8",
+"glib2-amzn2-aarch64 2.56.1",
+"glibc-amzn2-aarch64 2.26",
+"libglvnd-egl-amzn2-aarch64 1.0.1",
+"libglvnd-glx-amzn2-aarch64 1.0.1",
+"libpng-amzn2-aarch64 1.5.13",
+"libx11-amzn2-aarch64 1.6.7",
+"libxcb-amzn2-aarch64 1.12",
+"libxext-amzn2-aarch64 1.3.3",
+"libxrender-amzn2-aarch64 0.9.10",
+"pixman-amzn2-aarch64 0.34.0",
+"zlib-amzn2-aarch64 1.2.7"
+],
+"license":"LGPLv2 or MPLv1.1",
+"name":"cairo-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"bb16368d144adbe818c8429275005439876069c7a7ad1008753d5ef694f3b309",
+"size":806869,
+"timestamp":1620061281320,
+"version":"1.15.12"
+},
 "cairo-cos6-x86_64-1.8.8-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -457,6 +652,20 @@
 "size":393901,
 "timestamp":1622812245172,
 "version":"1.8.8"
+},
+"cairo-devel-amzn2-aarch64-1.15.12-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"cairo-amzn2-aarch64 1.15.12"
+],
+"license":"LGPLv2 or MPLv1.1",
+"name":"cairo-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"beac635285e2c8c97e0d7030d474a6fc5143ee3b05e2254aad17580977c4b897",
+"size":223961,
+"timestamp":1620062048122,
+"version":"1.15.12"
 },
 "cairo-devel-cos6-i686-1.8.8-h7a307c4_0.tar.bz2":{
 "build":"h7a307c4_0",
@@ -533,6 +742,46 @@
 "size":226598,
 "timestamp":1610795661345,
 "version":"1.15.12"
+},
+"cairomm-amzn2-aarch64-1.12.0-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"cairo-amzn2-aarch64 1.15.12",
+"cairo-amzn2-aarch64 >=1.15.12",
+"freetype-amzn2-aarch64 2.8",
+"glibc-amzn2-aarch64 2.26",
+"libgcc-amzn2-aarch64 7.3.1",
+"libpng-amzn2-aarch64 1.5.13",
+"libsigcxx20-amzn2-aarch64 2.10.0",
+"libsigcxx20-amzn2-aarch64 >=2.10.0",
+"libstdcxx-amzn2-aarch64 7.3.1",
+"libx11-amzn2-aarch64 1.6.7",
+"libxext-amzn2-aarch64 1.3.3",
+"libxrender-amzn2-aarch64 0.9.10",
+"zlib-amzn2-aarch64 1.2.7"
+],
+"license":"LGPL (>= 2)",
+"name":"cairomm-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"e7caa79b481aa64d26c8deeabe6137ca685385b0a0b976977d2c1a12c5ae6374",
+"size":61669,
+"timestamp":1620062299771,
+"version":"1.12.0"
+},
+"cairomm-devel-amzn2-aarch64-1.12.0-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"cairomm-amzn2-aarch64 1.12.0"
+],
+"license":"LGPL (>= 2)",
+"name":"cairomm-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"4ff82dce053095173366fbe2d09a8ee46772a1ea3457fbe71c376385781a0133",
+"size":69197,
+"timestamp":1620062308393,
+"version":"1.12.0"
 },
 "chkconfig-cos7-ppc64le-1.7.4-0.tar.bz2":{
 "build":"0",
@@ -617,6 +866,43 @@
 "timestamp":1611934830169,
 "version":"3.3"
 },
+"coreutils-amzn2-aarch64-8.22-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"gmp-amzn2-aarch64 6.0.0",
+"grep-amzn2-aarch64 2.20",
+"libacl-amzn2-aarch64 2.2.51",
+"libattr-amzn2-aarch64 2.4.46",
+"libcap-amzn2-aarch64 2.22",
+"libselinux-amzn2-aarch64 2.5",
+"ncurses-amzn2-aarch64 6.0"
+],
+"license":"GPLv3+",
+"name":"coreutils-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"63367592d5143db8de6b587969bffc2a09cdc0837709b2dff26d4e74b4f8a8c7",
+"size":5316788,
+"timestamp":1620060632225,
+"version":"8.22"
+},
+"cracklib-amzn2-aarch64-2.9.0-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"gzip-amzn2-aarch64 1.5",
+"zlib-amzn2-aarch64 1.2.7"
+],
+"license":"LGPL (>= 2)",
+"name":"cracklib-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"d8b8916e2c580d9fccc0706c84e55ceb7975529feee656fb721fd746ac0f779e",
+"size":70428,
+"timestamp":1620060840760,
+"version":"2.9.0"
+},
 "cracklib-cos6-x86_64-2.8.16-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -628,6 +914,20 @@
 "size":75125,
 "timestamp":1622812290287,
 "version":"2.8.16"
+},
+"cracklib-dicts-amzn2-aarch64-2.9.0-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"cracklib-amzn2-aarch64 2.9.0"
+],
+"license":"LGPL (>= 2)",
+"name":"cracklib-dicts-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"c17b6719c85940700b73d21e237332fb221bd3a787014a736e81196440635fe9",
+"size":3689184,
+"timestamp":1620060847224,
+"version":"2.9.0"
 },
 "cracklib-dicts-cos6-x86_64-2.8.16-4.tar.bz2":{
 "build":"4",
@@ -642,6 +942,42 @@
 "size":7133108,
 "timestamp":1622812311824,
 "version":"2.8.16"
+},
+"cryptsetup-libs-amzn2-aarch64-1.7.4-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"device-mapper-libs-amzn2-aarch64 1.02.146",
+"glibc-amzn2-aarch64 2.26",
+"libgcrypt-amzn2-aarch64 1.5.3",
+"libgcrypt-amzn2-aarch64 >=1.5.3",
+"libgpg-error-amzn2-aarch64 1.12",
+"libuuid-amzn2-aarch64 2.30.2"
+],
+"license":"GPLv2+ and LGPLv2+",
+"name":"cryptsetup-libs-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"4cd593a336d693c27a6340bb9654494f9ee40616c196cede9c14e056acf0813a",
+"size":252257,
+"timestamp":1620060928148,
+"version":"1.7.4"
+},
+"cups-devel-amzn2-aarch64-1.6.3-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"cups-libs-amzn2-aarch64 1.6.3",
+"krb5-devel-amzn2-aarch64 1.15.1",
+"openssl-devel-amzn2-aarch64 1.0.2k",
+"zlib-devel-amzn2-aarch64 1.2.7"
+],
+"license":"LGPLv2",
+"name":"cups-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"adce6c435f89112fb0eb5b2f055ae1647337f60060e366ab481f35bb53345d7e",
+"size":40121,
+"timestamp":1620062465429,
+"version":"1.6.3"
 },
 "cups-devel-cos6-i686-1.4.2-0.tar.bz2":{
 "build":"0",
@@ -694,6 +1030,30 @@
 "sha256":"ac826632ecd0354a478db9f823b34f77bec0b095100fb110e40e61b576b2d988",
 "size":41505,
 "timestamp":1610795672262,
+"version":"1.6.3"
+},
+"cups-libs-amzn2-aarch64-1.6.3-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"audit-libs-amzn2-aarch64 2.8.1",
+"avahi-libs-amzn2-aarch64 0.6.31",
+"glibc-amzn2-aarch64 2.26",
+"krb5-libs-amzn2-aarch64 1.15.1",
+"libcom_err-amzn2-aarch64 1.42.9",
+"libcrypt-amzn2-aarch64 2.26",
+"libgcc-amzn2-aarch64 7.3.1",
+"libselinux-amzn2-aarch64 2.5",
+"libstdcxx-amzn2-aarch64 7.3.1",
+"openssl-libs-amzn2-aarch64 1.0.2k",
+"zlib-amzn2-aarch64 1.2.7"
+],
+"license":"LGPLv2 and zlib",
+"name":"cups-libs-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"e2cd8f212cd0fb850f6043c4c820b7c1df84c8c84409d41477e6e9f8cf39c5c7",
+"size":319365,
+"timestamp":1620061448512,
 "version":"1.6.3"
 },
 "cups-libs-cos6-x86_64-1.4.2-4.tar.bz2":{
@@ -776,6 +1136,42 @@
 "timestamp":1505742643093,
 "version":"4.7.25"
 },
+"dbus-amzn2-aarch64-1.10.24-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"audit-libs-amzn2-aarch64 2.8.1",
+"dbus-libs-amzn2-aarch64 1.10.24",
+"expat-amzn2-aarch64 2.1.0",
+"glibc-amzn2-aarch64 2.26",
+"libcap-ng-amzn2-aarch64 0.7.5",
+"libselinux-amzn2-aarch64 2.5",
+"libselinux-amzn2-aarch64 >=2.5",
+"systemd-libs-amzn2-aarch64 219"
+],
+"license":"(GPLv2+ or AFL) and GPLv2+",
+"name":"dbus-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"aa257c72f5f6073be6a1f3281d7edd2f40e8fa4b5ea487423aad30b658bb9757",
+"size":237077,
+"timestamp":1620060947476,
+"version":"1.10.24"
+},
+"dbus-libs-amzn2-aarch64-1.10.24-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"systemd-libs-amzn2-aarch64 219"
+],
+"license":"(GPLv2+ or AFL) and GPLv2+",
+"name":"dbus-libs-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"b53a27ba5e61883a8206af589faafad8cb48fd78d90d88cbd01ff23e7c867d16",
+"size":159607,
+"timestamp":1620060939379,
+"version":"1.10.24"
+},
 "decorator-4.4.2-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -789,6 +1185,126 @@
 "size":12194,
 "timestamp":1611930062539,
 "version":"4.4.2"
+},
+"dejavu-fonts-common-amzn2-aarch64-2.33-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"fontpackages-filesystem-amzn2-aarch64 1.44"
+],
+"license":"Bitstream Vera and Public Domain",
+"name":"dejavu-fonts-common-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"7be15e5c8706cee19e403d4076c3364a8a944651a522a11427f9bd0493401f84",
+"size":57506,
+"timestamp":1620061246220,
+"version":"2.33"
+},
+"dejavu-sans-fonts-amzn2-aarch64-2.33-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"dejavu-fonts-common-amzn2-aarch64 2.33"
+],
+"license":"Bitstream Vera and Public Domain",
+"name":"dejavu-sans-fonts-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"9e720d258623172b6e8cf88b2e05760132ecf41f93be257646ea7b235fcbe308",
+"size":2641653,
+"timestamp":1620061250164,
+"version":"2.33"
+},
+"device-mapper-libs-amzn2-aarch64-1.02.146-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libselinux-amzn2-aarch64 2.5",
+"libsepol-amzn2-aarch64 2.5",
+"systemd-libs-amzn2-aarch64 219"
+],
+"license":"LGPLv2",
+"name":"device-mapper-libs-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"b1aa9933ca2a0bdcb68f27ba84e7b8b4830d28b28a914a4fe43765f0c14d2cdf",
+"size":173261,
+"timestamp":1620060920627,
+"version":"1.02.146"
+},
+"diffutils-amzn2-aarch64-3.3-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"info-amzn2-aarch64 5.1"
+],
+"license":"GPLv3+",
+"name":"diffutils-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"65ccdb18b17c7ca4d6765d6f26fba28c1363ffe1e4c02d9e622d03dc04718412",
+"size":384335,
+"timestamp":1620061008740,
+"version":"3.3"
+},
+"elfutils-default-yama-scope-amzn2-aarch64-0.176-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[],
+"license":"GPLv2+ or LGPLv3+",
+"name":"elfutils-default-yama-scope-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"1d1e8a058ece1d96f2b6163802f7ef92ae9f1c51afd9cc5d543a51c6abc5c32a",
+"size":3140,
+"timestamp":1620060821870,
+"version":"0.176"
+},
+"elfutils-libelf-amzn2-aarch64-0.176-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"zlib-amzn2-aarch64 1.2.7"
+],
+"license":"GPLv2+ or LGPLv3+",
+"name":"elfutils-libelf-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"7c2534acb48339b0ab9c84257ea7c10f6cefffd2dde1cd37e6b4568a2655aef8",
+"size":206944,
+"timestamp":1620060791045,
+"version":"0.176"
+},
+"elfutils-libs-amzn2-aarch64-0.176-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"bzip2-libs-amzn2-aarch64 1.0.6",
+"elfutils-default-yama-scope-amzn2-aarch64 0.176",
+"elfutils-libelf-amzn2-aarch64 0.176",
+"glibc-amzn2-aarch64 2.26",
+"xz-libs-amzn2-aarch64 5.2.2",
+"zlib-amzn2-aarch64 1.2.7"
+],
+"license":"GPLv2+ or LGPLv3+",
+"name":"elfutils-libs-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"208e28151a915696135d8286420924db13efc609b5bc60e453c10837ee97a442",
+"size":310237,
+"timestamp":1620060827268,
+"version":"0.176"
+},
+"expat-amzn2-aarch64-2.1.0-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"MIT",
+"name":"expat-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"566e784fcecd72fd47f265e4a1c577fe144f6120691d8b8f3c9e5e152b23b876",
+"size":99883,
+"timestamp":1620060933523,
+"version":"2.1.0"
 },
 "expat-cos6-x86_64-2.0.1-4.tar.bz2":{
 "build":"4",
@@ -902,6 +1418,28 @@
 "timestamp":1611932668094,
 "version":"1.1.2"
 },
+"fontconfig-amzn2-aarch64-2.13.0-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"coreutils-amzn2-aarch64 8.22",
+"dejavu-sans-fonts-amzn2-aarch64 2.33",
+"expat-amzn2-aarch64 2.1.0",
+"fontpackages-filesystem-amzn2-aarch64 1.44",
+"freetype-amzn2-aarch64 2.8",
+"freetype-amzn2-aarch64 >=2.8",
+"glibc-amzn2-aarch64 2.26",
+"grep-amzn2-aarch64 2.20",
+"libuuid-amzn2-aarch64 2.30.2"
+],
+"license":"MIT and Public Domain and UCD",
+"name":"fontconfig-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"31e7e5796117ea926f98dc381c3717c29348b75a9969b1f4b6438c9679f519fc",
+"size":259380,
+"timestamp":1620061263335,
+"version":"2.13.0"
+},
 "fontconfig-cos6-x86_64-2.8.0-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -915,6 +1453,23 @@
 "size":227467,
 "timestamp":1622812466063,
 "version":"2.8.0"
+},
+"fontconfig-devel-amzn2-aarch64-2.13.0-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"fontconfig-amzn2-aarch64 2.13.0",
+"freetype-devel-amzn2-aarch64 >=2.8",
+"gettext-amzn2-aarch64 0.19.8.1",
+"pkgconfig-amzn2-aarch64 0.27.1"
+],
+"license":"MIT and Public Domain and UCD",
+"name":"fontconfig-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"49b2f146e2ae26b4653d83904aa6e3d046112876446daec0036cac17d12b1273",
+"size":99872,
+"timestamp":1620062039492,
+"version":"2.13.0"
 },
 "fontconfig-devel-cos6-i686-2.8.0-h3d0b1f7_0.tar.bz2":{
 "build":"h3d0b1f7_0",
@@ -975,6 +1530,35 @@
 "timestamp":1530612442471,
 "version":"2.10.95"
 },
+"fontpackages-filesystem-amzn2-aarch64-1.44-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[],
+"license":"Public-Domain",
+"name":"fontpackages-filesystem-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"8585dae046d2af1835d6d876fef91a820c5de13689ccb9e6c5cb4438b8c5b962",
+"size":1992,
+"timestamp":1620061241335,
+"version":"1.44"
+},
+"freetype-amzn2-aarch64-2.8-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"bzip2-libs-amzn2-aarch64 1.0.6",
+"glibc-amzn2-aarch64 2.26",
+"libpng-amzn2-aarch64 1.5.13",
+"zlib-amzn2-aarch64 1.2.7"
+],
+"license":"(FTL or GPLv2+) and BSD and MIT and Public Domain and zlib with acknowledgement",
+"name":"freetype-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"aee5e4a3f83e813432fc3a556427e14df870a3157b1f00b047cb43a45ff9a316",
+"size":412941,
+"timestamp":1620061113488,
+"version":"2.8"
+},
 "freetype-cos6-x86_64-2.3.11-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -986,6 +1570,20 @@
 "size":660139,
 "timestamp":1622812493617,
 "version":"2.3.11"
+},
+"freetype-devel-amzn2-aarch64-2.8-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"freetype-amzn2-aarch64 2.8"
+],
+"license":"(FTL or GPLv2+) and BSD and MIT and Public Domain and zlib with acknowledgement",
+"name":"freetype-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"3be7caaa590be2bda3768dd6ee5fd904f9b3dbe97bffb74f9f663772877e77b3",
+"size":410241,
+"timestamp":1620061980616,
+"version":"2.8"
 },
 "freetype-devel-cos6-i686-2.3.11-hc0bb9d0_0.tar.bz2":{
 "build":"hc0bb9d0_0",
@@ -1042,6 +1640,34 @@
 "timestamp":1530612434651,
 "version":"2.4.11"
 },
+"fribidi-amzn2-aarch64-1.0.2-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"LGPLv2+ and UCD",
+"name":"fribidi-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"b403a060c0d91a22ebe63bc837197dba7a112aabadc28d50ba22273cab775cfc",
+"size":74206,
+"timestamp":1620061341302,
+"version":"1.0.2"
+},
+"gawk-amzn2-aarch64-4.0.2-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"GPLv3+ and GPL and LGPLv3+ and LGPL and BSD",
+"name":"gawk-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"5f8b90486062d494e7d0ec43e9b4280a2dc1f3b9452c8a37b6b1646ce4722f55",
+"size":1207829,
+"timestamp":1620060991344,
+"version":"4.0.2"
+},
 "gconf2-cos6-x86_64-2.28.0-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -1054,6 +1680,44 @@
 "timestamp":1622812522380,
 "version":"2.28.0"
 },
+"gdbm-amzn2-aarch64-1.13-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"ncurses-libs-amzn2-aarch64 6.0",
+"readline-amzn2-aarch64 6.2"
+],
+"license":"GPLv3+",
+"name":"gdbm-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"0c39e67220f1c12b04c024bc15776aa67bd7f8651d344d2972a9d53f8b49cdb3",
+"size":166343,
+"timestamp":1620061680973,
+"version":"1.13"
+},
+"gdk-pixbuf2-amzn2-aarch64-2.36.12-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glib2-amzn2-aarch64 2.56.1",
+"glib2-amzn2-aarch64 >=2.56.1",
+"glibc-amzn2-aarch64 2.26",
+"jasper-libs-amzn2-aarch64 1.900.1",
+"libjpeg-turbo-amzn2-aarch64 1.2.90",
+"libpng-amzn2-aarch64 1.5.13",
+"libtiff-amzn2-aarch64 4.0.3",
+"libx11-amzn2-aarch64 1.6.7",
+"shared-mime-info-amzn2-aarch64 1.8"
+],
+"license":"LGPL (>= 2)",
+"name":"gdk-pixbuf2-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"e92cf0bb35aaf44e41a44327e8119619d58c20794abf1bcf6c018e620ab0d365",
+"size":619590,
+"timestamp":1620061193786,
+"version":"2.36.12"
+},
 "gdk-pixbuf2-cos6-x86_64-2.24.1-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -1065,6 +1729,24 @@
 "size":677180,
 "timestamp":1622812535931,
 "version":"2.24.1"
+},
+"gdk-pixbuf2-devel-amzn2-aarch64-2.36.12-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"gdk-pixbuf2-amzn2-aarch64 2.36.12",
+"glib2-amzn2-aarch64 2.56.1",
+"glib2-devel-amzn2-aarch64 >=2.56.1",
+"glibc-amzn2-aarch64 2.26",
+"libpng-amzn2-aarch64 1.5.13"
+],
+"license":"LGPL (>= 2)",
+"name":"gdk-pixbuf2-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"5af59797bde1ec9d1f7ce317fbdf07423d13171bd65bae5325ad676385e13368",
+"size":217016,
+"timestamp":1620062076181,
+"version":"2.36.12"
 },
 "gdk-pixbuf2-devel-cos6-i686-2.24.1-h549c032_0.tar.bz2":{
 "build":"h549c032_0",
@@ -1107,6 +1789,29 @@
 "size":179206,
 "timestamp":1505735713029,
 "version":"2.24.1"
+},
+"gettext-amzn2-aarch64-0.19.8.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"gettext-libs-amzn2-aarch64 0.19.8.1",
+"glib2-amzn2-aarch64 2.56.1",
+"glibc-amzn2-aarch64 2.26",
+"info-amzn2-aarch64 5.1",
+"libcroco-amzn2-aarch64 0.6.12",
+"libgcc-amzn2-aarch64 7.3.1",
+"libgomp-amzn2-aarch64 7.3.1",
+"libunistring-amzn2-aarch64 0.9.3",
+"libxml2-amzn2-aarch64 2.9.1",
+"ncurses-libs-amzn2-aarch64 6.0"
+],
+"license":"GPLv3+ and LGPLv2+",
+"name":"gettext-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"f6fe4a8a4eafb7afe82b5fac4cd557ee1efe47859b0b363972bea481192e587d",
+"size":1250399,
+"timestamp":1620062024836,
+"version":"0.19.8.1"
 },
 "gettext-cos6-x86_64-0.17-4.tar.bz2":{
 "build":"4",
@@ -1181,6 +1886,28 @@
 "timestamp":1518361646421,
 "version":"0.19.8.1"
 },
+"gettext-libs-amzn2-aarch64-0.19.8.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glib2-amzn2-aarch64 2.56.1",
+"glibc-amzn2-aarch64 2.26",
+"libcroco-amzn2-aarch64 0.6.12",
+"libgcc-amzn2-aarch64 7.3.1",
+"libgomp-amzn2-aarch64 7.3.1",
+"libstdcxx-amzn2-aarch64 7.3.1",
+"libunistring-amzn2-aarch64 0.9.3",
+"libxml2-amzn2-aarch64 2.9.1",
+"ncurses-libs-amzn2-aarch64 6.0"
+],
+"license":"LGPLv2+ and GPLv3+",
+"name":"gettext-libs-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"6470798fa95f833c30eee5205eb99144d19a8e076192dd6a995cd3d9179857ee",
+"size":716406,
+"timestamp":1620062009478,
+"version":"0.19.8.1"
+},
 "gettext-libs-cos6-x86_64-0.17-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -1193,6 +1920,18 @@
 "timestamp":1622812612070,
 "version":"0.17"
 },
+"gl-manpages-amzn2-aarch64-1.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[],
+"license":"MIT and Open Publication",
+"name":"gl-manpages-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"90f96feab6e2906f82a0eda68f3fa4fff58c2eda5bcf580675efb58ee010d074",
+"size":924569,
+"timestamp":1620063115801,
+"version":"1.1"
+},
 "glib-networking-cos6-x86_64-2.28.6.1-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -1204,6 +1943,27 @@
 "size":76988,
 "timestamp":1622812666973,
 "version":"2.28.6.1"
+},
+"glib2-amzn2-aarch64-2.56.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libffi-amzn2-aarch64 3.0.13",
+"libgcc-amzn2-aarch64 7.3.1",
+"libmount-amzn2-aarch64 2.30.2",
+"libselinux-amzn2-aarch64 2.5",
+"pcre-amzn2-aarch64 8.32",
+"shared-mime-info-amzn2-aarch64 1.8",
+"zlib-amzn2-aarch64 1.2.7"
+],
+"license":"LGPL (>= 2)",
+"name":"glib2-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"d7c9d77c15a5ea815997c8109844780a542f5f779af88ebbb3825783dcc2d0c4",
+"size":3061952,
+"timestamp":1620060717485,
+"version":"2.56.1"
 },
 "glib2-cos6-x86_64-2.28.8-4.tar.bz2":{
 "build":"4",
@@ -1227,6 +1987,27 @@
 "sha256":"796c6750891ce6774642682083c41f5c5738dc78f6a6fa4bb003ffbd3739f388",
 "size":3029707,
 "timestamp":1610795752786,
+"version":"2.56.1"
+},
+"glib2-devel-amzn2-aarch64-2.56.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"elfutils-libelf-amzn2-aarch64 0.176",
+"glib2-amzn2-aarch64 2.56.1",
+"glibc-amzn2-aarch64 2.26",
+"libffi-amzn2-aarch64 3.0.13",
+"libmount-amzn2-aarch64 2.30.2",
+"libselinux-amzn2-aarch64 2.5",
+"pcre-amzn2-aarch64 8.32",
+"zlib-amzn2-aarch64 1.2.7"
+],
+"license":"LGPL (>= 2)",
+"name":"glib2-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"12224450462099ccd00a3315697f911a1dbb6defc59f01eefbfe49dff9e668cb",
+"size":432839,
+"timestamp":1620061906558,
 "version":"2.56.1"
 },
 "glib2-devel-cos6-i686-2.28.8-hcef39f8_0.tar.bz2":{
@@ -1341,6 +2122,44 @@
 "timestamp":1620060490543,
 "version":"2.26"
 },
+"glibmm24-amzn2-aarch64-2.56.0-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glib2-amzn2-aarch64 2.56.1",
+"glib2-amzn2-aarch64 >=2.56.1",
+"glibc-amzn2-aarch64 2.26",
+"libgcc-amzn2-aarch64 7.3.1",
+"libsigcxx20-amzn2-aarch64 2.10.0",
+"libsigcxx20-amzn2-aarch64 >=2.10.0",
+"libstdcxx-amzn2-aarch64 7.3.1"
+],
+"license":"LGPL (>= 2)",
+"name":"glibmm24-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"b44a28d9c09f953ddc15cfa2e586961594e47424c68af7f25121af34e6f71376",
+"size":652451,
+"timestamp":1620062212386,
+"version":"2.56.0"
+},
+"glibmm24-devel-amzn2-aarch64-2.56.0-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibmm24-amzn2-aarch64 2.56.0",
+"perl-amzn2-aarch64 5.16.3",
+"perl-constant-amzn2-aarch64 1.27",
+"perl-exporter-amzn2-aarch64 5.68",
+"perl-xml-parser-amzn2-aarch64 2.41"
+],
+"license":"LGPL (>= 2)",
+"name":"glibmm24-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"769bc708095e8f33320ab3e5fe528fbca7431ff2ecc2b6c553ff3baa5bc81e15",
+"size":473155,
+"timestamp":1620063246987,
+"version":"2.56.0"
+},
 "glob2-0.7-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -1354,6 +2173,45 @@
 "size":11944,
 "timestamp":1610991684824,
 "version":"0.7"
+},
+"gmp-amzn2-aarch64-6.0.0-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libgcc-amzn2-aarch64 7.3.1",
+"libstdcxx-amzn2-aarch64 7.3.1"
+],
+"license":"LGPLv3+ or GPLv2+",
+"name":"gmp-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"7184faf1c9a2e1eacc46486f09ec81a2438f6ec8ce423948eed67fca7462c5b0",
+"size":289096,
+"timestamp":1620060590585,
+"version":"6.0.0"
+},
+"gnutls-amzn2-aarch64-3.3.29-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"gmp-amzn2-aarch64 6.0.0",
+"libtasn1-amzn2-aarch64 4.10",
+"libtasn1-amzn2-aarch64 >=3.9",
+"nettle-amzn2-aarch64 2.7.1",
+"p11-kit-amzn2-aarch64 0.23.22",
+"p11-kit-amzn2-aarch64 >=0.23.1",
+"p11-kit-trust-amzn2-aarch64 0.23.22",
+"trousers-amzn2-aarch64 >=0.3.11.2",
+"zlib-amzn2-aarch64 1.2.7"
+],
+"license":"GPLv3+ and LGPLv2+",
+"name":"gnutls-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"1875efbd63d32ce3130b3e5912801ba89f2a521a2340c68464e617d6203d0aef",
+"size":699813,
+"timestamp":1620063162859,
+"version":"3.3.29"
 },
 "gnutls-cos6-x86_64-2.12.23-4.tar.bz2":{
 "build":"4",
@@ -1397,6 +2255,92 @@
 "timestamp":1622812699031,
 "version":"3.0.3"
 },
+"graphite2-amzn2-aarch64-1.3.10-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libgcc-amzn2-aarch64 7.3.1",
+"libstdcxx-amzn2-aarch64 7.3.1"
+],
+"license":"(LGPLv2+ or GPLv2+ or MPL) and (Netscape or GPLv2+ or LGPLv2+)",
+"name":"graphite2-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"c4b8e474f74bdb218c56240fa925e87e8fc08fbffc4d3b48b326f2a7f33b45b5",
+"size":119426,
+"timestamp":1620061329476,
+"version":"1.3.10"
+},
+"grep-amzn2-aarch64-2.20-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"pcre-amzn2-aarch64 8.32"
+],
+"license":"GPLv3+",
+"name":"grep-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"498a7d11a55cf4f820a19bea4abff6e27ee26e043431ab5dde64c5e01862a137",
+"size":354378,
+"timestamp":1620060585523,
+"version":"2.20"
+},
+"gtk-update-icon-cache-amzn2-aarch64-3.22.30-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"gdk-pixbuf2-amzn2-aarch64 2.36.12",
+"glib2-amzn2-aarch64 2.56.1",
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"LGPL (>= 2)",
+"name":"gtk-update-icon-cache-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"49ddb121ca3907d0c07ba80eff9c5638a82abb7a196b4eb21e93dab4bc197431",
+"size":27757,
+"timestamp":1620061206506,
+"version":"3.22.30"
+},
+"gtk2-amzn2-aarch64-2.24.31-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"atk-amzn2-aarch64 2.22.0",
+"atk-amzn2-aarch64 >=1.29.4",
+"cairo-amzn2-aarch64 1.15.12",
+"cups-libs-amzn2-aarch64 1.6.3",
+"fontconfig-amzn2-aarch64 2.13.0",
+"freetype-amzn2-aarch64 2.8",
+"gdk-pixbuf2-amzn2-aarch64 2.36.12",
+"glib2-amzn2-aarch64 2.56.1",
+"glib2-amzn2-aarch64 >=2.28.0",
+"glibc-amzn2-aarch64 2.26",
+"gtk-update-icon-cache-amzn2-aarch64 3.22.30",
+"hicolor-icon-theme-amzn2-aarch64 0.12",
+"libtiff-amzn2-aarch64 >=3.6.1",
+"libx11-amzn2-aarch64 1.6.7",
+"libxcomposite-amzn2-aarch64 0.4.4",
+"libxcursor-amzn2-aarch64 1.1.15",
+"libxdamage-amzn2-aarch64 1.1.4",
+"libxext-amzn2-aarch64 1.3.3",
+"libxfixes-amzn2-aarch64 5.0.3",
+"libxi-amzn2-aarch64 1.7.9",
+"libxinerama-amzn2-aarch64 1.1.3",
+"libxrandr-amzn2-aarch64 1.5.1",
+"libxrandr-amzn2-aarch64 >=1.2.99.4",
+"libxrender-amzn2-aarch64 0.9.10",
+"pango-amzn2-aarch64 1.42.4",
+"pango-amzn2-aarch64 >=1.20.0"
+],
+"license":"LGPL (>= 2)",
+"name":"gtk2-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"4e934cd1748917430a7700073c8fa2588d99f06e3b746e0153846dd0c19b35e2",
+"size":4016153,
+"timestamp":1620061487515,
+"version":"2.24.31"
+},
 "gtk2-cos6-x86_64-2.24.23-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -1431,6 +2375,52 @@
 "sha256":"1916955076b74e2b764168df9e8b61155620d68d65ceb34c00e7fe80c76d9144",
 "size":4011223,
 "timestamp":1610796447307,
+"version":"2.24.31"
+},
+"gtk2-devel-amzn2-aarch64-2.24.31-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"atk-amzn2-aarch64 2.22.0",
+"atk-devel-amzn2-aarch64 >=1.29.4",
+"cairo-amzn2-aarch64 1.15.12",
+"cairo-devel-amzn2-aarch64 >=1.6.0",
+"fontconfig-amzn2-aarch64 2.13.0",
+"freetype-amzn2-aarch64 2.8",
+"gdk-pixbuf2-amzn2-aarch64 2.36.12",
+"gdk-pixbuf2-devel-amzn2-aarch64 2.36.12",
+"glib2-amzn2-aarch64 2.56.1",
+"glib2-devel-amzn2-aarch64 >=2.28.0",
+"glibc-amzn2-aarch64 2.26",
+"gtk2-amzn2-aarch64 2.24.31",
+"libx11-amzn2-aarch64 1.6.7",
+"libx11-devel-amzn2-aarch64 1.6.7",
+"libxcomposite-amzn2-aarch64 0.4.4",
+"libxcomposite-devel-amzn2-aarch64 0.4.4",
+"libxcursor-amzn2-aarch64 1.1.15",
+"libxcursor-devel-amzn2-aarch64 1.1.15",
+"libxdamage-amzn2-aarch64 1.1.4",
+"libxext-amzn2-aarch64 1.3.3",
+"libxext-devel-amzn2-aarch64 1.3.3",
+"libxfixes-amzn2-aarch64 5.0.3",
+"libxfixes-devel-amzn2-aarch64 5.0.3",
+"libxi-amzn2-aarch64 1.7.9",
+"libxi-devel-amzn2-aarch64 1.7.9",
+"libxinerama-amzn2-aarch64 1.1.3",
+"libxinerama-devel-amzn2-aarch64 1.1.3",
+"libxrandr-amzn2-aarch64 1.5.1",
+"libxrandr-devel-amzn2-aarch64 1.5.1",
+"libxrender-amzn2-aarch64 0.9.10",
+"pango-amzn2-aarch64 1.42.4",
+"pango-devel-amzn2-aarch64 >=1.20.0",
+"pkgconfig-amzn2-aarch64 0.27.1"
+],
+"license":"LGPL (>= 2)",
+"name":"gtk2-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"99483b626ae601456816dfa2b01a83a655e927dd1977f0ec75b4b806f0d3f104",
+"size":3539102,
+"timestamp":1620062129854,
 "version":"2.24.31"
 },
 "gtk2-devel-cos6-i686-2.24.23-hc84c710_0.tar.bz2":{
@@ -1525,6 +2515,35 @@
 "timestamp":1610796510979,
 "version":"2.24.31"
 },
+"gtkmm24-amzn2-aarch64-2.24.5-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"atk-amzn2-aarch64 2.22.0",
+"atkmm-amzn2-aarch64 2.24.2",
+"cairo-amzn2-aarch64 1.15.12",
+"cairomm-amzn2-aarch64 1.12.0",
+"fontconfig-amzn2-aarch64 2.13.0",
+"freetype-amzn2-aarch64 2.8",
+"gdk-pixbuf2-amzn2-aarch64 2.36.12",
+"glib2-amzn2-aarch64 2.56.1",
+"glibc-amzn2-aarch64 2.26",
+"glibmm24-amzn2-aarch64 2.56.0",
+"gtk2-amzn2-aarch64 2.24.31",
+"libgcc-amzn2-aarch64 7.3.1",
+"libsigcxx20-amzn2-aarch64 2.10.0",
+"libstdcxx-amzn2-aarch64 7.3.1",
+"pango-amzn2-aarch64 1.42.4",
+"pangomm-amzn2-aarch64 2.40.1"
+],
+"license":"LGPL (>= 2)",
+"name":"gtkmm24-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"ca507441c80fee44b3f00135c9ff77c271b74008876fb9b2f47774a0e9e0e590",
+"size":984704,
+"timestamp":1620063331404,
+"version":"2.24.5"
+},
 "gtkmm24-cos6-x86_64-2.18.2-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -1536,6 +2555,25 @@
 "size":2119174,
 "timestamp":1622812801548,
 "version":"2.18.2"
+},
+"gtkmm24-devel-amzn2-aarch64-2.24.5-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"atkmm-devel-amzn2-aarch64 2.24.2",
+"cairomm-devel-amzn2-aarch64 1.12.0",
+"glibmm24-devel-amzn2-aarch64 2.56.0",
+"gtk2-devel-amzn2-aarch64 2.24.31",
+"gtkmm24-amzn2-aarch64 2.24.5",
+"pangomm-devel-amzn2-aarch64 2.40.1"
+],
+"license":"LGPL (>= 2)",
+"name":"gtkmm24-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"ace2210a4549cb9b29ce618cb9e3064ed4fafa998179f70632b03f481f9746fe",
+"size":540838,
+"timestamp":1620063373622,
+"version":"2.24.5"
 },
 "gtkmm24-devel-cos6-i686-2.18.2-h77c3654_0.tar.bz2":{
 "build":"h77c3654_0",
@@ -1591,6 +2629,66 @@
 "timestamp":1610796527608,
 "version":"2.24.5"
 },
+"gzip-amzn2-aarch64-1.5-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"coreutils-amzn2-aarch64 8.22",
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"GPLv3+ and GFDL",
+"name":"gzip-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"6398f5d68157b57fabc0c5241757125b43656675cc66c2b8c46a0e4e71cda578",
+"size":128806,
+"timestamp":1620060834285,
+"version":"1.5"
+},
+"harfbuzz-amzn2-aarch64-1.7.5-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"freetype-amzn2-aarch64 2.8",
+"glib2-amzn2-aarch64 2.56.1",
+"glibc-amzn2-aarch64 2.26",
+"graphite2-amzn2-aarch64 1.3.10"
+],
+"license":"MIT",
+"name":"harfbuzz-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"4097a758012338aca193c86a9a4701c709f2b21d1c51658342c8938b8446d063",
+"size":347881,
+"timestamp":1620061336143,
+"version":"1.7.5"
+},
+"hicolor-icon-theme-amzn2-aarch64-0.12-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"coreutils-amzn2-aarch64 8.22"
+],
+"license":"GPL+",
+"name":"hicolor-icon-theme-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"6fc5ff49f7694a8620d5a55e9acfd2004f0452da9ffb4478ca048d953a0e229c",
+"size":11989,
+"timestamp":1620061297795,
+"version":"0.12"
+},
+"hwdata-amzn2-aarch64-0.252-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"systemd-amzn2-aarch64 219"
+],
+"license":"GPL (>= 2)",
+"name":"hwdata-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"65e891c500731877a9c54d177d660b4b01d34ec198feb9f6e728e9dd39ef07e2",
+"size":2327361,
+"timestamp":1620063398966,
+"version":"0.252"
+},
 "idna-2.10-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -1619,6 +2717,22 @@
 "timestamp":1611921611475,
 "version":"1.2.0"
 },
+"info-amzn2-aarch64-5.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"ncurses-libs-amzn2-aarch64 6.0",
+"zlib-amzn2-aarch64 1.2.7"
+],
+"license":"GPLv3+",
+"name":"info-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"769bcf7026d77a95f271bc0e561a339bddadca269a7bf39a487521afc32b6297",
+"size":260682,
+"timestamp":1620061002951,
+"version":"5.1"
+},
 "iniconfig-1.1.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -1632,6 +2746,21 @@
 "size":7815,
 "timestamp":1610983027305,
 "version":"1.1.1"
+},
+"jasper-libs-amzn2-aarch64-1.900.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libjpeg-turbo-amzn2-aarch64 1.2.90"
+],
+"license":"JasPer",
+"name":"jasper-libs-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"c439f45bc08dc9ce1dfaecc447fb07b6c11fe49117170d8f5cd221b876ad8c81",
+"size":169195,
+"timestamp":1620061157217,
+"version":"1.900.1"
 },
 "java-1.7.0-openjdk-cos6-i686-1.7.0.131-h3a8c334_0.tar.bz2":{
 "build":"h3a8c334_0",
@@ -1769,6 +2898,20 @@
 "timestamp":1611934901519,
 "version":"3.4.1"
 },
+"jbigkit-libs-amzn2-aarch64-2.0-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"GPL (>= 2)",
+"name":"jbigkit-libs-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"22c8a79dbf5bb55ef93b8f090e5c7d18b5d3b1d0133e291125ceb63ce6263bb0",
+"size":47905,
+"timestamp":1620061146175,
+"version":"2.0"
+},
 "jpackage-utils-cos6-x86_64-1.7.5-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -1780,6 +2923,18 @@
 "size":45095,
 "timestamp":1622813079146,
 "version":"1.7.5"
+},
+"kernel-headers-amzn2-aarch64-4.14.214-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[],
+"license":"GPLv2 and Redistributable, no modification permitted",
+"name":"kernel-headers-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"909bf2a57a91efcd2e854f5e867c0d47acb22731f8129b9f0f41c4490c86012f",
+"size":1028136,
+"timestamp":1620062691837,
+"version":"4.14.214"
 },
 "kernel-headers-cos6-x86_64-2.6.32-4.tar.bz2":{
 "build":"4",
@@ -1917,6 +3072,20 @@
 "timestamp":1610539591697,
 "version":"3.10.0"
 },
+"keyutils-libs-amzn2-aarch64-1.5.8-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"GPLv2+ and LGPLv2+",
+"name":"keyutils-libs-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"8d651590b2bdabe4db384e22f247d56ca32526fab2984fed21fcd1e0a18f4440",
+"size":18423,
+"timestamp":1620061374920,
+"version":"1.5.8"
+},
 "keyutils-libs-cos6-x86_64-1.4-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -1940,6 +3109,100 @@
 "size":20260,
 "timestamp":1610796535344,
 "version":"1.5.8"
+},
+"keyutils-libs-devel-amzn2-aarch64-1.5.8-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"keyutils-libs-amzn2-aarch64 1.5.8"
+],
+"license":"GPLv2+ and LGPLv2+",
+"name":"keyutils-libs-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"61746f5fa65ba8abf28a72517613527dcb78d558439fda2a157fa9b3d421edc2",
+"size":29696,
+"timestamp":1620062398861,
+"version":"1.5.8"
+},
+"kmod-amzn2-aarch64-25-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libgcc-amzn2-aarch64 7.3.1",
+"xz-libs-amzn2-aarch64 5.2.2",
+"zlib-amzn2-aarch64 1.2.7"
+],
+"license":"GPL (>= 2)",
+"name":"kmod-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"51ae85dd5c9f9a3ee03d0169c1aa0c102a9e434bd29bf73cec091250c442caae",
+"size":114662,
+"timestamp":1620060982835,
+"version":"25"
+},
+"kmod-libs-amzn2-aarch64-25-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libgcc-amzn2-aarch64 7.3.1",
+"xz-libs-amzn2-aarch64 5.2.2",
+"zlib-amzn2-aarch64 1.2.7"
+],
+"license":"LGPL (>= 2)",
+"name":"kmod-libs-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"e13bac0c62f8e52b8b052c09082089ce8c4c079e0cede4d7e624d3d3306faa91",
+"size":58702,
+"timestamp":1620060997694,
+"version":"25"
+},
+"krb5-devel-amzn2-aarch64-1.15.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"keyutils-libs-amzn2-aarch64 1.5.8",
+"keyutils-libs-devel-amzn2-aarch64 1.5.8",
+"krb5-libs-amzn2-aarch64 1.15.1",
+"libcom_err-amzn2-aarch64 1.42.9",
+"libcom_err-devel-amzn2-aarch64 1.42.9",
+"libkadm5-amzn2-aarch64 1.15.1",
+"libselinux-amzn2-aarch64 2.5",
+"libselinux-devel-amzn2-aarch64 2.5",
+"libverto-devel-amzn2-aarch64 0.2.5"
+],
+"license":"MIT",
+"name":"krb5-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"1d84437e8f14cee910f34eac37bc7ff93a003c400437afb0519881251b8853db",
+"size":148739,
+"timestamp":1620062427567,
+"version":"1.15.1"
+},
+"krb5-libs-amzn2-aarch64-1.15.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"coreutils-amzn2-aarch64 8.22",
+"gawk-amzn2-aarch64 4.0.2",
+"glibc-amzn2-aarch64 2.26",
+"grep-amzn2-aarch64 2.20",
+"keyutils-libs-amzn2-aarch64 1.5.8",
+"keyutils-libs-amzn2-aarch64 >=1.5.8",
+"libcom_err-amzn2-aarch64 1.42.9",
+"libselinux-amzn2-aarch64 2.5",
+"libverto-amzn2-aarch64 0.2.5",
+"sed-amzn2-aarch64 4.2.2"
+],
+"license":"MIT",
+"name":"krb5-libs-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"dc8842f0ff0a6fa57d1878b9975e93bc25bb91b678d2b6322a8b47679934f4e6",
+"size":878543,
+"timestamp":1620061387552,
+"version":"1.15.1"
 },
 "krb5-libs-cos6-x86_64-1.10.3-4.tar.bz2":{
 "build":"4",
@@ -1967,6 +3230,21 @@
 "timestamp":1610796571120,
 "version":"1.15.1"
 },
+"libacl-amzn2-aarch64-2.2.51-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libattr-amzn2-aarch64 2.4.46"
+],
+"license":"LGPL (>= 2)",
+"name":"libacl-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"459ca8ec73d3daa66239cf54d12c69b53e69307937af05c927ec6f0631601c18",
+"size":20459,
+"timestamp":1620060547111,
+"version":"2.2.51"
+},
 "libart_lgpl-cos6-x86_64-2.3.20-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -1978,6 +3256,36 @@
 "size":78181,
 "timestamp":1622813213708,
 "version":"2.3.20"
+},
+"libattr-amzn2-aarch64-2.4.46-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"LGPL (>= 2)",
+"name":"libattr-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"7fbcef61c27b4f44701909ab315d4f8ab9d2f7ae0ed24826f32d8700d8f26d1f",
+"size":12388,
+"timestamp":1620060538255,
+"version":"2.4.46"
+},
+"libblkid-amzn2-aarch64-2.30.2-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"coreutils-amzn2-aarch64 8.22",
+"glibc-amzn2-aarch64 2.26",
+"libuuid-amzn2-aarch64 2.30.2"
+],
+"license":"LGPL (>= 2)",
+"name":"libblkid-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"216d1138ec8525890e70a4d7cd452a4a2c1f69e639e06253b01c63751eb1e9e7",
+"size":149006,
+"timestamp":1620060700190,
+"version":"2.30.2"
 },
 "libblkid-cos6-x86_64-2.17.2-4.tar.bz2":{
 "build":"4",
@@ -2021,6 +3329,49 @@
 "timestamp":1622813329072,
 "version":"2.24.2"
 },
+"libcap-amzn2-aarch64-2.22-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libattr-amzn2-aarch64 2.4.46"
+],
+"license":"LGPL (>= 2)",
+"name":"libcap-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"dabfe29e876e0aba8872e74f2410382a9e56e379178d568e466bf667e6658159",
+"size":43973,
+"timestamp":1620060606554,
+"version":"2.22"
+},
+"libcap-ng-amzn2-aarch64-0.7.5-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"LGPL (>= 2)",
+"name":"libcap-ng-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"9b25f90978e6578fe780fa84fb20c3b452b274815d79e8717a5a957ceb795379",
+"size":21243,
+"timestamp":1620060857027,
+"version":"0.7.5"
+},
+"libcom_err-amzn2-aarch64-1.42.9-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"MIT",
+"name":"libcom_err-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"e9cc611f61f380c7d28412c62d352def6c26d9d95035ff4eed2f0eb61bb5a73e",
+"size":21477,
+"timestamp":1620061370331,
+"version":"1.42.9"
+},
 "libcom_err-cos6-x86_64-1.41.12-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -2032,6 +3383,92 @@
 "size":23928,
 "timestamp":1622813343280,
 "version":"1.41.12"
+},
+"libcom_err-devel-amzn2-aarch64-1.42.9-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"libcom_err-amzn2-aarch64 1.42.9",
+"pkgconfig-amzn2-aarch64 0.27.1"
+],
+"license":"MIT",
+"name":"libcom_err-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"07f88030a9ee6942cb48f856e6a2296570ce4af12ee6fc5bfcd6b1d6406c9139",
+"size":10704,
+"timestamp":1620062393628,
+"version":"1.42.9"
+},
+"libcroco-amzn2-aarch64-0.6.12-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glib2-amzn2-aarch64 2.56.1",
+"glibc-amzn2-aarch64 2.26",
+"libxml2-amzn2-aarch64 2.9.1"
+],
+"license":"LGPLv2",
+"name":"libcroco-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"49f3e400e2725bfdda3a4efc8b6e8d612f3ab54e85fc8b0798c5c9ad24e15cad",
+"size":117421,
+"timestamp":1620062000953,
+"version":"0.6.12"
+},
+"libcrypt-amzn2-aarch64-2.26-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"LGPLv2+ and LGPLv2+ with exceptions and GPLv2+",
+"name":"libcrypt-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"283b1b17adc28fb58196942fc8f4b3994e91911683824fc90c12e1f6184c1442",
+"size":24659,
+"timestamp":1620060884067,
+"version":"2.26"
+},
+"libcurl-amzn2-aarch64-7.61.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[],
+"license":"MIT",
+"name":"libcurl-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"8498ee90ffa4016e56749f242d9ff4e2223aa992d6a79f5eea0a1158f2b3b756",
+"size":272005,
+"timestamp":1620060813769,
+"version":"7.61.1"
+},
+"libdb-amzn2-aarch64-5.3.21-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"BSD and LGPLv2 and Sleepycat",
+"name":"libdb-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"b63d8e40aca2fbd68e775513a6478b2d04525bed0f63d7a8d8c06fd9e59b86fe",
+"size":801419,
+"timestamp":1620060877475,
+"version":"5.3.21"
+},
+"libdrm-amzn2-aarch64-2.4.97-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"systemd-amzn2-aarch64 219"
+],
+"license":"MIT",
+"name":"libdrm-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"8a84ca6747a3db1d263d7ad1a73550427aed20bc5c35e2b0b7b50229c7832c1d",
+"size":113382,
+"timestamp":1620063741706,
+"version":"2.4.97"
 },
 "libdrm-cos6-x86_64-2.4.65-4.tar.bz2":{
 "build":"4",
@@ -2055,6 +3492,22 @@
 "sha256":"185cfd3e536802500e0d521710e0c723cd8c914eff132f616c2e06dafbffac8f",
 "size":94580,
 "timestamp":1610796595126,
+"version":"2.4.97"
+},
+"libdrm-devel-amzn2-aarch64-2.4.97-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"kernel-headers-amzn2-aarch64 >=2.6.27",
+"libdrm-amzn2-aarch64 2.4.97",
+"pkgconfig-amzn2-aarch64 0.27.1"
+],
+"license":"MIT",
+"name":"libdrm-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"958fd60c745a57bfba0ee8a9bafb0749553621415f25b6875e496c1b84afa257",
+"size":133950,
+"timestamp":1620063753643,
 "version":"2.4.97"
 },
 "libdrm-devel-cos6-i686-2.4.65-h4d78ed0_0.tar.bz2":{
@@ -2100,6 +3553,34 @@
 "timestamp":1505735620280,
 "version":"2.4.65"
 },
+"libffi-amzn2-aarch64-3.0.13-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"MIT and Public Domain",
+"name":"libffi-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"6a7e4baa73c5e5a8c6ba365e220a9e0e7617aee1eb4075d38344af07fac0f7b2",
+"size":27268,
+"timestamp":1620060666966,
+"version":"3.0.13"
+},
+"libgcc-amzn2-aarch64-7.3.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD",
+"name":"libgcc-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"4ea54847873de1817ee7615850a32c7e4963456fc457781c1b472e374e517ac5",
+"size":68155,
+"timestamp":1620060566927,
+"version":"7.3.1"
+},
 "libgcj-cos6-x86_64-4.4.7-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -2116,6 +3597,21 @@
 "size":42503132,
 "timestamp":1622813447508,
 "version":"4.4.7"
+},
+"libgcrypt-amzn2-aarch64-1.5.3-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libgpg-error-amzn2-aarch64 1.12"
+],
+"license":"LGPL (>= 2)",
+"name":"libgcrypt-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"9cfbe4fc49556082fa8d83724dde172d87407eb90d71f615fe79b89198baabf7",
+"size":331863,
+"timestamp":1620060810142,
+"version":"1.5.3"
 },
 "libgcrypt-cos6-x86_64-1.4.5-4.tar.bz2":{
 "build":"4",
@@ -2140,6 +3636,142 @@
 "size":314636,
 "timestamp":1610796606895,
 "version":"1.5.3"
+},
+"libglvnd-amzn2-aarch64-1.0.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"MIT",
+"name":"libglvnd-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"b0f1553ca5229c821d929d7521c76c6fbab9bc587aeddfbe128f30cb778cc112",
+"size":113488,
+"timestamp":1620061231585,
+"version":"1.0.1"
+},
+"libglvnd-core-devel-amzn2-aarch64-1.0.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[],
+"license":"MIT",
+"name":"libglvnd-core-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"cf7898c7d68c16872876060b535b09309a9c8ee8765f8e3409ecdbe94fc5c3c5",
+"size":11498,
+"timestamp":1620063787944,
+"version":"1.0.1"
+},
+"libglvnd-devel-amzn2-aarch64-1.0.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"libglvnd-amzn2-aarch64 1.0.1",
+"libglvnd-core-devel-amzn2-aarch64 1.0.1",
+"libglvnd-egl-amzn2-aarch64 1.0.1",
+"libglvnd-gles-amzn2-aarch64 1.0.1",
+"libglvnd-glx-amzn2-aarch64 1.0.1",
+"libglvnd-opengl-amzn2-aarch64 1.0.1"
+],
+"license":"MIT",
+"name":"libglvnd-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"dfbec05dce2dd42cfb548f54beeef8d20ab6ab48ba4fe77cf306834258cec6d2",
+"size":3540,
+"timestamp":1620063864843,
+"version":"1.0.1"
+},
+"libglvnd-egl-amzn2-aarch64-1.0.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libglvnd-amzn2-aarch64 1.0.1"
+],
+"license":"MIT",
+"name":"libglvnd-egl-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"0c245cdb63c638874b323a563f71ac71b45d17cbfce3b07a252764fd953284cc",
+"size":43529,
+"timestamp":1620061237761,
+"version":"1.0.1"
+},
+"libglvnd-gles-amzn2-aarch64-1.0.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libglvnd-amzn2-aarch64 1.0.1",
+"mesa-libegl-amzn2-aarch64 >=18.3.4"
+],
+"license":"MIT",
+"name":"libglvnd-gles-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"85eeaf9108451f0b8841ed194a874604373569389e465bb8ffc27e4e900435bf",
+"size":34500,
+"timestamp":1620063847411,
+"version":"1.0.1"
+},
+"libglvnd-glx-amzn2-aarch64-1.0.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libglvnd-amzn2-aarch64 1.0.1",
+"libx11-amzn2-aarch64 1.6.7",
+"libxext-amzn2-aarch64 1.3.3"
+],
+"license":"MIT",
+"name":"libglvnd-glx-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"5cd2555c5ca22bb7c93d05d354eecd251954073aeba1d4a439f6ec1a3c88ead2",
+"size":165156,
+"timestamp":1620061269356,
+"version":"1.0.1"
+},
+"libglvnd-opengl-amzn2-aarch64-1.0.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libglvnd-amzn2-aarch64 1.0.1"
+],
+"license":"MIT",
+"name":"libglvnd-opengl-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"73dea08fc98bc8b91af77bbfda3b8f6347f8f87e6f68be62aa246ae19765dfed",
+"size":48807,
+"timestamp":1620063853465,
+"version":"1.0.1"
+},
+"libgomp-amzn2-aarch64-7.3.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD",
+"name":"libgomp-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"97f23ce3b491b160e656c2325e093b7ad48ac66445e01edcb534a4a7034e21eb",
+"size":196452,
+"timestamp":1620061994475,
+"version":"7.3.1"
+},
+"libgpg-error-amzn2-aarch64-1.12-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"LGPL (>= 2)",
+"name":"libgpg-error-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"270b423ea92cd3d32e0a8b6f9885dcfdfe3daee17e394f26bf7c3ddaf78283b7",
+"size":92426,
+"timestamp":1620060805072,
+"version":"1.12"
 },
 "libgpg-error-cos6-x86_64-1.7-4.tar.bz2":{
 "build":"4",
@@ -2247,6 +3879,20 @@
 "timestamp":1622813545579,
 "version":"0.8.13"
 },
+"libjpeg-turbo-amzn2-aarch64-1.2.90-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"IJG",
+"name":"libjpeg-turbo-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"8d52507800888ed294f90eca31903e5a9b0914669edf5451f3e713ca98b4ddd3",
+"size":137895,
+"timestamp":1620061140884,
+"version":"1.2.90"
+},
 "libjpeg-turbo-cos6-x86_64-1.2.1-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -2258,6 +3904,55 @@
 "size":251297,
 "timestamp":1622813554923,
 "version":"1.2.1"
+},
+"libkadm5-amzn2-aarch64-1.15.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"keyutils-libs-amzn2-aarch64 1.5.8",
+"krb5-libs-amzn2-aarch64 1.15.1",
+"libcom_err-amzn2-aarch64 1.42.9"
+],
+"license":"MIT",
+"name":"libkadm5-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"73ebb7df7a49dc7699788af6cb0ac70716d7d7f1c872d64ed7ca913e000437bb",
+"size":85577,
+"timestamp":1620062416931,
+"version":"1.15.1"
+},
+"libmount-amzn2-aarch64-2.30.2-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libblkid-amzn2-aarch64 2.30.2",
+"libselinux-amzn2-aarch64 2.5",
+"libuuid-amzn2-aarch64 2.30.2"
+],
+"license":"LGPL (>= 2)",
+"name":"libmount-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"bbf3abfe7fc87375a77c953cc7aa557f24eaff0974daab810a296a0f6a55c470",
+"size":173887,
+"timestamp":1620060709340,
+"version":"2.30.2"
+},
+"libpng-amzn2-aarch64-1.5.13-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"zlib-amzn2-aarch64 1.2.7"
+],
+"license":"zlib",
+"name":"libpng-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"fdb7c1d3b0710eb3123dd54afd357de43ec4f86772d9b0e9e67c109f9f6bc586",
+"size":200916,
+"timestamp":1620061107799,
+"version":"1.5.13"
 },
 "libpng-cos6-x86_64-1.2.49-4.tar.bz2":{
 "build":"4",
@@ -2325,6 +4020,38 @@
 "timestamp":1610796622626,
 "version":"1.5.13"
 },
+"libpwquality-amzn2-aarch64-1.2.3-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"cracklib-amzn2-aarch64 2.9.0",
+"cracklib-dicts-amzn2-aarch64 >=2.8",
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"BSD or GPLv2+",
+"name":"libpwquality-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"ad0c7894209cb936f9f1f352dd1ea53a76ddd226f7ffa01ab634ff174814804e",
+"size":83295,
+"timestamp":1620060871610,
+"version":"1.2.3"
+},
+"libselinux-amzn2-aarch64-2.5-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"libsepol-amzn2-aarch64 2.5",
+"libsepol-amzn2-aarch64 >=2.5",
+"pcre-amzn2-aarch64 8.32"
+],
+"license":"Public-Domain",
+"name":"libselinux-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"83a380fb1782f1a42c4b04c3cb18a7adc5196462c440d725e7f4e413d9290a40",
+"size":102284,
+"timestamp":1620060602086,
+"version":"2.5"
+},
 "libselinux-cos6-x86_64-2.0.94-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -2349,6 +4076,21 @@
 "sha256":"6db4a3f27d162144f1fb5d8ac3db0fe8d2b715697e911917e849004932783dec",
 "size":102853,
 "timestamp":1610796633232,
+"version":"2.5"
+},
+"libselinux-devel-amzn2-aarch64-2.5-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"libselinux-amzn2-aarch64 2.5",
+"libsepol-devel-amzn2-aarch64 >=2.5"
+],
+"license":"Public-Domain",
+"name":"libselinux-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"9d84c9a02d9093c6e5f96504e6e29f47612444b959d96a89cec00561d103652f",
+"size":88039,
+"timestamp":1620062408644,
 "version":"2.5"
 },
 "libselinux-devel-cos6-i686-2.0.94-hd34d2ed_0.tar.bz2":{
@@ -2422,6 +4164,39 @@
 "timestamp":1610796640958,
 "version":"2.5"
 },
+"libsemanage-amzn2-aarch64-2.5-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"audit-libs-amzn2-aarch64 2.8.1",
+"bzip2-libs-amzn2-aarch64 1.0.6",
+"glibc-amzn2-aarch64 2.26",
+"libselinux-amzn2-aarch64 2.5",
+"libselinux-amzn2-aarch64 >=2.5",
+"libsepol-amzn2-aarch64 2.5",
+"libsepol-amzn2-aarch64 >=2.5",
+"ustr-amzn2-aarch64 1.0.4"
+],
+"license":"LGPL (>= 2)",
+"name":"libsemanage-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"d2b902209eb07579cac652d53fff8c7dbd982175f88adbf2bcbf523c272a2c58",
+"size":123204,
+"timestamp":1620061523459,
+"version":"2.5"
+},
+"libsepol-amzn2-aarch64-2.5-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[],
+"license":"LGPL (>= 2)",
+"name":"libsepol-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"0fcbbb3e6e014500cb4d6133b2c7591871588a3b48e78063ebaccda3f7f878f3",
+"size":294296,
+"timestamp":1620060596072,
+"version":"2.5"
+},
 "libsepol-cos6-x86_64-2.0.41-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -2433,6 +4208,20 @@
 "size":126223,
 "timestamp":1622813620897,
 "version":"2.0.41"
+},
+"libsepol-devel-amzn2-aarch64-2.5-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"libsepol-amzn2-aarch64 2.5"
+],
+"license":"LGPL (>= 2)",
+"name":"libsepol-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"683baab65442b684b3034dfe1ca2709c0bb493ae5a48f06791ed94254ff40199",
+"size":32049,
+"timestamp":1620062402760,
+"version":"2.5"
 },
 "libsepol-devel-cos6-i686-2.0.41-h05f28b5_0.tar.bz2":{
 "build":"h05f28b5_0",
@@ -2488,6 +4277,22 @@
 "size":34010,
 "timestamp":1530612720254,
 "version":"2.5"
+},
+"libsigcxx20-amzn2-aarch64-2.10.0-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libgcc-amzn2-aarch64 7.3.1",
+"libstdcxx-amzn2-aarch64 7.3.1"
+],
+"license":"LGPL (>= 2)",
+"name":"libsigcxx20-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"5ab43c68730b2ce36a45b76db6708158ca26f6df379936961f1060de682e3cdc",
+"size":30530,
+"timestamp":1620062205042,
+"version":"2.10.0"
 },
 "libsm-cos6-x86_64-1.2.1-4.tar.bz2":{
 "build":"4",
@@ -2640,6 +4445,36 @@
 "timestamp":1610796709056,
 "version":"2.62.2"
 },
+"libstdcxx-amzn2-aarch64-7.3.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"glibc-amzn2-aarch64 >=2.10.90",
+"libgcc-amzn2-aarch64 7.3.1"
+],
+"license":"GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD",
+"name":"libstdcxx-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"85efff09b353380ca3ae8e4148aa218b0b1b52ac25c28a1d5d7e37b9dfe04c54",
+"size":558497,
+"timestamp":1620060572243,
+"version":"7.3.1"
+},
+"libtasn1-amzn2-aarch64-4.10-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"GPLv3+ and LGPLv2+",
+"name":"libtasn1-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"cc24534d9452e9275a0cd934842d43117a61251bc4126f4fe6e73dc74d4bc835",
+"size":336915,
+"timestamp":1620061404692,
+"version":"4.10"
+},
 "libtasn1-cos6-x86_64-2.3-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -2664,6 +4499,20 @@
 "timestamp":1610795846311,
 "version":"4.10"
 },
+"libthai-amzn2-aarch64-0.1.14-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"LGPL (>= 2)",
+"name":"libthai-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"5faec9e67006edf7d0efd3c95d1f96a79382e73b9d0fa1bd4ff51d5151e31f25",
+"size":221821,
+"timestamp":1620061316376,
+"version":"0.1.14"
+},
 "libthai-cos6-x86_64-0.1.12-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -2675,6 +4524,25 @@
 "size":298968,
 "timestamp":1622813713357,
 "version":"0.1.12"
+},
+"libtiff-amzn2-aarch64-4.0.3-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"jbigkit-libs-amzn2-aarch64 2.0",
+"libgcc-amzn2-aarch64 7.3.1",
+"libjpeg-turbo-amzn2-aarch64 1.2.90",
+"libstdcxx-amzn2-aarch64 7.3.1",
+"zlib-amzn2-aarch64 1.2.7"
+],
+"license":"libtiff",
+"name":"libtiff-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"99ed541c681bfd2b41cfd2ca21cd8a156910638e31ad8078fa3cceab4df6c924",
+"size":189993,
+"timestamp":1620061151801,
+"version":"4.0.3"
 },
 "libtiff-cos7-s390x-4.0.3-2.tar.bz2":{
 "build":"2",
@@ -2699,6 +4567,35 @@
 "size":40264,
 "timestamp":1622813722370,
 "version":"147"
+},
+"libunistring-amzn2-aarch64-0.9.3-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"info-amzn2-aarch64 5.1"
+],
+"license":"LGPLv3+",
+"name":"libunistring-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"f1be74aef1603d1417ce262d62e9d4eb71caf18f8cdeca1b8dd51fae46f89f68",
+"size":429600,
+"timestamp":1620061987945,
+"version":"0.9.3"
+},
+"libuuid-amzn2-aarch64-2.30.2-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"BSD",
+"name":"libuuid-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"86ec409ce66baadacf0b63bbf94a560b26c89f527afda0a8118719323add9ece",
+"size":13433,
+"timestamp":1620060694876,
+"version":"2.30.2"
 },
 "libuuid-cos6-x86_64-2.17.2-4.tar.bz2":{
 "build":"4",
@@ -2790,6 +4687,65 @@
 "size":22369,
 "timestamp":1610796740670,
 "version":"2.23.2"
+},
+"libverto-amzn2-aarch64-0.2.5-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"MIT",
+"name":"libverto-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"74b6dd8bae36e38cfd082600aba1db8119be0ef64c851e45ff2ecb540debae7f",
+"size":14690,
+"timestamp":1620061379543,
+"version":"0.2.5"
+},
+"libverto-devel-amzn2-aarch64-0.2.5-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"libverto-amzn2-aarch64 0.2.5",
+"pkgconfig-amzn2-aarch64 0.27.1"
+],
+"license":"MIT",
+"name":"libverto-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"79a336da1de46290a9618402a8537cdcc9fe7af72e51eaad63f6fbcab817892d",
+"size":8895,
+"timestamp":1620062386647,
+"version":"0.2.5"
+},
+"libwayland-client-amzn2-aarch64-1.17.0-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libffi-amzn2-aarch64 3.0.13"
+],
+"license":"MIT",
+"name":"libwayland-client-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"bffe6f3895a707215d9e9d887f3b8bcf1ddda6515075756a2d18b69f6573361d",
+"size":30040,
+"timestamp":1620063794161,
+"version":"1.17.0"
+},
+"libwayland-server-amzn2-aarch64-1.17.0-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libffi-amzn2-aarch64 3.0.13"
+],
+"license":"MIT",
+"name":"libwayland-server-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"810db57ab03b27445c42204bbeda5d4ae976b98050e577f8c3ede300a25cb4d8",
+"size":37796,
+"timestamp":1620063805072,
+"version":"1.17.0"
 },
 "libx11-amzn2-aarch64-1.6.7-5.tar.bz2":{
 "build":"5",
@@ -2993,6 +4949,22 @@
 "timestamp":1610796782407,
 "version":"1.0.8"
 },
+"libxau-devel-amzn2-aarch64-1.0.8-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"libxau-amzn2-aarch64 1.0.8",
+"pkgconfig-amzn2-aarch64 0.27.1",
+"xorg-x11-proto-devel-amzn2-aarch64 2018.4"
+],
+"license":"MIT",
+"name":"libxau-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"ad030d38aecef23c5de9f911993a4f323585ce2d6ea04764340a9600b75daa1f",
+"size":7841,
+"timestamp":1620064168169,
+"version":"1.0.8"
+},
 "libxau-devel-cos6-i686-1.0.6-hf48d1d1_0.tar.bz2":{
 "build":"hf48d1d1_0",
 "build_number":0,
@@ -3102,6 +5074,21 @@
 "timestamp":1610796803290,
 "version":"1.13"
 },
+"libxcomposite-amzn2-aarch64-0.4.4-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libx11-amzn2-aarch64 1.6.7"
+],
+"license":"MIT",
+"name":"libxcomposite-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"98d686dee4d2cbd1f24f48257779cf809568139a985cf262c4b5775a6527202d",
+"size":16761,
+"timestamp":1620061311164,
+"version":"0.4.4"
+},
 "libxcomposite-cos6-x86_64-0.4.3-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -3124,6 +5111,20 @@
 "sha256":"1a052c263620f9560711a46c0569bedc41619f374be92e0ea2fa380cca2eedc5",
 "size":18361,
 "timestamp":1610796813393,
+"version":"0.4.4"
+},
+"libxcomposite-devel-amzn2-aarch64-0.4.4-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"libxcomposite-amzn2-aarch64 0.4.4"
+],
+"license":"MIT",
+"name":"libxcomposite-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"33ef672dc63837facb0f40d5c75cbcf9c689367473520f866b1796285bd111d0",
+"size":9269,
+"timestamp":1620061974828,
 "version":"0.4.4"
 },
 "libxcomposite-devel-cos6-i686-0.4.3-h31b1c3c_0.tar.bz2":{
@@ -3182,6 +5183,24 @@
 "timestamp":1610796828292,
 "version":"0.4.4"
 },
+"libxcursor-amzn2-aarch64-1.1.15-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libx11-amzn2-aarch64 1.6.7",
+"libx11-amzn2-aarch64 >=1.5.99.902",
+"libxfixes-amzn2-aarch64 5.0.3",
+"libxrender-amzn2-aarch64 0.9.10"
+],
+"license":"MIT",
+"name":"libxcursor-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"06c1d4c3010509d7dd3d451edc72ce52f1043470d1c234cdee94df8dc1e87f92",
+"size":26057,
+"timestamp":1620061464923,
+"version":"1.1.15"
+},
 "libxcursor-cos6-x86_64-1.1.14-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -3208,6 +5227,20 @@
 "sha256":"d958b77ad7d7942b642f719e58b3c5c358abd43fe1742365dadada25d7cd4168",
 "size":27736,
 "timestamp":1610796841255,
+"version":"1.1.15"
+},
+"libxcursor-devel-amzn2-aarch64-1.1.15-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"libxcursor-amzn2-aarch64 1.1.15"
+],
+"license":"MIT",
+"name":"libxcursor-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"67b4066ff6a0a3f50ab5c8cd07bc8296e0e5a6bf0ffdf78e722db227607665cc",
+"size":12438,
+"timestamp":1620062068149,
 "version":"1.1.15"
 },
 "libxcursor-devel-cos6-i686-1.1.14-he278a58_0.tar.bz2":{
@@ -3266,6 +5299,22 @@
 "timestamp":1610796857479,
 "version":"1.1.15"
 },
+"libxdamage-amzn2-aarch64-1.1.4-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libx11-amzn2-aarch64 1.6.7",
+"libxfixes-amzn2-aarch64 5.0.3"
+],
+"license":"MIT",
+"name":"libxdamage-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"82290dc5113df1b6167c3dea4c321612b23f7ab6fdd08871331a15efbc9c35de",
+"size":15556,
+"timestamp":1620061292809,
+"version":"1.1.4"
+},
 "libxdamage-cos6-x86_64-1.1.3-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -3288,6 +5337,20 @@
 "sha256":"0448ff1aaa8abdb1d51c5c2c54afb5eac0dc03f239299a782e635026be86cc52",
 "size":17018,
 "timestamp":1610796866370,
+"version":"1.1.4"
+},
+"libxdamage-devel-amzn2-aarch64-1.1.4-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"libxdamage-amzn2-aarch64 1.1.4"
+],
+"license":"MIT",
+"name":"libxdamage-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"a0f49f7e0c05402fda8e1c15a4cd4fc5716ac5767389d7231a202e85d656ae2c",
+"size":3714,
+"timestamp":1620064197117,
 "version":"1.1.4"
 },
 "libxdamage-devel-cos6-i686-1.1.3-0.tar.bz2":{
@@ -3359,6 +5422,22 @@
 "timestamp":1610796883979,
 "version":"1.1.4"
 },
+"libxext-amzn2-aarch64-1.3.3-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libx11-amzn2-aarch64 1.6.7",
+"libx11-amzn2-aarch64 >=1.5.99.902"
+],
+"license":"MIT",
+"name":"libxext-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"a379476334780ba2c3f1913c253c4c374fd1d3a683c168aa1558df1245ceaef6",
+"size":38128,
+"timestamp":1620061211809,
+"version":"1.3.3"
+},
 "libxext-cos6-x86_64-1.3.3-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -3385,6 +5464,20 @@
 "sha256":"f21f242022832ea964e880764358f7442ed3894d0912cb925b6e99c7ed4f2601",
 "size":37907,
 "timestamp":1610796900010,
+"version":"1.3.3"
+},
+"libxext-devel-amzn2-aarch64-1.3.3-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"libxext-amzn2-aarch64 1.3.3"
+],
+"license":"MIT",
+"name":"libxext-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"b9c43d4db86c4eee491817587b7c2f329e0dcd11251a865ecdc5dba617eda25d",
+"size":64142,
+"timestamp":1620062096729,
 "version":"1.3.3"
 },
 "libxext-devel-cos6-i686-1.3.3-h77efb3c_0.tar.bz2":{
@@ -3457,6 +5550,22 @@
 "timestamp":1610796917319,
 "version":"1.3.3"
 },
+"libxfixes-amzn2-aarch64-5.0.3-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libx11-amzn2-aarch64 1.6.7",
+"libx11-amzn2-aarch64 >=1.6"
+],
+"license":"MIT",
+"name":"libxfixes-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"4ba663cf0f79a0b231e799588e54ae438a2cec4d1427c9c9e13d1f073602c1ff",
+"size":14506,
+"timestamp":1620061287661,
+"version":"5.0.3"
+},
 "libxfixes-cos6-x86_64-5.0.3-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -3483,6 +5592,21 @@
 "sha256":"2250bf5caac1ab6008e3ed58910ea3a3d28ad65ff9f4ad58e97d794e001af028",
 "size":15261,
 "timestamp":1610796930170,
+"version":"5.0.3"
+},
+"libxfixes-devel-amzn2-aarch64-5.0.3-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"libxfixes-amzn2-aarch64 5.0.3",
+"pkgconfig-amzn2-aarch64 0.27.1"
+],
+"license":"MIT",
+"name":"libxfixes-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"894e7597ae3bc2b131cc27b9763abb59f239657708d3cbcc69f769291cdf4fc8",
+"size":7516,
+"timestamp":1620061956967,
 "version":"5.0.3"
 },
 "libxfixes-devel-cos6-i686-5.0.3-0.tar.bz2":{
@@ -3554,6 +5678,42 @@
 "timestamp":1610796948872,
 "version":"5.0.3"
 },
+"libxft-amzn2-aarch64-2.3.2-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"fontconfig-amzn2-aarch64 2.13.0",
+"fontconfig-amzn2-aarch64 >=2.2",
+"freetype-amzn2-aarch64 2.8",
+"glibc-amzn2-aarch64 2.26",
+"libx11-amzn2-aarch64 1.6.7",
+"libxrender-amzn2-aarch64 0.9.10"
+],
+"license":"MIT",
+"name":"libxft-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"a8a9265453f13a037d075828e3c5e4e60ff5ed97a2ba988241e368527624eb7f",
+"size":60826,
+"timestamp":1620061323392,
+"version":"2.3.2"
+},
+"libxi-amzn2-aarch64-1.7.9-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libx11-amzn2-aarch64 1.6.7",
+"libx11-amzn2-aarch64 >=1.5.99.902",
+"libxext-amzn2-aarch64 1.3.3"
+],
+"license":"MIT",
+"name":"libxi-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"7e03facbfdf50fc4cc4501de82efe63ebb7c4522fff47d2ff495907bf61ba791",
+"size":35422,
+"timestamp":1620061306270,
+"version":"1.7.9"
+},
 "libxi-cos6-x86_64-1.7.8-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -3580,6 +5740,22 @@
 "sha256":"3f534ed5c95e3533bca8c259ff073f8d44207b24b77fa198d7834fd840c8c8fd",
 "size":35862,
 "timestamp":1610796964917,
+"version":"1.7.9"
+},
+"libxi-devel-amzn2-aarch64-1.7.9-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"libxi-amzn2-aarch64 1.7.9",
+"pkgconfig-amzn2-aarch64 0.27.1",
+"xorg-x11-proto-devel-amzn2-aarch64 2018.4"
+],
+"license":"MIT",
+"name":"libxi-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"4906b92c7d65e5aff4720754a382cdb750040249ec61568b507f190ea67be0bc",
+"size":92844,
+"timestamp":1620061969481,
 "version":"1.7.9"
 },
 "libxi-devel-cos6-i686-1.7.8-hdd8218a_0.tar.bz2":{
@@ -3651,6 +5827,23 @@
 "timestamp":1610796983063,
 "version":"1.7.9"
 },
+"libxinerama-amzn2-aarch64-1.1.3-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libx11-amzn2-aarch64 1.6.7",
+"libx11-amzn2-aarch64 >=1.5.99.902",
+"libxext-amzn2-aarch64 1.3.3"
+],
+"license":"MIT",
+"name":"libxinerama-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"cc98bd1620a83b580a7515ae847db84f254d9af2d3d4bdbc149ddabb030ad6bd",
+"size":8817,
+"timestamp":1620061217039,
+"version":"1.1.3"
+},
 "libxinerama-cos6-x86_64-1.1.3-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -3663,6 +5856,20 @@
 "sha256":"4535b90f38ac986ac61af83ab7ec7b8b9d6ae7cd3428ba99a60683cce6f0f72d",
 "size":8946,
 "timestamp":1622814073759,
+"version":"1.1.3"
+},
+"libxinerama-devel-amzn2-aarch64-1.1.3-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"libxinerama-amzn2-aarch64 1.1.3"
+],
+"license":"MIT",
+"name":"libxinerama-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"ace3c3fb4b3570f81ab0fd45cff521fbe0865b197c004dbe0fb769b41dbfa517",
+"size":7464,
+"timestamp":1620062082349,
 "version":"1.1.3"
 },
 "libxinerama-devel-cos6-i686-1.1.3-0.tar.bz2":{
@@ -3707,6 +5914,22 @@
 "timestamp":1622814088966,
 "version":"1.1.3"
 },
+"libxml2-amzn2-aarch64-2.9.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"xz-libs-amzn2-aarch64 5.2.2",
+"zlib-amzn2-aarch64 1.2.7"
+],
+"license":"MIT",
+"name":"libxml2-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"a4deeab97b26b14f3400a92d84647f31a1ecc90db1403dc56b2d444972d462d9",
+"size":746185,
+"timestamp":1620060681386,
+"version":"2.9.1"
+},
 "libxml2-cos6-x86_64-2.7.6-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -3732,6 +5955,24 @@
 "size":1416597,
 "timestamp":1622814114025,
 "version":"2.7.6"
+},
+"libxrandr-amzn2-aarch64-1.5.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libx11-amzn2-aarch64 1.6.7",
+"libx11-amzn2-aarch64 >=1.6.0",
+"libxext-amzn2-aarch64 1.3.3",
+"libxrender-amzn2-aarch64 0.9.10"
+],
+"license":"MIT",
+"name":"libxrandr-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"f606b6ab5d182c0c3eaef7ef8387f3bb63a0260621b1683ff0a968c55f57e0a8",
+"size":23742,
+"timestamp":1620061358707,
+"version":"1.5.1"
 },
 "libxrandr-cos6-x86_64-1.5.1-4.tar.bz2":{
 "build":"4",
@@ -3759,6 +6000,20 @@
 "sha256":"ef05d18a3b6450b596bd91448dc04a43b482daeb7400835d2cb026db39505d7f",
 "size":24277,
 "timestamp":1610796028740,
+"version":"1.5.1"
+},
+"libxrandr-devel-amzn2-aarch64-1.5.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"libxrandr-amzn2-aarch64 1.5.1"
+],
+"license":"MIT",
+"name":"libxrandr-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"2cd0c255a0dabca34de2ec8fb875560e127dc3d8963425d010a2f5218fef684d",
+"size":12938,
+"timestamp":1620062102149,
 "version":"1.5.1"
 },
 "libxrandr-devel-cos6-i686-1.5.1-hede7057_0.tar.bz2":{
@@ -3830,6 +6085,22 @@
 "timestamp":1610797000476,
 "version":"1.5.1"
 },
+"libxrender-amzn2-aarch64-0.9.10-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libx11-amzn2-aarch64 1.6.7",
+"libx11-amzn2-aarch64 >=1.5.99.902"
+],
+"license":"MIT",
+"name":"libxrender-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"479a8f69c52f1fe52cf4c0c8778c909355b03e6f5de313b93835db3bcbcc6255",
+"size":23745,
+"timestamp":1620061222207,
+"version":"0.9.10"
+},
 "libxrender-cos6-x86_64-0.9.10-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -3856,6 +6127,20 @@
 "sha256":"aa19c715611cb0f5fefaf63f9aa140f62c493557c17a1f4992a83cd8ddb23637",
 "size":24550,
 "timestamp":1610797013808,
+"version":"0.9.10"
+},
+"libxrender-devel-amzn2-aarch64-0.9.10-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"libxrender-amzn2-aarch64 0.9.10"
+],
+"license":"MIT",
+"name":"libxrender-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"a85ede773dd903a4484c625fdce966d58423baed9dcf10ce1ead4dd9ff7bed62",
+"size":9900,
+"timestamp":1621627635193,
 "version":"0.9.10"
 },
 "libxrender-devel-cos6-i686-0.9.10-h642fc16_0.tar.bz2":{
@@ -3928,6 +6213,22 @@
 "timestamp":1610797031868,
 "version":"0.9.10"
 },
+"libxscrnsaver-amzn2-aarch64-1.2.2-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libx11-amzn2-aarch64 1.6.7",
+"libxext-amzn2-aarch64 1.3.3"
+],
+"license":"MIT",
+"name":"libxscrnsaver-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"4cb48e48d2f7467dd749ee219989885b53ff974d4656e1cc094a8c30c78ca901",
+"size":18733,
+"timestamp":1624298828312,
+"version":"1.2.2"
+},
 "libxscrnsaver-cos6-x86_64-1.2.2-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -3950,6 +6251,20 @@
 "sha256":"373b762306a190ac1f5d1d2b656e95b60e7b499c7fd5fe3221e363a09c5a478b",
 "size":19462,
 "timestamp":1610797043116,
+"version":"1.2.2"
+},
+"libxscrnsaver-devel-amzn2-aarch64-1.2.2-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"libxscrnsaver-amzn2-aarch64 1.2.2"
+],
+"license":"MIT",
+"name":"libxscrnsaver-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"24db73580ffc51bb64d2e671026451401c4ddfeae9dc256b0f8f0f78b7e1ad83",
+"size":12108,
+"timestamp":1624298847524,
 "version":"1.2.2"
 },
 "libxscrnsaver-devel-cos6-i686-1.2.2-h7f5c4e6_0.tar.bz2":{
@@ -4008,6 +6323,20 @@
 "timestamp":1610797058243,
 "version":"1.2.2"
 },
+"libxshmfence-amzn2-aarch64-1.2-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"MIT",
+"name":"libxshmfence-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"1ea1ecb9107e32ad7dbac7900c66ded40fed4fa2484d813787bf200ca93a9757",
+"size":6128,
+"timestamp":1620063799732,
+"version":"1.2"
+},
 "libxt-cos6-x86_64-1.1.4-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -4064,6 +6393,24 @@
 "timestamp":1505853629497,
 "version":"1.1.4"
 },
+"libxtst-amzn2-aarch64-1.2.3-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libx11-amzn2-aarch64 1.6.7",
+"libx11-amzn2-aarch64 >=1.5.99.902",
+"libxext-amzn2-aarch64 1.3.3",
+"libxi-amzn2-aarch64 1.7.9"
+],
+"license":"MIT",
+"name":"libxtst-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"304d319202d3fb56c8e5a5e291253007ead3355049d841656da8dde8690d08fd",
+"size":16797,
+"timestamp":1620061581460,
+"version":"1.2.3"
+},
 "libxtst-cos6-x86_64-1.2.3-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -4076,6 +6423,21 @@
 "sha256":"73d833aa23adcea99b3fc85960b40b76f9101b524494a7ed23544a84abc0be12",
 "size":16995,
 "timestamp":1622814253027,
+"version":"1.2.3"
+},
+"libxtst-devel-amzn2-aarch64-1.2.3-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"libxi-devel-amzn2-aarch64 1.7.9",
+"libxtst-amzn2-aarch64 1.2.3"
+],
+"license":"MIT",
+"name":"libxtst-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"a49425876a3cd1f43fa9695093505937712b3cf57fceaafa835baf3a4f40dfb6",
+"size":10708,
+"timestamp":1624299637507,
 "version":"1.2.3"
 },
 "libxtst-devel-cos6-i686-1.2.3-ha2b6ed8_0.tar.bz2":{
@@ -4132,6 +6494,23 @@
 "timestamp":1610797066120,
 "version":"1.2.3"
 },
+"libxxf86vm-amzn2-aarch64-1.1.4-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libx11-amzn2-aarch64 1.6.7",
+"libx11-amzn2-aarch64 >=1.5.99.902",
+"libxext-amzn2-aarch64 1.3.3"
+],
+"license":"MIT",
+"name":"libxxf86vm-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"031b9d46372feda0a4a086e5bce2a39203a80f3cd5302a150de8fef8187aabcf",
+"size":13337,
+"timestamp":1621627494296,
+"version":"1.1.4"
+},
 "libxxf86vm-cos6-x86_64-1.1.3-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -4158,6 +6537,20 @@
 "sha256":"fcda9fcd469dbdead00605799742603ef9e2fb2406d9ee55b0718867221b25ff",
 "size":14334,
 "timestamp":1610797079420,
+"version":"1.1.4"
+},
+"libxxf86vm-devel-amzn2-aarch64-1.1.4-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"libxxf86vm-amzn2-aarch64 1.1.4"
+],
+"license":"MIT",
+"name":"libxxf86vm-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"98e1d9657683e725c55c9eb4700e98e1efee0ec3db1eb94b1c08e50db0057566",
+"size":11140,
+"timestamp":1624299786074,
 "version":"1.1.4"
 },
 "libxxf86vm-devel-cos6-i686-1.1.3-0.tar.bz2":{
@@ -4230,6 +6623,37 @@
 "timestamp":1621536973837,
 "version":"10.0.1"
 },
+"llvm-private-amzn2-aarch64-6.0.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libgcc-amzn2-aarch64 7.3.1",
+"libstdcxx-amzn2-aarch64 7.3.1",
+"zlib-amzn2-aarch64 1.2.7"
+],
+"license":"NCSA",
+"name":"llvm-private-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"a772f0143c1535b6e70bfbb2481e08db2671e401c1d4e99da32b74590df50133",
+"size":26309825,
+"timestamp":1622146218411,
+"version":"6.0.1"
+},
+"lz4-amzn2-aarch64-1.7.5-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"GPLv2+ and BSD",
+"name":"lz4-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"311c4ac3e0ebe1311e6e6a21793006ca5c3c20556d91eb35fc525286215d4e40",
+"size":126304,
+"timestamp":1620060800261,
+"version":"1.7.5"
+},
 "macholib-1.14-pyhd3eb1b0_1.tar.bz2":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
@@ -4256,6 +6680,31 @@
 "size":83302,
 "timestamp":1622814309175,
 "version":"3.24"
+},
+"mesa-dri-drivers-amzn2-aarch64-18.3.4-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"elfutils-libelf-amzn2-aarch64 0.176",
+"expat-amzn2-aarch64 2.1.0",
+"glibc-amzn2-aarch64 2.26",
+"libdrm-amzn2-aarch64 2.4.97",
+"libdrm-amzn2-aarch64 >=2.4.83",
+"libgcc-amzn2-aarch64 7.3.1",
+"libselinux-amzn2-aarch64 2.5",
+"libstdcxx-amzn2-aarch64 7.3.1",
+"llvm-private-amzn2-aarch64 6.0.1",
+"mesa-filesystem-amzn2-aarch64 18.3.4",
+"mesa-libglapi-amzn2-aarch64 18.3.4",
+"zlib-amzn2-aarch64 1.2.7"
+],
+"license":"MIT",
+"name":"mesa-dri-drivers-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"af50a61eacdc537bd116af20fdabbb6330868cb240dbb9b757c3f61dca99a6a7",
+"size":45692665,
+"timestamp":1622146322099,
+"version":"18.3.4"
 },
 "mesa-dri-drivers-cos6-x86_64-11.0.7-4.tar.bz2":{
 "build":"4",
@@ -4297,6 +6746,56 @@
 "timestamp":1622814325868,
 "version":"7.11"
 },
+"mesa-filesystem-amzn2-aarch64-18.3.4-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[],
+"license":"MIT",
+"name":"mesa-filesystem-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"30e53038971acedb64c99d0fe0ca7c487587f8ffee98242a70254c4f0658bca9",
+"size":3609,
+"timestamp":1622146267168,
+"version":"18.3.4"
+},
+"mesa-khr-devel-amzn2-aarch64-18.3.4-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[],
+"license":"MIT",
+"name":"mesa-khr-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"9da2f2651466a8bfc1cf39e1d232b5fe5a989c19a07eb729decad9849f538d45",
+"size":5099,
+"timestamp":1621627482092,
+"version":"18.3.4"
+},
+"mesa-libegl-amzn2-aarch64-18.3.4-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"expat-amzn2-aarch64 2.1.0",
+"glibc-amzn2-aarch64 2.26",
+"libdrm-amzn2-aarch64 2.4.97",
+"libglvnd-egl-amzn2-aarch64 1.0.1",
+"libselinux-amzn2-aarch64 2.5",
+"libwayland-client-amzn2-aarch64 1.17.0",
+"libwayland-server-amzn2-aarch64 1.17.0",
+"libx11-amzn2-aarch64 1.6.7",
+"libxcb-amzn2-aarch64 1.12",
+"libxshmfence-amzn2-aarch64 1.2",
+"mesa-libgbm-amzn2-aarch64 18.3.4",
+"mesa-libglapi-amzn2-aarch64 18.3.4",
+"zlib-amzn2-aarch64 1.2.7"
+],
+"license":"MIT",
+"name":"mesa-libegl-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"861ee20fbc9fdfaf0eafef74d2891f82a9618ef7dbf47364c9f0f2f1d2844318",
+"size":117222,
+"timestamp":1620063835424,
+"version":"18.3.4"
+},
 "mesa-libegl-cos6-x86_64-11.0.7-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -4321,6 +6820,22 @@
 "sha256":"adc29f41cc2533a514a45a413d3d03bc770da281eb3fb6fcbedcff0c947928da",
 "size":111671,
 "timestamp":1610797203906,
+"version":"18.3.4"
+},
+"mesa-libegl-devel-amzn2-aarch64-18.3.4-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"libglvnd-devel-amzn2-aarch64 1.0.1",
+"mesa-khr-devel-amzn2-aarch64 18.3.4",
+"mesa-libegl-amzn2-aarch64 18.3.4"
+],
+"license":"MIT",
+"name":"mesa-libegl-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"3cd0bb1cec0d53c9a4a38180b36e0688a0b2a921e1854ea493ff4ed3a896f56f",
+"size":19287,
+"timestamp":1624299932460,
 "version":"18.3.4"
 },
 "mesa-libegl-devel-cos6-i686-11.0.7-h3384dae_0.tar.bz2":{
@@ -4379,6 +6894,26 @@
 "timestamp":1610797219248,
 "version":"18.3.4"
 },
+"mesa-libgbm-amzn2-aarch64-18.3.4-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"expat-amzn2-aarch64 2.1.0",
+"glibc-amzn2-aarch64 2.26",
+"libdrm-amzn2-aarch64 2.4.97",
+"libdrm-amzn2-aarch64 >=2.4.83",
+"libwayland-server-amzn2-aarch64 1.17.0",
+"mesa-libglapi-amzn2-aarch64 18.3.4",
+"zlib-amzn2-aarch64 1.2.7"
+],
+"license":"MIT",
+"name":"mesa-libgbm-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"6a0c2ec251f8ad111a84c2f68f42179641701328f20cdec2650d3598eab1950a",
+"size":31569,
+"timestamp":1620063822812,
+"version":"18.3.4"
+},
 "mesa-libgbm-cos6-x86_64-11.0.7-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -4404,6 +6939,34 @@
 "sha256":"981517867180d16f227a5e27a126ff7916800f0b298b1b25ea2d103d8d476cb8",
 "size":31679,
 "timestamp":1610797189207,
+"version":"18.3.4"
+},
+"mesa-libgl-amzn2-aarch64-18.3.4-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"expat-amzn2-aarch64 2.1.0",
+"glibc-amzn2-aarch64 2.26",
+"libdrm-amzn2-aarch64 2.4.97",
+"libdrm-amzn2-aarch64 >=2.4.83",
+"libglvnd-glx-amzn2-aarch64 >=1.0.1",
+"libselinux-amzn2-aarch64 2.5",
+"libx11-amzn2-aarch64 1.6.7",
+"libxcb-amzn2-aarch64 1.12",
+"libxdamage-amzn2-aarch64 1.1.4",
+"libxext-amzn2-aarch64 1.3.3",
+"libxfixes-amzn2-aarch64 5.0.3",
+"libxshmfence-amzn2-aarch64 1.2",
+"libxxf86vm-amzn2-aarch64 1.1.4",
+"mesa-libglapi-amzn2-aarch64 18.3.4",
+"zlib-amzn2-aarch64 1.2.7"
+],
+"license":"MIT",
+"name":"mesa-libgl-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"de23d2eba7db529acc08b507cb3ca467de8dd839bc65b85778c2166f559afa70",
+"size":213731,
+"timestamp":1621627529792,
 "version":"18.3.4"
 },
 "mesa-libgl-cos6-x86_64-11.0.7-4.tar.bz2":{
@@ -4434,6 +6997,24 @@
 "sha256":"cb00231e3006a6c0d96ccdce48d2d6065b5d240bb16deeb75777390855295629",
 "size":211520,
 "timestamp":1610797229248,
+"version":"18.3.4"
+},
+"mesa-libgl-devel-amzn2-aarch64-18.3.4-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"gl-manpages-amzn2-aarch64 1.1",
+"libglvnd-devel-amzn2-aarch64 1.0.1",
+"mesa-khr-devel-amzn2-aarch64 18.3.4",
+"mesa-libgl-amzn2-aarch64 18.3.4",
+"mesa-libglapi-amzn2-aarch64 18.3.4"
+],
+"license":"MIT",
+"name":"mesa-libgl-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"366fe34ae3739a826d0bedf5739b10045b9bffb6402ed68cde381ea5b51d4cc1",
+"size":163714,
+"timestamp":1621627550288,
 "version":"18.3.4"
 },
 "mesa-libgl-devel-cos6-i686-11.0.7-hec01f26_0.tar.bz2":{
@@ -4491,6 +7072,21 @@
 "timestamp":1530612619420,
 "version":"17.2.3"
 },
+"mesa-libglapi-amzn2-aarch64-18.3.4-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libselinux-amzn2-aarch64 2.5"
+],
+"license":"MIT",
+"name":"mesa-libglapi-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"731587f690585777dd882345b231e498a829f9f208f309edef60b3b9b4fcc753",
+"size":65294,
+"timestamp":1620063811212,
+"version":"18.3.4"
+},
 "mesa-libglapi-cos7-s390x-18.3.4-2.tar.bz2":{
 "build":"2",
 "build_number":2,
@@ -4502,6 +7098,64 @@
 "size":78459,
 "timestamp":1610797175730,
 "version":"18.3.4"
+},
+"ncurses-amzn2-aarch64-6.0-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"ncurses-libs-amzn2-aarch64 6.0"
+],
+"license":"MIT",
+"name":"ncurses-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"80e5737194077170ea2baa4980c533ae9d51e22c9a3a8d5bcbed6d9fabec57c4",
+"size":358473,
+"timestamp":1620060621185,
+"version":"6.0"
+},
+"ncurses-base-amzn2-aarch64-6.0-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[],
+"license":"MIT",
+"name":"ncurses-base-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"1b12bd940024afe71a7a26fc5567fad2eb4e3b2ceb442041c4f1268b07053829",
+"size":39884,
+"timestamp":1620060610145,
+"version":"6.0"
+},
+"ncurses-libs-amzn2-aarch64-6.0-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"ncurses-base-amzn2-aarch64 6.0"
+],
+"license":"MIT",
+"name":"ncurses-libs-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"25e979019f3c05ed82bff73f9b4560861e4194c33414695198a97602075c6f36",
+"size":358702,
+"timestamp":1620060615103,
+"version":"6.0"
+},
+"nettle-amzn2-aarch64-2.7.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"gmp-amzn2-aarch64 6.0.0",
+"info-amzn2-aarch64 5.1"
+],
+"license":"LGPL (>= 2)",
+"name":"nettle-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"1095472f83d947851b50de6054ed56c6b28d4820b4305cdd0b16dc448f7e76a1",
+"size":363469,
+"timestamp":1620063148500,
+"version":"2.7.1"
 },
 "nspr-cos7-s390x-4.21.0-2.tar.bz2":{
 "build":"2",
@@ -4574,6 +7228,41 @@
 "timestamp":1611935001737,
 "version":"3.44.0"
 },
+"openssl-devel-amzn2-aarch64-1.0.2k-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"krb5-devel-amzn2-aarch64 1.15.1",
+"openssl-libs-amzn2-aarch64 1.0.2k",
+"pkgconfig-amzn2-aarch64 0.27.1",
+"zlib-devel-amzn2-aarch64 1.2.7"
+],
+"license":"OpenSSL",
+"name":"openssl-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"c82ddf8c4d5b79bab11a0cc353f45733ca2c680774afa7ab758f64a0ef2a8766",
+"size":1394254,
+"timestamp":1620062441414,
+"version":"1.0.2k"
+},
+"openssl-libs-amzn2-aarch64-1.0.2k-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"ca-certificates-amzn2-aarch64 >=2008",
+"glibc-amzn2-aarch64 2.26",
+"krb5-libs-amzn2-aarch64 1.15.1",
+"libcom_err-amzn2-aarch64 1.42.9",
+"zlib-amzn2-aarch64 1.2.7"
+],
+"license":"OpenSSL",
+"name":"openssl-libs-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"d2b4fcc3092730b6073e9fd6f1bee8c8bc08c99f0246de2113d6779d8c65b353",
+"size":1189205,
+"timestamp":1620061426774,
+"version":"1.0.2k"
+},
 "orbit2-cos6-x86_64-2.14.17-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -4602,6 +7291,21 @@
 "timestamp":1622814650695,
 "version":"2.14.17"
 },
+"p11-kit-amzn2-aarch64-0.23.22-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libffi-amzn2-aarch64 3.0.13"
+],
+"license":"BSD",
+"name":"p11-kit-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"c96c9f674c158c355443f84c344de5290d7ce237c527e4d95101173b49934068",
+"size":404786,
+"timestamp":1620061398794,
+"version":"0.23.22"
+},
 "p11-kit-cos6-x86_64-0.18.5-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -4626,6 +7330,22 @@
 "timestamp":1610795835683,
 "version":"0.23.5"
 },
+"p11-kit-trust-amzn2-aarch64-0.23.22-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libtasn1-amzn2-aarch64 4.10",
+"p11-kit-amzn2-aarch64 0.23.22"
+],
+"license":"BSD",
+"name":"p11-kit-trust-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"ed109959fab45d5310b4d98571bc5ca8ac345b1717befc3aa8b2e2f533709333",
+"size":157644,
+"timestamp":1620061411226,
+"version":"0.23.22"
+},
 "p11-kit-trust-cos6-x86_64-0.18.5-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -4649,6 +7369,30 @@
 "size":155946,
 "timestamp":1611934959818,
 "version":"0.23.5"
+},
+"pam-amzn2-aarch64-1.1.8-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"audit-libs-amzn2-aarch64 2.8.1",
+"audit-libs-amzn2-aarch64 >=1.0.8",
+"coreutils-amzn2-aarch64 8.22",
+"cracklib-dicts-amzn2-aarch64 >=2.8",
+"glibc-amzn2-aarch64 2.26",
+"glibc-amzn2-aarch64 >=2.3.90",
+"libcrypt-amzn2-aarch64 2.26",
+"libdb-amzn2-aarch64 5.3.21",
+"libpwquality-amzn2-aarch64 >=0.9.9",
+"libselinux-amzn2-aarch64 2.5",
+"libselinux-amzn2-aarch64 >=1.33.2"
+],
+"license":"BSD and GPLv2+",
+"name":"pam-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"5fd43cbe18ca2778490e291f03006ffb8f0d8f93d7c853dcbc0cc8ee708cbc1f",
+"size":700336,
+"timestamp":1620060895049,
+"version":"1.1.8"
 },
 "pam-cos6-x86_64-1.1.1-4.tar.bz2":{
 "build":"4",
@@ -4706,6 +7450,38 @@
 "timestamp":1622814713198,
 "version":"1.1.1"
 },
+"pango-amzn2-aarch64-1.42.4-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"cairo-amzn2-aarch64 1.15.12",
+"cairo-amzn2-aarch64 >=1.15.12",
+"fontconfig-amzn2-aarch64 2.13.0",
+"fontconfig-amzn2-aarch64 >=2.13.0",
+"freetype-amzn2-aarch64 2.8",
+"freetype-amzn2-aarch64 >=2.8",
+"fribidi-amzn2-aarch64 1.0.2",
+"fribidi-amzn2-aarch64 >=1.0.2",
+"glib2-amzn2-aarch64 2.56.1",
+"glib2-amzn2-aarch64 >=2.56.1",
+"glibc-amzn2-aarch64 2.26",
+"harfbuzz-amzn2-aarch64 1.7.5",
+"harfbuzz-amzn2-aarch64 >=1.7.5",
+"libthai-amzn2-aarch64 0.1.14",
+"libthai-amzn2-aarch64 >=0.1.14",
+"libx11-amzn2-aarch64 1.6.7",
+"libxft-amzn2-aarch64 2.3.2",
+"libxft-amzn2-aarch64 >=2.3.2",
+"libxrender-amzn2-aarch64 0.9.10"
+],
+"license":"LGPL (>= 2)",
+"name":"pango-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"b064effa40858b284d1339798fb692a0690fba76de225f655c903d27ba6bcbb1",
+"size":284676,
+"timestamp":1620061352739,
+"version":"1.42.4"
+},
 "pango-cos6-x86_64-1.28.1-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -4733,6 +7509,24 @@
 "sha256":"6b4979b4c864608c4556ab928788591bc858370c8b8a879853fbb442c9749abe",
 "size":286839,
 "timestamp":1610796049876,
+"version":"1.42.4"
+},
+"pango-devel-amzn2-aarch64-1.42.4-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"cairo-devel-amzn2-aarch64 >=1.15.12",
+"fontconfig-devel-amzn2-aarch64 >=2.13.0",
+"freetype-devel-amzn2-aarch64 >=2.8",
+"glib2-devel-amzn2-aarch64 >=2.56.1",
+"pango-amzn2-aarch64 1.42.4"
+],
+"license":"LGPL (>= 2)",
+"name":"pango-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"a02c63fe0f601e2650e97ba7c605fa560901aeda4bb873ad1e902cbe2b972e96",
+"size":285455,
+"timestamp":1620062060727,
 "version":"1.42.4"
 },
 "pango-devel-cos6-i686-1.28.1-h236a68b_0.tar.bz2":{
@@ -4818,6 +7612,62 @@
 "timestamp":1610796473737,
 "version":"1.42.4"
 },
+"pangomm-amzn2-aarch64-2.40.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"cairo-amzn2-aarch64 1.15.12",
+"cairomm-amzn2-aarch64 1.12.0",
+"cairomm-amzn2-aarch64 >=1.12.0",
+"glib2-amzn2-aarch64 2.56.1",
+"glibc-amzn2-aarch64 2.26",
+"glibmm24-amzn2-aarch64 2.56.0",
+"glibmm24-amzn2-aarch64 >=2.56.0",
+"libgcc-amzn2-aarch64 7.3.1",
+"libsigcxx20-amzn2-aarch64 2.10.0",
+"libstdcxx-amzn2-aarch64 7.3.1",
+"pango-amzn2-aarch64 1.42.4",
+"pango-amzn2-aarch64 >=1.42.4"
+],
+"license":"LGPL (>= 2)",
+"name":"pangomm-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"d978c410865c30e6f5dfa804d3309fba270573d94898adb89f33e975bbe20b2e",
+"size":65408,
+"timestamp":1620063314450,
+"version":"2.40.1"
+},
+"pangomm-devel-amzn2-aarch64-2.40.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"pangomm-amzn2-aarch64 2.40.1"
+],
+"license":"LGPL (>= 2)",
+"name":"pangomm-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"164457d050d86e33ffc2e1c9d3647d29a81ba796b38902a3f06b79fb0b0d3938",
+"size":49678,
+"timestamp":1620063344856,
+"version":"2.40.1"
+},
+"pciutils-amzn2-aarch64-3.5.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"hwdata-amzn2-aarch64 0.252",
+"kmod-libs-amzn2-aarch64 25",
+"pciutils-libs-amzn2-aarch64 3.5.1"
+],
+"license":"GPL (>= 2)",
+"name":"pciutils-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"a6f1b12c444561218bef97e3763cb16e6b4bf5c5b45fc7efbe17e8fbf2cbe9e1",
+"size":87552,
+"timestamp":1624300083682,
+"version":"3.5.1"
+},
 "pciutils-cos7-s390x-3.5.1-2.tar.bz2":{
 "build":"2",
 "build_number":2,
@@ -4830,6 +7680,23 @@
 "sha256":"569fb07fd88c402be266f78414e604b8aa4186f03e5851d1a5968449575827eb",
 "size":87177,
 "timestamp":1610797649112,
+"version":"3.5.1"
+},
+"pciutils-devel-amzn2-aarch64-3.5.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"pciutils-amzn2-aarch64 3.5.1",
+"pciutils-libs-amzn2-aarch64 3.5.1",
+"pkgconfig-amzn2-aarch64 0.27.1",
+"zlib-devel-amzn2-aarch64 1.2.7"
+],
+"license":"GPL (>= 2)",
+"name":"pciutils-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"b6db3a253f34d38ed3046c3a143e5479b11590334585c8a2063eaad846d14667",
+"size":22493,
+"timestamp":1624300123973,
 "version":"3.5.1"
 },
 "pciutils-devel-cos6-i686-3.1.10-h33bf0f0_0.tar.bz2":{
@@ -4888,6 +7755,20 @@
 "timestamp":1610797662978,
 "version":"3.5.1"
 },
+"pciutils-libs-amzn2-aarch64-3.5.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"GPL (>= 2)",
+"name":"pciutils-libs-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"6a924aefce92b12777c4c517675eab033ea4abe96e54be56054fd45b32a9d9d0",
+"size":36005,
+"timestamp":1624300054295,
+"version":"3.5.1"
+},
 "pciutils-libs-cos6-x86_64-3.1.10-4.tar.bz2":{
 "build":"4",
 "build_number":4,
@@ -4911,6 +7792,132 @@
 "size":35666,
 "timestamp":1610797630878,
 "version":"3.5.1"
+},
+"pcre-amzn2-aarch64-8.32-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libgcc-amzn2-aarch64 7.3.1",
+"libstdcxx-amzn2-aarch64 7.3.1"
+],
+"license":"BSD",
+"name":"pcre-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"0d23aebf8755dd072a1b8f97ab9bd1b59eeb774331eac2230b4675cc061b4abd",
+"size":336990,
+"timestamp":1620060578929,
+"version":"8.32"
+},
+"perl-amzn2-aarch64-5.16.3-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"gdbm-amzn2-aarch64 1.13",
+"glibc-amzn2-aarch64 2.26",
+"libcrypt-amzn2-aarch64 2.26",
+"perl-libs-amzn2-aarch64 5.16.3"
+],
+"license":"(GPL+ or Artistic) and (GPLv2+ or Artistic) and Copyright Only and MIT and Public Domain and UCD",
+"name":"perl-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"68c9a30b1dba0bff68cffe9a34e66041d8b611295243bd2f2691f7ea5f00493d",
+"size":8494102,
+"timestamp":1620061695805,
+"version":"5.16.3"
+},
+"perl-carp-amzn2-aarch64-1.26-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"perl-amzn2-aarch64 5.16.3",
+"perl-exporter-amzn2-aarch64 5.68"
+],
+"license":"GPL+ or Artistic",
+"name":"perl-carp-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"62b9280f30342e9096effe8206099d6463ca0851e8fe06d2fe5994487c023ecb",
+"size":17315,
+"timestamp":1620061739610,
+"version":"1.26"
+},
+"perl-constant-amzn2-aarch64-1.27-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"perl-amzn2-aarch64 5.16.3",
+"perl-amzn2-aarch64 >=5.008",
+"perl-carp-amzn2-aarch64 1.26"
+],
+"license":"GPL+ or Artistic",
+"name":"perl-constant-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"8b78ed83649fdc3bb9462c7600df2dc584d2c63f358acdd8173235c1e67aa67a",
+"size":17759,
+"timestamp":1620061751954,
+"version":"1.27"
+},
+"perl-exporter-amzn2-aarch64-5.68-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"perl-amzn2-aarch64 5.16.3",
+"perl-amzn2-aarch64 >=5.006"
+],
+"license":"GPL+ or Artistic",
+"name":"perl-exporter-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"9eb14172e72bef8bed78d5e5081eb281c27536251d5625940d21d2efd97e060c",
+"size":28727,
+"timestamp":1620061726958,
+"version":"5.68"
+},
+"perl-libs-amzn2-aarch64-5.16.3-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libcrypt-amzn2-aarch64 2.26"
+],
+"license":"GPL+ or Artistic",
+"name":"perl-libs-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"b21045d5ce32f6f480f21ec338235edb3e0fb47765248f5934d0a0afb755e71e",
+"size":732247,
+"timestamp":1620061668304,
+"version":"5.16.3"
+},
+"perl-xml-parser-amzn2-aarch64-2.41-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"expat-amzn2-aarch64 2.1.0",
+"glibc-amzn2-aarch64 2.26",
+"perl-amzn2-aarch64 5.16.3",
+"perl-amzn2-aarch64 >=5.004",
+"perl-carp-amzn2-aarch64 1.26"
+],
+"license":"GPL+ or Artistic",
+"name":"perl-xml-parser-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"0b20c08388969eddb10a9c840ed4e5927676d9c614740e3df7466dee4e59a8b9",
+"size":249331,
+"timestamp":1620063235710,
+"version":"2.41"
+},
+"pixman-amzn2-aarch64-0.34.0-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"MIT",
+"name":"pixman-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"e725646b507c4121c2fd6683cbfb49ac6f830f2a87712233420255e47c3bff4b",
+"size":181366,
+"timestamp":1620061226681,
+"version":"0.34.0"
 },
 "pixman-cos6-x86_64-0.32.8-4.tar.bz2":{
 "build":"4",
@@ -4965,6 +7972,21 @@
 "size":12469,
 "timestamp":1505735681896,
 "version":"0.32.8"
+},
+"pkgconfig-amzn2-aarch64-0.27.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glib2-amzn2-aarch64 2.56.1",
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"GPL (>= 2)",
+"name":"pkgconfig-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"a27ba8ba5c5a5aed258140536ad18fe1e8ea760bea9f666a1c8783dc3a6ca8f9",
+"size":49595,
+"timestamp":1620060734407,
+"version":"0.27.1"
 },
 "pkgconfig-cos6-x86_64-0.23-4.tar.bz2":{
 "build":"4",
@@ -5324,6 +8346,35 @@
 "timestamp":1610984897163,
 "version":"0.1.21"
 },
+"qrencode-libs-amzn2-aarch64-3.4.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"LGPL (>= 2)",
+"name":"qrencode-libs-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"535810d92f669e18fdc7bc5f2106f73aba7728681b12aaa326ef976a6fb6b5b5",
+"size":50329,
+"timestamp":1620060795813,
+"version":"3.4.1"
+},
+"readline-amzn2-aarch64-6.2-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"ncurses-libs-amzn2-aarch64 6.0"
+],
+"license":"GPLv3+",
+"name":"readline-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"d9f03d8dd6e0409611927abc83d6fc660e8e1c3173118a8525bbf879a0cd9386",
+"size":212596,
+"timestamp":1620061674886,
+"version":"6.2"
+},
 "requests_download-0.1.2-pyhd3eb1b0_1.tar.bz2":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
@@ -5365,6 +8416,21 @@
 "timestamp":1622814931296,
 "version":"1.8.7.374"
 },
+"sed-amzn2-aarch64-4.2.2-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"libselinux-amzn2-aarch64 2.5"
+],
+"license":"GPLv3+",
+"name":"sed-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"0fdc13c94af8733260633e9d6b10645ac5d629e6917272a99f331063f98d3a6e",
+"size":245439,
+"timestamp":1620060973122,
+"version":"4.2.2"
+},
 "setup-amzn2-aarch64-2.8.71-5.tar.bz2":{
 "build":"5",
 "build_number":5,
@@ -5378,6 +8444,46 @@
 "size":140446,
 "timestamp":1620060496458,
 "version":"2.8.71"
+},
+"shadow-utils-amzn2-aarch64-4.1.5.1-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"audit-libs-amzn2-aarch64 2.8.1",
+"audit-libs-amzn2-aarch64 >=1.6.5",
+"coreutils-amzn2-aarch64 8.22",
+"glibc-amzn2-aarch64 2.26",
+"libacl-amzn2-aarch64 2.2.51",
+"libattr-amzn2-aarch64 2.4.46",
+"libcrypt-amzn2-aarch64 2.26",
+"libselinux-amzn2-aarch64 2.5",
+"libselinux-amzn2-aarch64 >=1.25.2",
+"libsemanage-amzn2-aarch64 2.5",
+"setup-amzn2-aarch64 2.8.71"
+],
+"license":"BSD and GPLv2+",
+"name":"shadow-utils-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"8d6e5b7452d046bfc8d621709884b26595feb6bf4bc7199e6605422b24c5043c",
+"size":1226069,
+"timestamp":1620061532354,
+"version":"4.1.5.1"
+},
+"shared-mime-info-amzn2-aarch64-1.8-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"coreutils-amzn2-aarch64 8.22",
+"glibc-amzn2-aarch64 2.26",
+"libxml2-amzn2-aarch64 2.9.1"
+],
+"license":"GPL (>= 2)",
+"name":"shared-mime-info-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"2e64deba3b660949aeebefa689e455d16c22a0992776ee7f1f857a02655d13c5",
+"size":278043,
+"timestamp":1620060688668,
+"version":"1.8"
 },
 "sphinxcontrib-applehelp-1.0.2-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -5407,20 +8513,6 @@
 "timestamp":1611920929807,
 "version":"1.0.2"
 },
-"sphinxcontrib-htmlhelp-1.0.3-pyhd3eb1b0_0.tar.bz2":{
-"build":"pyhd3eb1b0_0",
-"build_number":0,
-"depends":[
-"python >=3.5"
-],
-"license":"BSD-2-Clause",
-"name":"sphinxcontrib-htmlhelp",
-"noarch":"python",
-"sha256":"df973ba21657861d10e8450fab9608c8aa6250a90e560dd3a0f78f4009694aab",
-"size":28506,
-"timestamp":1611920981832,
-"version":"1.0.3"
-},
 "sphinxcontrib-jsmath-1.0.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -5448,20 +8540,6 @@
 "size":26262,
 "timestamp":1611921062268,
 "version":"1.0.3"
-},
-"sphinxcontrib-serializinghtml-1.1.4-pyhd3eb1b0_0.tar.bz2":{
-"build":"pyhd3eb1b0_0",
-"build_number":0,
-"depends":[
-"python >=3.5"
-],
-"license":"BSD-2-Clause",
-"name":"sphinxcontrib-serializinghtml",
-"noarch":"python",
-"sha256":"fe23ddc2d0d4707ec3b0abba3c3e994dfd1edacd4ea811fc7548a5aafa65a32f",
-"size":25082,
-"timestamp":1611920762469,
-"version":"1.1.4"
 },
 "sysroot-cos7-aarch64-2.17-hcebdbab_10.tar.bz2":{
 "build":"hcebdbab_10",
@@ -5603,6 +8681,49 @@
 "timestamp":1620060493415,
 "version":"2"
 },
+"systemd-amzn2-aarch64-219-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"acl-amzn2-aarch64 2.2.51",
+"audit-libs-amzn2-aarch64 2.8.1",
+"bzip2-libs-amzn2-aarch64 1.0.6",
+"coreutils-amzn2-aarch64 8.22",
+"cryptsetup-libs-amzn2-aarch64 1.7.4",
+"dbus-amzn2-aarch64 1.10.24",
+"diffutils-amzn2-aarch64 3.3",
+"elfutils-libelf-amzn2-aarch64 0.176",
+"elfutils-libs-amzn2-aarch64 0.176",
+"gawk-amzn2-aarch64 4.0.2",
+"glibc-amzn2-aarch64 2.26",
+"kmod-amzn2-aarch64 >=18",
+"kmod-libs-amzn2-aarch64 25",
+"libacl-amzn2-aarch64 2.2.51",
+"libblkid-amzn2-aarch64 2.30.2",
+"libcap-amzn2-aarch64 2.22",
+"libcrypt-amzn2-aarch64 2.26",
+"libcurl-amzn2-aarch64 7.61.1",
+"libgcc-amzn2-aarch64 7.3.1",
+"libgcrypt-amzn2-aarch64 1.5.3",
+"libmount-amzn2-aarch64 2.30.2",
+"libselinux-amzn2-aarch64 2.5",
+"lz4-amzn2-aarch64 1.7.5",
+"pam-amzn2-aarch64 1.1.8",
+"qrencode-libs-amzn2-aarch64 3.4.1",
+"sed-amzn2-aarch64 4.2.2",
+"system-release-amzn2-aarch64 >=2",
+"systemd-libs-amzn2-aarch64 219",
+"xz-libs-amzn2-aarch64 5.2.2",
+"zlib-amzn2-aarch64 1.2.7"
+],
+"license":"LGPLv2+ and MIT and GPLv2+",
+"name":"systemd-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"65213f82bc1f5e809b984f280a9f6cb8485e58a1bdab92d6ce59d6bf7699968a",
+"size":7720990,
+"timestamp":1620061034641,
+"version":"219"
+},
 "systemd-cos7-ppc64le-219-0.tar.bz2":{
 "build":"0",
 "build_number":0,
@@ -5617,6 +8738,29 @@
 "sha256":"96ad4b3129d3273e66209aabfa064d4fd0f772d8b4d44434c13013ef27363587",
 "size":7883703,
 "timestamp":1518356348405,
+"version":"219"
+},
+"systemd-libs-amzn2-aarch64-219-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"elfutils-libs-amzn2-aarch64 0.176",
+"glibc-amzn2-aarch64 2.26",
+"libcap-amzn2-aarch64 2.22",
+"libgcc-amzn2-aarch64 7.3.1",
+"libgcrypt-amzn2-aarch64 1.5.3",
+"libgpg-error-amzn2-aarch64 1.12",
+"libselinux-amzn2-aarch64 2.5",
+"lz4-amzn2-aarch64 1.7.5",
+"pam-amzn2-aarch64 1.1.8",
+"xz-libs-amzn2-aarch64 5.2.2"
+],
+"license":"LGPLv2+ and MIT",
+"name":"systemd-libs-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"2fd80a092dab878d210162216b00d526b4dbf37517ab60ae2581d22121ef3ccc",
+"size":484845,
+"timestamp":1620060911901,
 "version":"219"
 },
 "testpath-0.4.4-pyhd3eb1b0_0.tar.bz2":{
@@ -5661,6 +8805,23 @@
 "size":82722,
 "timestamp":1611929707112,
 "version":"5.0.5"
+},
+"trousers-amzn2-aarch64-0.3.14-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26",
+"openssl-libs-amzn2-aarch64 1.0.2k",
+"shadow-utils-amzn2-aarch64 4.1.5.1",
+"systemd-amzn2-aarch64 219"
+],
+"license":"BSD",
+"name":"trousers-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"27b9a114b6a1cccd605a189b9f53f3affc28bb5137aaeb377611e53cf02651da",
+"size":332557,
+"timestamp":1620063141153,
+"version":"0.3.14"
 },
 "trousers-cos7-s390x-0.3.14-2.tar.bz2":{
 "build":"2",
@@ -5743,6 +8904,20 @@
 "size":614564,
 "timestamp":1622814952576,
 "version":"147"
+},
+"ustr-amzn2-aarch64-1.0.4-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"MIT or LGPLv2+ or BSD",
+"name":"ustr-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"c45e24755ec8958eeba64c4b7dbd9017425733958622d978792032344df6524c",
+"size":101390,
+"timestamp":1620061516689,
+"version":"1.0.4"
 },
 "util-linux-ng-cos6-x86_64-2.17.2-4.tar.bz2":{
 "build":"4",
@@ -5977,6 +9152,20 @@
 "timestamp":1610798059772,
 "version":"1.0.9"
 },
+"xz-libs-amzn2-aarch64-5.2.2-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"LGPL (>= 2)",
+"name":"xz-libs-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"51d2d547f7d3f7eba5fa616deb0d4858196b2f4e0b9891dad807bb8c5c47f482",
+"size":113293,
+"timestamp":1620060675959,
+"version":"5.2.2"
+},
 "zict-2.0.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -6015,24 +9204,52 @@
 "size":296083,
 "timestamp":1611935386136,
 "version":"3.0"
+},
+"zlib-amzn2-aarch64-1.2.7-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glibc-amzn2-aarch64 2.26"
+],
+"license":"zlib and Boost",
+"name":"zlib-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"9aa1d537bbba8a613a41489580213c2ddebeaaa6b5d6787d3bc31a14d0f7e2b3",
+"size":85911,
+"timestamp":1620060671216,
+"version":"1.2.7"
+},
+"zlib-devel-amzn2-aarch64-1.2.7-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"zlib-amzn2-aarch64 1.2.7"
+],
+"license":"zlib and Boost",
+"name":"zlib-devel-amzn2-aarch64",
+"noarch":"generic",
+"sha256":"94cd3e5447e6666afa223b3a92243145425df6b4f3f6b2eaffe7f0d4efd6f450",
+"size":37519,
+"timestamp":1620061641308,
+"version":"1.2.7"
 }
 },
 "packages.conda":{
-"absl-py-0.11.0-pyhd3eb1b0_1.conda":{
-"build":"pyhd3eb1b0_1",
-"build_number":1,
+"absl-py-0.13.0-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
 "depends":[
 "python",
 "six"
 ],
-"legacy_bz2_md5":"7c08fb12e46468f3bcbab0001456afe6",
+"legacy_bz2_md5":"2158656fcd04f09b3f84aea927a394fe",
 "license":"Apache 2.0",
 "name":"absl-py",
 "noarch":"python",
-"sha256":"50430cbb99b9dee36001109c7e95d526d5619d28cbe2db761d89bca1a2ff127a",
-"size":105601,
-"timestamp":1607440006300,
-"version":"0.11.0"
+"sha256":"a13a6d58c5acc0c88d79cb282a4ce448e797310e86b4447ef731e4d9aa4bec2c",
+"size":106345,
+"timestamp":1624299142532,
+"version":"0.13.0"
 },
 "access-1.1.3-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -7327,7 +10544,7 @@
 "timestamp":1610401338093,
 "version":"1.19.52"
 },
-"botocore-1.20.94-pyhd3eb1b0_1.conda":{
+"botocore-1.20.97-pyhd3eb1b0_1.conda":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
@@ -7336,14 +10553,14 @@
 "python-dateutil >=2.1,<3.0.0",
 "urllib3 >=1.25.4,<1.27"
 ],
-"legacy_bz2_md5":"77dd764aa0b833a6e47025b9bd65bb8c",
+"legacy_bz2_md5":"037f5301f7bced1a8cbc898872a02d73",
 "license":"Apache-2.0",
 "name":"botocore",
 "noarch":"python",
-"sha256":"eabd35c162e97962fd6e87f1b64c85b56f8445257fc40850cd951d72abc1a5ba",
-"size":3909330,
-"timestamp":1623784239666,
-"version":"1.20.94"
+"sha256":"8d9231b388164b2562deae0ffc227ac8bce4fb324b88e68e2057f4949db4d6d6",
+"size":3920636,
+"timestamp":1624291208110,
+"version":"1.20.97"
 },
 "bs4-4.9.3-0.conda":{
 "build":"0",
@@ -8910,6 +12127,26 @@
 "timestamp":1623085895347,
 "version":"2021.6.0"
 },
+"dask-core-2021.6.2-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"cloudpickle >=1.1.1",
+"fsspec >=0.6.0",
+"partd >=0.3.10",
+"python >=3.7",
+"pyyaml",
+"toolz >=0.8.2"
+],
+"legacy_bz2_md5":"c716b45c2f3db4431713a286e34f0932",
+"license":"BSD-3-Clause",
+"name":"dask-core",
+"noarch":"python",
+"sha256":"1ca8b72768599f1d2598c8dbf6294c10009bc0199bb107d3e287b67cbe872a5c",
+"size":709099,
+"timestamp":1624382014043,
+"version":"2021.6.2"
+},
 "dask-glm-0.2.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -9268,20 +12505,20 @@
 "timestamp":1594828770740,
 "version":"20200713"
 },
-"dill-0.3.3-pyhd3eb1b0_0.conda":{
+"dill-0.3.4-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"python >=3.5"
+"python >=3.6"
 ],
-"legacy_bz2_md5":"4369063b2a49d946026b7b2e2ef1a0af",
+"legacy_bz2_md5":"5eb1c3c69145b0ed48129702b0f3c573",
 "license":"BSD-3-Clause",
 "name":"dill",
 "noarch":"python",
-"sha256":"886cfbd73aa7f65a2892dfec2f7cf92c69b52925abf0cc7d2c0f608269c46fb8",
-"size":60470,
-"timestamp":1605066489260,
-"version":"0.3.3"
+"sha256":"eb4288e8ab3750a206b215b59360832e328b4add9312c6818aa1b1f2c75394e3",
+"size":62287,
+"timestamp":1623919467192,
+"version":"0.3.4"
 },
 "distlib-0.3.2-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -9443,7 +12680,7 @@
 "timestamp":1614170744319,
 "version":"0.5"
 },
-"elasticsearch-7.13.1-pyhd3eb1b0_0.conda":{
+"elasticsearch-7.13.2-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -9453,14 +12690,14 @@
 "requests >=2.4.0,<3.0.0",
 "urllib3 >=1.21.1,<2"
 ],
-"legacy_bz2_md5":"0681e30f647558849ad2cd9b83445e9e",
+"legacy_bz2_md5":"18b881374747a5ea569202a2e17d76ed",
 "license":"Apache-2.0",
 "name":"elasticsearch",
 "noarch":"python",
-"sha256":"cf125ea9acb7b3960b52e76ffcef5aae8dfe89bdfd701e72c2cd41f102e7f91b",
-"size":115700,
-"timestamp":1622822189056,
-"version":"7.13.1"
+"sha256":"52119cacdaf2bb25e1badfa3f34abe8c511a9a4f7048737fd00df71083e7b457",
+"size":115726,
+"timestamp":1624291502160,
+"version":"7.13.2"
 },
 "email-validator-1.1.3-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -9479,7 +12716,7 @@
 "timestamp":1623674841298,
 "version":"1.1.3"
 },
-"envisage-6.0.0-pyhd3eb1b0_0.conda":{
+"envisage-6.0.1-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -9487,14 +12724,14 @@
 "python >=3.6",
 "traits >=6.2"
 ],
-"legacy_bz2_md5":"706a8d5453550a61cd04fd462f5810d4",
+"legacy_bz2_md5":"6b11b4d9f906e45a1dda74648093fee4",
 "license":"BSD-3-clause",
 "name":"envisage",
 "noarch":"python",
-"sha256":"f4d7b4cbe2015c1903a23f413f2eee867b95522cfaa4a3817b50ab33b3e4651c",
-"size":173643,
-"timestamp":1621280649377,
-"version":"6.0.0"
+"sha256":"aa8d9582a94bda5b4e301a0f812f71fcc7020b4feb43bb089a446d0ef1c24b76",
+"size":170829,
+"timestamp":1624365364857,
+"version":"6.0.1"
 },
 "esda-2.3.6-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -9564,21 +12801,20 @@
 "timestamp":1620309119666,
 "version":"0.31.0"
 },
-"execnet-1.8.1-pyhd3eb1b0_0.conda":{
+"execnet-1.9.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"apipkg >=1.4",
 "python 2.7|>=3.5"
 ],
-"legacy_bz2_md5":"071d80d605d2add11d3f609c3ef9dc67",
+"legacy_bz2_md5":"21359773e7b19e18f0ed4730ab004de3",
 "license":"MIT",
 "name":"execnet",
 "noarch":"python",
-"sha256":"a5152f1da78614cb4d0d78c11150a6e7deeadbb4b3cd384b64e5a3edc85c8f43",
-"size":35696,
-"timestamp":1622555486105,
-"version":"1.8.1"
+"sha256":"3db44c99ea759c147739668c06e056aa250e73dfc68e31fac8b1c1611992714e",
+"size":35275,
+"timestamp":1623921226872,
+"version":"1.9.0"
 },
 "expat-cos6-i686-2.0.1-0.conda":{
 "build":"0",
@@ -9633,7 +12869,7 @@
 "timestamp":1603822216853,
 "version":"0.1"
 },
-"faker-8.5.0-pyhd3eb1b0_1.conda":{
+"faker-8.8.1-pyhd3eb1b0_1.conda":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
@@ -9641,30 +12877,30 @@
 "python-dateutil >=2.4",
 "text-unidecode 1.3"
 ],
-"legacy_bz2_md5":"c7d1e37d6d2466338141554dc64a2971",
+"legacy_bz2_md5":"0f962bbb7d0733e94f6d7e29784b375b",
 "license":"MIT",
 "name":"faker",
 "noarch":"python",
-"sha256":"ddf2d856367375daa142f39ff8c98e04169d0cab624d75c6876a86d80a211152",
-"size":944287,
-"timestamp":1622658268988,
-"version":"8.5.0"
+"sha256":"b2352a59d52ac5024bb39ba7967be3d9618b7496e84bf1d6bfabac831220b05a",
+"size":943519,
+"timestamp":1624291576473,
+"version":"8.8.1"
 },
-"fasteners-0.16.2-pyhd3eb1b0_0.conda":{
+"fasteners-0.16.3-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "python >=3.6",
 "six"
 ],
-"legacy_bz2_md5":"6a461293cb5fd0f057db35d3ad71ac4c",
+"legacy_bz2_md5":"11d4c33907e93548617df4852c881804",
 "license":"Apache-2.0",
 "name":"fasteners",
 "noarch":"python",
-"sha256":"48ceb5ead3a235b20e9ed859b52f04a2ee3f63165047c5b1c87cca7b5fbba0a6",
-"size":24976,
-"timestamp":1623225061839,
-"version":"0.16.2"
+"sha256":"4768f27621090559d1b62bcf7fc28bd41f1a0124995fc57a4c9113c961c839ba",
+"size":24680,
+"timestamp":1623953511907,
+"version":"0.16.3"
 },
 "filelock-3.0.12-py_0.conda":{
 "build":"py_0",
@@ -9768,7 +13004,7 @@
 "timestamp":1618694204234,
 "version":"1.5.8"
 },
-"flask-appbuilder-3.3.0-pyhd3eb1b0_1.conda":{
+"flask-appbuilder-3.3.1-pyhd3eb1b0_1.conda":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
@@ -9797,14 +13033,14 @@
 "sqlalchemy-utils >=0.32.21,<1",
 "werkzeug"
 ],
-"legacy_bz2_md5":"6dafca90d6e8480046a172303369c099",
+"legacy_bz2_md5":"bdd9025fc6b772f535a859a14d86533a",
 "license":"BSD 3-Clause",
 "name":"flask-appbuilder",
 "noarch":"python",
-"sha256":"c8d0d380cb4af2f5ed1bbf86cf8b8a6b8436be53bda4be3f805eb0444c7a9ac1",
-"size":1067162,
-"timestamp":1620806491912,
-"version":"3.3.0"
+"sha256":"1cf934a8bdf3dd3d5aa29803f66e203abe4ff9a5c188312e3d17786738432379",
+"size":1067013,
+"timestamp":1624365261601,
+"version":"3.3.1"
 },
 "flask-apscheduler-1.12.2-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -9876,7 +13112,7 @@
 "timestamp":1616007804572,
 "version":"1.10.1"
 },
-"flask-compress-1.9.0-pyhd3eb1b0_0.conda":{
+"flask-compress-1.10.1-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -9884,14 +13120,14 @@
 "flask",
 "python >=2.7"
 ],
-"legacy_bz2_md5":"71b8bb8497c178cd0e458b686aca8fd4",
+"legacy_bz2_md5":"f6d4e88d423859938aedbd8f5098c58d",
 "license":"MIT",
 "name":"flask-compress",
 "noarch":"python",
-"sha256":"9cd78df3eb7f68aa27a211685ed44e835351bab61ae3b8a04c8cd08ffd789226",
-"size":14192,
-"timestamp":1613587487720,
-"version":"1.9.0"
+"sha256":"b3f038466163d38d26512ddda116395c30c2164f69ba8ee7449ece21f879840f",
+"size":14395,
+"timestamp":1623922849363,
+"version":"1.10.1"
 },
 "flask-cors-3.0.10-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -10791,7 +14027,7 @@
 "timestamp":1593448779587,
 "version":"4.0.2"
 },
-"gitpython-3.1.17-pyhd3eb1b0_0.conda":{
+"gitpython-3.1.18-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -10799,31 +14035,14 @@
 "python >=3.5",
 "typing-extensions >=3.7.4.0"
 ],
-"legacy_bz2_md5":"088aa78a3dba9148503ecb452bd33b3f",
+"legacy_bz2_md5":"f835aeea5611ba5125dd0b0a378176a6",
 "license":"BSD-3-Clause",
 "name":"gitpython",
 "noarch":"python",
-"sha256":"c575424795f88699656d44827a4675b40ebea9b3c5081cc0d9a8ee47c677f369",
-"size":128709,
-"timestamp":1621004179130,
-"version":"3.1.17"
-},
-"gitpython-3.1.17-pyhd3eb1b0_1.conda":{
-"build":"pyhd3eb1b0_1",
-"build_number":1,
-"depends":[
-"gitdb >=4.0.1,<5",
-"python >=3.5",
-"typing-extensions >=3.7.4.0"
-],
-"legacy_bz2_md5":"c57ad4b1450291c4db46dc08093ba138",
-"license":"BSD-3-Clause",
-"name":"gitpython",
-"noarch":"python",
-"sha256":"578c13affe99cd435593364aa188e14a50659d127100368d3658f476df21ac5e",
-"size":128734,
-"timestamp":1620995415962,
-"version":"3.1.17"
+"sha256":"6ddd3d6a3b04175662eec5d94b876d33cc70995acb404f2500d5dd7be7a9dd3a",
+"size":130195,
+"timestamp":1624366155504,
+"version":"3.1.18"
 },
 "glib-networking-cos6-i686-2.28.6.1-0.conda":{
 "build":"0",
@@ -10992,7 +14211,7 @@
 "timestamp":1613980405889,
 "version":"1.25.1"
 },
-"google-auth-1.31.0-pyhd3eb1b0_0.conda":{
+"google-auth-1.32.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -11006,14 +14225,14 @@
 "setuptools >=40.3.0",
 "six >=1.9.0"
 ],
-"legacy_bz2_md5":"20c768583f274a0298208e78c74bd450",
+"legacy_bz2_md5":"a280f6fe02d5bb84b57ea93e1e9aaa9e",
 "license":"Apache-2.0",
 "name":"google-auth",
 "noarch":"python",
-"sha256":"35da06cda798b1f65e3cd9a33d1ea5ba62d98334e89cd308b420c0b3d475a4ad",
-"size":78645,
-"timestamp":1623354796708,
-"version":"1.31.0"
+"sha256":"75664f745905d5e7794c69d9874c3828d4f3f2bf55dab2700be904f913765205",
+"size":78799,
+"timestamp":1624381836728,
+"version":"1.32.0"
 },
 "google-auth-oauthlib-0.4.1-py_2.conda":{
 "build":"py_2",
@@ -11052,43 +14271,44 @@
 "timestamp":1617120604882,
 "version":"0.4.4"
 },
-"google-cloud-core-1.6.0-pyhd3eb1b0_0.conda":{
+"google-cloud-core-1.7.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"google-api-core >=1.19.0,<2.0.0dev",
-"python"
+"google-api-core >=1.21.0,<2.0.0dev",
+"google-auth >=1.24.0,<2.0.0dev",
+"grpcio >=1.8.2,<2.0.0dev",
+"python >=3.6",
+"six >=1.12.0"
 ],
-"legacy_bz2_md5":"0e9527e8e34dfa5ba0c973d1440dcfca",
+"legacy_bz2_md5":"dc88af5cbd374a7c33258f58546af8c1",
 "license":"Apache-2.0",
 "name":"google-cloud-core",
 "noarch":"python",
-"sha256":"451f912215f22d18f7f8ec6ec1cdf93c3b456c093ce3a0a600401e0435c78b0e",
-"size":25974,
-"timestamp":1613414847537,
-"version":"1.6.0"
+"sha256":"b7c6603405f0456e7a5ea734d7dc82fcbb8f933fb670ce6bf4d90f7e86440752",
+"size":26067,
+"timestamp":1623920097145,
+"version":"1.7.0"
 },
-"google-cloud-storage-1.38.0-pyhd3eb1b0_0.conda":{
+"google-cloud-storage-1.39.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "google-auth >=1.11.0,<2.0dev",
 "google-cloud-core >=1.4.1,<2.0dev",
-"google-crc32c",
-"google-resumable-media >=1.2.0,<2.0dev",
+"google-resumable-media >=1.3.0,<2.0dev",
 "python >=3.6",
 "requests >=2.18.0,<3.0.0dev",
-"yarl <1.6.0,>=1.0",
-"yarl >=1.0,<1.6.0"
+"yarl <1.6.0,>=1.0"
 ],
-"legacy_bz2_md5":"30bfaa55c92fba5d0512b94e1c55b661",
+"legacy_bz2_md5":"1510c039146cf663fabf40882c7a0c96",
 "license":"Apache-2.0",
 "name":"google-cloud-storage",
 "noarch":"python",
-"sha256":"4808a499ff306da4e0b8e59c83220c410657f69e9812ce76740ffe4461fbade8",
-"size":71935,
-"timestamp":1619635700937,
-"version":"1.38.0"
+"sha256":"f81f69028d15edbd08a7e8657c2f15057100b02d08a626af67c3b0ecda228aad",
+"size":73048,
+"timestamp":1624484371393,
+"version":"1.39.0"
 },
 "google-pasta-0.2.0-py_0.conda":{
 "build":"py_0",
@@ -11106,26 +14326,26 @@
 "timestamp":1585132645172,
 "version":"0.2.0"
 },
-"google-resumable-media-1.3.0-pyhd3eb1b0_1.conda":{
+"google-resumable-media-1.3.1-pyhd3eb1b0_1.conda":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "constrains":[
-"requests >=2.18.0,<3.0.0dev",
-"aiohttp >=3.6.2,<4.0.0dev"
+"aiohttp >=3.6.2,<4.0.0dev",
+"requests >=2.18.0,<3.0.0dev"
 ],
 "depends":[
 "google-crc32c >=1.0,<2.0dev",
 "python >=3.6",
-"six"
+"six >=1.4.0"
 ],
-"legacy_bz2_md5":"8a13aac82b77a2234e747e30f46e6bf2",
+"legacy_bz2_md5":"2e93719f649e1bce00013bc596bcd7bb",
 "license":"Apache-2.0",
 "name":"google-resumable-media",
 "noarch":"python",
-"sha256":"aaf43d08da2e39f1909bf9a3b437d632e3feabe7fb6b48a52a6f15ea35c12bc2",
-"size":42181,
-"timestamp":1621528764993,
-"version":"1.3.0"
+"sha256":"5d27af7a5a67ba7e8e0bda36586e8f5be5f69f31d2b3d07a24afce039e25976c",
+"size":42035,
+"timestamp":1624367858562,
+"version":"1.3.1"
 },
 "gperf-cos6-x86_64-3.0.3-h3be4c48_0.conda":{
 "build":"h3be4c48_0",
@@ -11436,7 +14656,7 @@
 "timestamp":1622117601661,
 "version":"1.1.3"
 },
-"httpx-0.18.1-pyhd3eb1b0_0.conda":{
+"httpx-0.18.2-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -11448,29 +14668,29 @@
 "rfc3986 >=1.3,<2",
 "sniffio"
 ],
-"legacy_bz2_md5":"8a3a7cc80e910c7e1273773845bb2f82",
+"legacy_bz2_md5":"e60e15e8048e9e6f670d6665174aa608",
 "license":"BSD-3-Clause",
 "name":"httpx",
 "noarch":"python",
-"sha256":"ad0f0aa5c154988e1d6487d41e95da8dfbd6e35b4d7e4cc46f5cde1013aa250d",
-"size":64260,
-"timestamp":1619796525988,
-"version":"0.18.1"
+"sha256":"28b669b9fd53dd65a520a9fff1196185bfe49997d1ff7f8e0163f3e81ad24cd9",
+"size":64530,
+"timestamp":1624368593405,
+"version":"0.18.2"
 },
-"humanize-3.7.0-pyhd3eb1b0_0.conda":{
+"humanize-3.9.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "python >=3.6"
 ],
-"legacy_bz2_md5":"2a561f11ef69e8a5d39d3cfddbe181f0",
+"legacy_bz2_md5":"95ea2c10ffd8dbbfd0eeb7d167fc5543",
 "license":"MIT",
 "name":"humanize",
 "noarch":"python",
-"sha256":"523c467e36ae65770dd6a6911ff29ccf3ba3ac09cf4f4b5301272da8042cf6fc",
-"size":30597,
-"timestamp":1622658590935,
-"version":"3.7.0"
+"sha256":"da9eb026bb266f37acf3068e8b5cdbd5c0c8f5e6a2825317a0fc118baccb8c10",
+"size":44327,
+"timestamp":1623868177706,
+"version":"3.9.0"
 },
 "hvplot-0.7.2-pyhd3eb1b0_1.conda":{
 "build":"pyhd3eb1b0_1",
@@ -11983,21 +15203,20 @@
 "timestamp":1565189019233,
 "version":"0.6.0"
 },
-"isort-5.8.0-pyhd3eb1b0_0.conda":{
+"isort-5.9.1-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"python >=3.6,<4.0",
-"setuptools"
+"python >=3.6,<4.0"
 ],
-"legacy_bz2_md5":"f573a43fd6e3ceca3ca78f42ff05d858",
+"legacy_bz2_md5":"4dde5458ff8d080eac68766652e3f1e6",
 "license":"MIT",
 "name":"isort",
 "noarch":"python",
-"sha256":"2df29ad68ae7c900bac86a956a60148ceff128c5b8f68278c8f194f0bf03a225",
-"size":83054,
-"timestamp":1616355465063,
-"version":"5.8.0"
+"sha256":"187a31bb70e3daa82602ed63ee70c87fbec4b36d5d7a2b2aca9ffe3dad8c7901",
+"size":84537,
+"timestamp":1624300384083,
+"version":"5.9.1"
 },
 "itemadapter-0.2.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -12365,20 +15584,20 @@
 "timestamp":1579635077200,
 "version":"0.2"
 },
-"json5-0.9.5-py_0.conda":{
-"build":"py_0",
+"json5-0.9.6-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "python"
 ],
-"legacy_bz2_md5":"286447d8c97985ae62d3d60cbf5bcb4c",
+"legacy_bz2_md5":"91e3336204a0ea3951957d7d5e8f3e26",
 "license":"Apache-2.0",
 "name":"json5",
 "noarch":"python",
-"sha256":"35d594709d0dabbc6f64c72b2a75d901c9cc9d19a8b262767c59c7a23ada6e25",
-"size":22250,
-"timestamp":1591727027261,
-"version":"0.9.5"
+"sha256":"595b96c7e20703125ff4865ee55ba282357b57438a609dd7660610318127ca2e",
+"size":21787,
+"timestamp":1624432813739,
+"version":"0.9.6"
 },
 "jsondiff-1.3.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -16114,6 +19333,21 @@
 "timestamp":1601055158888,
 "version":"1.17.4"
 },
+"path-16.0.0-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python >=3.6"
+],
+"legacy_bz2_md5":"8d8e9b31558f2db07baddcc36df67844",
+"license":"MIT",
+"name":"path",
+"noarch":"python",
+"sha256":"7251c86d315f8bfd21cb06adc123886fe07768bed333d08e4ddfd10a63df15f1",
+"size":24309,
+"timestamp":1624297132756,
+"version":"16.0.0"
+},
 "path.py-12.5.0-0.conda":{
 "build":"0",
 "build_number":0,
@@ -16391,20 +19625,20 @@
 "timestamp":1622102370996,
 "version":"0.11.2"
 },
-"phonenumbers-8.12.24-pyhd3eb1b0_0.conda":{
+"phonenumbers-8.12.25-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "python"
 ],
-"legacy_bz2_md5":"be15fc7eb679ea30c0e2e20c6229de3c",
+"legacy_bz2_md5":"4507bbbc3a65d7762a546f6d2eb45a04",
 "license":"Apache-2.0",
 "name":"phonenumbers",
 "noarch":"python",
-"sha256":"560b358c16857a8ce1eaaee68e74669dd4a2373cd6940f9f37e49c169b0f07d0",
-"size":1427777,
-"timestamp":1623153175174,
-"version":"8.12.24"
+"sha256":"f99089fd0f9ca50bc39121dcb44cfb92876885817613aa0c35fb38a00a3cb318",
+"size":1425036,
+"timestamp":1623869656517,
+"version":"8.12.25"
 },
 "pickleshare-0.7.5-pyhd3eb1b0_1003.conda":{
 "build":"pyhd3eb1b0_1003",
@@ -17714,23 +20948,24 @@
 "timestamp":1574171215092,
 "version":"1.0"
 },
-"pytest-cov-2.11.1-pyhd3eb1b0_0.conda":{
+"pytest-cov-2.12.1-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "coverage >=5.2.1",
 "pytest >=4.6",
 "python",
-"setuptools"
+"setuptools",
+"toml"
 ],
-"legacy_bz2_md5":"e5249259790a82eb998c126c68e08f45",
+"legacy_bz2_md5":"47edf3243e6ac0926217127d5b8a76f7",
 "license":"MIT",
 "name":"pytest-cov",
 "noarch":"python",
-"sha256":"6e36320390b96809390691832ee55870c8d631c0af8ef6eb47bf6c438859d4f5",
-"size":21826,
-"timestamp":1611172177999,
-"version":"2.11.1"
+"sha256":"367aae91520f6147e4d0a9cbb4776efcd3444a8ee8aa66a6c582e4dc469e5fb5",
+"size":21835,
+"timestamp":1623656370810,
+"version":"2.12.1"
 },
 "pytest-csv-2.0.2-py_0.conda":{
 "build":"py_0",
@@ -18004,7 +21239,7 @@
 "timestamp":1623663286753,
 "version":"10.0"
 },
-"pytest-runner-5.3.0-pyhd3eb1b0_0.conda":{
+"pytest-runner-5.3.1-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -18012,14 +21247,14 @@
 "python",
 "setuptools"
 ],
-"legacy_bz2_md5":"8e992850048211955ff63d8bd5e8286f",
+"legacy_bz2_md5":"0eaf5a67c1906ce41a151563f0c97738",
 "license":"MIT",
 "name":"pytest-runner",
 "noarch":"python",
-"sha256":"a4468b6487c9297735cf3dafc737ac4dca4685e36987ffe6026fdbbd2a43a590",
-"size":10917,
-"timestamp":1613936133122,
-"version":"5.3.0"
+"sha256":"0f82f624787b8238fbb827b970a7d9d281e1dd3d84f64530e6a6791c884c2188",
+"size":10812,
+"timestamp":1623663884270,
+"version":"5.3.1"
 },
 "pytest-selenium-2.0.1-py_0.conda":{
 "build":"py_0",
@@ -18043,21 +21278,21 @@
 "timestamp":1600706725877,
 "version":"2.0.1"
 },
-"pytest-subtests-0.4.0-pyhd3eb1b0_0.conda":{
+"pytest-subtests-0.5.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"pytest >=4.4.0",
+"pytest >=5.3.0",
 "python >=3.5"
 ],
-"legacy_bz2_md5":"1d665b99a67bfa0f58d408153f945bec",
+"legacy_bz2_md5":"69787b5fe42931f195c8b6913d3dbcba",
 "license":"MIT",
 "name":"pytest-subtests",
 "noarch":"python",
-"sha256":"b5e730c0f59334036b72c864cee5af08e9215272b35ac0a9753946f623f5a8d6",
-"size":12166,
-"timestamp":1607972408943,
-"version":"0.4.0"
+"sha256":"5750aa43843f4c80a29e982704cbddb5cad1285e6c13ed66dea1fa5dc260957b",
+"size":12009,
+"timestamp":1623659168436,
+"version":"0.5.0"
 },
 "pytest-timeout-1.4.2-py_0.conda":{
 "build":"py_0",
@@ -18092,7 +21327,7 @@
 "timestamp":1600459471687,
 "version":"0.8.1"
 },
-"pytest-xdist-2.2.1-pyhd3eb1b0_0.conda":{
+"pytest-xdist-2.3.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "constrains":[
@@ -18102,16 +21337,16 @@
 "execnet >=1.1",
 "pytest >=6.0.0",
 "pytest-forked",
-"python >=3.5"
+"python >=3.6"
 ],
-"legacy_bz2_md5":"22156e502cbd301a6de42a99e4298255",
+"legacy_bz2_md5":"cf41eda0a0cb4884d80fb6cc1682bd22",
 "license":"MIT",
 "name":"pytest-xdist",
 "noarch":"python",
-"sha256":"11dd089cdc81ef80fc5761684e66e3c358e488a9f8e9526802e1629ebd541075",
-"size":32597,
-"timestamp":1613936173214,
-"version":"2.2.1"
+"sha256":"2be9bf5296bd9cdb014b70fa1a274359a2f812af68f3c46b4281e39f7493488b",
+"size":32598,
+"timestamp":1624451879754,
+"version":"2.3.0"
 },
 "python-clang-10.0.1-default_h6bfbf51_2.conda":{
 "build":"default_h6bfbf51_2",
@@ -19156,23 +22391,21 @@
 "timestamp":1569444513017,
 "version":"2.2.3"
 },
-"saspy-3.6.7-pyhd3eb1b0_0.conda":{
+"saspy-3.7.2-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"ipython >=4",
 "pandas",
-"pygments",
 "python >=3"
 ],
-"legacy_bz2_md5":"e87c7d2086a4737436049e5048586452",
+"legacy_bz2_md5":"6653d40ce41d73034034ae1079ce5842",
 "license":"Apache 2.0",
 "name":"saspy",
 "noarch":"python",
-"sha256":"a576d00fff10b3792289eb08c14b80942d59f08938839fc0645d56bc93f05c54",
-"size":6179226,
-"timestamp":1619737651348,
-"version":"3.6.7"
+"sha256":"893ba53ca08f8e51ec7763a2928285f33c33e014821b839bb01ba810cd22364e",
+"size":6177984,
+"timestamp":1623858780679,
+"version":"3.7.2"
 },
 "scapy-2.4.3-py_0.conda":{
 "build":"py_0",
@@ -19192,7 +22425,7 @@
 "timestamp":1565461864294,
 "version":"2.4.3"
 },
-"scikit-rf-0.17.0-pyhd3eb1b0_0.conda":{
+"scikit-rf-0.18.1-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -19205,14 +22438,14 @@
 "scipy",
 "six"
 ],
-"legacy_bz2_md5":"3fde201bcff1fe1548233b86dda3a035",
-"license":"BSD 3-Clause",
+"legacy_bz2_md5":"2a1502f11e9161db776b81915a639086",
+"license":"BSD-3-Clause",
 "name":"scikit-rf",
 "noarch":"python",
-"sha256":"d0e935dbb61e6e8975d5f1ba0eb20620df57e5ca44dd02febfd667a3d187bd67",
-"size":1416892,
-"timestamp":1617302114722,
-"version":"0.17.0"
+"sha256":"15e8867c9258c96a096f6d08d834cf3288adc9cbb4755a00e9dbde57007e23e9",
+"size":1416001,
+"timestamp":1624298661512,
+"version":"0.18.1"
 },
 "scp-0.13.4-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -19352,7 +22585,7 @@
 "timestamp":1607525535403,
 "version":"1.5.0"
 },
-"sendgrid-6.7.0-pyhd3eb1b0_0.conda":{
+"sendgrid-6.7.1-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -19364,14 +22597,14 @@
 "starkbank-ecdsa >=1.0.0",
 "werkzeug"
 ],
-"legacy_bz2_md5":"87c869465e7b729f4ec3fdf51f411408",
+"legacy_bz2_md5":"72849d5071d443fd8c624cab838f9776",
 "license":"MIT",
 "name":"sendgrid",
 "noarch":"python",
-"sha256":"481e18a7fa5dad9c11302cb41cedf9e1b5b4c188462f0f4f01f6494df48b4c81",
-"size":49666,
-"timestamp":1619424400883,
-"version":"6.7.0"
+"sha256":"47e4303b412413546bd9473af59a5441bcb47233d48b39d012bc539790c598c7",
+"size":49121,
+"timestamp":1624455417972,
+"version":"6.7.1"
 },
 "service_identity-18.1.0-py_0.conda":{
 "build":"py_0",
@@ -19589,21 +22822,21 @@
 "timestamp":1623836392455,
 "version":"1.11.2"
 },
-"singledispatch-3.6.1-pyhd3eb1b0_1001.conda":{
+"singledispatch-3.6.2-pyhd3eb1b0_1001.conda":{
 "build":"pyhd3eb1b0_1001",
 "build_number":1001,
 "depends":[
 "python",
 "six"
 ],
-"legacy_bz2_md5":"381b98dcef744c7d7c65538ce1bbc4f9",
+"legacy_bz2_md5":"d17238238f0e8e84bc56f1fcb9d008c8",
 "license":"MIT",
 "name":"singledispatch",
 "noarch":"python",
-"sha256":"189e766bf4f2942dd536cb36304ca58139fb9ffe51ccb9186b49d78bef9f261e",
-"size":12834,
-"timestamp":1614366041890,
-"version":"3.6.1"
+"sha256":"60a35cae4be72c58c08595cd0ea2ac55399541bcbd70c2ca608fbefe32d49874",
+"size":11670,
+"timestamp":1623948283556,
+"version":"3.6.2"
 },
 "six-1.16.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -19655,7 +22888,7 @@
 "timestamp":1602262912816,
 "version":"3.0.0"
 },
-"smart_open-5.0.0-pyhd3eb1b0_0.conda":{
+"smart_open-5.1.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -19664,14 +22897,14 @@
 "python >=3.6",
 "requests"
 ],
-"legacy_bz2_md5":"aa5105b717850134a283ae229bf286ab",
+"legacy_bz2_md5":"a3e01d0dcb53950ccd4c9fa7c83c7421",
 "license":"MIT",
 "name":"smart_open",
 "noarch":"python",
-"sha256":"5d778b65ee5b7c398d1b8c744aae4fe968270b86c75c7147024c81d12b6d3540",
-"size":44007,
-"timestamp":1617288439446,
-"version":"5.0.0"
+"sha256":"c9faef8ac149c83ad61d5b127f2f7574b3452b78fc277772bf95cab3b5db2bb7",
+"size":44341,
+"timestamp":1623928460718,
+"version":"5.1.0"
 },
 "smmap-3.0.5-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -19767,20 +23000,20 @@
 "timestamp":1611172746443,
 "version":"2.1.0"
 },
-"sortedcontainers-2.3.0-pyhd3eb1b0_0.conda":{
+"sortedcontainers-2.4.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "python >=2.7"
 ],
-"legacy_bz2_md5":"99917b7905f23bb9fa017a9c9ffe899e",
+"legacy_bz2_md5":"4cad993b0f80bc23fb66a97592299cbb",
 "license":"Apache-2.0",
 "name":"sortedcontainers",
 "noarch":"python",
-"sha256":"1af0f8de3d7e4ee01f3dbbea9ab84a40ab94222e5a4bc63c00d3b5cbe969c0d9",
-"size":26545,
-"timestamp":1606865165945,
-"version":"2.3.0"
+"sha256":"2e4890f831fe472d4a8ca752e169f504f0b3ba45936e2a4b0ab40dd85fffd60a",
+"size":26444,
+"timestamp":1623949147884,
+"version":"2.4.0"
 },
 "soupsieve-2.2.1-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -19798,28 +23031,29 @@
 "timestamp":1616183268170,
 "version":"2.2.1"
 },
-"spaghetti-1.5.6-pyhd3eb1b0_0.conda":{
+"spaghetti-1.6.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "esda",
 "libpysal",
+"libspatialindex",
 "numpy >=1.3",
 "pandas >=1.0",
-"python >=3",
+"python >=3.7",
 "rtree",
 "scipy >=1.0"
 ],
-"legacy_bz2_md5":"372811cc03ec24dd92109a3b15afed70",
+"legacy_bz2_md5":"e4f3cfa8e4a4c172591c2006852d1fe3",
 "license":"BSD-3-Clause",
 "name":"spaghetti",
 "noarch":"python",
-"sha256":"210dcd901197ddea599d3898b8e9de456c25535ab42b51b98b472477b44907ff",
-"size":43505,
-"timestamp":1609873990962,
-"version":"1.5.6"
+"sha256":"3fe956fe384ff835b0f6e1b95d98ec57c08f834d9a2870da81f321f74d784611",
+"size":44551,
+"timestamp":1623926697563,
+"version":"1.6.0"
 },
-"sparkmagic-0.18.0-pyhd3eb1b0_0.conda":{
+"sparkmagic-0.19.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -19828,6 +23062,8 @@
 "ipykernel",
 "ipython >=4.0.2",
 "ipywidgets >5.0.0",
+"mock",
+"nose",
 "notebook >=4.2",
 "numpy",
 "pandas >=0.17.1",
@@ -19836,14 +23072,14 @@
 "requests-kerberos >=0.8.0",
 "tornado >=4"
 ],
-"legacy_bz2_md5":"633c292e7d816b9547f8fd660c4e2775",
+"legacy_bz2_md5":"ddcf78fde598f5f9a07ebe17a615444d",
 "license":"BSD-3-Clause",
 "name":"sparkmagic",
 "noarch":"python",
-"sha256":"b81ab80b27f88aafb55ed6e40d801f12dfacbce8ef5248c6b237613dae254dda",
-"size":68010,
-"timestamp":1614023453932,
-"version":"0.18.0"
+"sha256":"065af22dcf264ef00ef07cef8e73b5619eee59bf63ac80d9886862d92793abf3",
+"size":71949,
+"timestamp":1623950090284,
+"version":"0.19.0"
 },
 "spglm-1.0.8-py_0.conda":{
 "build":"py_0",
@@ -19864,13 +23100,12 @@
 "timestamp":1599705751072,
 "version":"1.0.8"
 },
-"sphinx-4.0.1-pyhd3eb1b0_0.conda":{
+"sphinx-4.0.2-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "alabaster >=0.7,<0.8",
 "babel >=1.3",
-"colorama >=0.3.5",
 "docutils >=0.14,<0.18",
 "imagesize",
 "jinja2 >=2.3",
@@ -19887,14 +23122,14 @@
 "sphinxcontrib-qthelp",
 "sphinxcontrib-serializinghtml"
 ],
-"legacy_bz2_md5":"62a0806857a4b6fcc7221b230481a64f",
+"legacy_bz2_md5":"5f95c0f7d32c1586dfe44cfa7d57ff9f",
 "license":"BSD-2-Clause",
 "name":"sphinx",
 "noarch":"python",
-"sha256":"84b76510ed3bb2f7a6dd31d5ac023491ddb4ef2781fe9b8ee9faecb88a2cd1b3",
-"size":1223192,
-"timestamp":1620777540839,
-"version":"4.0.1"
+"sha256":"9d63fd966ba5cdf3e6158872cb529cb1e1f81908723309ff76670b2909cc31d0",
+"size":1219699,
+"timestamp":1623884599461,
+"version":"4.0.2"
 },
 "sphinx_rtd_theme-0.4.3-py_0.conda":{
 "build":"py_0",
@@ -19941,20 +23176,20 @@
 "timestamp":1584458745586,
 "version":"1.0.2"
 },
-"sphinxcontrib-htmlhelp-1.0.3-py_0.conda":{
-"build":"py_0",
+"sphinxcontrib-htmlhelp-2.0.0-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"python >=3.5"
+"python >=3.6"
 ],
-"legacy_bz2_md5":"996288dde6e9c712f4cb62a7a02a3e03",
+"legacy_bz2_md5":"753d1a927972d2af1136786d398c571b",
 "license":"BSD-2-Clause",
 "name":"sphinxcontrib-htmlhelp",
 "noarch":"python",
-"sha256":"1dfdb0aa45cf75c3bea029fff98e3d7e28c4a9c47b98df3da8b8b4cefa984340",
-"size":27577,
-"timestamp":1584458685978,
-"version":"1.0.3"
+"sha256":"fed2fc45ac491aa059a129e5b3b63090ab2d23327fd2a68b441a7e5c92a809cd",
+"size":32536,
+"timestamp":1623945673599,
+"version":"2.0.0"
 },
 "sphinxcontrib-jsmath-1.0.1-py_0.conda":{
 "build":"py_0",
@@ -19986,20 +23221,20 @@
 "timestamp":1584458668071,
 "version":"1.0.3"
 },
-"sphinxcontrib-serializinghtml-1.1.4-py_0.conda":{
-"build":"py_0",
+"sphinxcontrib-serializinghtml-1.1.5-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
 "python >=3.5"
 ],
-"legacy_bz2_md5":"e69adc1fdf6a91ade06786ee1b29c337",
+"legacy_bz2_md5":"ac8dcd3879d8a82a3a27c97bb69da6f7",
 "license":"BSD-2-Clause",
 "name":"sphinxcontrib-serializinghtml",
 "noarch":"python",
-"sha256":"7d91dc604f0a8f179ddd465611e324b4d98d3cc6fbd0dd1b38dd9966fc7e09a9",
-"size":24739,
-"timestamp":1584458712731,
-"version":"1.1.4"
+"sha256":"b0dcd6f5a1707742e189a377821e75c1cc73d7859d887b8924832eeb13bd02d4",
+"size":25910,
+"timestamp":1624451586593,
+"version":"1.1.5"
 },
 "sphinxcontrib-websupport-1.2.4-py_0.conda":{
 "build":"py_0",
@@ -20753,35 +23988,20 @@
 "timestamp":1601054319615,
 "version":"0.11.1"
 },
-"tqdm-4.59.0-pyhb85f177_0.conda":{
-"build":"pyhb85f177_0",
-"build_number":0,
-"depends":[
-"python >=2.7"
-],
-"legacy_bz2_md5":"c2def25a9ee9d82b914afdebab4466dc",
-"license":"MPL-2.0 or MIT",
-"name":"tqdm",
-"noarch":"python",
-"sha256":"2b1c954756157ce58e777b5f14e71d1dc66f1907b4d149806bfc2dbde37921ac",
-"size":95566,
-"timestamp":1615811566511,
-"version":"4.59.0"
-},
-"tqdm-4.59.0-pyhd3eb1b0_1.conda":{
+"tqdm-4.61.1-pyhd3eb1b0_1.conda":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
 "python >=2.7"
 ],
-"legacy_bz2_md5":"82f70eaea85442c4693318b1ec58b948",
-"license":"MPL-2.0 or MIT",
+"legacy_bz2_md5":"e82c90e8d0dc6434f0d530949d220ba0",
+"license":"MPL-2.0 AND MIT",
 "name":"tqdm",
 "noarch":"python",
-"sha256":"d83dc7b4efd3cdace518aadc07e3132a9a930e33f10d11083ec9312aca62d41a",
-"size":94919,
-"timestamp":1615925111542,
-"version":"4.59.0"
+"sha256":"ce3e595bccf32b6c53cead4626cb874f343d966ccc8e9b316979b1346993b1db",
+"size":83498,
+"timestamp":1623943410730,
+"version":"4.61.1"
 },
 "traceback2-1.4.0-py_0.conda":{
 "build":"py_0",
@@ -20984,18 +24204,18 @@
 "timestamp":1606162966396,
 "version":"0.6.0"
 },
-"tzdata-2020f-h52ac0ba_0.conda":{
+"tzdata-2021a-h52ac0ba_0.conda":{
 "build":"h52ac0ba_0",
 "build_number":0,
 "depends":[],
-"legacy_bz2_md5":"06b41bad2ca0996e91c75a8707a90c96",
-"license":"LicenseRef-Public-Domain",
+"legacy_bz2_md5":"50004d19422d1020b935226a5a8240b2",
+"license":"LicenseRef-Public-Domain AND BSD-3-clause",
 "name":"tzdata",
 "noarch":"generic",
-"sha256":"6635dd74510ab7c399d43781e866c977d7d715147e942f10a21aed4f00251f80",
-"size":115710,
-"timestamp":1611086516621,
-"version":"2020f"
+"sha256":"022bb682798a8e54302de9ed271306523f5c75c2f394b3931e2c3ae03f7da5ed",
+"size":110833,
+"timestamp":1623996945083,
+"version":"2021a"
 },
 "unidecode-1.2.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
