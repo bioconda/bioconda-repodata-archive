@@ -944,6 +944,28 @@
 "timestamp":1595565709689,
 "version":"2020.07"
 },
+"_go_select-2.2.0-nocgo.tar.bz2":{
+"build":"nocgo",
+"build_number":0,
+"depends":[],
+"license":"BSD-3-Clause",
+"name":"_go_select",
+"sha256":"cfad89eb056c12545f76a165dd6b82ca2b85c9d9fbb00adb2f33bed5e3a26ee3",
+"size":7810,
+"timestamp":1623378404873,
+"version":"2.2.0"
+},
+"_go_select-2.3.0-cgo.tar.bz2":{
+"build":"cgo",
+"build_number":0,
+"depends":[],
+"license":"BSD-3-Clause",
+"name":"_go_select",
+"sha256":"7b8cf293ab7ebc202eddba379b9a4956d11dae1d7350fb0409bbf354530a9014",
+"size":7815,
+"timestamp":1623378537683,
+"version":"2.3.0"
+},
 "_ipyw_jlab_nb_ext_conf-0.1.0-py27_0.tar.bz2":{
 "build":"py27_0",
 "build_number":0,
@@ -18835,7 +18857,7 @@
 "timestamp":1617384403990,
 "version":"2021.4.0"
 },
-"distributed-2021.6.0-py37haa95532_0.tar.bz2":{
+"distributed-2021.6.2-py37haa95532_0.tar.bz2":{
 "build":"py37haa95532_0",
 "build_number":0,
 "constrains":[
@@ -18845,7 +18867,7 @@
 "click >=6.6",
 "cloudpickle >=1.5.0",
 "cytoolz >=0.8.2",
-"dask-core 2021.6.0.*",
+"dask-core 2021.6.2.*",
 "msgpack-python >=0.6.0",
 "psutil >=5.0",
 "python >=3.7,<3.8.0a0",
@@ -18859,12 +18881,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"distributed",
-"sha256":"4af293a9c3b14e3a2477711bf320140ab6653fda93fc1c47df8fad279dc57fc4",
-"size":1230941,
-"timestamp":1623174650689,
-"version":"2021.6.0"
+"sha256":"ea1f1159d9c86331970ed7d49e0639c8f48907680c6dedee3e171c5df486c523",
+"size":1232395,
+"timestamp":1624589522100,
+"version":"2021.6.2"
 },
-"distributed-2021.6.0-py38haa95532_0.tar.bz2":{
+"distributed-2021.6.2-py38haa95532_0.tar.bz2":{
 "build":"py38haa95532_0",
 "build_number":0,
 "constrains":[
@@ -18874,7 +18896,7 @@
 "click >=6.6",
 "cloudpickle >=1.5.0",
 "cytoolz >=0.8.2",
-"dask-core 2021.6.0.*",
+"dask-core 2021.6.2.*",
 "msgpack-python >=0.6.0",
 "psutil >=5.0",
 "python >=3.8,<3.9.0a0",
@@ -18888,12 +18910,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"distributed",
-"sha256":"5415e1ebb4a9d56cb0c776b70b43022c0d56a9fe46a9fa9c06c220c18297cb2e",
-"size":1220724,
-"timestamp":1623174690703,
-"version":"2021.6.0"
+"sha256":"ec15aac23291bbf047fb08b67aa8ea942f3b4cdb7bea30e7d4a7749e7bb6ed55",
+"size":1235667,
+"timestamp":1624589544734,
+"version":"2021.6.2"
 },
-"distributed-2021.6.0-py39haa95532_0.tar.bz2":{
+"distributed-2021.6.2-py39haa95532_0.tar.bz2":{
 "build":"py39haa95532_0",
 "build_number":0,
 "constrains":[
@@ -18903,7 +18925,7 @@
 "click >=6.6",
 "cloudpickle >=1.5.0",
 "cytoolz >=0.8.2",
-"dask-core 2021.6.0.*",
+"dask-core 2021.6.2.*",
 "msgpack-python >=0.6.0",
 "psutil >=5.0",
 "python >=3.9,<3.10.0a0",
@@ -18917,10 +18939,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"distributed",
-"sha256":"4298da27f41d6a4a60c72e4c8b9048036d50b940764911ed9a4082abfd85f044",
-"size":1219011,
-"timestamp":1623174544975,
-"version":"2021.6.0"
+"sha256":"545f9de4906294519dd85de0fd9414a3f7d07c6c014c7e131b0fce5e7f9d6b28",
+"size":1241875,
+"timestamp":1624589517943,
+"version":"2021.6.2"
 },
 "django-2.2.5-py36_0.tar.bz2":{
 "build":"py36_0",
@@ -25198,18 +25220,63 @@
 "timestamp":1607571325084,
 "version":"2.0.8"
 },
-"go-1.11.4-0.tar.bz2":{
-"build":"0",
+"go-1.16.5-h609c964_0.tar.bz2":{
+"build":"h609c964_0",
 "build_number":0,
 "depends":[
-"go_win-64 1.11.4 h2df250f_0"
+"_go_select ==2.2.0 nocgo"
 ],
-"license":"BSD-Style",
+"license":"BSD-3-Clause",
 "name":"go",
-"sha256":"2dfc22cef27ffce844a2a0c39c627ca2be0dc10c1f374f9686af29820d703e10",
-"size":7464,
-"timestamp":1544972600807,
-"version":"1.11.4"
+"sha256":"e0d0eafa43b5a7364014ba85de9dfdb0931626df40f74b339f781b3c75625b1d",
+"size":134055506,
+"timestamp":1623674391243,
+"version":"1.16.5"
+},
+"go-1.16.5-h7c24c4f_0.tar.bz2":{
+"build":"h7c24c4f_0",
+"build_number":0,
+"constrains":[
+"m2w64-toolchain_win-64 >=2.4.0,<3.0a0"
+],
+"depends":[
+"_go_select ==2.3.0 cgo",
+"m2w64-gcc-libs"
+],
+"license":"BSD-3-Clause",
+"name":"go",
+"sha256":"52f1016bd07c7a4500812e9d61dbee26a8bb31e4bc7c3d3b51f2448008880bb0",
+"size":133949891,
+"timestamp":1623660539675,
+"version":"1.16.5"
+},
+"go-cgo-1.16.5-h19bc0db_0.tar.bz2":{
+"build":"h19bc0db_0",
+"build_number":0,
+"depends":[
+"go 1.16.5 h7c24c4f_0",
+"m2w64-toolchain_win-64"
+],
+"license":"BSD-3-Clause",
+"name":"go-cgo",
+"sha256":"801a51b5d8a33dc6c643a0e040abec20f2417e1c1f77a55f0bedcba4c26b4017",
+"size":32729,
+"timestamp":1623660710296,
+"version":"1.16.5"
+},
+"go-cgo_win-64-1.16.5-h4daf49d_0.tar.bz2":{
+"build":"h4daf49d_0",
+"build_number":0,
+"depends":[
+"_go_select ==2.3.0 cgo",
+"go >=1.16.5,<1.16.6.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"go-cgo_win-64",
+"sha256":"b4a4a3dbf4e39bbc3e9a6d7eb03a30208f9cc5ae75195873e889b35d9737a623",
+"size":33530,
+"timestamp":1623660715882,
+"version":"1.16.5"
 },
 "go-core-1.11.4-h65223d6_0.tar.bz2":{
 "build":"h65223d6_0",
@@ -25221,6 +25288,33 @@
 "size":130602136,
 "timestamp":1544971366082,
 "version":"1.11.4"
+},
+"go-nocgo-1.16.5-h26c72ec_0.tar.bz2":{
+"build":"h26c72ec_0",
+"build_number":0,
+"depends":[
+"go 1.16.5 h609c964_0"
+],
+"license":"BSD-3-Clause",
+"name":"go-nocgo",
+"sha256":"d9b347f73ba5b68f5d228992a1f1bc854616dc7aa4128da8525a0609cecff6fc",
+"size":32746,
+"timestamp":1623674559454,
+"version":"1.16.5"
+},
+"go-nocgo_win-64-1.16.5-hf5f9afb_0.tar.bz2":{
+"build":"hf5f9afb_0",
+"build_number":0,
+"depends":[
+"_go_select ==2.2.0 nocgo",
+"go >=1.16.5,<1.16.6.0a0"
+],
+"license":"BSD-3-Clause",
+"name":"go-nocgo_win-64",
+"sha256":"0ea5da07223aa0b4802f1e5b0b790bf36911aa94bc239835ca200684c93a05f3",
+"size":33549,
+"timestamp":1623674565117,
+"version":"1.16.5"
 },
 "go_linux-32-1.11.4-hd1bdc26_0.tar.bz2":{
 "build":"hd1bdc26_0",
@@ -68076,7 +68170,7 @@
 "timestamp":1623278949121,
 "version":"2.0.3"
 },
-"sqlalchemy-1.4.15-py36h2bbff1b_0.tar.bz2":{
+"sqlalchemy-1.4.19-py36h2bbff1b_0.tar.bz2":{
 "build":"py36h2bbff1b_0",
 "build_number":0,
 "depends":[
@@ -68088,12 +68182,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"6e646c9ec963f66d05e7e6bddbc23d17c991a4996b48f6a3f7edfc3666f668b8",
-"size":2354967,
-"timestamp":1620712718587,
-"version":"1.4.15"
+"sha256":"f412847dce435b119ffb7625fd05bbff6f33fc18ce99196d83cb519b6129e463",
+"size":3169631,
+"timestamp":1624590637614,
+"version":"1.4.19"
 },
-"sqlalchemy-1.4.15-py37h2bbff1b_0.tar.bz2":{
+"sqlalchemy-1.4.19-py37h2bbff1b_0.tar.bz2":{
 "build":"py37h2bbff1b_0",
 "build_number":0,
 "depends":[
@@ -68105,12 +68199,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"4c899582df46fa1fa5e4ed0d97f908586a4cbd4028bf25b1682d86f5cc2e57d7",
-"size":2354649,
-"timestamp":1620712690259,
-"version":"1.4.15"
+"sha256":"9f5f0d5dc74a59356308a223e2ba238d55f60e5cee8a861b4cdbe2dc822d09aa",
+"size":3124865,
+"timestamp":1624590640300,
+"version":"1.4.19"
 },
-"sqlalchemy-1.4.15-py38h2bbff1b_0.tar.bz2":{
+"sqlalchemy-1.4.19-py38h2bbff1b_0.tar.bz2":{
 "build":"py38h2bbff1b_0",
 "build_number":0,
 "depends":[
@@ -68121,12 +68215,12 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"2a043da9f123bbc1850f6658cd683ef125fc66ba20a0e3dcfc89073813a190ca",
-"size":2370150,
-"timestamp":1620712718362,
-"version":"1.4.15"
+"sha256":"02f75c714a3beb64422fe1735f8bf0dcbf94f6978ef92d8af51cb1c3939dd3f7",
+"size":3045341,
+"timestamp":1624590642002,
+"version":"1.4.19"
 },
-"sqlalchemy-1.4.15-py39h2bbff1b_0.tar.bz2":{
+"sqlalchemy-1.4.19-py39h2bbff1b_0.tar.bz2":{
 "build":"py39h2bbff1b_0",
 "build_number":0,
 "depends":[
@@ -68137,10 +68231,10 @@
 ],
 "license":"MIT",
 "name":"sqlalchemy",
-"sha256":"b23574d81d7dc68b435138ec63bd2f85c1268523252cfe5706e2052d4de96a0e",
-"size":2367063,
-"timestamp":1620712710334,
-"version":"1.4.15"
+"sha256":"413a6b6434a9d5ecc2040d60838463b6a5de4e786474b4ca003b045fbcdf03b3",
+"size":2382052,
+"timestamp":1624590619464,
+"version":"1.4.19"
 },
 "sqlalchemy-1.4.7-py36h2bbff1b_0.tar.bz2":{
 "build":"py36h2bbff1b_0",
@@ -68298,6 +68392,20 @@
 "size":1242941,
 "timestamp":1617396952006,
 "version":"3.35.4"
+},
+"sqlite-3.36.0-h2bbff1b_0.tar.bz2":{
+"build":"h2bbff1b_0",
+"build_number":0,
+"depends":[
+"vc >=14.1,<15.0a0",
+"vs2015_runtime >=14.16.27012,<15.0a0"
+],
+"license":"Public-Domain (http://www.sqlite.org/copyright.html)",
+"name":"sqlite",
+"sha256":"d9cc90ab9b7f1a7e439c249a006bce85f11086498c31c336768a9f4419a48097",
+"size":1257509,
+"timestamp":1624470657977,
+"version":"3.36.0"
 },
 "sqlparse-0.2.4-py27_0.tar.bz2":{
 "build":"py27_0",
