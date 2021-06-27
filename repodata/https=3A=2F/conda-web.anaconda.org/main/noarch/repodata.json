@@ -6891,6 +6891,25 @@
 "timestamp":1613603538517,
 "version":"1.17.9"
 },
+"boto3-1.17.97-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"botocore >=1.20.97,<1.21.0",
+"jmespath >=0.7.1,<1.0.0",
+"python",
+"s3transfer >=0.4.0,<0.5.0"
+],
+"license":"Apache-2.0",
+"name":"boto3",
+"noarch":"python",
+"requires":[],
+"sha256":"f874a0feb940b99a6e8a8011f841d5d7e1f87be4fce802af16b28725e4933d45",
+"size":72130,
+"source_url":"http://repo.continuum.io/pkgs/main/noarch/boto3-1.17.97-pyhd3eb1b0_0.tar.bz2",
+"timestamp":1624558649304,
+"version":"1.17.97"
+},
 "boto3-1.9.111-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -11021,6 +11040,22 @@
 "source_url":"http://repo.continuum.io/pkgs/main/noarch/cgroupspy-0.1.6-py_0.tar.bz2",
 "timestamp":1592512765792,
 "version":"0.1.6"
+},
+"cgroupspy-0.2.1-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python"
+],
+"license":"BSD-3-Clause",
+"name":"cgroupspy",
+"noarch":"python",
+"requires":[],
+"sha256":"b37cd279bcf2c8dbd0f58ca3f9bc23819ff98bf67e008537f7ca8770ef6ca633",
+"size":16867,
+"source_url":"http://repo.continuum.io/pkgs/main/noarch/cgroupspy-0.2.1-pyhd3eb1b0_0.tar.bz2",
+"timestamp":1624615942863,
+"version":"0.2.1"
 },
 "chainer-6.3.0-py_0.tar.bz2":{
 "build":"py_0",
@@ -15885,6 +15920,56 @@
 "source_url":"http://repo.continuum.io/pkgs/main/noarch/dask-2021.6.0-pyhd3eb1b0_0.tar.bz2",
 "timestamp":1623186438596,
 "version":"2021.6.0"
+},
+"dask-2021.6.1-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"constrains":[
+"openssl !=1.1.1e"
+],
+"depends":[
+"bokeh >=1.0.0,!=2.0.0",
+"cytoolz >=0.8.2",
+"dask-core 2021.6.1.*",
+"distributed 2021.6.1.*",
+"numpy >=1.16",
+"pandas >=0.25.0",
+"python >=3.7"
+],
+"license":"BSD-3-Clause",
+"name":"dask",
+"noarch":"python",
+"requires":[],
+"sha256":"adfb7e4009160fea6f28cc88cf13fce6e9d6e9b0fc1f89352ada071f5fe64cce",
+"size":4467,
+"source_url":"http://repo.continuum.io/pkgs/main/noarch/dask-2021.6.1-pyhd3eb1b0_0.tar.bz2",
+"timestamp":1624589258629,
+"version":"2021.6.1"
+},
+"dask-2021.6.2-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"constrains":[
+"openssl !=1.1.1e"
+],
+"depends":[
+"bokeh >=1.0.0,!=2.0.0",
+"cytoolz >=0.8.2",
+"dask-core 2021.6.2.*",
+"distributed 2021.6.2.*",
+"numpy >=1.16",
+"pandas >=0.25.0",
+"python >=3.7"
+],
+"license":"BSD-3-Clause",
+"name":"dask",
+"noarch":"python",
+"requires":[],
+"sha256":"e05f90051ed170479bee5d06d78532d31578d31b563819965da2a4dc2a782ac8",
+"size":4465,
+"source_url":"http://repo.continuum.io/pkgs/main/noarch/dask-2021.6.2-pyhd3eb1b0_0.tar.bz2",
+"timestamp":1624624298481,
+"version":"2021.6.2"
 },
 "dask-core-1.1.1-py_0.tar.bz2":{
 "build":"py_0",
@@ -25907,6 +25992,24 @@
 "size":119591,
 "source_url":"http://repo.continuum.io/pkgs/main/noarch/gitpython-3.1.18-pyhd3eb1b0_0.tar.bz2",
 "timestamp":1624366155504,
+"version":"3.1.18"
+},
+"gitpython-3.1.18-pyhd3eb1b0_1.tar.bz2":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"gitdb >=4.0.1,<5",
+"python >=3.5",
+"typing-extensions >=3.7.4.0"
+],
+"license":"BSD-3-Clause",
+"name":"gitpython",
+"noarch":"python",
+"requires":[],
+"sha256":"3788d8f2d71b86ef7ed6185a650c40c799fc6a929b1db991fec4e52581782caf",
+"size":117770,
+"source_url":"http://repo.continuum.io/pkgs/main/noarch/gitpython-3.1.18-pyhd3eb1b0_1.tar.bz2",
+"timestamp":1624609519247,
 "version":"3.1.18"
 },
 "gitpython-3.1.3-py_1.tar.bz2":{
@@ -37350,6 +37453,24 @@
 "source_url":"http://repo.continuum.io/pkgs/main/noarch/libcom_err-devel-amzn2-aarch64-1.42.9-5.tar.bz2",
 "timestamp":1620062393628,
 "version":"1.42.9"
+},
+"libcroco-amzn2-aarch64-0.6.12-5.tar.bz2":{
+"build":"5",
+"build_number":5,
+"depends":[
+"glib2-amzn2-aarch64 2.56.1",
+"glibc-amzn2-aarch64 2.26",
+"libxml2-amzn2-aarch64 2.9.1"
+],
+"license":"LGPLv2",
+"name":"libcroco-amzn2-aarch64",
+"noarch":"generic",
+"requires":[],
+"sha256":"49f3e400e2725bfdda3a4efc8b6e8d612f3ab54e85fc8b0798c5c9ad24e15cad",
+"size":117421,
+"source_url":"http://repo.continuum.io/pkgs/main/noarch/libcroco-amzn2-aarch64-0.6.12-5.tar.bz2",
+"timestamp":1620062000953,
+"version":"0.6.12"
 },
 "libcrypt-amzn2-aarch64-2.26-5.tar.bz2":{
 "build":"5",
