@@ -2234,6 +2234,19 @@
 "timestamp":1624112112781,
 "version":"0.2.4"
 },
+"antlr-4.9.2_1-hce30654_0.tar.bz2":{
+"build":"hce30654_0",
+"build_number":0,
+"depends":[
+"openjdk"
+],
+"license":"BSD-3-Clause",
+"name":"antlr",
+"sha256":"d2f67fdec938837cda84092912e41753a5074e303b0cc87b0de2cb9706adc3a5",
+"size":2134762,
+"timestamp":1624803915467,
+"version":"4.9.2_1"
+},
 "antlr-python-runtime-4.7.2-py38h10201cd_1002.tar.bz2":{
 "build":"py38h10201cd_1002",
 "build_number":1002,
@@ -13553,6 +13566,22 @@
 "sha256":"4fcc5927c8515f9823b7b511d433984253713058d78104a6737495f55d58eb8e",
 "size":45443,
 "timestamp":1624667207791,
+"version":"0.1.21"
+},
+"aws-c-s3-0.1.21-he364a8d_1.tar.bz2":{
+"build":"he364a8d_1",
+"build_number":1,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-common >=0.6.4,<0.6.5.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.5,<0.10.6.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-s3",
+"sha256":"00c1c6f05ff0103dfb65d875d10f251d9261d555f8df53f549cc9c1b568e72cf",
+"size":45452,
+"timestamp":1624761858931,
 "version":"0.1.21"
 },
 "aws-checksums-0.1.10-h2b027d1_0.tar.bz2":{
@@ -49409,6 +49438,36 @@
 "size":32209,
 "timestamp":1622775731462,
 "version":"4.5.0"
+},
+"importlib-metadata-4.6.0-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"zipp >=0.5"
+],
+"license":"Apache-2.0",
+"name":"importlib-metadata",
+"sha256":"84e69cc94bebe6b60b9b722dd8765dc0d45466ef02ab4fa67bf9a7ec21dd4772",
+"size":32239,
+"timestamp":1624799648605,
+"version":"4.6.0"
+},
+"importlib-metadata-4.6.0-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"zipp >=0.5"
+],
+"license":"Apache-2.0",
+"name":"importlib-metadata",
+"sha256":"e3d522fe11f6dfd69ef4848c11b465485745fc8e6bdc989621887abbcb9d3771",
+"size":32225,
+"timestamp":1624799646661,
+"version":"4.6.0"
 },
 "importlib_resources-5.1.2-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
@@ -102061,6 +102120,38 @@
 "timestamp":1618339103527,
 "version":"3.5.67"
 },
+"reportlab-3.5.68-py38h1ca7581_0.tar.bz2":{
+"build":"py38h1ca7581_0",
+"build_number":0,
+"depends":[
+"freetype >=2.10.4,<3.0a0",
+"pillow >=2.4.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD 3-Clause",
+"name":"reportlab",
+"sha256":"9d0ec659dc764c5d0ab382169e004bf86af804c4f9361eae03b7372b27d0cf0c",
+"size":2538657,
+"timestamp":1624793219893,
+"version":"3.5.68"
+},
+"reportlab-3.5.68-py39h3fc2f6e_0.tar.bz2":{
+"build":"py39h3fc2f6e_0",
+"build_number":0,
+"depends":[
+"freetype >=2.10.4,<3.0a0",
+"pillow >=2.4.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD 3-Clause",
+"name":"reportlab",
+"sha256":"3e5ecc22b696630f1e4762b37a9129389799f7aba82640858209eeb3af88e5d1",
+"size":2546375,
+"timestamp":1624793210540,
+"version":"3.5.68"
+},
 "reproc-14.2.0-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
 "build_number":0,
@@ -107988,6 +108079,48 @@
 "size":18990667,
 "timestamp":1619563098299,
 "version":"1.6.3"
+},
+"scipy-1.7.0-py38hd0c9ec0_0.tar.bz2":{
+"build":"py38hd0c9ec0_0",
+"build_number":0,
+"depends":[
+"libblas >=3.9.0,<4.0a0",
+"libcblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"liblapack >=3.9.0,<4.0a0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-3-Clause",
+"name":"scipy",
+"sha256":"9264f6e218fc4504db5c3a4d71a53a53f396f78961ce8086119783a7c5af3386",
+"size":20104294,
+"timestamp":1624826208263,
+"version":"1.7.0"
+},
+"scipy-1.7.0-py39h5060c3b_0.tar.bz2":{
+"build":"py39h5060c3b_0",
+"build_number":0,
+"depends":[
+"libblas >=3.9.0,<4.0a0",
+"libcblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"liblapack >=3.9.0,<4.0a0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-3-Clause",
+"name":"scipy",
+"sha256":"7c4b07c3707f896a6d59997671f69cad21d19cfa6fd091f80f47fc55a17846fd",
+"size":20240290,
+"timestamp":1624826158836,
+"version":"1.7.0"
 },
 "scitokens-cpp-0.6.2-h716ea93_1.tar.bz2":{
 "build":"h716ea93_1",
