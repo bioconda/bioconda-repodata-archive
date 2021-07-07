@@ -13277,17 +13277,17 @@
 "timestamp":1618348422167,
 "version":"2021.4.13"
 },
-"ca-certificates-2021.5.25-h06a4308_1.conda":{
+"ca-certificates-2021.7.5-h06a4308_1.conda":{
 "build":"h06a4308_1",
 "build_number":1,
 "depends":[],
-"legacy_bz2_md5":"068ad52c49286e986574ba544d9f4c50",
+"legacy_bz2_md5":"a5b14ae6530b92eb40e59709e9bd7c8a",
 "license":"MPL 2.0",
 "name":"ca-certificates",
-"sha256":"6f88ed7629479ae99fb8b75a64aaf46a12a445e981f2c9353a8f3128b944ee1a",
-"size":114222,
-"timestamp":1621995548182,
-"version":"2021.5.25"
+"sha256":"62ce49d5262991b1d2ad46e47b2ea53c793c65f98d4c210bbf17a89a25d837ae",
+"size":115448,
+"timestamp":1625555175911,
+"version":"2021.7.5"
 },
 "cachecontrol-0.12.5-py27_0.conda":{
 "build":"py27_0",
@@ -32352,24 +32352,24 @@
 "timestamp":1590596211313,
 "version":"1.5.1"
 },
-"geotiff-1.6.0-h21e8280_0.conda":{
-"build":"h21e8280_0",
+"geotiff-1.7.0-hd69d5b1_0.conda":{
+"build":"hd69d5b1_0",
 "build_number":0,
 "depends":[
 "jpeg >=9b,<10a",
-"libgcc-ng >=7.3.0",
-"libstdcxx-ng >=7.3.0",
+"libgcc-ng >=7.5.0",
+"libstdcxx-ng >=7.5.0",
 "libtiff >=4.1.0,<5.0a0",
 "proj >=6.2.1,<6.2.2.0a0",
-"zlib >=1.2.11,<1.3.0a0"
+"zlib"
 ],
-"legacy_bz2_md5":"4deca3ba1690c3050f75a30d060e7b78",
+"legacy_bz2_md5":"0be412b39ea3969b79829a2556698416",
 "license":"MIT",
 "name":"geotiff",
-"sha256":"f9a0bf81c68e46812720ac2b8946e0086c556f302026d8319736b3a4f0957378",
-"size":245197,
-"timestamp":1596829845039,
-"version":"1.6.0"
+"sha256":"a544607e1e510a27f7272cafc328635a95d37233817d79805003cd2718b76fcd",
+"size":241206,
+"timestamp":1625555192147,
+"version":"1.7.0"
 },
 "geoviews-1.5.1-py27_0.conda":{
 "build":"py27_0",
@@ -60499,6 +60499,66 @@
 "timestamp":1607024979439,
 "version":"2.3.5"
 },
+"pathlib2-2.3.6-py36h06a4308_2.conda":{
+"build":"py36h06a4308_2",
+"build_number":2,
+"depends":[
+"python >=3.6,<3.7.0a0",
+"six"
+],
+"legacy_bz2_md5":"5c655604083b15660117cdf6fc9a6d7c",
+"license":"MIT",
+"name":"pathlib2",
+"sha256":"06fad5f2bd181db73d7d70ad9b89d6aba08a1c4cccf3f02b05c18dd3f7a30d9f",
+"size":36897,
+"timestamp":1625585351481,
+"version":"2.3.6"
+},
+"pathlib2-2.3.6-py37h06a4308_2.conda":{
+"build":"py37h06a4308_2",
+"build_number":2,
+"depends":[
+"python >=3.7,<3.8.0a0",
+"six"
+],
+"legacy_bz2_md5":"4ad3717b7a12555ce1c58f92b48a52f7",
+"license":"MIT",
+"name":"pathlib2",
+"sha256":"2f0c5a84fdcc7163abd0cf101db08c3748b5e76a7101a81369cf6f8a7f68002b",
+"size":36926,
+"timestamp":1625578972879,
+"version":"2.3.6"
+},
+"pathlib2-2.3.6-py38h06a4308_2.conda":{
+"build":"py38h06a4308_2",
+"build_number":2,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"six"
+],
+"legacy_bz2_md5":"f440a4ab7cc33800d5ba02e2da97ba17",
+"license":"MIT",
+"name":"pathlib2",
+"sha256":"fb7505507d99517970d86ac683cfc2ed8ce3b14b6edd37ecc4c0ce4aa0f89242",
+"size":36662,
+"timestamp":1625585703464,
+"version":"2.3.6"
+},
+"pathlib2-2.3.6-py39h06a4308_2.conda":{
+"build":"py39h06a4308_2",
+"build_number":2,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"six"
+],
+"legacy_bz2_md5":"ed4c4255931d5100856615b3e9577f11",
+"license":"MIT",
+"name":"pathlib2",
+"sha256":"b78590930eff43ad023a07ff7a1a724a2dae32e07fe03218a25477d0ee1da7be",
+"size":36702,
+"timestamp":1625585724675,
+"version":"2.3.6"
+},
 "patsy-0.5.1-py27_0.conda":{
 "build":"py27_0",
 "build_number":0,
@@ -78006,6 +78066,84 @@
 "size":33260706,
 "timestamp":1622205443762,
 "version":"1.7.1"
+},
+"pytorch-1.8.1-cpu_py37h60491be_0.conda":{
+"build":"cpu_py37h60491be_0",
+"build_number":0,
+"depends":[
+"_openmp_mutex",
+"_pytorch_select 0.1",
+"blas 1.0 mkl",
+"cffi",
+"libgcc-ng >=7.5.0",
+"libmklml",
+"libstdcxx-ng >=7.5.0",
+"mkl 2020.*",
+"mkl >=2020.2,<2021.0a0",
+"ninja",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"typing-extensions"
+],
+"legacy_bz2_md5":"f5d07157f057b6132c7a1d49aae5cecb",
+"license":"BSD-3-Clause",
+"name":"pytorch",
+"sha256":"c883a91e93062c9f9f49e51e0226d9fc757d386afa075968239f3d39acedc8a7",
+"size":36887850,
+"timestamp":1625261980653,
+"version":"1.8.1"
+},
+"pytorch-1.8.1-cpu_py38h60491be_0.conda":{
+"build":"cpu_py38h60491be_0",
+"build_number":0,
+"depends":[
+"_openmp_mutex",
+"_pytorch_select 0.1",
+"blas 1.0 mkl",
+"cffi",
+"libgcc-ng >=7.5.0",
+"libmklml",
+"libstdcxx-ng >=7.5.0",
+"mkl 2020.*",
+"mkl >=2020.2,<2021.0a0",
+"ninja",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"typing-extensions"
+],
+"legacy_bz2_md5":"b48fe3de435c2e9e40d83daca14c4df3",
+"license":"BSD-3-Clause",
+"name":"pytorch",
+"sha256":"ad4497bbd7cd18c8db8d252f6dd1ac08d6b62bc5c848cf6702883f5da0050c54",
+"size":37351535,
+"timestamp":1625255587986,
+"version":"1.8.1"
+},
+"pytorch-1.8.1-cpu_py39h60491be_0.conda":{
+"build":"cpu_py39h60491be_0",
+"build_number":0,
+"depends":[
+"_openmp_mutex",
+"_pytorch_select 0.1",
+"blas 1.0 mkl",
+"cffi",
+"libgcc-ng >=7.5.0",
+"libmklml",
+"libstdcxx-ng >=7.5.0",
+"mkl 2020.*",
+"mkl >=2020.2,<2021.0a0",
+"ninja",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"typing-extensions"
+],
+"legacy_bz2_md5":"f04b71fc2279637aa2b31244999c5b00",
+"license":"BSD-3-Clause",
+"name":"pytorch",
+"sha256":"08acb8ac6848da4775d6cdb1faea5c103eb066f3bceabe5a048e0203fd08ccc6",
+"size":37968944,
+"timestamp":1625262053780,
+"version":"1.8.1"
 },
 "pytorch-cpu-1.3.1-0.conda":{
 "build":"0",

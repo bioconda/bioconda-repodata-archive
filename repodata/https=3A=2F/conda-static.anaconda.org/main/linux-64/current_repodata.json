@@ -12181,16 +12181,16 @@
 "timestamp":1618348422167,
 "version":"2021.4.13"
 },
-"ca-certificates-2021.5.25-h06a4308_1.tar.bz2":{
+"ca-certificates-2021.7.5-h06a4308_1.tar.bz2":{
 "build":"h06a4308_1",
 "build_number":1,
 "depends":[],
 "license":"MPL 2.0",
 "name":"ca-certificates",
-"sha256":"0350a857d969478805dc68f12af2094bba3e527c1b00e5ab17e36615242fdc13",
-"size":120366,
-"timestamp":1621995548182,
-"version":"2021.5.25"
+"sha256":"74ebcc5864f7e83ec533b35361d54ee3b1480043b9a80a746b51963ca12c2266",
+"size":121771,
+"timestamp":1625555175911,
+"version":"2021.7.5"
 },
 "cachecontrol-0.12.5-py27_0.tar.bz2":{
 "build":"py27_0",
@@ -30318,23 +30318,23 @@
 "timestamp":1590596211313,
 "version":"1.5.1"
 },
-"geotiff-1.6.0-h21e8280_0.tar.bz2":{
-"build":"h21e8280_0",
+"geotiff-1.7.0-hd69d5b1_0.tar.bz2":{
+"build":"hd69d5b1_0",
 "build_number":0,
 "depends":[
 "jpeg >=9b,<10a",
-"libgcc-ng >=7.3.0",
-"libstdcxx-ng >=7.3.0",
+"libgcc-ng >=7.5.0",
+"libstdcxx-ng >=7.5.0",
 "libtiff >=4.1.0,<5.0a0",
 "proj >=6.2.1,<6.2.2.0a0",
-"zlib >=1.2.11,<1.3.0a0"
+"zlib"
 ],
 "license":"MIT",
 "name":"geotiff",
-"sha256":"cc1194e940c81690136696285afd627a69424592421255ba0d1265d260c50a09",
-"size":292317,
-"timestamp":1596829845039,
-"version":"1.6.0"
+"sha256":"27f153e921dd9adae169043ffdca3903ad98344bde7c3e8ab8c771f2b4d116a0",
+"size":284741,
+"timestamp":1625555192147,
+"version":"1.7.0"
 },
 "geoviews-1.5.1-py27_0.tar.bz2":{
 "build":"py27_0",
@@ -56905,6 +56905,62 @@
 "timestamp":1607024979439,
 "version":"2.3.5"
 },
+"pathlib2-2.3.6-py36h06a4308_2.tar.bz2":{
+"build":"py36h06a4308_2",
+"build_number":2,
+"depends":[
+"python >=3.6,<3.7.0a0",
+"six"
+],
+"license":"MIT",
+"name":"pathlib2",
+"sha256":"3f6c02cc5257b670e2dd70f99b9ad9b53d3b42ae03b311803eb5dbb6bb2d13f2",
+"size":36173,
+"timestamp":1625585351481,
+"version":"2.3.6"
+},
+"pathlib2-2.3.6-py37h06a4308_2.tar.bz2":{
+"build":"py37h06a4308_2",
+"build_number":2,
+"depends":[
+"python >=3.7,<3.8.0a0",
+"six"
+],
+"license":"MIT",
+"name":"pathlib2",
+"sha256":"c570cfe09b59d7b849532719b540c00183198eea9a2a1f3afe4de3f4740b4da2",
+"size":36212,
+"timestamp":1625578972879,
+"version":"2.3.6"
+},
+"pathlib2-2.3.6-py38h06a4308_2.tar.bz2":{
+"build":"py38h06a4308_2",
+"build_number":2,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"six"
+],
+"license":"MIT",
+"name":"pathlib2",
+"sha256":"2dafbcc40c74dbf09db3b25bceb024afd89296cac44a0227d2475b01467d2924",
+"size":36398,
+"timestamp":1625585703464,
+"version":"2.3.6"
+},
+"pathlib2-2.3.6-py39h06a4308_2.tar.bz2":{
+"build":"py39h06a4308_2",
+"build_number":2,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"six"
+],
+"license":"MIT",
+"name":"pathlib2",
+"sha256":"5f9b52c55375d4541485591fe2f43fdd448f46f0349272c6eb972e67d4d6d684",
+"size":36425,
+"timestamp":1625585724675,
+"version":"2.3.6"
+},
 "patsy-0.5.1-py27_0.tar.bz2":{
 "build":"py27_0",
 "build_number":0,
@@ -73507,6 +73563,81 @@
 "size":41691329,
 "timestamp":1622205443762,
 "version":"1.7.1"
+},
+"pytorch-1.8.1-cpu_py37h60491be_0.tar.bz2":{
+"build":"cpu_py37h60491be_0",
+"build_number":0,
+"depends":[
+"_openmp_mutex",
+"_pytorch_select 0.1",
+"blas 1.0 mkl",
+"cffi",
+"libgcc-ng >=7.5.0",
+"libmklml",
+"libstdcxx-ng >=7.5.0",
+"mkl 2020.*",
+"mkl >=2020.2,<2021.0a0",
+"ninja",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.7,<3.8.0a0",
+"typing-extensions"
+],
+"license":"BSD-3-Clause",
+"name":"pytorch",
+"sha256":"429986301db3e1a8da420f5ef4a9ea6f54aad710dbd315d5dbc7cd2cd288e701",
+"size":47446510,
+"timestamp":1625261980653,
+"version":"1.8.1"
+},
+"pytorch-1.8.1-cpu_py38h60491be_0.tar.bz2":{
+"build":"cpu_py38h60491be_0",
+"build_number":0,
+"depends":[
+"_openmp_mutex",
+"_pytorch_select 0.1",
+"blas 1.0 mkl",
+"cffi",
+"libgcc-ng >=7.5.0",
+"libmklml",
+"libstdcxx-ng >=7.5.0",
+"mkl 2020.*",
+"mkl >=2020.2,<2021.0a0",
+"ninja",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"typing-extensions"
+],
+"license":"BSD-3-Clause",
+"name":"pytorch",
+"sha256":"b45fdc6573afe16cfb1a29c2dde7ba4c3ac250073fff32a96c4bd37c8ce0003a",
+"size":47548254,
+"timestamp":1625255587986,
+"version":"1.8.1"
+},
+"pytorch-1.8.1-cpu_py39h60491be_0.tar.bz2":{
+"build":"cpu_py39h60491be_0",
+"build_number":0,
+"depends":[
+"_openmp_mutex",
+"_pytorch_select 0.1",
+"blas 1.0 mkl",
+"cffi",
+"libgcc-ng >=7.5.0",
+"libmklml",
+"libstdcxx-ng >=7.5.0",
+"mkl 2020.*",
+"mkl >=2020.2,<2021.0a0",
+"ninja",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"typing-extensions"
+],
+"license":"BSD-3-Clause",
+"name":"pytorch",
+"sha256":"95a1c476dc5ede247e7fcffe65d51c4a1d6ebaba3a870634c6533afa3e5da17d",
+"size":47523714,
+"timestamp":1625262053780,
+"version":"1.8.1"
 },
 "pytorch-cpu-1.3.1-0.tar.bz2":{
 "build":"0",
