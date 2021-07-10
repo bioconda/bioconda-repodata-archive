@@ -11619,6 +11619,70 @@
 "timestamp":1613247595008,
 "version":"1.14.5"
 },
+"cffi-1.14.6-py36h2bbff1b_0.tar.bz2":{
+"build":"py36h2bbff1b_0",
+"build_number":0,
+"depends":[
+"pycparser >=2.06",
+"python >=3.6,<3.7.0a0",
+"vc >=14.1,<15.0a0",
+"vs2015_runtime >=14.16.27012,<15.0a0"
+],
+"license":"MIT",
+"name":"cffi",
+"sha256":"33e03a6f9ed4f23753ac071b93c0c1ceb8c9362c09aea130414137d0e29a47a3",
+"size":231770,
+"timestamp":1625831835250,
+"version":"1.14.6"
+},
+"cffi-1.14.6-py37h2bbff1b_0.tar.bz2":{
+"build":"py37h2bbff1b_0",
+"build_number":0,
+"depends":[
+"pycparser >=2.06",
+"python >=3.7,<3.8.0a0",
+"vc >=14.1,<15.0a0",
+"vs2015_runtime >=14.16.27012,<15.0a0"
+],
+"license":"MIT",
+"name":"cffi",
+"sha256":"a1a4f08917683dad155005e10eac7f37e70630ee41277de1cd84787b0a9cd851",
+"size":232044,
+"timestamp":1625831839897,
+"version":"1.14.6"
+},
+"cffi-1.14.6-py38h2bbff1b_0.tar.bz2":{
+"build":"py38h2bbff1b_0",
+"build_number":0,
+"depends":[
+"pycparser >=2.06",
+"python >=3.8,<3.9.0a0",
+"vc >=14.1,<15.0a0",
+"vs2015_runtime >=14.16.27012,<15.0a0"
+],
+"license":"MIT",
+"name":"cffi",
+"sha256":"0679836006f81edad60c3596c7ca205cfb41d2d20f50cbeffd89ef57b7cc0aa9",
+"size":234073,
+"timestamp":1625831824048,
+"version":"1.14.6"
+},
+"cffi-1.14.6-py39h2bbff1b_0.tar.bz2":{
+"build":"py39h2bbff1b_0",
+"build_number":0,
+"depends":[
+"pycparser >=2.06",
+"python >=3.9,<3.10.0a0",
+"vc >=14.1,<15.0a0",
+"vs2015_runtime >=14.16.27012,<15.0a0"
+],
+"license":"MIT",
+"name":"cffi",
+"sha256":"d47fd84797ab3e708ec92624149d62f810f652e0aa529ada54e580902176733c",
+"size":234458,
+"timestamp":1625831833903,
+"version":"1.14.6"
+},
 "cfitsio-3.470-he774522_2.tar.bz2":{
 "build":"he774522_2",
 "build_number":2,
@@ -24862,264 +24926,38 @@
 "timestamp":1528986596376,
 "version":"4.65"
 },
-"glue-core-0.15.6-py27_0.tar.bz2":{
-"build":"py27_0",
-"build_number":0,
+"glue-core-1.0.1-py39haa95532_1.tar.bz2":{
+"build":"py39haa95532_1",
+"build_number":1,
 "depends":[
-"astropy >=2.0",
+"astropy >=4.0",
 "bottleneck >=1.2",
-"dask",
 "dill >=0.2",
-"h5py >=2.4",
-"ipykernel",
+"echo >=0.5",
+"h5py >=2.10",
+"ipykernel >=4.0,!=5.0.0,!=5.1.0",
 "ipython >=4.0",
-"matplotlib >=2.0",
-"mpl-scatter-density >=0.4",
-"numpy >=1.9",
-"pandas >=0.14",
+"jupyter_client <7",
+"matplotlib >=3.2",
+"mpl-scatter-density >=0.7",
+"numpy >=1.16",
+"pandas >=1.0",
+"pillow !=7.1.0",
 "plotly",
-"pyqt >=5.6,<6.0a0",
-"python >=2.7,<2.8.0a0",
-"qtconsole",
-"qtpy >=1.2",
-"scikit-image",
-"scipy",
-"setuptools >=1.0",
-"xlrd >=1.0"
-],
-"license":"BSD 3-Clause",
-"name":"glue-core",
-"sha256":"a570cbf9c550b65fed0d5e744791b6df55cf9773795b99ba0dfaa629b80b2dd0",
-"size":1759700,
-"timestamp":1568317068655,
-"version":"0.15.6"
-},
-"glue-core-0.15.6-py36_0.tar.bz2":{
-"build":"py36_0",
-"build_number":0,
-"depends":[
-"astropy >=2.0",
-"bottleneck >=1.2",
-"dask",
-"dill >=0.2",
-"h5py >=2.4",
-"ipykernel",
-"ipython >=4.0",
-"matplotlib >=2.0",
-"mpl-scatter-density >=0.4",
-"numpy >=1.9",
-"pandas >=0.14",
-"plotly",
-"pyqt >=5.6,<6.0a0",
-"pyqt >=5.9.2,<5.10.0a0",
-"python >=3.6,<3.7.0a0",
-"qtconsole",
-"qtpy >=1.2",
-"scikit-image",
-"scipy",
-"setuptools >=1.0",
-"xlrd >=1.0"
-],
-"license":"BSD 3-Clause",
-"name":"glue-core",
-"sha256":"d00be2030060050cb44fbcbfd779ede5313e3a5b2b464c61685661fd8f179d1e",
-"size":1764925,
-"timestamp":1568317683620,
-"version":"0.15.6"
-},
-"glue-core-0.15.6-py36haa95532_0.tar.bz2":{
-"build":"py36haa95532_0",
-"build_number":0,
-"depends":[
-"astropy >=2.0",
-"bottleneck >=1.2",
-"dask",
-"dill >=0.2",
-"h5py >=2.4",
-"ipykernel",
-"ipython >=4.0",
-"matplotlib >=2.0",
-"mpl-scatter-density >=0.4",
-"numpy >=1.9",
-"pandas >=0.14",
-"plotly",
-"pyqt >=5.6,<6.0a0",
-"python >=3.6,<3.7.0a0",
-"qtconsole",
-"qtpy >=1.2",
-"scikit-image",
-"scipy",
-"setuptools >=1.0",
-"xlrd >=1.0"
-],
-"license":"BSD 3-Clause",
-"name":"glue-core",
-"sha256":"cdac2919822e5567616e0578d7b1bd27fe5a955f74454fe0cc55eb63f6e4f5e8",
-"size":1763741,
-"timestamp":1614167071930,
-"version":"0.15.6"
-},
-"glue-core-0.15.6-py37_0.tar.bz2":{
-"build":"py37_0",
-"build_number":0,
-"depends":[
-"astropy >=2.0",
-"bottleneck >=1.2",
-"dask",
-"dill >=0.2",
-"h5py >=2.4",
-"ipykernel",
-"ipython >=4.0",
-"matplotlib >=2.0",
-"mpl-scatter-density >=0.4",
-"numpy >=1.9",
-"pandas >=0.14",
-"plotly",
-"pyqt >=5.6,<6.0a0",
-"pyqt >=5.9.2,<5.10.0a0",
-"python >=3.7,<3.8.0a0",
-"qtconsole",
-"qtpy >=1.2",
-"scikit-image",
-"scipy",
-"setuptools >=1.0",
-"xlrd >=1.0"
-],
-"license":"BSD 3-Clause",
-"name":"glue-core",
-"sha256":"c2700e25a420fc93cb83e2f7042a23fe405a1d6a7ae9e3d0c3b3a5d6888a02f9",
-"size":1759808,
-"timestamp":1568316852946,
-"version":"0.15.6"
-},
-"glue-core-0.15.6-py37haa95532_0.tar.bz2":{
-"build":"py37haa95532_0",
-"build_number":0,
-"depends":[
-"astropy >=2.0",
-"bottleneck >=1.2",
-"dask",
-"dill >=0.2",
-"h5py >=2.4",
-"ipykernel",
-"ipython >=4.0",
-"matplotlib >=2.0",
-"mpl-scatter-density >=0.4",
-"numpy >=1.9",
-"pandas >=0.14",
-"plotly",
-"pyqt >=5.6,<6.0a0",
-"python >=3.7,<3.8.0a0",
-"qtconsole",
-"qtpy >=1.2",
-"scikit-image",
-"scipy",
-"setuptools >=1.0",
-"xlrd >=1.0"
-],
-"license":"BSD 3-Clause",
-"name":"glue-core",
-"sha256":"03532f3d9c23c762be65cc5099b4a797019a8e9ab492853262ac1c03e0972238",
-"size":1768993,
-"timestamp":1614166892433,
-"version":"0.15.6"
-},
-"glue-core-0.15.6-py38_0.tar.bz2":{
-"build":"py38_0",
-"build_number":0,
-"depends":[
-"astropy >=2.0",
-"bottleneck >=1.2",
-"dask",
-"dill >=0.2",
-"h5py >=2.4",
-"ipykernel",
-"ipython >=4.0",
-"matplotlib >=2.0",
-"mpl-scatter-density >=0.4",
-"numpy >=1.9",
-"pandas >=0.14",
-"plotly",
-"pyqt >=5.6,<6.0a0",
-"pyqt >=5.9.2,<5.10.0a0",
-"python >=3.8,<3.9.0a0",
-"qtconsole",
-"qtpy >=1.2",
-"scikit-image",
-"scipy",
-"setuptools >=1.0",
-"xlrd >=1.0"
-],
-"license":"BSD 3-Clause",
-"name":"glue-core",
-"sha256":"ac1a06d9c591db622fab9047ef1022d61b294c1200c7d4f89c38d0858bb16e2c",
-"size":1771770,
-"timestamp":1592203990772,
-"version":"0.15.6"
-},
-"glue-core-0.15.6-py38haa95532_0.tar.bz2":{
-"build":"py38haa95532_0",
-"build_number":0,
-"depends":[
-"astropy >=2.0",
-"bottleneck >=1.2",
-"dask",
-"dill >=0.2",
-"h5py >=2.4",
-"ipykernel",
-"ipython >=4.0",
-"matplotlib >=2.0",
-"mpl-scatter-density >=0.4",
-"numpy >=1.9",
-"pandas >=0.14",
-"plotly",
-"pyqt >=5.6,<6.0a0",
-"python >=3.8,<3.9.0a0",
-"qtconsole",
-"qtpy >=1.2",
-"scikit-image",
-"scipy",
-"setuptools >=1.0",
-"xlrd >=1.0"
-],
-"license":"BSD 3-Clause",
-"name":"glue-core",
-"sha256":"9fb368dd3a3fe5afdc1073c0c4aed9cb97626b8e1b1b014cbe7b70cfa90c0292",
-"size":1775620,
-"timestamp":1614167072327,
-"version":"0.15.6"
-},
-"glue-core-0.15.6-py39haa95532_0.tar.bz2":{
-"build":"py39haa95532_0",
-"build_number":0,
-"depends":[
-"astropy >=2.0",
-"bottleneck >=1.2",
-"dask",
-"dill >=0.2",
-"h5py >=2.4",
-"ipykernel",
-"ipython >=4.0",
-"matplotlib >=2.0",
-"mpl-scatter-density >=0.4",
-"numpy >=1.9",
-"pandas >=0.14",
-"plotly",
-"pyqt >=5.6,<6.0a0",
 "python >=3.9,<3.10.0a0",
-"qtconsole",
-"qtpy >=1.2",
+"qtconsole >=4.3",
+"qtpy >=1.9",
 "scikit-image",
-"scipy",
-"setuptools >=1.0",
-"xlrd >=1.0"
+"scipy >=1.0",
+"setuptools >=30.3.0",
+"xlrd >=1.2"
 ],
-"license":"BSD 3-Clause",
+"license":"BSD-3-Clause",
 "name":"glue-core",
-"sha256":"b38fc1206f9fb74e504b964da189eca6c65cb1343bc879091ac9be5ff618d25c",
-"size":1771537,
-"timestamp":1614166957880,
-"version":"0.15.6"
+"sha256":"5a1b91d7cc164cfec14dc6b69ae8b521b636ca8e977272caf41f54d7f534c7d3",
+"size":1787936,
+"timestamp":1625842091047,
+"version":"1.0.1"
 },
 "glue-vispy-viewers-0.10-py27_0.tar.bz2":{
 "build":"py27_0",
@@ -41122,55 +40960,7 @@
 "timestamp":1535499755639,
 "version":"0.5.1"
 },
-"neo4j-python-driver-4.3.1-py36h2bbff1b_0.tar.bz2":{
-"build":"py36h2bbff1b_0",
-"build_number":0,
-"depends":[
-"neotime",
-"python >=3.6,<3.7.0a0",
-"vc >=14.1,<15.0a0",
-"vs2015_runtime >=14.16.27012,<15.0a0"
-],
-"license":"Apache-2.0",
-"name":"neo4j-python-driver",
-"sha256":"ca4b6daacfa3356a8a984540ccded93b2de33b31607488ac335189d84e7f7a66",
-"size":298094,
-"timestamp":1622832608927,
-"version":"4.3.1"
-},
-"neo4j-python-driver-4.3.1-py37h2bbff1b_0.tar.bz2":{
-"build":"py37h2bbff1b_0",
-"build_number":0,
-"depends":[
-"neotime",
-"python >=3.7,<3.8.0a0",
-"vc >=14.1,<15.0a0",
-"vs2015_runtime >=14.16.27012,<15.0a0"
-],
-"license":"Apache-2.0",
-"name":"neo4j-python-driver",
-"sha256":"38349900555bf6b909b5bd40df5471b825ed3ef7b6c16dafff49bbfa13ae746c",
-"size":297125,
-"timestamp":1622832609559,
-"version":"4.3.1"
-},
-"neo4j-python-driver-4.3.1-py38h2bbff1b_0.tar.bz2":{
-"build":"py38h2bbff1b_0",
-"build_number":0,
-"depends":[
-"neotime",
-"python >=3.8,<3.9.0a0",
-"vc >=14.1,<15.0a0",
-"vs2015_runtime >=14.16.27012,<15.0a0"
-],
-"license":"Apache-2.0",
-"name":"neo4j-python-driver",
-"sha256":"28bbc4fe6a79b2d8bdd3107f78aa3fde7b47e57d8db05e6f582df8644f964884",
-"size":298599,
-"timestamp":1622832550207,
-"version":"4.3.1"
-},
-"neo4j-python-driver-4.3.1-py39h2bbff1b_0.tar.bz2":{
+"neo4j-python-driver-4.3.2-py39h2bbff1b_0.tar.bz2":{
 "build":"py39h2bbff1b_0",
 "build_number":0,
 "depends":[
@@ -41181,10 +40971,10 @@
 ],
 "license":"Apache-2.0",
 "name":"neo4j-python-driver",
-"sha256":"1dd05e84b89458b8ed08ee9d947ed4c8e60d73c099a5df46fc4d1cd121bce87e",
-"size":298711,
-"timestamp":1623057632659,
-"version":"4.3.1"
+"sha256":"c10257e591652102d61645f4f4584ccf3cb9ad47a44f90b8203f4ab8d051b818",
+"size":291598,
+"timestamp":1625816364413,
+"version":"4.3.2"
 },
 "neon-2.6.0-py27_0.tar.bz2":{
 "build":"py27_0",
@@ -70389,7 +70179,7 @@
 "timestamp":1608242035143,
 "version":"6.3.1"
 },
-"tenacity-7.0.0-py36haa95532_0.tar.bz2":{
+"tenacity-8.0.0-py36haa95532_0.tar.bz2":{
 "build":"py36haa95532_0",
 "build_number":0,
 "depends":[
@@ -70398,12 +70188,12 @@
 ],
 "license":"Apache 2.0",
 "name":"tenacity",
-"sha256":"8773f8240920fa34d1661de4e88de0a9845a58f6ca56e4d8e530a32a7b7ddd96",
-"size":33902,
-"timestamp":1614799457671,
-"version":"7.0.0"
+"sha256":"3a92f40ddb8243f6ab60ff124dc58cf5ddc5964838227bf1bc3b4734057b12f7",
+"size":34015,
+"timestamp":1625815893785,
+"version":"8.0.0"
 },
-"tenacity-7.0.0-py37haa95532_0.tar.bz2":{
+"tenacity-8.0.0-py37haa95532_0.tar.bz2":{
 "build":"py37haa95532_0",
 "build_number":0,
 "depends":[
@@ -70412,12 +70202,12 @@
 ],
 "license":"Apache 2.0",
 "name":"tenacity",
-"sha256":"16ad3adf336a718393d1d9e8eecdf7215e29c94f7ec8cc28e35f35d9475bc0bb",
-"size":33948,
-"timestamp":1614799694193,
-"version":"7.0.0"
+"sha256":"c5e50ea09b40c1ae8cbb0aa121fb83964986e2c91292b94f3ad66b45a7dcc3d5",
+"size":34109,
+"timestamp":1625815885404,
+"version":"8.0.0"
 },
-"tenacity-7.0.0-py38haa95532_0.tar.bz2":{
+"tenacity-8.0.0-py38haa95532_0.tar.bz2":{
 "build":"py38haa95532_0",
 "build_number":0,
 "depends":[
@@ -70426,24 +70216,23 @@
 ],
 "license":"Apache 2.0",
 "name":"tenacity",
-"sha256":"e5d949268f53e36289687ca679054e641547c17e4b9244d22e697935fea0a294",
-"size":34123,
-"timestamp":1614799575817,
-"version":"7.0.0"
+"sha256":"d262b32b435952265bce7fb7670d9a27c8e757c588e69101bbd1331f1f477358",
+"size":34360,
+"timestamp":1625815867190,
+"version":"8.0.0"
 },
-"tenacity-7.0.0-py39haa95532_0.tar.bz2":{
+"tenacity-8.0.0-py39haa95532_0.tar.bz2":{
 "build":"py39haa95532_0",
 "build_number":0,
 "depends":[
-"python >=3.9,<3.10.0a0",
-"six >=1.9.0"
+"python >=3.9,<3.10.0a0"
 ],
 "license":"Apache 2.0",
 "name":"tenacity",
-"sha256":"b68e3a61c1d7795ed7f92dbd84e1e325397477c8f2ebec64dac0a99f9712b840",
-"size":34179,
-"timestamp":1614799694381,
-"version":"7.0.0"
+"sha256":"437fde77270254084af5e3a67ab0d1b8b4f1ec22ed2f4a1d6478361740e01f60",
+"size":34563,
+"timestamp":1625853145524,
+"version":"8.0.0"
 },
 "tensorboard-1.14.0-py36he3c9ec2_0.tar.bz2":{
 "build":"py36he3c9ec2_0",

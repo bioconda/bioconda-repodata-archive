@@ -3136,26 +3136,30 @@
 "timestamp":1625132990676,
 "version":"1.5.0"
 },
-"connexion-2.7.0-py_0.tar.bz2":{
-"build":"py_0",
+"connexion-2.8.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"clickclick >=1.2",
-"flask >=1.0.4",
-"inflection >=0.3.1",
-"jsonschema >=2.5.1",
-"openapi-spec-validator >=0.2.4",
+"aiohttp >=2.3.10,<4",
+"aiohttp-jinja2 >=0.14.0,<2",
+"clickclick >=1.2,<21",
+"flask >=1.0.4,<2",
+"inflection >=0.3.1,<0.6",
+"jsonschema >=2.5.1,<4",
+"openapi-spec-validator >=0.2.4,<0.4",
 "python >=3.6",
-"pyyaml >=5.1",
-"requests >=2.9.1"
+"pyyaml >=5.1,<6",
+"requests >=2.9.1,<3",
+"swagger-ui-bundle >=0.0.2,<0.1",
+"werkzeug >=1.0,<2.0"
 ],
 "license":"Apache-2.0",
 "name":"connexion",
 "noarch":"python",
-"sha256":"c1b2f863f15d81d2714c18ad01c5b56b9b2674177ba96c39c8ef00aa43b7f3c0",
-"size":55568,
-"timestamp":1594345253224,
-"version":"2.7.0"
+"sha256":"616283294ac5bfde06456be96f4f5718e3608718c1431c9fd5584e1f8da0090f",
+"size":57669,
+"timestamp":1625854406788,
+"version":"2.8.0"
 },
 "constantly-15.1.0-py_0.tar.bz2":{
 "build":"py_0",
@@ -6804,6 +6808,40 @@
 "timestamp":1610991684824,
 "version":"0.7"
 },
+"glue-core-1.0.1-pyhd3eb1b0_1.tar.bz2":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"astropy >=4.0",
+"bottleneck >=1.2",
+"dill >=0.2",
+"echo >=0.5",
+"h5py >=2.10",
+"ipykernel >=4.0,!=5.0.0,!=5.1.0",
+"ipython >=4.0",
+"jupyter_client <7",
+"matplotlib >=3.2",
+"mpl-scatter-density >=0.7",
+"numpy >=1.16",
+"pandas >=1.0",
+"pillow !=7.1.0",
+"plotly",
+"python >=3.6",
+"qtconsole >=4.3",
+"qtpy >=1.9",
+"scikit-image",
+"scipy >=1.0",
+"setuptools >=30.3.0",
+"xlrd >=1.2"
+],
+"license":"BSD-3-Clause",
+"name":"glue-core",
+"noarch":"python",
+"sha256":"d732b9b096a16b9453c085c8c5974008c5eb35cdd6fd2225191cb5977d1ae110",
+"size":1154970,
+"timestamp":1625837969322,
+"version":"1.0.1"
+},
 "glue-vispy-viewers-0.12.2-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -8395,19 +8433,19 @@
 "timestamp":1565189019233,
 "version":"0.6.0"
 },
-"isort-5.9.1-pyhd3eb1b0_0.tar.bz2":{
+"isort-5.9.2-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"python >=3.6,<4.0"
+"python >=3.6.1,<4.0"
 ],
 "license":"MIT",
 "name":"isort",
 "noarch":"python",
-"sha256":"c3005800ca48ce23a22c9b48e883fd0c9ff78c501ce5a2ef90c8876892a3edfd",
-"size":82786,
-"timestamp":1624300384083,
-"version":"5.9.1"
+"sha256":"439f3a817c3270ee974256fa90097cc015986c613c7d9a4050f61119530b4981",
+"size":83043,
+"timestamp":1625834868404,
+"version":"5.9.2"
 },
 "itemadapter-0.2.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -14594,7 +14632,7 @@
 "timestamp":1611515924403,
 "version":"2.4.0"
 },
-"marshmallow-3.12.1-pyhd3eb1b0_0.tar.bz2":{
+"marshmallow-3.12.2-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -14603,10 +14641,10 @@
 "license":"MIT",
 "name":"marshmallow",
 "noarch":"python",
-"sha256":"d9ddc367df7a50a05c723a5f30811045ae2edbf133d98d6487dbbf75a56ea13b",
-"size":80267,
-"timestamp":1620707222357,
-"version":"3.12.1"
+"sha256":"c7ab41f8e5abb91cb06798abfa7b55e1ba9ac73ffa3f73ca150c38a2d61c536f",
+"size":80178,
+"timestamp":1625816744456,
+"version":"3.12.2"
 },
 "marshmallow-enum-1.5.1-py_0.tar.bz2":{
 "build":"py_0",
@@ -15435,7 +15473,7 @@
 "timestamp":1569368756343,
 "version":"2.0.6"
 },
-"moto-2.0.8-pyhd3eb1b0_0.tar.bz2":{
+"moto-2.0.11-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -15475,10 +15513,10 @@
 "license":"Apache-2.0",
 "name":"moto",
 "noarch":"python",
-"sha256":"e7ab67f169524f64770b895175020c065804339f1671d1e9890ebd480caae816",
-"size":1313467,
-"timestamp":1622824528274,
-"version":"2.0.8"
+"sha256":"12354517ab00619f49d7631b3aa46709d6cfab65a2df1cdccc666f08dccf42d5",
+"size":1360183,
+"timestamp":1625852045828,
+"version":"2.0.11"
 },
 "mpl-scatter-density-0.7-py_0.tar.bz2":{
 "build":"py_0",
