@@ -15098,6 +15098,28 @@
 "timestamp":1624713867799,
 "version":"0.14.2"
 },
+"aws-crt-cpp-0.14.3-h446a1ab_0.tar.bz2":{
+"build":"h446a1ab_0",
+"build_number":0,
+"depends":[
+"aws-c-auth >=0.6.1,<0.6.2.0a0",
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.5,<0.6.6.0a0",
+"aws-c-event-stream >=0.2.7,<0.2.8.0a0",
+"aws-c-http >=0.6.4,<0.6.5.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"aws-c-mqtt >=0.7.6,<0.7.7.0a0",
+"aws-c-s3 >=0.1.22,<0.1.23.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libcxx >=11.1.0"
+],
+"license":"Apache-2.0",
+"name":"aws-crt-cpp",
+"requires":[],
+"size":158017,
+"timestamp":1625878745682,
+"version":"0.14.3"
+},
 "aws-sdk-cpp-1.7.164-h0158dae_4.tar.bz2":{
 "build":"h0158dae_4",
 "build_number":4,
@@ -22521,6 +22543,27 @@
 "timestamp":1623718442598,
 "version":"12.0.0"
 },
+"clang-12-12.0.1-default_h0fdd720_0.tar.bz2":{
+"build":"default_h0fdd720_0",
+"build_number":0,
+"constrains":[
+"clang-tools 12.0.1",
+"clangdev 12.0.1",
+"llvm-tools 12.0.1",
+"clangxx 12.0.1"
+],
+"depends":[
+"libclang-cpp12 12.0.1.*",
+"libcxx >=11.1.0",
+"libllvm12 >=12.0.1,<12.1.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clang-12",
+"requires":[],
+"size":712562,
+"timestamp":1625889507900,
+"version":"12.0.1"
+},
 "clang-12.0.0-hce30654_1.tar.bz2":{
 "build":"hce30654_1",
 "build_number":1,
@@ -22546,6 +22589,19 @@
 "size":127752,
 "timestamp":1623718765837,
 "version":"12.0.0"
+},
+"clang-12.0.1-hce30654_0.tar.bz2":{
+"build":"hce30654_0",
+"build_number":0,
+"depends":[
+"clang-12 12.0.1 default_h0fdd720_0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clang",
+"requires":[],
+"size":127230,
+"timestamp":1625889836590,
+"version":"12.0.1"
 },
 "clang-9-9.0.1-default_h86191a3_1.tar.bz2":{
 "build":"default_h86191a3_1",
@@ -22789,6 +22845,25 @@
 "size":12889017,
 "timestamp":1623720047096,
 "version":"12.0.0"
+},
+"clang-tools-12.0.1-default_h0fdd720_0.tar.bz2":{
+"build":"default_h0fdd720_0",
+"build_number":0,
+"constrains":[
+"clangdev 12.0.1"
+],
+"depends":[
+"clang 12.0.1 hce30654_0",
+"clangxx 12.0.1 default_h8b1a7b7_0",
+"libcxx >=11.1.0",
+"libllvm12 >=12.0.1,<12.1.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clang-tools",
+"requires":[],
+"size":12896171,
+"timestamp":1625891116986,
+"version":"12.0.1"
 },
 "clang-tools-9.0.1-default_h0fdd720_1.tar.bz2":{
 "build":"default_h0fdd720_1",
@@ -24033,6 +24108,25 @@
 "timestamp":1623720115551,
 "version":"12.0.0"
 },
+"clangdev-12.0.1-default_h0fdd720_0.tar.bz2":{
+"build":"default_h0fdd720_0",
+"build_number":0,
+"depends":[
+"clang 12.0.1 hce30654_0",
+"clang-tools 12.0.1 default_h0fdd720_0",
+"clangxx 12.0.1 default_h8b1a7b7_0",
+"libclang 12.0.1 default_h0fdd720_0",
+"libclang-cpp 12.0.1 default_h0fdd720_0",
+"libcxx >=11.1.0",
+"llvmdev 12.0.1"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clangdev",
+"requires":[],
+"size":26935437,
+"timestamp":1625891186388,
+"version":"12.0.1"
+},
 "clangdev-5.0.0-h0d3df5c_1011.tar.bz2":{
 "build":"h0d3df5c_1011",
 "build_number":1011,
@@ -24300,6 +24394,19 @@
 "size":127751,
 "timestamp":1623718776633,
 "version":"12.0.0"
+},
+"clangxx-12.0.1-default_h8b1a7b7_0.tar.bz2":{
+"build":"default_h8b1a7b7_0",
+"build_number":0,
+"depends":[
+"clang 12.0.1 hce30654_0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clangxx",
+"requires":[],
+"size":127354,
+"timestamp":1625889848156,
+"version":"12.0.1"
 },
 "clangxx-9.0.1-default_h8b1a7b7_1.tar.bz2":{
 "build":"default_h8b1a7b7_1",
@@ -49803,6 +49910,40 @@
 "timestamp":1623144976471,
 "version":"3.0.0"
 },
+"hdf5plugin-3.1.1-py38haaa4719_0.tar.bz2":{
+"build":"py38haaa4719_0",
+"build_number":0,
+"depends":[
+"h5py",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"hdf5plugin",
+"requires":[],
+"size":1035021,
+"timestamp":1625899370632,
+"version":"3.1.1"
+},
+"hdf5plugin-3.1.1-py39hd137e0a_0.tar.bz2":{
+"build":"py39hd137e0a_0",
+"build_number":0,
+"depends":[
+"h5py",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"hdf5plugin",
+"requires":[],
+"size":1000246,
+"timestamp":1625899321001,
+"version":"3.1.1"
+},
 "healpy-1.14.0-py38h11e2e24_2.tar.bz2":{
 "build":"py38h11e2e24_2",
 "build_number":2,
@@ -59638,6 +59779,20 @@
 "timestamp":1623718957141,
 "version":"12.0.0"
 },
+"libclang-12.0.1-default_h0fdd720_0.tar.bz2":{
+"build":"default_h0fdd720_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libllvm12 >=12.0.1,<12.1.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libclang",
+"requires":[],
+"size":14221110,
+"timestamp":1625890013286,
+"version":"12.0.1"
+},
 "libclang-9.0.1-default_h0fdd720_1.tar.bz2":{
 "build":"default_h0fdd720_1",
 "build_number":1,
@@ -59802,6 +59957,21 @@
 "timestamp":1623718746130,
 "version":"12.0.0"
 },
+"libclang-cpp-12.0.1-default_h0fdd720_0.tar.bz2":{
+"build":"default_h0fdd720_0",
+"build_number":0,
+"depends":[
+"libclang-cpp12 12.0.1 default_h0fdd720_0",
+"libcxx >=11.1.0",
+"libllvm12 >=12.0.1,<12.1.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libclang-cpp",
+"requires":[],
+"size":12425769,
+"timestamp":1625889817224,
+"version":"12.0.1"
+},
 "libclang-cpp-9.0.1-default_h86191a3_1.tar.bz2":{
 "build":"default_h86191a3_1",
 "build_number":1,
@@ -59960,6 +60130,20 @@
 "size":12510443,
 "timestamp":1623718249289,
 "version":"12.0.0"
+},
+"libclang-cpp12-12.0.1-default_h0fdd720_0.tar.bz2":{
+"build":"default_h0fdd720_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libllvm12 >=12.0.1,<12.1.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libclang-cpp12",
+"requires":[],
+"size":12423857,
+"timestamp":1625889328580,
+"version":"12.0.1"
 },
 "libclang-cpp9-9.0.1-default_h86191a3_1.tar.bz2":{
 "build":"default_h86191a3_1",
@@ -72459,6 +72643,19 @@
 "requires":[],
 "size":4342568,
 "timestamp":1625825557481,
+"version":"0.15.0"
+},
+"micromamba-0.15.0-1.tar.bz2":{
+"build":"1",
+"build_number":1,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"BSD-3-Clause AND MIT AND OpenSSL",
+"name":"micromamba",
+"requires":[],
+"size":4365546,
+"timestamp":1625894917107,
 "version":"0.15.0"
 },
 "micromamba-0.5.1-h04a7b5b_0.tar.bz2":{
@@ -86604,6 +86801,21 @@
 "requires":[],
 "size":32189929,
 "timestamp":1606072712751,
+"version":"1.2"
+},
+"ppl-1.2-h813adbb_1004.tar.bz2":{
+"build":"h813adbb_1004",
+"build_number":1004,
+"depends":[
+"glpk >=4.65,<4.66.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libcxx >=11.1.0"
+],
+"license":"GPL-3.0-or-later",
+"name":"ppl",
+"requires":[],
+"size":32146249,
+"timestamp":1625903300588,
 "version":"1.2"
 },
 "pplpy-0.8.6-py38h544d4bf_0.tar.bz2":{
@@ -114328,6 +114540,79 @@
 "timestamp":1622592861716,
 "version":"9.2"
 },
+"sagelib-9.3-py38h5c1609b_5.tar.bz2":{
+"build":"py38h5c1609b_5",
+"build_number":5,
+"depends":[
+"arb >=2.19.0,<2.20.0a0",
+"cliquer >=1.22,<1.23.0a0",
+"cypari2 >=2.1.2,<3.0a0",
+"cysignals >=1.10.3,<2.0a0",
+"cython >=0.29.23,<1.0a0",
+"ecl >=21.2.1,<21.3.0a0",
+"eclib >=20210503,<20210504.0a0",
+"ecm >=7.0.4,<8.0a0",
+"fflas-ffpack >=2.4.3,<3.0a0",
+"future",
+"gap-core >=4.11.0,<4.12.0a0",
+"giac >=1.6.0.47,<1.7.0a0",
+"givaro >=4.1.1,<4.1.2.0a0",
+"glpk >=4.65,<4.66.0a0",
+"gmp >=6.2.1,<7.0a0",
+"gmpy2 >=2.1.0b.5,<2.2.0a0",
+"gsl >=2.6,<2.7.0a0",
+"iml >=1.0.5,<1.1.0a0",
+"ipython >=7.16,<8",
+"jinja2 >=3.0.1,<3.1.0a0",
+"jupyter_core >=4.7.1,<5.0a0",
+"lcalc >=1.23,<1.24.0a0",
+"libblas >=3.9.0,<4.0a0",
+"libbraiding >=1.1,<1.2.0a0",
+"libbrial >=1.2.10,<1.3.0a0",
+"libcblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"libflint 2.7.* *_ntl_*",
+"libflint >=2.7.1,<2.8.0a0",
+"libgd >=2.3.2,<2.4.0a0",
+"libhomfly >=1.2r.6,<1.3a",
+"liblapack >=3.9.0,<4.0a0",
+"liblapacke >=3.9.0,<4.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"linbox >=1.6.3,<1.7.0a0",
+"lrcalc >=1.2,<1.3.0a0",
+"m4ri >=20140914,<20140915.0a0",
+"m4rie >=20150908,<20150909.0a0",
+"mpc >=1.1.0,<2.0a0",
+"mpfi >=1.5.4,<1.6.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"ntl 11.4.3.*",
+"numpy >=1.19.5,<2.0a0",
+"pari * *_pthread",
+"pari >=2.13.2,<2.14.0a0",
+"pexpect >=4.8.0,<5",
+"planarity >=3.0.0.5,<4.0a0",
+"ppl >=1.2,<1.3.0a0",
+"pplpy >=0.8.6,<0.9.0a0",
+"psutil >=5.2",
+"pynac >=0.7.27,<0.7.28.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"ratpoints >=2.1.3,<2.2.0a0",
+"readline >=8.1,<9.0a0",
+"rw >=0.9,<0.10.0a0",
+"singular >=4.2.0.0p.3,<4.2.0.1a",
+"six",
+"symmetrica >=2.0,<2.1.0a0",
+"zlib >=1.2.11,<1.3.0a0",
+"zn_poly >=0.9.2,<0.10.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"sagelib",
+"requires":[],
+"size":77236134,
+"timestamp":1625888194794,
+"version":"9.3"
+},
 "sagelib-9.3-py38h6e57fc7_1.tar.bz2":{
 "build":"py38h6e57fc7_1",
 "build_number":1,
@@ -114610,6 +114895,79 @@
 "requires":[],
 "size":77326499,
 "timestamp":1623458729092,
+"version":"9.3"
+},
+"sagelib-9.3-py39h7a62750_5.tar.bz2":{
+"build":"py39h7a62750_5",
+"build_number":5,
+"depends":[
+"arb >=2.19.0,<2.20.0a0",
+"cliquer >=1.22,<1.23.0a0",
+"cypari2 >=2.1.2,<3.0a0",
+"cysignals >=1.10.3,<2.0a0",
+"cython >=0.29.23,<1.0a0",
+"ecl >=21.2.1,<21.3.0a0",
+"eclib >=20210503,<20210504.0a0",
+"ecm >=7.0.4,<8.0a0",
+"fflas-ffpack >=2.4.3,<3.0a0",
+"future",
+"gap-core >=4.11.0,<4.12.0a0",
+"giac >=1.6.0.47,<1.7.0a0",
+"givaro >=4.1.1,<4.1.2.0a0",
+"glpk >=4.65,<4.66.0a0",
+"gmp >=6.2.1,<7.0a0",
+"gmpy2 >=2.1.0b.5,<2.2.0a0",
+"gsl >=2.6,<2.7.0a0",
+"iml >=1.0.5,<1.1.0a0",
+"ipython >=7.16,<8",
+"jinja2 >=3.0.1,<3.1.0a0",
+"jupyter_core >=4.7.1,<5.0a0",
+"lcalc >=1.23,<1.24.0a0",
+"libblas >=3.9.0,<4.0a0",
+"libbraiding >=1.1,<1.2.0a0",
+"libbrial >=1.2.10,<1.3.0a0",
+"libcblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"libflint 2.7.* *_ntl_*",
+"libflint >=2.7.1,<2.8.0a0",
+"libgd >=2.3.2,<2.4.0a0",
+"libhomfly >=1.2r.6,<1.3a",
+"liblapack >=3.9.0,<4.0a0",
+"liblapacke >=3.9.0,<4.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"linbox >=1.6.3,<1.7.0a0",
+"lrcalc >=1.2,<1.3.0a0",
+"m4ri >=20140914,<20140915.0a0",
+"m4rie >=20150908,<20150909.0a0",
+"mpc >=1.1.0,<2.0a0",
+"mpfi >=1.5.4,<1.6.0a0",
+"mpfr >=4.0.2,<5.0a0",
+"ntl 11.4.3.*",
+"numpy >=1.19.5,<2.0a0",
+"pari * *_pthread",
+"pari >=2.13.2,<2.14.0a0",
+"pexpect >=4.8.0,<5",
+"planarity >=3.0.0.5,<4.0a0",
+"ppl >=1.2,<1.3.0a0",
+"pplpy >=0.8.6,<0.9.0a0",
+"psutil >=5.2",
+"pynac >=0.7.27,<0.7.28.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"ratpoints >=2.1.3,<2.2.0a0",
+"readline >=8.1,<9.0a0",
+"rw >=0.9,<0.10.0a0",
+"singular >=4.2.0.0p.3,<4.2.0.1a",
+"six",
+"symmetrica >=2.0,<2.1.0a0",
+"zlib >=1.2.11,<1.3.0a0",
+"zn_poly >=0.9.2,<0.10.0a0"
+],
+"license":"GPL-2.0-or-later",
+"name":"sagelib",
+"requires":[],
+"size":77227480,
+"timestamp":1625887932591,
 "version":"9.3"
 },
 "sagelib-9.3-py39hc026e0e_1.tar.bz2":{
@@ -116561,6 +116919,34 @@
 "size":102770,
 "timestamp":1624975560597,
 "version":"3.17.2"
+},
+"simplejson-3.17.3-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"simplejson",
+"requires":[],
+"size":103381,
+"timestamp":1625890052451,
+"version":"3.17.3"
+},
+"simplejson-3.17.3-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"simplejson",
+"requires":[],
+"size":103263,
+"timestamp":1625889989586,
+"version":"3.17.3"
 },
 "singular-4.2.0.p3-h3cd5dd1_0.tar.bz2":{
 "build":"h3cd5dd1_0",
