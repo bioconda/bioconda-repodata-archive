@@ -604,7 +604,7 @@
 "timestamp":1614879535550,
 "version":"2021.02"
 },
-"anaconda-project-0.10.0-pyhd3eb1b0_0.tar.bz2":{
+"anaconda-project-0.10.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -614,15 +614,16 @@
 "python >=2.7",
 "requests",
 "ruamel_yaml",
-"tornado >=4.2"
+"tornado >=4.2",
+"tqdm"
 ],
 "license":"BSD-3-Clause",
 "name":"anaconda-project",
 "noarch":"python",
-"sha256":"5504e83cb43b918c10d1acec99e8e449c7e06295c97b46558bd4981fd67dbc2c",
-"size":231829,
-"timestamp":1621348098031,
-"version":"0.10.0"
+"sha256":"613e9ca8a586686155fcc9736ab8b6247ec432cc3bf91a610e0bc61a1f2d32a5",
+"size":229479,
+"timestamp":1626085696950,
+"version":"0.10.1"
 },
 "aniso8601-9.0.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -1753,11 +1754,11 @@
 "timestamp":1612211427652,
 "version":"3.3.0"
 },
-"boto3-1.17.105-pyhd3eb1b0_0.tar.bz2":{
+"boto3-1.17.109-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"botocore >=1.20.105,<1.21.0",
+"botocore >=1.20.109,<1.21.0",
 "jmespath >=0.7.1,<1.0.0",
 "python",
 "s3transfer >=0.4.0,<0.5.0"
@@ -1765,10 +1766,10 @@
 "license":"Apache-2.0",
 "name":"boto3",
 "noarch":"python",
-"sha256":"c85461e7f274ad9d7b0d6c2f6682a001cc54835a081fa25b003089dcaafd2d91",
-"size":72099,
-"timestamp":1625673597248,
-"version":"1.17.105"
+"sha256":"98d539a29da7a85c3e2b4147b1889eae1c0d530ed31b5410496701daaff760d2",
+"size":72246,
+"timestamp":1626104979738,
+"version":"1.17.109"
 },
 "botocore-1.19.52-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -1788,7 +1789,7 @@
 "timestamp":1610401338093,
 "version":"1.19.52"
 },
-"botocore-1.20.105-pyhd3eb1b0_1.tar.bz2":{
+"botocore-1.20.109-pyhd3eb1b0_1.tar.bz2":{
 "build":"pyhd3eb1b0_1",
 "build_number":1,
 "depends":[
@@ -1800,10 +1801,10 @@
 "license":"Apache-2.0",
 "name":"botocore",
 "noarch":"python",
-"sha256":"ba7efe7746a9e2fc045b6044308aa82d17d79f1a1f856d04c54f24426f73bc7f",
-"size":4933355,
-"timestamp":1625467379414,
-"version":"1.20.105"
+"sha256":"435a1ac1423744fffca91240e77a97e053ef1ff52cd8d8bfec3451113779d5de",
+"size":4927918,
+"timestamp":1626066432689,
+"version":"1.20.109"
 },
 "bs4-4.9.3-0.tar.bz2":{
 "build":"0",
@@ -3833,6 +3834,25 @@
 "timestamp":1624382014043,
 "version":"2021.6.2"
 },
+"dask-core-2021.7.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"cloudpickle >=1.1.1",
+"fsspec >=0.6.0",
+"partd >=0.3.10",
+"python >=3.7",
+"pyyaml",
+"toolz >=0.8.2"
+],
+"license":"BSD-3-Clause",
+"name":"dask-core",
+"noarch":"python",
+"sha256":"9ee8b831b57f2b039827872c68a23cb7183ba8ae496d19fb1080174b19c05b1a",
+"size":763330,
+"timestamp":1626066559223,
+"version":"2021.7.0"
+},
 "dask-glm-0.2.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -4142,34 +4162,6 @@
 "size":159607,
 "timestamp":1620060939379,
 "version":"1.10.24"
-},
-"decorator-4.4.2-py_0.tar.bz2":{
-"build":"py_0",
-"build_number":0,
-"depends":[
-"python"
-],
-"license":"BSD-3-Clause",
-"name":"decorator",
-"noarch":"python",
-"sha256":"69d2cb44a5864130bb919b16a6c4d899ea82a218ddd055bf076e8b3bd2474c72",
-"size":14160,
-"timestamp":1584027029921,
-"version":"4.4.2"
-},
-"decorator-4.4.2-pyhd3eb1b0_0.tar.bz2":{
-"build":"pyhd3eb1b0_0",
-"build_number":0,
-"depends":[
-"python"
-],
-"license":"BSD-3-Clause",
-"name":"decorator",
-"noarch":"python",
-"sha256":"bada7fa8f0aafb575fa2967bb659e0f4a85a42ed9b3ff6d702e7cf6f5d496b61",
-"size":12194,
-"timestamp":1611930062539,
-"version":"4.4.2"
 },
 "decorator-5.0.9-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -8805,19 +8797,19 @@
 "timestamp":1556551674139,
 "version":"1.4.1"
 },
-"jeepney-0.6.0-pyhd3eb1b0_0.tar.bz2":{
+"jeepney-0.7.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"python >=3.5"
+"python >=3.6"
 ],
 "license":"MIT",
 "name":"jeepney",
 "noarch":"python",
-"sha256":"eb429d7eb89a6993320584e54dbc3dc200103c166bac6aa5fd0a48e40a9b3966",
-"size":33212,
-"timestamp":1606148888042,
-"version":"0.6.0"
+"sha256":"2f7383c64b356e59e3a7254e88d6c97ef7fec2afe67abe8ba14740d55ef180eb",
+"size":38625,
+"timestamp":1626115831373,
+"version":"0.7.0"
 },
 "jinja2-2.11.3-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -9279,7 +9271,7 @@
 "timestamp":1601490751973,
 "version":"0.1.2"
 },
-"jupyterlab_server-2.4.0-pyhd3eb1b0_0.tar.bz2":{
+"jupyterlab_server-2.6.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -9287,7 +9279,7 @@
 "jinja2 >=2.10",
 "json5",
 "jsonschema >=3.0.1",
-"jupyter_server >=1.1.0,<2.0.0",
+"jupyter_server >=1.4,<2",
 "packaging",
 "python >=3.6",
 "requests"
@@ -9295,10 +9287,10 @@
 "license":"BSD-3-Clause",
 "name":"jupyterlab_server",
 "noarch":"python",
-"sha256":"8d9091ec300e8646dac789190dccc65372cf336bf6ed54a8da03caa3a46067af",
-"size":37329,
-"timestamp":1617134377631,
-"version":"2.4.0"
+"sha256":"71adca462b9134f7a09b11865c9bb74abddd6279da8fead17f05f77b47f20f8f",
+"size":44833,
+"timestamp":1625823160234,
+"version":"2.6.1"
 },
 "jupyterlab_widgets-1.0.0-pyhd3eb1b0_1.tar.bz2":{
 "build":"pyhd3eb1b0_1",
@@ -15846,20 +15838,23 @@
 "timestamp":1620063148500,
 "version":"2.7.1"
 },
-"networkx-2.5.1-pyhd3eb1b0_0.tar.bz2":{
+"networkx-2.6.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
-"decorator >=4.3.0,<5",
-"python >=3.6"
+"matplotlib >=3.3",
+"numpy >=1.19",
+"pandas >=1.1",
+"python >=3.7",
+"scipy >=1.5,!=1.6.1"
 ],
 "license":"BSD-3-Clause",
 "name":"networkx",
 "noarch":"python",
-"sha256":"3b44fe5ea4da25893681b0f4359215aa6b05f4c5c61c431de26af6a13053d83d",
-"size":1273902,
-"timestamp":1617653342475,
-"version":"2.5.1"
+"sha256":"58529f2d71eed698ac4c39b2b910e7a068abb68df8c12fae7a6a337f72efdd88",
+"size":1550917,
+"timestamp":1625827480817,
+"version":"2.6.1"
 },
 "nltk-3.6.2-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -22580,19 +22575,19 @@
 "timestamp":1545414779503,
 "version":"1.0.2"
 },
-"threadpoolctl-2.1.0-pyh5ca1d4c_0.tar.bz2":{
-"build":"pyh5ca1d4c_0",
+"threadpoolctl-2.2.0-pyhb85f177_0.tar.bz2":{
+"build":"pyhb85f177_0",
 "build_number":0,
 "depends":[
-"python >=3.5"
+"python >=3.6"
 ],
 "license":"BSD 3-Clause",
 "name":"threadpoolctl",
 "noarch":"python",
-"sha256":"8ad8d73957834f233979a53516b59768a3f62e59ade81b928fec99cedfbde7f0",
-"size":16846,
-"timestamp":1592429752036,
-"version":"2.1.0"
+"sha256":"e42e692324d9d0389e223e0b17badeaecf8cc7b17bf8e7ec7260b1ad22837ff9",
+"size":16072,
+"timestamp":1626115147572,
+"version":"2.2.0"
 },
 "three-merge-0.1.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
