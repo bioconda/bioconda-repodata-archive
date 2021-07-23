@@ -21011,6 +21011,51 @@
 "timestamp":1567107872005,
 "version":"3.1.5"
 },
+"dpcpp-cpp-rt-2021.3.0-haa95532_3372.conda":{
+"build":"haa95532_3372",
+"build_number":3372,
+"depends":[
+"intel-cmplr-lib-rt 2021.3.0 haa95532_3372",
+"intel-cmplr-lic-rt 2021.3.0 haa95532_3372",
+"intel-opencl-rt 2021.3.0 haa95532_3372",
+"intel-openmp 2021.*"
+],
+"legacy_bz2_md5":"f41295b5327b8c90beaa8758a5cfb1da",
+"license":"Intel End User License Agreement for Developer Tools",
+"name":"dpcpp-cpp-rt",
+"sha256":"aad19b1ce7468a491a2421da102aebe7a5bdeadc1c3e7bc17bb87f703aeb6ce2",
+"size":1578351,
+"timestamp":1626976288477,
+"version":"2021.3.0"
+},
+"dpcpp_impl_win-64-2021.3.0-haa95532_3372.conda":{
+"build":"haa95532_3372",
+"build_number":3372,
+"depends":[
+"dpcpp-cpp-rt 2021.3.0 haa95532_3372"
+],
+"legacy_bz2_md5":"129bbfa6b55c2c2c36d2f08e5dfc739f",
+"license":"Intel End User License Agreement for Developer Tools",
+"name":"dpcpp_impl_win-64",
+"sha256":"7e98b6a90a18138568c027e34b9f427d1a8b5d95eb8a056a73b8d93c6a2a4719",
+"size":103361823,
+"timestamp":1626976449006,
+"version":"2021.3.0"
+},
+"dpcpp_win-64-2021.3.0-haa95532_3372.conda":{
+"build":"haa95532_3372",
+"build_number":3372,
+"depends":[
+"dpcpp_impl_win-64 2021.3.0 haa95532_3372"
+],
+"legacy_bz2_md5":"a5649df2620fe93c77b6a8ddf169d03f",
+"license":"Intel End User License Agreement for Developer Tools",
+"name":"dpcpp_win-64",
+"sha256":"31ffa300f939a07e99bc3e5d3f3e5fe8813755ce02e2cea2ca37b1ed38a44c38",
+"size":28464,
+"timestamp":1626976675887,
+"version":"2021.3.0"
+},
 "drmaa-0.7.9-py27_0.conda":{
 "build":"py27_0",
 "build_number":0,
@@ -31285,6 +31330,46 @@
 "timestamp":1548432782056,
 "version":"0.4.1"
 },
+"intel-cmplr-lib-rt-2021.3.0-haa95532_3372.conda":{
+"build":"haa95532_3372",
+"build_number":3372,
+"depends":[],
+"legacy_bz2_md5":"b7e1cb4569955bd6978aa7f372e0c420",
+"license":"Intel End User License Agreement for Developer Tools",
+"name":"intel-cmplr-lib-rt",
+"sha256":"d1a18a97443adaa9b7f1225210cca776b4e88d7bfcbefe6b5e248b67cf890ae6",
+"size":6378360,
+"timestamp":1626976107122,
+"version":"2021.3.0"
+},
+"intel-cmplr-lic-rt-2021.3.0-haa95532_3372.conda":{
+"build":"haa95532_3372",
+"build_number":3372,
+"depends":[],
+"legacy_bz2_md5":"591105118efaef257ba8979b44c9b2e2",
+"license":"Intel End User License Agreement for Developer Tools",
+"name":"intel-cmplr-lic-rt",
+"sha256":"9e4b79e23802b7634ec1a74b6e3a95b0ba6da272d153e122bf36f6d8ee3901d0",
+"size":55319,
+"timestamp":1626976122813,
+"version":"2021.3.0"
+},
+"intel-fortran-rt-2021.3.0-haa95532_3372.conda":{
+"build":"haa95532_3372",
+"build_number":3372,
+"depends":[
+"intel-cmplr-lib-rt 2021.3.0 haa95532_3372",
+"intel-cmplr-lic-rt 2021.3.0 haa95532_3372",
+"intel-openmp 2021.*"
+],
+"legacy_bz2_md5":"6d20df6869016b6334b37c708923e6c2",
+"license":"Intel End User License Agreement for Developer Tools",
+"name":"intel-fortran-rt",
+"sha256":"bfb096985864fc456b7e2ef83194859fb87f9206df07429bb53ae3dec4157709",
+"size":1175897,
+"timestamp":1626976145455,
+"version":"2021.3.0"
+},
 "intel-fortran_win-32-2019.0.0-h3b7d5aa_0.conda":{
 "build":"h3b7d5aa_0",
 "build_number":0,
@@ -31332,6 +31417,22 @@
 "size":145756,
 "timestamp":1545006789845,
 "version":"2019.0.0"
+},
+"intel-opencl-rt-2021.3.0-haa95532_3372.conda":{
+"build":"haa95532_3372",
+"build_number":3372,
+"depends":[
+"intel-cmplr-lic-rt 2021.3.0 haa95532_3372",
+"intel-openmp 2021.*",
+"tbb 2021.*"
+],
+"legacy_bz2_md5":"b7bf81994f60a4683d29d852d8b939d6",
+"license":"Intel End User License Agreement for Developer Tools",
+"name":"intel-opencl-rt",
+"sha256":"c8df84952b5109f14f69e0e872c0cb5472a8bbbdf1e50ea273458775c015a6d7",
+"size":39905862,
+"timestamp":1626976201709,
+"version":"2021.3.0"
 },
 "intel-openmp-2018.0.3-0.conda":{
 "build":"0",
@@ -72203,7 +72304,7 @@
 "timestamp":1608323369011,
 "version":"2.3.5"
 },
-"spdlog-1.8.2-h6d14046_0.conda":{
+"spdlog-1.9.0-h6d14046_0.conda":{
 "build":"h6d14046_0",
 "build_number":0,
 "depends":[
@@ -72211,13 +72312,13 @@
 "vc >=14.1,<15.0a0",
 "vs2015_runtime >=14.16.27012,<15.0a0"
 ],
-"legacy_bz2_md5":"5a4b481ff2ed0a6587760b412c44e8e0",
+"legacy_bz2_md5":"63d6aeb034b5025f0df85702c87da335",
 "license":"MIT",
 "name":"spdlog",
-"sha256":"64bb30700d4961be584670e444e646c284342ae5eb26643a616af50fc5243da2",
-"size":146463,
-"timestamp":1608225551510,
-"version":"1.8.2"
+"sha256":"5eb183c661db0b7ba94b0ea93dc349ea208dee7e3f3631dbf576d58a653dbab6",
+"size":150965,
+"timestamp":1626875267379,
+"version":"1.9.0"
 },
 "sphinx-1.8.5-py27_0.conda":{
 "build":"py27_0",
