@@ -9411,6 +9411,19 @@
 "timestamp":1611514866162,
 "version":"3.7.5"
 },
+"bisonpp-1.21_45-hf7b0b51_1002.tar.bz2":{
+"build":"hf7b0b51_1002",
+"build_number":1002,
+"depends":[
+"libcxx >=10.0.0"
+],
+"license":"GPL-2.0",
+"name":"bisonpp",
+"sha256":"d6d4b805f88b43bddf118a80fbac3b67e67bd9c2af756223ad312db93d069c05",
+"size":70497,
+"timestamp":1622241680964,
+"version":"1.21_45"
+},
 "bitarray-1.9.2-py36h9ed2024_1.tar.bz2":{
 "build":"py36h9ed2024_1",
 "build_number":1,
@@ -15312,7 +15325,7 @@
 "conda-package-handling >=1.3",
 "filelock",
 "glob2 >=0.6",
-"jinja2",
+"jinja2 <3.0.0a0",
 "pkginfo",
 "psutil",
 "py-lief",
@@ -15346,7 +15359,7 @@
 "conda-package-handling >=1.3",
 "filelock",
 "glob2 >=0.6",
-"jinja2",
+"jinja2 <3.0.0a0",
 "pkginfo",
 "psutil",
 "py-lief",
@@ -15380,7 +15393,7 @@
 "conda-package-handling >=1.3",
 "filelock",
 "glob2 >=0.6",
-"jinja2",
+"jinja2 <3.0.0a0",
 "pkginfo",
 "psutil",
 "py-lief",
@@ -15414,7 +15427,7 @@
 "conda-package-handling >=1.3",
 "filelock",
 "glob2 >=0.6",
-"jinja2",
+"jinja2 <3.0.0a0",
 "pkginfo",
 "psutil",
 "py-lief",
@@ -17964,6 +17977,22 @@
 "sha256":"7235d1ec4825a742b8a0daef29797b09801c56ee493388b6722744345e4127a8",
 "size":285056,
 "timestamp":1600980970164,
+"version":"2.1.27"
+},
+"cyrus-sasl-2.1.27-h8a25369_8.tar.bz2":{
+"build":"h8a25369_8",
+"build_number":8,
+"depends":[
+"krb5 >=1.19.1,<1.20.0a0",
+"libcxx >=10.0.0",
+"libdb >=6.2.32,<6.3.0a0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"BSD-3-Clause-Attribution",
+"name":"cyrus-sasl",
+"sha256":"9fe389b5c7bc3bee019b292c49b389b482908567dcd5c50b97f85164b12e8897",
+"size":278151,
+"timestamp":1622293170390,
 "version":"2.1.27"
 },
 "cyrus-sasl-2.1.27-hf24a670_7.tar.bz2":{
@@ -24878,6 +24907,22 @@
 "timestamp":1573742258204,
 "version":"3.0.2"
 },
+"gdal-3.0.2-py36ha6ec53f_1.tar.bz2":{
+"build":"py36ha6ec53f_1",
+"build_number":1,
+"depends":[
+"libcxx >=10.0.0",
+"libgdal 3.0.2 ha1444b2_1",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.6,<3.7.0a0"
+],
+"license":"MIT",
+"name":"gdal",
+"sha256":"2e22606cbe2625ada776cab1ba8aeb9d91b02dbb00e9b8ff6cd69a1a6bb85f98",
+"size":1586393,
+"timestamp":1622394109382,
+"version":"3.0.2"
+},
 "gdal-3.0.2-py36hbe65578_0.tar.bz2":{
 "build":"py36hbe65578_0",
 "build_number":0,
@@ -24894,6 +24939,22 @@
 "timestamp":1573742077165,
 "version":"3.0.2"
 },
+"gdal-3.0.2-py37ha6ec53f_1.tar.bz2":{
+"build":"py37ha6ec53f_1",
+"build_number":1,
+"depends":[
+"libcxx >=10.0.0",
+"libgdal 3.0.2 ha1444b2_1",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.7,<3.8.0a0"
+],
+"license":"MIT",
+"name":"gdal",
+"sha256":"8a8c9fd8b4175d8981775e3a2aebffa09cf7ec75068ef7c47af79b2f0b8fa75f",
+"size":1576230,
+"timestamp":1622393941509,
+"version":"3.0.2"
+},
 "gdal-3.0.2-py37hbe65578_0.tar.bz2":{
 "build":"py37hbe65578_0",
 "build_number":0,
@@ -24908,6 +24969,38 @@
 "sha256":"ef9a6fd4ae33cacb5f62c2ed6f001334217c8f66858d5d4256499e3976150e09",
 "size":1670441,
 "timestamp":1573742176192,
+"version":"3.0.2"
+},
+"gdal-3.0.2-py38ha6ec53f_1.tar.bz2":{
+"build":"py38ha6ec53f_1",
+"build_number":1,
+"depends":[
+"libcxx >=10.0.0",
+"libgdal 3.0.2 ha1444b2_1",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.8,<3.9.0a0"
+],
+"license":"MIT",
+"name":"gdal",
+"sha256":"28aafeab64db07a13efc3501035a5c3db302fc2581a56597a5b86696f0e2e6d8",
+"size":1578377,
+"timestamp":1622394028284,
+"version":"3.0.2"
+},
+"gdal-3.0.2-py39ha6ec53f_1.tar.bz2":{
+"build":"py39ha6ec53f_1",
+"build_number":1,
+"depends":[
+"libcxx >=10.0.0",
+"libgdal 3.0.2 ha1444b2_1",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.9,<3.10.0a0"
+],
+"license":"MIT",
+"name":"gdal",
+"sha256":"7da5a42f3cb22ef8c7fc246a29ea08b55551dd6e0410f18b03b4ed2d8eeb1d28",
+"size":1566803,
+"timestamp":1622394190358,
 "version":"3.0.2"
 },
 "gdata-2.0.18-py27_0.tar.bz2":{
@@ -25231,6 +25324,23 @@
 "size":132490,
 "timestamp":1590596286683,
 "version":"1.5.1"
+},
+"geotiff-1.6.0-h02c1893_0.tar.bz2":{
+"build":"h02c1893_0",
+"build_number":0,
+"depends":[
+"jpeg >=9b,<10a",
+"libcxx >=10.0.0",
+"libtiff >=4.1.0,<5.0a0",
+"proj >=6.2.1,<6.2.2.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MIT",
+"name":"geotiff",
+"sha256":"5a66a405e5e5db4e52df0d74fa885023e2b9b23d6245adb67e2443096cb4065f",
+"size":135037,
+"timestamp":1596829867466,
+"version":"1.6.0"
 },
 "geotiff-1.7.0-hf77b895_0.tar.bz2":{
 "build":"hf77b895_0",
@@ -35728,20 +35838,20 @@
 "timestamp":1593436563830,
 "version":"1.18.2"
 },
-"krb5-1.19.1-hcd88c3b_0.tar.bz2":{
+"krb5-1.19.2-hcd88c3b_0.tar.bz2":{
 "build":"hcd88c3b_0",
 "build_number":0,
 "depends":[
-"libedit >=3.1.20191231,<3.2.0a0",
-"libedit >=3.1.20191231,<4.0a0",
-"openssl >=1.1.1j,<1.1.2a"
+"libedit >=3.1.20210216,<3.2.0a0",
+"libedit >=3.1.20210216,<4.0a0",
+"openssl >=1.1.1k,<1.1.2a"
 ],
 "license":"MIT",
 "name":"krb5",
-"sha256":"ee441f4e5f8ee4dc079cfd3789df775bd2cfdd495e9c5e5a42046596d5802885",
-"size":1238600,
-"timestamp":1613679931076,
-"version":"1.19.1"
+"sha256":"7fb146f286b668303c55a6e1b58bfa066ea53f2b2971e186b99dd664a9846663",
+"size":1251031,
+"timestamp":1627396508328,
+"version":"1.19.2"
 },
 "lame-3.100-h1de35cc_0.tar.bz2":{
 "build":"h1de35cc_0",
@@ -37111,6 +37221,50 @@
 "timestamp":1573741961840,
 "version":"3.0.2"
 },
+"libgdal-3.0.2-ha1444b2_1.tar.bz2":{
+"build":"ha1444b2_1",
+"build_number":1,
+"depends":[
+"cfitsio >=3.470,<3.471.0a0",
+"expat >=2.2.10,<3.0a0",
+"freexl >=1.0.6,<2.0a0",
+"geos >=3.8.0,<3.8.1.0a0",
+"geotiff >=1.6.0,<1.7.0a0",
+"giflib >=5.2.1,<5.3.0a0",
+"hdf4 >=4.2.13,<4.2.14.0a0",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"jpeg >=9b,<10a",
+"json-c >=0.13.1,<0.14.0a0",
+"kealib >=1.4.14,<1.5.0a0",
+"libcurl >=7.71.1,<8.0a0",
+"libcxx >=10.0.0",
+"libdap4 >=3.19.1,<3.20.0a0",
+"libiconv >=1.16,<2.0a0",
+"libkml >=1.3.0,<1.4.0a0",
+"libnetcdf >=4.6.1,<4.7.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libpq >=12.2,<13.0a0",
+"libspatialite >=4.3.0a,<4.4.0a0",
+"libtiff >=4.1.0,<5.0a0",
+"libxml2 >=2.9.10,<2.10.0a0",
+"openjpeg >=2.3.0,<3.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"pcre >=8.44,<9.0a0",
+"poppler >=0.81.0,<1.0a0",
+"postgresql",
+"proj >=6.2.1,<6.2.2.0a0",
+"sqlite >=3.35.4,<4.0a0",
+"tiledb >=2.2,<3.0a0",
+"xerces-c >=3.2.3,<3.3.0a0",
+"xz",
+"zlib"
+],
+"name":"libgdal",
+"sha256":"81475d781ddc3fa9898358c9f8b3eba555a44d0f63937ee8fdb56d40e08c6027",
+"size":18017986,
+"timestamp":1622393834327,
+"version":"3.0.2"
+},
 "libgfortran-3.0.1-h93005f0_2.tar.bz2":{
 "build":"h93005f0_2",
 "build_number":2,
@@ -37233,6 +37387,22 @@
 "sha256":"2130aeb56ac864c69221c717b75b4b4d9ed29a85f12ec7bb26f54aae8df6d880",
 "size":495462,
 "timestamp":1509503816764,
+"version":"1.3.0"
+},
+"libkml-1.3.0-h952ee91_5.tar.bz2":{
+"build":"h952ee91_5",
+"build_number":5,
+"depends":[
+"expat >=2.2.10,<3.0a0",
+"libboost >=1.73.0,<1.73.1.0a0",
+"libcxx >=10.0.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"BSD 3-Clause",
+"name":"libkml",
+"sha256":"918fb2b3b029c81ef709025dabc3af09b354a04a5955f9ee45e279950b090e63",
+"size":485048,
+"timestamp":1622297397766,
 "version":"1.3.0"
 },
 "libkml-1.3.0-hbe12b63_4.tar.bz2":{
@@ -44772,6 +44942,58 @@
 "size":436519,
 "timestamp":1624439467522,
 "version":"1.5.7"
+},
+"netifaces-0.10.9-py36h9ed2024_1004.tar.bz2":{
+"build":"py36h9ed2024_1004",
+"build_number":1004,
+"depends":[
+"python >=3.6,<3.7.0a0"
+],
+"license":"MIT",
+"name":"netifaces",
+"sha256":"b86d8982ac28c4cd339c7c7e69f58d19b8803993836c7e18422fe6bfcb294439",
+"size":20285,
+"timestamp":1622235275917,
+"version":"0.10.9"
+},
+"netifaces-0.10.9-py37h9ed2024_1004.tar.bz2":{
+"build":"py37h9ed2024_1004",
+"build_number":1004,
+"depends":[
+"python >=3.7,<3.8.0a0"
+],
+"license":"MIT",
+"name":"netifaces",
+"sha256":"12cec8e7468bfa6b40e099b379c5f0ac7cf5e95a6ca7f3c4770efee9f005ef81",
+"size":20300,
+"timestamp":1622235268454,
+"version":"0.10.9"
+},
+"netifaces-0.10.9-py38h9ed2024_1004.tar.bz2":{
+"build":"py38h9ed2024_1004",
+"build_number":1004,
+"depends":[
+"python >=3.8,<3.9.0a0"
+],
+"license":"MIT",
+"name":"netifaces",
+"sha256":"7f5b93245248b9fea11181cb03c4ac2c2215e0c05945a2ae0885b3d3c09a9b4c",
+"size":20326,
+"timestamp":1622235250759,
+"version":"0.10.9"
+},
+"netifaces-0.10.9-py39h9ed2024_1004.tar.bz2":{
+"build":"py39h9ed2024_1004",
+"build_number":1004,
+"depends":[
+"python >=3.9,<3.10.0a0"
+],
+"license":"MIT",
+"name":"netifaces",
+"sha256":"68a867e954d3aff2de29f3c2efed975519366dd4bc41771dd853eb28329cd89f",
+"size":20301,
+"timestamp":1622235250827,
+"version":"0.10.9"
 },
 "nettle-3.7.3-h230ac6f_1.tar.bz2":{
 "build":"h230ac6f_1",
@@ -52694,6 +52916,33 @@
 "timestamp":1597159103377,
 "version":"0.81.0"
 },
+"poppler-0.81.0-h840d8a0_2.tar.bz2":{
+"build":"h840d8a0_2",
+"build_number":2,
+"depends":[
+"cairo >=1.14.12,<2.0a0",
+"curl",
+"fontconfig >=2.13.1,<3.0a0",
+"freetype >=2.10.4,<3.0a0",
+"gettext >=0.21.0,<1.0a0",
+"glib >=2.65.0,<3.0a0",
+"jpeg >=9b,<10a",
+"libcurl >=7.71.1,<8.0a0",
+"libcxx >=10.0.0",
+"libiconv >=1.16,<2.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libtiff >=4.1.0,<5.0a0",
+"openjpeg >=2.3.0,<3.0a0",
+"poppler-data",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPLv2",
+"name":"poppler",
+"sha256":"a98cec69b916d7b9efd339e23abad7434baf09d1472651f2a7c95aebb3f23e3b",
+"size":1914497,
+"timestamp":1622315309652,
+"version":"0.81.0"
+},
 "poppler-data-0.4.10-hecd8cb5_0.tar.bz2":{
 "build":"hecd8cb5_0",
 "build_number":0,
@@ -59805,6 +60054,86 @@
 "timestamp":1625471322984,
 "version":"4.0.31"
 },
+"pyomniscidb-5.6.2-py36hb3d9b59_0.tar.bz2":{
+"build":"py36hb3d9b59_0",
+"build_number":0,
+"depends":[
+"numpy >=1.16,<2.0a0",
+"packaging >=20.0",
+"python >=3.6,<3.7.0a0",
+"rbc >=0.2.2",
+"requests",
+"setuptools",
+"sqlalchemy >=1.3",
+"thrift 0.13.*"
+],
+"license":"Apache-2.0",
+"name":"pyomniscidb",
+"sha256":"eb3a48ec5b044bd763fda8f117b6308d762ac3a6e0b9445659e6feda68ded425",
+"size":509826,
+"timestamp":1626374085559,
+"version":"5.6.2"
+},
+"pyomniscidb-5.6.2-py37hb3d9b59_0.tar.bz2":{
+"build":"py37hb3d9b59_0",
+"build_number":0,
+"depends":[
+"numpy >=1.16,<2.0a0",
+"packaging >=20.0",
+"python >=3.7,<3.8.0a0",
+"rbc >=0.2.2",
+"requests",
+"setuptools",
+"sqlalchemy >=1.3",
+"thrift 0.13.*"
+],
+"license":"Apache-2.0",
+"name":"pyomniscidb",
+"sha256":"f157e8d0e879c9c0d1db5bdd9b69708a7cf887b639a7d000452d212ca809cce4",
+"size":510450,
+"timestamp":1626374144743,
+"version":"5.6.2"
+},
+"pyomniscidb-5.6.2-py38hb3d9b59_0.tar.bz2":{
+"build":"py38hb3d9b59_0",
+"build_number":0,
+"depends":[
+"numpy >=1.16,<2.0a0",
+"packaging >=20.0",
+"python >=3.8,<3.9.0a0",
+"rbc >=0.2.2",
+"requests",
+"setuptools",
+"sqlalchemy >=1.3",
+"thrift 0.13.*"
+],
+"license":"Apache-2.0",
+"name":"pyomniscidb",
+"sha256":"b1f15e0ca70a296a7ae05bc0f0c7e1720b0d1e498e1a26bed4efc913f2235732",
+"size":510922,
+"timestamp":1626374126348,
+"version":"5.6.2"
+},
+"pyomniscidb-5.6.2-py39hb3d9b59_0.tar.bz2":{
+"build":"py39hb3d9b59_0",
+"build_number":0,
+"depends":[
+"numpy >=1.16,<2.0a0",
+"packaging >=20.0",
+"python >=3.9,<3.10.0a0",
+"rbc >=0.2.2",
+"requests",
+"setuptools",
+"sqlalchemy >=1.3",
+"thrift 0.13.*"
+],
+"license":"Apache-2.0",
+"name":"pyomniscidb",
+"sha256":"53d2332294c812a43edcfaa10eb07f73c13f7d3e0303f84f2c19866122582e66",
+"size":511117,
+"timestamp":1626374108723,
+"version":"5.6.2"
+},
 "pyopengl-3.1.1a1-py27_0.tar.bz2":{
 "build":"py27_0",
 "build_number":0,
@@ -66543,6 +66872,82 @@
 "size":8365991,
 "timestamp":1573764456177,
 "version":"1.1.0"
+},
+"rbc-0.5.1-py36hecd8cb5_2.tar.bz2":{
+"build":"py36hecd8cb5_2",
+"build_number":2,
+"depends":[
+"llvmlite >=0.29",
+"netifaces",
+"numba",
+"python >=3.6,<3.7.0a0",
+"six",
+"tblib",
+"thriftpy2"
+],
+"license":"BSD-3-Clause",
+"name":"rbc",
+"sha256":"105db098f9d55009219fbcd95a075a45608cd9c18948e52ee1c1f2aa7819a811",
+"size":220662,
+"timestamp":1622236048877,
+"version":"0.5.1"
+},
+"rbc-0.5.1-py37hecd8cb5_2.tar.bz2":{
+"build":"py37hecd8cb5_2",
+"build_number":2,
+"depends":[
+"llvmlite >=0.29",
+"netifaces",
+"numba",
+"python >=3.7,<3.8.0a0",
+"six",
+"tblib",
+"thriftpy2"
+],
+"license":"BSD-3-Clause",
+"name":"rbc",
+"sha256":"78ff6086300f1622c794bb13537ad3ca27a10175f363dbbee5cab8b2b1f7548d",
+"size":218154,
+"timestamp":1622236058196,
+"version":"0.5.1"
+},
+"rbc-0.5.1-py38hecd8cb5_2.tar.bz2":{
+"build":"py38hecd8cb5_2",
+"build_number":2,
+"depends":[
+"llvmlite >=0.29",
+"netifaces",
+"numba",
+"python >=3.8,<3.9.0a0",
+"six",
+"tblib",
+"thriftpy2"
+],
+"license":"BSD-3-Clause",
+"name":"rbc",
+"sha256":"6ffbd03fd74e16b5cc2db1c6e6b182d34828b0a25b595126aac9a3388e9d34a2",
+"size":217878,
+"timestamp":1622236037481,
+"version":"0.5.1"
+},
+"rbc-0.5.1-py39hecd8cb5_2.tar.bz2":{
+"build":"py39hecd8cb5_2",
+"build_number":2,
+"depends":[
+"llvmlite >=0.29",
+"netifaces",
+"numba",
+"python >=3.9,<3.10.0a0",
+"six",
+"tblib",
+"thriftpy2"
+],
+"license":"BSD-3-Clause",
+"name":"rbc",
+"sha256":"28e4ed11612e6ef4fe36ef69f093c928291ee319c7f796ad6af2db590254ca48",
+"size":217935,
+"timestamp":1622236036518,
+"version":"0.5.1"
 },
 "re2-2020.11.01-h23ab428_0.tar.bz2":{
 "build":"h23ab428_0",
@@ -74878,7 +75283,7 @@
 "timestamp":1600554913473,
 "version":"2020.3"
 },
-"tbb-2021.2.0-hf7b0b51_0.tar.bz2":{
+"tbb-2021.3.0-hf7b0b51_0.tar.bz2":{
 "build":"hf7b0b51_0",
 "build_number":0,
 "depends":[
@@ -74886,84 +75291,84 @@
 ],
 "license":"Apache-2.0",
 "name":"tbb",
-"sha256":"4dc34b7fbdad1754176d1b89d19fbb34ba7afb95b33317dc349bd92bbc1c9cd5",
-"size":163089,
-"timestamp":1618504829451,
-"version":"2021.2.0"
+"sha256":"45b0b68bbcf3d8cbc8f39132d0110fca8f4f433a2398162210d4cbedc08bc8c2",
+"size":179038,
+"timestamp":1626359157529,
+"version":"2021.3.0"
 },
-"tbb-devel-2021.2.0-hf7b0b51_0.tar.bz2":{
+"tbb-devel-2021.3.0-hf7b0b51_0.tar.bz2":{
 "build":"hf7b0b51_0",
 "build_number":0,
 "depends":[
 "libcxx >=10.0.0",
-"tbb 2021.2.0 hf7b0b51_0"
+"tbb 2021.3.0 hf7b0b51_0"
 ],
 "license":"Apache-2.0",
 "name":"tbb-devel",
-"sha256":"e997684ba0ff84d0ec96c25652732580c73c5a82979da14a8c9b8fbd0abca821",
-"size":932515,
-"timestamp":1618504840263,
-"version":"2021.2.0"
+"sha256":"76fb458054f8a2fb07ba2ec93022314fc165304aa44aa6a4fc53ef6c2959bec3",
+"size":975031,
+"timestamp":1626359170715,
+"version":"2021.3.0"
 },
-"tbb4py-2021.2.0-py36hf7b0b51_0.tar.bz2":{
+"tbb4py-2021.3.0-py36hf7b0b51_0.tar.bz2":{
 "build":"py36hf7b0b51_0",
 "build_number":0,
 "depends":[
 "libcxx >=10.0.0",
 "python >=3.6,<3.7.0a0",
-"tbb >=2021.2.0"
+"tbb >=2021.3.0"
 ],
 "license":"Apache 2.0",
 "name":"tbb4py",
-"sha256":"3c789e3d5b8bd74ed23c4c17abc7848813d2006159b96e57e777c429a6c4a5ec",
-"size":68375,
-"timestamp":1618504937847,
-"version":"2021.2.0"
+"sha256":"f28d5bd72af523009ea7ce85323500fd4306d2aa9da4e900e86cf6b0e01d4294",
+"size":68275,
+"timestamp":1626359236887,
+"version":"2021.3.0"
 },
-"tbb4py-2021.2.0-py37hf7b0b51_0.tar.bz2":{
+"tbb4py-2021.3.0-py37hf7b0b51_0.tar.bz2":{
 "build":"py37hf7b0b51_0",
 "build_number":0,
 "depends":[
 "libcxx >=10.0.0",
 "python >=3.7,<3.8.0a0",
-"tbb >=2021.2.0"
+"tbb >=2021.3.0"
 ],
 "license":"Apache 2.0",
 "name":"tbb4py",
-"sha256":"8efe41e1da9753bff06b9970412fcff7ec386336dbf20db1c0334ad5196ae257",
-"size":68247,
-"timestamp":1618504878157,
-"version":"2021.2.0"
+"sha256":"2c2c9b048fe2a7b6ca8962cbe966f47f9f49d4f3b967d9aa42170e1f2d26c65c",
+"size":67917,
+"timestamp":1626359296165,
+"version":"2021.3.0"
 },
-"tbb4py-2021.2.0-py38hf7b0b51_0.tar.bz2":{
+"tbb4py-2021.3.0-py38hf7b0b51_0.tar.bz2":{
 "build":"py38hf7b0b51_0",
 "build_number":0,
 "depends":[
 "libcxx >=10.0.0",
 "python >=3.8,<3.9.0a0",
-"tbb >=2021.2.0"
+"tbb >=2021.3.0"
 ],
 "license":"Apache 2.0",
 "name":"tbb4py",
-"sha256":"e24589ff5c75d0fe5bfb2e270ea9608941d250600b2e5fc970495ebf744c344d",
-"size":68269,
-"timestamp":1618504908053,
-"version":"2021.2.0"
+"sha256":"76f3a61aef45d0c1e45ef4c0d68f74a5b1be2caccd572095363fe9055520a4f7",
+"size":67954,
+"timestamp":1626359207462,
+"version":"2021.3.0"
 },
-"tbb4py-2021.2.0-py39hf7b0b51_0.tar.bz2":{
+"tbb4py-2021.3.0-py39hf7b0b51_0.tar.bz2":{
 "build":"py39hf7b0b51_0",
 "build_number":0,
 "depends":[
 "libcxx >=10.0.0",
 "python >=3.9,<3.10.0a0",
-"tbb >=2021.2.0"
+"tbb >=2021.3.0"
 ],
 "license":"Apache 2.0",
 "name":"tbb4py",
-"sha256":"5436e47ac9ec936fc5cd28e0457834f3d12a1ec616682abf325123e97e7296e1",
-"size":68130,
-"timestamp":1618504968367,
-"version":"2021.2.0"
+"sha256":"8c7806858ccb365b740b5dbdf67abc71d4e6ee72d883cfa8ea3a35f8c2693e94",
+"size":68015,
+"timestamp":1626359266577,
+"version":"2021.3.0"
 },
 "tblib-1.3.2-py27ha684fc4_0.tar.bz2":{
 "build":"py27ha684fc4_0",
