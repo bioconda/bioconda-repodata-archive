@@ -57,6 +57,7 @@ jobs:
           ;
 
     - name: Add changes, commit and tag
+      id: commit
       run: |
         git config user.name github-actions
         git config user.email github-actions@github.com
@@ -87,8 +88,16 @@ jobs:
 
         git tag | tail -n3
 
+        printf '%s\n' "::set-output name=date_tag::${date_tag}"
+
     - if: ${{ github.ref == 'refs/heads/main' }}
       name: Push changes
+      id: push
       run: |
-        git push
-        git push --tags
+        date_tag='${{ steps.commit.outputs.date_tag }}'
+        if git ls-remote --tags | grep -F "refs/tags/${date_tag}" ; then
+          printf '%s\n' "Tag '${date_tag}' already exists on remote. Skipping push."
+        else
+          git push
+          git push --tags
+        fi
