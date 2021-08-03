@@ -19733,6 +19733,19 @@
 "timestamp":1617825400084,
 "version":"14.8.0"
 },
+"nomkl-3.0-0.tar.bz2":{
+"build":"0",
+"build_number":0,
+"depends":[
+"blas * openblas"
+],
+"license":"BSD",
+"name":"nomkl",
+"sha256":"ae3c2919513e3d96bbc5ba73f0c481e6be6c7ed7ef02f08eee8669ceea1ac533",
+"size":8505,
+"timestamp":1627582636618,
+"version":"3.0"
+},
 "nomkl-3.0-hd43f75c_0.tar.bz2":{
 "build":"hd43f75c_0",
 "build_number":0,
@@ -20854,7 +20867,7 @@
 "build_number":1,
 "depends":[
 "libopenblas 0.3.10 hf4835c0_1",
-"nomkl 3.0 hd43f75c_0",
+"nomkl 3.0 0",
 "blas * openblas"
 ],
 "name":"openblas-devel",
@@ -20868,7 +20881,7 @@
 "build_number":1,
 "depends":[
 "libopenblas 0.3.13 hf4835c0_1",
-"nomkl 3.0 hd43f75c_0",
+"nomkl 3.0 0",
 "blas * openblas"
 ],
 "name":"openblas-devel",
@@ -26268,6 +26281,28 @@
 "timestamp":1619147777040,
 "version":"3.7.10"
 },
+"python-3.7.11-hc137634_0.tar.bz2":{
+"build":"hc137634_0",
+"build_number":0,
+"depends":[
+"ld_impl_linux-aarch64",
+"libffi >=3.3,<3.4.0a0",
+"libgcc-ng >=10.2.0",
+"ncurses >=6.2,<7.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"readline >=8.1,<9.0a0",
+"sqlite >=3.35.4,<4.0a0",
+"tk >=8.6.10,<8.7.0a0",
+"xz >=5.2.5,<6.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"PSF",
+"name":"python",
+"sha256":"e3207fc84a8490597201bf897e74505a35d3eaf65466d68d46834bdad4da45f4",
+"size":57262730,
+"timestamp":1627399316814,
+"version":"3.7.11"
+},
 "python-3.8.8-he65049a_4.tar.bz2":{
 "build":"he65049a_4",
 "build_number":4,
@@ -26451,6 +26486,29 @@
 "size":26612374,
 "timestamp":1621517454802,
 "version":"3.9.5"
+},
+"python-3.9.6-hc137634_0.tar.bz2":{
+"build":"hc137634_0",
+"build_number":0,
+"depends":[
+"ld_impl_linux-aarch64",
+"libffi >=3.3,<3.4.0a0",
+"libgcc-ng >=10.2.0",
+"ncurses >=6.2,<7.0a0",
+"openssl >=1.1.1k,<1.1.2a",
+"readline >=8.1,<9.0a0",
+"sqlite >=3.35.4,<4.0a0",
+"tk >=8.6.10,<8.7.0a0",
+"tzdata",
+"xz >=5.2.5,<6.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Python-2.0",
+"name":"python",
+"sha256":"ff64f598e766953b59fcd39e29da1fd075b3a420847db1261b87dc412d13a96a",
+"size":26684462,
+"timestamp":1627328518862,
+"version":"3.9.6"
 },
 "python-blosc-1.10.4-py37h22f4aa5_0.tar.bz2":{
 "build":"py37h22f4aa5_0",
@@ -26896,6 +26954,17 @@
 "size":7594648,
 "timestamp":1621517486890,
 "version":"3.9.5"
+},
+"python-regr-testsuite-3.9.6-hd43f75c_0.tar.bz2":{
+"build":"hd43f75c_0",
+"build_number":0,
+"depends":[],
+"license":"Python-2.0",
+"name":"python-regr-testsuite",
+"sha256":"8389439d35dd7045183a9910622f3b615dbc23c181c17df41e654c2fe9acad7e",
+"size":7606869,
+"timestamp":1627328547011,
+"version":"3.9.6"
 },
 "python-snappy-0.6.0-py37h7c1a80f_0.tar.bz2":{
 "build":"py37h7c1a80f_0",

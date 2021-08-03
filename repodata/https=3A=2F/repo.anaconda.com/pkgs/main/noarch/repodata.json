@@ -3317,6 +3317,20 @@
 "timestamp":1611155763635,
 "version":"2018.03.13"
 },
+"autoconf-archive-2021.02.19-hd3eb1b0_0.tar.bz2":{
+"build":"hd3eb1b0_0",
+"build_number":0,
+"depends":[
+"autoconf"
+],
+"license":"GPL-3.0",
+"name":"autoconf-archive",
+"noarch":"generic",
+"sha256":"387dee824c1d02c7b9565365a11d9514fab1243965a326067d9c67400f1b462f",
+"size":511756,
+"timestamp":1624462835975,
+"version":"2021.02.19"
+},
 "automat-0.8.0-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -11183,6 +11197,24 @@
 "timestamp":1589540173659,
 "version":"10.0.0"
 },
+"compiler-rt_osx-arm64-12.0.0-h362012c_2.tar.bz2":{
+"build":"h362012c_2",
+"build_number":2,
+"constrains":[
+"compiler-rt 12.0.0"
+],
+"depends":[
+"clang 12.0.0.*",
+"clangxx 12.0.0.*"
+],
+"license":"NCSA",
+"name":"compiler-rt_osx-arm64",
+"noarch":"generic",
+"sha256":"b14dd9803726bd056128b55237544533130e69fd9ee89d672a44b34c954f1e6b",
+"size":2780971,
+"timestamp":1624198045674,
+"version":"12.0.0"
+},
 "conda-content-trust-0.1.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -15558,6 +15590,26 @@
 "size":763330,
 "timestamp":1626066559223,
 "version":"2021.7.0"
+},
+"dask-core-2021.7.2-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"cloudpickle >=1.1.1",
+"fsspec >=0.6.0",
+"packaging >=20.0",
+"partd >=0.3.10",
+"python >=3.7",
+"pyyaml",
+"toolz >=0.8.2"
+],
+"license":"BSD-3-Clause",
+"name":"dask-core",
+"noarch":"python",
+"sha256":"cd93fecbc076707f264d212b2a9a2103c1770342975f83a348d05ae191c58aae",
+"size":773911,
+"timestamp":1627943533096,
+"version":"2021.7.2"
 },
 "dask-glm-0.2.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -20240,6 +20292,43 @@
 "timestamp":1624365261601,
 "version":"3.3.1"
 },
+"flask-appbuilder-3.3.2-pyhd3eb1b0_1.tar.bz2":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"apispec >=3.3,<4",
+"click >=6.7,<9",
+"colorama >=0.3.9,<1",
+"email-validator >=1.0.5,<2",
+"enum34",
+"flask >=0.12,<2",
+"flask-babel >=1",
+"flask-jwt-extended >=3.18,<4",
+"flask-login >=0.3,<0.5",
+"flask-openid >=1.2.5,<2",
+"flask-sqlalchemy >=2.4,<3",
+"flask-wtf >=0.14.2,<0.15.0",
+"jmespath >=0.9.5",
+"jsonschema >=3.0.1,<4",
+"marshmallow >=3,<4",
+"marshmallow-enum >=1.5.1,<2",
+"marshmallow-sqlalchemy >=0.22.0,<0.24.0",
+"prison >=0.1.3,<1.0.0",
+"pyjwt >=1.7.1,<2.0.0",
+"python >=3.6",
+"python-dateutil >=2.3,<3",
+"sqlalchemy <1.4.0",
+"sqlalchemy-utils >=0.32.21,<1",
+"werkzeug"
+],
+"license":"BSD 3-Clause",
+"name":"flask-appbuilder",
+"noarch":"python",
+"sha256":"4a7f045febb50791abce59521a77d8df3abf1c372307e425f79069650da4016a",
+"size":1265218,
+"timestamp":1627450902657,
+"version":"3.3.2"
+},
 "flask-apscheduler-1.11.0-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -22615,6 +22704,20 @@
 "size":12734,
 "timestamp":1625073285376,
 "version":"0.5.0"
+},
+"gast-0.5.1-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python"
+],
+"license":"BSD-3-Clause",
+"name":"gast",
+"noarch":"python",
+"sha256":"17a2899a0568ddf87ba48f16ad938c8bcb559f9cc64292807de21675e0d237ab",
+"size":12755,
+"timestamp":1627451949333,
+"version":"0.5.1"
 },
 "gawk-amzn2-aarch64-4.0.2-5.tar.bz2":{
 "build":"5",
@@ -26984,6 +27087,30 @@
 "size":3631865,
 "timestamp":1622036797906,
 "version":"1.14.4"
+},
+"holoviews-1.14.5-pyhd3eb1b0_1.tar.bz2":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"bokeh >=1.1.0",
+"colorcet",
+"ipython >=5.4.0",
+"matplotlib-base >=3",
+"notebook",
+"numpy >=1.0",
+"pandas >=0.20.0",
+"panel >=0.9.5",
+"param >=1.9.3,<2.0",
+"python >=2.7",
+"pyviz_comms >=0.7.4"
+],
+"license":"BSD-3-Clause",
+"name":"holoviews",
+"noarch":"python",
+"sha256":"e77b4a0cc563af73e983215185e4158d11e0f9cd2cc62b8774a6b882f6846093",
+"size":3606010,
+"timestamp":1627946408633,
+"version":"1.14.5"
 },
 "hpack-3.0.0-py_0.tar.bz2":{
 "build":"py_0",
@@ -31485,6 +31612,20 @@
 "size":38625,
 "timestamp":1626115831373,
 "version":"0.7.0"
+},
+"jeepney-0.7.1-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python >=3.6"
+],
+"license":"MIT",
+"name":"jeepney",
+"noarch":"python",
+"sha256":"0ac73c9938c62c95cafd5caaaeec3c2f382f2981f957bda6fecdb8e91ca8f0bd",
+"size":38718,
+"timestamp":1627537099507,
+"version":"0.7.1"
 },
 "jinja2-2.10.3-py_0.tar.bz2":{
 "build":"py_0",
@@ -42848,6 +42989,20 @@
 "timestamp":1625827480817,
 "version":"2.6.1"
 },
+"networkx-2.6.2-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python >=3.7"
+],
+"license":"BSD-3-Clause",
+"name":"networkx",
+"noarch":"python",
+"sha256":"7ec9842a8c0a6e48653254398d6f33123da3f65af73bdfa19e1524b7f4d2567f",
+"size":1545686,
+"timestamp":1627459990358,
+"version":"2.6.2"
+},
 "nltk-3.5-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -48252,6 +48407,22 @@
 "timestamp":1597716609464,
 "version":"4.9.0"
 },
+"plotly-5.1.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python >=3.6",
+"six 1.15.0",
+"tenacity >=6.2.0"
+],
+"license":"MIT",
+"name":"plotly",
+"noarch":"python",
+"sha256":"4044ca0cf8e943a55087244cfbb5db0a648ed22bba2ff2904df82592e4f21dd3",
+"size":6970625,
+"timestamp":1626182511589,
+"version":"5.1.0"
+},
 "pluggy-0.11.0-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -53274,6 +53445,21 @@
 "size":289602,
 "timestamp":1601486083028,
 "version":"10.0.1"
+},
+"python-clang-12.0.0-default_h1f7cffa_3.tar.bz2":{
+"build":"default_h1f7cffa_3",
+"build_number":3,
+"depends":[
+"libclang 12.0.0",
+"python"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"python-clang",
+"noarch":"python",
+"sha256":"11617bb50aa8e38b70f171e1e317a5db38ee09237e6640de8fc73619e16bd8f4",
+"size":167162,
+"timestamp":1624180533115,
+"version":"12.0.0"
 },
 "python-dateutil-2.8.1-py_0.tar.bz2":{
 "build":"py_0",
@@ -81578,6 +81764,26 @@
 "timestamp":1626066559223,
 "version":"2021.7.0"
 },
+"dask-core-2021.7.2-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"cloudpickle >=1.1.1",
+"fsspec >=0.6.0",
+"packaging >=20.0",
+"partd >=0.3.10",
+"python >=3.7",
+"pyyaml",
+"toolz >=0.8.2"
+],
+"license":"BSD-3-Clause",
+"name":"dask-core",
+"noarch":"python",
+"sha256":"44e205da468f53cb64af7eb7348afec3e99ad4e69fd335258cf02f3b425a7c72",
+"size":716791,
+"timestamp":1627943533096,
+"version":"2021.7.2"
+},
 "dask-glm-0.2.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -85876,6 +86082,43 @@
 "timestamp":1624365261601,
 "version":"3.3.1"
 },
+"flask-appbuilder-3.3.2-pyhd3eb1b0_1.conda":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"apispec >=3.3,<4",
+"click >=6.7,<9",
+"colorama >=0.3.9,<1",
+"email-validator >=1.0.5,<2",
+"enum34",
+"flask >=0.12,<2",
+"flask-babel >=1",
+"flask-jwt-extended >=3.18,<4",
+"flask-login >=0.3,<0.5",
+"flask-openid >=1.2.5,<2",
+"flask-sqlalchemy >=2.4,<3",
+"flask-wtf >=0.14.2,<0.15.0",
+"jmespath >=0.9.5",
+"jsonschema >=3.0.1,<4",
+"marshmallow >=3,<4",
+"marshmallow-enum >=1.5.1,<2",
+"marshmallow-sqlalchemy >=0.22.0,<0.24.0",
+"prison >=0.1.3,<1.0.0",
+"pyjwt >=1.7.1,<2.0.0",
+"python >=3.6",
+"python-dateutil >=2.3,<3",
+"sqlalchemy <1.4.0",
+"sqlalchemy-utils >=0.32.21,<1",
+"werkzeug"
+],
+"license":"BSD 3-Clause",
+"name":"flask-appbuilder",
+"noarch":"python",
+"sha256":"63dc3553a73a68d4b6b3e47f3ef59fbc37be0faed8f990ae9049a03aa625aa7c",
+"size":1069295,
+"timestamp":1627450902657,
+"version":"3.3.2"
+},
 "flask-apscheduler-1.11.0-py_0.conda":{
 "build":"py_0",
 "build_number":0,
@@ -87966,6 +88209,20 @@
 "size":13729,
 "timestamp":1625073285376,
 "version":"0.5.0"
+},
+"gast-0.5.1-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python"
+],
+"license":"BSD-3-Clause",
+"name":"gast",
+"noarch":"python",
+"sha256":"fd3fc7a7aa32b82ef12a3d58f6bc70ebd9dea4871124823b3ff2291e3c010b04",
+"size":13743,
+"timestamp":1627451949333,
+"version":"0.5.1"
 },
 "gconf2-cos6-i686-2.28.0-h11c4738_0.conda":{
 "build":"h11c4738_0",
@@ -91314,6 +91571,30 @@
 "size":3400783,
 "timestamp":1622036797906,
 "version":"1.14.4"
+},
+"holoviews-1.14.5-pyhd3eb1b0_1.conda":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"bokeh >=1.1.0",
+"colorcet",
+"ipython >=5.4.0",
+"matplotlib-base >=3",
+"notebook",
+"numpy >=1.0",
+"pandas >=0.20.0",
+"panel >=0.9.5",
+"param >=1.9.3,<2.0",
+"python >=2.7",
+"pyviz_comms >=0.7.4"
+],
+"license":"BSD-3-Clause",
+"name":"holoviews",
+"noarch":"python",
+"sha256":"96790e41cb85758292c38a2ab918103f6f7a498128777ef39171fabfe4dd3e66",
+"size":3406704,
+"timestamp":1627946408633,
+"version":"1.14.5"
 },
 "hpack-3.0.0-py_0.conda":{
 "build":"py_0",
@@ -95517,6 +95798,20 @@
 "size":38724,
 "timestamp":1626115831373,
 "version":"0.7.0"
+},
+"jeepney-0.7.1-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python >=3.6"
+],
+"license":"MIT",
+"name":"jeepney",
+"noarch":"python",
+"sha256":"a74312540427eb9b5b613afe7fdfbd1b271530e177c94d186e2aeea907e50522",
+"size":39004,
+"timestamp":1627537099507,
+"version":"0.7.1"
 },
 "jinja2-2.10.3-py_0.conda":{
 "build":"py_0",
@@ -102532,6 +102827,20 @@
 "timestamp":1625827480817,
 "version":"2.6.1"
 },
+"networkx-2.6.2-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python >=3.7"
+],
+"license":"BSD-3-Clause",
+"name":"networkx",
+"noarch":"python",
+"sha256":"efb90d20ab3559a10fe3dc56936c2dd14972f55b47011cc01e1493b58b42380e",
+"size":1339107,
+"timestamp":1627459990358,
+"version":"2.6.2"
+},
 "nltk-3.5-py_0.conda":{
 "build":"py_0",
 "build_number":0,
@@ -107092,6 +107401,22 @@
 "size":3706199,
 "timestamp":1597716609464,
 "version":"4.9.0"
+},
+"plotly-5.1.0-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python >=3.6",
+"six 1.15.0",
+"tenacity >=6.2.0"
+],
+"license":"MIT",
+"name":"plotly",
+"noarch":"python",
+"sha256":"9a3d361eea16bf9cd50a962b73fbc05bcfa9e0dba62b3729e3e6f534f711d275",
+"size":2818547,
+"timestamp":1626182511589,
+"version":"5.1.0"
 },
 "pluggy-0.11.0-py_0.conda":{
 "build":"py_0",
