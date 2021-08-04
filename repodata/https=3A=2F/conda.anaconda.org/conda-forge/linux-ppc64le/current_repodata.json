@@ -13003,6 +13003,23 @@
 "timestamp":1626943273843,
 "version":"0.6.1"
 },
+"aws-c-auth-0.6.3-h6364286_0.tar.bz2":{
+"build":"h6364286_0",
+"build_number":0,
+"depends":[
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.8,<0.6.9.0a0",
+"aws-c-http >=0.6.5,<0.6.6.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"libgcc-ng >=9.3.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-auth",
+"sha256":"6c85734c381f959681c19656087c5be034590b1c8e37e75dfcd3ba91cc709266",
+"size":116985,
+"timestamp":1628023444096,
+"version":"0.6.3"
+},
 "aws-c-cal-0.5.11-h3ccf61e_2.tar.bz2":{
 "build":"h3ccf61e_2",
 "build_number":2,
@@ -46494,6 +46511,26 @@
 "timestamp":1624317564688,
 "version":"1.38.1"
 },
+"grpc-cpp-1.39.0-h852a64a_2.tar.bz2":{
+"build":"h852a64a_2",
+"build_number":2,
+"depends":[
+"abseil-cpp >=20210324.2,<20210324.3.0a0",
+"c-ares >=1.17.1,<2.0a0",
+"libgcc-ng >=9.3.0",
+"libprotobuf >=3.16.0,<3.17.0a0",
+"libstdcxx-ng >=9.3.0",
+"openssl >=1.1.1k,<1.1.2a",
+"re2 >=2021.8.1,<2021.8.2.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"grpc-cpp",
+"sha256":"0b340103c56c5d6854d818a6d32b3c86d0043fd77ee9a29e664d87dd5f801af1",
+"size":3799265,
+"timestamp":1628014698469,
+"version":"1.39.0"
+},
 "grpc-cpp-1.39.0-hd4cf575_0.tar.bz2":{
 "build":"hd4cf575_0",
 "build_number":0,
@@ -51742,9 +51779,9 @@
 "timestamp":1591573245951,
 "version":"0.8.0"
 },
-"heyoka-0.12.0-h7689fb8_1.tar.bz2":{
-"build":"h7689fb8_1",
-"build_number":1,
+"heyoka-0.14.0-h7689fb8_0.tar.bz2":{
+"build":"h7689fb8_0",
+"build_number":0,
 "depends":[
 "boost-cpp >=1.74.0,<1.74.1.0a0",
 "fmt >=8.0.1,<9.0a0",
@@ -51756,158 +51793,19 @@
 ],
 "license":"MPL-2.0",
 "name":"heyoka",
-"sha256":"5ff7f08fc3cd390ddfb8adf23d462ad06efefbd4c3737dc06e7d702f72572834",
-"size":1079496,
-"timestamp":1626971077132,
-"version":"0.12.0"
+"sha256":"5d513d5f826454b7b29a1703c440055bc6c5414ec0c033b0e7c5edf4bf71f7ef",
+"size":1074106,
+"timestamp":1628010388659,
+"version":"0.14.0"
 },
-"heyoka-0.12.0-he5a3da8_0.tar.bz2":{
-"build":"he5a3da8_0",
+"heyoka.py-0.14.0-py38h7aa6648_0.tar.bz2":{
+"build":"py38h7aa6648_0",
 "build_number":0,
 "depends":[
 "boost-cpp >=1.74.0,<1.74.1.0a0",
-"fmt >=8.0.1,<9.0a0",
-"libgcc-ng >=9.3.0",
-"libllvm12 >=12.0.1,<12.1.0a0",
-"libstdcxx-ng >=9.3.0",
-"sleef >=3.5.1,<4.0a0",
-"spdlog >=1.9.0,<2.0a0"
-],
-"license":"MPL-2.0",
-"name":"heyoka",
-"sha256":"2c761145eed2c18d6b2fdbf57e8d81c12cfe0d50702697240029a0ee0acd3554",
-"size":1069864,
-"timestamp":1626947584191,
-"version":"0.12.0"
-},
-"heyoka.py-0.12.0-py36h9354718_1.tar.bz2":{
-"build":"py36h9354718_1",
-"build_number":1,
-"depends":[
-"boost-cpp >=1.74.0,<1.74.1.0a0",
 "cloudpickle",
 "fmt >=8.0.1,<9.0a0",
-"heyoka >=0.12.0,<0.13.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.18.5,<2.0a0",
-"pybind11-abi 4",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"spdlog >=1.9.0,<1.10.0a0",
-"sympy"
-],
-"license":"MPL-2.0",
-"name":"heyoka.py",
-"sha256":"720dc435cb38019c6c933f68a81d057639d0955a3ba446e01bbffec7fe80e176",
-"size":450934,
-"timestamp":1627632225425,
-"version":"0.12.0"
-},
-"heyoka.py-0.12.0-py36hd97953b_1.tar.bz2":{
-"build":"py36hd97953b_1",
-"build_number":1,
-"depends":[
-"boost-cpp >=1.74.0,<1.74.1.0a0",
-"cloudpickle",
-"fmt >=8.0.1,<9.0a0",
-"heyoka >=0.12.0,<0.13.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.17.5,<2.0a0",
-"pybind11-abi 4",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6.* *_cp36m",
-"spdlog >=1.9.0,<1.10.0a0",
-"sympy"
-],
-"license":"MPL-2.0",
-"name":"heyoka.py",
-"sha256":"fbbfd1c875b4ac1736f69472dea1d0da0c5c46d5535fc822c13e43b1626f79d7",
-"size":455534,
-"timestamp":1627071346016,
-"version":"0.12.0"
-},
-"heyoka.py-0.12.0-py37h235e088_1.tar.bz2":{
-"build":"py37h235e088_1",
-"build_number":1,
-"depends":[
-"boost-cpp >=1.74.0,<1.74.1.0a0",
-"cloudpickle",
-"fmt >=8.0.1,<9.0a0",
-"heyoka >=0.12.0,<0.13.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.17.5,<2.0a0",
-"pybind11-abi 4",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"spdlog >=1.9.0,<1.10.0a0",
-"sympy"
-],
-"license":"MPL-2.0",
-"name":"heyoka.py",
-"sha256":"b02c6d39272e7268e49fcd7b6ffc1f50a823507be3940be1ef8447b8f5de6541",
-"size":456482,
-"timestamp":1627071674114,
-"version":"0.12.0"
-},
-"heyoka.py-0.12.0-py37hab80218_1.tar.bz2":{
-"build":"py37hab80218_1",
-"build_number":1,
-"depends":[
-"boost-cpp >=1.74.0,<1.74.1.0a0",
-"cloudpickle",
-"fmt >=8.0.1,<9.0a0",
-"heyoka >=0.12.0,<0.13.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.18.5,<2.0a0",
-"pybind11-abi 4",
-"python >=3.7,<3.8.0a0",
-"python_abi 3.7.* *_cp37m",
-"spdlog >=1.9.0,<1.10.0a0",
-"sympy"
-],
-"license":"MPL-2.0",
-"name":"heyoka.py",
-"sha256":"21631a4f9728c99aeda35ccbe92ef30bed99c1a74feb3bb1f20279cec6e8791e",
-"size":451554,
-"timestamp":1627631996323,
-"version":"0.12.0"
-},
-"heyoka.py-0.12.0-py38h0106edf_1.tar.bz2":{
-"build":"py38h0106edf_1",
-"build_number":1,
-"depends":[
-"boost-cpp >=1.74.0,<1.74.1.0a0",
-"cloudpickle",
-"fmt >=8.0.1,<9.0a0",
-"heyoka >=0.12.0,<0.13.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.17.5,<2.0a0",
-"pybind11-abi 4",
-"python >=3.8,<3.9.0a0",
-"python_abi 3.8.* *_cp38",
-"spdlog >=1.9.0,<1.10.0a0",
-"sympy"
-],
-"license":"MPL-2.0",
-"name":"heyoka.py",
-"sha256":"c45fefda10b478f8088c196c90f872deda9bd54765bfaaaff70fce3e79a64b56",
-"size":445577,
-"timestamp":1627071393511,
-"version":"0.12.0"
-},
-"heyoka.py-0.12.0-py38h7aa6648_1.tar.bz2":{
-"build":"py38h7aa6648_1",
-"build_number":1,
-"depends":[
-"boost-cpp >=1.74.0,<1.74.1.0a0",
-"cloudpickle",
-"fmt >=8.0.1,<9.0a0",
-"heyoka >=0.12.0,<0.13.0a0",
+"heyoka >=0.14.0,<0.15.0a0",
 "libgcc-ng >=9.3.0",
 "libstdcxx-ng >=9.3.0",
 "numpy >=1.18.5,<2.0a0",
@@ -51919,34 +51817,10 @@
 ],
 "license":"MPL-2.0",
 "name":"heyoka.py",
-"sha256":"11b08ce80f3325f12e1a4ffbd83105f1995711f552da0d7006ed69e142f5e751",
-"size":448533,
-"timestamp":1627632206299,
-"version":"0.12.0"
-},
-"heyoka.py-0.12.0-py39hdd7c3c6_1.tar.bz2":{
-"build":"py39hdd7c3c6_1",
-"build_number":1,
-"depends":[
-"boost-cpp >=1.74.0,<1.74.1.0a0",
-"cloudpickle",
-"fmt >=8.0.1,<9.0a0",
-"heyoka >=0.12.0,<0.13.0a0",
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0",
-"numpy >=1.19.5,<2.0a0",
-"pybind11-abi 4",
-"python >=3.9,<3.10.0a0",
-"python_abi 3.9.* *_cp39",
-"spdlog >=1.9.0,<1.10.0a0",
-"sympy"
-],
-"license":"MPL-2.0",
-"name":"heyoka.py",
-"sha256":"5afa6e2f57173f110d218f47b0871ee2b9607d95d63877cb3f456ad4b8cbc026",
-"size":445285,
-"timestamp":1627071473236,
-"version":"0.12.0"
+"sha256":"6c3be38f8ca7f54b5cdaeaf38a52e321dd345f4b21dbb30d7cd3cce2aaf3c77e",
+"size":449047,
+"timestamp":1628030284182,
+"version":"0.14.0"
 },
 "hicolor-icon-theme-0.17-ha3edaa6_2.tar.bz2":{
 "build":"ha3edaa6_2",
@@ -78115,7 +77989,7 @@
 "timestamp":1617796429489,
 "version":"15.14.0"
 },
-"nodejs-16.6.0-h4993e3a_0.tar.bz2":{
+"nodejs-16.6.1-h4993e3a_0.tar.bz2":{
 "build":"h4993e3a_0",
 "build_number":0,
 "depends":[
@@ -78128,10 +78002,10 @@
 ],
 "license":"MIT",
 "name":"nodejs",
-"sha256":"ccd21a4b4fb695bbc54a5dd8723094872afd362c739ac6e05cfb949bb6f6dcbf",
-"size":17716555,
-"timestamp":1627655428521,
-"version":"16.6.0"
+"sha256":"4ba6b5fb195c4e6aa30115135961734168408eb0462cb5dca74c1f1ffb49cb28",
+"size":17718530,
+"timestamp":1628023266904,
+"version":"16.6.1"
 },
 "nordugrid-arc-6.12.0-py36h0ce30d7_0.tar.bz2":{
 "build":"py36h0ce30d7_0",
@@ -118278,7 +118152,7 @@
 "timestamp":1618863168970,
 "version":"8.1"
 },
-"regex-2021.7.6-py36hc33305d_0.tar.bz2":{
+"regex-2021.8.3-py36hc33305d_0.tar.bz2":{
 "build":"py36hc33305d_0",
 "build_number":0,
 "depends":[
@@ -118288,12 +118162,28 @@
 ],
 "license":"Python-2.0",
 "name":"regex",
-"sha256":"483bd11e362d9927855cf9a668d22c9f509baedc4586a212d09da99f821a5142",
-"size":399506,
-"timestamp":1625539751717,
-"version":"2021.7.6"
+"sha256":"9abf624feff159fa71d74b21379a361bc26c323ecfc03b25911eb6a5a659d076",
+"size":398483,
+"timestamp":1628024926420,
+"version":"2021.8.3"
 },
-"regex-2021.7.6-py37h6642d69_0.tar.bz2":{
+"regex-2021.8.3-py37h0630641_0.tar.bz2":{
+"build":"py37h0630641_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"pypy3.7 >=7.3.5",
+"python >=3.7,<3.8.0a0",
+"python_abi 3.7 *_pypy37_pp73"
+],
+"license":"Python-2.0",
+"name":"regex",
+"sha256":"4f12e4d2fe9986cc54396a477b9185931b31e62d021cc89c98a92f63caacbe2d",
+"size":397774,
+"timestamp":1628024950061,
+"version":"2021.8.3"
+},
+"regex-2021.8.3-py37h6642d69_0.tar.bz2":{
 "build":"py37h6642d69_0",
 "build_number":0,
 "depends":[
@@ -118303,12 +118193,12 @@
 ],
 "license":"Python-2.0",
 "name":"regex",
-"sha256":"16515bd7670a924990f207871bd735dfd1e5dfba43c25d66c4ab00c420f9731e",
-"size":399261,
-"timestamp":1625539760246,
-"version":"2021.7.6"
+"sha256":"3d764577db0dbda2d5493a2bbf52343b51d9c9ec0df0a82170b3d16c9133f4c7",
+"size":396293,
+"timestamp":1628024934195,
+"version":"2021.8.3"
 },
-"regex-2021.7.6-py38h98b8a6f_0.tar.bz2":{
+"regex-2021.8.3-py38h98b8a6f_0.tar.bz2":{
 "build":"py38h98b8a6f_0",
 "build_number":0,
 "depends":[
@@ -118318,12 +118208,12 @@
 ],
 "license":"Python-2.0",
 "name":"regex",
-"sha256":"32b05fcdcc59d558191c5054c4fec3233e02ccc4eecb8fd6899bf7572a824248",
-"size":394340,
-"timestamp":1625539032264,
-"version":"2021.7.6"
+"sha256":"dfb28729141607bee1c4d636eccd65ceaef024109033aec5750ac34ba45e3551",
+"size":405142,
+"timestamp":1628024856110,
+"version":"2021.8.3"
 },
-"regex-2021.7.6-py39ha810350_0.tar.bz2":{
+"regex-2021.8.3-py39ha810350_0.tar.bz2":{
 "build":"py39ha810350_0",
 "build_number":0,
 "depends":[
@@ -118333,10 +118223,10 @@
 ],
 "license":"Python-2.0",
 "name":"regex",
-"sha256":"54f2520e42bf95dfa6b2dfdc96bb6ebb80313fb8e08337a22682564cf0799f59",
-"size":402432,
-"timestamp":1625539307247,
-"version":"2021.7.6"
+"sha256":"6b65e80d82353dfce98be5d306f81d55ef387941a5aa96648ae10d4998c9cb92",
+"size":395148,
+"timestamp":1628024796879,
+"version":"2021.8.3"
 },
 "regions-0.5-py37h290ce0f_0.tar.bz2":{
 "build":"py37h290ce0f_0",

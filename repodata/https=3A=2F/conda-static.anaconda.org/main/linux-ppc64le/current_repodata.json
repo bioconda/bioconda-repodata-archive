@@ -17675,7 +17675,7 @@
 "timestamp":1617384127808,
 "version":"2021.4.0"
 },
-"distributed-2021.7.0-py37h6ffa863_0.tar.bz2":{
+"distributed-2021.7.2-py37h6ffa863_0.tar.bz2":{
 "build":"py37h6ffa863_0",
 "build_number":0,
 "constrains":[
@@ -17685,7 +17685,7 @@
 "click >=6.6",
 "cloudpickle >=1.5.0",
 "cytoolz >=0.8.2",
-"dask-core 2021.7.0.*",
+"dask-core 2021.7.2.*",
 "msgpack-python >=0.6.0",
 "psutil >=5.0",
 "python >=3.7,<3.8.0a0",
@@ -17699,12 +17699,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"distributed",
-"sha256":"5d33deca5d9110c210e3fa3f9227cbfefb6f1c609ca6165144ee9d72f7dc9a4b",
-"size":1568122,
-"timestamp":1626113060522,
-"version":"2021.7.0"
+"sha256":"5ed7cd7124c743aff84353b57ae8772542daf2f63cf6305d2a6092d4e929034f",
+"size":1067767,
+"timestamp":1628001599598,
+"version":"2021.7.2"
 },
-"distributed-2021.7.0-py38h6ffa863_0.tar.bz2":{
+"distributed-2021.7.2-py38h6ffa863_0.tar.bz2":{
 "build":"py38h6ffa863_0",
 "build_number":0,
 "constrains":[
@@ -17714,7 +17714,7 @@
 "click >=6.6",
 "cloudpickle >=1.5.0",
 "cytoolz >=0.8.2",
-"dask-core 2021.7.0.*",
+"dask-core 2021.7.2.*",
 "msgpack-python >=0.6.0",
 "psutil >=5.0",
 "python >=3.8,<3.9.0a0",
@@ -17728,12 +17728,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"distributed",
-"sha256":"808c9f744a691e385cb766bfa532fb160b37b36206f69807103b57515ead7eb6",
-"size":1577933,
-"timestamp":1626113057215,
-"version":"2021.7.0"
+"sha256":"1b4f5071236dbbad6392ad787dad41b865b8085f87a49fc64f91017a6dba8f41",
+"size":1078415,
+"timestamp":1628001619466,
+"version":"2021.7.2"
 },
-"distributed-2021.7.0-py39h6ffa863_0.tar.bz2":{
+"distributed-2021.7.2-py39h6ffa863_0.tar.bz2":{
 "build":"py39h6ffa863_0",
 "build_number":0,
 "constrains":[
@@ -17743,7 +17743,7 @@
 "click >=6.6",
 "cloudpickle >=1.5.0",
 "cytoolz >=0.8.2",
-"dask-core 2021.7.0.*",
+"dask-core 2021.7.2.*",
 "msgpack-python >=0.6.0",
 "psutil >=5.0",
 "python >=3.9,<3.10.0a0",
@@ -17757,10 +17757,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"distributed",
-"sha256":"c957fa8e4cdbea87bc7e12f97107db493cb333db21adf12433fbadd24d7cac8c",
-"size":1580787,
-"timestamp":1626113062767,
-"version":"2021.7.0"
+"sha256":"b66b32fd064735ee3e302739b45b649570726314aafa65a2a09970e567bdf998",
+"size":1074536,
+"timestamp":1628001599956,
+"version":"2021.7.2"
 },
 "django-2.2.5-py36_0.tar.bz2":{
 "build":"py36_0",
@@ -36386,6 +36386,48 @@
 "timestamp":1613408316167,
 "version":"3.3.4"
 },
+"matplotlib-3.4.2-py37h6ffa863_0.tar.bz2":{
+"build":"py37h6ffa863_0",
+"build_number":0,
+"depends":[
+"matplotlib-base >=3.4.2,<3.4.3.0a0",
+"python >=3.7,<3.8.0a0"
+],
+"license":"LicenseRef-PSF-based",
+"name":"matplotlib",
+"sha256":"8343884f2977168281d25c98661326e1f8b173b74dff0afd986ac42ec9c1e67a",
+"size":25669,
+"timestamp":1628011847897,
+"version":"3.4.2"
+},
+"matplotlib-3.4.2-py38h6ffa863_0.tar.bz2":{
+"build":"py38h6ffa863_0",
+"build_number":0,
+"depends":[
+"matplotlib-base >=3.4.2,<3.4.3.0a0",
+"python >=3.8,<3.9.0a0"
+],
+"license":"LicenseRef-PSF-based",
+"name":"matplotlib",
+"sha256":"c0891ef2ef330a2dbec8258faea18c8b95323de6ff2b68521e80dda149dd3c43",
+"size":25713,
+"timestamp":1628011842268,
+"version":"3.4.2"
+},
+"matplotlib-3.4.2-py39h6ffa863_0.tar.bz2":{
+"build":"py39h6ffa863_0",
+"build_number":0,
+"depends":[
+"matplotlib-base >=3.4.2,<3.4.3.0a0",
+"python >=3.9,<3.10.0a0"
+],
+"license":"LicenseRef-PSF-based",
+"name":"matplotlib",
+"sha256":"cfc9688d9d1488e110856e4936b46c7f1a987961677c67e883a7ffaa5626452e",
+"size":25696,
+"timestamp":1628011836608,
+"version":"3.4.2"
+},
 "matplotlib-base-3.1.3-py36h4fdacc2_0.tar.bz2":{
 "build":"py36h4fdacc2_0",
 "build_number":0,
@@ -36567,6 +36609,87 @@
 "size":7160167,
 "timestamp":1613408051561,
 "version":"3.3.4"
+},
+"matplotlib-base-3.4.2-py37he087750_0.tar.bz2":{
+"build":"py37he087750_0",
+"build_number":0,
+"depends":[
+"certifi >=2020.06.20",
+"cycler >=0.10",
+"fonttools >=4.22.0",
+"freetype >=2.10.4,<3.0a0",
+"kiwisolver >=1.0.1",
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"numpy >=1.16.6,<2.0a0",
+"pillow >=6.2.0",
+"pyparsing >=2.2.1",
+"python >=3.7,<3.8.0a0",
+"python-dateutil >=2.1",
+"setuptools",
+"tk",
+"tornado"
+],
+"license":"LicenseRef-PSF-based",
+"name":"matplotlib-base",
+"sha256":"034e1494f21379df28ad0067c2ce5fb091d3b627be6df9c83c7c4aa6b8d8a42b",
+"size":7745332,
+"timestamp":1628011825319,
+"version":"3.4.2"
+},
+"matplotlib-base-3.4.2-py38he087750_0.tar.bz2":{
+"build":"py38he087750_0",
+"build_number":0,
+"depends":[
+"certifi >=2020.06.20",
+"cycler >=0.10",
+"fonttools >=4.22.0",
+"freetype >=2.10.4,<3.0a0",
+"kiwisolver >=1.0.1",
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"numpy >=1.16.6,<2.0a0",
+"pillow >=6.2.0",
+"pyparsing >=2.2.1",
+"python >=3.8,<3.9.0a0",
+"python-dateutil >=2.1",
+"setuptools",
+"tk",
+"tornado"
+],
+"license":"LicenseRef-PSF-based",
+"name":"matplotlib-base",
+"sha256":"21bd8b187ef29f2d3677e086df75d7119997ced13256588ed4c1d64e99348726",
+"size":7763584,
+"timestamp":1628011734439,
+"version":"3.4.2"
+},
+"matplotlib-base-3.4.2-py39he087750_0.tar.bz2":{
+"build":"py39he087750_0",
+"build_number":0,
+"depends":[
+"certifi >=2020.06.20",
+"cycler >=0.10",
+"fonttools >=4.22.0",
+"freetype >=2.10.4,<3.0a0",
+"kiwisolver >=1.0.1",
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"numpy >=1.16.6,<2.0a0",
+"pillow >=6.2.0",
+"pyparsing >=2.2.1",
+"python >=3.9,<3.10.0a0",
+"python-dateutil >=2.1",
+"setuptools",
+"tk",
+"tornado"
+],
+"license":"LicenseRef-PSF-based",
+"name":"matplotlib-base",
+"sha256":"91c5c06b8011b02b9ad55eddb987be660787e7877b594c630db32ffd70a0c22c",
+"size":7748775,
+"timestamp":1628011645539,
+"version":"3.4.2"
 },
 "mccabe-0.6.1-py27_1.tar.bz2":{
 "build":"py27_1",
@@ -45220,7 +45343,7 @@
 "timestamp":1613685628599,
 "version":"21.0.1"
 },
-"pip-21.1.3-py36h6ffa863_0.tar.bz2":{
+"pip-21.2.2-py36h6ffa863_0.tar.bz2":{
 "build":"py36h6ffa863_0",
 "build_number":0,
 "depends":[
@@ -45230,12 +45353,12 @@
 ],
 "license":"MIT",
 "name":"pip",
-"sha256":"261db213c59dedac11ffafdf64b46fcbc94d340053c8fda46e347f7a13ad1bb2",
-"size":2161078,
-"timestamp":1624898158961,
-"version":"21.1.3"
+"sha256":"af8363f97c1ede7abb9c41bcbfb4dc7915c73f5f509ddc7456606687f6817004",
+"size":2192272,
+"timestamp":1627796655606,
+"version":"21.2.2"
 },
-"pip-21.1.3-py37h6ffa863_0.tar.bz2":{
+"pip-21.2.2-py37h6ffa863_0.tar.bz2":{
 "build":"py37h6ffa863_0",
 "build_number":0,
 "depends":[
@@ -45245,12 +45368,12 @@
 ],
 "license":"MIT",
 "name":"pip",
-"sha256":"ebf6182ad8ddbc8d32bd104cf1b87f7b691e721e469b282f76cfedeb7d082eb2",
-"size":2105224,
-"timestamp":1624898163654,
-"version":"21.1.3"
+"sha256":"aa6a52f60c8e361a3589a8c89f9c1a575616d12b83078fbe8d261aec79f3af8f",
+"size":2117269,
+"timestamp":1627796669977,
+"version":"21.2.2"
 },
-"pip-21.1.3-py38h6ffa863_0.tar.bz2":{
+"pip-21.2.2-py38h6ffa863_0.tar.bz2":{
 "build":"py38h6ffa863_0",
 "build_number":0,
 "depends":[
@@ -45260,12 +45383,12 @@
 ],
 "license":"MIT",
 "name":"pip",
-"sha256":"5f034bf23a04df2268fbbe7fd2dfe259dff81ab271b78d82777596caeb9dbdb7",
-"size":2113017,
-"timestamp":1624898158145,
-"version":"21.1.3"
+"sha256":"4005c59bed809a11b5d066cdced6823160f41c30c157f035c620a1de09f89f9c",
+"size":2132289,
+"timestamp":1627796658922,
+"version":"21.2.2"
 },
-"pip-21.1.3-py39h6ffa863_0.tar.bz2":{
+"pip-21.2.2-py39h6ffa863_0.tar.bz2":{
 "build":"py39h6ffa863_0",
 "build_number":0,
 "depends":[
@@ -45275,10 +45398,10 @@
 ],
 "license":"MIT",
 "name":"pip",
-"sha256":"a7b801a77fc8b98719ad2a38730b15131e89a9493826ab5c5f36dd14c1d053fc",
-"size":2116118,
-"timestamp":1624898148493,
-"version":"21.1.3"
+"sha256":"ebf5ceb4b6df32affd9e3ef79a27081985f3369fe05160586d89a95fc55e1c69",
+"size":2121862,
+"timestamp":1627796671291,
+"version":"21.2.2"
 },
 "pivottablejs-0.9.0-py27_0.tar.bz2":{
 "build":"py27_0",
