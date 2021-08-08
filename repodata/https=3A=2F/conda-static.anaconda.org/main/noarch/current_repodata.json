@@ -2973,6 +2973,42 @@
 "timestamp":1624198045674,
 "version":"12.0.0"
 },
+"compiler-rt_win-32-12.0.0-he682363_2.tar.bz2":{
+"build":"he682363_2",
+"build_number":2,
+"constrains":[
+"compiler-rt 12.0.0"
+],
+"depends":[
+"clang 12.0.0.*",
+"clangxx 12.0.0.*"
+],
+"license":"NCSA",
+"name":"compiler-rt_win-32",
+"noarch":"generic",
+"sha256":"76430e41149c001e3fb5a7e811e9c452738835b4f09f78d816f8a50c44f3ea18",
+"size":6736401,
+"timestamp":1628063029864,
+"version":"12.0.0"
+},
+"compiler-rt_win-64-12.0.0-h6d14046_2.tar.bz2":{
+"build":"h6d14046_2",
+"build_number":2,
+"constrains":[
+"compiler-rt 12.0.0"
+],
+"depends":[
+"clang 12.0.0.*",
+"clangxx 12.0.0.*"
+],
+"license":"NCSA",
+"name":"compiler-rt_win-64",
+"noarch":"generic",
+"sha256":"04c320b3bea86a6347ef1a333fae87b60c26dd086630e7eba0d6d57f7d1c8375",
+"size":7120767,
+"timestamp":1628062927029,
+"version":"12.0.0"
+},
 "conda-content-trust-0.1.1-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -9194,21 +9230,6 @@
 "timestamp":1628192958337,
 "version":"0.10.4"
 },
-"jupyter-packaging-0.7.12-pyhd3eb1b0_0.tar.bz2":{
-"build":"pyhd3eb1b0_0",
-"build_number":0,
-"depends":[
-"python >=3.5",
-"setuptools"
-],
-"license":"BSD-3-Clause",
-"name":"jupyter-packaging",
-"noarch":"python",
-"sha256":"79ca65245d817b1a2ec74191d8beb49682f1c22bf93841807b877e0638986469",
-"size":13949,
-"timestamp":1613502864554,
-"version":"0.7.12"
-},
 "jupyter_client-6.1.12-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -9318,13 +9339,12 @@
 "timestamp":1616445508567,
 "version":"1.3.2"
 },
-"jupyterlab-3.0.14-pyhd3eb1b0_1.tar.bz2":{
-"build":"pyhd3eb1b0_1",
-"build_number":1,
+"jupyterlab-3.1.4-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
 "depends":[
 "ipython",
 "jinja2 >=2.10",
-"jupyter-packaging >=0.7.3,<0.8.0",
 "jupyter_core",
 "jupyter_server >=1.4,<2",
 "jupyterlab_server >=2.3,<3",
@@ -9336,10 +9356,10 @@
 "license":"BSD-3-Clause",
 "name":"jupyterlab",
 "noarch":"python",
-"sha256":"a4effcbcd765f9bc1e4310151bfd6085aac03bc5bc2197e13162eb6fd8c87c50",
-"size":6044084,
-"timestamp":1619133294243,
-"version":"3.0.14"
+"sha256":"9107a5403fa239faa00a054ca60d4a1e8303d16a9fd36dd53163c5e5f630d9d2",
+"size":6191232,
+"timestamp":1628249877726,
+"version":"3.1.4"
 },
 "jupyterlab_launcher-0.13.1-py_2.tar.bz2":{
 "build":"py_2",
@@ -9371,7 +9391,7 @@
 "timestamp":1601490751973,
 "version":"0.1.2"
 },
-"jupyterlab_server-2.6.1-pyhd3eb1b0_0.tar.bz2":{
+"jupyterlab_server-2.6.2-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
 "depends":[
@@ -9387,10 +9407,10 @@
 "license":"BSD-3-Clause",
 "name":"jupyterlab_server",
 "noarch":"python",
-"sha256":"71adca462b9134f7a09b11865c9bb74abddd6279da8fead17f05f77b47f20f8f",
-"size":44833,
-"timestamp":1625823160234,
-"version":"2.6.1"
+"sha256":"1cf7082517d7c689bd3d3b311e9943453ffcbd75a452cbd61e4709e3927451ad",
+"size":44965,
+"timestamp":1628194312993,
+"version":"2.6.2"
 },
 "jupyterlab_widgets-1.0.0-pyhd3eb1b0_1.tar.bz2":{
 "build":"pyhd3eb1b0_1",
@@ -14785,6 +14805,21 @@
 "timestamp":1622803956311,
 "version":"0.26.0"
 },
+"matplotlib-inline-0.1.2-pyhd3eb1b0_2.tar.bz2":{
+"build":"pyhd3eb1b0_2",
+"build_number":2,
+"depends":[
+"python >=3.6",
+"traitlets"
+],
+"license":"BSD-3-Clause",
+"name":"matplotlib-inline",
+"noarch":"python",
+"sha256":"78d6ee77f177f33bc9af15953e0ee4cb427a10fe88a76f46aa3c37675f11c799",
+"size":12421,
+"timestamp":1628242483948,
+"version":"0.1.2"
+},
 "meld3-2.0.0-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -19870,9 +19905,9 @@
 "timestamp":1624451879754,
 "version":"2.3.0"
 },
-"python-clang-12.0.0-default_h1f7cffa_3.tar.bz2":{
-"build":"default_h1f7cffa_3",
-"build_number":3,
+"python-clang-12.0.0-default_h1f7cffa_2.tar.bz2":{
+"build":"default_h1f7cffa_2",
+"build_number":2,
 "depends":[
 "libclang 12.0.0",
 "python"
@@ -19880,9 +19915,9 @@
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"python-clang",
 "noarch":"python",
-"sha256":"11617bb50aa8e38b70f171e1e317a5db38ee09237e6640de8fc73619e16bd8f4",
-"size":167162,
-"timestamp":1624180533115,
+"sha256":"3ffd99f95f6bf143a9504c84386cf82562113739f389a92853e801e3fceaf0d3",
+"size":176223,
+"timestamp":1628059816762,
 "version":"12.0.0"
 },
 "python-dateutil-2.8.2-pyhd3eb1b0_0.tar.bz2":{
