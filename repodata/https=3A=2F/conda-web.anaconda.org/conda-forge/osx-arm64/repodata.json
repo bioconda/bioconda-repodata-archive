@@ -43179,6 +43179,50 @@
 "timestamp":1615982657084,
 "version":"21.1.2"
 },
+"gevent-21.8.0-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"depends":[
+"c-ares >=1.17.1,<2.0a0",
+"cffi >=1.11.5",
+"greenlet >=1.1.0,<2.0",
+"libev >=4.33,<4.34.0a0",
+"libuv >=1.42.0,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"setuptools",
+"zope.event",
+"zope.interface"
+],
+"license":"MIT",
+"name":"gevent",
+"requires":[],
+"size":1688725,
+"timestamp":1628419933374,
+"version":"21.8.0"
+},
+"gevent-21.8.0-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"depends":[
+"c-ares >=1.17.1,<2.0a0",
+"cffi >=1.11.5",
+"greenlet >=1.1.0,<2.0",
+"libev >=4.33,<4.34.0a0",
+"libuv >=1.42.0,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"setuptools",
+"zope.event",
+"zope.interface"
+],
+"license":"MIT",
+"name":"gevent",
+"requires":[],
+"size":1682493,
+"timestamp":1628419929585,
+"version":"21.8.0"
+},
 "gf2x-1.3.0-hbc8c5e8_1.tar.bz2":{
 "build":"hbc8c5e8_1",
 "build_number":1,
@@ -71422,6 +71466,20 @@
 "timestamp":1628277134355,
 "version":"12.0.1"
 },
+"libllvm12-12.0.1-h93073aa_2.tar.bz2":{
+"build":"h93073aa_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libllvm12",
+"requires":[],
+"size":23488659,
+"timestamp":1628408467386,
+"version":"12.0.1"
+},
 "libllvm9-9.0.1-h0238b49_2.tar.bz2":{
 "build":"h0238b49_2",
 "build_number":2,
@@ -76115,6 +76173,22 @@
 "timestamp":1626302024276,
 "version":"12.0.1"
 },
+"lld-12.0.1-hedf2713_1.tar.bz2":{
+"build":"hedf2713_1",
+"build_number":1,
+"constrains":[
+"llvm ==12.0.1"
+],
+"depends":[
+"libllvm12 >=12.0.1,<12.1.0a0"
+],
+"license":"NCSA",
+"name":"lld",
+"requires":[],
+"size":3845009,
+"timestamp":1628430058953,
+"version":"12.0.1"
+},
 "llvm-10.0.1-h95d0606_2.tar.bz2":{
 "build":"h95d0606_2",
 "build_number":2,
@@ -76283,6 +76357,23 @@
 "requires":[],
 "size":51347,
 "timestamp":1628277160298,
+"version":"12.0.1"
+},
+"llvm-12.0.1-h95d0606_2.tar.bz2":{
+"build":"h95d0606_2",
+"build_number":2,
+"constrains":[
+"llvmdev   12.0.1"
+],
+"depends":[
+"libllvm12 12.0.1 h93073aa_2",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"llvm",
+"requires":[],
+"size":51363,
+"timestamp":1628408493701,
 "version":"12.0.1"
 },
 "llvm-9.0.1-h95d0606_2.tar.bz2":{
@@ -76601,6 +76692,23 @@
 "timestamp":1628277516283,
 "version":"12.0.1"
 },
+"llvm-tools-12.0.1-h93073aa_2.tar.bz2":{
+"build":"h93073aa_2",
+"build_number":2,
+"constrains":[
+"llvmdev   12.0.1"
+],
+"depends":[
+"libllvm12 12.0.1 h93073aa_2",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"llvm-tools",
+"requires":[],
+"size":11359010,
+"timestamp":1628408874829,
+"version":"12.0.1"
+},
 "llvm-tools-9.0.1-h4468dd5_3.tar.bz2":{
 "build":"h4468dd5_3",
 "build_number":3,
@@ -76809,6 +76917,22 @@
 "requires":[],
 "size":40732468,
 "timestamp":1628277961559,
+"version":"12.0.1"
+},
+"llvmdev-12.0.1-h93073aa_2.tar.bz2":{
+"build":"h93073aa_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.a0",
+"libllvm12 12.0.1 h93073aa_2",
+"llvm-tools 12.0.1 h93073aa_2",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"llvmdev",
+"requires":[],
+"size":40799542,
+"timestamp":1628409354073,
 "version":"12.0.1"
 },
 "llvmdev-5.0.0-h260d524_1005.tar.bz2":{
@@ -86011,6 +86135,22 @@
 "size":2005877,
 "timestamp":1623338782381,
 "version":"3.67"
+},
+"nss-3.69-h353d031_0.tar.bz2":{
+"build":"h353d031_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"nspr >=4.30,<5.0a0",
+"sqlite >=3.36.0,<4.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"MPL-2.0",
+"name":"nss",
+"requires":[],
+"size":2010597,
+"timestamp":1628456842719,
+"version":"3.69"
 },
 "nsync-1.24.0-h9f76cd9_0.tar.bz2":{
 "build":"h9f76cd9_0",
@@ -109569,6 +109709,44 @@
 "timestamp":1626193914690,
 "version":"4.4"
 },
+"pyinstaller-4.5.1-py38h95a778e_0.tar.bz2":{
+"build":"py38h95a778e_0",
+"build_number":0,
+"depends":[
+"altgraph",
+"macholib >=1.8",
+"pyinstaller-hooks-contrib >=2020.6",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"setuptools",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-2.0-or-later WITH Bootloader-exception",
+"name":"pyinstaller",
+"requires":[],
+"size":1670619,
+"timestamp":1628464395557,
+"version":"4.5.1"
+},
+"pyinstaller-4.5.1-py39h3753aae_0.tar.bz2":{
+"build":"py39h3753aae_0",
+"build_number":0,
+"depends":[
+"altgraph",
+"macholib >=1.8",
+"pyinstaller-hooks-contrib >=2020.6",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"setuptools",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-2.0-or-later WITH Bootloader-exception",
+"name":"pyinstaller",
+"requires":[],
+"size":1735829,
+"timestamp":1628464416572,
+"version":"4.5.1"
+},
 "pykerberos-1.2.1-py38h8c8ea35_4.tar.bz2":{
 "build":"py38h8c8ea35_4",
 "build_number":4,
@@ -128390,6 +128568,28 @@
 "timestamp":1625563088303,
 "version":"0.24.2"
 },
+"scikit-learn-0.24.2-py38h2cd4032_1.tar.bz2":{
+"build":"py38h2cd4032_1",
+"build_number":1,
+"depends":[
+"joblib >=0.11",
+"libcblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0",
+"llvm-openmp >=12.0.1",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"scipy",
+"threadpoolctl"
+],
+"license":"BSD-3-Clause",
+"name":"scikit-learn",
+"requires":[],
+"size":6838115,
+"timestamp":1628432513320,
+"version":"0.24.2"
+},
 "scikit-learn-0.24.2-py39hab69601_0.tar.bz2":{
 "build":"py39hab69601_0",
 "build_number":0,
@@ -128430,6 +128630,28 @@
 "requires":[],
 "size":6928295,
 "timestamp":1625563279450,
+"version":"0.24.2"
+},
+"scikit-learn-0.24.2-py39hef7049f_1.tar.bz2":{
+"build":"py39hef7049f_1",
+"build_number":1,
+"depends":[
+"joblib >=0.11",
+"libcblas >=3.9.0,<4.0a0",
+"libcxx >=11.1.0",
+"llvm-openmp >=11.1.0",
+"llvm-openmp >=12.0.1",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"scipy",
+"threadpoolctl"
+],
+"license":"BSD-3-Clause",
+"name":"scikit-learn",
+"requires":[],
+"size":6948010,
+"timestamp":1628432601059,
 "version":"0.24.2"
 },
 "scipy-1.5.2-py38h2dbcbbe_2.tar.bz2":{
@@ -137832,6 +138054,22 @@
 "timestamp":1624597183318,
 "version":"1.4.0"
 },
+"torchsparse-1.4.0-py38h3985636_7.tar.bz2":{
+"build":"py38h3985636_7",
+"build_number":7,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"pytorch-cpu"
+],
+"license":"MIT",
+"name":"torchsparse",
+"requires":[],
+"size":108984,
+"timestamp":1628459914851,
+"version":"1.4.0"
+},
 "torchsparse-1.4.0-py39hc5f5ce6_6.tar.bz2":{
 "build":"py39hc5f5ce6_6",
 "build_number":6,
@@ -137846,6 +138084,22 @@
 "requires":[],
 "size":120178,
 "timestamp":1624597198059,
+"version":"1.4.0"
+},
+"torchsparse-1.4.0-py39hc5f5ce6_7.tar.bz2":{
+"build":"py39hc5f5ce6_7",
+"build_number":7,
+"depends":[
+"libcxx >=11.1.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"pytorch-cpu"
+],
+"license":"MIT",
+"name":"torchsparse",
+"requires":[],
+"size":114340,
+"timestamp":1628460105839,
 "version":"1.4.0"
 },
 "torchvision-0.8.2-h10c60ff_0_cpu.tar.bz2":{
@@ -138869,6 +139123,78 @@
 "size":5337709,
 "timestamp":1615405171418,
 "version":"21.2.0"
+},
+"twisted-21.7.0-py38hea4295b_0.tar.bz2":{
+"build":"py38hea4295b_0",
+"build_number":0,
+"constrains":[
+"h2 >=3.0,<4.0",
+"pyobjc-core",
+"pyobjc-framework-cocoa",
+"pyserial >=3.0",
+"priority >=1.1.0,<2.0"
+],
+"depends":[
+"appdirs >=1.4.0",
+"attrs >=19.2.0",
+"automat >=0.8.0",
+"bcrypt >=3.0.0",
+"constantly >=15.1",
+"cryptography >=2.6",
+"hyperlink >=17.1.1",
+"idna >=2.4",
+"incremental >=21.3.0",
+"pip",
+"pyasn1",
+"pyopenssl >=16.0.0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38",
+"service_identity >=18.1.0",
+"typing-extensions >=3.6.5",
+"zope.interface >=4.4.2"
+],
+"license":"MIT",
+"name":"twisted",
+"requires":[],
+"size":5367354,
+"timestamp":1628426593110,
+"version":"21.7.0"
+},
+"twisted-21.7.0-py39h5161555_0.tar.bz2":{
+"build":"py39h5161555_0",
+"build_number":0,
+"constrains":[
+"pyobjc-framework-cocoa",
+"priority >=1.1.0,<2.0",
+"pyserial >=3.0",
+"pyobjc-core",
+"h2 >=3.0,<4.0"
+],
+"depends":[
+"appdirs >=1.4.0",
+"attrs >=19.2.0",
+"automat >=0.8.0",
+"bcrypt >=3.0.0",
+"constantly >=15.1",
+"cryptography >=2.6",
+"hyperlink >=17.1.1",
+"idna >=2.4",
+"incremental >=21.3.0",
+"pip",
+"pyasn1",
+"pyopenssl >=16.0.0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39",
+"service_identity >=18.1.0",
+"typing-extensions >=3.6.5",
+"zope.interface >=4.4.2"
+],
+"license":"MIT",
+"name":"twisted",
+"requires":[],
+"size":5371261,
+"timestamp":1628426605606,
+"version":"21.7.0"
 },
 "typed-ast-1.4.1-py38h30f7421_1.tar.bz2":{
 "build":"py38h30f7421_1",
