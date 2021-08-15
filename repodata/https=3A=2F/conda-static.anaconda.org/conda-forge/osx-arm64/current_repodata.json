@@ -4588,6 +4588,20 @@
 "timestamp":1626444531603,
 "version":"0.5.11"
 },
+"aws-c-cal-0.5.11-heddbab8_6.tar.bz2":{
+"build":"heddbab8_6",
+"build_number":6,
+"depends":[
+"aws-c-common >=0.6.9,<0.6.10.0a0",
+"openssl >=1.1.1k,<1.1.2a"
+],
+"license":"Apache-2.0",
+"name":"aws-c-cal",
+"sha256":"2b1744a7c273839032ff8503f059de30a349567de2f465467ca982a89d7b0cee",
+"size":28997,
+"timestamp":1628950565313,
+"version":"0.5.11"
+},
 "aws-c-common-0.4.66-h27ca646_0.tar.bz2":{
 "build":"h27ca646_0",
 "build_number":0,
@@ -4731,6 +4745,17 @@
 "timestamp":1626486115231,
 "version":"0.6.8"
 },
+"aws-c-common-0.6.9-h3422bc3_0.tar.bz2":{
+"build":"h3422bc3_0",
+"build_number":0,
+"depends":[],
+"license":"Apache-2.0",
+"name":"aws-c-common",
+"sha256":"1893270306fdc79ebcf6ff4cb61db1ffea89be317c818c80e213a951defc802a",
+"size":153374,
+"timestamp":1628900567767,
+"version":"0.6.9"
+},
 "aws-c-compression-0.2.13-h26c7476_1.tar.bz2":{
 "build":"h26c7476_1",
 "build_number":1,
@@ -4820,6 +4845,19 @@
 "sha256":"ecbcac2878b982cbd78454074bbf9840067d156736b044e363060c1ac2ecdb20",
 "size":16004,
 "timestamp":1626720881323,
+"version":"0.2.14"
+},
+"aws-c-compression-0.2.14-hb872c8e_1.tar.bz2":{
+"build":"hb872c8e_1",
+"build_number":1,
+"depends":[
+"aws-c-common >=0.6.9,<0.6.10.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-compression",
+"sha256":"58e205b4ecbf56dc00d10348a0ab1a608d0681c8b1009391703b688d6d112172",
+"size":16001,
+"timestamp":1628950641479,
 "version":"0.2.14"
 },
 "aws-c-event-stream-0.2.7-h126760f_19.tar.bz2":{
@@ -6534,6 +6572,19 @@
 "timestamp":1626450426128,
 "version":"0.1.11"
 },
+"aws-checksums-0.1.11-hb872c8e_13.tar.bz2":{
+"build":"hb872c8e_13",
+"build_number":13,
+"depends":[
+"aws-c-common >=0.6.9,<0.6.10.0a0"
+],
+"license":"Apache-2.0",
+"name":"aws-checksums",
+"sha256":"3c2a81f720ce9f893224f70b13831e5a1045d71057c81194cb4b25f8ea41e8ac",
+"size":49743,
+"timestamp":1628956981034,
+"version":"0.1.11"
+},
 "aws-checksums-0.1.11-hb8ac97c_4.tar.bz2":{
 "build":"hb8ac97c_4",
 "build_number":4,
@@ -6716,7 +6767,7 @@
 "timestamp":1620323048249,
 "version":"1.8.186"
 },
-"aws-sdk-cpp-1.9.80-h41f0b4a_0.tar.bz2":{
+"aws-sdk-cpp-1.9.81-h41f0b4a_0.tar.bz2":{
 "build":"h41f0b4a_0",
 "build_number":0,
 "depends":[
@@ -6729,10 +6780,10 @@
 ],
 "license":"Apache-2.0",
 "name":"aws-sdk-cpp",
-"sha256":"a831ef54e9bd515ec065ba0b387a3a9ff3c9cb015159866bc7d1d68ce0538275",
-"size":3892147,
-"timestamp":1628841612774,
-"version":"1.9.80"
+"sha256":"89cc7723eb5698e6d6ebc62f7c3a52d2fd3ced3241ffd5103bf5134fbfae2ac7",
+"size":3900967,
+"timestamp":1628936609715,
+"version":"1.9.81"
 },
 "awscrt-0.11.25-py38h2aa7f15_11.tar.bz2":{
 "build":"py38h2aa7f15_11",
@@ -12923,7 +12974,7 @@
 "timestamp":1620835959999,
 "version":"2.6.6"
 },
-"distributed-2021.7.2-py38h10201cd_0.tar.bz2":{
+"distributed-2021.8.0-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
 "constrains":[
@@ -12933,7 +12984,8 @@
 "click >=6.6",
 "cloudpickle >=1.5.0",
 "cytoolz >=0.8.2",
-"dask-core 2021.7.2.*",
+"dask-core 2021.8.0.*",
+"jinja2",
 "msgpack-python >=0.6.0",
 "psutil >=5.0",
 "python >=3.8,<3.9.0a0",
@@ -12948,12 +13000,12 @@
 ],
 "license":"BSD-3-Clause",
 "name":"distributed",
-"sha256":"465cb8c3e2975bd79a61aec2648b63f2d8cfc49d81ea47e11cfdeb3de5e8a9fe",
-"size":1070771,
-"timestamp":1627704100310,
-"version":"2021.7.2"
+"sha256":"83f1825045345682940ec8d0786148452a680f6909b714a20e1385ea269283ac",
+"size":1078684,
+"timestamp":1628904249653,
+"version":"2021.8.0"
 },
-"distributed-2021.7.2-py39h2804cbe_0.tar.bz2":{
+"distributed-2021.8.0-py39h2804cbe_0.tar.bz2":{
 "build":"py39h2804cbe_0",
 "build_number":0,
 "constrains":[
@@ -12963,7 +13015,8 @@
 "click >=6.6",
 "cloudpickle >=1.5.0",
 "cytoolz >=0.8.2",
-"dask-core 2021.7.2.*",
+"dask-core 2021.8.0.*",
+"jinja2",
 "msgpack-python >=0.6.0",
 "psutil >=5.0",
 "python >=3.9,<3.10.0a0",
@@ -12978,10 +13031,10 @@
 ],
 "license":"BSD-3-Clause",
 "name":"distributed",
-"sha256":"61e21bb37ade828472323ca1957b3f020edfabad4f3eb0ce0d87ae0ca4e0c43e",
-"size":1083564,
-"timestamp":1627704093630,
-"version":"2021.7.2"
+"sha256":"f72082eee586b8f5bdb1fb1b1df519440400155873810a27bb2cf9dbdd579fef",
+"size":1079689,
+"timestamp":1628904224555,
+"version":"2021.8.0"
 },
 "docker-py-4.4.4-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
@@ -13779,16 +13832,16 @@
 "timestamp":1620679839328,
 "version":"3.13.0"
 },
-"epoxy-1.5.8-h3422bc3_0.tar.bz2":{
+"epoxy-1.5.9-h3422bc3_0.tar.bz2":{
 "build":"h3422bc3_0",
 "build_number":0,
 "depends":[],
 "license":"MIT",
 "name":"epoxy",
-"sha256":"a0cc0ca07d3aa5481497ce9677d4c1743be9aa27470efdc5639f9b56d4dbf7ee",
-"size":355776,
-"timestamp":1621637753088,
-"version":"1.5.8"
+"sha256":"a0b201f361b5d584fee95eee4b74548c328a346ed4d96406ab6c98a8e0782cb2",
+"size":360154,
+"timestamp":1628979965156,
+"version":"1.5.9"
 },
 "esutil-0.6.8-py38h3777fb4_0.tar.bz2":{
 "build":"py38h3777fb4_0",
@@ -20116,50 +20169,12 @@
 "timestamp":1624312751582,
 "version":"1.38.1"
 },
-"grpc-cpp-1.39.0-h8c8cf55_0.tar.bz2":{
-"build":"h8c8cf55_0",
+"grpc-cpp-1.39.1-hc3f22eb_0.tar.bz2":{
+"build":"hc3f22eb_0",
 "build_number":0,
 "depends":[
 "abseil-cpp >=20210324.2,<20210324.3.0a0",
-"c-ares >=1.17.1,<2.0a0",
-"libcxx >=11.1.0",
-"libprotobuf >=3.16.0,<3.17.0a0",
-"openssl >=1.1.1k,<1.1.2a",
-"re2 >=2021.6.1,<2021.6.2.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0",
-"name":"grpc-cpp",
-"sha256":"2a1ee431610817bb5bd8ed6a6ea5bf73cfed0ed5f486bb31ebf548ed1dce16f8",
-"size":2764182,
-"timestamp":1626923442978,
-"version":"1.39.0"
-},
-"grpc-cpp-1.39.0-h8c8cf55_1.tar.bz2":{
-"build":"h8c8cf55_1",
-"build_number":1,
-"depends":[
-"abseil-cpp >=20210324.2,<20210324.3.0a0",
-"c-ares >=1.17.1,<2.0a0",
-"libcxx >=11.1.0",
-"libprotobuf >=3.16.0,<3.17.0a0",
-"openssl >=1.1.1k,<1.1.2a",
-"re2 >=2021.6.1,<2021.6.2.0a0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"Apache-2.0",
-"name":"grpc-cpp",
-"sha256":"c48cd96031a49334b997f8d95a811ff5d0d9cb60d49673b240e8711b537edde5",
-"size":2940249,
-"timestamp":1627911184979,
-"version":"1.39.0"
-},
-"grpc-cpp-1.39.0-hc3f22eb_2.tar.bz2":{
-"build":"hc3f22eb_2",
-"build_number":2,
-"depends":[
-"abseil-cpp >=20210324.2,<20210324.3.0a0",
-"c-ares >=1.17.1,<2.0a0",
+"c-ares >=1.17.2,<2.0a0",
 "libcxx >=11.1.0",
 "libprotobuf >=3.16.0,<3.17.0a0",
 "openssl >=1.1.1k,<1.1.2a",
@@ -20168,10 +20183,10 @@
 ],
 "license":"Apache-2.0",
 "name":"grpc-cpp",
-"sha256":"d28419f5781cda17b204f7150417da725cbacd3fe56a56d2d65902a16b705632",
-"size":2905796,
-"timestamp":1628008689204,
-"version":"1.39.0"
+"sha256":"61a7246ccded6138895e86475a05beb39388c8d8f86d32a77654a0bee520c487",
+"size":2926841,
+"timestamp":1628901656418,
+"version":"1.39.1"
 },
 "grpc_java_plugin-1.39.0-h699e8e8_0.tar.bz2":{
 "build":"h699e8e8_0",
@@ -40899,6 +40914,23 @@
 "timestamp":1628528832516,
 "version":"7.3"
 },
+"pyobjc-framework-metal-7.3-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"__osx >=11.0",
+"pyobjc-core 7.3.*",
+"pyobjc-framework-cocoa 7.3.*",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"pyobjc-framework-metal",
+"sha256":"eb9dc30ac75b6cd6851529907aa9d43f7fad5e0dbaf5759a2b87bcf6e241d68d",
+"size":38193,
+"timestamp":1628912937312,
+"version":"7.3"
+},
 "pyodbc-4.0.31-py38h6f2b01f_0.tar.bz2":{
 "build":"py38h6f2b01f_0",
 "build_number":0,
@@ -52716,8 +52748,8 @@
 "timestamp":1614602581130,
 "version":"1.8.0"
 },
-"treecorr-4.2.3-py38h6f2b01f_0.tar.bz2":{
-"build":"py38h6f2b01f_0",
+"treecorr-4.2.4-py38hb2dfaa5_0.tar.bz2":{
+"build":"py38hb2dfaa5_0",
 "build_number":0,
 "depends":[
 "cffi",
@@ -52733,13 +52765,13 @@
 ],
 "license":"BSD-2-Clause",
 "name":"treecorr",
-"sha256":"faa5a3ff8bde945081647e6d17ee7da0a7ececd3f783c4b725aa359908939186",
-"size":933910,
-"timestamp":1621713171769,
-"version":"4.2.3"
+"sha256":"f693ecd57319d008b3042092b0d0d48f4e00bb65567889d556ba3e2cc23f8e8c",
+"size":939774,
+"timestamp":1628900859791,
+"version":"4.2.4"
 },
-"treecorr-4.2.3-py39hfb83b0d_0.tar.bz2":{
-"build":"py39hfb83b0d_0",
+"treecorr-4.2.4-py39h8685b90_0.tar.bz2":{
+"build":"py39h8685b90_0",
 "build_number":0,
 "depends":[
 "cffi",
@@ -52755,10 +52787,10 @@
 ],
 "license":"BSD-2-Clause",
 "name":"treecorr",
-"sha256":"d5b82f407cc44105bcb39646a57bb8f68f9bc3965b1bf954796ead5129e2ce2f",
-"size":938909,
-"timestamp":1621713144458,
-"version":"4.2.3"
+"sha256":"16ddebac9849e878fb513ae772675915e1fc008614cbdfe4e377674cf5180406",
+"size":937557,
+"timestamp":1628901456399,
+"version":"4.2.4"
 },
 "trio-0.19.0-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
