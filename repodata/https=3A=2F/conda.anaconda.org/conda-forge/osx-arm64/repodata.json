@@ -36601,6 +36601,50 @@
 "timestamp":1620835959999,
 "version":"2.6.6"
 },
+"digital_rf-2.6.7-py38h154886f_0.tar.bz2":{
+"build":"py38h154886f_0",
+"build_number":0,
+"depends":[
+"h5py",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"numpy >=1.19.5,<2.0a0",
+"packaging",
+"python >=3.8,<3.9.0a0",
+"python-dateutil",
+"python_abi 3.8.* *_cp38",
+"pytz",
+"six",
+"watchdog"
+],
+"license":"BSD-3-Clause",
+"name":"digital_rf",
+"sha256":"3cb6dc1fb057178b986d780f62b2756aca59e2ae6e4e97fe2272928a48642629",
+"size":256214,
+"timestamp":1628997775191,
+"version":"2.6.7"
+},
+"digital_rf-2.6.7-py39h1a70d2d_0.tar.bz2":{
+"build":"py39h1a70d2d_0",
+"build_number":0,
+"depends":[
+"h5py",
+"hdf5 >=1.10.6,<1.10.7.0a0",
+"numpy >=1.19.5,<2.0a0",
+"packaging",
+"python >=3.9,<3.10.0a0",
+"python-dateutil",
+"python_abi 3.9.* *_cp39",
+"pytz",
+"six",
+"watchdog"
+],
+"license":"BSD-3-Clause",
+"name":"digital_rf",
+"sha256":"7428b66bb787e1c809f1bed6d2c254bb4b6d07280e1f4686dd7b6df3a8c0a219",
+"size":256198,
+"timestamp":1628997788730,
+"version":"2.6.7"
+},
 "distributed-2.30.1-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
 "build_number":0,
@@ -68862,6 +68906,23 @@
 "timestamp":1626680738054,
 "version":"3.1.2"
 },
+"libeantic-1.0.2-h188e36f_1.tar.bz2":{
+"build":"h188e36f_1",
+"build_number":1,
+"depends":[
+"antic >=0.2.4,<0.3.0a0",
+"arb >=2.19.0,<2.20.0a0",
+"gmp >=6.2.1,<7.0a0",
+"libcxx >=11.1.0",
+"libflint >=2.7.1,<2.8.0a0"
+],
+"license":"LGPL-3.0-or-later",
+"name":"libeantic",
+"sha256":"6b2d3866d2f75b6adc1fb8aeeb619c89eef1de325017d128f3e81e85b2107d27",
+"size":174069,
+"timestamp":1629068832095,
+"version":"1.0.2"
+},
 "libedit-3.1.20191231-hc8eb9b7_2.tar.bz2":{
 "build":"hc8eb9b7_2",
 "build_number":2,
@@ -85151,6 +85212,66 @@
 "size":581262,
 "timestamp":1628788054169,
 "version":"3.1.0"
+},
+"mpi4py-3.1.1-py38hbcaf744_0.tar.bz2":{
+"build":"py38hbcaf744_0",
+"build_number":0,
+"depends":[
+"openmpi >=4.1,<4.2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-2-Clause",
+"name":"mpi4py",
+"sha256":"14fc35c23c2a72ca26d05a239bc8249facc43b70cf09b9487dec45735b299e55",
+"size":586431,
+"timestamp":1629012932426,
+"version":"3.1.1"
+},
+"mpi4py-3.1.1-py38hf5adb80_0.tar.bz2":{
+"build":"py38hf5adb80_0",
+"build_number":0,
+"depends":[
+"mpich >=3.4,<3.5.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"BSD-2-Clause",
+"name":"mpi4py",
+"sha256":"1fdc97d2deb5782f657893ff9d8d391819b238086a4a2f4c2535630b105c521a",
+"size":582846,
+"timestamp":1629012967680,
+"version":"3.1.1"
+},
+"mpi4py-3.1.1-py39h5eed30b_0.tar.bz2":{
+"build":"py39h5eed30b_0",
+"build_number":0,
+"depends":[
+"openmpi >=4.1,<4.2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-2-Clause",
+"name":"mpi4py",
+"sha256":"0bc929e7ae4b414cec999b5836e75587623bee4593aa23a4124a14ae999a1df5",
+"size":573301,
+"timestamp":1629012921042,
+"version":"3.1.1"
+},
+"mpi4py-3.1.1-py39hee4813e_0.tar.bz2":{
+"build":"py39hee4813e_0",
+"build_number":0,
+"depends":[
+"mpich >=3.4,<3.5.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"BSD-2-Clause",
+"name":"mpi4py",
+"sha256":"eefa4fb0c95171cab4d955ab738bbdc0309ad88020e91e462829faee5df17339",
+"size":579678,
+"timestamp":1629012956337,
+"version":"3.1.1"
 },
 "mpich-3.3.2-external_5.tar.bz2":{
 "build":"external_5",
@@ -111594,6 +111715,25 @@
 "timestamp":1628257211353,
 "version":"1.0.2"
 },
+"pyeantic-1.0.2-py38hfef543c_1.tar.bz2":{
+"build":"py38hfef543c_1",
+"build_number":1,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"cppyy",
+"cppyythonizations",
+"libcxx >=11.1.0",
+"libeantic >=1.0.2,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"LGPL-3.0-or-later",
+"name":"pyeantic",
+"sha256":"9794a69b5c5d0389117a6a4277eb867b443e97393639434b52c58da52abb1921",
+"size":34250,
+"timestamp":1629069077879,
+"version":"1.0.2"
+},
 "pyeantic-1.0.2-py39hcff4f58_0.tar.bz2":{
 "build":"py39hcff4f58_0",
 "build_number":0,
@@ -111611,6 +111751,25 @@
 "sha256":"a095847d0875d66c03e4ccc109399e9cba52251d7766224e67637ac160f9d158",
 "size":34186,
 "timestamp":1628257345681,
+"version":"1.0.2"
+},
+"pyeantic-1.0.2-py39hcff4f58_1.tar.bz2":{
+"build":"py39hcff4f58_1",
+"build_number":1,
+"depends":[
+"boost-cpp >=1.74.0,<1.74.1.0a0",
+"cppyy",
+"cppyythonizations",
+"libcxx >=11.1.0",
+"libeantic >=1.0.2,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"LGPL-3.0-or-later",
+"name":"pyeantic",
+"sha256":"8491e13e673c1221bd295c59f99bff5d8434068963df8c7a6385b76202b768be",
+"size":34237,
+"timestamp":1629068962601,
 "version":"1.0.2"
 },
 "pyerfa-1.7.1.1-py38h30f7421_0.tar.bz2":{
