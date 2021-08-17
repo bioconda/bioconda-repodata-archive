@@ -6466,6 +6466,23 @@
 "timestamp":1628788440390,
 "version":"1.18.16"
 },
+"boto3-1.18.21-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"botocore >=1.21.21,<1.22.0",
+"jmespath >=0.7.1,<1.0.0",
+"python",
+"s3transfer >=0.5.0,<0.6.0"
+],
+"license":"Apache-2.0",
+"name":"boto3",
+"noarch":"python",
+"sha256":"3c996c82a2a064f93e45cba731a7c0a973ff177b38faf99b483e0cb141997771",
+"size":72095,
+"timestamp":1629142504913,
+"version":"1.18.21"
+},
 "boto3-1.9.111-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -9152,6 +9169,23 @@
 "timestamp":1628534114656,
 "version":"1.21.16"
 },
+"botocore-1.21.21-pyhd3eb1b0_1.tar.bz2":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"jmespath >=0.7.1,<1.0.0",
+"python >=3.6",
+"python-dateutil >=2.1,<3.0.0",
+"urllib3 >=1.25.4,<1.27"
+],
+"license":"Apache-2.0",
+"name":"botocore",
+"noarch":"python",
+"sha256":"2463c12b98857643efd91db093bb856581cd299fd9a2da042b58ed1231979b3b",
+"size":5054581,
+"timestamp":1629132677022,
+"version":"1.21.21"
+},
 "bs4-4.9.0-0.tar.bz2":{
 "build":"0",
 "build_number":0,
@@ -10690,6 +10724,22 @@
 "sha256":"584afa69b5a8b6f98f599fb6c7e52f9a278953aa930d4b6756beb5b97fc20f39",
 "size":56345,
 "timestamp":1579615127979,
+"version":"0.4.1"
+},
+"clikit-0.4.1-pyhd3eb1b0_1.tar.bz2":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"pastel >=0.1.0,<0.2.0",
+"pylev >=1.3,<2.0",
+"python"
+],
+"license":"MIT",
+"name":"clikit",
+"noarch":"python",
+"sha256":"bc9ca3e7911c99546551d043b12469df84d8090f546d66420b35da938b4b24b6",
+"size":54955,
+"timestamp":1628961791200,
 "version":"0.4.1"
 },
 "clikit-0.4.3-py_0.tar.bz2":{
@@ -14894,6 +14944,29 @@
 "timestamp":1628015245659,
 "version":"2021.7.2"
 },
+"dask-2021.8.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"constrains":[
+"openssl !=1.1.1e"
+],
+"depends":[
+"bokeh >=1.0.0,!=2.0.0",
+"cytoolz >=0.8.2",
+"dask-core 2021.8.0.*",
+"distributed 2021.8.0.*",
+"numpy >=1.18",
+"pandas >=1.0",
+"python >=3.7"
+],
+"license":"BSD-3-Clause",
+"name":"dask",
+"noarch":"python",
+"sha256":"b6022d68f0efc1b21ff05acef0be60c440f072962a708e84928e314000a5d417",
+"size":4440,
+"timestamp":1629147979546,
+"version":"2021.8.0"
+},
 "dask-core-1.1.1-py_0.tar.bz2":{
 "build":"py_0",
 "build_number":0,
@@ -15788,6 +15861,26 @@
 "size":773911,
 "timestamp":1627943533096,
 "version":"2021.7.2"
+},
+"dask-core-2021.8.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"cloudpickle >=1.1.1",
+"fsspec >=0.6.0",
+"packaging >=20.0",
+"partd >=0.3.10",
+"python >=3.7",
+"pyyaml",
+"toolz >=0.8.2"
+],
+"license":"BSD-3-Clause",
+"name":"dask-core",
+"noarch":"python",
+"sha256":"5241662d30b009a4442fa304e15ac8f67c850d3410be54f84e8e95db6708bee2",
+"size":775533,
+"timestamp":1629132759367,
+"version":"2021.8.0"
 },
 "dask-glm-0.2.0-pyhd3eb1b0_0.tar.bz2":{
 "build":"pyhd3eb1b0_0",
@@ -29953,7 +30046,7 @@
 "noarch":"python",
 "sha256":"1de316f3cfda7ba66b75cd878a21c1d4af8d8c180af3e6c3176563fa0e7abee6",
 "size":8594,
-"timestamp":1611921611475,
+"timestamp":1628863117381,
 "version":"1.2.0"
 },
 "imgaug-0.4.0-pyhd3eb1b0_0.tar.bz2":{
@@ -30419,6 +30512,30 @@
 "size":2686897,
 "timestamp":1616008242536,
 "version":"0.6.2"
+},
+"intake-0.6.3-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"appdirs",
+"dask",
+"entrypoints",
+"fsspec >=0.7.4",
+"jinja2",
+"msgpack-python",
+"python >=3.7",
+"python-snappy",
+"pyyaml",
+"requests",
+"tornado"
+],
+"license":"BSD-2-Clause",
+"name":"intake",
+"noarch":"python",
+"sha256":"a6f637424ee330e44bd8ad284271cc23a8161ca02e8dc4758e1016c5165d1f36",
+"size":2691054,
+"timestamp":1628883295506,
+"version":"0.6.3"
 },
 "intake-parquet-0.2.2-py_0.tar.bz2":{
 "build":"py_0",
@@ -33610,6 +33727,28 @@
 "timestamp":1628249877726,
 "version":"3.1.4"
 },
+"jupyterlab-3.1.7-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"ipython",
+"jinja2 >=2.10",
+"jupyter_core",
+"jupyter_server >=1.4,<2",
+"jupyterlab_server >=2.3,<3",
+"nbclassic >=0.2,<1",
+"packaging",
+"python >=3.6",
+"tornado >=6.1"
+],
+"license":"BSD-3-Clause",
+"name":"jupyterlab",
+"noarch":"python",
+"sha256":"6ca5b050d2810bedc98411d6013eb9bf2453b82596c769c32d658338ea6aa67c",
+"size":6059637,
+"timestamp":1629124539560,
+"version":"3.1.7"
+},
 "jupyterlab_launcher-0.13.1-py_2.tar.bz2":{
 "build":"py_2",
 "build_number":2,
@@ -35232,18 +35371,6 @@
 "size":254821,
 "timestamp":1628771831188,
 "version":"11.1.0"
-},
-"libgfortran-devel_osx-arm64-11.1.0.dev0-h6a59814_24.tar.bz2":{
-"build":"h6a59814_24",
-"build_number":24,
-"depends":[],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"libgfortran-devel_osx-arm64",
-"noarch":"generic",
-"sha256":"c0a53603d32f35f17091b8b6154f4fbba5456601968eb1e3b66210c486954a58",
-"size":259019,
-"timestamp":1628437322901,
-"version":"11.1.0.dev0"
 },
 "libglvnd-amzn2-aarch64-1.0.1-5.tar.bz2":{
 "build":"5",
@@ -73679,6 +73806,23 @@
 "timestamp":1628788440390,
 "version":"1.18.16"
 },
+"boto3-1.18.21-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"botocore >=1.21.21,<1.22.0",
+"jmespath >=0.7.1,<1.0.0",
+"python",
+"s3transfer >=0.5.0,<0.6.0"
+],
+"license":"Apache-2.0",
+"name":"boto3",
+"noarch":"python",
+"sha256":"8ec84a5a61e5b170525ff0a16308500bb7f30e72a95c116e602dbab3c8926523",
+"size":72008,
+"timestamp":1629142504913,
+"version":"1.18.21"
+},
 "boto3-1.9.111-py_0.conda":{
 "build":"py_0",
 "build_number":0,
@@ -76365,6 +76509,23 @@
 "timestamp":1628534114656,
 "version":"1.21.16"
 },
+"botocore-1.21.21-pyhd3eb1b0_1.conda":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"jmespath >=0.7.1,<1.0.0",
+"python >=3.6",
+"python-dateutil >=2.1,<3.0.0",
+"urllib3 >=1.25.4,<1.27"
+],
+"license":"Apache-2.0",
+"name":"botocore",
+"noarch":"python",
+"sha256":"c7a85480d32ccc7bff8a13690e34c5bfe55926347d6b35403507c3bf58505e71",
+"size":4013758,
+"timestamp":1629132677022,
+"version":"1.21.21"
+},
 "bs4-4.9.0-0.conda":{
 "build":"0",
 "build_number":0,
@@ -77611,6 +77772,22 @@
 "sha256":"c7ba1810a8516f9540e0f0a40d4e2d7c9c53f85300f3309a4543293b2d310c7e",
 "size":58530,
 "timestamp":1579615127979,
+"version":"0.4.1"
+},
+"clikit-0.4.1-pyhd3eb1b0_1.conda":{
+"build":"pyhd3eb1b0_1",
+"build_number":1,
+"depends":[
+"pastel >=0.1.0,<0.2.0",
+"pylev >=1.3,<2.0",
+"python"
+],
+"license":"MIT",
+"name":"clikit",
+"noarch":"python",
+"sha256":"d7a8a49274180a214b14925c27ad4403c908fa7a9272e04f2f4f356d24164cba",
+"size":57574,
+"timestamp":1628961791200,
 "version":"0.4.1"
 },
 "clikit-0.4.3-py_0.conda":{
@@ -81521,6 +81698,29 @@
 "timestamp":1628015245659,
 "version":"2021.7.2"
 },
+"dask-2021.8.0-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"constrains":[
+"openssl !=1.1.1e"
+],
+"depends":[
+"bokeh >=1.0.0,!=2.0.0",
+"cytoolz >=0.8.2",
+"dask-core 2021.8.0.*",
+"distributed 2021.8.0.*",
+"numpy >=1.18",
+"pandas >=1.0",
+"python >=3.7"
+],
+"license":"BSD-3-Clause",
+"name":"dask",
+"noarch":"python",
+"sha256":"ee7eda40335877103fe440f37e2924feb94c20c85651457dff9a8676292b1a27",
+"size":4723,
+"timestamp":1629147979546,
+"version":"2021.8.0"
+},
 "dask-core-1.1.1-py_0.conda":{
 "build":"py_0",
 "build_number":0,
@@ -82415,6 +82615,26 @@
 "size":716791,
 "timestamp":1627943533096,
 "version":"2021.7.2"
+},
+"dask-core-2021.8.0-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"cloudpickle >=1.1.1",
+"fsspec >=0.6.0",
+"packaging >=20.0",
+"partd >=0.3.10",
+"python >=3.7",
+"pyyaml",
+"toolz >=0.8.2"
+],
+"license":"BSD-3-Clause",
+"name":"dask-core",
+"noarch":"python",
+"sha256":"a546e491f837cea5dacce1a5ddfc54a7ccd123a27918ca7f14c3d114e2616b3a",
+"size":720898,
+"timestamp":1629132759367,
+"version":"2021.8.0"
 },
 "dask-glm-0.2.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
@@ -94852,6 +95072,20 @@
 "timestamp":1578412011207,
 "version":"1.2.0"
 },
+"imagesize-1.2.0-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python"
+],
+"license":"MIT",
+"name":"imagesize",
+"noarch":"python",
+"sha256":"f2c5f2f0d31a5e9f53a16e4ee65234b2243422ecad4d4fb26706440c880817af",
+"size":8763,
+"timestamp":1628863117381,
+"version":"1.2.0"
+},
 "imgaug-0.4.0-pyhd3eb1b0_0.conda":{
 "build":"pyhd3eb1b0_0",
 "build_number":0,
@@ -95285,6 +95519,30 @@
 "size":2739594,
 "timestamp":1616008242536,
 "version":"0.6.2"
+},
+"intake-0.6.3-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"appdirs",
+"dask",
+"entrypoints",
+"fsspec >=0.7.4",
+"jinja2",
+"msgpack-python",
+"python >=3.7",
+"python-snappy",
+"pyyaml",
+"requests",
+"tornado"
+],
+"license":"BSD-2-Clause",
+"name":"intake",
+"noarch":"python",
+"sha256":"8c510dd3010a97082360d7b84dac7bb41167f0d0a76ddf2798456adf44dd715b",
+"size":2747678,
+"timestamp":1628883295506,
+"version":"0.6.3"
 },
 "intake-parquet-0.2.2-py_0.conda":{
 "build":"py_0",
@@ -98184,6 +98442,28 @@
 "timestamp":1628249877726,
 "version":"3.1.4"
 },
+"jupyterlab-3.1.7-pyhd3eb1b0_0.conda":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"ipython",
+"jinja2 >=2.10",
+"jupyter_core",
+"jupyter_server >=1.4,<2",
+"jupyterlab_server >=2.3,<3",
+"nbclassic >=0.2,<1",
+"packaging",
+"python >=3.6",
+"tornado >=6.1"
+],
+"license":"BSD-3-Clause",
+"name":"jupyterlab",
+"noarch":"python",
+"sha256":"d5d48497b7b79b91e13a73ee1def9e9ea27a40a6d6324b6ab616771331f80f22",
+"size":3755004,
+"timestamp":1629124539560,
+"version":"3.1.7"
+},
 "jupyterlab_launcher-0.13.1-py_2.conda":{
 "build":"py_2",
 "build_number":2,
@@ -99078,18 +99358,6 @@
 "size":223207,
 "timestamp":1628771831188,
 "version":"11.1.0"
-},
-"libgfortran-devel_osx-arm64-11.1.0.dev0-h6a59814_24.conda":{
-"build":"h6a59814_24",
-"build_number":24,
-"depends":[],
-"license":"GPL-3.0-only WITH GCC-exception-3.1",
-"name":"libgfortran-devel_osx-arm64",
-"noarch":"generic",
-"sha256":"c68d24dadaf622b211999fc3e7220a4de3a94c494262a359a9ff3055e1aa2b81",
-"size":222974,
-"timestamp":1628437322901,
-"version":"11.1.0.dev0"
 },
 "libglvnd-cos7-ppc64le-1.0.1-0.conda":{
 "build":"0",
