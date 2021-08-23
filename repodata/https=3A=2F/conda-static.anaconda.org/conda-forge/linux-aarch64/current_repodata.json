@@ -10665,6 +10665,23 @@
 "timestamp":1624561583667,
 "version":"0.6.1"
 },
+"aws-c-auth-0.6.3-h37ac1f5_1.tar.bz2":{
+"build":"h37ac1f5_1",
+"build_number":1,
+"depends":[
+"aws-c-cal >=0.5.11,<0.5.12.0a0",
+"aws-c-common >=0.6.9,<0.6.10.0a0",
+"aws-c-http >=0.6.5,<0.6.6.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"libgcc-ng >=9.4.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-auth",
+"sha256":"d3ec5c2ac2d33cf0c672ef3907cc96b6fa34a7d85b5d4c7e009d7354f28d43ba",
+"size":110517,
+"timestamp":1629661067073,
+"version":"0.6.3"
+},
 "aws-c-auth-0.6.3-h553f4a5_0.tar.bz2":{
 "build":"h553f4a5_0",
 "build_number":0,
@@ -11336,6 +11353,23 @@
 "timestamp":1622795636083,
 "version":"0.2.7"
 },
+"aws-c-event-stream-0.2.7-hbd850e5_20.tar.bz2":{
+"build":"hbd850e5_20",
+"build_number":20,
+"depends":[
+"aws-c-common >=0.6.9,<0.6.10.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"aws-checksums >=0.1.11,<0.1.12.0a0",
+"libgcc-ng >=9.4.0",
+"libstdcxx-ng >=9.4.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-event-stream",
+"sha256":"559d28681f480305e2e0dde86fcb6b66b5512290351bb468ae47822b7cd5b7d7",
+"size":48111,
+"timestamp":1629646781110,
+"version":"0.2.7"
+},
 "aws-c-event-stream-0.2.7-hc7fb8fa_10.tar.bz2":{
 "build":"hc7fb8fa_10",
 "build_number":10,
@@ -11659,6 +11693,22 @@
 "sha256":"fc0aad00a10961c3114b5f4312bd3b2c44af27e31dd4deca06e0931987747191",
 "size":158900,
 "timestamp":1626625770295,
+"version":"0.6.5"
+},
+"aws-c-http-0.6.5-h60d92a7_3.tar.bz2":{
+"build":"h60d92a7_3",
+"build_number":3,
+"depends":[
+"aws-c-common >=0.6.9,<0.6.10.0a0",
+"aws-c-compression >=0.2.14,<0.2.15.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"libgcc-ng >=9.4.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-http",
+"sha256":"2aea4cb0dea957fa6aa85c802befd28c3f6c7c153ba5873090837c2653c386a7",
+"size":159077,
+"timestamp":1629646721535,
 "version":"0.6.5"
 },
 "aws-c-http-0.6.5-hde02c92_1.tar.bz2":{
@@ -12411,6 +12461,22 @@
 "sha256":"31d641569c260b8443eb6fdb17c2752fe1dc7ad354396434d166e31dd6b5070b",
 "size":59653,
 "timestamp":1623303844339,
+"version":"0.7.6"
+},
+"aws-c-mqtt-0.7.6-h7682993_17.tar.bz2":{
+"build":"h7682993_17",
+"build_number":17,
+"depends":[
+"aws-c-common >=0.6.9,<0.6.10.0a0",
+"aws-c-http >=0.6.5,<0.6.6.0a0",
+"aws-c-io >=0.10.6,<0.10.7.0a0",
+"libgcc-ng >=9.4.0"
+],
+"license":"Apache-2.0",
+"name":"aws-c-mqtt",
+"sha256":"2e00d719499f60baaf64bb74761592c26c6692d572a6324f37d2947daa78c1ce",
+"size":60141,
+"timestamp":1629661052575,
 "version":"0.7.6"
 },
 "aws-c-mqtt-0.7.6-h940ac8e_11.tar.bz2":{
@@ -44846,7 +44912,7 @@
 "timestamp":1590912809984,
 "version":"3.6.13"
 },
-"go-1.16.6-h06e7c03_0.tar.bz2":{
+"go-1.16.7-h06e7c03_0.tar.bz2":{
 "build":"h06e7c03_0",
 "build_number":0,
 "depends":[
@@ -44854,59 +44920,108 @@
 ],
 "license":"BSD-3-Clause",
 "name":"go",
-"sha256":"5ca2641563d3081d607537735ca8857d8f706bdbbae85d1be8f4c8e0be90d288",
-"size":120685354,
-"timestamp":1626143892383,
-"version":"1.16.6"
+"sha256":"6a808f600b271e015fbcfeff5ddf4c2b96eb5e70ff3d0b5b16434280f708ac61",
+"size":120685954,
+"timestamp":1629589937887,
+"version":"1.16.7"
 },
-"go-1.16.6-h61bf5ce_0.tar.bz2":{
-"build":"h61bf5ce_0",
-"build_number":0,
-"constrains":[
-"gfortran_linux-aarch64 9.*",
-"gcc_linux-aarch64 9.*",
-"gxx_linux-aarch64 9.*"
-],
+"go-1.16.7-h06e7c03_1.tar.bz2":{
+"build":"h06e7c03_1",
+"build_number":1,
 "depends":[
-"_go_select ==2.3.0 cgo",
-"libgcc-ng >=9.3.0",
-"libgfortran-ng",
-"libgfortran5 >=9.3.0",
-"libstdcxx-ng >=9.3.0"
+"_go_select ==2.2.0 nocgo"
 ],
 "license":"BSD-3-Clause",
 "name":"go",
-"sha256":"1a608f1c944a3a3d585a1b6568264c3095ecf557d32a31a52676616c86ac7c64",
-"size":120880676,
-"timestamp":1626145126389,
-"version":"1.16.6"
+"sha256":"659c5cba6c0906534d20fa838fe13317c70df6322b4fc521a96ae11998926c1d",
+"size":120492095,
+"timestamp":1629661800757,
+"version":"1.16.7"
 },
-"go-cgo-1.16.6-h117dc7d_0.tar.bz2":{
+"go-1.16.7-h61bf5ce_0.tar.bz2":{
+"build":"h61bf5ce_0",
+"build_number":0,
+"constrains":[
+"gxx_linux-aarch64 9.*",
+"gfortran_linux-aarch64 9.*",
+"gcc_linux-aarch64 9.*"
+],
+"depends":[
+"_go_select ==2.3.0 cgo",
+"libgcc-ng >=9.4.0",
+"libgfortran-ng",
+"libgfortran5 >=9.4.0",
+"libstdcxx-ng >=9.4.0"
+],
+"license":"BSD-3-Clause",
+"name":"go",
+"sha256":"0cfd43e1b0e3391eee4de5f27af45028dceedc86b24d4dab87c3200ada71c62a",
+"size":120615916,
+"timestamp":1629592036667,
+"version":"1.16.7"
+},
+"go-1.16.7-h61bf5ce_1.tar.bz2":{
+"build":"h61bf5ce_1",
+"build_number":1,
+"constrains":[
+"gxx_linux-aarch64 9.*",
+"gfortran_linux-aarch64 9.*",
+"gcc_linux-aarch64 9.*"
+],
+"depends":[
+"_go_select ==2.3.0 cgo",
+"libgcc-ng >=9.4.0",
+"libgfortran-ng",
+"libgfortran5 >=9.4.0",
+"libstdcxx-ng >=9.4.0"
+],
+"license":"BSD-3-Clause",
+"name":"go",
+"sha256":"f8ffb2d60ee62c7f15c80c7fd721e5f2e1e25012fdd73400889cabaa43afad1c",
+"size":120982416,
+"timestamp":1629663769798,
+"version":"1.16.7"
+},
+"go-cgo-1.16.7-h117dc7d_0.tar.bz2":{
 "build":"h117dc7d_0",
 "build_number":0,
 "depends":[
 "gcc_linux-aarch64 9.*",
-"go 1.16.6 h61bf5ce_0"
+"go 1.16.7 h61bf5ce_0"
 ],
 "license":"BSD-3-Clause",
 "name":"go-cgo",
-"sha256":"50ec7493ec02d44227606724e9acdbd4b61b09372f90b1285bbb01cb26e3f2c7",
-"size":14356,
-"timestamp":1626145434866,
-"version":"1.16.6"
+"sha256":"81f3e73369fe4041e412801eee189ebb5fb5fc0cd8f6c61e35a05d97b505ffaa",
+"size":14800,
+"timestamp":1629592365487,
+"version":"1.16.7"
 },
-"go-cgo_linux-aarch64-1.16.6-h02f519c_0.tar.bz2":{
+"go-cgo-1.16.7-h117dc7d_1.tar.bz2":{
+"build":"h117dc7d_1",
+"build_number":1,
+"depends":[
+"gcc_linux-aarch64 9.*",
+"go 1.16.7 h61bf5ce_1"
+],
+"license":"BSD-3-Clause",
+"name":"go-cgo",
+"sha256":"e8a4e4ef061b6ccfc98473baaea270dab399efffa96092e0f077a6c7d348c9c5",
+"size":14576,
+"timestamp":1629664086154,
+"version":"1.16.7"
+},
+"go-cgo_linux-aarch64-1.16.7-h02f519c_0.tar.bz2":{
 "build":"h02f519c_0",
 "build_number":0,
 "depends":[
-"go 1.16.6 h61bf5ce_0"
+"go 1.16.7 h61bf5ce_0"
 ],
 "license":"BSD-3-Clause",
 "name":"go-cgo_linux-aarch64",
-"sha256":"0f2a4670dbabe0b65f1ccb080bac513bb667c8d5324736b0d34c5dd8cdf413a3",
-"size":14820,
-"timestamp":1626145444694,
-"version":"1.16.6"
+"sha256":"2756b74cd4197ec63d423f656c6899ce482f38a314a8c16260e03bab527af6b2",
+"size":15307,
+"timestamp":1629592376474,
+"version":"1.16.7"
 },
 "go-dep-0.5.4-h652cbe9_1.tar.bz2":{
 "build":"h652cbe9_1",
@@ -44932,31 +45047,44 @@
 "timestamp":1604709905434,
 "version":"0.0.36"
 },
-"go-nocgo-1.16.6-hcff5026_0.tar.bz2":{
+"go-nocgo-1.16.7-hcff5026_0.tar.bz2":{
 "build":"hcff5026_0",
 "build_number":0,
 "depends":[
-"go 1.16.6 h06e7c03_0"
+"go 1.16.7 h06e7c03_0"
 ],
 "license":"BSD-3-Clause",
 "name":"go-nocgo",
-"sha256":"da06a56d7f35e215ee1f46f1c08862207e80dc7659c60e34f90fb3ac4ecc5d8e",
-"size":14297,
-"timestamp":1626144003505,
-"version":"1.16.6"
+"sha256":"793752e9084f880a74b9936adcc530d91c6b5385e080175ea0d4d8ed4c73fab5",
+"size":14763,
+"timestamp":1629590275819,
+"version":"1.16.7"
 },
-"go-nocgo_linux-aarch64-1.16.6-h2cd7633_0.tar.bz2":{
+"go-nocgo-1.16.7-hcff5026_1.tar.bz2":{
+"build":"hcff5026_1",
+"build_number":1,
+"depends":[
+"go 1.16.7 h06e7c03_1"
+],
+"license":"BSD-3-Clause",
+"name":"go-nocgo",
+"sha256":"b057cd0afedb0d86ff0cdcb4f43663629e02f4202f8eef80c243b5773d969b1e",
+"size":14553,
+"timestamp":1629662138984,
+"version":"1.16.7"
+},
+"go-nocgo_linux-aarch64-1.16.7-h2cd7633_0.tar.bz2":{
 "build":"h2cd7633_0",
 "build_number":0,
 "depends":[
-"go 1.16.6 h06e7c03_0"
+"go 1.16.7 h06e7c03_0"
 ],
 "license":"BSD-3-Clause",
 "name":"go-nocgo_linux-aarch64",
-"sha256":"fcda9e86247b8535b023f91c12f038f2ee9ad434ca13f5c4839f62b48fb9539c",
-"size":14815,
-"timestamp":1626144007593,
-"version":"1.16.6"
+"sha256":"27e530a93b2d97e58f14f1dc31f0290d875a71f2c0d742df76d72cdfbba07be2",
+"size":15342,
+"timestamp":1629590287121,
+"version":"1.16.7"
 },
 "gobject-introspection-1.68.0-py36h8ee96a3_0.tar.bz2":{
 "build":"py36h8ee96a3_0",
@@ -51932,19 +52060,19 @@
 "timestamp":1626306683715,
 "version":"0.21"
 },
-"ijar-4.1.0-hb5db210_1.tar.bz2":{
-"build":"hb5db210_1",
-"build_number":1,
+"ijar-4.2.0-hb5db210_0.tar.bz2":{
+"build":"hb5db210_0",
+"build_number":0,
 "depends":[
-"libgcc-ng >=9.3.0",
-"libstdcxx-ng >=9.3.0"
+"libgcc-ng >=9.4.0",
+"libstdcxx-ng >=9.4.0"
 ],
 "license":"Apache-2.0",
 "name":"ijar",
-"sha256":"42e3bce582435b9aea6e966c2da14d77365d493cb420533d18b5f086cd62093e",
-"size":163704,
-"timestamp":1627274745947,
-"version":"4.1.0"
+"sha256":"ee49adf292f5048651e003f995789631aa4382a6da103666a57eca6ca3f1395e",
+"size":163379,
+"timestamp":1629649339849,
+"version":"4.2.0"
 },
 "ilmbase-2.5.5-h469bdbd_0.tar.bz2":{
 "build":"h469bdbd_0",
@@ -83489,6 +83617,22 @@
 "sha256":"1867fa1f5ca9ca843eb63f5b3cf347804cbad933dc726b59d183d72c6f029598",
 "size":160242,
 "timestamp":1621098987254,
+"version":"2.44_01"
+},
+"perl-xml-parser-2.44_01-pl5321he03bdfe_1003.tar.bz2":{
+"build":"pl5321he03bdfe_1003",
+"build_number":1003,
+"depends":[
+"expat >=2.4.1,<3.0a0",
+"libgcc-ng >=9.4.0",
+"perl >=5.32.1,<5.32.2.0a0",
+"perl >=5.32.1,<5.32.2.0a0 *_perl5"
+],
+"license":"Perl 5",
+"name":"perl-xml-parser",
+"sha256":"96dd83ec64b7d117d231f1cfed837c5910120f12b7eeaf3c72e8f87a46eed9bf",
+"size":164301,
+"timestamp":1629641159793,
 "version":"2.44_01"
 },
 "petsc-3.15.3-complex_h4788c0d_0.tar.bz2":{
@@ -117939,81 +118083,81 @@
 "timestamp":1616444065379,
 "version":"8.1"
 },
-"regex-2021.8.3-py36h269c3a8_0.tar.bz2":{
+"regex-2021.8.21-py36h269c3a8_0.tar.bz2":{
 "build":"py36h269c3a8_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=9.3.0",
+"libgcc-ng >=9.4.0",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m"
 ],
 "license":"Python-2.0",
 "name":"regex",
-"sha256":"bec116889cb79df60f9a15ed96d76df80c2e81c54324a04724b04eb663356f65",
-"size":388455,
-"timestamp":1628025099385,
-"version":"2021.8.3"
+"sha256":"c25fd2196033ae1d3f8069ffe940c8635b5a619a97b91100458636ae372a0c96",
+"size":385701,
+"timestamp":1629611061060,
+"version":"2021.8.21"
 },
-"regex-2021.8.3-py37h1283c21_0.tar.bz2":{
+"regex-2021.8.21-py37h1283c21_0.tar.bz2":{
 "build":"py37h1283c21_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=9.3.0",
+"libgcc-ng >=9.4.0",
 "pypy3.7 >=7.3.5",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73"
 ],
 "license":"Python-2.0",
 "name":"regex",
-"sha256":"a57fc712c3ac62ae0d4b3fab48dc9e40616a8502c66dc10788e284a1a9e69cab",
-"size":379468,
-"timestamp":1628026015544,
-"version":"2021.8.3"
+"sha256":"2dcc5b2cd031812a9c81d448e632160dc793026a2e70c66310506eeecd1ba951",
+"size":377282,
+"timestamp":1629611846423,
+"version":"2021.8.21"
 },
-"regex-2021.8.3-py37hcd4c3ab_0.tar.bz2":{
+"regex-2021.8.21-py37hcd4c3ab_0.tar.bz2":{
 "build":"py37hcd4c3ab_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=9.3.0",
+"libgcc-ng >=9.4.0",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m"
 ],
 "license":"Python-2.0",
 "name":"regex",
-"sha256":"46300c073c42135a68c205510dbdbce1a21e9a770f6effc25ac0c35a13ce32a7",
-"size":388373,
-"timestamp":1628026809745,
-"version":"2021.8.3"
+"sha256":"38a672c4c0113b67b5fc50700e5bbd9241bdc0fd44d5b78bc0a50feadb271dee",
+"size":383388,
+"timestamp":1629612634040,
+"version":"2021.8.21"
 },
-"regex-2021.8.3-py38h9544abe_0.tar.bz2":{
+"regex-2021.8.21-py38h9544abe_0.tar.bz2":{
 "build":"py38h9544abe_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=9.3.0",
+"libgcc-ng >=9.4.0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38"
 ],
 "license":"Python-2.0",
 "name":"regex",
-"sha256":"a347abaebc5809c239e82202b22ebc67f8942390e1b0cacf932f54a4ac0271c0",
-"size":381960,
-"timestamp":1628027162955,
-"version":"2021.8.3"
+"sha256":"f0d679c79e08b20a20b17e499e207817e5fc031a0400a68b7291c0e036471241",
+"size":384676,
+"timestamp":1629613446378,
+"version":"2021.8.21"
 },
-"regex-2021.8.3-py39h14843e3_0.tar.bz2":{
+"regex-2021.8.21-py39h14843e3_0.tar.bz2":{
 "build":"py39h14843e3_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=9.3.0",
+"libgcc-ng >=9.4.0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39"
 ],
 "license":"Python-2.0",
 "name":"regex",
-"sha256":"bc816ade75a3372a81e75b61b5684ecf7fac8f2d59be935e7f8be052c460b5d0",
-"size":376050,
-"timestamp":1628027452768,
-"version":"2021.8.3"
+"sha256":"35f7a4fead08b131694f6ec808b6c733e6e87cbc3855d2c2105d0104c402dcc3",
+"size":384841,
+"timestamp":1629614286028,
+"version":"2021.8.21"
 },
 "regions-0.5-py37h9d4e727_0.tar.bz2":{
 "build":"py37h9d4e727_0",
@@ -121249,11 +121393,11 @@
 "timestamp":1564235956024,
 "version":"0.4.14"
 },
-"ruamel.yaml-0.17.10-py36h269c3a8_0.tar.bz2":{
+"ruamel.yaml-0.17.13-py36h269c3a8_0.tar.bz2":{
 "build":"py36h269c3a8_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=9.3.0",
+"libgcc-ng >=9.4.0",
 "python >=3.6,<3.7.0a0",
 "python_abi 3.6.* *_cp36m",
 "ruamel.yaml.clib >=0.1.2",
@@ -121261,35 +121405,17 @@
 ],
 "license":"MIT",
 "name":"ruamel.yaml",
-"sha256":"6ec707a7e12b24bd89980d1b594554357ca2f3c4bd0a30f39bc3a96d7e814f30",
-"size":173351,
-"timestamp":1624568709950,
-"version":"0.17.10"
+"sha256":"a3f0edca28e0806098b45d510bb5a08dd9e068fcf04155a81109ea950e4ef35d",
+"size":174022,
+"timestamp":1629616335705,
+"version":"0.17.13"
 },
-"ruamel.yaml-0.17.10-py36h9b67645_0.tar.bz2":{
-"build":"py36h9b67645_0",
-"build_number":0,
-"depends":[
-"libgcc-ng >=9.3.0",
-"pypy3.6 >=7.3.3",
-"python >=3.6,<3.7.0a0",
-"python_abi 3.6 *_pypy36_pp73",
-"ruamel.yaml.clib >=0.1.2",
-"setuptools"
-],
-"license":"MIT",
-"name":"ruamel.yaml",
-"sha256":"15d8196de7da7cdab6f39447d030bc2eeeff061a3bc6f238c274f508b83bf412",
-"size":175256,
-"timestamp":1624567906549,
-"version":"0.17.10"
-},
-"ruamel.yaml-0.17.10-py37h1283c21_0.tar.bz2":{
+"ruamel.yaml-0.17.13-py37h1283c21_0.tar.bz2":{
 "build":"py37h1283c21_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=9.3.0",
-"pypy3.7 >=7.3.4",
+"libgcc-ng >=9.4.0",
+"pypy3.7 >=7.3.5",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7 *_pypy37_pp73",
 "ruamel.yaml.clib >=0.1.2",
@@ -121297,16 +121423,16 @@
 ],
 "license":"MIT",
 "name":"ruamel.yaml",
-"sha256":"6a51ee75e93f989aa1b48da35401e9f941c50a7cb0b8ad6683d5dc2fe824e35b",
-"size":174782,
-"timestamp":1624569076118,
-"version":"0.17.10"
+"sha256":"4ff79c01b5a092d8b8589c3f4f6263413641cc461de76aa6717cfb590701d14b",
+"size":175092,
+"timestamp":1629617294576,
+"version":"0.17.13"
 },
-"ruamel.yaml-0.17.10-py37hcd4c3ab_0.tar.bz2":{
+"ruamel.yaml-0.17.13-py37hcd4c3ab_0.tar.bz2":{
 "build":"py37hcd4c3ab_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=9.3.0",
+"libgcc-ng >=9.4.0",
 "python >=3.7,<3.8.0a0",
 "python_abi 3.7.* *_cp37m",
 "ruamel.yaml.clib >=0.1.2",
@@ -121314,16 +121440,16 @@
 ],
 "license":"MIT",
 "name":"ruamel.yaml",
-"sha256":"db66ac0c2b76579cc4caf0989445a1decd2674ae0d0f23db08c54bf4e4f30b5b",
-"size":173211,
-"timestamp":1624569365463,
-"version":"0.17.10"
+"sha256":"a8309201c8f54924cccd67f19f66d6c51797d0cac3fb11da4b07b1faf2fb71c5",
+"size":173812,
+"timestamp":1629618181944,
+"version":"0.17.13"
 },
-"ruamel.yaml-0.17.10-py38h9544abe_0.tar.bz2":{
+"ruamel.yaml-0.17.13-py38h9544abe_0.tar.bz2":{
 "build":"py38h9544abe_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=9.3.0",
+"libgcc-ng >=9.4.0",
 "python >=3.8,<3.9.0a0",
 "python_abi 3.8.* *_cp38",
 "ruamel.yaml.clib >=0.1.2",
@@ -121331,16 +121457,16 @@
 ],
 "license":"MIT",
 "name":"ruamel.yaml",
-"sha256":"4a738b42393bd8424eda8df713d609807348ddb805d387b434d0643ededeb85b",
-"size":174088,
-"timestamp":1624569638272,
-"version":"0.17.10"
+"sha256":"b7fdbb0e26c0192a379190149777058aa1802a109bf53422b6981f554b07b074",
+"size":175001,
+"timestamp":1629619115787,
+"version":"0.17.13"
 },
-"ruamel.yaml-0.17.10-py39h14843e3_0.tar.bz2":{
+"ruamel.yaml-0.17.13-py39h14843e3_0.tar.bz2":{
 "build":"py39h14843e3_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=9.3.0",
+"libgcc-ng >=9.4.0",
 "python >=3.9,<3.10.0a0",
 "python_abi 3.9.* *_cp39",
 "ruamel.yaml.clib >=0.1.2",
@@ -121348,10 +121474,10 @@
 ],
 "license":"MIT",
 "name":"ruamel.yaml",
-"sha256":"6a55da57ddf13b8f3024bbed2b92d5770781f899ec50f2f1532c540c3609d36c",
-"size":174538,
-"timestamp":1624570362138,
-"version":"0.17.10"
+"sha256":"6a7846ce11ab2226cdce300aafcb4aa9ff9743b2864d25dd9841118a5518ab3f",
+"size":175242,
+"timestamp":1629620010598,
+"version":"0.17.13"
 },
 "ruamel.yaml.clib-0.2.2-py36h269c3a8_2.tar.bz2":{
 "build":"py36h269c3a8_2",
@@ -132805,6 +132931,32 @@
 "timestamp":1615382786233,
 "version":"20180414"
 },
+"texlive-core-20180414-hce8a493_7.tar.bz2":{
+"build":"hce8a493_7",
+"build_number":7,
+"depends":[
+"cairo >=1.16.0,<1.17.0a0",
+"fontconfig >=2.13.1,<3.0a0",
+"fonts-conda-ecosystem",
+"freetype >=2.10.4,<3.0a0",
+"gmp >=6.2.1,<7.0a0",
+"harfbuzz >=2.9.0,<3.0a0",
+"icu >=68.1,<69.0a0",
+"libgcc-ng >=9.4.0",
+"libglib >=2.68.4,<3.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libstdcxx-ng >=9.4.0",
+"mpfr >=4.1.0,<5.0a0",
+"pixman >=0.40.0,<1.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GPL-2.0-or-later AND GPL-2.0-only AND GPL-3.0-only AND LPPL-1.3c AND LPPL-1.0 AND Artistic-1.0 AND Apache-2.0 AND MIT AND BSD-3-Clause",
+"name":"texlive-core",
+"sha256":"e20226d5c603a70ac685783adfd1100f8ab209996f38ad75c04ea0827bc3582a",
+"size":11454134,
+"timestamp":1629668338575,
+"version":"20180414"
+},
 "texlive-core-20180414-pl5262h722cf02_4.tar.bz2":{
 "build":"pl5262h722cf02_4",
 "build_number":4,
@@ -133439,47 +133591,19 @@
 "timestamp":1624506921292,
 "version":"9.0.0"
 },
-"tk-8.6.10-ha99a2a3_1.tar.bz2":{
-"build":"ha99a2a3_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=7.5.0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"TCL",
-"name":"tk",
-"sha256":"da4ddb0a23154f5e59e90e5639d4a12fa0dd83603ae1e7474a8cda26eb28d4ae",
-"size":3271351,
-"timestamp":1607909120735,
-"version":"8.6.10"
-},
-"tk-8.6.10-he2b207e_1.tar.bz2":{
-"build":"he2b207e_1",
-"build_number":1,
-"depends":[
-"libgcc-ng >=7.5.0",
-"zlib >=1.2.11,<1.3.0a0"
-],
-"license":"TCL",
-"name":"tk",
-"sha256":"926bc26ed3c5559f54e8b266e2bd8e2947370b57dfc9ae7cfce425a2983b95b6",
-"size":3307662,
-"timestamp":1602079588849,
-"version":"8.6.10"
-},
-"tk-8.6.10-hed695b0_0.tar.bz2":{
-"build":"hed695b0_0",
+"tk-8.6.11-ha99a2a3_0.tar.bz2":{
+"build":"ha99a2a3_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=7.3.0",
+"libgcc-ng >=7.5.0",
 "zlib >=1.2.11,<1.3.0a0"
 ],
-"license":"Tcl/Tk",
+"license":"TCL",
 "name":"tk",
-"sha256":"93c318a4d266008c4419d67aea94b5be5161ce6a89c4d0cd087a8266c68e1964",
-"size":3276149,
-"timestamp":1574440453617,
-"version":"8.6.10"
+"sha256":"d5a8b37c028db9d6c92aa5c63e50cc2e680f815ef11adad0653e403d9bb41a6a",
+"size":3352323,
+"timestamp":1629654002312,
+"version":"8.6.11"
 },
 "tktable-2.10-h555a92e_1.tar.bz2":{
 "build":"h555a92e_1",
