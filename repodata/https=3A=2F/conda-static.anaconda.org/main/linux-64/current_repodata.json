@@ -44588,6 +44588,21 @@
 "timestamp":1599257442808,
 "version":"10.0.1"
 },
+"libllvm11-11.1.0-h3826bc1_0.tar.bz2":{
+"build":"h3826bc1_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=7.5.0",
+"libstdcxx-ng >=7.5.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libllvm11",
+"sha256":"8fcc3fc1603745475fff88fa0a2221733b529b991a272ef863bb5778070ad791",
+"size":29820871,
+"timestamp":1624906818854,
+"version":"11.1.0"
+},
 "libllvm9-9.0.1-h4a3c616_0.tar.bz2":{
 "build":"h4a3c616_0",
 "build_number":0,
@@ -46360,39 +46375,40 @@
 "timestamp":1573489840960,
 "version":"1.0.0"
 },
-"llvm-10.0.1-h21ff451_5.tar.bz2":{
-"build":"h21ff451_5",
-"build_number":5,
+"llvm-11.1.0-h06a4308_0.tar.bz2":{
+"build":"h06a4308_0",
+"build_number":0,
 "constrains":[
-"llvmdev   10.0.1"
+"llvmdev   11.1.0"
 ],
 "depends":[
-"libllvm10 10.0.1 hbcb73fb_5"
+"libllvm11 11.1.0 h3826bc1_0"
 ],
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"llvm",
-"sha256":"c0f344bbc77c3d72dd5cfc4947b80c1a3d6843d3f3344d6bcc307e03831f54bd",
-"size":67091,
-"timestamp":1599257532356,
-"version":"10.0.1"
+"sha256":"6cca58fd3baf6d914c59a5e5870a5135e252824e3ab13f6db99820f636152615",
+"size":72206,
+"timestamp":1624906857917,
+"version":"11.1.0"
 },
-"llvm-tools-10.0.1-h4a3c616_5.tar.bz2":{
-"build":"h4a3c616_5",
-"build_number":5,
+"llvm-tools-11.1.0-h3826bc1_0.tar.bz2":{
+"build":"h3826bc1_0",
+"build_number":0,
 "constrains":[
-"llvmdev   10.0.1"
+"llvmdev   11.1.0"
 ],
 "depends":[
-"libgcc-ng >=7.3.0",
-"libllvm10 10.0.1 hbcb73fb_5",
-"libstdcxx-ng >=7.3.0"
+"libgcc-ng >=7.5.0",
+"libllvm11 11.1.0 h3826bc1_0",
+"libstdcxx-ng >=7.5.0",
+"zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"llvm-tools",
-"sha256":"9e22219c22afa7b8e42dd62ff1873b1e3f9b08f1bf1682e938200324e178ffb3",
-"size":5481413,
-"timestamp":1599257608678,
-"version":"10.0.1"
+"sha256":"bac15de3337f8b4be494fe29fdd0a5ba082d666d921d42128ff1167a00b5092c",
+"size":14813678,
+"timestamp":1624906919317,
+"version":"11.1.0"
 },
 "llvmdev-10.0.1-h4a3c616_5.tar.bz2":{
 "build":"h4a3c616_5",
@@ -46409,6 +46425,22 @@
 "size":42632882,
 "timestamp":1599257693375,
 "version":"10.0.1"
+},
+"llvmdev-11.1.0-hd09550d_0.tar.bz2":{
+"build":"hd09550d_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=7.5.0",
+"libllvm11 11.1.0 h3826bc1_0",
+"libstdcxx-ng >=7.5.0",
+"llvm-tools 11.1.0 h3826bc1_0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"llvmdev",
+"sha256":"bc5a9fd42adb3a48f6d67f2267a63734944b865c62c99329d3dccad9a0ce181a",
+"size":45889905,
+"timestamp":1624906994003,
+"version":"11.1.0"
 },
 "llvmlite-0.36.0-py36h612dafd_4.tar.bz2":{
 "build":"py36h612dafd_4",

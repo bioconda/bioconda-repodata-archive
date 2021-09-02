@@ -34511,6 +34511,21 @@
 "timestamp":1599256922413,
 "version":"10.0.1"
 },
+"libllvm11-11.1.0-h621ed2f_0.tar.bz2":{
+"build":"h621ed2f_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=8.2.0",
+"libstdcxx-ng >=8.2.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libllvm11",
+"sha256":"b4f963d52a365972844323313b1f5fc9e66b364a69951d548095b466e37bb894",
+"size":31895242,
+"timestamp":1624908589993,
+"version":"11.1.0"
+},
 "libllvm9-9.0.1-h4a3c616_0.tar.bz2":{
 "build":"h4a3c616_0",
 "build_number":0,
@@ -35836,105 +35851,56 @@
 "timestamp":1579721380560,
 "version":"1.0.0"
 },
-"llvm-10.0.1-h21ff451_5.tar.bz2":{
-"build":"h21ff451_5",
-"build_number":5,
+"llvm-11.1.0-h6ffa863_0.tar.bz2":{
+"build":"h6ffa863_0",
+"build_number":0,
 "constrains":[
-"llvmdev   10.0.1"
+"llvmdev   11.1.0"
 ],
 "depends":[
-"libllvm10 10.0.1 hbcb73fb_5"
+"libllvm11 11.1.0 h621ed2f_0"
 ],
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"llvm",
-"sha256":"6d83f1b05dd6530755cdc3ba8015c1df37b735dc53a34d771966e8ffd0a4d459",
-"size":66703,
-"timestamp":1599256957253,
-"version":"10.0.1"
+"sha256":"9d0ecf13ff49e3c5ca308aa8e7113117aa9e0c31cf813bfad2b99e4483c3d606",
+"size":72195,
+"timestamp":1624908637929,
+"version":"11.1.0"
 },
-"llvm-10.0.1-h6ffa863_5.tar.bz2":{
-"build":"h6ffa863_5",
-"build_number":5,
+"llvm-tools-11.1.0-h621ed2f_0.tar.bz2":{
+"build":"h621ed2f_0",
+"build_number":0,
 "constrains":[
-"llvmdev   10.0.1"
+"llvmdev   11.1.0"
 ],
 "depends":[
-"libllvm10 10.0.1 h9b6764f_5"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"llvm",
-"sha256":"a8acdc905ee21b028300c6342f2f5123dfe9404a598aeaabd90fc245775fc3bd",
-"size":67953,
-"timestamp":1607703117463,
-"version":"10.0.1"
-},
-"llvm-tools-10.0.1-h4a3c616_5.tar.bz2":{
-"build":"h4a3c616_5",
-"build_number":5,
-"constrains":[
-"llvmdev   10.0.1"
-],
-"depends":[
-"libgcc-ng >=7.3.0",
-"libllvm10 10.0.1 hbcb73fb_5",
-"libstdcxx-ng >=7.3.0"
+"libgcc-ng >=8.2.0",
+"libllvm11 11.1.0 h621ed2f_0",
+"libstdcxx-ng >=8.2.0",
+"zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"llvm-tools",
-"sha256":"fcc5ee7418a1ffba3ef6618ba77fd1aaefc3abfef2804c6da26663764e198449",
-"size":5661378,
-"timestamp":1599257017369,
-"version":"10.0.1"
+"sha256":"99cea540506ad4479b6622279f6cbbb987eee6104936b26b0f2b4d70d344217e",
+"size":14905742,
+"timestamp":1624908706867,
+"version":"11.1.0"
 },
-"llvm-tools-10.0.1-h66086b3_5.tar.bz2":{
-"build":"h66086b3_5",
-"build_number":5,
-"constrains":[
-"llvmdev   10.0.1"
-],
+"llvmdev-11.1.0-h4ef5bd6_0.tar.bz2":{
+"build":"h4ef5bd6_0",
+"build_number":0,
 "depends":[
-"libgcc-ng >=7.3.0",
-"libllvm10 10.0.1 h9b6764f_5",
-"libstdcxx-ng >=7.3.0"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"llvm-tools",
-"sha256":"4d9377ab0df78b9eadca75a586114aac2d2f7b82a1e075089926bddd07a3b045",
-"size":5662294,
-"timestamp":1607703187978,
-"version":"10.0.1"
-},
-"llvmdev-10.0.1-h4a3c616_5.tar.bz2":{
-"build":"h4a3c616_5",
-"build_number":5,
-"depends":[
-"libgcc-ng >=7.3.0",
-"libllvm10 10.0.1 hbcb73fb_5",
-"libstdcxx-ng >=7.3.0",
-"llvm-tools 10.0.1 h4a3c616_5"
+"libgcc-ng >=8.2.0",
+"libllvm11 11.1.0 h621ed2f_0",
+"libstdcxx-ng >=8.2.0",
+"llvm-tools 11.1.0 h621ed2f_0"
 ],
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"llvmdev",
-"sha256":"20b155d7b809b8cbb8e07bbe8cfb030ab12c4a9819efe0c99b33358f3127e4a7",
-"size":43239148,
-"timestamp":1599257084558,
-"version":"10.0.1"
-},
-"llvmdev-10.0.1-h66086b3_5.tar.bz2":{
-"build":"h66086b3_5",
-"build_number":5,
-"depends":[
-"libgcc-ng >=7.3.0",
-"libllvm10 10.0.1 h9b6764f_5",
-"libstdcxx-ng >=7.3.0",
-"llvm-tools 10.0.1 h66086b3_5"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"llvmdev",
-"sha256":"01ea1ac5810f57c4c97be452778bfc0d88de367e998f0f1e5656882b61295dcb",
-"size":43255279,
-"timestamp":1607703268937,
-"version":"10.0.1"
+"sha256":"a43d2186f8af4afef92d3ecc622f7484aee501881cf3dd00852fd39e2470913f",
+"size":49160823,
+"timestamp":1624908785450,
+"version":"11.1.0"
 },
 "llvmlite-0.36.0-py36h67f253c_4.tar.bz2":{
 "build":"py36h67f253c_4",

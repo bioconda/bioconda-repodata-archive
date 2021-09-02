@@ -47411,6 +47411,22 @@
 "timestamp":1599257442808,
 "version":"10.0.1"
 },
+"libllvm11-11.1.0-h3826bc1_0.conda":{
+"build":"h3826bc1_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=7.5.0",
+"libstdcxx-ng >=7.5.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"legacy_bz2_md5":"418f3d701f43dd02505005c6d1706d98",
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libllvm11",
+"sha256":"5727ba0309ae62dec4933cf858ce51f4c4eb94a83971ebbe27ee46689c60ba2f",
+"size":24752894,
+"timestamp":1624906818854,
+"version":"11.1.0"
+},
 "libllvm9-9.0.1-h4a3c616_0.conda":{
 "build":"h4a3c616_0",
 "build_number":0,
@@ -49295,41 +49311,42 @@
 "timestamp":1573489840960,
 "version":"1.0.0"
 },
-"llvm-10.0.1-h21ff451_5.conda":{
-"build":"h21ff451_5",
-"build_number":5,
+"llvm-11.1.0-h06a4308_0.conda":{
+"build":"h06a4308_0",
+"build_number":0,
 "constrains":[
-"llvmdev   10.0.1"
+"llvmdev   11.1.0"
 ],
 "depends":[
-"libllvm10 10.0.1 hbcb73fb_5"
+"libllvm11 11.1.0 h3826bc1_0"
 ],
-"legacy_bz2_md5":"a064ecf8ce8be942285c6b0c22900bdf",
+"legacy_bz2_md5":"30aafa3bfdc175b083e054ea20fde12f",
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"llvm",
-"sha256":"ddbc537e23ab5d6cc698dede5e1284379838cc17cd9da87543d75643a8954b6a",
-"size":67660,
-"timestamp":1599257532356,
-"version":"10.0.1"
+"sha256":"a06c21cee1e5a80e1239c33afc59b92ab650b7b7fd3409395b496d6955dacfb1",
+"size":72346,
+"timestamp":1624906857917,
+"version":"11.1.0"
 },
-"llvm-tools-10.0.1-h4a3c616_5.conda":{
-"build":"h4a3c616_5",
-"build_number":5,
+"llvm-tools-11.1.0-h3826bc1_0.conda":{
+"build":"h3826bc1_0",
+"build_number":0,
 "constrains":[
-"llvmdev   10.0.1"
+"llvmdev   11.1.0"
 ],
 "depends":[
-"libgcc-ng >=7.3.0",
-"libllvm10 10.0.1 hbcb73fb_5",
-"libstdcxx-ng >=7.3.0"
+"libgcc-ng >=7.5.0",
+"libllvm11 11.1.0 h3826bc1_0",
+"libstdcxx-ng >=7.5.0",
+"zlib >=1.2.11,<1.3.0a0"
 ],
-"legacy_bz2_md5":"b278db4cf6c864e085f7ee4b312d751e",
+"legacy_bz2_md5":"4db143764082eca8a3f10aaa682023b6",
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"llvm-tools",
-"sha256":"89dc3a5c066236c29a75aae9f326742d30d1b136d11d05914fcd7d23e5ff60e7",
-"size":4558555,
-"timestamp":1599257608678,
-"version":"10.0.1"
+"sha256":"6fa2d79bd9f645dd49d5b561ab9d0c0f93a70d90451fe817dea70f6e03554567",
+"size":12431164,
+"timestamp":1624906919317,
+"version":"11.1.0"
 },
 "llvmdev-10.0.1-h4a3c616_5.conda":{
 "build":"h4a3c616_5",
@@ -49347,6 +49364,23 @@
 "size":31210684,
 "timestamp":1599257693375,
 "version":"10.0.1"
+},
+"llvmdev-11.1.0-hd09550d_0.conda":{
+"build":"hd09550d_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=7.5.0",
+"libllvm11 11.1.0 h3826bc1_0",
+"libstdcxx-ng >=7.5.0",
+"llvm-tools 11.1.0 h3826bc1_0"
+],
+"legacy_bz2_md5":"89dd7003339e044d9a9d07eb98f18c2b",
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"llvmdev",
+"sha256":"d7fed18f8cafe5175c458aea724c92e76f6e789e7c7a73b9aa16b41ca45f1594",
+"size":33484452,
+"timestamp":1624906994003,
+"version":"11.1.0"
 },
 "llvmlite-0.36.0-py36h612dafd_4.conda":{
 "build":"py36h612dafd_4",
