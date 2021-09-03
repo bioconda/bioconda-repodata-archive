@@ -14272,6 +14272,21 @@
 "timestamp":1621536949905,
 "version":"10.0.1"
 },
+"libllvm11-11.1.0-h6c8bc22_0.tar.bz2":{
+"build":"h6c8bc22_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=10.2.0",
+"libstdcxx-ng >=10.2.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libllvm11",
+"sha256":"53ed55fc14dfd8c449ab32405aee83539b7503721298c5dc4853625a3002dc41",
+"size":30930561,
+"timestamp":1630527783072,
+"version":"11.1.0"
+},
 "libmagic-5.39-hf9034f9_0.tar.bz2":{
 "build":"hf9034f9_0",
 "build_number":0,
@@ -15164,21 +15179,35 @@
 "timestamp":1622732733567,
 "version":"3.2.1"
 },
-"llvm-10.0.1-hd43f75c_6.tar.bz2":{
-"build":"hd43f75c_6",
-"build_number":6,
+"lit-11.1.0-pyhd3eb1b0_0.tar.bz2":{
+"build":"pyhd3eb1b0_0",
+"build_number":0,
+"depends":[
+"python"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"lit",
+"noarch":"python",
+"sha256":"93f442eb2d77951a1a24554ffa09c2cb82715740af8b65fceeeb5b55a1079b9d",
+"size":112811,
+"timestamp":1630527808548,
+"version":"11.1.0"
+},
+"llvm-11.1.0-hd43f75c_0.tar.bz2":{
+"build":"hd43f75c_0",
+"build_number":0,
 "constrains":[
-"llvmdev   10.0.1"
+"llvmdev   11.1.0"
 ],
 "depends":[
-"libllvm10 10.0.1 h0eb0881_6"
+"libllvm11 11.1.0 h6c8bc22_0"
 ],
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"llvm",
-"sha256":"fa0efeb0895b034e22e5f1bdf8d7ba6289b54f6d32c1ba3422196bc1201f3cf3",
-"size":51780,
-"timestamp":1615499579321,
-"version":"10.0.1"
+"sha256":"4d2892b045acd8ae914c44a057ea3b0834bb6f655462136b8a00e02a652820d1",
+"size":53591,
+"timestamp":1630527814318,
+"version":"11.1.0"
 },
 "llvm-openmp-10.0.1-h59a28a9_0.tar.bz2":{
 "build":"h59a28a9_0",
@@ -15196,41 +15225,24 @@
 "timestamp":1621879292281,
 "version":"10.0.1"
 },
-"llvm-tools-10.0.1-h59a28a9_6.tar.bz2":{
-"build":"h59a28a9_6",
-"build_number":6,
+"llvm-tools-11.1.0-h6c8bc22_0.tar.bz2":{
+"build":"h6c8bc22_0",
+"build_number":0,
 "constrains":[
-"llvmdev   10.0.1"
+"llvmdev   11.1.0"
 ],
 "depends":[
 "libgcc-ng >=10.2.0",
-"libllvm10 10.0.1 h6c8bc22_6",
-"libstdcxx-ng >=10.2.0"
+"libllvm11 11.1.0 h6c8bc22_0",
+"libstdcxx-ng >=10.2.0",
+"zlib >=1.2.11,<1.3.0a0"
 ],
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"llvm-tools",
-"sha256":"68f45b3c054fe28c3b579ed648005b9be71b1cc387745450ef5b7d9d93e3e0dc",
-"size":5694382,
-"timestamp":1621537012245,
-"version":"10.0.1"
-},
-"llvm-tools-10.0.1-h949e957_6.tar.bz2":{
-"build":"h949e957_6",
-"build_number":6,
-"constrains":[
-"llvmdev   10.0.1"
-],
-"depends":[
-"libgcc-ng >=10.2.0",
-"libllvm10 10.0.1 h0eb0881_6",
-"libstdcxx-ng >=10.2.0"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"llvm-tools",
-"sha256":"9d30d0e3b94bbcc58edbeaeb405393eab835191aa0fc76a325f83040f8184391",
-"size":5697338,
-"timestamp":1615499610956,
-"version":"10.0.1"
+"sha256":"04cc29e52214f2699f829de9c90e4603f290bb6ec3cac11216b795835237f4a5",
+"size":14979575,
+"timestamp":1630527851072,
+"version":"11.1.0"
 },
 "llvmdev-10.0.1-h59a28a9_6.tar.bz2":{
 "build":"h59a28a9_6",
@@ -15263,6 +15275,22 @@
 "size":45044742,
 "timestamp":1615499649715,
 "version":"10.0.1"
+},
+"llvmdev-11.1.0-h59a28a9_0.tar.bz2":{
+"build":"h59a28a9_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=10.2.0",
+"libllvm11 11.1.0 h6c8bc22_0",
+"libstdcxx-ng >=10.2.0",
+"llvm-tools 11.1.0 h6c8bc22_0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"llvmdev",
+"sha256":"54dbd337ad1f3f27632fec64f8ce36d2cf0842c2f3680f81ab93c042fe183edb",
+"size":48600058,
+"timestamp":1630527898131,
+"version":"11.1.0"
 },
 "llvmlite-0.36.0-py37h1aa70be_4.tar.bz2":{
 "build":"py37h1aa70be_4",
@@ -15311,6 +15339,54 @@
 "size":2149276,
 "timestamp":1616114741973,
 "version":"0.36.0"
+},
+"llvmlite-0.37.0-py37h22f4aa5_0.tar.bz2":{
+"build":"py37h22f4aa5_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=10.2.0",
+"libllvm11 >=11.1.0,<11.2.0a0",
+"libstdcxx-ng >=10.2.0",
+"python >=3.7,<3.8.0a0"
+],
+"license":"BSD-2-Clause",
+"name":"llvmlite",
+"sha256":"9784515d2da684c1a73a8b69934d19d043029dc8e75e1deab8a80972131bb165",
+"size":2349438,
+"timestamp":1630609152357,
+"version":"0.37.0"
+},
+"llvmlite-0.37.0-py38h22f4aa5_0.tar.bz2":{
+"build":"py38h22f4aa5_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=10.2.0",
+"libllvm11 >=11.1.0,<11.2.0a0",
+"libstdcxx-ng >=10.2.0",
+"python >=3.8,<3.9.0a0"
+],
+"license":"BSD-2-Clause",
+"name":"llvmlite",
+"sha256":"cc7886af839c28d7ca37c40aef737866b85d1bf5d89e4da2c6408c393302eb07",
+"size":2350070,
+"timestamp":1630609199525,
+"version":"0.37.0"
+},
+"llvmlite-0.37.0-py39h22f4aa5_0.tar.bz2":{
+"build":"py39h22f4aa5_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=10.2.0",
+"libllvm11 >=11.1.0,<11.2.0a0",
+"libstdcxx-ng >=10.2.0",
+"python >=3.9,<3.10.0a0"
+],
+"license":"BSD-2-Clause",
+"name":"llvmlite",
+"sha256":"b16f463f54bc240691af5cd0a8a1666c0f1cd20e25866e19d94f114e2ac60352",
+"size":2349822,
+"timestamp":1630609244832,
+"version":"0.37.0"
 },
 "lmdb-0.9.29-h22f4aa5_0.tar.bz2":{
 "build":"h22f4aa5_0",
@@ -18562,6 +18638,20 @@
 "size":3942357,
 "timestamp":1619140721129,
 "version":"1.1.1k"
+},
+"openssl-1.1.1l-h2f4d8fa_0.tar.bz2":{
+"build":"h2f4d8fa_0",
+"build_number":0,
+"depends":[
+"ca-certificates",
+"libgcc-ng >=10.2.0"
+],
+"license":"OpenSSL",
+"name":"openssl",
+"sha256":"c93550af5953e02bb29d0167fbca2dafbac3d6aaa3b489c34ddd26cc27c6b131",
+"size":3954660,
+"timestamp":1630515532072,
+"version":"1.1.1l"
 },
 "opentracing-2.4.0-py37hd43f75c_0.tar.bz2":{
 "build":"py37hd43f75c_0",
