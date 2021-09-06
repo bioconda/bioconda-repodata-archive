@@ -9892,6 +9892,27 @@
 "timestamp":1625889507900,
 "version":"12.0.1"
 },
+"clang-12-12.0.1-default_h0fdd720_1.tar.bz2":{
+"build":"default_h0fdd720_1",
+"build_number":1,
+"constrains":[
+"llvm-tools 12.0.1",
+"clangdev 12.0.1",
+"clang-tools 12.0.1",
+"clangxx 12.0.1"
+],
+"depends":[
+"libclang-cpp12 12.0.1.*",
+"libcxx >=12.0.1",
+"libllvm12 >=12.0.1,<12.1.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clang-12",
+"sha256":"63f878223e6d9e7b7f96042809bd68b6a194e2715f9985a505b1f2997d7707ea",
+"size":710373,
+"timestamp":1630829839015,
+"version":"12.0.1"
+},
 "clang-12.0.1-hce30654_0.tar.bz2":{
 "build":"hce30654_0",
 "build_number":0,
@@ -9910,6 +9931,19 @@
 "sha256":"d9ec86831aa42c290f4e7d1022686850ab227cb4ae67968d76eee716c8d6f3fd",
 "size":127230,
 "timestamp":1625889836590,
+"version":"12.0.1"
+},
+"clang-12.0.1-hce30654_1.tar.bz2":{
+"build":"hce30654_1",
+"build_number":1,
+"depends":[
+"clang-12 12.0.1 default_h0fdd720_1"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clang",
+"sha256":"79f52c41a06440b04044ee5a377a88bb31506510150520f10ad0d8be537c0d97",
+"size":127410,
+"timestamp":1630830018832,
 "version":"12.0.1"
 },
 "clang-9-9.0.1-default_h86191a3_1.tar.bz2":{
@@ -9979,6 +10013,25 @@
 "sha256":"920cd7a2e53e0cf2c0e991a48e7fc8d52fbe616f93123086fdb38f89593d745b",
 "size":12896171,
 "timestamp":1625891116986,
+"version":"12.0.1"
+},
+"clang-tools-12.0.1-default_h0fdd720_1.tar.bz2":{
+"build":"default_h0fdd720_1",
+"build_number":1,
+"constrains":[
+"clangdev 12.0.1"
+],
+"depends":[
+"libclang 12.*",
+"libclang-cpp12 >=12.0.1,<12.1.0a0",
+"libcxx >=12.0.1",
+"libllvm12 >=12.0.1,<12.1.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clang-tools",
+"sha256":"dec1479ad285776fd5d1c9bce561656850b564b289c91174697570dd74b11ff5",
+"size":12616107,
+"timestamp":1630831197505,
 "version":"12.0.1"
 },
 "clang_bootstrap_osx-64-12.0.1-ha99727f_0.tar.bz2":{
@@ -10173,6 +10226,25 @@
 "timestamp":1625891186388,
 "version":"12.0.1"
 },
+"clangdev-12.0.1-default_h0fdd720_1.tar.bz2":{
+"build":"default_h0fdd720_1",
+"build_number":1,
+"depends":[
+"clang 12.0.1 hce30654_1",
+"clang-tools 12.0.1 default_h0fdd720_1",
+"clangxx 12.0.1 default_h8b1a7b7_1",
+"libclang 12.0.1 default_h0fdd720_1",
+"libclang-cpp 12.0.1 default_h0fdd720_1",
+"libcxx >=12.0.1",
+"llvmdev 12.0.1"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clangdev",
+"sha256":"884708031b4bf4b063208640c3b71f7d3dcf33a601bb42a58831729adf96bf80",
+"size":26836149,
+"timestamp":1630831264574,
+"version":"12.0.1"
+},
 "clangxx-12.0.1-default_h8b1a7b7_0.tar.bz2":{
 "build":"default_h8b1a7b7_0",
 "build_number":0,
@@ -10184,6 +10256,19 @@
 "sha256":"0417f37bb6eb7369887eb8b461f507b6b80eeae187c9ec8c41a9a56e21821f1f",
 "size":127354,
 "timestamp":1625889848156,
+"version":"12.0.1"
+},
+"clangxx-12.0.1-default_h8b1a7b7_1.tar.bz2":{
+"build":"default_h8b1a7b7_1",
+"build_number":1,
+"depends":[
+"clang 12.0.1 hce30654_1"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clangxx",
+"sha256":"3950fa2169316cce0c9699059fb24bce90b01b5ea90379748ae82793be0727b6",
+"size":127491,
+"timestamp":1630830030606,
 "version":"12.0.1"
 },
 "clangxx_osx-64-12.0.1-h8d3ee1a_0.tar.bz2":{
@@ -22349,7 +22434,7 @@
 "timestamp":1627653975150,
 "version":"2021.7.30"
 },
-"imagemagick-7.1.0_5-pl5321hc21dce0_0.tar.bz2":{
+"imagemagick-7.1.0_6-pl5321hc21dce0_0.tar.bz2":{
 "build":"pl5321hc21dce0_0",
 "build_number":0,
 "depends":[
@@ -22386,10 +22471,10 @@
 ],
 "license":"ImageMagick",
 "name":"imagemagick",
-"sha256":"9ef0172ab756d8efbb8fa46e58638f495ca5cb883b7cfb19b44bb03c97b8389d",
-"size":1980269,
-"timestamp":1629738929975,
-"version":"7.1.0_5"
+"sha256":"caf7329d08478154ef783351efb3e10bd476f53fb561cd8d87511deff107a864",
+"size":1974207,
+"timestamp":1630833479675,
+"version":"7.1.0_6"
 },
 "iminuit-2.8.3-py38h6f2b01f_0.tar.bz2":{
 "build":"py38h6f2b01f_0",
@@ -25714,6 +25799,20 @@
 "timestamp":1625890013286,
 "version":"12.0.1"
 },
+"libclang-12.0.1-default_h0fdd720_1.tar.bz2":{
+"build":"default_h0fdd720_1",
+"build_number":1,
+"depends":[
+"libcxx >=12.0.1",
+"libllvm12 >=12.0.1,<12.1.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libclang",
+"sha256":"f3855de15038c4436463a3272dddab01eaf9d6a666b6381aa56ae20fc6f4fa06",
+"size":13951458,
+"timestamp":1630830162666,
+"version":"12.0.1"
+},
 "libclang-cpp-12.0.1-default_h0fdd720_0.tar.bz2":{
 "build":"default_h0fdd720_0",
 "build_number":0,
@@ -25727,6 +25826,21 @@
 "sha256":"553cccbec34f74544b0b510fcd0642003acb6347f329fe245cbbf4c22f3c2f36",
 "size":12425769,
 "timestamp":1625889817224,
+"version":"12.0.1"
+},
+"libclang-cpp-12.0.1-default_h0fdd720_1.tar.bz2":{
+"build":"default_h0fdd720_1",
+"build_number":1,
+"depends":[
+"libclang-cpp12 12.0.1 default_h0fdd720_1",
+"libcxx >=12.0.1",
+"libllvm12 >=12.0.1,<12.1.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libclang-cpp",
+"sha256":"2a5759d05b47abab083f3602761266e2c7e4af73d97947bc50b0776a70471d27",
+"size":12206670,
+"timestamp":1630829999684,
 "version":"12.0.1"
 },
 "libclang-cpp11-11.0.1-default_h87665d4_0.tar.bz2":{
@@ -25797,6 +25911,20 @@
 "sha256":"05b67009a72e816a09c8417c0ae2bc811f1a7ec7839c3d270fef86fc97543491",
 "size":12423857,
 "timestamp":1625889328580,
+"version":"12.0.1"
+},
+"libclang-cpp12-12.0.1-default_h0fdd720_1.tar.bz2":{
+"build":"default_h0fdd720_1",
+"build_number":1,
+"depends":[
+"libcxx >=12.0.1",
+"libllvm12 >=12.0.1,<12.1.0a0"
+],
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libclang-cpp12",
+"sha256":"b5fef84afd67d7089538c49f199023b71d66f0b5384387a3fd7a3ca719223bb1",
+"size":12207406,
+"timestamp":1630829568269,
 "version":"12.0.1"
 },
 "libclang-cpp9-9.0.1-default_h86191a3_1.tar.bz2":{
@@ -35044,7 +35172,7 @@
 "timestamp":1630259478983,
 "version":"0.54.0"
 },
-"numcodecs-0.9.0-py38h6f2b01f_0.tar.bz2":{
+"numcodecs-0.9.1-py38h6f2b01f_0.tar.bz2":{
 "build":"py38h6f2b01f_0",
 "build_number":0,
 "depends":[
@@ -35056,12 +35184,12 @@
 ],
 "license":"MIT",
 "name":"numcodecs",
-"sha256":"f21a3aa67a816bd18684578fe0a147effab3d7becc566350e0d6bd31b2018bba",
-"size":1035718,
-"timestamp":1629308206866,
-"version":"0.9.0"
+"sha256":"504588b438259b587278fcf65c293194b78b5878203279f6933e88e2247fc007",
+"size":1040086,
+"timestamp":1630869042604,
+"version":"0.9.1"
 },
-"numcodecs-0.9.0-py39hfb83b0d_0.tar.bz2":{
+"numcodecs-0.9.1-py39hfb83b0d_0.tar.bz2":{
 "build":"py39hfb83b0d_0",
 "build_number":0,
 "depends":[
@@ -35073,10 +35201,10 @@
 ],
 "license":"MIT",
 "name":"numcodecs",
-"sha256":"5e8d2a92f076eb1b46ca2a4907657198c0c11c754a0c0022e9178691f53a2f76",
-"size":1024731,
-"timestamp":1629308336239,
-"version":"0.9.0"
+"sha256":"e32bdbe1b8fe43b0736f48ef618ff33e391b084c0ec35bfe46ac591d32185713",
+"size":1035193,
+"timestamp":1630868987338,
+"version":"0.9.1"
 },
 "numexpr-2.7.3-py38h3777fb4_0.tar.bz2":{
 "build":"py38h3777fb4_0",
