@@ -100,19 +100,6 @@
 "timestamp":1589542550433,
 "version":"10.0.0"
 },
-"clangxx-10.0.0-default_hf57f61e_0.tar.bz2":{
-"build":"default_hf57f61e_0",
-"build_number":0,
-"depends":[
-"clang 10.0.0 default_hf57f61e_0"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"clangxx",
-"sha256":"1683255a92cc98527615612a7def6b6b8e272d426cd6e74c8ef345b6682a229c",
-"size":125656,
-"timestamp":1589539340176,
-"version":"10.0.0"
-},
 "clangxx_osx-64-10.0.0-h05bbb7f_0.tar.bz2":{
 "build":"h05bbb7f_0",
 "build_number":0,
@@ -192,21 +179,6 @@
 "size":25869,
 "timestamp":1607007542416,
 "version":"17.5.0"
-},
-"llvmdev-10.0.0-h21ff451_0.tar.bz2":{
-"build":"h21ff451_0",
-"build_number":0,
-"depends":[
-"libcxx >=10.0.0",
-"libllvm10 10.0.0 h21ff451_0",
-"llvm-tools 10.0.0 h21ff451_0"
-],
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"llvmdev",
-"sha256":"2fc328f2121f2689fa70c08ce756966af90866e365ceb1ac06cb06227f2cf599",
-"size":33424310,
-"timestamp":1589534242206,
-"version":"10.0.0"
 },
 "lockfile-0.12.2-py39hecd8cb5_0.tar.bz2":{
 "build":"py39hecd8cb5_0",
@@ -13555,21 +13527,40 @@
 "timestamp":1588383280889,
 "version":"3.7.9"
 },
-"cctools-927.0.2-h5ba7a2e_4.conda":{
-"build":"h5ba7a2e_4",
-"build_number":4,
+"cctools-949.0.1-h9abeeb2_23.conda":{
+"build":"h9abeeb2_23",
+"build_number":23,
 "depends":[
-"ld64 >=450.3,<450.4.0a0",
-"libcxx",
-"libllvm10 >=10.0.0,<10.1.0a0"
+"cctools_osx-64 949.0.1 hc7db93f_23",
+"ld64 530 h20443b4_23"
 ],
-"legacy_bz2_md5":"b02a4233e774c4e5b9909d2a06cca3a1",
+"legacy_bz2_md5":"11215c8a355526b68bbcb4a971aba580",
 "license":"APSL-2.0",
 "name":"cctools",
-"sha256":"9cdc8b03c526ad4636ca61f653b4121f6e54e515efd52764fc411dd50550af20",
-"size":987831,
-"timestamp":1589528600427,
-"version":"927.0.2"
+"sha256":"dfaaf4c4e48ed5d32cac527edb605284d4f028affd722b50df1b0573a08e7fd0",
+"size":20699,
+"timestamp":1628078767770,
+"version":"949.0.1"
+},
+"cctools_osx-64-949.0.1-hc7db93f_23.conda":{
+"build":"hc7db93f_23",
+"build_number":23,
+"constrains":[
+"cctools 949.0.1.*"
+],
+"depends":[
+"ld64_osx-64 >=530,<531.0a0",
+"ldid",
+"libcxx",
+"libllvm12 >=12.0.0,<12.1.0a0"
+],
+"legacy_bz2_md5":"b1875e7d7887da32ac25102bdc8de616",
+"license":"APSL-2.0",
+"name":"cctools_osx-64",
+"sha256":"dfd2159ecd451daee70ce8f27bc6e420100534f063c48cb2e5aecbcb0b7264da",
+"size":1365814,
+"timestamp":1628078753573,
+"version":"949.0.1"
 },
 "cdecimal-2.3-py27h1de35cc_3.conda":{
 "build":"py27h1de35cc_3",
@@ -15078,26 +15069,41 @@
 "timestamp":1536869398879,
 "version":"0.1.1"
 },
-"clang-10.0.0-default_hf57f61e_0.conda":{
-"build":"default_hf57f61e_0",
-"build_number":0,
+"clang-12-12.0.0-default_hfcad0e5_2.conda":{
+"build":"default_hfcad0e5_2",
+"build_number":2,
 "constrains":[
-"clangdev 10.0.0",
-"clangxx 10.0.0",
-"clang-tools 10.0.0",
-"llvm-tools 10.0.0"
+"clangdev 12.0.0",
+"clang-tools 12.0.0",
+"clangxx 12.0.0",
+"llvm-tools 12.0.0"
 ],
 "depends":[
-"libcxx >=10.0.0",
-"libllvm10 >=10.0.0,<10.1.0a0"
+"libclang-cpp12 12.0.0.*",
+"libcxx >=12.0.0",
+"libllvm12 >=12.0.0,<12.1.0a0"
 ],
-"legacy_bz2_md5":"0d7a5ede9b9a8a5a99cd85c5fd9bfd22",
+"legacy_bz2_md5":"2ac91850f92ec6052463c244597042fb",
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clang-12",
+"sha256":"d44678c49ebf5e83b0ad81560b7e731fcdaa1d712eb5cf632d5c197ed7bf0810",
+"size":710414,
+"timestamp":1628058982300,
+"version":"12.0.0"
+},
+"clang-12.0.0-hecd8cb5_2.conda":{
+"build":"hecd8cb5_2",
+"build_number":2,
+"depends":[
+"clang-12 12.0.0 default_hfcad0e5_2"
+],
+"legacy_bz2_md5":"8f7394b9cc7ec92b974ae1619de04a47",
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"clang",
-"sha256":"632973f0c13ebb527971bdd36e1bc9d2296adde5cb5f3f575e45846a729ba0a9",
-"size":10501320,
-"timestamp":1589539305915,
-"version":"10.0.0"
+"sha256":"e0175654c3be18c2d841904529548fcd979625d67ff5e23841170d1cea0bac0d",
+"size":138636,
+"timestamp":1628059113846,
+"version":"12.0.0"
 },
 "clang-dbg_osx-64-4.0.1-h1ce6c1d_5.conda":{
 "build":"h1ce6c1d_5",
@@ -15138,37 +15144,37 @@
 "timestamp":1516031730292,
 "version":"4.0.1"
 },
-"clang-tools-10.0.0-default_hf57f61e_0.conda":{
-"build":"default_hf57f61e_0",
-"build_number":0,
+"clang-tools-12.0.0-default_hfcad0e5_2.conda":{
+"build":"default_hfcad0e5_2",
+"build_number":2,
 "constrains":[
-"clangdev 10.0.0"
+"clangdev 12.0.0"
 ],
 "depends":[
-"clang 10.0.0 default_hf57f61e_0",
-"clangxx 10.0.0 default_hf57f61e_0",
-"libcxx >=10.0.0",
-"libllvm10 >=10.0.0,<10.1.0a0"
+"clang 12.0.0 hecd8cb5_2",
+"clangxx 12.0.0 default_hfcad0e5_2",
+"libcxx >=12.0.0",
+"libllvm12 >=12.0.0,<12.1.0a0"
 ],
-"legacy_bz2_md5":"f346f57923ab70d22baab8015f96c7bf",
+"legacy_bz2_md5":"534f28d2e384a140e0a4f3f19af481ac",
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"clang-tools",
-"sha256":"46b0bf24839bb6a28c1b04f56a18bdc94634e4fa9d9e74097562787161d512dd",
-"size":8944539,
-"timestamp":1589539780421,
-"version":"10.0.0"
+"sha256":"12eb7232a2ea23d322a65f0d0b4bca11a3dfc2bd17ea7bcada2e175231f8df90",
+"size":10065043,
+"timestamp":1628059798044,
+"version":"12.0.0"
 },
-"clang_bootstrap_osx-64-10.0.0-h05bbb7f_0.conda":{
-"build":"h05bbb7f_0",
-"build_number":0,
+"clang_bootstrap_osx-64-12.0.0-he32ed2a_2.conda":{
+"build":"he32ed2a_2",
+"build_number":2,
 "depends":[],
-"legacy_bz2_md5":"961177a8a28a8e3eab5c6c40d1d0ea25",
+"legacy_bz2_md5":"689b286a6ec3d0d4a82a07fe5945b736",
 "license":"Apache-2.0",
 "name":"clang_bootstrap_osx-64",
-"sha256":"e2786415349876dff3aaef51d8c3bf512ee410f51f368536cbf5cd5693cd0c97",
-"size":74913317,
-"timestamp":1589544118458,
-"version":"10.0.0"
+"sha256":"b08b8ef96c4bc30fe29a0938bdb201e38a31db37f3ff6dbaa5b2c9180aa949a9",
+"size":44692404,
+"timestamp":1628080826331,
+"version":"12.0.0"
 },
 "clang_osx-64-10.0.0-h05bbb7f_1.conda":{
 "build":"h05bbb7f_1",
@@ -15191,24 +15197,57 @@
 "timestamp":1589901080357,
 "version":"10.0.0"
 },
-"clangdev-10.0.0-default_hf57f61e_0.conda":{
-"build":"default_hf57f61e_0",
-"build_number":0,
+"clang_osx-64-12.0.0-h7ad7729_2.conda":{
+"build":"h7ad7729_2",
+"build_number":2,
 "depends":[
-"clang 10.0.0 default_hf57f61e_0",
-"clang-tools 10.0.0 default_hf57f61e_0",
-"clangxx 10.0.0 default_hf57f61e_0",
-"libclang 10.0.0 default_hf57f61e_0",
-"libcxx >=4.0.1",
-"llvmdev 10.0.0"
+"cctools_osx-64",
+"clang 12.0.0.*",
+"compiler-rt 12.0.0.*",
+"ld64_osx-64",
+"llvm-tools 12.0.0.*"
 ],
-"legacy_bz2_md5":"fa7882c84f3ee87977cf2e3c29a4c667",
+"legacy_bz2_md5":"f4c411590d96f84788a0d84df4104a88",
+"license":"BSD-3-Clause",
+"name":"clang_osx-64",
+"sha256":"c9f4bdd14e4f63df7693a55cf9caa0b5b2fd5c50d904f0647113573f6ff2eee6",
+"size":22015,
+"timestamp":1628079351739,
+"version":"12.0.0"
+},
+"clangdev-12.0.0-default_hfcad0e5_2.conda":{
+"build":"default_hfcad0e5_2",
+"build_number":2,
+"depends":[
+"clang 12.0.0 hecd8cb5_2",
+"clang-tools 12.0.0 default_hfcad0e5_2",
+"clangxx 12.0.0 default_hfcad0e5_2",
+"libclang 12.0.0 default_hbc2896b_2",
+"libclang-cpp 12.0.0 default_hfcad0e5_2",
+"libcxx >=12.0.0",
+"llvmdev 12.0.0"
+],
+"legacy_bz2_md5":"fcd1cc10baabe0fa16fe6951bbc4ad02",
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"clangdev",
-"sha256":"41560fc29a5859de52d0f7090ce3ccf1ddcc1c280f7ab2749076b22cf3d27f8f",
-"size":16653859,
-"timestamp":1589539860486,
-"version":"10.0.0"
+"sha256":"a4c7801a4d7e2de103d38bfa128772571dbcfc3bc407472c5f45daf92de1e9af",
+"size":18771716,
+"timestamp":1628059856386,
+"version":"12.0.0"
+},
+"clangxx-12.0.0-default_hfcad0e5_2.conda":{
+"build":"default_hfcad0e5_2",
+"build_number":2,
+"depends":[
+"clang 12.0.0 hecd8cb5_2"
+],
+"legacy_bz2_md5":"876aa001f23ff71c97644ead12f680ba",
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"clangxx",
+"sha256":"de2171996fbc38b4b14cc90fb2f7c422caaac00aa9338c8aacb13541fec6f377",
+"size":138729,
+"timestamp":1628059119162,
+"version":"12.0.0"
 },
 "clangxx-dbg_osx-64-4.0.1-5.conda":{
 "build":"5",
@@ -15271,6 +15310,23 @@
 "size":22920,
 "timestamp":1589901087759,
 "version":"10.0.0"
+},
+"clangxx_osx-64-12.0.0-he0c6f94_2.conda":{
+"build":"he0c6f94_2",
+"build_number":2,
+"depends":[
+"clang_osx-64 12.0.0 h7ad7729_2",
+"clangxx 12.0.0.*",
+"libcxx >=12.0.0",
+"libllvm12 >=12.0.0,<12.1.0a0"
+],
+"legacy_bz2_md5":"a11da1b4ccebb8ab4ab47e5c6a6b2857",
+"license":"BSD-3-Clause",
+"name":"clangxx_osx-64",
+"sha256":"eb9ba74cc6e077dabfbeaf5bd08cb8ec69744b373af2ed3cb00ca79ccacb005d",
+"size":20997,
+"timestamp":1628079362935,
+"version":"12.0.0"
 },
 "click-7.0-py27_0.conda":{
 "build":"py27_0",
@@ -16472,21 +16528,21 @@
 "timestamp":1536272722901,
 "version":"0.8.1"
 },
-"compiler-rt-10.0.0-h47ead80_0.conda":{
-"build":"h47ead80_0",
-"build_number":0,
+"compiler-rt-12.0.0-hd87ff74_2.conda":{
+"build":"hd87ff74_2",
+"build_number":2,
 "depends":[
-"clang 10.0.0.*",
-"clangxx 10.0.0.*",
-"compiler-rt_osx-64 10.0.0.*"
+"clang 12.0.0.*",
+"clangxx 12.0.0.*",
+"compiler-rt_osx-64 12.0.0.*"
 ],
-"legacy_bz2_md5":"60f41a4d6e4d8a6a445568be96b2df05",
+"legacy_bz2_md5":"ddf8f4e7f51d9eb82a303a25c042cc50",
 "license":"NCSA",
 "name":"compiler-rt",
-"sha256":"5ff6d4c660a80ee8bb7fc401ca88e13c4928ec7f8c36a44d173bd597275686df",
-"size":83786,
-"timestamp":1589540186389,
-"version":"10.0.0"
+"sha256":"d6a2b781bd8be08d90e5db6aace3f10a41ec77a6a7949040e7dbe8c1567d92fd",
+"size":91899,
+"timestamp":1628073017332,
+"version":"12.0.0"
 },
 "conda-4.10.3-py36hecd8cb5_0.conda":{
 "build":"py36hecd8cb5_0",
@@ -16592,7 +16648,7 @@
 "timestamp":1625030499011,
 "version":"4.10.3"
 },
-"conda-build-3.21.4-py36hecd8cb5_0.conda":{
+"conda-build-3.21.5-py36hecd8cb5_0.conda":{
 "build":"py36hecd8cb5_0",
 "build_number":0,
 "constrains":[
@@ -16619,15 +16675,15 @@
 "six",
 "tqdm"
 ],
-"legacy_bz2_md5":"39c01edcf4452aa9c1056cc641477710",
+"legacy_bz2_md5":"9ea1aa9a552acf8708e1d1a60a00d0f1",
 "license":"BSD 3-Clause",
 "name":"conda-build",
-"sha256":"87c56ff601bc87af501b3f4f68f0f5ff6b0833b1cb3d95961fc1a67a280fe99a",
-"size":562028,
-"timestamp":1610706494277,
-"version":"3.21.4"
+"sha256":"8249fa8af471ca497c421d082e4b93b3029f47f3ff210d4c6e7acae441755db4",
+"size":562736,
+"timestamp":1630349065106,
+"version":"3.21.5"
 },
-"conda-build-3.21.4-py37hecd8cb5_0.conda":{
+"conda-build-3.21.5-py37hecd8cb5_0.conda":{
 "build":"py37hecd8cb5_0",
 "build_number":0,
 "constrains":[
@@ -16654,15 +16710,15 @@
 "six",
 "tqdm"
 ],
-"legacy_bz2_md5":"4de33017400d19e5c7d013abd89fe939",
+"legacy_bz2_md5":"15343d77c1a81a03b3e8b10b056aa938",
 "license":"BSD 3-Clause",
 "name":"conda-build",
-"sha256":"66835d7b40fa1a4dea26558f7a240419871986437aa1e6d29911d985dc4e46c3",
-"size":557596,
-"timestamp":1610706497868,
-"version":"3.21.4"
+"sha256":"d1929ff0888d5211b27ce17329af53964ba72ab28a79031d6cdad1a1d1d6beb0",
+"size":557607,
+"timestamp":1630349065781,
+"version":"3.21.5"
 },
-"conda-build-3.21.4-py38hecd8cb5_0.conda":{
+"conda-build-3.21.5-py38hecd8cb5_0.conda":{
 "build":"py38hecd8cb5_0",
 "build_number":0,
 "constrains":[
@@ -16689,15 +16745,15 @@
 "six",
 "tqdm"
 ],
-"legacy_bz2_md5":"cc073deb93e6b46e9c882bac0696974d",
+"legacy_bz2_md5":"8458d1254ccab9d3ecac7d3f40ccb315",
 "license":"BSD 3-Clause",
 "name":"conda-build",
-"sha256":"f8980847fbb9243cd2888582cd93ae45912c4722da4e2b0a8858b11f4b6a13ef",
-"size":564076,
-"timestamp":1610706501474,
-"version":"3.21.4"
+"sha256":"d4359a85a62a25c58938bb1f66db5e052a866027b414819ad87e5ce5ee44f978",
+"size":565885,
+"timestamp":1630349073408,
+"version":"3.21.5"
 },
-"conda-build-3.21.4-py39hecd8cb5_0.conda":{
+"conda-build-3.21.5-py39hecd8cb5_0.conda":{
 "build":"py39hecd8cb5_0",
 "build_number":0,
 "constrains":[
@@ -16724,13 +16780,13 @@
 "six",
 "tqdm"
 ],
-"legacy_bz2_md5":"5ee49a56250bc795b1da6a5adf8b046c",
+"legacy_bz2_md5":"b2e09467b0b41dd66a2be21630f1ff05",
 "license":"BSD 3-Clause",
 "name":"conda-build",
-"sha256":"8a15608ceee26153c1c97dbe94e79e21a2e5942d52c1217d12f369012a0c2c82",
-"size":560129,
-"timestamp":1610706510860,
-"version":"3.21.4"
+"sha256":"c6f9fe1bbff89aae2353d912a58aceda956d1adbc5b4772101f8d380400b733f",
+"size":561324,
+"timestamp":1630349059404,
+"version":"3.21.5"
 },
 "conda-env-2.6.0-1.conda":{
 "build":"1",
@@ -38749,24 +38805,46 @@
 "timestamp":1617648628608,
 "version":"2.12"
 },
-"ld64-450.3-h3c32e8a_4.conda":{
-"build":"h3c32e8a_4",
-"build_number":4,
+"ld64-530-h20443b4_23.conda":{
+"build":"h20443b4_23",
+"build_number":23,
 "constrains":[
-"clang >=10.0.0,<11.0a0"
+"cctools_osx-64 949.0.1.*",
+"cctools 949.0.1.*"
 ],
 "depends":[
-"libcxx",
-"libllvm10 >=10.0.0,<10.1.0a0",
-"tapi >=1000.10.8,<1001.0a0"
+"ld64_osx-64 530 h70f3046_23"
 ],
-"legacy_bz2_md5":"72aec7d6e96458d06922ef2fa6d1462b",
+"legacy_bz2_md5":"655d6255f95e0f54b8c336cdb470bddc",
 "license":"APSL-2.0",
 "name":"ld64",
-"sha256":"8a452010f26993ccabb17ec6bed71c146b67ddcd8342046557ac9ab4008392a7",
-"size":878423,
-"timestamp":1589528569918,
-"version":"450.3"
+"sha256":"0906f5b74b479c37d3824dee0f1497818dd792cc6f63fb02deeadd9d8b6b2ac5",
+"size":18204,
+"timestamp":1628078761979,
+"version":"530"
+},
+"ld64_osx-64-530-h70f3046_23.conda":{
+"build":"h70f3046_23",
+"build_number":23,
+"constrains":[
+"cctools_osx-64 949.0.1.*",
+"clang >=12.0.0,<13.0a0",
+"ld 530.*",
+"cctools 949.0.1.*"
+],
+"depends":[
+"ldid",
+"libcxx",
+"libllvm12 >=12.0.0,<12.1.0a0",
+"tapi >=1000.10.8,<1001.0a0"
+],
+"legacy_bz2_md5":"a068c5945089538cd48407677ed65260",
+"license":"APSL-2.0",
+"name":"ld64_osx-64",
+"sha256":"24e8b3239976ecb76beff0491b2d619dd1e637a7e8e6513b5929ccabdfb6d91b",
+"size":940665,
+"timestamp":1628078659392,
+"version":"530"
 },
 "ldap3-2.5.1-py27_0.conda":{
 "build":"py27_0",
@@ -38827,6 +38905,18 @@
 "size":429699,
 "timestamp":1535498160653,
 "version":"2.5.1"
+},
+"ldid-2.1.2-hc000a5c_2.conda":{
+"build":"hc000a5c_2",
+"build_number":2,
+"depends":[],
+"legacy_bz2_md5":"86410c0189a2d017fc130b1fd8f77573",
+"license":"AGPL-3.0-only",
+"name":"ldid",
+"sha256":"b9cdfcec5948a5e4a4b1e80db5e3b490940d95a083752e78b919bedd4b8aa2c5",
+"size":55363,
+"timestamp":1628056913053,
+"version":"2.1.2"
 },
 "leather-0.3.3-py27_0.conda":{
 "build":"py27_0",
@@ -39140,20 +39230,51 @@
 "timestamp":1611677312412,
 "version":"1.73.0"
 },
-"libclang-10.0.0-default_hf57f61e_0.conda":{
-"build":"default_hf57f61e_0",
-"build_number":0,
+"libclang-12.0.0-default_hbc2896b_2.conda":{
+"build":"default_hbc2896b_2",
+"build_number":2,
 "depends":[
-"libcxx >=10.0.0",
-"libllvm10 >=10.0.0,<10.1.0a0"
+"libcxx >=12.0.0",
+"libllvm12 >=12.0.0,<12.1.0a0"
 ],
-"legacy_bz2_md5":"f4562ccb285a8ee7f13fafbb67ed8895",
+"legacy_bz2_md5":"271c675f36aa868490d8297ab06de655",
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"libclang",
-"sha256":"8d3277382a0dc575541c2f4a748cd191c588fdedaa1e29be2b8d5ec5fecdf60f",
-"size":8726166,
-"timestamp":1589539629859,
-"version":"10.0.0"
+"sha256":"ef1f97d41fe3bf9e9347e100b825d942e561abec13d0b31ac255b5adbf779f3e",
+"size":6357965,
+"timestamp":1628059226260,
+"version":"12.0.0"
+},
+"libclang-cpp-12.0.0-default_hfcad0e5_2.conda":{
+"build":"default_hfcad0e5_2",
+"build_number":2,
+"depends":[
+"libclang-cpp12 12.0.0 default_hfcad0e5_2",
+"libcxx >=12.0.0",
+"libllvm12 >=12.0.0,<12.1.0a0"
+],
+"legacy_bz2_md5":"175468c98f6961a395fcc1d20db48413",
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libclang-cpp",
+"sha256":"a83428702724220ddc7d05a2b07829760617089d2bc3fac44fccfbdc544f5fb8",
+"size":10725926,
+"timestamp":1628059100314,
+"version":"12.0.0"
+},
+"libclang-cpp12-12.0.0-default_hfcad0e5_2.conda":{
+"build":"default_hfcad0e5_2",
+"build_number":2,
+"depends":[
+"libcxx >=12.0.0",
+"libllvm12 >=12.0.0,<12.1.0a0"
+],
+"legacy_bz2_md5":"d8b0fc41db92bb01e846d96bd664a515",
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libclang-cpp12",
+"sha256":"0fddc0879a5fbd564c2f7c2939deaba1281fdeb9a1e705753f199557331f2fe3",
+"size":10725951,
+"timestamp":1628058853915,
+"version":"12.0.0"
 },
 "libcrc32c-1.1.1-hb1e8313_2.conda":{
 "build":"hb1e8313_2",
@@ -39349,6 +39470,18 @@
 "size":778312,
 "timestamp":1589540290755,
 "version":"10.0.0"
+},
+"libcxx-12.0.0-h2f01273_0.conda":{
+"build":"h2f01273_0",
+"build_number":0,
+"depends":[],
+"legacy_bz2_md5":"dcf16c33011ebb48bd0b80a633abacef",
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libcxx",
+"sha256":"be3ad99669577b0ebb536b1681728643c66230c8f221459882b98faf17d83b08",
+"size":824682,
+"timestamp":1628025995505,
+"version":"12.0.0"
 },
 "libcxx-4.0.1-h579ed51_0.conda":{
 "build":"h579ed51_0",
@@ -40406,6 +40539,21 @@
 "timestamp":1624911209035,
 "version":"11.1.0"
 },
+"libllvm12-12.0.0-h9b2ccf5_3.conda":{
+"build":"h9b2ccf5_3",
+"build_number":3,
+"depends":[
+"libcxx >=10.a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"legacy_bz2_md5":"4ee2621383f674167f26ef64b189ced8",
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libllvm12",
+"sha256":"4b0c6e0d1a05635aab9b8a9aec264d3073137f2b9f84d06374f344fd14c6d844",
+"size":20154922,
+"timestamp":1628034654113,
+"version":"12.0.0"
+},
 "libllvm9-9.0.1-h21ff451_0.conda":{
 "build":"h21ff451_0",
 "build_number":0,
@@ -40458,6 +40606,37 @@
 "size":16993981,
 "timestamp":1564678478909,
 "version":"2019.0.5"
+},
+"libmlir-12.0.0-haf03e11_0.conda":{
+"build":"haf03e11_0",
+"build_number":0,
+"depends":[
+"libcxx >=12.0.0",
+"libllvm12 >=12.0.0,<12.1.0a0",
+"libmlir12 12.0.0 haf03e11_0"
+],
+"legacy_bz2_md5":"29543f9d61f0dce7b73cdc9a17ce284c",
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libmlir",
+"sha256":"22b35a7ca06f74535523a7aaa0602ca4e7eb8a7824292f8d2790214746f9ec1d",
+"size":3516482,
+"timestamp":1628152393147,
+"version":"12.0.0"
+},
+"libmlir12-12.0.0-haf03e11_0.conda":{
+"build":"haf03e11_0",
+"build_number":0,
+"depends":[
+"libcxx >=12.0.0",
+"libllvm12 >=12.0.0,<12.1.0a0"
+],
+"legacy_bz2_md5":"9637505a1744d58e10ee365095759587",
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"libmlir12",
+"sha256":"1e7f7800c3d2983cfaa4cd6a31a0735c318c6681f477e63154e461abce171233",
+"size":3516566,
+"timestamp":1628152303371,
+"version":"12.0.0"
 },
 "libmxnet-1.5.0-mkl_h74190da_0.conda":{
 "build":"mkl_h74190da_0",
@@ -42132,22 +42311,40 @@
 "timestamp":1573490500036,
 "version":"1.0.0"
 },
-"llvm-11.1.0-hecd8cb5_0.conda":{
-"build":"hecd8cb5_0",
+"lld-12.0.0-hcd17e8c_0.conda":{
+"build":"hcd17e8c_0",
 "build_number":0,
 "constrains":[
-"llvmdev   11.1.0"
+"llvm ==12.0.0"
 ],
 "depends":[
-"libllvm11 11.1.0 h9b2ccf5_0"
+"libllvm12 >=12.0.0,<12.1.0a0"
 ],
-"legacy_bz2_md5":"73a261ea2bcb61b579066a59f865c79b",
+"legacy_bz2_md5":"d15fb92580086757c0b9572fda0ac5eb",
+"license":"NCSA",
+"name":"lld",
+"sha256":"e1bc8a7d72664dbdc14b4a781ee900292a0281e4cbbe6fea6f0af309047a5b1c",
+"size":2318413,
+"timestamp":1628091858386,
+"version":"12.0.0"
+},
+"llvm-12.0.0-h32b19bc_3.conda":{
+"build":"h32b19bc_3",
+"build_number":3,
+"constrains":[
+"llvmdev   12.0.0"
+],
+"depends":[
+"libllvm12 12.0.0 h9b2ccf5_3",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"legacy_bz2_md5":"c5ac5b003cf9b95eba2df4f8e5ef39f5",
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"llvm",
-"sha256":"d5712ba7c7dd1418fd0efc68c52d3c18b6f8deed2c1422602b217d8c177b2fad",
-"size":72489,
-"timestamp":1624911227610,
-"version":"11.1.0"
+"sha256":"c348f85c4c70d435518d5118eef7ee4ae792ac735c7e492d692696ecfa8e9a37",
+"size":69154,
+"timestamp":1628034674331,
+"version":"12.0.0"
 },
 "llvm-4.0.1-1.conda":{
 "build":"1",
@@ -42226,108 +42423,57 @@
 "timestamp":1589550841331,
 "version":"10.0.0"
 },
-"llvm-tools-10.0.0-h21ff451_0.conda":{
-"build":"h21ff451_0",
-"build_number":0,
-"constrains":[
-"llvmdev   10.0.0"
-],
-"depends":[
-"libllvm10 10.0.0 h21ff451_0"
-],
-"legacy_bz2_md5":"72cf4a893d10a35ca62e1ff58a39e213",
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"llvm-tools",
-"sha256":"8ae2021aceecf782b21136dc4b3f6b2ef74ee9569252b8ac9dea03382341853c",
-"size":3785355,
-"timestamp":1589534164044,
-"version":"10.0.0"
-},
-"llvm-tools-10.0.0-h21ff451_1.conda":{
-"build":"h21ff451_1",
+"llvm-openmp-12.0.0-h0dcd299_1.conda":{
+"build":"h0dcd299_1",
 "build_number":1,
 "constrains":[
-"llvmdev   10.0.0"
+"openmp 12.0.0|12.0.0.*",
+"clangdev 12.0.0|12.0.0.*",
+"llvmdev 12.0.0|12.0.0.*"
 ],
-"depends":[
-"libllvm10 10.0.0 h21ff451_1"
-],
-"legacy_bz2_md5":"6e3d1b4eb6a54f33d855adf951264796",
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"llvm-tools",
-"sha256":"83f3f6d6820c666dfc295f5555b41e2c0e4c64df1baa87246e90fc05569c8daf",
-"size":3698089,
-"timestamp":1594487069221,
-"version":"10.0.0"
+"depends":[],
+"legacy_bz2_md5":"a9400a4d03050928cd886069b7b31f4c",
+"license":"NCSA",
+"name":"llvm-openmp",
+"sha256":"5ea7fdd97d9bfd398d8fc67ca256c249197e5d5da843c683d24711a204862f8f",
+"size":268019,
+"timestamp":1628153340178,
+"version":"12.0.0"
 },
-"llvm-tools-10.0.0-h21ff451_2.conda":{
-"build":"h21ff451_2",
-"build_number":2,
+"llvm-tools-12.0.0-h9b2ccf5_3.conda":{
+"build":"h9b2ccf5_3",
+"build_number":3,
 "constrains":[
-"llvmdev   10.0.0"
+"llvmdev   12.0.0"
 ],
 "depends":[
-"libllvm10 10.0.0 h21ff451_2"
-],
-"legacy_bz2_md5":"ad135bfc7d52bce908515f44e69aa63a",
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"llvm-tools",
-"sha256":"7b47fd9bb17b7d43286756d83188d9f687d61ce9e1e71ae8ad77917a570e9a41",
-"size":3696583,
-"timestamp":1597408374509,
-"version":"10.0.0"
-},
-"llvm-tools-11.1.0-h9b2ccf5_0.conda":{
-"build":"h9b2ccf5_0",
-"build_number":0,
-"constrains":[
-"llvmdev   11.1.0"
-],
-"depends":[
-"libcxx >=10.0.0",
-"libllvm11 11.1.0 h9b2ccf5_0",
+"libllvm12 12.0.0 h9b2ccf5_3",
 "zlib >=1.2.11,<1.3.0a0"
 ],
-"legacy_bz2_md5":"aeaf60bdd42ae9c57b9a315a35c8445c",
+"legacy_bz2_md5":"d82f5f262c914793f8eef0ecedb325a7",
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"llvm-tools",
-"sha256":"8e3b1d2eb9bb5794004e0e33407286575b07ccf9513022441899d6e5a38d2ae1",
-"size":9750901,
-"timestamp":1624911605353,
-"version":"11.1.0"
+"sha256":"d0d6335e442a899f540b1cde2e95163ec9438115fe549228a4ab0cdf39b3f921",
+"size":10321846,
+"timestamp":1628034949853,
+"version":"12.0.0"
 },
-"llvmdev-10.0.0-h21ff451_2.conda":{
-"build":"h21ff451_2",
-"build_number":2,
+"llvmdev-12.0.0-h9b2ccf5_3.conda":{
+"build":"h9b2ccf5_3",
+"build_number":3,
 "depends":[
-"libcxx >=4.0.1",
-"libllvm10 10.0.0 h21ff451_2",
-"llvm-tools 10.0.0 h21ff451_2"
-],
-"legacy_bz2_md5":"293f32df57b50f1578b5c8a3be6e26e6",
-"license":"Apache-2.0 WITH LLVM-exception",
-"name":"llvmdev",
-"sha256":"3eeb71de8f176ad9c1e81e292f056824cb6f2ac3f370da81f03f545adc946ee7",
-"size":23384628,
-"timestamp":1597408426342,
-"version":"10.0.0"
-},
-"llvmdev-11.1.0-h9b2ccf5_0.conda":{
-"build":"h9b2ccf5_0",
-"build_number":0,
-"depends":[
-"libcxx >=10.0.0",
-"libllvm11 11.1.0 h9b2ccf5_0",
-"llvm-tools 11.1.0 h9b2ccf5_0",
+"libcxx >=10.a0",
+"libllvm12 12.0.0 h9b2ccf5_3",
+"llvm-tools 12.0.0 h9b2ccf5_3",
 "zlib >=1.2.11,<1.3.0a0"
 ],
-"legacy_bz2_md5":"348562b328736de0c57d501d98b76b4a",
+"legacy_bz2_md5":"74fdea0f266e8cc7a901cc0e8208da64",
 "license":"Apache-2.0 WITH LLVM-exception",
 "name":"llvmdev",
-"sha256":"e78728882c59dd0dcc20b914b2fcb109353c4c4904d1a564dd0635563e3e3ba0",
-"size":42294569,
-"timestamp":1624912615024,
-"version":"11.1.0"
+"sha256":"3836a353ecf536cc52b47212b6b50d1d6998ec780e66ebc575053051c85bbe01",
+"size":28467582,
+"timestamp":1628035268107,
+"version":"12.0.0"
 },
 "llvmlite-0.36.0-py36he4411ff_4.conda":{
 "build":"py36he4411ff_4",
@@ -45287,6 +45433,22 @@
 "size":168112,
 "timestamp":1564678500887,
 "version":"2019.0.5"
+},
+"mlir-12.0.0-haf03e11_0.conda":{
+"build":"haf03e11_0",
+"build_number":0,
+"depends":[
+"libcxx >=12.0.0",
+"libmlir 12.0.0 haf03e11_0",
+"llvmdev 12.0.0.*"
+],
+"legacy_bz2_md5":"171747cc0c92c67a70185ba42d9caaa9",
+"license":"Apache-2.0 WITH LLVM-exception",
+"name":"mlir",
+"sha256":"29e78ee3be7619307d72290f16051c8e4544e43fa6900dcc5cc717cf48781748",
+"size":9115459,
+"timestamp":1628152546735,
+"version":"12.0.0"
 },
 "mock-3.0.5-py27_0.conda":{
 "build":"py27_0",
@@ -75609,6 +75771,123 @@
 "timestamp":1618856784099,
 "version":"1.6.2"
 },
+"scipy-1.7.1-py37h88652d9_2.conda":{
+"build":"py37h88652d9_2",
+"build_number":2,
+"depends":[
+"blas 1.0 mkl",
+"libcxx >=10.0.0",
+"libgfortran >=3.0.1,<4.0.0.a0",
+"mkl >=2021.3.0,<2022.0a0",
+"mkl-service >=2.3.0,<3.0a0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.7,<3.8.0a0"
+],
+"legacy_bz2_md5":"526121248332d4b1fc621dd4c1ea4272",
+"license":"BSD 3-Clause",
+"name":"scipy",
+"sha256":"86c2b5e7f4c6d070d265347149a3fbdc4e5b676cda562415c694da6380044e4d",
+"size":16055029,
+"timestamp":1630608366396,
+"version":"1.7.1"
+},
+"scipy-1.7.1-py37hf27351e_2.conda":{
+"build":"py37hf27351e_2",
+"build_number":2,
+"depends":[
+"blas * openblas",
+"libcxx >=10.0.0",
+"libgfortran >=3.0.1,<4.0.0.a0",
+"libopenblas >=0.3.3,<1.0a0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.7,<3.8.0a0"
+],
+"legacy_bz2_md5":"05d0f7a8566990895fbee601cde26ecf",
+"license":"BSD 3-Clause",
+"name":"scipy",
+"sha256":"0150f330cce95e0e57729bb23a20f67ca3dfebfa42d0ed77ba6bd186447f5b77",
+"size":16106635,
+"timestamp":1630607685557,
+"version":"1.7.1"
+},
+"scipy-1.7.1-py38h88652d9_2.conda":{
+"build":"py38h88652d9_2",
+"build_number":2,
+"depends":[
+"blas 1.0 mkl",
+"libcxx >=10.0.0",
+"libgfortran >=3.0.1,<4.0.0.a0",
+"mkl >=2021.3.0,<2022.0a0",
+"mkl-service >=2.3.0,<3.0a0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.8,<3.9.0a0"
+],
+"legacy_bz2_md5":"9ea956d22c7e8556001f5d76744fda8e",
+"license":"BSD 3-Clause",
+"name":"scipy",
+"sha256":"6abd81eea90d54e3065da59efafcb245b4ce3580b6d3c7eb88cfce18b1d6da80",
+"size":16218011,
+"timestamp":1630607451658,
+"version":"1.7.1"
+},
+"scipy-1.7.1-py38hf27351e_2.conda":{
+"build":"py38hf27351e_2",
+"build_number":2,
+"depends":[
+"blas * openblas",
+"libcxx >=10.0.0",
+"libgfortran >=3.0.1,<4.0.0.a0",
+"libopenblas >=0.3.3,<1.0a0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.8,<3.9.0a0"
+],
+"legacy_bz2_md5":"e6292d356e0d847deaba4d09b1a8c95b",
+"license":"BSD 3-Clause",
+"name":"scipy",
+"sha256":"bc4de178114f874d913e3d7f9de51fd9ca3fead5b3853542730d86f39d9b02a1",
+"size":16217799,
+"timestamp":1630608313750,
+"version":"1.7.1"
+},
+"scipy-1.7.1-py39h88652d9_2.conda":{
+"build":"py39h88652d9_2",
+"build_number":2,
+"depends":[
+"blas 1.0 mkl",
+"libcxx >=10.0.0",
+"libgfortran >=3.0.1,<4.0.0.a0",
+"mkl >=2021.3.0,<2022.0a0",
+"mkl-service >=2.3.0,<3.0a0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.9,<3.10.0a0"
+],
+"legacy_bz2_md5":"f64361eaa22418e9a17c0e294b404f8f",
+"license":"BSD 3-Clause",
+"name":"scipy",
+"sha256":"4cf390fe33f6dff93bc39cce749977e34e1ee15586914933dbbfadb2f6d18c92",
+"size":16345453,
+"timestamp":1630607705152,
+"version":"1.7.1"
+},
+"scipy-1.7.1-py39hf27351e_2.conda":{
+"build":"py39hf27351e_2",
+"build_number":2,
+"depends":[
+"blas * openblas",
+"libcxx >=10.0.0",
+"libgfortran >=3.0.1,<4.0.0.a0",
+"libopenblas >=0.3.3,<1.0a0",
+"numpy >=1.16.6,<2.0a0",
+"python >=3.9,<3.10.0a0"
+],
+"legacy_bz2_md5":"026a39002c7e73616345056551cd8d1a",
+"license":"BSD 3-Clause",
+"name":"scipy",
+"sha256":"2c2bc9037cb21bf32508ae570212d7efb64bea1d35fced3a502475815b795912",
+"size":16393647,
+"timestamp":1630609176494,
+"version":"1.7.1"
+},
 "scons-4.1.0.post1-py36hecd8cb5_1.conda":{
 "build":"py36hecd8cb5_1",
 "build_number":1,
@@ -80913,6 +81192,21 @@
 "size":4428864,
 "timestamp":1589529700015,
 "version":"1000.10.8"
+},
+"tapi-1100.0.11-h0025ef7_0.conda":{
+"build":"h0025ef7_0",
+"build_number":0,
+"depends":[
+"libcxx >=10.0.0.a0",
+"ncurses >=6.2,<7.0a0"
+],
+"legacy_bz2_md5":"57f7e2d52d273161ee20cced55a425a8",
+"license":"NCSA",
+"name":"tapi",
+"sha256":"736a36801a5025a3d79aa7956f2b504d16e696476435c82ae04f3fbb451dba4d",
+"size":188546,
+"timestamp":1628060151434,
+"version":"1100.0.11"
 },
 "tbb-2018.0.5-h04f5b5a_0.conda":{
 "build":"h04f5b5a_0",
