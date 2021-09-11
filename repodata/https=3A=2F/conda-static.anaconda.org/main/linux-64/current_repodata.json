@@ -55256,8 +55256,8 @@
 "timestamp":1536697142672,
 "version":"0.46"
 },
-"omniscidb-5.6.2-h2b6add4_0_cpu.tar.bz2":{
-"build":"h2b6add4_0_cpu",
+"omniscidb-5.7.0-h244a1a9_0_cpu.tar.bz2":{
+"build":"h244a1a9_0_cpu",
 "build_number":0,
 "depends":[
 "arrow-cpp >=2.0.0,<2.0.1.0a0",
@@ -55269,42 +55269,77 @@
 "libarchive >=3.4.2,<3.5.0a0",
 "libboost >=1.73.0,<1.73.1.0a0",
 "libclang-cpp <12",
-"libgcc-ng >=8.4.0",
+"libgcc-ng >=9.3.0",
 "libgdal >=3.0.2,<3.1.0a0",
 "libllvm10 >=10.0.1,<10.1.0a0",
 "libpng >=1.6.37,<1.7.0a0",
 "librdkafka >=1.6.0,<1.7.0a0",
-"libstdcxx-ng >=8.4.0",
+"libstdcxx-ng >=9.3.0",
 "libthrift >=0.13.0,<0.14.0a0",
 "ncurses",
-"omniscidb-common >=5.6.2,<5.6.3.0a0",
+"omniscidb-common >=5.7.0,<5.7.1.0a0",
 "openjdk 8.*",
-"openssl >=1.1.1k,<1.1.2a",
+"openssl >=1.1.1l,<1.1.2a",
 "snappy >=1.1.8,<2.0a0",
-"tbb >=2021.2.0",
+"tbb >=2021.3.0",
 "xz",
 "zlib"
 ],
 "license":"Apache-2.0",
 "name":"omniscidb",
-"sha256":"37cff8b665a820d0031332c0d6e784600b9bef7204d96f3938c8297a71095f0f",
-"size":16855413,
-"timestamp":1626375037313,
-"version":"5.6.2"
+"sha256":"237c69a1c7d25276fed956d7cb0aee8d1943700e9945428cc2c90ec44bcb8984",
+"size":17415989,
+"timestamp":1630620642504,
+"version":"5.7.0"
 },
-"omniscidb-common-5.6.2-hd589b2d_0.tar.bz2":{
-"build":"hd589b2d_0",
+"omniscidb-common-5.7.0-hfd7591c_0.tar.bz2":{
+"build":"hfd7591c_0",
 "build_number":0,
 "depends":[
-"libgcc-ng >=8.4.0",
-"libstdcxx-ng >=8.4.0"
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0"
 ],
 "license":"Apache-2.0",
 "name":"omniscidb-common",
-"sha256":"7f6634f3da6dfe0909c5899b51c386d5bbac8c0e40547ee3ffccf1537684bdfe",
-"size":70430253,
-"timestamp":1626374412309,
-"version":"5.6.2"
+"sha256":"dc75d558a4db3cbecd15b59ee43e2c0f1c191734ea906b86f394293123626431",
+"size":69762806,
+"timestamp":1630620400840,
+"version":"5.7.0"
+},
+"omniscidbe-5.7.0-h7185ff3_0_cpu.tar.bz2":{
+"build":"h7185ff3_0_cpu",
+"build_number":0,
+"depends":[
+"arrow-cpp >=2.0.0,<2.0.1.0a0",
+"blosc >=1.21.0,<2.0a0",
+"boost-cpp >=1.73.0,<1.73.1.0a0",
+"bzip2",
+"double-conversion",
+"gxx_linux-64",
+"libarchive >=3.4.2,<3.5.0a0",
+"libboost >=1.73.0,<1.73.1.0a0",
+"libclang-cpp <12",
+"libgcc-ng >=9.3.0",
+"libgdal >=3.0.2,<3.1.0a0",
+"libllvm10 >=10.0.1,<10.1.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"librdkafka",
+"libstdcxx-ng >=9.3.0",
+"libthrift >=0.13.0,<0.14.0a0",
+"ncurses",
+"omniscidb-common >=5.7.0,<5.7.1.0a0",
+"openjdk 8.*",
+"snappy",
+"tbb >=2021.3.0",
+"xz",
+"zlib"
+],
+"license":"Apache-2.0",
+"name":"omniscidbe",
+"sha256":"f9b7710b70a5a494dd3436297e31ade813f737be010b5dee48d966cffaf33333",
+"size":6750525,
+"timestamp":1630620825344,
+"version":"5.7.0"
 },
 "oneccl-devel-2021.3.0-h06a4308_343.tar.bz2":{
 "build":"h06a4308_343",
@@ -58225,6 +58260,20 @@
 "size":88555,
 "timestamp":1602272538593,
 "version":"0.12"
+},
+"patchelf-0.13-h295c915_0.tar.bz2":{
+"build":"h295c915_0",
+"build_number":0,
+"depends":[
+"libgcc-ng >=7.5.0",
+"libstdcxx-ng >=7.5.0"
+],
+"license":"GPL-3.0-or-later",
+"name":"patchelf",
+"sha256":"46d694ce97b5e704b701aec43bd76dce86354ef93c3bb3c6c170378953c8d3f5",
+"size":92171,
+"timestamp":1631287810666,
+"version":"0.13"
 },
 "path-15.1.2-py36h06a4308_0.tar.bz2":{
 "build":"py36h06a4308_0",
@@ -64735,6 +64784,102 @@
 "timestamp":1543386785188,
 "version":"18.11.0"
 },
+"pyarrow-2.0.0-py36he0739d4_0.tar.bz2":{
+"build":"py36he0739d4_0",
+"build_number":0,
+"depends":[
+"arrow-cpp >=2.0.0,<2.0.1.0a0",
+"arrow-cpp >=2.0.0,<3.0a0",
+"boost-cpp",
+"gflags",
+"glog",
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"numpy >=1.11,<2.0a0",
+"pandas",
+"python >=3.6,<3.7.0a0",
+"six",
+"snappy"
+],
+"license":"Apache 2.0",
+"name":"pyarrow",
+"sha256":"cd5bbd1492ac7b8d4e5c14d48e04dcf568aa366eea064b85c9cea7630015b488",
+"size":3161160,
+"timestamp":1612021302356,
+"version":"2.0.0"
+},
+"pyarrow-2.0.0-py37he0739d4_0.tar.bz2":{
+"build":"py37he0739d4_0",
+"build_number":0,
+"depends":[
+"arrow-cpp >=2.0.0,<2.0.1.0a0",
+"arrow-cpp >=2.0.0,<3.0a0",
+"boost-cpp",
+"gflags",
+"glog",
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"numpy >=1.11,<2.0a0",
+"pandas",
+"python >=3.7,<3.8.0a0",
+"six",
+"snappy"
+],
+"license":"Apache 2.0",
+"name":"pyarrow",
+"sha256":"6f04c8e1b48773f2b7e1cb69d114418377163d4dc9e49ed7db7e7102cafe54bf",
+"size":3123459,
+"timestamp":1612021325310,
+"version":"2.0.0"
+},
+"pyarrow-2.0.0-py38he0739d4_0.tar.bz2":{
+"build":"py38he0739d4_0",
+"build_number":0,
+"depends":[
+"arrow-cpp >=2.0.0,<2.0.1.0a0",
+"arrow-cpp >=2.0.0,<3.0a0",
+"boost-cpp",
+"gflags",
+"glog",
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"numpy >=1.11,<2.0a0",
+"pandas",
+"python >=3.8,<3.9.0a0",
+"six",
+"snappy"
+],
+"license":"Apache 2.0",
+"name":"pyarrow",
+"sha256":"df1571e4ba756ada20dcb722c2c7445e13d69a1d107612f933a74cbab49e42c8",
+"size":3166403,
+"timestamp":1612021344334,
+"version":"2.0.0"
+},
+"pyarrow-2.0.0-py39he0739d4_0.tar.bz2":{
+"build":"py39he0739d4_0",
+"build_number":0,
+"depends":[
+"arrow-cpp >=2.0.0,<2.0.1.0a0",
+"arrow-cpp >=2.0.0,<3.0a0",
+"boost-cpp",
+"gflags",
+"glog",
+"libgcc-ng >=7.3.0",
+"libstdcxx-ng >=7.3.0",
+"numpy >=1.11,<2.0a0",
+"pandas",
+"python >=3.9,<3.10.0a0",
+"six",
+"snappy"
+],
+"license":"Apache 2.0",
+"name":"pyarrow",
+"sha256":"e310b2994b59090eb68e6808d23696ee7dfaaecb732279dce9445c6cb7cc89ce",
+"size":2975445,
+"timestamp":1612020683263,
+"version":"2.0.0"
+},
 "pyarrow-4.0.1-py36he0739d4_3.tar.bz2":{
 "build":"py36he0739d4_3",
 "build_number":3,
@@ -69557,14 +69702,13 @@
 "timestamp":1625464635434,
 "version":"4.0.31"
 },
-"pyomniscidb-5.6.2-py36hbca4264_0.tar.bz2":{
+"pyomniscidb-5.7.0-py36hbca4264_0.tar.bz2":{
 "build":"py36hbca4264_0",
 "build_number":0,
 "depends":[
 "numpy >=1.16,<2.0a0",
 "packaging >=20.0",
 "python >=3.6,<3.7.0a0",
-"rbc >=0.2.2",
 "requests",
 "setuptools",
 "sqlalchemy >=1.3",
@@ -69572,19 +69716,18 @@
 ],
 "license":"Apache-2.0",
 "name":"pyomniscidb",
-"sha256":"3298f34db125185cec0ac1cec6f0bdfe73d543ade1830bd87dc0dc0758a5cf32",
-"size":504357,
-"timestamp":1626374470731,
-"version":"5.6.2"
+"sha256":"638654213adb71c3544e55e02a0c440eb5c376ec4199efea5446b00bfdd8be47",
+"size":145540,
+"timestamp":1630620428317,
+"version":"5.7.0"
 },
-"pyomniscidb-5.6.2-py37hbca4264_0.tar.bz2":{
+"pyomniscidb-5.7.0-py37hbca4264_0.tar.bz2":{
 "build":"py37hbca4264_0",
 "build_number":0,
 "depends":[
 "numpy >=1.16,<2.0a0",
 "packaging >=20.0",
 "python >=3.7,<3.8.0a0",
-"rbc >=0.2.2",
 "requests",
 "setuptools",
 "sqlalchemy >=1.3",
@@ -69592,19 +69735,18 @@
 ],
 "license":"Apache-2.0",
 "name":"pyomniscidb",
-"sha256":"faf4af195ce994870d1c7e095911b8c7b5824c0ec9db6308a8377f70111a7c78",
-"size":504361,
-"timestamp":1626374454149,
-"version":"5.6.2"
+"sha256":"2ca84d1ae5a739356cf6e1ae8bb5fd26dc321beef99a437abc4ecf3bc3be0764",
+"size":145596,
+"timestamp":1630620436375,
+"version":"5.7.0"
 },
-"pyomniscidb-5.6.2-py38hbca4264_0.tar.bz2":{
+"pyomniscidb-5.7.0-py38hbca4264_0.tar.bz2":{
 "build":"py38hbca4264_0",
 "build_number":0,
 "depends":[
 "numpy >=1.16,<2.0a0",
 "packaging >=20.0",
 "python >=3.8,<3.9.0a0",
-"rbc >=0.2.2",
 "requests",
 "setuptools",
 "sqlalchemy >=1.3",
@@ -69612,19 +69754,18 @@
 ],
 "license":"Apache-2.0",
 "name":"pyomniscidb",
-"sha256":"f0e8fca462eb2bf4363d8315bed37631f8a95ceb1b3384412a3a4fdc068f6e78",
-"size":508071,
-"timestamp":1626374505936,
-"version":"5.6.2"
+"sha256":"7e0f89d68eb0bf727c2e42786ba9f932e5db866bc43dbae67bb08d28f019b9ab",
+"size":145400,
+"timestamp":1630620452790,
+"version":"5.7.0"
 },
-"pyomniscidb-5.6.2-py39hbca4264_0.tar.bz2":{
+"pyomniscidb-5.7.0-py39hbca4264_0.tar.bz2":{
 "build":"py39hbca4264_0",
 "build_number":0,
 "depends":[
 "numpy >=1.16,<2.0a0",
 "packaging >=20.0",
 "python >=3.9,<3.10.0a0",
-"rbc >=0.2.2",
 "requests",
 "setuptools",
 "sqlalchemy >=1.3",
@@ -69632,10 +69773,86 @@
 ],
 "license":"Apache-2.0",
 "name":"pyomniscidb",
-"sha256":"61460cc5854ab2bb52e160ea13b7da7e52ca8ea604a27a28505664371a3f14c8",
-"size":507902,
-"timestamp":1626374490939,
-"version":"5.6.2"
+"sha256":"ca212d8501b5824611d945398a535fda2a1ecbbcc1dbbdf32bf8aea2dd674e2e",
+"size":145596,
+"timestamp":1630620444594,
+"version":"5.7.0"
+},
+"pyomniscidbe-5.7.0-py36h14b4db5_0_cpu.tar.bz2":{
+"build":"py36h14b4db5_0_cpu",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"omniscidbe 5.7.0 h7185ff3_0_cpu",
+"pyarrow 2.*",
+"python >=3.6,<3.7.0a0",
+"tbb >=2021.3.0",
+"tbb4py"
+],
+"license":"Apache-2.0",
+"name":"pyomniscidbe",
+"sha256":"bb0bfc79dfe324928e5577f6890185cc222e240481377a0e27b21671719692a8",
+"size":1997034,
+"timestamp":1630620897528,
+"version":"5.7.0"
+},
+"pyomniscidbe-5.7.0-py37h14b4db5_0_cpu.tar.bz2":{
+"build":"py37h14b4db5_0_cpu",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"omniscidbe 5.7.0 h7185ff3_0_cpu",
+"pyarrow 2.*",
+"python >=3.7,<3.8.0a0",
+"tbb >=2021.3.0",
+"tbb4py"
+],
+"license":"Apache-2.0",
+"name":"pyomniscidbe",
+"sha256":"ab8acfea19809a4ff77fadc72d20f219e60e9128699c39b6baa9f3308c5178e8",
+"size":1994413,
+"timestamp":1630620961153,
+"version":"5.7.0"
+},
+"pyomniscidbe-5.7.0-py38h14b4db5_0_cpu.tar.bz2":{
+"build":"py38h14b4db5_0_cpu",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"omniscidbe 5.7.0 h7185ff3_0_cpu",
+"pyarrow 2.*",
+"python >=3.8,<3.9.0a0",
+"tbb >=2021.3.0",
+"tbb4py"
+],
+"license":"Apache-2.0",
+"name":"pyomniscidbe",
+"sha256":"b0a2161453ad51322d75f5ced1671ce0ca06eb07913301e27c8b9741126658ee",
+"size":2027266,
+"timestamp":1630621089097,
+"version":"5.7.0"
+},
+"pyomniscidbe-5.7.0-py39h14b4db5_0_cpu.tar.bz2":{
+"build":"py39h14b4db5_0_cpu",
+"build_number":0,
+"depends":[
+"libgcc-ng >=9.3.0",
+"libstdcxx-ng >=9.3.0",
+"omniscidbe 5.7.0 h7185ff3_0_cpu",
+"pyarrow 2.*",
+"python >=3.9,<3.10.0a0",
+"tbb >=2021.3.0",
+"tbb4py"
+],
+"license":"Apache-2.0",
+"name":"pyomniscidbe",
+"sha256":"311d86cd298c69dec84214c99d1fd0143f034bba458f8b8c95c2b1405576050e",
+"size":2012490,
+"timestamp":1630621025165,
+"version":"5.7.0"
 },
 "pyopengl-3.1.1a1-py27_0.tar.bz2":{
 "build":"py27_0",
