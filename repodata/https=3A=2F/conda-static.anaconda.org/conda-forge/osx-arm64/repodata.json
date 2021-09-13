@@ -71948,6 +71948,36 @@
 "timestamp":1631388719118,
 "version":"23.2.0"
 },
+"keyring-23.2.1-py38h10201cd_0.tar.bz2":{
+"build":"py38h10201cd_0",
+"build_number":0,
+"depends":[
+"importlib_metadata >=3.6",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"MIT",
+"name":"keyring",
+"sha256":"8a99387467a6d7c5824f8188ac6a7b4cbaeca837fa747a4e6d127c6ecf6e7a3b",
+"size":51010,
+"timestamp":1631478595560,
+"version":"23.2.1"
+},
+"keyring-23.2.1-py39h2804cbe_0.tar.bz2":{
+"build":"py39h2804cbe_0",
+"build_number":0,
+"depends":[
+"importlib_metadata >=3.6",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"MIT",
+"name":"keyring",
+"sha256":"5f032f73098d95a80845e534e0f38b6bce1e785b45aa47bebcc3400ce507c7bc",
+"size":51082,
+"timestamp":1631478609667,
+"version":"23.2.1"
+},
 "khronos-opencl-icd-loader-2020.06.16-h27ca646_1.tar.bz2":{
 "build":"h27ca646_1",
 "build_number":1,
@@ -72035,6 +72065,63 @@
 "size":59292,
 "timestamp":1630091406178,
 "version":"2021.06.30"
+},
+"kim-api-2.2.1-he7901cf_0.tar.bz2":{
+"build":"he7901cf_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libgfortran 5.*",
+"libgfortran5 >=11.0.1.dev0",
+"pkg-config",
+"wget"
+],
+"license":"CDDL-1.0",
+"name":"kim-api",
+"sha256":"4d41f00d084ee78fdd1694c2a8779c32073c139e319d8987543b16d8a1dc3fbf",
+"size":790386,
+"timestamp":1631473036253,
+"version":"2.2.1"
+},
+"kimpy-2.0.0-py38h1670459_0.tar.bz2":{
+"build":"py38h1670459_0",
+"build_number":0,
+"depends":[
+"kim-api 2.2.1.*",
+"libcxx >=11.1.0",
+"numpy",
+"pip",
+"pybind11",
+"pytest",
+"python >=3.8,<3.9.0a0",
+"python_abi 3.8.* *_cp38"
+],
+"license":"CDDL-1.0",
+"name":"kimpy",
+"sha256":"fc9c0af3c2671dbca541145b251e5a1b66991fd03b8566dcad321e1f435ce13e",
+"size":677421,
+"timestamp":1631487809607,
+"version":"2.0.0"
+},
+"kimpy-2.0.0-py39h4d2d688_0.tar.bz2":{
+"build":"py39h4d2d688_0",
+"build_number":0,
+"depends":[
+"kim-api 2.2.1.*",
+"libcxx >=11.1.0",
+"numpy",
+"pip",
+"pybind11",
+"pytest",
+"python >=3.9,<3.10.0a0",
+"python_abi 3.9.* *_cp39"
+],
+"license":"CDDL-1.0",
+"name":"kimpy",
+"sha256":"0bea927a335fdec90ce82a25d5f1d548bd9c76745ce3d1dd2ee2a7fc4d5ea4c3",
+"size":794181,
+"timestamp":1631487814947,
+"version":"2.0.0"
 },
 "kiwisolver-1.3.0-py38h12a6f45_0.tar.bz2":{
 "build":"py38h12a6f45_0",
@@ -85168,6 +85255,22 @@
 "size":348682,
 "timestamp":1624280631132,
 "version":"0.14.2"
+},
+"libthrift-0.15.0-h28a9c34_0.tar.bz2":{
+"build":"h28a9c34_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libevent >=2.1.10,<2.1.11.0a0",
+"openssl >=1.1.1l,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"libthrift",
+"sha256":"00a4f702f795605f898a91b5f4fc3e1d12995f94163557cdba5fbd308470006b",
+"size":360352,
+"timestamp":1631481715916,
+"version":"0.15.0"
 },
 "libtiff-4.1.0-h70663a0_6.tar.bz2":{
 "build":"h70663a0_6",
@@ -105518,6 +105621,42 @@
 "size":12101999,
 "timestamp":1629114678207,
 "version":"1.3.2"
+},
+"pandas-1.3.3-py38h3777fb4_0.tar.bz2":{
+"build":"py38h3777fb4_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.8,<3.9.0a0",
+"python-dateutil >=2.7.3",
+"python_abi 3.8.* *_cp38",
+"pytz >=2017.2"
+],
+"license":"BSD-3-Clause",
+"name":"pandas",
+"sha256":"dd61f6f4bc9000ec189396104a01c19a0b99ddadc78ecdb51cb7b9b99f0b1105",
+"size":11991989,
+"timestamp":1631466828006,
+"version":"1.3.3"
+},
+"pandas-1.3.3-py39h7f752ed_0.tar.bz2":{
+"build":"py39h7f752ed_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"numpy >=1.19.5,<2.0a0",
+"python >=3.9,<3.10.0a0",
+"python-dateutil >=2.7.3",
+"python_abi 3.9.* *_cp39",
+"pytz >=2017.2"
+],
+"license":"BSD-3-Clause",
+"name":"pandas",
+"sha256":"c2d95a9f94bd1e3ff82d65246ce57d5269984e33941a82bc43ce91823986aab5",
+"size":12080963,
+"timestamp":1631466758422,
+"version":"1.3.3"
 },
 "pandas-stubs-1.1.0.12-py38h10201cd_0.tar.bz2":{
 "build":"py38h10201cd_0",
@@ -135253,6 +135392,48 @@
 "timestamp":1621936764355,
 "version":"1.2.1"
 },
+"r-pkgload-1.2.2-r40h8ea1354_0.tar.bz2":{
+"build":"r40h8ea1354_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"r-base >=4.0,<4.1.0a0",
+"r-cli",
+"r-crayon",
+"r-desc",
+"r-rlang",
+"r-rprojroot",
+"r-rstudioapi",
+"r-withr"
+],
+"license":"GPL-3.0-only",
+"name":"r-pkgload",
+"sha256":"b8d9311dd8066e411af50e0916380d17ae210a408615e07c17db5a50bfd4107c",
+"size":173509,
+"timestamp":1631414712471,
+"version":"1.2.2"
+},
+"r-pkgload-1.2.2-r41h8ea1354_0.tar.bz2":{
+"build":"r41h8ea1354_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"r-base >=4.1,<4.2.0a0",
+"r-cli",
+"r-crayon",
+"r-desc",
+"r-rlang",
+"r-rprojroot",
+"r-rstudioapi",
+"r-withr"
+],
+"license":"GPL-3.0-only",
+"name":"r-pkgload",
+"sha256":"5820867e0a2e6a7973b41d83dbbb816acb4f92b57dc90ef50f4e4be97c55ae56",
+"size":173653,
+"timestamp":1631414717399,
+"version":"1.2.2"
+},
 "r-png-0.1_7-r40h6f62c66_1004.tar.bz2":{
 "build":"r40h6f62c66_1004",
 "build_number":1004,
@@ -137567,6 +137748,19 @@
 "size":733700,
 "timestamp":1622011895245,
 "version":"1.8_9"
+},
+"randspg-0.0.1-hbdafb3b_2.tar.bz2":{
+"build":"hbdafb3b_2",
+"build_number":2,
+"depends":[
+"libcxx >=11.1.0"
+],
+"license":"BSD-3-Clause",
+"name":"randspg",
+"sha256":"75d71fbebdc8c1975dd8748ecf7ea43082a367f4e4520521918b39d47cb6c7ed",
+"size":203466,
+"timestamp":1631472469114,
+"version":"0.0.1"
 },
 "rapidfuzz-0.14.1-py38h3f7e68f_0.tar.bz2":{
 "build":"py38h3f7e68f_0",
@@ -156905,6 +157099,23 @@
 "timestamp":1624280684681,
 "version":"0.14.2"
 },
+"thrift-compiler-0.15.0-h28a9c34_0.tar.bz2":{
+"build":"h28a9c34_0",
+"build_number":0,
+"depends":[
+"libcxx >=11.1.0",
+"libevent >=2.1.10,<2.1.11.0a0",
+"libthrift 0.15.0 h28a9c34_0",
+"openssl >=1.1.1l,<1.1.2a",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Apache-2.0",
+"name":"thrift-compiler",
+"sha256":"31ab7fe2b5eb9e237c6e598fc2f484ae09a8f8e6f36b0bbaf768ecef0ea119c6",
+"size":1420383,
+"timestamp":1631481764738,
+"version":"0.15.0"
+},
 "thrift-cpp-0.13.0-6.tar.bz2":{
 "build":"6",
 "build_number":6,
@@ -156988,6 +157199,20 @@
 "size":11008,
 "timestamp":1624280696990,
 "version":"0.14.2"
+},
+"thrift-cpp-0.15.0-hce30654_0.tar.bz2":{
+"build":"hce30654_0",
+"build_number":0,
+"depends":[
+"libthrift 0.15.0 h28a9c34_0",
+"thrift-compiler 0.15.0 h28a9c34_0"
+],
+"license":"Apache-2.0",
+"name":"thrift-cpp",
+"sha256":"53e67d7b86a0987e2926719c19e919f1ac932f5f727058c334e45577d7f7290e",
+"size":11031,
+"timestamp":1631481778526,
+"version":"0.15.0"
 },
 "tiledb-2.2.3-hed66f51_0.tar.bz2":{
 "build":"hed66f51_0",
