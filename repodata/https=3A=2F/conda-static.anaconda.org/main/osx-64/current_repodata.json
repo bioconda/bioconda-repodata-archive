@@ -6145,6 +6145,21 @@
 "timestamp":1594339219973,
 "version":"1.3.0"
 },
+"assimp-5.0.1-hbc9ad71_6.tar.bz2":{
+"build":"hbc9ad71_6",
+"build_number":6,
+"depends":[
+"boost-cpp",
+"libcxx >=10.0.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"Modified BSD",
+"name":"assimp",
+"sha256":"7c89c42794f2858b39dd0d2c0f6a76bb726d78ca090a9f8055f48bcb3feb22c2",
+"size":3944619,
+"timestamp":1631695225590,
+"version":"5.0.1"
+},
 "astor-0.8.1-py36_0.tar.bz2":{
 "build":"py36_0",
 "build_number":0,
@@ -28424,6 +28439,20 @@
 "timestamp":1526680323850,
 "version":"1.8.0"
 },
+"gts-0.7.6-hd732f65_2.tar.bz2":{
+"build":"hd732f65_2",
+"build_number":2,
+"depends":[
+"glib >=2.69.1,<3.0a0",
+"libcxx >=10.0.0"
+],
+"license":"LGPL-2.0-or-later",
+"name":"gts",
+"sha256":"e6141a6ff97a00e5c76a9b6564752dfb82abaddd1d6124cfae8c4d51b190af84",
+"size":340379,
+"timestamp":1631695522415,
+"version":"0.7.6"
+},
 "gunicorn-20.1.0-py36hecd8cb5_0.tar.bz2":{
 "build":"py36hecd8cb5_0",
 "build_number":0,
@@ -37398,6 +37427,28 @@
 "timestamp":1534487064459,
 "version":"2.2.5"
 },
+"libgd-2.2.5-h7d6b0e8_4.tar.bz2":{
+"build":"h7d6b0e8_4",
+"build_number":4,
+"depends":[
+"expat",
+"fontconfig >=2.13.1,<3.0a0",
+"freetype >=2.10.4,<3.0a0",
+"icu",
+"jpeg >=9b,<10a",
+"libiconv >=1.16,<2.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libtiff >=4.1.0,<5.0a0",
+"libwebp >=1.0.0,<1.1.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"license":"GD",
+"name":"libgd",
+"sha256":"6bb91b2910ad92d8d7079e97504fb9396a877204c5fd0bc589f74e2230a0d9a7",
+"size":251427,
+"timestamp":1631695698690,
+"version":"2.2.5"
+},
 "libgd-2.2.5-h9bbc9bf_3.tar.bz2":{
 "build":"h9bbc9bf_3",
 "build_number":3,
@@ -39020,6 +39071,22 @@
 "size":373773,
 "timestamp":1612013222710,
 "version":"0.13.0"
+},
+"libthrift-0.15.0-h054ceb0_0.tar.bz2":{
+"build":"h054ceb0_0",
+"build_number":0,
+"depends":[
+"libcxx >=10.0.0",
+"libevent >=2.1.8,<2.2.0a0",
+"openssl",
+"zlib"
+],
+"license":"Apache-2.0",
+"name":"libthrift",
+"sha256":"d83615c31a48c1e238703ab5961631347c7622edc22c502f6eb61bda66c5114e",
+"size":405288,
+"timestamp":1631689285241,
+"version":"0.15.0"
 },
 "libtiff-4.1.0-hcb84e12_0.tar.bz2":{
 "build":"hcb84e12_0",
@@ -78289,22 +78356,19 @@
 "timestamp":1613159794904,
 "version":"0.13.0"
 },
-"thrift-compiler-0.13.0-h054ceb0_6.tar.bz2":{
-"build":"h054ceb0_6",
-"build_number":6,
+"thrift-compiler-0.15.0-h054ceb0_0.tar.bz2":{
+"build":"h054ceb0_0",
+"build_number":0,
 "depends":[
 "libcxx >=10.0.0",
-"libevent",
-"libthrift 0.13.0 h054ceb0_6",
-"openssl",
-"zlib"
+"libthrift 0.15.0 h054ceb0_0"
 ],
 "license":"Apache-2.0",
 "name":"thrift-compiler",
-"sha256":"638bbb8f213d412f1b42079da817fa86b49e4188763c43fc7894376fce57b474",
-"size":1740703,
-"timestamp":1612013249781,
-"version":"0.13.0"
+"sha256":"1eb02e7335af505d09a24885be74f366a340dd270559830519d6f3f1edc6c511",
+"size":1600380,
+"timestamp":1631689309907,
+"version":"0.15.0"
 },
 "thrift-cpp-0.11.0-h443fa2d_3.tar.bz2":{
 "build":"h443fa2d_3",
@@ -78338,38 +78402,19 @@
 "timestamp":1540475662034,
 "version":"0.11.0"
 },
-"thrift-cpp-0.13.0-hba8dbfe_3.tar.bz2":{
-"build":"hba8dbfe_3",
-"build_number":3,
-"constrains":[
-"boost-cpp >=1.67.0,<1.68.0a0"
-],
+"thrift-cpp-0.15.0-hecd8cb5_0.tar.bz2":{
+"build":"hecd8cb5_0",
+"build_number":0,
 "depends":[
-"libcxx >=10.0.0",
-"libevent >=2.1.8,<2.2.0a0",
-"openssl >=1.1.1g,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0"
+"libthrift 0.15.0 h054ceb0_0",
+"thrift-compiler 0.15.0 h054ceb0_0"
 ],
 "license":"Apache-2.0",
 "name":"thrift-cpp",
-"sha256":"b4b72232347165f569e34e9cbb346ec8a54fe4e654d4101d0ad7811b6c518e3f",
-"size":2097793,
-"timestamp":1599760859100,
-"version":"0.13.0"
-},
-"thrift-cpp-0.13.0-hecd8cb5_6.tar.bz2":{
-"build":"hecd8cb5_6",
-"build_number":6,
-"depends":[
-"libthrift 0.13.0 h054ceb0_6",
-"thrift-compiler 0.13.0 h054ceb0_6"
-],
-"license":"Apache-2.0",
-"name":"thrift-cpp",
-"sha256":"46086abca7cf1f09b5430ffdf1251759e1f4951bac9d02f266856124853a49f0",
-"size":13699,
-"timestamp":1612013256032,
-"version":"0.13.0"
+"sha256":"9a1599eb739367a9e1785754ea2abe27497f0f4470b2872cafef9730437029f8",
+"size":14814,
+"timestamp":1631689315713,
+"version":"0.15.0"
 },
 "thrift_sasl-0.4.2-py36_1.tar.bz2":{
 "build":"py36_1",

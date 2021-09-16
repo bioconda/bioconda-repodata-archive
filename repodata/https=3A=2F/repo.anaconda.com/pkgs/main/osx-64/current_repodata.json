@@ -6842,6 +6842,22 @@
 "timestamp":1594339219973,
 "version":"1.3.0"
 },
+"assimp-5.0.1-hbc9ad71_6.conda":{
+"build":"hbc9ad71_6",
+"build_number":6,
+"depends":[
+"boost-cpp",
+"libcxx >=10.0.0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"legacy_bz2_md5":"eb99728e91e4d96582e32512fd736511",
+"license":"Modified BSD",
+"name":"assimp",
+"sha256":"16f2fe2cf89d69fb6a5ac99fc014d3a85624bd863046978716fd11011d9a3e21",
+"size":3091968,
+"timestamp":1631695225590,
+"version":"5.0.1"
+},
 "astor-0.8.1-py36_0.conda":{
 "build":"py36_0",
 "build_number":0,
@@ -30415,6 +30431,21 @@
 "timestamp":1526680323850,
 "version":"1.8.0"
 },
+"gts-0.7.6-hd732f65_2.conda":{
+"build":"hd732f65_2",
+"build_number":2,
+"depends":[
+"glib >=2.69.1,<3.0a0",
+"libcxx >=10.0.0"
+],
+"legacy_bz2_md5":"de1d02ee4d5e3f562328bf84f9a670e7",
+"license":"LGPL-2.0-or-later",
+"name":"gts",
+"sha256":"ab14fce2010adaad6d933083cb0eaba3e5707f39d00b77d7151d1884b0fb9f8e",
+"size":278745,
+"timestamp":1631695522415,
+"version":"0.7.6"
+},
 "gunicorn-20.1.0-py36hecd8cb5_0.conda":{
 "build":"py36hecd8cb5_0",
 "build_number":0,
@@ -39942,6 +39973,29 @@
 "timestamp":1534487064459,
 "version":"2.2.5"
 },
+"libgd-2.2.5-h7d6b0e8_4.conda":{
+"build":"h7d6b0e8_4",
+"build_number":4,
+"depends":[
+"expat",
+"fontconfig >=2.13.1,<3.0a0",
+"freetype >=2.10.4,<3.0a0",
+"icu",
+"jpeg >=9b,<10a",
+"libiconv >=1.16,<2.0a0",
+"libpng >=1.6.37,<1.7.0a0",
+"libtiff >=4.1.0,<5.0a0",
+"libwebp >=1.0.0,<1.1.0a0",
+"zlib >=1.2.11,<1.3.0a0"
+],
+"legacy_bz2_md5":"4a2f5d365a82c68f0ccddabbe73a5c58",
+"license":"GD",
+"name":"libgd",
+"sha256":"7779cdce024f194358c1216261634d6d74f693d0e3321b881a7fd6289a9d2ffe",
+"size":204870,
+"timestamp":1631695698690,
+"version":"2.2.5"
+},
 "libgd-2.2.5-h9bbc9bf_3.conda":{
 "build":"h9bbc9bf_3",
 "build_number":3,
@@ -41654,6 +41708,23 @@
 "size":332309,
 "timestamp":1612013222710,
 "version":"0.13.0"
+},
+"libthrift-0.15.0-h054ceb0_0.conda":{
+"build":"h054ceb0_0",
+"build_number":0,
+"depends":[
+"libcxx >=10.0.0",
+"libevent >=2.1.8,<2.2.0a0",
+"openssl",
+"zlib"
+],
+"legacy_bz2_md5":"306eefc8007ff8bc544e7ead514bc645",
+"license":"Apache-2.0",
+"name":"libthrift",
+"sha256":"fa174393be98730d2f04022e19a4908ca47937a1ed670df4fe71c167f0ed35bf",
+"size":356905,
+"timestamp":1631689285241,
+"version":"0.15.0"
 },
 "libtiff-4.1.0-hcb84e12_0.conda":{
 "build":"hcb84e12_0",
@@ -83325,23 +83396,20 @@
 "timestamp":1613159794904,
 "version":"0.13.0"
 },
-"thrift-compiler-0.13.0-h054ceb0_6.conda":{
-"build":"h054ceb0_6",
-"build_number":6,
+"thrift-compiler-0.15.0-h054ceb0_0.conda":{
+"build":"h054ceb0_0",
+"build_number":0,
 "depends":[
 "libcxx >=10.0.0",
-"libevent",
-"libthrift 0.13.0 h054ceb0_6",
-"openssl",
-"zlib"
+"libthrift 0.15.0 h054ceb0_0"
 ],
-"legacy_bz2_md5":"ee533ed516d8a7356ae9a9d45219f63b",
+"legacy_bz2_md5":"d24a101fde67d5bac2194f82244d83bb",
 "license":"Apache-2.0",
 "name":"thrift-compiler",
-"sha256":"729e6a0674d107364d5caf49533861500917d049bcb86fc492229968780d2d95",
-"size":1496519,
-"timestamp":1612013249781,
-"version":"0.13.0"
+"sha256":"9f6113ab821a8622076a3c1bf98af5d9ca1278958f0bff74c694e4faa11f3a38",
+"size":1391837,
+"timestamp":1631689309907,
+"version":"0.15.0"
 },
 "thrift-cpp-0.11.0-h443fa2d_3.conda":{
 "build":"h443fa2d_3",
@@ -83377,40 +83445,20 @@
 "timestamp":1540475662034,
 "version":"0.11.0"
 },
-"thrift-cpp-0.13.0-hba8dbfe_3.conda":{
-"build":"hba8dbfe_3",
-"build_number":3,
-"constrains":[
-"boost-cpp >=1.67.0,<1.68.0a0"
-],
+"thrift-cpp-0.15.0-hecd8cb5_0.conda":{
+"build":"hecd8cb5_0",
+"build_number":0,
 "depends":[
-"libcxx >=10.0.0",
-"libevent >=2.1.8,<2.2.0a0",
-"openssl >=1.1.1g,<1.1.2a",
-"zlib >=1.2.11,<1.3.0a0"
+"libthrift 0.15.0 h054ceb0_0",
+"thrift-compiler 0.15.0 h054ceb0_0"
 ],
-"legacy_bz2_md5":"f76fdedd6c769bf392e1d947eb1b9f4c",
+"legacy_bz2_md5":"2bd2289f590349ae944e957f500857c6",
 "license":"Apache-2.0",
 "name":"thrift-cpp",
-"sha256":"45c42fbcde1a534e4e247741f1f6021f94b54ad6d271f87ef75ce18c716cd31c",
-"size":1803231,
-"timestamp":1599760859100,
-"version":"0.13.0"
-},
-"thrift-cpp-0.13.0-hecd8cb5_6.conda":{
-"build":"hecd8cb5_6",
-"build_number":6,
-"depends":[
-"libthrift 0.13.0 h054ceb0_6",
-"thrift-compiler 0.13.0 h054ceb0_6"
-],
-"legacy_bz2_md5":"1d7d28463f28e27cfe1f860aaf6e8d98",
-"license":"Apache-2.0",
-"name":"thrift-cpp",
-"sha256":"ac9854f56a0f0c3a02604eb50142fc9a28e54161137cf89974d202246dac93f0",
-"size":14095,
-"timestamp":1612013256032,
-"version":"0.13.0"
+"sha256":"c43effa2f0f3d3246bed5175aefc8efbcd415889e31fa48aefcbfc7a0309e81d",
+"size":15328,
+"timestamp":1631689315713,
+"version":"0.15.0"
 },
 "thrift_sasl-0.4.2-py36_1.conda":{
 "build":"py36_1",
