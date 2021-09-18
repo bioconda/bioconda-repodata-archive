@@ -3823,18 +3823,18 @@
 "timestamp":1613036492575,
 "version":"1.5.2"
 },
-"ant-1.9.9-0.tar.bz2":{
-"build":"0",
+"ant-1.10.8-haa95532_0.tar.bz2":{
+"build":"haa95532_0",
 "build_number":0,
 "depends":[
 "openjdk"
 ],
 "license":"Apache 2.0",
 "name":"ant",
-"sha256":"655ad725c2547ed03ad6d9d13527dcb1c2c4cda9fef38f37b402fd8c081288b2",
-"size":2143592,
-"timestamp":1516111121786,
-"version":"1.9.9"
+"sha256":"978b9d46389d9d238e671f31593a36be21a4fe738292ad3fd4821784e73c0587",
+"size":2681428,
+"timestamp":1631882884452,
+"version":"1.10.8"
 },
 "anyio-2.2.0-py36haa95532_0.tar.bz2":{
 "build":"py36haa95532_0",
@@ -29413,7 +29413,7 @@
 "timestamp":1617877532273,
 "version":"3.10.0"
 },
-"importlib-metadata-4.6.4-py36haa95532_0.tar.bz2":{
+"importlib-metadata-4.8.1-py36haa95532_0.tar.bz2":{
 "build":"py36haa95532_0",
 "build_number":0,
 "depends":[
@@ -29423,12 +29423,12 @@
 ],
 "license":"Apache-2.0",
 "name":"importlib-metadata",
-"sha256":"f37efd5765d442f981c756ae5fe659f2488c9d9f68c3ae2c7c4a783f7d961af8",
-"size":38785,
-"timestamp":1631053285666,
-"version":"4.6.4"
+"sha256":"837f0417804c0c2a612f15ad6d8a7b8bc3cae04cf046f4b55f3566adcfc287a9",
+"size":39823,
+"timestamp":1631916942721,
+"version":"4.8.1"
 },
-"importlib-metadata-4.6.4-py37haa95532_0.tar.bz2":{
+"importlib-metadata-4.8.1-py37haa95532_0.tar.bz2":{
 "build":"py37haa95532_0",
 "build_number":0,
 "depends":[
@@ -29438,12 +29438,12 @@
 ],
 "license":"Apache-2.0",
 "name":"importlib-metadata",
-"sha256":"f798163a3cae841b68b9b2d8aa575d78b6650bbd2059f91ec6d3e5e696d7357e",
-"size":38897,
-"timestamp":1631053254040,
-"version":"4.6.4"
+"sha256":"be623ec229f4040df5f7288fa53ca8a38421fe906680bb471f27db9cdc34b3f8",
+"size":39928,
+"timestamp":1631916901728,
+"version":"4.8.1"
 },
-"importlib-metadata-4.6.4-py38haa95532_0.tar.bz2":{
+"importlib-metadata-4.8.1-py38haa95532_0.tar.bz2":{
 "build":"py38haa95532_0",
 "build_number":0,
 "depends":[
@@ -29452,12 +29452,12 @@
 ],
 "license":"Apache-2.0",
 "name":"importlib-metadata",
-"sha256":"e10c6397a25da13c73acd842cc675c02bad5505e7371df2ab4f622bb9b0cdc01",
-"size":39057,
-"timestamp":1631053248372,
-"version":"4.6.4"
+"sha256":"a9de37e46cf3ad8de00c467b1b022ec63dc86bc887aa1ae2823e4682de0ca514",
+"size":40096,
+"timestamp":1631916908679,
+"version":"4.8.1"
 },
-"importlib-metadata-4.6.4-py39haa95532_0.tar.bz2":{
+"importlib-metadata-4.8.1-py39haa95532_0.tar.bz2":{
 "build":"py39haa95532_0",
 "build_number":0,
 "depends":[
@@ -29466,10 +29466,10 @@
 ],
 "license":"Apache-2.0",
 "name":"importlib-metadata",
-"sha256":"2dbb821032d30fbcd60ae1275376ec570c4fd1b654a14e97e867baa88c25d513",
-"size":39096,
-"timestamp":1631053260866,
-"version":"4.6.4"
+"sha256":"42ee80646d5a5edccd2d60b739cb94592819fb88580ac336c760a381acdbef10",
+"size":40129,
+"timestamp":1631916884891,
+"version":"4.8.1"
 },
 "importlib_metadata-1.5.0-py36_0.tar.bz2":{
 "build":"py36_0",
@@ -31979,6 +31979,20 @@
 "timestamp":1505906453864,
 "version":"9b"
 },
+"jpeg-9d-h2bbff1b_0.tar.bz2":{
+"build":"h2bbff1b_0",
+"build_number":0,
+"depends":[
+"vc >=14.1,<15.0a0",
+"vs2015_runtime >=14.16.27012,<15.0a0"
+],
+"license":"Custom free software license",
+"name":"jpeg",
+"sha256":"b43bf020f5887dd70530f2fd78888a20363961ca1cc07122567e254457eabc49",
+"size":397923,
+"timestamp":1631864419680,
+"version":"9d"
+},
 "jpype1-1.2.1-py36h59b6b97_0.tar.bz2":{
 "build":"py36h59b6b97_0",
 "build_number":0,
@@ -34238,65 +34252,65 @@
 "timestamp":1614616979534,
 "version":"22.3.0"
 },
-"keyring-23.0.1-py36haa95532_0.tar.bz2":{
+"keyring-23.1.0-py36haa95532_0.tar.bz2":{
 "build":"py36haa95532_0",
 "build_number":0,
 "depends":[
 "importlib_metadata >=3.6",
 "python >=3.6,<3.7.0a0",
-"pywin32-ctypes"
+"pywin32-ctypes !=0.1.0,!=0.1.1"
 ],
 "license":"MIT",
 "name":"keyring",
-"sha256":"9e23e4485a1024668a1f94dfe91c490439ed2cb9e5ac9a962573ad3cbd1cc792",
-"size":71719,
-"timestamp":1621524828907,
-"version":"23.0.1"
+"sha256":"e034cd130f005e67efb8588445f33117d4b71152891e13c604a3892e7e6d1e96",
+"size":78935,
+"timestamp":1629321771521,
+"version":"23.1.0"
 },
-"keyring-23.0.1-py37haa95532_0.tar.bz2":{
+"keyring-23.1.0-py37haa95532_0.tar.bz2":{
 "build":"py37haa95532_0",
 "build_number":0,
 "depends":[
 "importlib_metadata >=3.6",
 "python >=3.7,<3.8.0a0",
-"pywin32-ctypes"
+"pywin32-ctypes !=0.1.0,!=0.1.1"
 ],
 "license":"MIT",
 "name":"keyring",
-"sha256":"4c26614b77e4c7be420af82f144eb8204ff386eea4c568b4afd98b61641fc238",
-"size":71676,
-"timestamp":1621524816821,
-"version":"23.0.1"
+"sha256":"8702afc4758383559bf6f5ab469450b7f73defe5e2d59a5fa1881bb8a7b54478",
+"size":79019,
+"timestamp":1629321773546,
+"version":"23.1.0"
 },
-"keyring-23.0.1-py38haa95532_0.tar.bz2":{
+"keyring-23.1.0-py38haa95532_0.tar.bz2":{
 "build":"py38haa95532_0",
 "build_number":0,
 "depends":[
 "importlib_metadata >=3.6",
 "python >=3.8,<3.9.0a0",
-"pywin32-ctypes"
+"pywin32-ctypes !=0.1.0,!=0.1.1"
 ],
 "license":"MIT",
 "name":"keyring",
-"sha256":"798b61bc65e9e789472b52b5817d4c28a5bf48226e404367f8fb588c7040bba3",
-"size":71889,
-"timestamp":1621524822188,
-"version":"23.0.1"
+"sha256":"76152b30eb6fbe69007bbb669d69698e8639d9a8ae55fcfcaf0b454de79f1d83",
+"size":79107,
+"timestamp":1629321744238,
+"version":"23.1.0"
 },
-"keyring-23.0.1-py39haa95532_0.tar.bz2":{
+"keyring-23.1.0-py39haa95532_0.tar.bz2":{
 "build":"py39haa95532_0",
 "build_number":0,
 "depends":[
 "importlib_metadata >=3.6",
 "python >=3.9,<3.10.0a0",
-"pywin32-ctypes"
+"pywin32-ctypes !=0.1.0,!=0.1.1"
 ],
 "license":"MIT",
 "name":"keyring",
-"sha256":"e6097fc3aaea0b0a45ddf3765c10e6efceff8c75306d9851bb14fa977bb723ed",
-"size":72051,
-"timestamp":1621525176247,
-"version":"23.0.1"
+"sha256":"758e32f3e76bf75eb7a27e061a4e5a7157097a9905be2d256941009fe3804f49",
+"size":79246,
+"timestamp":1629321772504,
+"version":"23.1.0"
 },
 "keyrings.alt-4.1.0-py36haa95532_0.tar.bz2":{
 "build":"py36haa95532_0",
