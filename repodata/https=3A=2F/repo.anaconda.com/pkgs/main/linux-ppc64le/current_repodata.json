@@ -8909,20 +8909,6 @@
 "timestamp":1518362793396,
 "version":"1.2.1"
 },
-"gstreamer-1.14.0-hb31296c_0.tar.bz2":{
-"build":"hb31296c_0",
-"build_number":0,
-"depends":[
-"glib >=2.56.0,<3.0a0",
-"libgcc-ng >=7.2.0",
-"xz >=5.2.3,<6.0a0"
-],
-"name":"gstreamer",
-"sha256":"b948c244b8e93cbf14c63e850f5489d81e7190165b4a1ad20517954c05764a8b",
-"size":4182256,
-"timestamp":1522700955610,
-"version":"1.14.0"
-},
 "gxx-dbg_linux-ppc64le-7.2.0-haaebfed_25.tar.bz2":{
 "build":"haaebfed_25",
 "build_number":25,
@@ -47617,23 +47603,63 @@
 "timestamp":1614095751209,
 "version":"1.35.0"
 },
-"gst-plugins-base-1.14.0-he9c8b40_0.conda":{
-"build":"he9c8b40_0",
+"gst-plugins-base-1.18.5-h7d1c8d5_0.conda":{
+"build":"h7d1c8d5_0",
 "build_number":0,
 "depends":[
-"glib >=2.56.0,<3.0a0",
-"gstreamer >=1.14.0,<2.0a0",
-"libgcc-ng >=7.2.0",
-"libstdcxx-ng >=7.2.0",
-"libxcb >=1.13,<2.0a0",
-"xz >=5.2.3,<6.0a0"
+"gettext",
+"glib >=2.69.1,<3.0a0",
+"gstreamer >=1.18.5,<2.0a0",
+"libgcc-ng >=7.3.0",
+"libogg",
+"libopus >=1.3.1,<2.0a0",
+"libpng",
+"libstdcxx-ng >=7.3.0",
+"libvorbis",
+"zlib >=1.2.11,<1.3.0a0"
 ],
-"legacy_bz2_md5":"bf18facb803c770b82c96fa84f8f5053",
+"legacy_bz2_md5":"b855bd647723a2b367258a0c2e0a088d",
 "name":"gst-plugins-base",
-"sha256":"f5683ab9c2721c69a8aa1567f87d8103b1f728a0e7169d5525bd506ce23f87d8",
-"size":4614630,
-"timestamp":1522701117263,
-"version":"1.14.0"
+"sha256":"574065a0e4c1812acdab1b950ce8facdb6ed0fd8cab8c4a1072894074ccd7efc",
+"size":2183079,
+"timestamp":1632218707922,
+"version":"1.18.5"
+},
+"gst-plugins-good-1.18.5-hb946b58_0.conda":{
+"build":"hb946b58_0",
+"build_number":0,
+"depends":[
+"glib >=2.69.1,<3.0a0",
+"gst-plugins-base >=1.18.5,<2.0a0",
+"gstreamer >=1.18.5,<2.0a0",
+"lame >=3.100,<3.101.0a0",
+"libgcc-ng >=7.3.0",
+"libpng",
+"libstdcxx-ng >=7.3.0",
+"mpg123",
+"zlib"
+],
+"legacy_bz2_md5":"f53e62cf16c715b2117e536f4c3cd419",
+"name":"gst-plugins-good",
+"sha256":"dd1ba239c79cdce7ba15d7e615aa74a3e708392d460f932b7f2578f204332f11",
+"size":1875603,
+"timestamp":1632218762760,
+"version":"1.18.5"
+},
+"gstreamer-1.18.5-h9098b5f_0.conda":{
+"build":"h9098b5f_0",
+"build_number":0,
+"depends":[
+"gettext",
+"glib >=2.69.1,<3.0a0",
+"libgcc-ng >=7.3.0"
+],
+"legacy_bz2_md5":"415346c24f0118c938279f76e7ff75bb",
+"name":"gstreamer",
+"sha256":"b28c591698e6961f67b81390b3eb1d09ac75e0384509b174e700a2b73bbef7d3",
+"size":1904305,
+"timestamp":1632218647824,
+"version":"1.18.5"
 },
 "gtest-1.8.0-hf484d3e_4.conda":{
 "build":"hf484d3e_4",
